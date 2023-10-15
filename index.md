@@ -1,25 +1,9 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# Willkommen!
 
-hero:
-  name: "EmeraldHost Dokumentation"
-  text: "A VitePress Site"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+### Herzlich willkommen auf der zentralen **Wissensdatenbank von** EmeraldHost!
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+Hier möchten wir Dir, als unserem Kunden, unsere **Produkte** näher bringen und Dir zeigen, wie Du sie **bestmöglich nutzen kannst**.
 
+
+
+Möchtest Du **aktiv** bei der **Verbesserung** der zentralen **Wissensdatenbank** mitwirken? Wir freuen uns über jegliche **Unterstützung** und Du hast die Möglichkeit, das **Projekt auf Github** zu **forken** und **mitzuarbeiten**. Als **Dankeschön** für jede angenommene Erweiterung belohnen wir Dich mit **2 € EmeraldHost Guthaben**.
