@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Dokumentation",
-  description: "A VitePress Site",
+  description: "Zentralen Wissensdatenbank von EmeraldHost! Hier möchten wir Dir, als unserem Kunden, unsere Produkte näher bringen und Dir zeigen, wie Du sie bestmöglich nutzen kannst.",
   titleTemplate: "EmeraldHost",
   head: [
     ['link', { rel: 'icon', sizes: '32x32', href: 'https://emeraldhost.de/favicon-32x32.png' }],
     ['link', { rel: 'icon', sizes: '16x16', href: 'https://emeraldhost.de/favicon-16x16.png' }],
   ],
-  lang: 'en-US',
+  lang: 'de-DE',
   themeConfig: {
     logo: "https://emeraldhost.b-cdn.net/branding/icon.svg",
     // https://vitepress.dev/reference/default-theme-config
