@@ -5,6 +5,11 @@ export default defineConfig({
   title: "Dokumentation",
   description: "A VitePress Site",
   titleTemplate: "EmeraldHost",
+  head: [
+    ['link', { rel: 'icon', sizes: '32x32', href: 'https://emeraldhost.de/favicon-32x32.png' }],
+    ['link', { rel: 'icon', sizes: '16x16', href: 'https://emeraldhost.de/favicon-16x16.png' }],
+  ],
+  lang: 'en-US',
   themeConfig: {
     logo: "https://emeraldhost.b-cdn.net/branding/icon.svg",
     // https://vitepress.dev/reference/default-theme-config
@@ -13,6 +18,10 @@ export default defineConfig({
       {
         text: 'Willkommen!',
         link: '/',
+      },
+      {
+        text: 'Neukunden Rabatt sichern! 🎉',
+        link: '/neukunden-rabatt-sichern'
       },
       {
         text: 'Gameserver',
