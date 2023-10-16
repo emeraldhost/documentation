@@ -35,6 +35,8 @@ export default defineConfig({
               { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern'},
               { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-java-edition/whitelist-aktivieren'},
               { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben'},
+              { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern'},
+              { text: 'Version ändern', link: '/gameserver/minecraft-java-edition/version-aendern'},
             ]
           },
           {
