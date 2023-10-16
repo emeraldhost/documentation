@@ -18,7 +18,7 @@ OP (Operator)-Rechte in Minecraft sind spezielle Berechtigungen, die einem Spiel
     * Öffne den In-Game Chat, wenn Du über das Spiel verbunden bist.
 
 2. <b>Gebe den Befehl ein</b><br>
-    In der Server-Konsole oder In-Game gib den Befehl ein, um jemandem OP-Rechte zu geben. Der Befehl lautet normalerweise:
+    In der Server-Konsole oder In-Game gib den Befehl ein, um jemandem OP-Rechte zu geben. Der Befehl lautet:
     ```
     /op Spielername
     ```

@@ -6,7 +6,7 @@ description: Modpack bei einem Minecraft Server ändern
 
 ## Modpacks
 
-Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfigurationseinstellungen, die von der Minecraft-Community oder Moddern erstellt werden. Diese Modifikationen und Anpassungen ändern oder erweitern das Gameplay, die Grafik, die Spielmechanik und mehr. Modpacks werden in der Regel so zusammengestellt, dass sie gut miteinander funktionieren und ein kohärentes Spielerlebnis bieten.
+Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfigurationseinstellungen, die von der Minecraft-Community oder Moddern erstellt werden. Diese Modifikationen und Anpassungen ändern oder erweitern das Gameplay, die Grafik, die Spielmechanik und mehr. Modpacks werden in der Regel so zusammengestellt, dass sie gut miteinander funktionieren und ein stimmiges Spielerlebnis bieten.
 
 ## Bereitgestelltes Modpack von EmeraldHost auswählen:
 
