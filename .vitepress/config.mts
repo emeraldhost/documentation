@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Dokumentation",
   description: "Zentralen Wissensdatenbank von EmeraldHost! Hier möchten wir Dir, als unserem Kunden, unsere Produkte näher bringen und Dir zeigen, wie Du sie bestmöglich nutzen kannst.",
-  titleTemplate: "EmeraldHost",
+  titleTemplate: ":title - EmeraldHost",
   head: [
     ['link', { rel: 'icon', sizes: '32x32', href: 'https://emeraldhost.de/favicon-32x32.png' }],
     ['link', { rel: 'icon', sizes: '16x16', href: 'https://emeraldhost.de/favicon-16x16.png' }],
@@ -143,6 +143,10 @@ export default defineConfig({
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UCQ0wYYCFdmQher2eGNbGpFw' },
       { icon: 'discord', link: 'https://discord.com/invite/Gw38Ve3Nqr' },
       { icon: 'github', link: 'https://github.com/emeraldhost/docs.emeraldhost.de' },
-    ]
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })

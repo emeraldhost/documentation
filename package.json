@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/emeraldhost/documentation#readme",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.22",
-    "vue": "^3.3.4"
+    "vitepress": "^1.0.0-rc.22"
   }
 }
