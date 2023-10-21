@@ -19,11 +19,11 @@ Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfiguratio
     <img src="../../assets/gameserver/minecraft-java-edition/modpack-aendern/chrome_hRcHwnYs8E.png" />
 
 3. <b>Neues Modpack auswählen</b><br>
-    Oberhalb des Abschnitts "Installiertes Modpack" findest du Informationen zu deinem aktuellen Modpack, das auf deinem Minecraft-Server installiert ist.
+    Oberhalb des Abschnitts "Installiertes Modpack" findest Du Informationen zu deinem aktuellen Modpack, das auf deinem Minecraft-Server installiert ist.
     
-    Unter "Verfügbare Modpacks" hast du eine breite Auswahl an Modpacks, die du unkompliziert auf deinen Minecraft-Server installieren kannst. Für unser Beispiel verwenden wir das Modpack "All the Mods 6".
+    Unter "Verfügbare Modpacks" hast Du eine breite Auswahl an Modpacks, die Du unkompliziert auf deinen Minecraft-Server installieren kannst. Für unser Beispiel verwenden wir das Modpack "All the Mods 6".
     
-    Klicke auf das gewünschte Modpack, das du installieren möchtest.
+    Klicke auf das gewünschte Modpack, das Du installieren möchtest.
 
     <img src="../../assets/gameserver/minecraft-java-edition/modpack-aendern/guE5867Ybm.png" />
 

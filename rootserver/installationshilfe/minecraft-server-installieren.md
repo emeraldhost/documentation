@@ -26,7 +26,7 @@ apt update
 apt install screen gnupg oracle-java17-installer -y
 ```
 
-Akzeptiere die Lizenz Bedingungen indem du mit **TAB** auf "OK" gehst und mit **ENTER** bestätigst. Im folgendem Fenster gehst du auf "JA" und bestätigst wieder mit **ENTER**.
+Akzeptiere die Lizenz Bedingungen indem Du mit **TAB** auf "OK" gehst und mit **ENTER** bestätigst. Im folgendem Fenster gehst du auf "JA" und bestätigst wieder mit **ENTER**.
 
 </details>
 
@@ -64,7 +64,7 @@ Akzeptiere die Lizenz Bedingungen indem du mit **TAB** auf "OK" gehst und mit **
 
 </details>
 
-2. Lege einen Subuser für den Server an und melde dich an
+2. Lege einen Subuser für den Server an und melde Dich an
 
 ```
 adduser minecraft --disabled-login

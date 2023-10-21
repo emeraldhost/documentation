@@ -15,6 +15,6 @@ Hier sind die Schritte zur Einrichtung von Fail2Ban, um den SSH-Server abzusiche
    4. Speichere die Änderungen und schließe die Datei.
 3. Fail2Ban-Dienst neu starten:
    1. Führe den Befehl ```sudo service fail2ban restart``` aus, um den Fail2Ban-Dienst neu zu starten.
-   2. Überprüfe, ob der Dienst erfolgreich gestartet wurde, indem du den Status mit dem Befehl ```sudo service fail2ban status``` überprüfst.
+   2. Überprüfe, ob der Dienst erfolgreich gestartet wurde, indem Du den Status mit dem Befehl ```sudo service fail2ban status``` überprüfst.
 
 Die Verwendung von Fail2Ban in Verbindung mit einer angemessenen Konfiguration bietet einen zusätzlichen Schutz vor Brute-Force-Angriffen und anderen bösartigen Aktivitäten auf deinem SSH-Server.

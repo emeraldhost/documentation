@@ -21,7 +21,7 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
 3. <b>Neue Version auswählen</b><br>
     <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_vaH22UQ5MP.png" />
 
-    Unter der Eingabe "Minecraft Version" kannst du nun die gewünschte Minecraft-Version eingeben. Die Version sollte der offiziellen Minecraft-Versionierung entsprechen.
+    Unter der Eingabe "Minecraft Version" kannst Du nun die gewünschte Minecraft-Version eingeben. Die Version sollte der offiziellen Minecraft-Versionierung entsprechen.
     
     Beispiel: `1.20` oder `1.19` oder `1.18` oder `1.17` oder `1.16`, ...
 
@@ -38,7 +38,7 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
 
     Des Weiteren muss die "Build Number" passend zur zuvor eingegebenen Minecraft-Version angegeben werden. Wir installieren standardmäßig PaperSpigot auf allen Minecraft-Servern. Falls die Serversoftware geändert wurde, sollte die entsprechende Buildnummer von der Website der jeweiligen Serversoftware ermittelt werden.
 
-    Hier findet ihr alle Minecraft-Versionen und zugehörigen Buildnummern von PaperSpigot: https://papermc.io/downloads/all
+    Hier findest Du alle Minecraft-Versionen und zugehörigen Buildnummern von PaperSpigot: https://papermc.io/downloads/all
     
     <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_Vmbm9yAOL3.png" />
     
@@ -61,7 +61,7 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
     | 1.8.8             | 445         |
 
 4. <b>Server neuinstallieren</b><br>
-    Kehre zur Übersichtsseite deines Minecraft-Servers zurück. Klicke oben rechts auf die drei Punkte und wähle "Neuinstallieren" aus. Dein Minecraft-Server wird einmal zurückgesetzt und mit der von dir ausgewählten Minecraft-Version neuinstalliert.
+    Kehre zur Übersichtsseite deines Minecraft-Servers zurück. Klicke oben rechts auf die drei Punkte und wähle "Neuinstallieren" aus. Dein Minecraft-Server wird einmal zurückgesetzt und mit der von Dir ausgewählten Minecraft-Version neuinstalliert.
 
     <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_PGFBVaKsrL.png" />
 

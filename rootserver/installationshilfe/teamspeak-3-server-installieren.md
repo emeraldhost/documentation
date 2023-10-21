@@ -12,7 +12,7 @@ apt update &&  apt upgrade -y
 apt install sudo bzip2
 ```
 
-2. Lege einen Subuser für den Server an und melde dich an
+2. Lege einen Subuser für den Server an und melde Dich an
 
 ```
 adduser teamspeak --disabled-login
