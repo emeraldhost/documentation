@@ -122,15 +122,6 @@ export default defineConfig({
           }
         ]
       },
-      {
-        text: 'TeamSpeak',
-        items: [
-          {
-            text: 'ServerQuery Login',
-            link: '/teamspeak/serverquery-login'
-          }
-        ]
-      }
     ],
 
     nav: [
