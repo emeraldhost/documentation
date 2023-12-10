@@ -89,6 +89,7 @@ export default defineConfig({
               { text: 'Minecraft Server installieren', link: '/rootserver/installationshilfe/minecraft-server-installieren'},
               { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/rootserver/installationshilfe/phpmyadmin-apache2-und-mysql'},
               { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/installationshilfe/teamspeak-3-server-installieren'},
+              { text: 'Windows Festplatte erweitern', link: '/rootserver/installationshilfe/windows-festplatte-erweitern'},
             ]
           },
           {
