@@ -31,6 +31,7 @@ export default defineConfig({
             link: '/gameserver/minecraft-java-edition',
             collapsed: true,
             items: [
+              { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren'},
               { text: 'Sichtweite ändern', link: '/gameserver/minecraft-java-edition/sichtweite-aendern'},
               { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern'},
               { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-java-edition/whitelist-aktivieren'},
@@ -72,6 +73,14 @@ export default defineConfig({
             items: [
               { text: 'Mods hinzufügen', link: '/gameserver/terraria-tmodloader/mods-hinzufuegen'},
               { text: 'Welt hinzufügen', link: '/gameserver/terraria-tmodloader/welt-hinzufuegen'}
+            ]
+          },
+          {
+            text: 'Valheim',
+            link: '/gameserver/valheim',
+            collapsed: true,
+            items: [
+              { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen'}
             ]
           }
         ]
@@ -132,7 +141,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: '© 2016 - 2023 EmeraldHost — Alle Rechte vorbehalten.',
+      copyright: '© 2016 - 2024 EmeraldHost — Alle Rechte vorbehalten.',
       message: 'Alle Preise verstehen sich in Euro und inklusive der gesetzlichen MwSt.'
     },
 
