@@ -8,4 +8,3 @@
 <img src="../../assets/rootserver/installationshilfe/windows-festplatte-erweitern/schritt6.png" alt="">
 <img src="../../assets/rootserver/installationshilfe/windows-festplatte-erweitern/schritt7.png" alt="">
 <img src="../../assets/rootserver/installationshilfe/windows-festplatte-erweitern/schritt8.png" alt="">
-<img src="../../assets/rootserver/installationshilfe/windows-festplatte-erweitern/schritt9.png" alt="">
