@@ -82,6 +82,14 @@ export default defineConfig({
             items: [
               { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen'}
             ]
+          },
+          {
+            text: 'Palworld',
+            link: '/gameserver/palworld',
+            collapsed: true,
+            items: [
+              { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten'}
+            ]
           }
         ]
       },
