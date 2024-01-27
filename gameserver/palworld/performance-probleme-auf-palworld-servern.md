@@ -27,3 +27,7 @@ wir möchten uns zunächst bei Euch für das Vertrauen bedanken, das Ihr uns ent
 Wir danken Euch für Eure Geduld und Euer Verständnis während dieser Phase. Unser oberstes Ziel ist es, Euch ein reibungsloses und angenehmes Spielerlebnis zu bieten. Solltet Ihr weitere Fragen haben oder Unterstützung benötigen, zögert bitte nicht, uns zu kontaktieren.
 
 Euer EMERALDHOST Team
+
+:::info
+Wenn Ihr Fragen oder Probleme habt, kommt gerne auf unseren [Community-Discord-Server](https://discord.com/invite/Gw38Ve3Nqr). Hier halten wir Euch regelmäßig auf dem Laufenden und bieten Unterstützung an.
+:::

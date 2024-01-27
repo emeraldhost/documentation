@@ -26,3 +26,7 @@ wir möchten Euch für Eure Leidenschaft und Euer Engagement für Enshrouded dan
 Vielen Dank für Euer Verständnis und Eure fortwährende Unterstützung. Euer Enthusiasmus und Eure Hingabe machen Enshrouded zu einem besonderen Erlebnis, und wir sind gespannt darauf, gemeinsam mit Euch zu sehen, wie sich das Spiel entwickelt.
 
 Euer EMERALDHOST Team
+
+:::info
+Wenn Ihr Fragen oder Probleme habt, kommt gerne auf unseren [Community-Discord-Server](https://discord.com/invite/Gw38Ve3Nqr). Hier halten wir Euch regelmäßig auf dem Laufenden und bieten Unterstützung an.
+:::
