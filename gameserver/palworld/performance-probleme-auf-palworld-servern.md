@@ -10,7 +10,7 @@ description: "Performance-Probleme auf Palworld Servern"
 
 ## Liebe Palworld-Spieler,
 
-wir möchten uns zunächst bei Euch für das Vertrauen bedanken, das Ihr uns entgegenbringt, indem Ihr Eure Palworld-Server bei uns hostet. Wir verstehen, dass es in letzter Zeit einige Herausforderungen mit der Server-Performance gab, die hauptsächlich auf die Early-Access-Natur von Palworld zurückzuführen sind. Unser Ziel ist es, Euch in dieser Zeit bestmöglich zu unterstützen und zu beruhigen.
+wir möchten uns zunächst bei Euch für das Vertrauen bedanken, das Ihr uns entgegenbringt, indem Ihr Eure [Palworld](https://emeraldhost.de/de/palworld-server-mieten?utm_source=documentation&utm_medium=marketing&utm_campaign=performance-probleme-auf-palworld-servern)-Server bei uns hostet. Wir verstehen, dass es in letzter Zeit einige Herausforderungen mit der Server-Performance gab, die hauptsächlich auf die Early-Access-Natur von Palworld zurückzuführen sind. Unser Ziel ist es, Euch in dieser Zeit bestmöglich zu unterstützen und zu beruhigen.
 
 ### Was Ihr wissen solltet:
 - **Entwicklungsphase:** Palworld befindet sich noch in der Entwicklung. Typische Early-Access-Probleme wie Server-Lags und Speicherlecks können auftreten. Wir arbeiten eng mit den Entwicklern zusammen, um diese Herausforderungen anzugehen.

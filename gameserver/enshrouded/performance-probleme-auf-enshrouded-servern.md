@@ -10,10 +10,10 @@ description: "Performance-Probleme auf Enshrouded Servern"
 
 ## Liebe Enshrouded-Spieler,
 
-wir möchten Euch für Eure Leidenschaft und Euer Engagement für Enshrouded danken. Wir sind uns bewusst, dass einige von Euch mit Server-Performance-Problemen konfrontiert sein könnten, was in der Natur von Early-Access-Spielen liegt, insbesondere bei einem so ambitionierten Titel wie Enshrouded, der eine umfangreiche, offene Welt und komplexe Spielmechaniken bietet.
+wir möchten Euch für Eure Leidenschaft und Euer Engagement für Enshrouded danken. Wir sind uns bewusst, dass einige von Euch mit Server-Performance-Problemen mit ihrem [Enshrouded](https://emeraldhost.de/de/enshrouded-server-mieten?utm_source=documentation&utm_medium=marketing&utm_campaign=performance-probleme-auf-enshrouded-servern)-Server konfrontiert sein könnten, was in der Natur von Early-Access-Spielen liegt, insbesondere bei einem so ambitionierten Titel wie Enshrouded, der eine umfangreiche, offene Welt und komplexe Spielmechaniken bietet.
 
 ### Verständnis der Situation:
-- Die Herausforderungen, denen Ihr begegnen könntet, einschließlich Server-Lags und anderer Performance-Probleme, sind häufige Begleiterscheinungen in den frühen Phasen der Spielentwicklung. Diese Probleme sind oft auf Optimierungsbedarf zurückzuführen, der in zukünftigen Updates adressiert wird.
+- Die Herausforderungen, denen Ihr begegnen könntet, einschließlich Server-Lags und anderer Performance-Probleme, sind häufige Begleiterscheinungen in den frühen Phasen der Spielentwicklung. Diese Probleme sind oft auf Optimierungsbedarf zurückzuführen, der in zukünftigen Updates behoben wird.
 
 ### Unsere Maßnahmen:
 - **Regelmäßige Updates und Patches:** Wir arbeiten eng mit den Entwicklern zusammen, um sicherzustellen, dass Updates und Patches regelmäßig bereitgestellt werden, die auf die Verbesserung der Serverstabilität und Spielperformance abzielen.
