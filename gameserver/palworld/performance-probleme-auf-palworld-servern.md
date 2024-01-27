@@ -4,7 +4,7 @@ description: "Performance-Probleme auf Palworld Servern"
 
 # Performance-Probleme auf Palworld Servern
 
-::: warning
+::: warning HINWEIS
 **Bitte beachten:** Die hier beschriebenen technischen Probleme sind typisch für Early-Access-Spiele und betreffen alle Anbieter, nicht nur unseren Service.
 :::
 

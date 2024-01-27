@@ -91,6 +91,14 @@ export default defineConfig({
               { text: '🚨 Performance-Probleme auf Palworld Servern', link: '/gameserver/palworld/performance-probleme-auf-palworld-servern'},
               { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten'}
             ]
+          },
+          {
+            text: 'Enshrouded',
+            link: '/gameserver/enshrouded',
+            collapsed: true,
+            items: [
+              { text: '🚨 Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern'},
+            ]
           }
         ]
       },
