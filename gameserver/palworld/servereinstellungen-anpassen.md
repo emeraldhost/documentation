@@ -35,7 +35,7 @@ Stelle sicher, dass der Server heruntergefahren ist, bevor Du Änderungen vornim
     * Bei einer bereits vorhandenen gleichnamigen Datei, überschreibe diese oder kopiere den Inhalt der bearbeiteten Datei hinein.
 
 
-::: tip WICHTIG
+::: info WICHTIG
 Damit der Server funktionsfähig bleibt, trage die Serverkonfiguration anhand Deiner Einstellungen ein. Dies betrifft die Konfigurationen:
 `ServerPassword`, `AdminPassword`, `ServerName`, `ServerPlayerMaxNum`, `PublicPort`, `PublicIP`.
 
