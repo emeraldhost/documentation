@@ -15,14 +15,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     sidebar: [
-      {
-        text: 'Willkommen!',
-        link: '/',
-      },
-      {
-        text: 'Neukunden Rabatt sichern! 🎉',
-        link: '/neukunden-rabatt-sichern'
-      },
+      { text: 'Willkommen!', link: '/', },
+      { text: 'Neukunden Rabatt sichern! 🎉', link: '/neukunden-rabatt-sichern' },
       {
         text: 'Gameserver',
         items: [
@@ -89,7 +83,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '🚨 Performance-Probleme auf Palworld Servern', link: '/gameserver/palworld/performance-probleme-auf-palworld-servern'},
-              { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten'}
+              { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten'},
+              { text: 'Servereinstellungen anpassen', link: '/gameserver/palworld/servereinstellungen-anpassen'}
             ]
           },
           {
@@ -143,10 +138,7 @@ export default defineConfig({
       {
         text: 'TeamSpeak',
         items: [
-          {
-            text: 'ServerQuery Login',
-            link: '/teamspeak/serverquery-login'
-          }
+          { text: 'ServerQuery Login', link: '/teamspeak/serverquery-login' }
         ]
       },
     ],
