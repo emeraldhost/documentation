@@ -44,4 +44,4 @@ Damit der Server funktionsfähig bleibt, trage die Serverkonfiguration anhand De
 `OptionSettings=(Difficulty=None, ...`
 :::
 
-### Nach diesen Schritten sollte die Konfiguration Deines PalWorld-Servers erfolgreich aktualisiert sein. Viel Spaß bei der Nutzung Deines personalisierten Servers!
+### Nach diesen Schritten sollte die Konfiguration Deines Palworld-Servers erfolgreich aktualisiert sein. Viel Spaß bei der Nutzung Deines personalisierten Servers!
