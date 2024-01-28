@@ -17,6 +17,7 @@ wir möchten Euch für Eure Leidenschaft und Euer Engagement für Enshrouded dan
 
 ### Unsere Maßnahmen:
 - **Regelmäßige Updates und Patches:** Wir arbeiten eng mit den Entwicklern zusammen, um sicherzustellen, dass Updates und Patches regelmäßig bereitgestellt werden, die auf die Verbesserung der Serverstabilität und Spielperformance abzielen.
+- **Kontinuierliche Hardware-Optimierung:** Um eine stetige Verbesserung der Server-Performance zu gewährleisten, kümmern wir uns kontinuierlich um Hardware-Upgrades. Dazu gehören regelmäßige Erweiterungen des Arbeitsspeichers und der CPU-Leistung, die dazu beitragen, die Leistungsfähigkeit Eurer Server laufend zu erhöhen.
 - **Technischer Support:** Unser Support-Team steht bereit, um bei spezifischen Problemen zu helfen und Lösungen anzubieten, wo immer es möglich ist. Zögert nicht, uns zu kontaktieren, wenn Ihr auf Schwierigkeiten stoßt.
 - **Community-Feedback:** Euer Feedback ist unschätzbar für den Entwicklungsprozess. Wir ermutigen euch, Eure Erfahrungen und Vorschläge zu teilen, damit sie in zukünftige Verbesserungen einfließen können.
 
