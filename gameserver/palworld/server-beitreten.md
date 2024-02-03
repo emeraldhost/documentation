@@ -4,10 +4,6 @@ description: 'Anleitung für die direkte Verbindung mit einem Palworld-Server'
 
 # Palworld Server beitreten
 
-::: warning
-Bitte beachte, dass der Server aufgrund eines aktuellen Fehlers in Palworld nicht in der Serverliste angezeigt wird. Wir sind aktiv dabei, dieses Problem zu beheben.
-:::
-
 ## Voraussetzungen
 
 * Serveradresse inklusive Port

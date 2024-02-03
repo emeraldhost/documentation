@@ -84,7 +84,6 @@ export default defineConfig({
             items: [
               { text: '🚨 Performance-Probleme auf Palworld Servern', link: '/gameserver/palworld/performance-probleme-auf-palworld-servern'},
               { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten'},
-              { text: 'Servereinstellungen anpassen', link: '/gameserver/palworld/servereinstellungen-anpassen'}
             ]
           },
           {
