@@ -158,7 +158,7 @@ export default defineConfig({
       { icon: 'instagram', link: 'https://www.instagram.com/emeraldhost.de/' },
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UCQ0wYYCFdmQher2eGNbGpFw' },
       { icon: 'discord', link: 'https://discord.com/invite/Gw38Ve3Nqr' },
-      { icon: 'github', link: 'https://github.com/emeraldhost/docs.emeraldhost.de' },
+      { icon: 'github', link: 'https://github.com/emeraldhost/' },
     ],
 
     search: {
