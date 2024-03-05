@@ -92,6 +92,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '🚨 Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern'},
+              { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen'},
             ]
           }
         ]
