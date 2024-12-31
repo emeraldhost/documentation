@@ -150,14 +150,14 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: '© 2016 - 2024 EmeraldHost — Alle Rechte vorbehalten.',
+      copyright: '© 2016 - 2025 EmeraldHost — Alle Rechte vorbehalten.',
       message: 'Alle Preise verstehen sich in Euro und inklusive der gesetzlichen MwSt.'
     },
 
     socialLinks: [
       { icon: 'twitter', link: 'https://twitter.com/EmeraldHostDE' },
       { icon: 'instagram', link: 'https://www.instagram.com/emeraldhost.de/' },
-      { icon: 'youtube', link: 'https://www.youtube.com/channel/UCQ0wYYCFdmQher2eGNbGpFw' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@emeraldhost' },
       { icon: 'discord', link: 'https://discord.com/invite/Gw38Ve3Nqr' },
       { icon: 'github', link: 'https://github.com/emeraldhost/' },
     ],
