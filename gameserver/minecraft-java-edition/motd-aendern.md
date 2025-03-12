@@ -42,3 +42,7 @@ Die MOTD (Message of the Day) eines Minecraft-Servers ist eine Nachricht, die au
     Starte den Minecraft-Server neu, damit die Änderungen wirksam werden.
 
 ### Das war's! Mit diesen Schritten solltest Du in der Lage sein, die MOTD auf Deinem Minecraft-Server erfolgreich zu ändern.
+
+:::info
+Pssst... Wir haben auch einen [Community-Discord](https://discord.emeraldhost.de/) 🤫 Komm vorbei!
+:::

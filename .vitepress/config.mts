@@ -105,12 +105,12 @@ export default defineConfig({
             link: '/rootserver/installationshilfe',
             collapsed: true,
             items: [
+              { text: 'Windows Festplatte erweitern', link: '/rootserver/installationshilfe/windows-festplatte-erweitern'},
               { text: 'Docker installieren', link: '/rootserver/installationshilfe/docker-installieren'},
               { text: 'Fail2Ban installieren', link: '/rootserver/installationshilfe/fail2ban-installieren'},
               { text: 'Minecraft Server installieren', link: '/rootserver/installationshilfe/minecraft-server-installieren'},
               { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/rootserver/installationshilfe/phpmyadmin-apache2-und-mysql'},
               { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/installationshilfe/teamspeak-3-server-installieren'},
-              { text: 'Windows Festplatte erweitern', link: '/rootserver/installationshilfe/windows-festplatte-erweitern'},
             ]
           },
           {
