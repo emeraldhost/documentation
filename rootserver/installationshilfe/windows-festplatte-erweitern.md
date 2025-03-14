@@ -15,7 +15,7 @@ Bei der Bereitstellung eines Windows Servers kann es vorkommen, dass der gesamte
 1. <b>Skript herunterladen</b>
     * Lade das folgende Skript **direkt** auf Deinen Windows Server herunter:
       ```
-      [remove_recovery_and_extend.bat](https://cdn.emeraldhost.de/products/rootserver/windows-patch/extend-disk/remove_recovery_and_extend.bat)
+      https://cdn.emeraldhost.de/products/rootserver/windows-patch/extend-disk/remove_recovery_and_extend.bat
       ```
 
 2. <b>Skript als Administrator ausführen</b>
