@@ -1,3 +1,7 @@
+---
+description: Docker auf einem Rootserver installieren (Ubuntu/Debian)
+---
+
 # Docker installieren
 
 1. Aktualisiere zunächst das System deines Linux-Servers. Dazu öffne die Konsole und gib den folgenden Befehl ein.

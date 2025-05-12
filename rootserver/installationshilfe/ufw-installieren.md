@@ -1,3 +1,7 @@
+---
+description: UFW-Firewall auf einem Rootserver installieren und konfigurieren (Ubuntu/Debian)
+---
+
 # UFW installieren
 
 UFW-Firewall auf dem Rootserver installieren und konfigurieren (Ubuntu/Debian)

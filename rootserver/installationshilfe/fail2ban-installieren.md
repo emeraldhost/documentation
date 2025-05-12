@@ -1,3 +1,7 @@
+---
+description: Fail2Ban auf einem Rootserver installieren (Ubuntu/Debian)
+---
+
 # SSH mittels Fail2Ban absichern
 
 Die Absicherung des SSH-Servers unter Linux ist von entscheidender Bedeutung, um potenzielle Sicherheitslücken zu schließen. Eine bewährte Methode zur Verbesserung der Sicherheit besteht darin, Fail2Ban zu verwenden, eine Software, die automatisch schädliche oder verdächtige Verbindungen blockiert.
