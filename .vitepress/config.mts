@@ -106,6 +106,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Windows Festplatte erweitern', link: '/rootserver/installationshilfe/windows-festplatte-erweitern'},
+              { text: 'UFW installieren', link: '/rootserver/installationshilfe/ufw-installieren'},
               { text: 'Docker installieren', link: '/rootserver/installationshilfe/docker-installieren'},
               { text: 'Fail2Ban installieren', link: '/rootserver/installationshilfe/fail2ban-installieren'},
               { text: 'Minecraft Server installieren', link: '/rootserver/installationshilfe/minecraft-server-installieren'},
