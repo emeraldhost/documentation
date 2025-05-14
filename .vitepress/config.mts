@@ -101,24 +101,36 @@ export default defineConfig({
         text: 'Rootserver',
         items: [
           {
-            text: 'Installationshilfe',
-            link: '/rootserver/installationshilfe',
+            text: 'Grundkonfiguration',
             collapsed: true,
             items: [
-              { text: 'Windows Festplatte erweitern', link: '/rootserver/installationshilfe/windows-festplatte-erweitern'},
-              { text: 'UFW installieren', link: '/rootserver/installationshilfe/ufw-installieren'},
-              { text: 'Docker installieren', link: '/rootserver/installationshilfe/docker-installieren'},
-              { text: 'Fail2Ban installieren', link: '/rootserver/installationshilfe/fail2ban-installieren'},
-              { text: 'Minecraft Server installieren', link: '/rootserver/installationshilfe/minecraft-server-installieren'},
-              { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/rootserver/installationshilfe/phpmyadmin-apache2-und-mysql'},
-              { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/installationshilfe/teamspeak-3-server-installieren'},
+              { text: 'UFW installieren', link: '/rootserver/grundkonfiguration/ufw-installieren'},
+              { text: 'Fail2Ban installieren', link: '/rootserver/grundkonfiguration/fail2ban-installieren'},
             ]
           },
           {
-            text: 'Konfigurationshilfe',
+            text: 'Dienste & Tools',
             collapsed: true,
             items: [
-              { text: 'Cronjobs erstellen', link: '/rootserver/konfigurationshilfe/cronjobs-erstellen'},
+              { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/rootserver/dienste_tools/phpmyadmin-apache2-und-mysql'},
+              { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/dienste_tools/teamspeak-3-server-installieren'},
+              { text: 'Minecraft Server installieren', link: '/rootserver/dienste_tools/minecraft-server-installieren'},
+              { text: 'Docker installieren', link: '/rootserver/dienste_tools/docker-installieren'},
+              { text: 'Webserver installieren', link: '/rootserver/dienste_tools/webserver-installieren'},
+            ]
+          },
+          {
+            text: 'Windows',
+            collapsed: true,
+            items: [
+              { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-festplatte-erweitern'},
+            ]
+          },
+          {
+            text: 'Tipps & Fehlerbehebung',
+            collapsed: true,
+            items: [
+              { text: 'Cronjobs erstellen', link: '/rootserver/tipps_fehlerbehebung/cronjobs-erstellen'},
             ]
           },
         ]
