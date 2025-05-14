@@ -1,3 +1,7 @@
+---
+description: PhpMyAdmin, Apache2 und MySQL auf einem Rootserver installieren (Ubuntu/Debian)
+---
+
 # PhpMyAdmin, Apache2 und MySQL
 
 ## Installiere Apache2:&#x20;

@@ -1,3 +1,7 @@
+---
+description: Minecraft Server auf einem Rootserver installieren (Ubuntu/Debian)
+---
+
 # Minecraft Server installieren
 
 1. Aktualisiere dein System und installiere notwendige Programme

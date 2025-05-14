@@ -1,3 +1,7 @@
+---
+description: TeamSpeak 3 Server auf einem Rootserver installieren (Ubuntu/Debian)
+---
+
 # TeamSpeak 3 Server installieren
 
 Wir empfehlen für SSH-Verbindungen mit Servern das Programm "[PuTTY](https://www.chiark.greenend.org.uk/\~sgtatham/putty/latest.html)".
