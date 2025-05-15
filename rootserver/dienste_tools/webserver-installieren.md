@@ -1,5 +1,5 @@
 ---
-description: Webserver auf einem Rootserver installieren (Ubuntu/Debian)
+description: Webserver auf einem Rootserver unter Ubuntu oder Debian installieren – komplette Anleitung für Apache2 und Nginx Setup auf Rootservern.
 ---
 
 # Webserver installieren
@@ -27,7 +27,7 @@ Anleitung zur Installation der Webserver Apache2 und Nginx auf einem Rootserver.
 Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
 
 ```
-apt update
+apt update && apt upgrade -y
 ```
 
 2. <strong>Apache2 installieren</strong>
@@ -65,7 +65,7 @@ sudo systemctl enable apache2     # Aktiviert Apache2 beim Systemstart
 Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
 
 ```
-apt update
+apt update && apt upgrade -y
 ```
 
 2. <strong>Nginx installieren</strong>
@@ -95,8 +95,6 @@ sudo systemctl status nginx     # Zeigt den Status von Nginx an
 sudo systemctl restart nginx     # Startet Nginx neu
 sudo systemctl enable nginx     # Aktiviert Nginx beim Systemstart
 ```
-<!--
 ::: info
-Hier findest du eine Anleitung zur Installation eines SSL-Zertifikats: [Anleitung](http://localhost:5173/rootserver/installationshilfe/certbot-installieren.html)
+Hier findest du eine Anleitung zur Installation eines SSL-Zertifikats: [Anleitung](certbot-installieren.md)
 :::
--->

@@ -15,7 +15,7 @@ UFW-Firewall auf dem Rootserver installieren und konfigurieren (Ubuntu/Debian)
 Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
 
 ```
-apt update
+apt update && apt upgrade -y
 ```
 
 2. <strong>UFW installieren</strong>

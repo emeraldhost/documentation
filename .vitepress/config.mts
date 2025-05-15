@@ -117,6 +117,7 @@ export default defineConfig({
               { text: 'Minecraft Server installieren', link: '/rootserver/dienste_tools/minecraft-server-installieren'},
               { text: 'Docker installieren', link: '/rootserver/dienste_tools/docker-installieren'},
               { text: 'Webserver installieren', link: '/rootserver/dienste_tools/webserver-installieren'},
+              { text: 'Certbot installieren', link: '/rootserver/dienste_tools/certbot-installieren'},
             ]
           },
           {
