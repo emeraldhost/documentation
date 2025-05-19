@@ -4,7 +4,7 @@ Um deine Domain auf einen Minecraft Server weiterzuleiten, klicke in deiner Doma
 
 Sollte der TeamSpeak auf dem gleichen Account wie die Domain sein, so kannst Du unter "Typ" **PRODUKT** auswählen, der Weiterleitung einen Namen geben und unter "Ziel" den passenden TeamSpeak Server wählen.
 
-<figure><img src="../../../assets/Ts-Produkt.png" alt=""><figcaption><p>TeamSpeak bei EmeraldHost</p></figcaption></figure>
+<figure><img src="../../../../assets/Ts-Produkt.png" alt=""><figcaption><p>TeamSpeak bei EmeraldHost</p></figcaption></figure>
 
 Hostest Du deinen TeamSpeak Server selbst oder bei einem anderen Hosting, so musst Du folgende Einträge erstellen.&#x20;
 
@@ -16,7 +16,7 @@ Vergebe der Weiterleitung einen Namen woran Du die TeamSpeak-Weiterleitung erken
 
 Das "Ziel" ist die IP-Adresse deines TeamSpeak-Servers ohne Port.
 
-<figure><img src="../../../assets/A-Eintrag-TS.png" alt=""><figcaption><p>A Eintrag</p></figcaption></figure>
+<figure><img src="../../../../assets/A-Eintrag-TS.png" alt=""><figcaption><p>A Eintrag</p></figcaption></figure>
 
 ## SRV-Eintrag
 
@@ -32,7 +32,7 @@ Trage nun folgende Daten in das geöffnete Fenster ein:
 
 Bestätige die Eingaben nun mit "Speichern".
 
-<figure><img src="../../../assets/SRV-01.png" alt=""><figcaption><p>SRV Eintrag "Name"</p></figcaption></figure>
+<figure><img src="../../../../assets/SRV-01.png" alt=""><figcaption><p>SRV Eintrag "Name"</p></figcaption></figure>
 
 Klicke nun auf das leere Feld unter "Ziel".&#x20;
 
@@ -45,6 +45,6 @@ Trage nun folgende Daten in das geöffnete Fenster ein:
 
 Bestätige nun deine Eingaben mit "Speichern".
 
-<figure><img src="../../../assets/SRV-02.png" alt=""><figcaption><p>SRV Eintrag "Ziel"</p></figcaption></figure>
+<figure><img src="../../../../assets/SRV-02.png" alt=""><figcaption><p>SRV Eintrag "Ziel"</p></figcaption></figure>
 
-<figure><img src="../../../assets/SRV-03.png" alt=""><figcaption><p>SRV Eintrag erstellen</p></figcaption></figure>
+<figure><img src="../../../../assets/SRV-03.png" alt=""><figcaption><p>SRV Eintrag erstellen</p></figcaption></figure>

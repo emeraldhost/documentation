@@ -16,7 +16,7 @@ Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfiguratio
 2. <b>Finde die Modpack-Einstellungen</b><br>
     Navigiere in der rechten Seitenleiste zum Reiter "Modpacks" und wähle diesen aus.
 
-    <img src="../../assets/gameserver/minecraft-java-edition/modpack-aendern/chrome_hRcHwnYs8E.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/modpack-aendern/chrome_hRcHwnYs8E.png" />
 
 3. <b>Neues Modpack auswählen</b><br>
     Oberhalb des Abschnitts "Installiertes Modpack" findest Du Informationen zu deinem aktuellen Modpack, das auf deinem Minecraft-Server installiert ist.
@@ -25,12 +25,12 @@ Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfiguratio
     
     Klicke auf das gewünschte Modpack, das Du installieren möchtest.
 
-    <img src="../../assets/gameserver/minecraft-java-edition/modpack-aendern/guE5867Ybm.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/modpack-aendern/guE5867Ybm.png" />
 
 4. <b>Bestätige die Installation</b><br>
     In einem neuen Fenster wirst du darauf hingewiesen, dass bei diesem Vorgang alle vorhandenen Dateien und Backups gelöscht werden. Bestätige diese Meldung, indem du auf "Jetzt installieren" klickst. Dein Minecraft-Server wird zurückgesetzt und das ausgewählte Modpack wird neu installiert. Die Fertigstellung des Vorgangs wird angezeigt, sobald dein Minecraft-Server wieder online ist.
 
-    <img src="../../assets/gameserver/minecraft-java-edition/modpack-aendern/chrome_pH1wtTcSqq.png" />
+    <img src="../../../../assets/gameserver/minecraft-java-edition/modpack-aendern/chrome_pH1wtTcSqq.png" />
 
     :::warning
     Bitte beachte, dass bei diesem Vorgang alle bisherigen Dateien und Backups gelöscht werden.

@@ -16,10 +16,10 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
 2. <b>Finde die Server-Einstellungen</b><br>
     Navigiere in der rechten Seitenleiste zum Reiter "Einstellungen" und wähle diesen aus.
 
-    <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/Code_Z3M5jSqcUj.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/version-aendern/Code_Z3M5jSqcUj.png" />
 
 3. <b>Neue Version auswählen</b><br>
-    <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_vaH22UQ5MP.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_vaH22UQ5MP.png" />
 
     Unter der Eingabe "Minecraft Version" kannst Du nun die gewünschte Minecraft-Version eingeben. Die Version sollte der offiziellen Minecraft-Versionierung entsprechen.
     
@@ -40,7 +40,7 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
 
     Hier findest Du alle Minecraft-Versionen und zugehörigen Buildnummern von PaperSpigot: https://papermc.io/downloads/all
     
-    <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_Vmbm9yAOL3.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_Vmbm9yAOL3.png" />
     
     Du kannst auf der linken Seite die gewünschte Minecraft-Version auswählen, und für jede Version findest du in der Mitte alle zugehörigen Builds. Bei EmeraldHost musst du die Buildnummer ohne das "#" eingeben.
 
@@ -63,11 +63,11 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
 4. <b>Server neuinstallieren</b><br>
     Kehre zur Übersichtsseite deines Minecraft-Servers zurück. Klicke oben rechts auf die drei Punkte und wähle "Neuinstallieren" aus. Dein Minecraft-Server wird einmal zurückgesetzt und mit der von Dir ausgewählten Minecraft-Version neuinstalliert.
 
-    <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_PGFBVaKsrL.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_PGFBVaKsrL.png" />
 
     Ein neues Fenster wird geöffnet, in dem du die Neuinstallation bestätigen musst. Bestätige diesen Vorgang, indem du auf "Ja, Server neu installieren" klickst.
 
-    <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_7rgg2mZwFp.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_7rgg2mZwFp.png" />
 
     Die Fertigstellung des Vorgangs wird angezeigt, sobald dein Minecraft-Server wieder online ist.
 
