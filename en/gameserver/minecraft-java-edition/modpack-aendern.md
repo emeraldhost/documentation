@@ -30,7 +30,7 @@ Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfiguratio
 4. <b>Bestätige die Installation</b><br>
     In einem neuen Fenster wirst du darauf hingewiesen, dass bei diesem Vorgang alle vorhandenen Dateien und Backups gelöscht werden. Bestätige diese Meldung, indem du auf "Jetzt installieren" klickst. Dein Minecraft-Server wird zurückgesetzt und das ausgewählte Modpack wird neu installiert. Die Fertigstellung des Vorgangs wird angezeigt, sobald dein Minecraft-Server wieder online ist.
 
-    <img src="../../../../assets/gameserver/minecraft-java-edition/modpack-aendern/chrome_pH1wtTcSqq.png" />
+    <img src="../../../assets/gameserver/minecraft-java-edition/modpack-aendern/chrome_pH1wtTcSqq.png" />
 
     :::warning
     Bitte beachte, dass bei diesem Vorgang alle bisherigen Dateien und Backups gelöscht werden.
