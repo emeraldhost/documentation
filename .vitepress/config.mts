@@ -26,7 +26,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren'},
-              { text: 'Sichtweite ändern', link: '/gameserver/minecraft-java-edition/sichtweite-aendern'},
+              { text: 'View-Distance ändern', link: '/gameserver/minecraft-java-edition/view-distance-aendern'},
+              { text: 'Simulation-Distance ändern', link: '/gameserver/minecraft-java-edition/simulation-distance-aendern'},
               { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern'},
               { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-java-edition/whitelist-aktivieren'},
               { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben'},
