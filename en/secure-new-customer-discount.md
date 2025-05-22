@@ -8,7 +8,7 @@ Our servers are equipped with the latest **hardware and software technologies** 
 
 With EmeraldHost, you also have the option to tailor your **server hosting** to your individual needs. We offer a variety of configuration options so you can customize your servers according to your **preferences**. You can also access the latest **game versions** and **updates** at any time to ensure your game is always up to date.
 
-As a new customer, you benefit from our **exclusive 10% wiki discount**. Just enter the **coupon code "`docs10`"** during your order under “Do you have a discount code?” and secure your discount! We're sure you'll be impressed by our **hosting solutions**, and we look forward to welcoming you as part of our growing **community** of **gamers** and **hosting customers**.
+As a new customer, you benefit from our **exclusive 10% wiki discount**. Just enter the **coupon code "`docs10`"** during your order under “Do you have a coupon code?” and secure your discount! We're sure you'll be impressed by our **hosting solutions**, and we look forward to welcoming you as part of our growing **community** of **gamers** and **hosting customers**.
 
 We are proud to offer a **99.9% uptime guarantee** to ensure your server is always **available** when you need it. We also use the latest **security** and **protection technologies** to safeguard your data and servers from **threats**.
 
