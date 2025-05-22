@@ -1,4 +1,4 @@
-## Terraria: tModloader
+# Terraria: tModloader
 
 ## What is Terraria: tModloader?
 

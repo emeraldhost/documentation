@@ -1,4 +1,4 @@
-## Minecraft Bedrock Edition
+# Minecraft Bedrock Edition
 
 ## What is Minecraft Bedrock?
 
