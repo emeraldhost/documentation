@@ -132,7 +132,7 @@ export default defineConfig({
                 text: 'Windows',
                 collapsed: true,
                 items: [
-                  { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-festplatte-erweitern'},
+                  { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-hard-drive-expand'},
                 ]
               },
               {
@@ -294,7 +294,7 @@ export default defineConfig({
                 text: 'Windows',
                 collapsed: true,
                 items: [
-                  { text: 'Windows Festplatte erweitern', link: '/en/rootserver/windows/windows-festplatte-erweitern'},
+                  { text: 'Expand Windows Hard Drive', link: '/en/rootserver/windows/windows-hard-drive-expand'},
                 ]
               },
               {
