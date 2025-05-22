@@ -1,9 +1,9 @@
 # Euro Truck Simulator 2
 
-## Was ist Euro Truck Simulator 2?
+## What is Euro Truck Simulator 2?
 
-Euro Truck Simulator 2 ist ein beliebtes Computerspiel, das von SCS Software entwickelt und veröffentlicht wurde. Es ist ein Simulationsspiel, bei dem Spieler als LKW-Fahrer verschiedene Lieferungen durch Europa transportieren und dabei verschiedene Städte und Autobahnen erkunden können.
+Euro Truck Simulator 2 is a popular computer game developed and published by SCS Software. It is a simulation game in which players play as truck drivers transporting various deliveries across Europe, exploring different cities and highways.
 
-Das Spiel bietet eine detaillierte 3D-Grafik, die es den Spielern ermöglicht, realistische Lastwagen und Straßen zu erleben. Es gibt verschiedene Spielmodi, darunter den Karrieremodus, bei dem der Spieler seine eigene Transportfirma gründet und seine Flotte von LKWs und Fahrern aufbaut.
+The game features detailed 3D graphics that allow players to experience realistic trucks and roads. There are various game modes, including the career mode, where players start their own transportation company and build up their fleet of trucks and drivers.
 
-Euro Truck Simulator 2 hat eine große und engagierte Fangemeinde, die Mods und Erweiterungen für das Spiel entwickelt und es zu einem der beliebtesten Simulationspiele auf dem Markt gemacht hat. Es ist auf verschiedenen Plattformen wie PC, Mac und Linux verfügbar.
+Euro Truck Simulator 2 has a large and dedicated fan base that has developed mods and expansions for the game, making it one of the most popular simulation games on the market. It is available on various platforms such as PC, Mac and Linux.

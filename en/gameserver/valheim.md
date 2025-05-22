@@ -1,9 +1,9 @@
 # Valheim
 
-## Was ist Valheim?
+## What is Valheim?
 
-Valheim ist ein beliebtes Survival- und Sandbox-Videospiel, das von Iron Gate Studio entwickelt und von Coffee Stain Publishing veröffentlicht wurde. Es entführt die Spieler in eine riesige, prozedural generierte Welt, inspiriert von der nordischen Mythologie und Wikingerkultur. In Valheim beginnen die Spieler als Seelen im Valhalla und müssen in einer feindseligen Umgebung überleben, Ressourcen sammeln, Werkzeuge herstellen, Bauten errichten und mächtige Kreaturen besiegen.
+Valheim is a popular survival and sandbox video game developed by Iron Gate Studio and published by Coffee Stain Publishing. It takes players into a vast, procedurally generated world inspired by Norse mythology and Viking culture. In Valheim, players begin as souls in Valhalla and must survive in a hostile environment, gathering resources, crafting tools, building structures and defeating powerful creatures.
 
-Das Spiel legt großen Wert auf Exploration und Überleben, mit einem einzigartigen Kampfsystem, das sowohl Nahkampf als auch Fernkampf umfasst. Der Schwerpunkt liegt auf Kooperation, wobei Spieler zusammenarbeiten können, um noch mächtigere Gegner zu besiegen und beeindruckende Bauten zu errichten. Valheim bietet eine beeindruckende Grafik mit einer einzigartigen Ästhetik, die sowohl realistische als auch stilisierte Elemente kombiniert.
+The game emphasizes exploration and survival, with a unique combat system that includes both melee and ranged combat. The emphasis is on cooperation, with players able to work together to defeat even more powerful enemies and build impressive structures. Valheim features stunning graphics with a unique aesthetic that combines both realistic and stylized elements.
 
-Seit seiner Veröffentlichung hat Valheim eine begeisterte Anhängerschaft aufgebaut und wird ständig weiterentwickelt, mit regelmäßigen Updates, die neue Inhalte, Verbesserungen und Erweiterungen bieten. Das Spiel ist verfügbar für PC und zieht Spieler an, die Abenteuer, Kreativität und die Herausforderungen des Überlebens in einer faszinierenden, mythologisch angehauchten Welt suchen.
+Since its release, Valheim has built an enthusiastic following and is constantly evolving, with regular updates offering new content, improvements and expansions. The game is available for PC and attracts players looking for adventure, creativity and the challenges of survival in a fascinating, mythologically-inspired world.

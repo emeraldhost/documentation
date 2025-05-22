@@ -1,9 +1,9 @@
-# Terraria: tModloader
+## Terraria: tModloader
 
-## Was ist Terraria: tModloader?
+## What is Terraria: tModloader?
 
-Terraria: tModLoader ist ein Modding-Tool für das populäre Sandbox-Spiel Terraria, entwickelt von der Community. Es ermöglicht Spielern, benutzerdefinierte Mods zu erstellen, herunterzuladen und zu nutzen, um das Spielerlebnis zu erweitern und zu personalisieren.
+Terraria: tModLoader is a modding tool for the popular sandbox game Terraria, developed by the community. It allows players to create, download and use custom mods to enhance and personalize the game experience.
 
-Das Tool bietet eine benutzerfreundliche Oberfläche, um Mods einfach zu installieren und zu verwalten. Es unterstützt sowohl Einzelspieler- als auch Mehrspielermodi und hilft dabei, die Kompatibilität verschiedener Mods zu gewährleisten.
+The tool provides a user-friendly interface to easily install and manage mods. It supports both single-player and multiplayer modes and helps to ensure the compatibility of different mods.
 
-Terraria: tModLoader hat eine engagierte Fangemeinde, die ständig neue Mods und Erweiterungen entwickelt, um das Spiel noch interessanter und abwechslungsreicher zu gestalten. Es ist auf verschiedenen Plattformen wie PC, Mac und Linux verfügbar.
+Terraria: tModLoader has a dedicated fan base that is constantly developing new mods and expansions to make the game even more interesting and varied. It is available on various platforms such as PC, Mac and Linux.
