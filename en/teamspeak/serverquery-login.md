@@ -1,35 +1,35 @@
-# ServerQuery Login
+# ServerQuery login
 
-Um deinen Server via Query verwalten zu können, empfehlen wir das Programm "[YaTQA](http://yat.qa/herunterladen/)".\
-Zudem werden Server Adminrechte auf dem TeamSpeak benötigt um einen Queryzugang zu erstellen.
+To be able to manage your server via query, we recommend the program "[YaTQA](http://yat.qa/herunterladen/)".\
+In addition, server admin rights on the TeamSpeak are required to create a query access.
 
-## Schritte
+## Steps
 
-1. Verbinde Dich mit dem TeamSpeak-Client auf dein Server.
+1. connect to your server with the TeamSpeak client.
 
-2. Klicke nun auf in deiner oberen Leiste auf Extras -> ServerQuery Login.&#x20;
+2. now click on Extras -> ServerQuery Login in your top bar &#x20;
 
-3. Lege nun einen Namen für deinen Admin Account festlegen und bestätige diesen mit "OK".
+3. now define a name for your admin account and confirm this with "OK".
 
-4. Notiere nun den Benutzernamen und das Passwort.&#x20;
+4. now make a note of the user name and password &#x20;
     ::: warning
-    Diese Logindaten können nicht erneut angezeigt werden, daher speichere Dir sie gut ab!
+    This login data cannot be displayed again, so save it carefully!
     :::
 
-5. Gehe nun in unser Dashboard und wähle den TeamSpeak aus, auf welchem Du den ServerQuery Login erstellt hast.
+5. now go to our dashboard and select the TeamSpeak on which you created the ServerQuery login.
 
-6. Notiere nun die IP-Adresse (z.B. 192.168.178.1), den Port hinter deiner IP-Adresse (z.B. 9001) sowie den darunter stehenden Query Port (z.B. 9152).
+6. now note the IP address (e.g. 192.168.178.1), the port behind your IP address (e.g. 9001) and the query port below it (e.g. 9152).
 
-7. Installiere Dir nun "[YaTQA](http://yat.qa/herunterladen/)" und öffne das Programm.
+7. now install "[YaTQA](http://yat.qa/herunterladen/)" and open the program.
 
-8. Sollte das Programm installiert und geöffnet sein, so klicke in der linken spalte auf "Einstellungen" und setzte ein hacken unter "Hinweise" -> "Verbinden zu nicht-Standard-Queryport zulassen". Folgend können die Einstellungen geschlossen werden.
+8. if the program is installed and open, click on "Settings" in the left column and set a check mark under "Notes" -> "Allow connection to non-standard query port". The settings can then be closed.
 
-9.  Um Dich nun zu Verbinden, schreibe deine Notierte daten in folgende Spalten:
-    * deine IP-Adresse in Spalte "Server-Adresse (ohne Port):"&#x20;
-    * dein Queryport in Spalte "Queryport:"
-    * dein Benutzernamen in Spalte "Benutzer (optional):"&#x20;
-    * dein Passwort in Spalte "Passwort (optional):"
-    
-    Bestätige nun deine Eingaben mit "Verbinden".
+9. to connect now, write your noted data in the following columns:
+    * your IP address in column "Server address (without port):"&#x20;
+    * your query port in column "Queryport:"
+    * your user name in column "User (optional):"&#x20;
+    * your password in column "Password (optional):"
 
-10. Für den Server nun verwalten zu können, gehe auf den Reiter "Server" und dort auf die Option "Server mithilfe des Ports suchen...". Gebe dort den notierten Port ein, welcher hinter deiner IP-Adresse stand.
+    Now confirm your entries with "Connect".
+
+10. to be able to manage the server now, go to the "Server" tab and there to the option "Search server using port...". Enter the port noted after your IP address.

@@ -1,13 +1,13 @@
 # Enshrouded
 
-## Was ist Enshrouded?
+## What is Enshrouded?
 
-Enshrouded ist ein packendes Open-World-Survival- und Abenteuerspiel, entworfen von der Entwicklergruppe Shadowcraft. In dieser mysteriösen Welt interagieren die Spieler mit den sogenannten Shadows, geheimnisvollen und facettenreichen Wesen, die über einzigartige Kräfte verfügen. Das Spiel integriert Elemente von Survival, Crafting und Erkundung in einer düsteren und atmosphärischen Welt.
+Enshrouded is a gripping open-world survival and adventure game designed by the developer group Shadowcraft. In this mysterious world, players interact with the so-called Shadows, mysterious and multifaceted creatures with unique powers. The game combines elements of survival, crafting and exploration in a dark and atmospheric world.
 
-Im Mittelpunkt von Enshrouded steht die Interaktion mit den Shadows. Spieler können diese Wesen zähmen, trainieren und sie als Begleiter in dunklen Abenteuern einsetzen. Es ist möglich, mit den Shadows zu kämpfen, Rätsel zu lösen und gefährliche Missionen zu bewältigen. Die Spieler können auch Zufluchtsorte errichten und diese gegen bedrohliche Kreaturen verteidigen. Enshrouded bietet eine Balance zwischen gruseligen Begegnungen und herausfordernden Aufgaben, inklusive Kämpfen gegen wilde Shadows oder Konfrontationen mit anderen Spielern.
+Interaction with the Shadows is at the heart of Enshrouded. Players can tame these creatures, train them and use them as companions in dark adventures. It is possible to fight with the Shadows, solve puzzles and complete dangerous missions. Players can also build havens and defend them against threatening creatures. Enshrouded offers a balance between creepy encounters and challenging tasks, including battles against wild Shadows or confrontations with other players.
 
-Die Welt von Enshrouded ist weitläufig und abwechslungsreich, mit unterschiedlichen Landschaften wie düsteren Wäldern, verlassenen Ruinen und nebelverhangenen Mooren. Spieler haben die Freiheit, diese geheimnisvolle Welt zu erkunden, Ressourcen zu sammeln, ihre eigenen Unterschlüpfe zu bauen und die dunklen Geheimnisse aufzudecken, die Enshrouded verbirgt.
+The world of Enshrouded is vast and varied, with diverse landscapes such as gloomy forests, abandoned ruins and misty moors. Players have the freedom to explore this mysterious world, gather resources, build their own lairs and uncover the dark secrets that Enshrouded hides.
 
-Die grafische Darstellung von Enshrouded ist eindrucksvoll und fesselnd, mit einem Stil, der eine düstere und geheimnisvolle Atmosphäre erzeugt. Das Spiel bietet sowohl Einzel- als auch Multiplayer-Optionen, in denen Spieler entweder zusammenarbeiten oder in spannenden Duellen gegeneinander antreten können.
+The graphical presentation of Enshrouded is impressive and captivating, with a style that creates a dark and mysterious atmosphere. The game offers both single and multiplayer options, where players can either work together or compete against each other in exciting duels.
 
-Enshrouded ist ideal für Spieler, die eine Mischung aus düsterer Erkundung, taktischen Kämpfen und kreativer Gestaltung in einer geheimnisvollen und atmosphärischen Welt suchen. Das Spiel ist auf verschiedenen Plattformen erhältlich und wird kontinuierlich mit neuen Inhalten und Funktionen aktualisiert.
+Enshrouded is ideal for players looking for a mix of dark exploration, tactical combat and creative design in a mysterious and atmospheric world. The game is available on multiple platforms and will be continuously updated with new content and features.

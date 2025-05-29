@@ -1,13 +1,13 @@
 # Palworld
 
-## Was ist Palworld?
+## What is Palworld?
 
-Palworld ist ein faszinierendes Open-World-Survival- und Abenteuerspiel, entwickelt von Pocketpair. In dieser einzigartigen Welt teilen sich die Spieler ihr Leben mit den sogenannten Pals, mysteriösen und vielfältigen Kreaturen mit verschiedenen Fähigkeiten. Das Spiel kombiniert Elemente von Survival-, Crafting- und Erkundungsmechaniken in einer farbenfrohen und lebendigen Welt.
+Palworld is a fascinating open-world survival and adventure game developed by Pocketpair. In this unique world, players share their lives with the so-called Pals, mysterious and diverse creatures with different abilities. The game combines elements of survival, crafting and exploration mechanics in a colorful and vibrant world.
 
-In Palworld geht es darum, mit den Pals zu interagieren, sie zu zähmen, zu züchten und sie als Gefährten in Abenteuern zu nutzen. Spieler können mit ihren Pals kämpfen, arbeiten, Abenteuer bestreiten und sogar Fabriken bauen. Das Spiel bietet eine Mischung aus friedlichen Interaktionen und actionreichen Herausforderungen, einschließlich Kämpfen gegen wilde Pals oder andere Spieler.
+Palworld is about interacting with the Pals, taming them, breeding them and using them as companions in adventures. Players can fight, work, adventure and even build factories with their Pals. The game offers a mix of peaceful interactions and action-packed challenges, including battles against wild Pals or other players.
 
-Die Welt von Palworld ist riesig und vielseitig, mit unterschiedlichen Umgebungen wie üppigen Wäldern, trockenen Wüsten und frostigen Schneelandschaften. Die Spieler haben die Freiheit, diese Welt zu erkunden, Ressourcen zu sammeln, ihre eigenen Häuser zu bauen und die Geheimnisse, die Palworld birgt, zu entdecken.
+The world of Palworld is vast and varied, with diverse environments such as lush forests, arid deserts and frosty snowscapes. Players have the freedom to explore this world, gather resources, build their own homes and discover the secrets that Palworld holds.
 
-Die grafische Gestaltung von Palworld ist lebhaft und ansprechend, mit einem Stil, der sowohl jüngere als auch ältere Spieler anspricht. Das Spiel bietet Multiplayer-Optionen, in denen Spieler zusammenarbeiten oder gegeneinander antreten können.
+The graphic design of Palworld is vibrant and appealing, with a style that appeals to both younger and older players. The game offers multiplayer options where players can work together or compete against each other.
 
-Palworld ist besonders bei Spielern beliebt, die eine Kombination aus Kreativität, Erkundung und strategischem Kampf in einer reichhaltigen, lebendigen Welt schätzen. Das Spiel ist auf verschiedenen Plattformen verfügbar und wird stetig mit neuen Inhalten und Features erweitert.
+Palworld is particularly popular with players who appreciate a combination of creativity, exploration and strategic combat in a rich, vibrant world. The game is available on multiple platforms and is constantly being expanded with new content and features.

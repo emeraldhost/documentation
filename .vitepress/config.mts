@@ -194,14 +194,14 @@ export default defineConfig({
                 link: '/en/gameserver/minecraft-java-edition',
                 collapsed: true,
                 items: [
-                  { text: 'Minecraft EULA akzeptieren', link: '/en/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren'},
-                  { text: 'View-Distance ändern', link: '/en/gameserver/minecraft-java-edition/view-distance-aendern'},
-                  { text: 'Simulation-Distance ändern', link: '/en/gameserver/minecraft-java-edition/simulation-distance-aendern'},
-                  { text: 'MOTD ändern', link: '/en/gameserver/minecraft-java-edition/motd-aendern'},
-                  { text: 'Whitelist aktivieren', link: '/en/gameserver/minecraft-java-edition/whitelist-aktivieren'},
-                  { text: 'OP-Rechte vergeben', link: '/en/gameserver/minecraft-java-edition/op-rechte-vergeben'},
-                  { text: 'Modpack ändern', link: '/en/gameserver/minecraft-java-edition/modpack-aendern'},
-                  { text: 'Version ändern', link: '/en/gameserver/minecraft-java-edition/version-aendern'},
+                  { text: 'Accept Minecraft EULA', link: '/en/gameserver/minecraft-java-edition/accept-minecraft-eula'},
+                  { text: 'Change view distance', link: '/en/gameserver/minecraft-java-edition/change-view-distance'},
+                  { text: 'Change simulation distance', link: '/en/gameserver/minecraft-java-edition/change-simulation-distance'},
+                  { text: 'Change MOTD', link: '/en/gameserver/minecraft-java-edition/change-motd'},
+                  { text: 'Enable whitelist', link: '/en/gameserver/minecraft-java-edition/enable-whitelist'},
+                  { text: 'Grant OP rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights'},
+                  { text: 'Change Modpack', link: '/en/gameserver/minecraft-java-edition/change-modpack'},
+                  { text: 'Change Version', link: '/en/gameserver/minecraft-java-edition/change-version'},
                 ]
               },
               {
@@ -209,8 +209,8 @@ export default defineConfig({
                 link: '/en/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
                 items: [
-                  { text: 'Behavior und Resource Packs hinzufügen', link: '/en/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen'},
-                  { text: 'Whitelist aktivieren', link: '/en/gameserver/minecraft-bedrock-edition/whitelist-aktivieren'},
+                  { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs'},
+                  { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist'},
                 ]
               },
               {
@@ -218,8 +218,8 @@ export default defineConfig({
                 link: '/en/gameserver/euro-truck-simulator-2',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/en/gameserver/euro-truck-simulator-2/mods-hinzufuegen'},
-                  { text: 'Admins hinzufügen', link: '/en/gameserver/euro-truck-simulator-2/admins-hinzufuegen'},
+                  { text: 'Add mods', link: '/en/gameserver/euro-truck-simulator-2/add-mods'},
+                  { text: 'Add admins', link: '/en/gameserver/euro-truck-simulator-2/add-admins'},
                 ]
               },
               {
@@ -227,7 +227,7 @@ export default defineConfig({
                 link: '/en/gameserver/american-truck-simulator',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/en/gameserver/american-truck-simulator/mods-hinzufuegen'}
+                  { text: 'Add Mods', link: '/en/gameserver/american-truck-simulator/add-mods'}
                 ]
               },
               {
@@ -235,8 +235,8 @@ export default defineConfig({
                 link: '/en/gameserver/terraria-tmodloader',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/en/gameserver/terraria-tmodloader/mods-hinzufuegen'},
-                  { text: 'Welt hinzufügen', link: '/en/gameserver/terraria-tmodloader/welt-hinzufuegen'}
+                  { text: 'Add Mods', link: '/en/gameserver/terraria-tmodloader/add-mods'},
+                  { text: 'Add world', link: '/en/gameserver/terraria-tmodloader/add-world'}
                 ]
               },
               {
@@ -244,7 +244,7 @@ export default defineConfig({
                 link: '/en/gameserver/valheim',
                 collapsed: true,
                 items: [
-                  { text: 'Savegame hinzufügen', link: '/en/gameserver/valheim/savegame-hinzufuegen'}
+                  { text: 'Add savegame', link: '/en/gameserver/valheim/add-savegame'}
                 ]
               },
               {
@@ -252,8 +252,8 @@ export default defineConfig({
                 link: '/en/gameserver/palworld',
                 collapsed: true,
                 items: [
-                  { text: '🚨 Performance-Probleme auf Palworld Servern', link: '/en/gameserver/palworld/performance-probleme-auf-palworld-servern'},
-                  { text: 'Server beitreten', link: '/en/gameserver/palworld/server-beitreten'},
+                  { text: '🚨 Performance problems on Palworld servers', link: '/en/gameserver/palworld/performance-problems-on-palworld-servers'},
+                  { text: 'Join Server', link: '/en/gameserver/palworld/join-server'},
                 ]
               },
               {
@@ -261,8 +261,8 @@ export default defineConfig({
                 link: '/en/gameserver/enshrouded',
                 collapsed: true,
                 items: [
-                  { text: '🚨 Performance-Probleme auf Enshrouded Servern', link: '/en/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern'},
-                  { text: 'Savegame hinzufügen', link: '/en/gameserver/enshrouded/savegame-hinzufuegen'},
+                  { text: '🚨 Performance problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-Enshrouded-servers'},
+                  { text: 'Add savegame', link: '/en/gameserver/enshrouded/add-savegame'},
                 ]
               }
             ]
@@ -271,23 +271,23 @@ export default defineConfig({
             text: 'Rootserver',
             items: [
               {
-                text: 'Grundkonfiguration',
+                text: 'Basic configuration',
                 collapsed: true,
                 items: [
-                  { text: 'UFW installieren', link: '/en/rootserver/grundkonfiguration/ufw-installieren'},
-                  { text: 'Fail2Ban installieren', link: '/en/rootserver/grundkonfiguration/fail2ban-installieren'},
+                  { text: 'Install UFW', link: '/en/rootserver/basic_configuration/install-ufw'},
+                  { text: 'Install Fail2Ban', link: '/en/rootserver/basic_configuration/install-fail2ban'},
                 ]
               },
               {
-                text: 'Dienste & Tools',
+                text: 'Services & Tools',
                 collapsed: true,
                 items: [
-                  { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/en/rootserver/dienste_tools/phpmyadmin-apache2-und-mysql'},
-                  { text: 'TeamSpeak 3 Server installieren', link: '/en/rootserver/dienste_tools/teamspeak-3-server-installieren'},
-                  { text: 'Minecraft Server installieren', link: '/en/rootserver/dienste_tools/minecraft-server-installieren'},
-                  { text: 'Docker installieren', link: '/en/rootserver/dienste_tools/docker-installieren'},
-                  { text: 'Webserver installieren', link: '/en/rootserver/dienste_tools/webserver-installieren'},
-                  { text: 'Certbot installieren', link: '/en/rootserver/dienste_tools/certbot-installieren'},
+                  { text: 'Install phpMyAdmin, Apache2 und MySQL', link: '/en/rootserver/services_tools/install-phpmyadmin-apache2-und-mysql'},
+                  { text: 'Install TeamSpeak 3 Server', link: '/en/rootserver/services_tools/install-teamspeak-3-server'},
+                  { text: 'Install Minecraft Server', link: '/en/rootserver/services_tools/install-minecraft-server'},
+                  { text: 'Install Docker', link: '/en/rootserver/services_tools/install-docker'},
+                  { text: 'Install Webserver ', link: '/en/rootserver/services_tools/install-webserver'},
+                  { text: 'Install Certbot', link: '/en/rootserver/services_tools/install-certbot'},
                 ]
               },
               {
@@ -298,10 +298,10 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Tipps & Fehlerbehebung',
+                text: 'Tips & troubleshooting',
                 collapsed: true,
                 items: [
-                  { text: 'Cronjobs erstellen', link: '/en/rootserver/tipps_fehlerbehebung/cronjobs-erstellen'},
+                  { text: 'Create cronjobs', link: '/en/rootserver/tips_troubleshooting/create-cronjobs'},
                 ]
               },
             ]
@@ -310,11 +310,11 @@ export default defineConfig({
             text: 'Domains',
             items: [
               {
-                text: 'DNS-Einträge',
-                link: '/en/domains/dns-eintraege',
+                text: 'DNS-Records',
+                link: '/en/domains/dns-records',
                 collapsed: true,
                 items: [
-                  { text: 'TeamSpeak Server', link: '/en/domains/dns-eintraege/teamspeak-server'},
+                  { text: 'TeamSpeak Server', link: '/en/domains/dns-records/teamspeak-server'},
                 ]
               }
             ]
