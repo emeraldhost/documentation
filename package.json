@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "npx markdownlint --fix . || true && vitepress dev",
-    "docs:build": "npx markdownlint --fix . || true && vitepress build",
-    "docs:preview": "npx markdownlint --fix . || true && vitepress preview"
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "docs:lint": "markdownlint --fix ."
   },
   "repository": {
     "type": "git",
