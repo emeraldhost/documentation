@@ -33,7 +33,7 @@ description: PhpMyAdmin, Apache2 und MySQL auf einem Rootserver installieren (Ub
 
 2. Während der Installation wirst Du aufgefordert, einen Webserver auszuwählen. Wähle Apache2 aus und drücke die Enter-Taste.&#x20;
 3. Während der Installation wirst Du aufgefordert, ein Passwort für das PhpMyAdmin-Administratorkonto festzulegen. Gib ein sicheres Passwort ein und speichere es an einem sicheren Ort.&#x20;
-4. Wenn Du fertig bist, öffne Deinen Webbrowser und gib die Adresse "http://Server-Adresse/phpmyadmin/" ein. Du solltest aufgefordert werden, Dich mit Deinem PhpMyAdmin-Administratorkonto anzumelden.
+4. Wenn Du fertig bist, öffne Deinen Webbrowser und gib die Adresse "<http://Server-Adresse/phpmyadmin/>" ein. Du solltest aufgefordert werden, Dich mit Deinem PhpMyAdmin-Administratorkonto anzumelden.
 
 ## Konfiguriere PhpMyAdmin:&#x20;
 

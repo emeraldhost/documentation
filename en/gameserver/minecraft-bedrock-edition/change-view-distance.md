@@ -11,9 +11,10 @@ Customize View Distance on your Minecraft Bedrock Edition server.
 The ```view-distance``` determines how many chunks a player can see around them. A chunk in Minecraft is an area of the world of 16x16 blocks. This means: If the view distance is set to 10, the player can see in a square of 21x21 chunks - i.e. 10 chunks in each direction. The view distance only affects the loading and display of the world, not the active calculation of e.g. mobs, redstone or the growth of plants.
 
 ## What effects does the setting have on my server?
-* Higher values allow a larger world view.
-* The more players are online at the same time, the greater the load on the server.
-* Too high values can lead to stuttering, connection problems or high RAM utilization.
+
+- Higher values allow a larger world view.
+- The more players are online at the same time, the greater the load on the server.
+- Too high values can lead to stuttering, connection problems or high RAM utilization.
 
 ## How do I change the view distance?
 
@@ -36,8 +37,9 @@ The ```view-distance``` determines how many chunks a player can see around them.
 7. <strong>Restart the server so that the changes become active</strong>.
 
 ::: tip Recommendation
-* 6-8 → For large numbers of players & low server performance
-* 10-12 → Balanced between performance and visibility
-* 16-20 → Only with high server performance
-* 32 → Standard setting
+
+- 6-8 → For large numbers of players & low server performance
+- 10-12 → Balanced between performance and visibility
+- 16-20 → Only with high server performance
+- 32 → Standard setting
 :::

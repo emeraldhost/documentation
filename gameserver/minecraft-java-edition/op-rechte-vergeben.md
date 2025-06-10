@@ -8,20 +8,22 @@ OP (Operator)-Rechte in Minecraft sind spezielle Berechtigungen, die einem Spiel
 
 ## Voraussetzungen
 
-* Zugriff auf die Server-Konsole oder den In-Game Chat
-* Name des Spielers, dem Du OP-Rechte geben möchtest
+- Zugriff auf die Server-Konsole oder den In-Game Chat
+- Name des Spielers, dem Du OP-Rechte geben möchtest
 
-## Um OP-Rechte zu vergeben, folge diesen Schritten:
+## Um OP-Rechte zu vergeben, folge diesen Schritten
 
 1. <b>Starte die Konsole oder den Chat</b>
-    * Öffne die Server-Konsole, wenn Du direkten Zugang hast.
-    * Öffne den In-Game Chat, wenn Du über das Spiel verbunden bist.
+    - Öffne die Server-Konsole, wenn Du direkten Zugang hast.
+    - Öffne den In-Game Chat, wenn Du über das Spiel verbunden bist.
 
 2. <b>Gebe den Befehl ein</b><br>
     In der Server-Konsole oder In-Game gib den Befehl ein, um jemandem OP-Rechte zu geben. Der Befehl lautet:
+
     ```
     /op Spielername
     ```
+
     Ersetze `Spielername` durch den Namen des Spielers, dem Du OP-Rechte geben möchtest.
     ::: tip
     Bitte beachte, dass das Verwenden von Schrägstrichen "/" bei den Befehlen im Webinterface nicht erforderlich ist.
@@ -33,4 +35,4 @@ OP (Operator)-Rechte in Minecraft sind spezielle Berechtigungen, die einem Spiel
 4. <b>Überprüfe die Verleihung</b><br>
     Überprüfe, ob der Befehl erfolgreich ausgeführt wurde, indem Du den Befehl `/list` eingibst. Der Spieler, dem Du OP-Rechte verliehen hast, sollte in der Liste der OPs aufgeführt werden.
 
-### Das war's! Mit diesen Schritten solltest Du in der Lage sein, OP-Rechte auf Deinem Minecraft-Server über einen Befehl zu verleihen.
+### Das war's! Mit diesen Schritten solltest Du in der Lage sein, OP-Rechte auf Deinem Minecraft-Server über einen Befehl zu verleihen

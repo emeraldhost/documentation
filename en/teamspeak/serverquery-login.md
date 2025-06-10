@@ -25,10 +25,10 @@ In addition, server admin rights on the TeamSpeak are required to create a query
 8. if the program is installed and open, click on "Settings" in the left column and set a check mark under "Notes" -> "Allow connection to non-standard query port". The settings can then be closed.
 
 9. to connect now, write your noted data in the following columns:
-    * your IP address in column "Server address (without port):"&#x20;
-    * your query port in column "Queryport:"
-    * your user name in column "User (optional):"&#x20;
-    * your password in column "Password (optional):"
+    - your IP address in column "Server address (without port):"&#x20;
+    - your query port in column "Queryport:"
+    - your user name in column "User (optional):"&#x20;
+    - your password in column "Password (optional):"
 
     Now confirm your entries with "Connect".
 

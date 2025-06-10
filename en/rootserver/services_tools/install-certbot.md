@@ -13,7 +13,7 @@ With <strong>Certbot</strong> you can set up free TLS/SSL certificates from Let'
 1. <strong>Update system</strong>
 
     First update the system of your root server. Open the console and enter the following command:
-    
+
     ```
     apt update && apt upgrade -y
     ```
@@ -21,7 +21,7 @@ With <strong>Certbot</strong> you can set up free TLS/SSL certificates from Let'
 2. <strong>Install Snap</strong>
 
     Install Snap by entering the following commands in the console:
-    
+
     ```
     sudo apt install snapd
     sudo snap install core
@@ -42,13 +42,13 @@ With <strong>Certbot</strong> you can set up free TLS/SSL certificates from Let'
 
 5. use <strong>Certbot</strong>
 
-    * <strong>For Apache2:</strong>
+    - <strong>For Apache2:</strong>
 
     ```
     sudo certbot --apache
     ```
 
-    * <strong>For Nginx:</strong>
+    - <strong>For Nginx:</strong>
 
     ```
     sudo certbot --nginx
@@ -56,12 +56,14 @@ With <strong>Certbot</strong> you can set up free TLS/SSL certificates from Let'
 
 6. <strong>Check certificates</strong>
 
-    * You can find certificates under:
+    - You can find certificates under:
+
     ```
     /etc/letsencrypt/live/<your-domain>/
     ```
 
-    * Show status:
+    - Show status:
+
     ```
     sudo certbot certificates
     ```
@@ -69,6 +71,7 @@ With <strong>Certbot</strong> you can set up free TLS/SSL certificates from Let'
 7. <strong>Check automatic renewal</strong>
 
     Certbot automatically creates a cronjob. You can use the following command to test whether the automatic renewal works correctly:
+
     ```
     sudo certbot renew --dry-run
     ```
@@ -82,21 +85,20 @@ This method often installs outdated versions. Only use it if snap is not possibl
 1. <strong>Update system</strong>
 
     First update the system of your root server. Open the console and enter the following command:
-    
+
     ```
     apt update && apt upgrade -y
     ```
 
 2. install <strong>Certbot</strong>
 
-
-    * For Apache2:
+    - For Apache2:
 
     ```
     sudo apt install certbot python3-certbot-apache
     ```
 
-    * For Nginx:
+    - For Nginx:
 
     ```
     sudo apt install certbot python3-certbot-nginx
@@ -104,24 +106,28 @@ This method often installs outdated versions. Only use it if snap is not possibl
 
 3. use <strong>Certbot</strong>
 
-    * For Apache2:
+    - For Apache2:
+
     ```
     sudo certbot --apache
     ```
 
-    * For Nginx:
+    - For Nginx:
+
     ```
     sudo certbot --nginx
     ```
 
 4. <strong>Check certificates</strong>
 
-    * You can find certificates under:
+    - You can find certificates under:
+
     ```
     /etc/letsencrypt/live/<your-domain>/
     ```
 
-    * Show status:
+    - Show status:
+
     ```
     sudo certbot certificates
     ```
@@ -129,6 +135,7 @@ This method often installs outdated versions. Only use it if snap is not possibl
 5. <strong>Check automatic renewal</strong>
 
     Certbot automatically creates a cronjob. You can use the following command to test whether the automatic renewal works correctly:
+
     ```
     sudo certbot renew --dry-run
     ```

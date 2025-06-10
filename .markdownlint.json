@@ -1,0 +1,23 @@
+{
+  "default": true,
+  "MD001": { "heading-increment": true },
+  "MD003": { "style": "atx" },
+  "MD004": { "style": "ul" },
+  "MD005": { "indent": 4 },
+  "MD007": { "indent": 4 },
+  "MD009": true,
+  "MD010": true,
+  "MD013": { "line_length": 80 },
+  "MD018": true,
+  "MD022": true,
+  "MD023": true,
+  "MD026": true,
+  "MD034": true,
+  "MD040": true,
+  "MD047": true,
+  "MD058": true,
+  "MD059": true,
+  "MD036": true,
+  "MD027": true,
+  "MD012": true
+}

@@ -1,6 +1,6 @@
-# Welcome!
+# Welcome
 
-### A warm welcome to the central **knowledge base of** EmeraldHost!
+### A warm welcome to the central **knowledge base of** EmeraldHost
 
 Here we want to introduce our **products** to you as our customer and show you how to **make the best use of them**.
 

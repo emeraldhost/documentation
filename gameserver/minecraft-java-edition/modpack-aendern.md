@@ -8,7 +8,7 @@ description: Modpack bei einem Minecraft Server ändern
 
 Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfigurationseinstellungen, die von der Minecraft-Community oder Moddern erstellt werden. Diese Modifikationen und Anpassungen ändern oder erweitern das Gameplay, die Grafik, die Spielmechanik und mehr. Modpacks werden in der Regel so zusammengestellt, dass sie gut miteinander funktionieren und ein stimmiges Spielerlebnis bieten.
 
-## Bereitgestelltes Modpack von EmeraldHost auswählen:
+## Bereitgestelltes Modpack von EmeraldHost auswählen
 
 1. <b>Serververwaltung öffnen</b><br>
     Um ein Modpack auszuwählen, besuche bitte die Verwaltungsseite deines Minecraft-Servers auf EmeraldHost.
@@ -20,9 +20,9 @@ Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfiguratio
 
 3. <b>Neues Modpack auswählen</b><br>
     Oberhalb des Abschnitts "Installiertes Modpack" findest Du Informationen zu deinem aktuellen Modpack, das auf deinem Minecraft-Server installiert ist.
-    
+
     Unter "Verfügbare Modpacks" hast Du eine breite Auswahl an Modpacks, die Du unkompliziert auf deinen Minecraft-Server installieren kannst. Für unser Beispiel verwenden wir das Modpack "All the Mods 6".
-    
+
     Klicke auf das gewünschte Modpack, das Du installieren möchtest.
 
     <img src="../../assets/gameserver/minecraft-java-edition/modpack-aendern/guE5867Ybm.png" />
@@ -39,4 +39,4 @@ Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfiguratio
     Fehlt ein Modpack, kannst du gerne die Empfehlung für dieses Modpack in unserem [Community-Discord-Server](https://discord.com/invite/Gw38Ve3Nqr) abgeben.
     :::
 
-### Das war's! Mit diesen Schritten solltest Du in der Lage sein, ein Modpack für dein Minecraft Server zu installieren.
+### Das war's! Mit diesen Schritten solltest Du in der Lage sein, ein Modpack für dein Minecraft Server zu installieren

@@ -6,27 +6,28 @@ description: Add admins on a Euro Truck Simulator 2 server
 
 ## Requirements
 
-* Access to the server folder (either via an SFTP connection or direct access to the server files)
-  * You can find the SFTP access data in the overview of your game server.
-* Steam64_ID of the users to be added as admins
-* Text editor (such as Notepad, Notepad++, Windows Editor or Visual Studio Code)
+- Access to the server folder (either via an SFTP connection or direct access to the server files)
+    - You can find the SFTP access data in the overview of your game server.
+- Steam64_ID of the users to be added as admins
+- Text editor (such as Notepad, Notepad++, Windows Editor or Visual Studio Code)
 
 ## Steps
 
 1. <b>Locate the server configuration file</b>
-    * Establish an SFTP connection to your server.
-    * Navigate to the path "`.local/share/Euro Truck Simulator 2`".
+    - Establish an SFTP connection to your server.
+    - Navigate to the path "`.local/share/Euro Truck Simulator 2`".
 
 3. <b>Edit the configuration file</b>
-    * Search for the file named "`server_config.sii`".
-    * Open this file in a text editor.
+    - Search for the file named "`server_config.sii`".
+    - Open this file in a text editor.
 
 4. <b>Add the new admins</b>
-    * Search for the line starting with "`moderator_list:`".
-    * Change the number in the line "`moderator_list:`" to match the number of admins.
-    * Add the Steam64\_IDs of the users you want to add as admin. Each Steam64\_ID should be on a new line and look like this: "`moderator_list[X]:  Steam64_ID`". X stands for the corresponding position in the list.
+    - Search for the line starting with "`moderator_list:`".
+    - Change the number in the line "`moderator_list:`" to match the number of admins.
+    - Add the Steam64\_IDs of the users you want to add as admin. Each Steam64\_ID should be on a new line and look like this: "`moderator_list[X]:  Steam64_ID`". X stands for the corresponding position in the list.
 
       An example could look like this:
+
       ```
       moderator_list: 3
       moderator_list[0]: Steam64_ID
@@ -35,7 +36,7 @@ description: Add admins on a Euro Truck Simulator 2 server
       ```
 
 4. <b>Save the changes and restart the server</b>
-    * Save the changes to the configuration file and close the text editor
-    * Restart the server via the web interface.
+    - Save the changes to the configuration file and close the text editor
+    - Restart the server via the web interface.
 
-### That was it! With these steps you should be able to add new admins to your Euro Truck Simulator 2 server. Have fun playing!
+### That was it! With these steps you should be able to add new admins to your Euro Truck Simulator 2 server. Have fun playing

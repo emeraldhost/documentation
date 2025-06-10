@@ -33,7 +33,7 @@ description: Install PhpMyAdmin, Apache2 and MySQL on a root server (Ubuntu/Debi
 
 2. during the installation you will be asked to select a web server. Select Apache2 and press the Enter key &#x20;
 3. during the installation you will be asked to set a password for the PhpMyAdmin administrator account. Enter a secure password and save it in a safe place&#x20;
-4. when you are finished, open your web browser and enter the address "http://Server-Adresse/phpmyadmin/". You should be prompted to log in with your PhpMyAdmin administrator account.
+4. when you are finished, open your web browser and enter the address "<http://Server-Adresse/phpmyadmin/>". You should be prompted to log in with your PhpMyAdmin administrator account.
 
 ## Configure PhpMyAdmin:&#x20;
 
