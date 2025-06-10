@@ -1,10 +1,10 @@
 ---
-description: Minecraft Java Edition View Distance richtig anpassen – Anleitung für Vanilla, Spigot, Bukkit, Paper, Folia, Purpur und Pufferfish Server zur Optimierung der Performance und Sichtweite.
+description: Minecraft Bedrock Edition View Distance richtig anpassen – Anleitung für deinen Minecraft Server zur Optimierung der Performance und Sichtweite.
 ---
 
-# Minecraft Java Edition - View-Distance anpassen
+# Minecraft Bedrock Edition - View-Distance anpassen
 
-View Distance auf deinem Minecraft Java Edition Server anpassen.
+View Distance auf deinem Minecraft Bedrock Edition Server anpassen.
 
 ## Was ist die View-Distance?
 
@@ -17,7 +17,7 @@ Die ```view-distance``` bestimmt, wie viele Chunks ein Spieler rund um sich sehe
 
 ## Wie ändere ich die View-Distance?
 
-1. <strong>Gehe im Dashboard auf deinen Minecraft Java Edition Server.</strong>
+1. <strong>Gehe im Dashboard auf deinen Minecraft Bedrock Edition Server.</strong>
 
 2. <strong>Öffne den Datei-Browser.</strong>
 
@@ -26,10 +26,10 @@ Die ```view-distance``` bestimmt, wie viele Chunks ein Spieler rund um sich sehe
 4. <strong>Suche nach folgendem Eintrag:</strong>
 
 ```
-view-distance=10
+view-distance=32
 ```
 
-5. <strong>Ändere den Wert nach Wunsch (z.B. 8 oder 6).</strong>
+5. <strong>Ändere den Wert nach Wunsch (z.B. 12 oder 10).</strong>
 
 6. <strong>Speichere die Änderungen durch einen Klick auf „Speichern“.</strong>
 
@@ -37,6 +37,7 @@ view-distance=10
 
 ::: tip Empfehlung
 • 6–8 → Bei großen Spielerzahlen & wenig Serverleistung<br>
-• 10 → Standard-Einstellung<br>
-• 10+ → Nur bei starker Serverleistung
+• 10-12 → Ausgewogen zwischen Performance und Sichtweite<br>
+• 16-20 → Nur bei starker Serverleistung<br>
+• 32 → Standard-Einstellung
 :::

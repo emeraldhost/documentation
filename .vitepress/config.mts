@@ -47,6 +47,8 @@ export default defineConfig({
                 link: '/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
                 items: [
+                  { text: 'View-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/view-distance-aendern'},
+                  { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern'},
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen'},
                   { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren'},
                 ]
@@ -209,6 +211,8 @@ export default defineConfig({
                 link: '/en/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
                 items: [
+                  { text: 'Change view distance', link: '/en/gameserver/minecraft-bedrock-edition/change-view-distance'},
+                  { text: 'Change tick distance', link: '/en/gameserver/minecraft-bedrock-edition/change-tick-distance'},
                   { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs'},
                   { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist'},
                 ]
