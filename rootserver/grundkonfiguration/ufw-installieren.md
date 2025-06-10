@@ -12,66 +12,67 @@ UFW-Firewall auf dem Rootserver installieren und konfigurieren (Ubuntu/Debian)
 
 1. <strong>System aktualisieren</strong>
 
-Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
-
-```
-apt update && apt upgrade -y
-```
+   Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
+   
+   ```
+   apt update && apt upgrade -y
+   ```
 
 2. <strong>UFW installieren</strong>
 
-Installiere UFW, indem du folgenden Befehl in der Konsole eingibst:
-
-```
-apt install ufw
-```
+   Installiere UFW, indem du folgenden Befehl in der Konsole eingibst:
+   
+   ```
+   apt install ufw
+   ```
 
 3. <strong>Überprüfen, ob die Installation erfolgreich war</strong>
 
-Prüfe, ob die Installation erfolgreich war, indem du den folgenden Befehl eingibst:
-
-```
-ufw status
-```
-Standardeinstellung nach der Installation: ``` Status: inactive ```
+   Prüfe, ob die Installation erfolgreich war, indem du den folgenden Befehl eingibst:
+   
+   ```
+   ufw status
+   ```
+   Standardeinstellung nach der Installation: ``` Status: inactive ```
 
 4. <strong>Standardregeln setzen</strong>
 
-Wir empfehlen, alle eingehenden Verbindungen zu blockieren und nur die benötigten Ports freizugeben:
-
-```
-sudo ufw default deny incoming
-sudo ufw default allow outgoing
-```
+   Wir empfehlen, alle eingehenden Verbindungen zu blockieren und nur die benötigten Ports freizugeben:
+   
+   ```
+   sudo ufw default deny incoming
+   sudo ufw default allow outgoing
+   ```
 
 5. <strong>SSH-Port freigeben (Wichtig!)</strong>
 
-Öffne den Standard-SSH-Port (Port 22), wenn du ihn für den Remote-Zugriff auf den Server benötigst:
-
-```
-sudo ufw allow ssh
-```
-Falls dein SSH-Port von der Standardkonfiguration (Port 22) abweicht, nutze den korrekten Port z.B. 33
+   Öffne den Standard-SSH-Port (Port 22), wenn du ihn für den Remote-Zugriff auf den Server benötigst:
+   
+   ```
+   sudo ufw allow ssh
+   ```
+   
+   Falls dein SSH-Port von der Standardkonfiguration (Port 22) abweicht, nutze den korrekten Port z.B. 33
 
 
 6. <strong>Weitere Dienste freigeben (Optional)</strong>
 
-    • HTTP (Webserver):
+   HTTP (Webserver):
     ```
     sudo ufw allow http
     ```
 
-    • HTTPS (SSL)
+    HTTPS (SSL)
     ```
     sudo ufw allow https
     ```
 
-    • Minecraft (Standard-Port 25565)
+    Minecraft (Standard-Port 25565)
     ```
     sudo ufw allow 25565
     ```
 
-    • Teamspeak 3 (Beispiel)
+    Teamspeak 3 (Beispiel)
     ```
     sudo ufw allow 9987     # Voice
     sudo ufw allow 10011    # Query
@@ -94,17 +95,17 @@ sudo ufw status
 
 8. <strong>Regeln verwalten</strong>
 
-    • Regeln entfernen (z.B. HTTP-Port):
+    Regeln entfernen (z.B. HTTP-Port):
     ```
     sudo ufw delete allow http
     ```
 
-    • Alle Regeln anzeigen:
+    Alle Regeln anzeigen:
     ```
     sudo ufw status numbered
     ```
 
-    • UFW deaktivieren (Falls nötig)
+    UFW deaktivieren (Falls nötig)
     ```
     sudo ufw disable
     ```

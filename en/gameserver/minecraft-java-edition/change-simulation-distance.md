@@ -34,7 +34,7 @@ simulation-distance=10
 
 7. <strong>Restart the server so that the changes become active</strong>.
 
-::: tip recommendation
+::: tip Recommendation
 - 4-6 → For large numbers of players & low server performance<br>
 - 10 → Standard setting<br>
 - 10+ → Only with high server performance
