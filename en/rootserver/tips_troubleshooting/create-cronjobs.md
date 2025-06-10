@@ -34,6 +34,3 @@ There are also some special options for cronjobs:
 
 - @reboot enables the execution of a cronjob at system startup.
 - @yearly, @monthly, @weekly and @daily are predefined time intervals that are executed once a year, month, week or day.
-
-
-

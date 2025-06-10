@@ -9,12 +9,14 @@ Anleitung zur Installation der Webserver Apache2 und Nginx auf einem Rootserver.
 ## Apache2 und Nginx im vergleich
 
 <strong>Apache2:</strong>
+
 - Klassischer Webserver, sehr weit verbreitet
 - Unterstützt `.htaccess`-Dateien
 - Einfache Konfiguration, ideal für Einsteiger und WordPress-Hosting
 - Arbeitet prozessbasiert, was unter hoher Last zu Leistungseinbußen führen kann
 
 <strong>Nginx:</strong>
+
 - Moderner, ressourcenschonender Webserver
 - Arbeitet ereignisbasiert → sehr performant unter hoher Last
 - Kein `.htaccess`-Support
@@ -33,7 +35,7 @@ Anleitung zur Installation der Webserver Apache2 und Nginx auf einem Rootserver.
 2. <strong>Apache2 installieren</strong>
 
     Installiere Apache2, indem du folgenden Befehl in der Konsole eingibst:
-    
+
     ```
     sudo apt install apache2
     ```
@@ -41,7 +43,7 @@ Anleitung zur Installation der Webserver Apache2 und Nginx auf einem Rootserver.
 3. <strong>Standard-Webverzeichnis</strong>
 
     Nach der Installation kannst du dort die Dateien deiner Website hochladen:
-    
+
     ```
     /var/www/html
     ```
@@ -63,7 +65,7 @@ Anleitung zur Installation der Webserver Apache2 und Nginx auf einem Rootserver.
 1. <strong>System aktualisieren</strong>
 
     Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
-    
+
     ```
     apt update && apt upgrade -y
     ```
@@ -71,7 +73,7 @@ Anleitung zur Installation der Webserver Apache2 und Nginx auf einem Rootserver.
 2. <strong>Nginx installieren</strong>
 
     Installiere Nginx, indem du folgenden Befehl in der Konsole eingibst:
-    
+
     ```
     sudo apt install nginx
     ```
@@ -79,7 +81,7 @@ Anleitung zur Installation der Webserver Apache2 und Nginx auf einem Rootserver.
 3. <strong>Standard-Webverzeichnis</strong>
 
     Nach der Installation kannst du dort die Dateien deiner Website hochladen:
-    
+
     ```
     /var/www/html
     ```

@@ -9,12 +9,14 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
 ## Apache2 and Nginx in comparison
 
 <strong>Apache2:</strong>
+
 - Classic web server, very widely used
 - Supports ``` .htaccess ``` files
 - Simple configuration, ideal for beginners and WordPress hosting
 - Works process-based, which can lead to performance losses under high load
 
 <strong>Nginx:</strong>
+
 - Modern, resource-saving web server
 - Works event-based → very performant under high load
 - No ``` .htaccess ``` support
@@ -25,7 +27,7 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
 1. <strong>Update system</strong>
 
     First update the system of your root server. Open the console and enter the following command:
-    
+
     ```
     apt update && apt upgrade -y
     ```
@@ -33,7 +35,7 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
 2. <strong>Install Apache2</strong>
 
     Install Apache2 by entering the following command in the console:
-    
+
     ```
     sudo apt install apache2
     ```
@@ -41,7 +43,7 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
 3. <strong>Default web directory</strong>
 
     After installation, you can upload your website files there:
-    
+
     ```
     /var/www/html
     ```
@@ -63,7 +65,7 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
 1. <strong>Update system</strong>
 
     First update the system of your root server. Open the console and enter the following command:
-    
+
     ```
     apt update && apt upgrade -y
     ```
@@ -71,7 +73,7 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
 2. <strong>Install Nginx</strong>
 
     Install Nginx by entering the following command in the console:
-    
+
     ```
     sudo apt install nginx
     ```
@@ -79,7 +81,7 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
 3. <strong>Default web directory</strong>
 
     After installation, you can upload your website files there:
-    
+
     ```
     /var/www/html
     ```
@@ -95,7 +97,7 @@ Instructions for installing the web servers Apache2 and Nginx on a root server.
     sudo systemctl restart nginx     # Restarts Nginx
     sudo systemctl enable nginx     # Activates Nginx at system startup
     ```
-   
+
 ::: info
 Here you can find instructions on how to install an SSL certificate: [Instructions](install-certbot.md)
 :::

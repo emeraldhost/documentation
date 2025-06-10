@@ -8,14 +8,14 @@ The MOTD (Message of the Day) of a Minecraft server is a message that is display
 
 ## Requirements
 
-* Access to the server folder (either via an SFTP connection or direct access to the server files)
-  * The SFTP access data can be found in the overview of your game server.
+- Access to the server folder (either via an SFTP connection or direct access to the server files)
+    - The SFTP access data can be found in the overview of your game server.
 
-## To change the MOTD, follow these steps:
+## To change the MOTD, follow these steps
 
 1. <b>Access the server</b>
-    * If you have an SFTP connection, you can log in with your SFTP access data.
-    * If you have direct access to the server files, navigate to the directory where the Minecraft server is located.
+    - If you have an SFTP connection, you can log in with your SFTP access data.
+    - If you have direct access to the server files, navigate to the directory where the Minecraft server is located.
 
 2. <b>Find the server settings</b><br>
     Search for the file that contains the server settings. Usually this is the `server.properties` file in the root directory of the server.
@@ -25,12 +25,14 @@ The MOTD (Message of the Day) of a Minecraft server is a message that is display
 
 4. <b>Search for motd</b><br>
     In the `server.properties` file, search for the entry `motd`. This entry defines the MOTD. It normally looks like this:
+
     ```
     motd=Your message here.
     ```
 
 5. <b>Change the MOTD text</b><br>
     Change the text in quotation marks after the equal sign to put your desired message. For example:
+
     ```
     motd=Welcome to our server!
     ```
@@ -41,7 +43,7 @@ The MOTD (Message of the Day) of a Minecraft server is a message that is display
 7. <b>Restart the server</b><br>
     Restart the Minecraft server for the changes to take effect.
 
-### That's it! With these steps, you should be able to successfully change the MOTD on your Minecraft server.
+### That's it! With these steps, you should be able to successfully change the MOTD on your Minecraft server
 
 :::info
 Pssst... We also have a [Community Discord](https://discord.emeraldhost.de/) 🤫 Come by!

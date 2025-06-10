@@ -79,8 +79,8 @@ su minecraft -l
 ```
 
 3. version selection (for example with Spigot 1.19.3)
-   * [Spigot Download](https://getbukkit.org/download/spigot)
-   * [Craftbukkit Download](https://getbukkit.org/download/craftbukkit)
+   - [Spigot Download](https://getbukkit.org/download/spigot)
+   - [Craftbukkit Download](https://getbukkit.org/download/craftbukkit)
 
 ```
 wget https://download.getbukkit.org/spigot/spigot-1.19.3.jar

@@ -34,6 +34,3 @@ Darüber hinaus gibt es noch einige spezielle Optionen für Cronjobs:
 
 - @reboot ermöglicht die Ausführung eines Cronjobs beim Systemstart.
 - @yearly, @monthly, @weekly und @daily sind vordefinierte Zeitintervalle, die entsprechend einmal pro Jahr, Monat, Woche oder Tag ausgeführt werden.
-
-
-

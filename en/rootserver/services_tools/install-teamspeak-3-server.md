@@ -11,7 +11,7 @@ We recommend the program "[PuTTY](https://www.chiark.greenend.org.uk/\~sgtatham/
     ```
     apt update && apt upgrade -y
     ```
-    
+
     ```
     apt install sudo bzip2
     ```
@@ -21,7 +21,7 @@ We recommend the program "[PuTTY](https://www.chiark.greenend.org.uk/\~sgtatham/
     ```
     adduser teamspeak --disabled-login
     ```
-    
+
     ```
     su teamspeak -l
     ```
@@ -32,15 +32,15 @@ We recommend the program "[PuTTY](https://www.chiark.greenend.org.uk/\~sgtatham/
     ```
     wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_linux_amd64-3.13.7.tar.bz2
     ```
-    
+
     ```
     tar xvfj teamspeak3-server_linux_amd64-3.13.7.tar.bz2
     ```
-    
+
     ```
     rm teamspeak3-server_linux_amd64-3.13.7.tar.bz2
     ```
-    
+
     ```
     cd teamspeak3-server_linux_amd64
     ```
@@ -50,11 +50,11 @@ We recommend the program "[PuTTY](https://www.chiark.greenend.org.uk/\~sgtatham/
     ```
     touch .ts3server_license_accepted
     ```
-    
+
     ```
     chmod +x ts3server_startscript.sh
     ```
-    
+
     ```
     ./ts3server_startscript.sh start
     ```

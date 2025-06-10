@@ -1,6 +1,6 @@
 # Installationshilfe
 
-## Herzlich Willkommen!
+## Herzlich Willkommen
 
 Hier findest Du Schritt-für-Schritt-Anweisungen, um verschiedene Anwendungen auf Deinem Server zu installieren und zu konfigurieren. Wir hoffen, dass Dir diese Anleitungen hilfreich sein werden und dass Du durch unsere detaillierten Anweisungen in der Lage sein wirst, die Installation erfolgreich abzuschließen.
 

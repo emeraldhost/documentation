@@ -8,7 +8,7 @@ description: Version bei einem Minecraft Server ändern
 
 In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgabe des Spiels. Minecraft hat im Laufe der Jahre verschiedene Versionen veröffentlicht, die sowohl Änderungen am Gameplay als auch an den Spielmechaniken, Grafiken und Funktionen mit sich bringen.
 
-## Version bei einem Minecraft Server ändern:
+## Version bei einem Minecraft Server ändern
 
 1. <b>Serververwaltung öffnen</b><br>
     Um ein Version auszuwählen, besuche bitte die Verwaltungsseite deines Minecraft-Servers auf EmeraldHost.
@@ -22,10 +22,11 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
     <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_vaH22UQ5MP.png" />
 
     Unter der Eingabe "Minecraft Version" kannst Du nun die gewünschte Minecraft-Version eingeben. Die Version sollte der offiziellen Minecraft-Versionierung entsprechen.
-    
+
     Beispiel: `1.20` oder `1.19` oder `1.18` oder `1.17` oder `1.16`, ...
 
     Je nach ausgewählter Minecraft-Version sollte eine andere Java-Version für das "Docker Image" ausgewählt werden. Hier ist eine Liste von Minecraft-Versionen und den entsprechenden Docker-Images:
+
     | Minecraft Version          | Docker Image       |
     | -------------------------- | ------------------ |
     | 1.17 und höher             | Java 16 oder höher |
@@ -38,13 +39,14 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
 
     Des Weiteren muss die "Build Number" passend zur zuvor eingegebenen Minecraft-Version angegeben werden. Wir installieren standardmäßig PaperSpigot auf allen Minecraft-Servern. Falls die Serversoftware geändert wurde, sollte die entsprechende Buildnummer von der Website der jeweiligen Serversoftware ermittelt werden.
 
-    Hier findest Du alle Minecraft-Versionen und zugehörigen Buildnummern von PaperSpigot: https://papermc.io/downloads/all
-    
+    Hier findest Du alle Minecraft-Versionen und zugehörigen Buildnummern von PaperSpigot: <https://papermc.io/downloads/all>
+
     <img src="../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_Vmbm9yAOL3.png" />
-    
+
     Du kannst auf der linken Seite die gewünschte Minecraft-Version auswählen, und für jede Version findest du in der Mitte alle zugehörigen Builds. Bei EmeraldHost musst du die Buildnummer ohne das "#" eingeben.
 
     Hier ist eine Liste von Buildnummern, die den jeweiligen Minecraft-Versionen entsprechen:
+
     | Minecraft Version | Paper Build |
     | ----------------- | ----------- |
     | 1.20              | 17          |
@@ -71,4 +73,4 @@ In Minecraft bezieht sich eine "Version" auf eine bestimmte Variante oder Ausgab
 
     Die Fertigstellung des Vorgangs wird angezeigt, sobald dein Minecraft-Server wieder online ist.
 
-### Das war's! Mit diesen Schritten solltest Du in der Lage sein, eine andere Version für dein Minecraft Server zu installieren.
+### Das war's! Mit diesen Schritten solltest Du in der Lage sein, eine andere Version für dein Minecraft Server zu installieren

@@ -26,9 +26,9 @@ Klicke nun auf das leere Feld unter "Name".&#x20;
 
 Trage nun folgende Daten in das geöffnete Fenster ein:
 
-* Service Name -> \_ts3
-* Protokoll -> UDP
-* Name -> Kann leer gelassen werden außer Du willst mit z.B. "ts." vor deiner Domain connecten
+- Service Name -> \_ts3
+- Protokoll -> UDP
+- Name -> Kann leer gelassen werden außer Du willst mit z.B. "ts." vor deiner Domain connecten
 
 Bestätige die Eingaben nun mit "Speichern".
 
@@ -38,10 +38,10 @@ Klicke nun auf das leere Feld unter "Ziel".&#x20;
 
 Trage nun folgende Daten in das geöffnete Fenster ein:
 
-* Priorität -> 0
-* Gewicht -> 5
-* Port -> Der Port deines TeamSpeak-Servers
-* Ziel -> Deine Domain | Solltest Du unter "Name" eben etwas angegeben haben, so muss dies mit einem "." davor
+- Priorität -> 0
+- Gewicht -> 5
+- Port -> Der Port deines TeamSpeak-Servers
+- Ziel -> Deine Domain | Solltest Du unter "Name" eben etwas angegeben haben, so muss dies mit einem "." davor
 
 Bestätige nun deine Eingaben mit "Speichern".
 

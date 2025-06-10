@@ -11,8 +11,9 @@ Tick-Distance auf deinem Minecraft Bedrock Edition Server anpassen.
 Die ```tick-distance``` bestimmt, wie viele Chunks rund um den Spieler aktiv berechnet und getickt werden. Das bedeutet: In diesem Bereich laufen Prozesse wie z. B. Redstone-Schaltungen, Mob-Bewegung und -Spawning, Pflanzenwachstum sowie Ticks von Feuer, Wasser und Tropfstein. Außerhalb dieses Bereichs werden Chunks nur geladen, solange sie innerhalb der View-Distance liegen - sie werden jedoch nicht aktiv verarbeitet, sondern sind sozusagen „eingefroren“.
 
 ## Welche Auswirkungen hat die Einstellung auf meinen Server?
-* Zu niedrige Werte können dazu führen, dass Farmen, Redstone oder Mobs außerhalb des Spielers nicht funktionieren.<br>
-* Höhere Werte bedeuten mehr Serverlast, besonders bei vielen Spielern oder umfangreichen Systemen.
+
+- Zu niedrige Werte können dazu führen, dass Farmen, Redstone oder Mobs außerhalb des Spielers nicht funktionieren.<br>
+- Höhere Werte bedeuten mehr Serverlast, besonders bei vielen Spielern oder umfangreichen Systemen.
 
 ## Wie ändere ich die Tick-Distance?
 
@@ -35,7 +36,8 @@ Die ```tick-distance``` bestimmt, wie viele Chunks rund um den Spieler aktiv ber
 7. <strong>Starte den Server neu, damit die Änderungen aktiv werden.</strong>
 
 ::: tip Empfehlung
-* 4 → Standard-Einstellung<br>
-* 6-8 → Ausgewogen zwischen Farmen & Welterkundung<br>
-* 10-12 → Nur bei starker Serverleistung
+
+- 4 → Standard-Einstellung<br>
+- 6-8 → Ausgewogen zwischen Farmen & Welterkundung<br>
+- 10-12 → Nur bei starker Serverleistung
 :::
