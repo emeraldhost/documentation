@@ -33,6 +33,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren'},
+                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-java-edition/slots-erhöhen'},
                   { text: 'View-Distance ändern', link: '/gameserver/minecraft-java-edition/view-distance-aendern'},
                   { text: 'Simulation-Distance ändern', link: '/gameserver/minecraft-java-edition/simulation-distance-aendern'},
                   { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern'},
@@ -47,6 +48,7 @@ export default defineConfig({
                 link: '/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
                 items: [
+                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-bedrock-edition/slots-erhöhen'},
                   { text: 'View-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/view-distance-aendern'},
                   { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern'},
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen'},
@@ -197,6 +199,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Accept Minecraft EULA', link: '/en/gameserver/minecraft-java-edition/accept-minecraft-eula'},
+                  { text: 'Increase slots', link: '/en/gameserver/minecraft-java-edition/increase-slots'},
                   { text: 'Change view distance', link: '/en/gameserver/minecraft-java-edition/change-view-distance'},
                   { text: 'Change simulation distance', link: '/en/gameserver/minecraft-java-edition/change-simulation-distance'},
                   { text: 'Change MOTD', link: '/en/gameserver/minecraft-java-edition/change-motd'},
@@ -211,6 +214,7 @@ export default defineConfig({
                 link: '/en/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
                 items: [
+                  { text: 'Increase slots', link: '/en/gameserver/minecraft-bedrock-edition/increase-slots'},
                   { text: 'Change view distance', link: '/en/gameserver/minecraft-bedrock-edition/change-view-distance'},
                   { text: 'Change tick distance', link: '/en/gameserver/minecraft-bedrock-edition/change-tick-distance'},
                   { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs'},
