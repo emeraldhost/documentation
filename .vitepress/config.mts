@@ -41,6 +41,19 @@ export default defineConfig({
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben'},
                   { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern'},
                   { text: 'Version ändern', link: '/gameserver/minecraft-java-edition/version-aendern'},
+                  
+                
+                {
+                text: 'Befehle',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-java-edition/befehle/tp-befehl-verwenden'},
+                ]
+              },
+                
+                
+                
                 ]
               },
               {
@@ -53,6 +66,16 @@ export default defineConfig({
                   { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern'},
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen'},
                   { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren'},
+                
+                {
+                text: 'Befehle',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-bedrock-edition/befehle/tp-befehl-verwenden'},
+                ]
+              },
+                
                 ]
               },
               {
@@ -207,6 +230,16 @@ export default defineConfig({
                   { text: 'Grant OP rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights'},
                   { text: 'Change Modpack', link: '/en/gameserver/minecraft-java-edition/change-modpack'},
                   { text: 'Change Version', link: '/en/gameserver/minecraft-java-edition/change-version'},
+                
+                {
+                text: 'Commands',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Use Tp command', link: '/en/gameserver/minecraft-java-edition/commands/use-tp-command'},
+                ]
+              },
+                
                 ]
               },
               {
@@ -219,6 +252,16 @@ export default defineConfig({
                   { text: 'Change tick distance', link: '/en/gameserver/minecraft-bedrock-edition/change-tick-distance'},
                   { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs'},
                   { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist'},
+                
+                {
+                text: 'Commands',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Use Tp command', link: '/en/gameserver/minecraft-bedrock-edition/commands/use-tp-command'},
+                ]
+              },
+
                 ]
               },
               {
