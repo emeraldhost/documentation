@@ -1,38 +1,98 @@
 ---
-description: Granting OP rights via commands on Minecraft servers
+description: Step-by-step instructions on how to assign OP rights in Minecraft Java Edition via the in-game chat, the server console or the ops.json file.
 ---
 
-# Grant OP rights
+# Assign OP rights in Minecraft Java Edition: In-game chat, server console & ops.json
 
-OP (Operator) rights in Minecraft are special permissions that give a player more power and control on a server. Essentially, OP rights allow you to execute certain commands and make changes to the game world that normal players cannot. For example, a player with OP rights can create or destroy blocks, teleport other players, change the time and weather and perform various administrative tasks at command level.
+## Assign OP rights via the in-game chat
 
-## Prerequisites
+::: warning Attention
+To execute this command, you must already have OP rights. If you do not have these, use the [console](#console) or the [ops.json](#ops.json) method instead.
+:::
 
-- Access to the server console or the in-game chat
-- Name of the player you want to give OP rights to
+::: info Info
+When assigning OP rights, players automatically receive the OP level that is defined in the ```server.properties``` file under the ```op-permission-level``` entry.
+:::
 
-## To grant OP rights, follow these steps
+1. <strong>Log in to your Minecraft server</strong>.
 
-1. <b>Start the console or chat</b>
-    - Open the server console if you have direct access.
-    - Open the in-game chat if you are connected via the game
+2. <strong>Open the chat. By default with the ```t```</strong> key
 
-2. <b>Enter the command</b><br>
-    In the server console or in-game, enter the command to give someone OP rights. The command is:
+3. <strong>Enter the following command:</strong>
 
     ```
-    /op player name
+    /op <player name>     # Makes the player an operator
     ```
 
-    Replace `player name` with the name of the player you want to give OP rights to.
-    ::: tip
-    Please note that the use of slashes "/" in the commands in the web interface is not required.
-    :::
 
-3. <b>Confirm the command</b><br>
-    Press "Enter" or click on the button to execute the command.
+## Assign OP rights via the server console {#console}
 
-4. <b>Check the award</b><br>
-    Check whether the command was executed successfully by entering the command `/list`. The player to whom you have granted OP rights should appear in the list of OPs.
+::: warning Attention
+All commands must be entered in the console without ```/```!
+:::
 
-### That's it! With these steps you should be able to grant OP rights on your Minecraft server via a command
+::: info Info
+When assigning OP rights, players automatically receive the OP level that is defined in the ```server.properties``` file under the ```op-permission-level``` entry.
+:::
+
+1. <strong>Open your dashboard and select your Minecraft Java Edition server</strong>.
+
+2. <strong>Navigate to the server console under the menu item "Overview"</strong>.
+
+3. <strong>Enter the following command:</strong>
+
+    ```
+    op <player name>     # Makes the player an operator
+    ```
+
+## Assign OP rights via the ops.json file {#ops.json}
+
+1. <strong>Open your dashboard and select your Minecraft Java Edition server</strong>.
+
+2. <strong>Go to the file browser</strong>.
+
+3. <strong>Open the file ```ops.json```.</strong>
+
+4. <strong>Insert the following entry within the square brackets ```[]```:</strong>
+
+    ```
+    {
+		"uuid": "<playeruuid>",
+		"name": "<game name>",
+		"level": 4,
+		"bypassesPlayerLimit": false
+	}
+    ```
+
+::: info Info
+If you want to enter several players, separate the entries with a comma ```,```:
+```
+    {
+		"uuid": "<player1uuid>",
+		"name": "<player1name>",
+		"level": 4,
+		"bypassesPlayerLimit": false
+	},
+    {
+		"uuid": "<player2uuid>",
+		"name": "<player2name>",
+		"level": 4,
+		"bypassesPlayerLimit": false
+	}
+```
+:::
+
+<strong>Explanation of the OP levels</strong>
+
+- Level 1: Can change protected spawn areas.
+- Level 2: Can edit command blocks and use basic commands (except level 3-4 commands).
+- Level 3: May execute sanctions such as ```/kick```, ```/ban``` etc.
+- Level 4: Has full administrative control, including server commands such as ```/stop```.
+
+::: info Info
+```bypassesPlayerLimit``` allows the player to join the server even if the player limit has been reached.
+:::
+
+::: tip Tip
+You can find out the UUID of a player e.g. at <strong>NameMC</strong> on the basis of his name.
+:::

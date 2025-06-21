@@ -1,38 +1,98 @@
 ---
-description: Verleihung von OP-Rechten über Befehle auf Minecraft-Servern
+description: Schritt-für-Schritt-Anleitung, wie du in Minecraft Java Edition OP-Rechte über den Ingame-Chat, die Server-Konsole oder die ops.json-Datei vergibst.
 ---
 
-# OP-Rechte vergeben
+# OP-Rechte in Minecraft Java Edition vergeben: Ingame-Chat, Server-Konsole & ops.json
 
-OP (Operator)-Rechte in Minecraft sind spezielle Berechtigungen, die einem Spieler auf einem Server mehr Macht und Kontrolle verleihen. Im Wesentlichen ermöglichen OP-Rechte, bestimmte Befehle auszuführen und Veränderungen in der Spielwelt vorzunehmen, die normale Spieler nicht können. Ein Spieler mit OP-Rechten kann beispielsweise Blöcke erstellen oder zerstören, andere Spieler teleportieren, Zeit und Wetter ändern und auf Befehlsebene verschiedene Verwaltungsaufgaben durchführen.
+## OP-Rechte über den Ingame-Chat vergeben
 
-## Voraussetzungen
+::: warning Achtung
+Um diesen Befehl ausführen zu können, musst Du bereits OP-Rechte besitzen. Falls Du diese nicht hast, verwende stattdessen die [Konsole](#konsole) oder die [ops.json](#ops.json)-Methode.
+:::
 
-- Zugriff auf die Server-Konsole oder den In-Game Chat
-- Name des Spielers, dem Du OP-Rechte geben möchtest
+::: info Info
+Spieler erhalten beim Vergeben von OP-Rechten automatisch das OP-Level, das in der Datei `server.properties` unter dem Eintrag `op-permission-level` festgelegt ist.
+:::
 
-## Um OP-Rechte zu vergeben, folge diesen Schritten
+1. <strong>Logge dich auf Deinen Minecraft-Server ein.</strong>
 
-1. <b>Starte die Konsole oder den Chat</b>
-    - Öffne die Server-Konsole, wenn Du direkten Zugang hast.
-    - Öffne den In-Game Chat, wenn Du über das Spiel verbunden bist.
+2. <strong>Öffne den Chat. Standardmäßig mit der Taste ```t```</strong>
 
-2. <b>Gebe den Befehl ein</b><br>
-    In der Server-Konsole oder In-Game gib den Befehl ein, um jemandem OP-Rechte zu geben. Der Befehl lautet:
+3. <strong>Gib folgenden Befehl ein:</strong>
 
     ```
-    /op Spielername
+    /op <spielername>     # Macht den Spieler zum Operator
     ```
 
-    Ersetze `Spielername` durch den Namen des Spielers, dem Du OP-Rechte geben möchtest.
-    ::: tip
-    Bitte beachte, dass das Verwenden von Schrägstrichen "/" bei den Befehlen im Webinterface nicht erforderlich ist.
-    :::
 
-3. <b>Bestätige den Befehl</b><br>
-    Drücke "Enter" oder klicke auf die Schaltfläche, um den Befehl auszuführen.
+## OP-Rechte über die Server-Konsole vergeben {#konsole}
 
-4. <b>Überprüfe die Verleihung</b><br>
-    Überprüfe, ob der Befehl erfolgreich ausgeführt wurde, indem Du den Befehl `/list` eingibst. Der Spieler, dem Du OP-Rechte verliehen hast, sollte in der Liste der OPs aufgeführt werden.
+::: warning Achtung
+In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
+:::
 
-### Das war's! Mit diesen Schritten solltest Du in der Lage sein, OP-Rechte auf Deinem Minecraft-Server über einen Befehl zu verleihen
+::: info Info
+Spieler erhalten beim Vergeben von OP-Rechten automatisch das OP-Level, das in der Datei `server.properties` unter dem Eintrag `op-permission-level` festgelegt ist.
+:::
+
+1. <strong>Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.</strong>
+
+2. <strong>Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".</strong>
+
+3. <strong>Gib folgenden Befehl ein:</strong>
+
+    ```
+    op <spielername>     # Macht den Spieler zum Operator
+    ```
+
+## OP-Rechte über die Datei ops.json vergeben {#ops.json}
+
+1. <strong>Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.</strong>
+
+2. <strong>Gehe zum Datei-Browser.</strong>
+
+3. <strong>Öffne die Datei ```ops.json```.</strong>
+
+4. <strong>Füge innerhalb der eckigen Klammern ```[]``` folgenden Eintrag ein:</strong>
+
+    ```
+    {
+		"uuid": "<spieleruuid>",
+		"name": "<spielename>",
+		"level": 4,
+		"bypassesPlayerLimit": false
+	}
+    ```
+
+::: info Info
+Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komma ```,```:
+```
+    {
+		"uuid": "<spieler1uuid>",
+		"name": "<spieler1name>",
+		"level": 4,
+		"bypassesPlayerLimit": false
+	},
+    {
+		"uuid": "<spieler2uuid>",
+		"name": "<spieler2name>",
+		"level": 4,
+		"bypassesPlayerLimit": false
+	}
+```
+:::
+
+<strong>Erklärung der OP-Level</strong>
+
+- Level 1: Kann geschützte Spawn-Bereiche verändern.
+- Level 2: Kann Befehlsblöcke bearbeiten und grundlegende Befehle nutzen (ausgenommen Level 3–4 Befehle).
+- Level 3: Darf Sanktionen wie ```/kick```, ```/ban``` usw. ausführen.
+- Level 4: Hat volle administrative Kontrolle, inkl. Serverbefehlen wie ```/stop```.
+
+::: info Info
+```bypassesPlayerLimit``` erlaubt es dem Spieler, auch dann dem Server beizutreten, wenn das Spielerlimit erreicht ist.
+:::
+
+::: tip Tipp
+Die UUID eines Spielers kannst Du z.B. bei <strong>NameMC</strong> anhand seines Namens herausfinden.
+:::
