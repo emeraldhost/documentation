@@ -97,6 +97,14 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Arma Reforger',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-ändern'},
+                ]
+              },
+              {
                 text: 'Terraria: tModLoader',
                 link: '/gameserver/terraria-tmodloader',
                 collapsed: true,
@@ -281,6 +289,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/american-truck-simulator/add-mods'}
+                ]
+              },
+              {
+                text: 'Arma Reforger',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Change scenario', link: '/en/gameserver/arma-reforger/change-scenario'},
                 ]
               },
               {
