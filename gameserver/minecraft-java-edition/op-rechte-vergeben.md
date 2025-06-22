@@ -84,10 +84,10 @@ Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komm
 
 <strong>Erklärung der OP-Level</strong>
 
-- Level 1: Kann geschützte Spawn-Bereiche verändern.
-- Level 2: Kann Befehlsblöcke bearbeiten und grundlegende Befehle nutzen (ausgenommen Level 3–4 Befehle).
-- Level 3: Darf Sanktionen wie ```/kick```, ```/ban``` usw. ausführen.
-- Level 4: Hat volle administrative Kontrolle, inkl. Serverbefehlen wie ```/stop```.
+- <strong>Level 1:</strong> Kann geschützte Spawn-Bereiche verändern.
+- <strong>Level 2:</strong> Kann Befehlsblöcke bearbeiten und grundlegende Befehle nutzen (ausgenommen Level 3–4 Befehle).
+- <strong>Level 3:</strong> Darf Sanktionen wie ```/kick```, ```/ban``` usw. ausführen.
+- <strong>Level 4:</strong> Hat volle administrative Kontrolle, inkl. Serverbefehlen wie ```/stop```.
 
 ::: info Info
 ```bypassesPlayerLimit``` erlaubt es dem Spieler, auch dann dem Server beizutreten, wenn das Spielerlimit erreicht ist.

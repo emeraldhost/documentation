@@ -66,6 +66,7 @@ export default defineConfig({
                   { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern'},
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen'},
                   { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren'},
+                  { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-bedrock-edition/op-rechte-vergeben'},
                 
                 {
                 text: 'Befehle',
@@ -252,6 +253,7 @@ export default defineConfig({
                   { text: 'Change tick distance', link: '/en/gameserver/minecraft-bedrock-edition/change-tick-distance'},
                   { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs'},
                   { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist'},
+                  { text: 'Grant OP rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights'},
                 
                 {
                 text: 'Commands',

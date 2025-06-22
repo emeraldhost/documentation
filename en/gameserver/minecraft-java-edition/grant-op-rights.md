@@ -84,10 +84,10 @@ If you want to enter several players, separate the entries with a comma ```,```:
 
 <strong>Explanation of the OP levels</strong>
 
-- Level 1: Can change protected spawn areas.
-- Level 2: Can edit command blocks and use basic commands (except level 3-4 commands).
-- Level 3: May execute sanctions such as ```/kick```, ```/ban``` etc.
-- Level 4: Has full administrative control, including server commands such as ```/stop```.
+- <strong>Level 1:</strong> Can change protected spawn areas.
+- <strong>Level 2:</strong> Can edit command blocks and use basic commands (except level 3-4 commands).
+- <strong>Level 3:</strong> May execute sanctions such as ```/kick```, ```/ban``` etc.
+- <strong>Level 4:</strong> Has full administrative control, including server commands such as ```/stop```.
 
 ::: info Info
 ```bypassesPlayerLimit``` allows the player to join the server even if the player limit has been reached.
