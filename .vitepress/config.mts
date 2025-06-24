@@ -27,7 +27,9 @@ export default defineConfig({
           {
             text: 'Gameserver',
             items: [
+              { text: 'SFTP-Verbindung Herstellen', link: '/gameserver/sftp-verbindung-herstellen'},
               {
+
                 text: 'Minecraft Java Edition',
                 link: '/gameserver/minecraft-java-edition',
                 collapsed: true,
@@ -225,6 +227,7 @@ export default defineConfig({
           {
             text: 'Gameserver',
             items: [
+              { text: 'Establish SFTP connection', link: '/en/gameserver/establish-sftp-connection'},
               {
                 text: 'Minecraft Java Edition',
                 link: '/en/gameserver/minecraft-java-edition',
