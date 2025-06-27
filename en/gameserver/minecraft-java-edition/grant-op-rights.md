@@ -24,7 +24,6 @@ When assigning OP rights, players automatically receive the OP level that is def
     /op <player name>     # Makes the player an operator
     ```
 
-
 ## Assign OP rights via the server console {#console}
 
 ::: warning Attention
@@ -57,29 +56,31 @@ When assigning OP rights, players automatically receive the OP level that is def
 
     ```
     {
-		"uuid": "<playeruuid>",
-		"name": "<game name>",
-		"level": 4,
-		"bypassesPlayerLimit": false
-	}
+        "uuid": "<playeruuid>",
+        "name": "<game name>",
+        "level": 4,
+        "bypassesPlayerLimit": false
+    }
     ```
 
 ::: info Info
 If you want to enter several players, separate the entries with a comma ```,```:
+
 ```
-    {
-		"uuid": "<player1uuid>",
-		"name": "<player1name>",
-		"level": 4,
-		"bypassesPlayerLimit": false
-	},
-    {
-		"uuid": "<player2uuid>",
-		"name": "<player2name>",
-		"level": 4,
-		"bypassesPlayerLimit": false
-	}
+{
+    "uuid": "<player1uuid>",
+    "name": "<player1name>",
+    "level": 4,
+    "bypassesPlayerLimit": false
+},
+{
+    "uuid": "<player2uuid>",
+    "name": "<player2name>",
+    "level": 4,
+    "bypassesPlayerLimit": false
+}
 ```
+
 :::
 
 <strong>Explanation of the OP levels</strong>

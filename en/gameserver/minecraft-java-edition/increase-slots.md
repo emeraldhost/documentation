@@ -2,7 +2,7 @@
 description: Minecraft Java Edition Gameserver Slots Increase - Step-by-step guide for Vanilla, Spigot, Bukkit, Paper, Folia, Purple and Pufferfish servers.
 ---
 
-## How can I increase the slots of my Minecraft Java Edition server?
+# How can I increase the slots of my Minecraft Java Edition server?
 
 1. <strong>Open your dashboard and select your Minecraft Java Edition server</strong>.
 

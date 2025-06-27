@@ -2,7 +2,7 @@
 description: 'How to upload your own world to an Enshrouded server'
 ---
 
-# Upload savegame
+# Upload savegame to an Enshrouded server
 
 ## Prerequisites
 

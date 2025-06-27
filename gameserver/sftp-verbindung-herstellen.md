@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du dich per SFTP mit deinem Server verbindest, um Dateien zu bearbeiten, hochzuladen oder zu löschen.
 ---
 
-## SFTP-Verbindung herstellen
+# SFTP-Verbindung mit Deinen Gameserver herstellen
 
 1. <strong>Öffne Dein Dashboard und wähle Deinen Server aus.</strong>
 

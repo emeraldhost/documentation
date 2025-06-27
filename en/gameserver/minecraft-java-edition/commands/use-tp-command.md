@@ -2,9 +2,9 @@
 description: Minecraft Java Edition Tp Command - Step-by-step guide to teleporting on your server.
 ---
 
-## How do I use the teleport command in Minecraft Java Edition in-game chat and console?
+# How do I use the teleport command in Minecraft Java Edition in-game chat and console?
 
-## Use teleport commands in the in-game chat:
+## Use teleport commands in the in-game chat
 
 ::: warning Attention
 Make sure you have the necessary rights to execute the command! Here you can find instructions on how to give yourself OP rights: [Instructions](../grant-op-rights.md)
@@ -23,8 +23,7 @@ Make sure you have the necessary rights to execute the command! Here you can fin
     /tp <player name> <X> <Y> <Z> # Teleports a player to a coordinate
     ```
 
-
-## Use teleport commands in the server console:
+## Use teleport commands in the server console
 
 ::: warning Attention
 In the console, all commands must be entered without ```/```!

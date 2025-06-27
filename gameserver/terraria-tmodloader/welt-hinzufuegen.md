@@ -2,7 +2,7 @@
 description: 'Übertragen Deiner Terraria-Welt auf einem Terraria: tModloader Server'
 ---
 
-# Welt hinzufügen
+# Welt hinzufügen auf einen Terraria: tModloader Server
 
 ## Voraussetzungen
 

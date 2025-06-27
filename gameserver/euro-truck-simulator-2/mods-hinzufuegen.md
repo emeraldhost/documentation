@@ -2,7 +2,7 @@
 description: Mods auf einem Euro Truck Simulator 2 Server hinzufügen
 ---
 
-# Mods hinzufügen
+# Mods hinzufügen auf einen Euro Truck Simulator 2 Server
 
 ## Voraussetzungen
 

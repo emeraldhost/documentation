@@ -4,7 +4,7 @@ description: Minecraft Bedrock Edition Tp Befehl - Schritt-für-Schritt Anleitun
 
 # Wie nutze ich den Teleport-Befehl im Minecraft Bedrock Edition Ingame-Chat und der Konsole?
 
-## Teleport-Befehle im Ingame-Chat nutzen:
+## Teleport-Befehle im Ingame-Chat nutzen
 
 ::: warning Achtung
 Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführen!<!-- Hier findest Du eine Anleitung, wie Du Dir OP-Rechte gibst: [Anleitung](../op-rechte-vergeben.md)-->
@@ -13,12 +13,11 @@ Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführe
 1. <strong>Logge dich auf Deinen Minecraft-Server ein.</strong>
 
 2. <strong>Öffne den Chat mit der für Deine Plattform passenden Taste:</strong>
-    
+
     - <strong>Windows 10:</strong> ```t```
     - <strong>PlayStation & Xbox:</strong> ```D-Pad Rechts```
     - <strong>Switch:</strong> ```→ auf dem Steuerkreuz```
     - <strong>Mobile (Android/IOS):</strong> ```Tippe auf das Chat-Symbol (Sprechblase)```
-
 
 3. <strong>Nutze einen der folgenden Teleport-Befehle im Chat:</strong>
 
@@ -29,8 +28,7 @@ Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführe
     /tp <spielername> <X> <Y> <Z>     # Teleportiert einen Spieler zu einer Koordinate
     ```
 
-
-## Teleport-Befehle in der Server-Konsole nutzen:
+## Teleport-Befehle in der Server-Konsole nutzen
 
 ::: warning Achtung
 In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!

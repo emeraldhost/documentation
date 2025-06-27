@@ -25,7 +25,6 @@ To execute this command, you must already have OP rights. If you do not have the
     /op <player name> # Makes the player an operator
     ```
 
-
 ## Assign OP rights via the server console {#console}
 
 ::: warning Attention
@@ -61,16 +60,18 @@ All commands must be entered in the console without ```/```!
 
 ::: info Info
 If you want to enter multiple players, separate the entries with a comma ```,```:
+
 ```
-    {
-        "permission": "operator",
-        "xuid": "<player1xuid>"
-    },
-    {
-        "permission": "operator",
-        "xuid": "<player2xuid>"
-    }
+{
+    "permission": "operator",
+    "xuid": "<player1xuid>"
+},
+{
+    "permission": "operator",
+    "xuid": "<player2xuid>"
+}
 ```
+
 :::
 
 <strong>Roles and permissions in Minecraft Bedrock</strong>

@@ -4,7 +4,7 @@ description: Minecraft Java Edition Tp Befehl - Schritt-für-Schritt Anleitung z
 
 # Wie nutze ich den Teleport-Befehl im Minecraft Java Edition Ingame-Chat und der Konsole?
 
-## Teleport-Befehle im Ingame-Chat nutzen:
+## Teleport-Befehle im Ingame-Chat nutzen
 
 ::: warning Achtung
 Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführen! Hier findest Du eine Anleitung, wie Du Dir OP-Rechte gibst: [Anleitung](../op-rechte-vergeben.md)
@@ -23,8 +23,7 @@ Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführe
     /tp <spielername> <X> <Y> <Z>     # Teleportiert einen Spieler zu einer Koordinate
     ```
 
-
-## Teleport-Befehle in der Server-Konsole nutzen:
+## Teleport-Befehle in der Server-Konsole nutzen
 
 ::: warning Achtung
 In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!

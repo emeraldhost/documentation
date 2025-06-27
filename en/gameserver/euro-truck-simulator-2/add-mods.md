@@ -2,7 +2,7 @@
 description: Add mods on a Euro Truck Simulator 2 server
 ---
 
-# Add mods
+# Add mods to an Euro Truck Simulator 2 server
 
 ## Requirements
 

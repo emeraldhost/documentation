@@ -2,7 +2,7 @@
 description: 'Installation von Mods auf einem Terraria: tModloader Server'
 ---
 
-# Mods hinzufügen
+# Mods hinzufügen auf einen Terraria: tModloader Server
 
 ## Voraussetzungen
 

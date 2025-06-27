@@ -13,7 +13,7 @@ Um diesen Befehl ausführen zu können, musst Du bereits OP-Rechte besitzen. Fal
 1. <strong>Logge dich auf Deinen Minecraft-Server ein.</strong>
 
 2. <strong>Öffne den Chat mit der für Deine Plattform passenden Taste:</strong>
-    
+
     - <strong>Windows 10:</strong> ```t```
     - <strong>PlayStation & Xbox:</strong> ```D-Pad Rechts```
     - <strong>Switch:</strong> ```→ auf dem Steuerkreuz```
@@ -24,7 +24,6 @@ Um diesen Befehl ausführen zu können, musst Du bereits OP-Rechte besitzen. Fal
     ```
     /op <spielername>     # Macht den Spieler zum Operator
     ```
-
 
 ## OP-Rechte über die Server-Konsole vergeben {#konsole}
 
@@ -61,6 +60,7 @@ In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
 
 ::: info Info
 Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komma ```,```:
+
 ```
     {
         "permission": "operator",
@@ -71,6 +71,7 @@ Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komm
         "xuid": "<spieler2xuid>"
     }
 ```
+
 :::
 
 <strong>Rollen und Berechtigungen in Minecraft Bedrock</strong>

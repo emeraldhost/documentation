@@ -2,7 +2,7 @@
 description: Installation von Mods auf einem American Truck Simulator Server
 ---
 
-# Mods hinzufügen
+# Mods hinzufügen auf einen American Truck Simulator Server
 
 ## Voraussetzungen
 

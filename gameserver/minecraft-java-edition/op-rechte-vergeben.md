@@ -24,7 +24,6 @@ Spieler erhalten beim Vergeben von OP-Rechten automatisch das OP-Level, das in d
     /op <spielername>     # Macht den Spieler zum Operator
     ```
 
-
 ## OP-Rechte über die Server-Konsole vergeben {#konsole}
 
 ::: warning Achtung
@@ -57,29 +56,31 @@ Spieler erhalten beim Vergeben von OP-Rechten automatisch das OP-Level, das in d
 
     ```
     {
-		"uuid": "<spieleruuid>",
-		"name": "<spielename>",
-		"level": 4,
-		"bypassesPlayerLimit": false
-	}
+        "uuid": "<spieleruuid>",
+        "name": "<spielename>",
+        "level": 4,
+        "bypassesPlayerLimit": false
+    }
     ```
 
 ::: info Info
 Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komma ```,```:
+
 ```
-    {
-		"uuid": "<spieler1uuid>",
-		"name": "<spieler1name>",
-		"level": 4,
-		"bypassesPlayerLimit": false
-	},
-    {
-		"uuid": "<spieler2uuid>",
-		"name": "<spieler2name>",
-		"level": 4,
-		"bypassesPlayerLimit": false
-	}
+{
+    "uuid": "<spieler1uuid>",
+    "name": "<spieler1name>",
+    "level": 4,
+    "bypassesPlayerLimit": false
+},
+{
+    "uuid": "<spieler2uuid>",
+    "name": "<spieler2name>",
+    "level": 4,
+    "bypassesPlayerLimit": false
+}
 ```
+
 :::
 
 <strong>Erklärung der OP-Level</strong>

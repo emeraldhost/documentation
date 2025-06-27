@@ -2,7 +2,7 @@
 description: 'How to upload your own world to a Valheim server'
 ---
 
-# Add savegame
+# Add savegame to an Valheim server
 
 ## Prerequisites
 

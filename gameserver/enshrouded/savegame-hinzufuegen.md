@@ -2,7 +2,7 @@
 description: 'Anleitung zum Hochladen Deiner Eigenen Welt auf einen Enshrouded-Server'
 ---
 
-# Savegame hochladen
+# Savegame hochladen auf einen Enshrouded Server
 
 ## Voraussetzungen
 

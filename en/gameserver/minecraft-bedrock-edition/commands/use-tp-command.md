@@ -2,9 +2,9 @@
 description: Minecraft Bedrock Edition Tp Command - Step-by-step guide to teleporting on your server.
 ---
 
-## How do I use the teleport command in Minecraft Bedrock Edition in-game chat and console?
+# How do I use the teleport command in Minecraft Bedrock Edition in-game chat and console?
 
-## Use teleport commands in the in-game chat:
+## Use teleport commands in the in-game chat
 
 ::: warning Attention
 Make sure you have the necessary rights to execute the command!<!-- Here you can find instructions on how to give yourself OP rights: [Instructions](../op-rights-give.md)-->
@@ -19,7 +19,6 @@ Make sure you have the necessary rights to execute the command!<!-- Here you can
     - <strong>Switch:</strong> ```→ on the directional pad```
     - <strong>Mobile (Android/IOS):</strong> ```Tap on the chat icon (speech bubble)```
 
-
 3. <strong>Use one of the following teleport commands in the chat:</strong>
 
     ```
@@ -29,8 +28,7 @@ Make sure you have the necessary rights to execute the command!<!-- Here you can
     /tp <player name> <X> <Y> <Z> # Teleports a player to a coordinate
     ```
 
-
-## Use teleport commands in the server console:
+## Use teleport commands in the server console
 
 ::: warning Attention
 In the console, all commands must be entered without ```/```!

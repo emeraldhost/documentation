@@ -1,8 +1,8 @@
 ---
-description: Install PhpMyAdmin, Apache2 and MySQL on a root server (Ubuntu/Debian)
+description: Install PhpMyAdmin, Apache2 and MySQL on a VPS (Ubuntu/Debian)
 ---
 
-## PhpMyAdmin, Apache2 and MySQL
+# Install PhpMyAdmin, Apache2 and MySQL on a VPS (Ubuntu/Debian)
 
 ## Install Apache2:&#x20;
 

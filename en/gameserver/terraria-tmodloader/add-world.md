@@ -2,7 +2,7 @@
 description: 'Transfer your Terraria world to a Terraria: tModloader server'
 ---
 
-# Add world
+# Add world to an Terraria: tModloader server
 
 ## Requirements
 

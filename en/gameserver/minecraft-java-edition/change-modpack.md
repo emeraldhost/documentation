@@ -2,7 +2,7 @@
 description: Change modpack on a Minecraft server
 ---
 
-## Change modpack on a Minecraft server
+# Change modpack on a Minecraft server
 
 ## Modpacks
 

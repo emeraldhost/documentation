@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du den World-Seed auf deinem Minecraft Java Edition Server änderst.
 ---
 
-## World-Seed in Minecraft Java Edition ändern
+# World-Seed in Minecraft Java Edition ändern
 
 ::: danger Achtung
 Erstelle vorher ein Backup Deines Servers, da die aktuelle Welt durch das Ändern des World-Seeds verloren gehen kann.

@@ -2,7 +2,7 @@
 Description: Installation of mods on an American Truck Simulator server
 ---
 
-# Add mods
+# Add mods to an American Truck Simulator server
 
 ## Requirements
 

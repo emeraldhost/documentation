@@ -2,7 +2,7 @@
 description: Admins auf einem Euro Truck Simulator 2 Server hinzufügen
 ---
 
-# Admins hinzufügen
+# Admins hinzufügen auf einen Euro Truck Simulator 2 Server
 
 ## Voraussetzungen
 
