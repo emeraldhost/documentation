@@ -43,7 +43,7 @@ export default defineConfig({
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben'},
                   { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern'},
                   { text: 'Version ändern', link: '/gameserver/minecraft-java-edition/version-aendern'},
-                  
+                  { text: 'World-Seed ändern', link: '/gameserver/minecraft-java-edition/world-seed-aendern'},
                 
                 {
                 text: 'Befehle',
@@ -69,6 +69,7 @@ export default defineConfig({
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen'},
                   { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren'},
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-bedrock-edition/op-rechte-vergeben'},
+                  { text: 'World-Seed ändern', link: '/gameserver/minecraft-bedrock-edition/world-seed-aendern'},
                 
                 {
                 text: 'Befehle',
@@ -242,6 +243,7 @@ export default defineConfig({
                   { text: 'Grant OP rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights'},
                   { text: 'Change Modpack', link: '/en/gameserver/minecraft-java-edition/change-modpack'},
                   { text: 'Change Version', link: '/en/gameserver/minecraft-java-edition/change-version'},
+                  { text: 'Change world seed', link: '/en/gameserver/minecraft-java-edition/change-world-seed'},
                 
                 {
                 text: 'Commands',
@@ -265,6 +267,7 @@ export default defineConfig({
                   { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs'},
                   { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist'},
                   { text: 'Grant OP rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights'},
+                  { text: 'Change world seed', link: '/en/gameserver/minecraft-bedrock-edition/change-world-seed'},
                 
                 {
                 text: 'Commands',
