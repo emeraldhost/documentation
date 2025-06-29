@@ -37,20 +37,19 @@ description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe 
     ```
 
 12. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die du unter folgendem Pfad findest:</strong>
-    
+
     ```
     Dokumente/Euro Truck Simulator 2
     ```
 
 13. <strong>Starte den Server neu und trete dem Server bei.</strong>
 
-
 ## Externe Mods hinzufügen
 
 1. <strong>Lade die gewünschten Mods von Plattformen wie Modhub oder anderen Quellen herunter.</strong>
 
 2. <strong>Kopiere die Mods in dein lokales Mod-Verzeichnis, das du unter folgendem Pfad findest:</strong>
-        
+
     ```
     Dokumente/Euro Truck Simulator 2/mod
     ```
@@ -80,7 +79,7 @@ description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe 
     ```
 
 11. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die du unter folgendem Pfad findest:</strong>
-    
+
     ```
     Dokumente/Euro Truck Simulator 2
     ```

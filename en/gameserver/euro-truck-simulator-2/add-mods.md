@@ -44,7 +44,6 @@ description: Step-by-step instructions on how to install and activate Steam Work
 
 13. <strong>Restart the server and join the server</strong>.
 
-
 ## Add external mods
 
 1. <strong>Download the desired mods from platforms such as Modhub or other sources</strong>.
