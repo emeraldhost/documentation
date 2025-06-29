@@ -1,43 +1,88 @@
 ---
-description: Mods auf einem Euro Truck Simulator 2 Server hinzufügen
+description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe Mods auf einem Euro Truck Simulator 2-Server installierst und aktivierst.
 ---
 
-# Mods hinzufügen auf einen Euro Truck Simulator 2 Server
+# Mods (Steam Workshop und externe) auf einem Euro Truck Simulator 2-Server installieren und aktivieren
 
-## Voraussetzungen
+## Steam Workshop-Mods Hinzufügen
 
-- Zugang zum Server-Ordner (entweder über eine SFTP-Verbindung oder direkten Zugang zu den Server-Dateien)
-    - Die SFTP-Zugangsdaten findest Du in der Übersicht Deines Gameservers.
+1. <strong>Starte Euro Truck Simulator 2.</strong>
 
-## Schritte
+2. <strong>Wähle im Hauptmenü den Punkt „Mods“ aus.</strong>
 
-1. <b>Öffne den Mod-Manager im Spiel</b>
-    - Starte Euro Truck Simulator 2.
-    - Klicke im Hauptmenü auf den **Mod-Manager**.
+3. <strong>Klicke oben rechts auf „Steam Workshop“.</strong>
 
-2. <b>Aktiviere die gewünschten Mods</b>
-    - Wähle die Mods aus, die Du auf Deinem Server nutzen möchtest.
+4. <strong>Durchsuche den Workshop und klicke auf „Abonnieren“, um die gewünschten Mods herunterzuladen.</strong>
 
-3. <b>Starte das Spiel</b>
-    - Beginne ein Spiel und klicke in der Truckauswahl auf "**Drive**", um in die Spielwelt zu gelangen.
+5. <strong>Gehe zurück zum Mod-Manager im Spiel.</strong>
 
-4. <b>Exportiere die Server-Datenpakete</b>
-    - Öffne die **Konsole** im Spiel (drucke auf `~` oder `` ` ``).
-    - Gib den Befehl "`export_server_packages`" ein.
-    - Schließe anschließend das Spiel.
+6. <strong>Aktiviere die heruntergeladenen Mods und klicke auf „Änderungen bestätigen“.</strong>
 
-5. <b>Lade die Datenpakete auf den Server</b>
-    - Stelle eine SFTP-Verbindung zu Deinem Server her.
-    - Navigiere zum Pfad "`.local/share/Euro Truck Simulator 2`".
-    - Lade die Dateien "`server_packages.sii`" und "`server_packages.dat`" von Deinem lokalen Datenordner auf Deinen Server hoch.
+7. <strong>Starte eine Fahrt und öffne die Konsole mit der Taste `~` oder ``` ` ```.</strong>
 
-6. <b>Starte den Server und das Spiel</b>
-    - Stoppe Deinen Server über das Webinterface.
-    - Starte ihn anschließend wieder.
-    - Starte dann das Spiel.
+8. <strong>Gib den folgenden Befehl in der Konsole ein:</strong>
 
-7. <b>Überprüfe die Funktionsfähigkeit der Mods</b>
-    - Deine Mods sollten nun im Spiel funktionieren.
-    - Genieße Dein Spielerlebnis!
+    ```
+    export_server_packages
+    ```
 
-### Das war's! Mit diesen Schritten solltest Du in der Lage sein, Mods auf Deinem Euro Truck Simulator 2 Server zu installieren und zu verwenden
+9. <strong>Warte, bis der Vorgang abgeschlossen ist, und beende das Spiel.</strong>
+
+10. <strong>Verbinde dich per SFTP mit deinem Server. Hier findest du eine Anleitung, wie das geht: [Anleitung](../sftp-verbindung-herstellen.md).</strong>
+
+11. <strong>Navigiere zu folgendem Verzeichnis:</strong>
+
+    ```
+    .local/share/Euro Truck Simulator 2
+    ```
+
+12. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die du unter folgendem Pfad findest:</strong>
+    
+    ```
+    Dokumente/Euro Truck Simulator 2
+    ```
+
+13. <strong>Starte den Server neu und trete dem Server bei.</strong>
+
+
+## Externe Mods hinzufügen
+
+1. <strong>Lade die gewünschten Mods von Plattformen wie Modhub oder anderen Quellen herunter.</strong>
+
+2. <strong>Kopiere die Mods in dein lokales Mod-Verzeichnis, das du unter folgendem Pfad findest:</strong>
+        
+    ```
+    Dokumente/Euro Truck Simulator 2/mod
+    ```
+
+3. <strong>Starte Euro Truck Simulator 2.</strong>
+
+4. <strong>Wähle im Hauptmenü den Punkt „Mods“ aus.</strong>
+
+5. <strong>Aktiviere die zuvor hinzugefügten Mods und klicke auf „Änderungen bestätigen“.</strong>
+
+6. <strong>Starte eine Fahrt und öffne die Konsole mit der Taste `~` oder ``` ` ```.</strong>
+
+7. <strong>Gib den folgenden Befehl in der Konsole ein:</strong>
+
+    ```
+    export_server_packages
+    ```
+
+8. <strong>Warte, bis der Vorgang abgeschlossen ist, und beende das Spiel.</strong>
+
+9. <strong>Verbinde dich per SFTP mit deinem Server. Hier findest du eine Anleitung, wie das geht: [Anleitung](../sftp-verbindung-herstellen.md).</strong>
+
+10. <strong>Navigiere zu folgendem Verzeichnis:</strong>
+
+    ```
+    .local/share/Euro Truck Simulator 2
+    ```
+
+11. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die du unter folgendem Pfad findest:</strong>
+    
+    ```
+    Dokumente/Euro Truck Simulator 2
+    ```
+
+12. <strong>Starte den Server neu und trete dem Server bei.</strong>
