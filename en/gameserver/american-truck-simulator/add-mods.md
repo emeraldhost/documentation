@@ -1,43 +1,87 @@
 ---
-Description: Installation of mods on an American Truck Simulator server
+description: Step-by-step instructions on how to install and activate Steam Workshop and external mods on an American Truck Simulator server.
 ---
 
-# Add mods to an American Truck Simulator server
+## Install and activate mods (Steam Workshop and external) on your American Truck Simulator server
 
-## Requirements
+## Add Steam Workshop mods
 
-- Access to the server folder (either via an SFTP connection or direct access to the server files)
-    - The SFTP access data can be found in the overview of your game server.
+1. <strong>Start American Truck Simulator</strong>.
 
-## Steps
+2. <strong>Select the "Mods" item in the main menu</strong>.
 
-1. <b>Open the mod manager in the game</b>
-    - Start American Truck Simulator.
-    - Click on the **Mod Manager** in the main menu.
+3. <strong>Click on "Steam Workshop" in the top right-hand corner</strong>.
 
-2. <b>Activate the desired mods</b>
-    - Select the mods you want to use on your server.
+4. <strong>Browse the workshop and click on "Subscribe" to download the desired mods</strong>.
 
-3. <b>Start the game</b>
-    - Start a game and click on "**Drive**" in the truck selection to enter the game world.
+5. <strong>Go back to the mod manager in the game</strong>.
 
-4. <b>Export the server data packets</b>
-    - Open the **Console** in the game (press `~` or ``` ` ```).
-    - Enter the command "`export_server_packages`"
-    - Then close the game.
+6. <strong>Activate the downloaded mods and click on "Confirm changes"</strong>.
 
-5. <b>Upload the data packages to the server</b>
-    - Establish an SFTP connection to your server.
-    - Navigate to the path "`.local/share/`American Truck Simulator".
-    - Upload the files "`server_packages.sii`" and "`server_packages.dat`" from your local data folder to your server.
+7. <strong>Start a ride and open the console with the `~` or ```` ` ```` key.</strong>
 
-6. <b>Start the server and the game</b>
-    - Stop your server via the web interface.
-    - Then start it again.
-    - Then start the game.
+8. <strong>Enter the following command in the console:</strong>
 
-7. <b>Check the functionality of the mods</b>
-    - Your mods should now work in the game.
-    - Enjoy your gaming experience!
+    ```
+    export_server_packages
+    ```
 
-### That's it! With these steps, you should be able to install and use mods on your American Truck Simulator server
+9. <strong>Wait until the process is complete and exit the game</strong>.
+
+10. <strong>Connect to your server via SFTP. You can find instructions on how to do this here: [Instructions](../establish-sftp-connection.md).</strong>
+
+11. <strong>Navigate to the following directory:</strong>
+
+    ```
+    .local/share/American Truck Simulator
+    ```
+
+12. <strong>Upload the created files ```server_packages.sii``` and ```server_packages.dat```, which you will find under the following path:</strong>
+
+    ```
+    Documents/American Truck Simulator
+    ```
+
+13. <strong>Restart the server and join the server</strong>.
+
+## Add external mods
+
+1. <strong>Download the desired mods from platforms such as Modhub or other sources</strong>.
+
+2. <strong>Copy the mods into your local mod directory, which you can find under the following path:</strong>
+
+    ```
+    Documents/American Truck Simulator/mod
+    ```
+
+3. <strong>American Truck Simulator</strong>.
+
+4. <strong>Select the "Mods" item in the main menu</strong>.
+
+5. <strong>Activate the previously added mods and click on "Confirm changes".</strong>
+
+6. <strong>Start a ride and open the console with the `~` or ```` ` ```` key.</strong>
+
+7. <strong>Enter the following command in the console:</strong>
+
+    ```
+    export_server_packages
+    ```
+
+8. <strong>Wait until the process is complete and exit the game</strong>.
+
+9. <strong>Connect to your server via SFTP. You can find instructions on how to do this here: [Instructions](../establish-sftp-connection.md).</strong>
+
+10. <strong>Navigate to the following directory:</strong>
+
+    ```
+    .local/share/American Truck Simulator
+    ```
+
+11. <strong>Upload the created files ```server_packages.sii``` and ```server_packages.dat```, which you will find under the following path:</strong>
+
+    ```
+    Documents/American Truck Simulator
+    ```
+
+12. <strong>Restart the server and join the server</strong>.

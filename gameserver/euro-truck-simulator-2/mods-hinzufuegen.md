@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe Mods auf einem Euro Truck Simulator 2-Server installierst und aktivierst.
 ---
 
-# Mods (Steam Workshop und externe) auf einem Euro Truck Simulator 2-Server installieren und aktivieren
+# Mods (Steam Workshop und externe) auf Deinem Euro Truck Simulator 2-Server installieren und aktivieren
 
 ## Steam Workshop-Mods Hinzufügen
 
@@ -28,7 +28,7 @@ description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe 
 
 9. <strong>Warte, bis der Vorgang abgeschlossen ist, und beende das Spiel.</strong>
 
-10. <strong>Verbinde dich per SFTP mit deinem Server. Hier findest du eine Anleitung, wie das geht: [Anleitung](../sftp-verbindung-herstellen.md).</strong>
+10. <strong>Verbinde Dich per SFTP mit deinem Server. Hier findest Du eine Anleitung, wie das geht: [Anleitung](../sftp-verbindung-herstellen.md).</strong>
 
 11. <strong>Navigiere zu folgendem Verzeichnis:</strong>
 
@@ -36,7 +36,7 @@ description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe 
     .local/share/Euro Truck Simulator 2
     ```
 
-12. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die du unter folgendem Pfad findest:</strong>
+12. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die Du unter folgendem Pfad findest:</strong>
 
     ```
     Dokumente/Euro Truck Simulator 2
@@ -48,7 +48,7 @@ description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe 
 
 1. <strong>Lade die gewünschten Mods von Plattformen wie Modhub oder anderen Quellen herunter.</strong>
 
-2. <strong>Kopiere die Mods in dein lokales Mod-Verzeichnis, das du unter folgendem Pfad findest:</strong>
+2. <strong>Kopiere die Mods in Dein lokales Mod-Verzeichnis, das Du unter folgendem Pfad findest:</strong>
 
     ```
     Dokumente/Euro Truck Simulator 2/mod
@@ -70,7 +70,7 @@ description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe 
 
 8. <strong>Warte, bis der Vorgang abgeschlossen ist, und beende das Spiel.</strong>
 
-9. <strong>Verbinde dich per SFTP mit deinem Server. Hier findest du eine Anleitung, wie das geht: [Anleitung](../sftp-verbindung-herstellen.md).</strong>
+9. <strong>Verbinde Dich per SFTP mit deinem Server. Hier findest Du eine Anleitung, wie das geht: [Anleitung](../sftp-verbindung-herstellen.md).</strong>
 
 10. <strong>Navigiere zu folgendem Verzeichnis:</strong>
 
@@ -78,7 +78,7 @@ description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe 
     .local/share/Euro Truck Simulator 2
     ```
 
-11. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die du unter folgendem Pfad findest:</strong>
+11. <strong>Lade die erstellten Dateien ```server_packages.sii``` und ```server_packages.dat``` hoch, die Du unter folgendem Pfad findest:</strong>
 
     ```
     Dokumente/Euro Truck Simulator 2
