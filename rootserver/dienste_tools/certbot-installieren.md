@@ -1,5 +1,5 @@
 ---
-description: Schritt-für-Schritt Anleitung zur Installation von Certbot auf einem Rootserver mit Apache2 oder Nginx - sichere deine Website mit SSL-Zertifikaten unter Ubuntu/Debian.
+description: Schritt-für-Schritt Anleitung zur Installation von Certbot auf einem Rootserver mit Apache2 oder Nginx – sichere deine Website mit SSL-Zertifikaten unter Ubuntu/Debian.
 ---
 
 # Certbot installieren
@@ -141,5 +141,5 @@ Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap n
     ```
 
 ::: info :information_source: Wichtig
-Die Domain muss auf den Server zeigen (A- oder AAAA-Eintrag), und Port 80 (HTTP-Challenge) muss erreichbar sein - sonst schlägt die Validierung fehl.
+Die Domain muss auf den Server zeigen (A- oder AAAA-Eintrag), und Port 80 (HTTP-Challenge) muss erreichbar sein – sonst schlägt die Validierung fehl.
 :::

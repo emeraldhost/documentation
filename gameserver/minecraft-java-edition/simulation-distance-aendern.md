@@ -1,5 +1,5 @@
 ---
-description: Minecraft Java Edition Simulation Distance richtig anpassen - Anleitung für Vanilla, Spigot, Bukkit, Paper, Folia, Purpur und Pufferfish Server zur Optimierung der Performance.
+description: Minecraft Java Edition Simulation Distance richtig anpassen – Anleitung für Vanilla, Spigot, Bukkit, Paper, Folia, Purpur und Pufferfish Server zur Optimierung der Performance.
 ---
 
 # Minecraft Java Edition - Simulation-Distance anpassen

@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -439,11 +438,6 @@ export default defineConfig({
     },
     search: {
       provider: 'local'
-    }
-  },
-  markdown: {
-    config(md) {
-      md.use(tabsMarkdownPlugin);
     }
   }
 })
