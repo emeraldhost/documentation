@@ -1,6 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
+import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import './style.css'
 import './custom.css'
 
@@ -12,6 +13,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    enhanceAppWithTabs(app)
   }
 }

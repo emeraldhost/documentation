@@ -23,6 +23,7 @@
   "devDependencies": {
     "markdownlint": "^0.38.0",
     "vitepress": "^1.0.0-rc.22",
+    "vitepress-plugin-tabs": "^0.7.1",
     "vue": "^3.3.4"
   }
 }

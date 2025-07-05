@@ -1,5 +1,5 @@
 ---
-description: Webserver auf einem Rootserver unter Ubuntu oder Debian installieren – komplette Anleitung für Apache2 und Nginx Setup auf Rootservern.
+description: Webserver auf einem Rootserver unter Ubuntu oder Debian installieren - komplette Anleitung für Apache2 und Nginx Setup auf Rootservern.
 ---
 
 # Webserver installieren
