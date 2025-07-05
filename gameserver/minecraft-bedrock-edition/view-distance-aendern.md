@@ -1,5 +1,5 @@
 ---
-description: Minecraft Bedrock Edition View Distance richtig anpassen – Anleitung für deinen Minecraft Server zur Optimierung der Performance und Sichtweite.
+description: Minecraft Bedrock Edition View Distance richtig anpassen - Anleitung für deinen Minecraft Server zur Optimierung der Performance und Sichtweite.
 ---
 
 # Minecraft Bedrock Edition - View-Distance anpassen
