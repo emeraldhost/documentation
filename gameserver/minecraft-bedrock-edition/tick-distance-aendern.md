@@ -1,5 +1,5 @@
 ---
-description: Minecraft Bedrock Edition Tick Distance richtig anpassen - Anleitung für deinen Minecraft Server zur Optimierung der Performance.
+description: Minecraft Bedrock Edition Tick Distance richtig anpassen – Anleitung für deinen Minecraft Server zur Optimierung der Performance.
 ---
 
 # Minecraft Bedrock Edition - Tick-Distance anpassen

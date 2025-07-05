@@ -1,5 +1,5 @@
 ---
-description: Minecraft Java Edition View Distance richtig anpassen - Anleitung für Vanilla, Spigot, Bukkit, Paper, Folia, Purpur und Pufferfish Server zur Optimierung der Performance und Sichtweite.
+description: Minecraft Java Edition View Distance richtig anpassen – Anleitung für Vanilla, Spigot, Bukkit, Paper, Folia, Purpur und Pufferfish Server zur Optimierung der Performance und Sichtweite.
 ---
 
 # Minecraft Java Edition - View-Distance anpassen
