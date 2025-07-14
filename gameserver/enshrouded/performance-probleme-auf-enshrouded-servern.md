@@ -32,5 +32,5 @@ Vielen Dank für Euer Verständnis und Eure fortwährende Unterstützung. Euer E
 Euer EMERALDHOST Team
 
 :::info
-Wenn Ihr Fragen oder Probleme habt, kommt gerne auf unseren [Community-Discord-Server](https://discord.com/invite/Gw38Ve3Nqr). Hier halten wir Euch regelmäßig auf dem Laufenden und bieten Unterstützung an.
+Wenn Ihr Fragen oder Probleme habt, kommt gerne auf unseren [Community Discord Server](https://discord.emeraldhost.de/). Hier halten wir Euch regelmäßig auf dem Laufenden und bieten Unterstützung an.
 :::

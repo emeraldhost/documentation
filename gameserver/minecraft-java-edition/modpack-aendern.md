@@ -36,7 +36,7 @@ Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfiguratio
     Bitte beachte, dass bei diesem Vorgang alle bisherigen Dateien und Backups gelöscht werden.
     :::
     :::info
-    Fehlt ein Modpack, kannst du gerne die Empfehlung für dieses Modpack in unserem [Community-Discord-Server](https://discord.com/invite/Gw38Ve3Nqr) abgeben.
+    Fehlt ein Modpack, kannst du gerne die Empfehlung für dieses Modpack in unserem [Community Discord Server](https://discord.emeraldhost.de/) abgeben.
     :::
 
 ### Das war's! Mit diesen Schritten solltest Du in der Lage sein, ein Modpack für dein Minecraft Server zu installieren

@@ -32,5 +32,5 @@ We thank you for your patience and understanding during this phase. Our ultimate
 Your EMERALDHOST Team
 
 :::info
-If you have any questions or problems, please visit our [Community-Discord-Server](https://discord.emeraldhost.de/). We will keep you regularly updated here and offer support.
+If you have any questions or problems, please visit our [Community Discord Server](https://discord.emeraldhost.de/). We will keep you regularly updated here and offer support.
 :::

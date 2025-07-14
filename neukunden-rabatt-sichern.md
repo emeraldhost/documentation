@@ -15,5 +15,5 @@ Wir sind stolz darauf, dass wir eine **99,9%ige Uptime-Garantie** bieten, um sic
 Bei EmeraldHost sind wir bestrebt, eine hervorragende **Hosting-Erfahrung** zu bieten, die unsere Kunden glücklich macht. Registriere Dich noch heute als Neukunde und entdecke die Vorteile, die Du mit unserem **Gaming-Hosting-Service genießen kannst**.
 
 :::info
-Pssst... Wir haben auch einen [Community-Discord](https://discord.emeraldhost.de/) 🤫 Komm vorbei!
+Pssst... Wir haben auch einen [Community Discord Server](https://discord.emeraldhost.de/) 🤫 Komm vorbei!
 :::
