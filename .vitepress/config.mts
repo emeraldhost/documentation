@@ -210,11 +210,27 @@ export default defineConfig({
             ]
           }
         ],
+        outline: {
+          label: 'Auf dieser Seite'
+        },
+        docFooter: {
+          prev: 'Vorherige Seite',
+          next: 'Nächste Seite'
+        },
         socialLinks: [
           { icon: 'twitter', link: 'https://twitter.com/EmeraldHostDE' },
           { icon: 'instagram', link: 'https://www.instagram.com/emeraldhost.de/' },
+          { icon: 'tiktok', link: 'https://www.tiktok.com/@emeraldhost.de' },
+          { icon: 'mastodon', link: 'https://mastodon.social/@emeraldhost' },
+          { icon: 'facebook', link: 'https://www.facebook.com/EmeraldHostDE/' },
           { icon: 'youtube', link: 'https://www.youtube.com/@emeraldhost' },
-          { icon: 'discord', link: 'https://discord.com/invite/Gw38Ve3Nqr' },
+          {
+            icon: {
+              svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Bluesky</title><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg>'
+            },
+            link: 'https://bsky.app/profile/emeraldhost.bsky.social',
+          },
+          { icon: 'discord', link: 'https://discord.emeraldhost.de/' },
           { icon: 'github', link: 'https://github.com/emeraldhost/' }
         ],
         notFound: {
@@ -223,7 +239,14 @@ export default defineConfig({
           linkLabel: 'Zurück zur Startseite',
           linkText: 'Zur Startseite',
           code: '404'
-        }
+        },
+        editLink: {
+          pattern: 'https://github.com/emeraldhost/documentation/edit/master/:path',
+          text: 'Diese Seite auf GitHub bearbeiten'
+        },
+        lastUpdated: {
+          text: 'Zuletzt aktualisiert'
+        },
       }
     },
     en: {
@@ -414,11 +437,27 @@ export default defineConfig({
             ]
           }
         ],
+        outline: {
+          label: 'On this page'
+        },
+        docFooter: {
+          prev: 'Previous page',
+          next: 'Next page'
+        },
         socialLinks: [
           { icon: 'twitter', link: 'https://x.com/EmeraldHostINT' },
           { icon: 'instagram', link: 'https://www.instagram.com/emeraldhostint/' },
+          { icon: 'tiktok', link: 'https://www.tiktok.com/@emeraldhost.de' },
+          { icon: 'mastodon', link: 'https://mastodon.social/@emeraldhostint' },
+          { icon: 'facebook', link: 'https://www.facebook.com/EmeraldHostDE/' },
           { icon: 'youtube', link: 'https://www.youtube.com/@emeraldhost' },
-          { icon: 'discord', link: 'https://discord.com/invite/Gw38Ve3Nqr' },
+          {
+            icon: {
+              svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Bluesky</title><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg>'
+            },
+            link: 'https://bsky.app/profile/emeraldhostint.bsky.social',
+          },
+          { icon: 'discord', link: 'https://discord.emeraldhost.de/' },
           { icon: 'github', link: 'https://github.com/emeraldhost/' }
         ],
         notFound: {
@@ -427,6 +466,13 @@ export default defineConfig({
           linkLabel: 'Back to Homepage',
           linkText: 'Go to Homepage',
           code: '404'
+        },
+        editLink: {
+          pattern: 'https://github.com/emeraldhost/documentation/edit/master/:path',
+          text: 'Edit this page on GitHub'
+        },
+        lastUpdated: {
+          text: 'Last updated'
         }
       }
     }
@@ -438,6 +484,8 @@ export default defineConfig({
     },
     search: {
       provider: 'local'
-    }
+    },
+    lastUpdated: true,
+    i18nRouting: false
   }
 })
