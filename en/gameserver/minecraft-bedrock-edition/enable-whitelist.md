@@ -21,14 +21,18 @@ description: Use of the Allowlist in the Minecraft Bedrock Edition
 3. <b>Enable the Allowlist</b>
     - Make sure that "`Whitelist`" is set to "`true`".
 
-4. <b>Add players to the allowlist</b>
+4. <b>Enable Online Mode</b>
+    - Open the "Settings" in the server management.
+    - Make sure that Online Mode is enabled so that the Allowlist works correctly.
+
+5. <b>Add players to the allowlist</b>
     - In the server console, enter the command `/whitelist add <name>`, replacing \<name> with the name of the player you want to add to the allowlist.
     - In the Bedrock Edition GUI, click on "Edit whitelist" and add the name of the player.
     ::: info Info
     Please note that the use of slashes "/" in the commands in the web interface is not required.
     :::
 
-5. <b>Check the functionality of the Allowlist</b>
+6. <b>Check the functionality of the Allowlist</b>
     - Make sure that only the players who have been added to the allowlist have access to the server.
     - Check the activation of the Allowlist by trying to connect to the server with a player account that is not on the Allowlist.
 
