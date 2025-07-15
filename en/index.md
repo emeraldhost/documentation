@@ -1,4 +1,4 @@
-# Welcome to the Official EmeraldHost Documentation
+# Welcome to the official EmeraldHost Documentation
 
 Here you will find **everything you need to know about EmeraldHost products** - compact, understandable, and always up to date. Whether you're just starting out or already a pro: Our documentation shows you how to make the most of EmeraldHost.
 
