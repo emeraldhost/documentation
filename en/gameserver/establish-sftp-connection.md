@@ -19,6 +19,6 @@ description: Step-by-step instructions on how to connect to your server via SFTP
     - <strong>Server:</strong> The displayed server address.
     - <strong>User name:</strong> Your user name.
     - <strong>Password:</strong> Your password.
-    - <strong>Port:</strong>The port is set automatically. If not, you will find it after the server address, after the ```:``` (e.g. ```sftp://example.emeraldhost.de:2022```).
+    - <strong>Port:</strong> The port is set automatically. If not, you will find it after the server address, after the ```:``` (e.g. ```sftp://example.emeraldhost.de:2022```).
 
 7. <strong>Now you can access, edit, delete or upload new files to your server</strong>.

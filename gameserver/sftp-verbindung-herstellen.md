@@ -17,8 +17,8 @@ description: Schritt-für-Schritt-Anleitung, wie du dich per SFTP mit deinem Ser
 6. <strong>Füge dort die Angezeigten Zugangsdaten ein:</strong>
 
     - <strong>Server:</strong> Die angezeigte Server-Adresse.
-    - <strong>Benutzername:</strong>Dein Benutzername.
+    - <strong>Benutzername:</strong> Dein Benutzername.
     - <strong>Passwort:</strong> Dein Passwort.
-    - <strong>Port:</strong>Der Port wird automatisch gesetzt. Falls nicht, findest Du ihn hinter der Server-Adresse, nach dem ```:``` (z. B. ```sftp://example.emeraldhost.de:2022```).
+    - <strong>Port:</strong> Der Port wird automatisch gesetzt. Falls nicht, findest Du ihn hinter der Server-Adresse, nach dem ```:``` (z. B. ```sftp://example.emeraldhost.de:2022```).
 
 7. <strong>Jetzt kannst Du auf alle Dateien Deines Servers zugreifen, bearbeiten, löschen oder neue Dateien hochladen.</strong>
