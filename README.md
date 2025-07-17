@@ -23,6 +23,6 @@ Do you have a great tip, found bugs, or want to extend the documentation? **Beco
 
 Write to us directly through our [Support Channels](https://emeraldhost.de/en/support) or leave your feedback on GitHub as an [Issue](https://github.com/emeraldhost/documentation/issues).
 
-:::info Pssst... We also have a [Community Discord](https://discord.emeraldhost.de/)! 🤫  
-Stop by, chat with other users, ask questions, or get the latest news straight from the community.
-:::
+> [!TIP]
+> Pssst... We also have a [Community Discord](https://discord.emeraldhost.de/)! 🤫  
+> Stop by, chat with other users, ask questions, or get the latest news straight from the community.
