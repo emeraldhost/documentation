@@ -102,7 +102,8 @@ export default defineConfig({
                 link: '/gameserver/american-truck-simulator',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/american-truck-simulator/mods-hinzufuegen' }
+                  { text: 'Mods hinzufügen', link: '/gameserver/american-truck-simulator/mods-hinzufuegen' },
+                  { text: 'Admins hinzufügen', link: '/gameserver/american-truck-simulator/admins-hinzufuegen' }
                 ]
               },
               {
@@ -334,7 +335,8 @@ export default defineConfig({
                 link: '/en/gameserver/american-truck-simulator',
                 collapsed: true,
                 items: [
-                  { text: 'Add Mods', link: '/en/gameserver/american-truck-simulator/add-mods' }
+                  { text: 'Add Mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
+                  { text: 'Add admins', link: '/en/gameserver/american-truck-simulator/add-admins' }
                 ]
               },
               {
