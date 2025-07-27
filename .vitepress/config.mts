@@ -335,7 +335,7 @@ export default defineConfig({
                 link: '/en/gameserver/american-truck-simulator',
                 collapsed: true,
                 items: [
-                  { text: 'Add Mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
+                  { text: 'Add mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
                   { text: 'Add admins', link: '/en/gameserver/american-truck-simulator/add-admins' }
                 ]
               },
