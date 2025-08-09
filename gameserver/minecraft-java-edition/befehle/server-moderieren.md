@@ -18,6 +18,14 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 
 2.1 <b>Wenn du einen Spieler mit einem Grund bannen möchtest z.B. X-Ray dann mach ganz einfach ```/ban Nutzername X-Ray``` und bestätige erneut mit Enter.</b><br>
 
+## Spieler ip-bannen
+
+<b>Was wenn ein Spieler bereits gebannt ist auf bspw. dem Account "Steve" aber auch noch einen zweiten Account namens "Alex" hat, damit umgeht er eine Sperre, deswegen gibt es IP-Sperren!</b><br>
+
+1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
+
+2. <b>Gebe dort ein ```/ban-ip Nutzername|IP-Addresse``` und nun ist jeder Account der auf dieser IP-Addresse ist automatisch gesperrt :D!</b><br>
+
 ## Spieler entbannen
 
 <b>Nehmen wir an, ein Spieler hat einen Entbannungsantrag gestellt und dieser wurde akzeptiert, wie entbannt man ihn nun?</b><br>
@@ -25,6 +33,16 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
 
 2. <b>Gebe dort ein ```/pardon Nutzername``` und drücke Enter. Fertig der Spieler ist nun entbannt.</b><br>
+
+## Spieler entipbannen
+
+<b>Nehmen wir an, ein Spieler hat einen Entbannungsantrag gestellt und dieser wurde akzeptiert, wie entipbannt man ihn nun?</b><br>
+
+1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
+
+2. <b>Gebe dort ein ```/pardon-ip IP-Addresse``` und drücke Enter. Fertig der Spieler ist nun entipbannt.</b><br>
+
+2.1 <b>Wenn du die IP-Addresse des Nutzers nicht weisst, kannst du in den Server-Dateien in der banned-ips.json nachschauen, dort sollten die IPS mit Nutzername drin stehen.</b><br>
 
 ## Spieler kicken
 
