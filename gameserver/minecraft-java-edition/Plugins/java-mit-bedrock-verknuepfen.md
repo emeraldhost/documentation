@@ -46,4 +46,31 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     dann werden alle benötigten Ordner erstellt.
 
 ## Schritt 2:
+  <b>GeyserMC konfigurieren</b><br>
+    Begebe dich in den Plugins Ordner und dort in den
+    Geyser-Spigot Ordner. (Keine Sorge du hast nicht
+    die falsche Version runtergeladen, Geyser nennt
+    es nur Spigot statt Paper.) Öffne dort die config.yml
+    Datei, scrolle nun ein bisschen runter bis du die Zeile
+    "clone-remote-port" findest diese änderst du um von false
+    zu true.
+
+  <b>Optionale Konfigurationen</b><br>
+    Ich empfehle "command-suggestions" auf false zu stellen.
+    Und "show-cooldown" auf actionbar zu setzen.
+    Dies gibt den Nutzer ggf. bessere Spielerfahrung.
+
+  Wenn du nun mit diesem Schritt fertig bist,
+  speichere die Datei.
+
+  <b>Keydatei kopieren</b><br>
+    Einer der wichtigsten Schritte ist die key.pem Datei.
+    Diese solltest du im Plugins/Floodgate Ordner finden.
+    Lade dir diese herunter (Wenn du auf dem Webpanel bist.).
+    Oder kopiere sie dir (Wenn du in WinSCP etc. bist.).
+    Wenn du sie dir heruntergeladen hast oder kopiert hast,
+    gehe erneut in den Geyser Ordner und füge oder lade sie dort hoch.
+
+  <b>Optionale Floodgate Option</b><br>
+   Wenn du den Bedrock-Spieler Prefix vor deren Namen ändern willst   
 
