@@ -99,4 +99,31 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     4. Schaue in den Dokumentationen von Geyser/Floodgate nach woran es liegt.
 
 # Schritt 3:
-  <b></b><br>
+  <b>Fertigstellen!</b><br>
+    Wenn dein Server gerade noch läuft, gebe in der Konsole
+    folgenden Befehl ein um die Änderungen zu übernehmen:
+    "geyser reload", wenn dies nicht klappt starte deinen 
+    Server einfach neu.
+
+# Schritt 4:
+  <b>Testen!</b><br>
+    Kopiere deine Server IP mit Port!
+    Öffne dein Minecraft-Bedrock oder frage einen Freund!
+    Gehe in den Server Tab und scrolle nach unten um einen Server
+    hinzuzufügen. Bei Name kannst du was du willst eingeben.
+    Bei Server Addresse gibts du nun deine Server IP an,
+    bei der Addresse entfernst du jedoch am Ende das :PORT
+    merke dir den Port und gebe diesen beim Port Textfeld ein.
+    Dann kannst du dir den Server einspeichern oder direkt drauflos spielen!
+    <img src="https://i.imgur.com/tmxkJN4.jpeg" />
+
+### Mögliche Fehler:
+  <b>Der Server wird als offline angezeigt :(</b><br>
+    Versuche den Fehler zu beheben mit diesen Schritten:
+    1. Prüfe ob dein Server online ist
+    2. Hast du alle Plugins richtig konfiguriert und installiert?
+    3. Lese dir die EmeraldiHost oder Geyser/Floodgate Konfigurationen durch
+
+### Mit Liebe gemacht von malwaretesting für die EmeraldiHost/Minecraft Community :D ❤️
+
+  
