@@ -29,6 +29,12 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     Gehe dort in den Plugins Ordner und lade dort die Plugins,
     die du im vorherigen Schritt heruntergeladen hast hoch.
 
+  <b>Server starten.</b><br>
+    Jetzt wo alle Plugins drauf sind,
+    kannst du den Server einmal ganz normal starten.
+    Dann sollten alle Plugins deren eigenen Konfigurationsordner
+    in dem Plugins-Ordner erstellen.
+    
 ### Mögliche Fehler:
 
   <b>Ich sehe den Plugin-Ordner nicht</b><br>
@@ -36,4 +42,5 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     Du musst den Server einfach zuerst ganz normal starten,
     dann werden alle benötigten Ordner erstellt.
 
+## Schritt 2:
 
