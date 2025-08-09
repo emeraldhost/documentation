@@ -124,6 +124,8 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     2. Hast du alle Plugins richtig konfiguriert und installiert?
     3. Lese dir die EmeraldiHost oder Geyser/Floodgate Konfigurationen durch
 
+
+
 ### Mit Liebe gemacht von malwaretesting für die EmeraldiHost/Minecraft Community :D ❤️
 
   
