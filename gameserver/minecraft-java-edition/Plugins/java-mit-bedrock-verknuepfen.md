@@ -60,8 +60,8 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     Und "show-cooldown" auf actionbar zu setzen.
     Dies gibt den Nutzer ggf. bessere Spielerfahrung.
 
-  Wenn du nun mit diesem Schritt fertig bist,
-  speichere die Datei.
+  <b>Wenn du nun mit diesem Schritt fertig bist,
+  speichere die Datei.</b><br>
 
   <b>Keydatei kopieren</b><br>
     Einer der wichtigsten Schritte ist die key.pem Datei.
