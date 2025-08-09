@@ -30,7 +30,7 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     die du im vorherigen Schritt heruntergeladen hast hoch.
     Bei EmeraldiHost findest du diesen Links in deiner Sidebar.
     
-  <img src="../../assets/gameserver/minecraft-java-edition/geysermc-einrichten/Screenshot_3.png" />
+  <img src="https://i.imgur.com/YcXtUvJ.png" />
 
   <b>Server starten.</b><br>
     Jetzt wo alle Plugins drauf sind,
