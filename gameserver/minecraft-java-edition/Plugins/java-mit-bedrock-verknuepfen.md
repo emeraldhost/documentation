@@ -55,6 +55,8 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     "clone-remote-port" findest diese änderst du um von false
     zu true.
 
+  <img src="https://i.imgur.com/fN14tcw.png" />
+
   <b>Optionale Konfigurationen</b><br>
     Ich empfehle "command-suggestions" auf false zu stellen.
     Und "show-cooldown" auf actionbar zu setzen.
@@ -72,5 +74,18 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     gehe erneut in den Geyser Ordner und füge oder lade sie dort hoch.
 
   <b>Optionale Floodgate Option</b><br>
-   Wenn du den Bedrock-Spieler Prefix vor deren Namen ändern willst   
+   Wenn du den Bedrock-Spieler Prefix vor deren Namen ändern willst,
+   dann begebe dich in die Floodgate config.yml Datei und änder dort 
+   relativ weit oben die Zeile "username-prefix: "_"" dort wo _ in den
+   Anführungszeichen steht kannst du den Prefix änder zu z.B. ein Ausrufezeichen.
+   Es ist aber wichtig das du die Anführungszeichen dort lässt!
 
+  <b>Wenn du nun mit diesem Schritt fertig bist,
+    speichere die Datei.</b><br>
+
+  <b>Chatnachrichten von Bedrock-Spielern</b><br>
+    Damit Bedrock-Spieler Chatnachrichten versenden können musst du
+    in der server.properties Datei die Zeile "enforce-secure-profile"
+    auf "false" setzen
+
+  <img src="https://i.imgur.com/IDylgtD.png" />
