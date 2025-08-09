@@ -89,3 +89,14 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     auf "false" setzen
 
   <img src="https://i.imgur.com/IDylgtD.png" />
+
+### Mögliche Fehler:
+  <b>Ich sehe den Geyser-Spigot/Floodgate Ordner nicht!</b><br>
+    Wenn du keiner dieser Ordner siehst, versuche folgendes:
+    1. Starte/Restarte den Server
+    2. Gucke nach ob du die Plugins wirklich hochgeladen hast.
+    3. Hast du die richtige Server Version?
+    4. Schaue in den Dokumentationen von Geyser/Floodgate nach woran es liegt.
+
+# Schritt 3:
+  <b></b><br>
