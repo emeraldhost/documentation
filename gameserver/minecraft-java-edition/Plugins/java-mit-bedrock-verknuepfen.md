@@ -29,6 +29,8 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     Gehe dort in den Plugins Ordner und lade dort die Plugins,
     die du im vorherigen Schritt heruntergeladen hast hoch.
 
+### Mögliche Fehler:
+
   <b>Ich sehe den Plugin-Ordner nicht</b><br>
     Wenn du den Plugin-Ordner nicht siehst, keine Sorge.
     Du musst den Server einfach zuerst ganz normal starten,
