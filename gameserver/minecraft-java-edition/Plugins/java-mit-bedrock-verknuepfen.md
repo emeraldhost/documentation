@@ -24,12 +24,12 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
 
 ## Schritt 1:
 
-  <b>Plugins hochladen</b>
+  <b>Plugins hochladen</b><br>
     Öffne den Dateimanager oder SFTP Dateimanager deines Server.
     Gehe dort in den Plugins Ordner und lade dort die Plugins,
     die du im vorherigen Schritt heruntergeladen hast hoch.
 
-  <b>Ich sehe den Plugin-Ordner nicht</b>
+  <b>Ich sehe den Plugin-Ordner nicht</b><br>
     Wenn du den Plugin-Ordner nicht siehst, keine Sorge.
     Du musst den Server einfach zuerst ganz normal starten,
     dann werden alle benötigten Ordner erstellt.
