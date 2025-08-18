@@ -56,6 +56,7 @@ export default defineConfig({
                   { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern' },
                   { text: 'Version ändern', link: '/gameserver/minecraft-java-edition/version-aendern' },
                   { text: 'World-Seed ändern', link: '/gameserver/minecraft-java-edition/world-seed-aendern' },
+                  { text: 'Welt Hochladen', link: '/gameserver/minecraft-java-edition/welt-hochladen' },
                   {
                     text: 'Befehle',
                     link: '',
@@ -289,6 +290,7 @@ export default defineConfig({
                   { text: 'Change Modpack', link: '/en/gameserver/minecraft-java-edition/change-modpack' },
                   { text: 'Change Version', link: '/en/gameserver/minecraft-java-edition/change-version' },
                   { text: 'Change world seed', link: '/en/gameserver/minecraft-java-edition/change-world-seed' },
+                  { text: 'Upload world', link: '/en/gameserver/minecraft-java-edition/upload-world' },
                   {
                     text: 'Commands',
                     link: '',
