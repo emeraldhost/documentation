@@ -1,5 +1,6 @@
 ---
 description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen auf den gleichen Server joinen können.
+title: GeyserMC mit Floodgate einrichten
 ---
 
 # Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen auf den gleichen Server joinen können.
@@ -10,7 +11,7 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
 
 2. <b>Der Server sollte 1.16.5 oder höher haben</b>
 
-3. <b>Geduld</b>
+3. <b>Geduld :D</b>
 
 ## Plugins
 
@@ -28,7 +29,7 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     Öffne den Dateimanager oder SFTP Dateimanager deines Server.
     Gehe dort in den Plugins Ordner und lade dort die Plugins,
     die du im vorherigen Schritt heruntergeladen hast hoch.
-    Bei EmeraldiHost findest du diesen Links in deiner Sidebar.
+    Bei EmeraldHost findest du diesen Links in deiner Sidebar.
     
   <img src="https://i.imgur.com/YcXtUvJ.png" />
 
@@ -53,19 +54,24 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     es nur Spigot statt Paper.) Öffne dort die config.yml
     Datei, scrolle nun ein bisschen runter bis du die Zeile
     "clone-remote-port" findest diese änderst du um von false
-    zu true.
+    zu true. Dies ändert den Port von der Geyser-Konfiguration
+    zu der von Java also z.B. Geyser-Konfiguration ist Port 11111
+    angegeben aber der Java Server läuft auf 22222 dann wird durch
+    clone-remote-port der Port auf 22222 gesetzt.
 
   <img src="https://i.imgur.com/fN14tcw.png" />
 
   <b>Optionale Konfigurationen</b><br>
     Ich empfehle "command-suggestions" auf false zu stellen.
+    Dies entfernt die Vorschläge von Befehlen.
     Und "show-cooldown" auf actionbar zu setzen.
+    Damit kommt nicht immer ein riesen großer Ladebalken
     Dies gibt den Nutzer ggf. bessere Spielerfahrung.
 
   <b>Wenn du nun mit diesem Schritt fertig bist,
   speichere die Datei.</b><br>
 
-  <b>Keydatei kopieren</b><br>
+  <b>Schlüsseldatei kopieren</b><br>
     Einer der wichtigsten Schritte ist die key.pem Datei.
     Diese solltest du im Plugins/Floodgate Ordner finden.
     Lade dir diese herunter (Wenn du auf dem Webpanel bist.).
@@ -122,10 +128,7 @@ description: Minecraft Java mit Bedrock verknüpfen sodass beide MC-Versionen au
     Versuche den Fehler zu beheben mit diesen Schritten:
     1. Prüfe ob dein Server online ist
     2. Hast du alle Plugins richtig konfiguriert und installiert?
-    3. Lese dir die EmeraldiHost oder Geyser/Floodgate Konfigurationen durch
+    3. Lese dir die EmeraldHost oder Geyser/Floodgate Konfigurationen durch
 
-
-
-### Mit Liebe gemacht von malwaretesting für die EmeraldiHost/Minecraft Community :D ❤️
 
   
