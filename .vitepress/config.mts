@@ -79,6 +79,7 @@ export default defineConfig({
                   { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren' },
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-bedrock-edition/op-rechte-vergeben' },
                   { text: 'World-Seed ändern', link: '/gameserver/minecraft-bedrock-edition/world-seed-aendern' },
+                  { text: 'Welt Hochladen', link: '/gameserver/minecraft-bedrock-edition/welt-hochladen' },
                   {
                     text: 'Befehle',
                     link: '',
@@ -313,6 +314,7 @@ export default defineConfig({
                   { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist' },
                   { text: 'Grant OP rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights' },
                   { text: 'Change world seed', link: '/en/gameserver/minecraft-bedrock-edition/change-world-seed' },
+                  { text: 'Upload world', link: '/en/gameserver/minecraft-bedrock-edition/upload-world' },
                   {
                     text: 'Commands',
                     link: '',
