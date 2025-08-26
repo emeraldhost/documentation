@@ -1,6 +1,6 @@
 ---
 description: Anleitung wie man den Server als Operator moderiert via. Bann Befehle etc.
-title: Server moderien via. Befehle
+title: Server moderieren via. Befehle
 ---
 
 # Moderations-Befehle im Spiel-Chat nutzen
