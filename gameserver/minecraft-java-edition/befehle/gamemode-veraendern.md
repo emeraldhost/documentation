@@ -1,12 +1,13 @@
 ---
-description: Minecraft Gamemode/Spielmodus veraendern Ingame und per Konsole.
+description: Minecraft Spielmodus verändern Ingame und per Konsole.
+title: Spielmodus eines Spielers verändern
 ---
 
-# Hier findest du heraus wie du deinen Spielmodus per Konsole und mithilfe des Chats veraenderst!
+# Hier findest du heraus wie du deinen Spielmodus per Konsole und mithilfe des Chats veränderst!
 
 
 ::: warning Wichtig
-Es ist wichtig das du dir selber OP-Rechte gegeben hast da du sonst nur per Konsole deinen Spielmodus aendern kannst! [Hier](https://docs.emeraldhost.de/gameserver/minecraft-java-edition/op-rechte-vergeben.html) findest du heraus wie du dir OP-Rechte gibst.
+Es ist wichtig das du dir selber OP-Rechte gegeben hast da du sonst nur per Konsole deinen Spielmodus ändern kannst! [Hier](https://docs.emeraldhost.de/gameserver/minecraft-java-edition/op-rechte-vergeben.html) findest du heraus wie du dir OP-Rechte gibst.
 :::
 
 ## Per Ingame Chat
@@ -17,9 +18,9 @@ Es ist wichtig das du dir selber OP-Rechte gegeben hast da du sonst nur per Kons
 
     ```
     /gamemode creative # Hiermit landest du im Kreativmodus wo du fliegen und alles bauen kannst was du willst
-    /gamemode survival # Hiermit landest du im Ueberlebensmodus wo du das Spiel ganz normal durchspielen etc. kannst ohne zu cheaten
-    /gamemode spectator # Hiermit landes tdu im Zuschauermodus wo du durch Blöcke durchfliegen kannst aber nichts bauen etc.
-    /gamemode adventure # Hiermit landest du im "Abenteuer"modus wo du dich nur umgucken kannst aber mit nichts interagieren
+    /gamemode survival # Hiermit landest du im Überlebensmodus wo du das Spiel ganz normal durchspielen etc. kannst ohne zu cheaten
+    /gamemode spectator # Hiermit landest du im Zuschauermodus wo du durch Blöcke durchfliegen kannst aber nichts bauen etc.
+    /gamemode adventure # Hiermit landest du im Abenteuermodus wo du dich nur umgucken kannst aber mit nichts interagieren
     ```
 
 ## Gamemode Befehle in der Konsole
@@ -28,13 +29,13 @@ Es ist wichtig das du dir selber OP-Rechte gegeben hast da du sonst nur per Kons
 In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
 :::
 
-1. <strong>Gehe auf dein EmeraldiHosti Dashboard und wähle deinen Server aus.</strong>
+1. <strong>Gehe auf dein EmeraldHost Dashboard und wähle deinen Server aus.</strong>
 
 2. <strong>Navigiere links in der Sidebar zu der Server-Konsole.</strong>
 
 3. <strong>Verwende dort die genau gleichen Befehle wie oben aber mit einem Spieler am Ende, bsp:</strong>
 
     ```
-    gamemode creative Notch
-    gamemode survival EmeraldHost
+    gamemode creative <Spielername>
+    gamemode survival <Spielername>
     ```
