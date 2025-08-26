@@ -1,8 +1,9 @@
 ---
 description: Anleitung wie man den Server als Operator moderiert via. Bann Befehle etc.
+title: Server moderien via. Befehle
 ---
 
-## Moderations-Befehle im Ingame-Chat nutzen
+# Moderations-Befehle im Spiel-Chat nutzen
 
 ::: warning Wichtig
 Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast die Befehle auszuführen, [hier findest du wie du diese kriegst!](https://docs.emeraldhost.de/gameserver/minecraft-java-edition/op-rechte-vergeben.html)
