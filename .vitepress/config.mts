@@ -113,7 +113,7 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-ändern' }
+                  { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
                 ]
               },
               {
