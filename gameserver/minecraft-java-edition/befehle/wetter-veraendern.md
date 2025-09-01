@@ -3,7 +3,7 @@ description: Wetter verändern per Befehl im Spiel-Chat
 title: Wetter verändern
 ---
 
-# Teleport-Befehle im Spiel-Chat nutzen
+# Wetter-Befehle im Spiel-Chat nutzen
 
 ::: warning Wichtig
 Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast die Befehle auszuführen, [hier findest du wie du diese kriegst!](https://docs.emeraldhost.de/gameserver/minecraft-java-edition/op-rechte-vergeben.html)
