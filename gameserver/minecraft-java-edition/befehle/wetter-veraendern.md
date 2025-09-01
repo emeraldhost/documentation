@@ -11,7 +11,7 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 
 1. <strong>Öffne den Chat. Standardmäßig mit der Taste ```T```</strong>
 
-2. <strong>Ändere das Wetter mit ```/weather WETTER``` alle Wetterarten findest du hier:</strong>
+2. <strong>Ändere das Wetter mit ```/weather <wetter>``` alle Wetterarten findest du hier:</strong>
 
     ```
     /weather clear # Lässt den Regen etc. verschwinden!
