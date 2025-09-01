@@ -14,7 +14,7 @@ Es ist wichtig das du dir selber OP-Rechte gegeben hast da du sonst nur per Kons
 
 1. <strong>Öffne den Chat. Standardmäßig mit der Taste ```t```</strong>
 
-2. <strong>Gebe "/gamemode " ein und einer der folgenden Moden:</strong>
+2. <strong>Gebe "/gamemode <spielmodus>" ein und einer der folgenden Moden:</strong>
 
     ```
     /gamemode creative # Hiermit landest du im Kreativmodus wo du fliegen und alles bauen kannst was du willst
