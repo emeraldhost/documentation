@@ -15,9 +15,9 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 
 1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
 
-2. <b>Gebe dort ein ```/ban Nutzername``` und drücke Enter. Fertig der Spieler ist nun gebannt.</b><br>
+2. <b>Gebe dort ein ```/ban <Nutzername>``` und drücke Enter. Fertig der Spieler ist nun gebannt.</b><br>
 
-2.1 <b>Wenn du einen Spieler mit einem Grund bannen möchtest z.B. X-Ray dann mach ganz einfach ```/ban Nutzername X-Ray``` und bestätige erneut mit Enter.</b><br>
+2.1 <b>Wenn du einen Spieler mit einem Grund bannen möchtest z.B. X-Ray dann mach ganz einfach ```/ban <Nutzername> X-Ray``` und bestätige erneut mit Enter.</b><br>
 
 ## Spieler ip-bannen
 
@@ -25,7 +25,7 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 
 1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
 
-2. <b>Gebe dort ein ```/ban-ip Nutzername|IP-Addresse``` und nun ist jeder Account der auf dieser IP-Addresse ist automatisch gesperrt :D!</b><br>
+2. <b>Gebe dort ein ```/ban-ip <Nutzername | IP-Addresse>``` und nun ist jeder Account der auf dieser IP-Addresse ist automatisch gesperrt :D!</b><br>
 
 ## Spieler entbannen
 
@@ -33,7 +33,7 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 
 1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
 
-2. <b>Gebe dort ein ```/pardon Nutzername``` und drücke Enter. Fertig der Spieler ist nun entbannt.</b><br>
+2. <b>Gebe dort ein ```/pardon <Nutzername>``` und drücke Enter. Fertig der Spieler ist nun entbannt.</b><br>
 
 ## Spieler entipbannen
 
@@ -41,7 +41,7 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 
 1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
 
-2. <b>Gebe dort ein ```/pardon-ip IP-Addresse``` und drücke Enter. Fertig der Spieler ist nun entipbannt.</b><br>
+2. <b>Gebe dort ein ```/pardon-ip <IP-Addresse>``` und drücke Enter. Fertig der Spieler ist nun entipbannt.</b><br>
 
 2.1 <b>Wenn du die IP-Addresse des Nutzers nicht weisst, kannst du in den Server-Dateien in der banned-ips.json nachschauen, dort sollten die IPS mit Nutzername drin stehen.</b><br>
 
@@ -51,7 +51,7 @@ Es ist wichtig das du Operator-Rechte hast da du sonst keine Berechtigung hast d
 
 1. <b>Öffne deinen Chat mit standardmäßig der "T" Taste</b><br>
 
-2. <b>Gebe dort ein ```/kick Nutzername Grund``` und sende es ab mit Enter. Und fertig der Spieler wurde gekickt, der Grund ist aber nicht benötigt.</b><br>
+2. <b>Gebe dort ein ```/kick <Nutzername> Grund``` und sende es ab mit Enter. Und fertig der Spieler wurde gekickt, der Grund ist aber nicht benötigt.</b><br>
 
 ### Moderations-Befehle in der Konsole
 
