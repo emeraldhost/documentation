@@ -9,8 +9,8 @@ description: Docker Compose auf einem Rootserver installieren (Ubuntu/Debian)
     ```
     apt update
     ```
-2. Falls du die offizielle Version von Docker schon mithilfe von apt installiert hast, kannst Du ganz einfach den [Docker Compose plugin installieren](#Docker-Compose-plugin-installieren). <br>
-   Falls diese Version von Docker nicht installiert ist, muss [Docker Compose seperat installiert werden (standalone)](#Docker-Compose-einzeln-installieren-standalone).
+2. Falls du die offizielle Version von Docker schon mithilfe von apt installiert hast, kannst Du ganz einfach den [Docker Compose plugin installieren](#docker-compose-plugin-installieren). <br>
+   Falls diese Version von Docker nicht installiert ist, muss [Docker Compose seperat installiert werden (standalone)](#docker-compose-einzeln-installieren-standalone).
 
 ## Docker Compose plugin installieren
 
