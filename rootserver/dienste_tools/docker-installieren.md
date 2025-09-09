@@ -70,4 +70,4 @@ Diese Variante ist offiziell von Docker bereitgestellt allerdings sollte sie nur
 4. Wenn Docker ordnungsgemäß installiert wurde, wird das Hello-World-Beispiel ausgeführt und eine Bestätigungsmeldung angezeigt.
 
 
-Nun ist Docker erfolgreich auf deinem Linux-Server installiert und Du kannst Container ausführen und verwalten. Um weitere Docker-Befehle zu lernen, kannst Du die Docker-Dokumentation lesen oder Online-Ressourcen nutzen.
+Nun ist Docker erfolgreich auf deinem Linux-Server installiert und Du kannst Container ausführen und verwalten. Um weitere Docker-Befehle zu lernen, kannst Du die Docker-Dokumentation lesen oder Online-Ressourcen nutzen. Falls Docker Compose nicht installiert ist, kannst Du es mithilfe der [Anleitung für Docker Compose](./docker-compose-installieren.html) installieren.
