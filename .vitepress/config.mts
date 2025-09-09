@@ -81,6 +81,7 @@ export default defineConfig({
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-bedrock-edition/op-rechte-vergeben' },
                   { text: 'World-Seed ändern', link: '/gameserver/minecraft-bedrock-edition/world-seed-aendern' },
                   { text: 'Welt Hochladen', link: '/gameserver/minecraft-bedrock-edition/welt-hochladen' },
+                  { text: 'Welt Löschen', link: '/gameserver/minecraft-bedrock-edition/welt-loeschen' },
                   {
                     text: 'Befehle',
                     link: '',
@@ -317,6 +318,7 @@ export default defineConfig({
                   { text: 'Grant OP rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights' },
                   { text: 'Change world seed', link: '/en/gameserver/minecraft-bedrock-edition/change-world-seed' },
                   { text: 'Upload world', link: '/en/gameserver/minecraft-bedrock-edition/upload-world' },
+                  { text: 'Delete world', link: '/en/gameserver/minecraft-bedrock-edition/delete-world' },
                   {
                     text: 'Commands',
                     link: '',
