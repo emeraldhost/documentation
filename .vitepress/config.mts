@@ -98,7 +98,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Mods hinzufügen', link: '/gameserver/euro-truck-simulator-2/mods-hinzufuegen' },
-                  { text: 'Admins hinzufügen', link: '/gameserver/euro-truck-simulator-2/admins-hinzufuegen' }
+                  { text: 'Admins hinzufügen', link: '/gameserver/euro-truck-simulator-2/admins-hinzufuegen' },
+                  { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/euro-truck-simulator-2/spieler-schaden-deaktivieren' }
                 ]
               },
               {
@@ -107,7 +108,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Mods hinzufügen', link: '/gameserver/american-truck-simulator/mods-hinzufuegen' },
-                  { text: 'Admins hinzufügen', link: '/gameserver/american-truck-simulator/admins-hinzufuegen' }
+                  { text: 'Admins hinzufügen', link: '/gameserver/american-truck-simulator/admins-hinzufuegen' },
+                  { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/american-truck-simulator/spieler-schaden-deaktivieren' }
                 ]
               },
               {
@@ -335,7 +337,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add mods', link: '/en/gameserver/euro-truck-simulator-2/add-mods' },
-                  { text: 'Add admins', link: '/en/gameserver/euro-truck-simulator-2/add-admins' }
+                  { text: 'Add admins', link: '/en/gameserver/euro-truck-simulator-2/add-admins' },
+                  { text: 'Deactivate player damage', link: '/en/gameserver/euro-truck-simulator-2/deactivate-player-damage' }
                 ]
               },
               {
@@ -344,7 +347,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
-                  { text: 'Add admins', link: '/en/gameserver/american-truck-simulator/add-admins' }
+                  { text: 'Add admins', link: '/en/gameserver/american-truck-simulator/add-admins' },
+                  { text: 'Deactivate player damage', link: '/en/gameserver/american-truck-simulator/deactivate-player-damage' }
                 ]
               },
               {
