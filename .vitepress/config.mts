@@ -157,6 +157,14 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' }
                 ]
+              },
+              {
+                text: '7 Days to Die',
+                link: '/gameserver/7-days-to-die',
+                collapsed: true,
+                items: [
+                  { text: 'Crossplay Aktivieren', link: '/gameserver/7-days-to-die/crossplay-aktivieren' }
+                ]
               }
             ]
           },
@@ -397,6 +405,14 @@ export default defineConfig({
                   { text: '🚨 Performance problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-Enshrouded-servers' },
                   { text: 'Add savegame', link: '/en/gameserver/enshrouded/add-savegame' },
                   { text: 'Join server', link: '/en/gameserver/enshrouded/join-server' }
+                ]
+              },
+              {
+                text: '7 Days to Die',
+                link: '/en/gameserver/7-days-to-die',
+                collapsed: true,
+                items: [
+                  { text: 'Activate crossplay', link: '/en/gameserver/7-days-to-die/activate-crossplay' }
                 ]
               }
             ]
