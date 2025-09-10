@@ -41,6 +41,8 @@ export default defineConfig({
             text: 'Gameserver',
             items: [
               { text: 'SFTP-Verbindung Herstellen', link: '/gameserver/sftp-verbindung-herstellen' },
+              { text: 'SteamID64 Herausfinden', link: '/gameserver/steamid64-herausfinden' },
+              { text: 'Epic Games ID Herausfinden', link: '/gameserver/epicgamesid-herausfinden' },
               {
                 text: 'Minecraft Java Edition',
                 link: '/gameserver/minecraft-java-edition',
@@ -280,6 +282,8 @@ export default defineConfig({
             text: 'Gameserver',
             items: [
               { text: 'Establish SFTP connection', link: '/en/gameserver/establish-sftp-connection' },
+              { text: 'SteamID64 Find out', link: '/en/gameserver/steamid64-find-out' },
+              { text: 'Epic Games ID Find out', link: '/en/gameserver/epicgamesid-find-out' },
               {
                 text: 'Minecraft Java Edition',
                 link: '/en/gameserver/minecraft-java-edition',
