@@ -76,7 +76,7 @@ export default defineConfig({
                     link: '',
                     collapsed: true,
                     items: [
-                      { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/plugins/java-mit-bedrock-verknuepfen' }
+                      { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/Plugins/java-mit-bedrock-verknuepfen' }
                     ]
                   }
                 ]
