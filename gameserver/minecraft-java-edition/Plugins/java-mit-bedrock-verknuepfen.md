@@ -33,7 +33,7 @@ Manche Paper-Server unterstützen standardmäßig kein Java 17. Füge in diesem 
 Falls Du den Ordner ```plugins``` nicht siehst, starte Deinen Server einmal, damit der Ordner erstellt wird.
 :::
 
-  1. <strong>Öffne Dein Dashboard, wähle Deinen Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](../sftp-verbindung-herstellen.md).</strong>
+  1. <strong>Öffne Dein Dashboard, wähle Deinen Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](/gameserver/sftp-verbindung-herstellen.md).</strong>
   
   <img src="/assets/gameserver/minecraft-java-edition/geysermc/1.png" />
 
@@ -57,6 +57,7 @@ clone-remote-port: false
 
 ::: tip Tipp
 Um Spielern eine bessere Spielerfahrung zu bieten, kannst Du folgende Optionen setzen:
+
 - ```command-suggestions``` auf ```false```
 - ```show-cooldown``` auf ```actionbar```
 :::
