@@ -62,11 +62,11 @@ export default defineConfig({
                     collapsed: true,
                     items: [
                       { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-java-edition/befehle/tp-befehl-verwenden' },
-                      { text: 'Gamemode verändern', link: '/gameserver/minecraft-java-edition/befehle/gamemode-veraendern' }
-                      { text: 'Server moderieren', link: '/gameserver/minecraft-java-edition/befehle/server-moderieren' }
-                      { text: 'Wetter verändern', link: '/gameserver/minecraft-java-edition/befehle/wetter-veraendern' }
+                      { text: 'Gamemode verändern', link: '/gameserver/minecraft-java-edition/befehle/gamemode-veraendern' },
+                      { text: 'Server moderieren', link: '/gameserver/minecraft-java-edition/befehle/server-moderieren' },
+                      { text: 'Wetter verändern', link: '/gameserver/minecraft-java-edition/befehle/wetter-veraendern' },
                     ]
-                  }
+                  },
                   {
                     text: 'Plugins',
                     link: '',
