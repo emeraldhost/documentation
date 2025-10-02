@@ -327,6 +327,14 @@ export default defineConfig({
                     items: [
                       { text: 'Use Tp command', link: '/en/gameserver/minecraft-java-edition/commands/use-tp-command' }
                     ]
+                  },
+                  {
+                    text: 'Plugins',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Link Java with Bedrock', link: '/en/gameserver/minecraft-java-edition/plugins/link-java-with-bedrock' }
+                    ]
                   }
                 ]
               },
