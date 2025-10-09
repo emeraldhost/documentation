@@ -43,7 +43,7 @@ Wenn Du Deinen Server nicht findest, stelle sicher, dass die Server-Region mit d
 
 2. <strong>Gehe zu den Einstellungen.</strong>
 
-3. <strong>Scrolle nach unten zu Server Liste.</strong>
+3. <strong>Scrolle nach unten zu „Server Liste“.</strong>
 
 4. <strong>Setze den Wert auf ```true```.</strong>
 

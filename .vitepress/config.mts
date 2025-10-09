@@ -182,7 +182,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Server beitreten', link: '/gameserver/aloft/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/aloft/server-beitreten' },
+                  { text: 'Servername Ändern', link: '/gameserver/aloft/server-name-aendern' }
                 ]
               }
             ]
@@ -447,7 +448,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Join server', link: '/en/gameserver/aloft/join-server' }
+                  { text: 'Join server', link: '/en/gameserver/aloft/join-server' },
+                  { text: 'Change server name', link: '/en/gameserver/aloft/change-server-name' }
                 ]
               }
             ]

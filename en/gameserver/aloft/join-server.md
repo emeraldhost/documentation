@@ -15,9 +15,9 @@ The room code is displayed in the console when the server is started: ```Server 
 The room code changes with every server restart. Alternatively, you can use the public server list.
 :::
 
-1. <strong>Open your dashboard and select your Aloft server</strong>.
+1. <strong>Open your dashboard and select your Aloft server.</strong>
 
-2. <strong>Go to the file browser</strong>.
+2. <strong>Go to the file browser.</strong>
 
 3. <strong>Open the file ```ServerRoomCode.txt```.</strong>
 
@@ -25,13 +25,13 @@ The room code changes with every server restart. Alternatively, you can use the 
 
 5. <strong>Start Aloft.</strong>
 
-6. <strong>Click on "MULTIPLAYER"</strong>.
+6. <strong>Click on "MULTIPLAYER".</strong>
 
-7. <strong>Select "JOIN GAME"</strong>.
+7. <strong>Select "JOIN GAME".</strong>
 
-8. <strong>Enter your room code in the top right-hand corner</strong>.
+8. <strong>Enter your room code in the top right-hand corner.</strong>
 
-9. <strong>Click on "JOIN GAME"</strong>.
+9. <strong>Click on "JOIN GAME".</strong>
 
 ## Public server list variant
 
@@ -39,18 +39,18 @@ The room code changes with every server restart. Alternatively, you can use the 
 If you cannot find your server, make sure that the server region matches the region in the server list.
 :::
 
-1. <strong>Open your dashboard and select your Aloft server</strong>.
+1. <strong>Open your dashboard and select your Aloft server.</strong>
 
-2. <strong>Go to the settings</strong>.
+2. <strong>Go to the settings.</strong>
 
-3. <strong>Scroll down to Server list</strong>.
+3. <strong>Scroll down to „Server list“.</strong>
 
 4. <strong>Set the value to ```true```.</strong>
 
-5. <strong>Start Aloft</strong>.
+5. <strong>Start Aloft.</strong>
 
-6. <strong>Click on "MULTIPLAYER"</strong>.
+6. <strong>Click on "MULTIPLAYER".</strong>
 
-7. <strong>Select "JOIN GAME"</strong>.
+7. <strong>Select "JOIN GAME".</strong>
 
-8. <strong>Now you can find your Aloft server in the list</strong>.
+8. <strong>Now you can find your Aloft server in the list.</strong>
