@@ -171,10 +171,18 @@ export default defineConfig({
               },
               {
                 text: '7 Days to Die',
-                link: '/gameserver/7-days-to-die',
+                link: '',
                 collapsed: true,
                 items: [
                   { text: 'Crossplay Aktivieren', link: '/gameserver/7-days-to-die/crossplay-aktivieren' }
+                ]
+              },
+              {
+                text: 'Aloft',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Server beitreten', link: '/gameserver/aloft/server-beitreten' }
                 ]
               }
             ]
@@ -432,6 +440,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Activate crossplay', link: '/en/gameserver/7-days-to-die/activate-crossplay' }
+                ]
+              },
+              {
+                text: 'Aloft',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Join server', link: '/en/gameserver/aloft/join-server' }
                 ]
               }
             ]
