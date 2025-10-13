@@ -9,6 +9,10 @@ description: Step-by-step instructions on how to add admins to your Aloft server
 If you want to add multiple admins, you can simply separate the Steam64IDs with a space (e.g. ```11111111111111111 22222222222222222```).
 :::
 
+::: tip Tip
+Here you will find instructions on how to find out your [Steam64ID](../steamid64-find-out.md).
+:::
+
 1. <strong>Open your dashboard and select your Aloft server.</strong>
 
 2. <strong>Go to the settings.</strong>
