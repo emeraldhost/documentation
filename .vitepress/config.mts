@@ -183,7 +183,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Server beitreten', link: '/gameserver/aloft/server-beitreten' },
-                  { text: 'Servername Ändern', link: '/gameserver/aloft/server-name-aendern' }
+                  { text: 'Servername Ändern', link: '/gameserver/aloft/server-name-aendern' },
+                  { text: 'Admin Hinzufügen', link: '/gameserver/aloft/admin-hinzufuegen' }
                 ]
               }
             ]
@@ -449,7 +450,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Join server', link: '/en/gameserver/aloft/join-server' },
-                  { text: 'Change server name', link: '/en/gameserver/aloft/change-server-name' }
+                  { text: 'Change server name', link: '/en/gameserver/aloft/change-server-name' },
+                  { text: 'Add Admin', link: '/en/gameserver/aloft/add-admin' }
                 ]
               }
             ]
