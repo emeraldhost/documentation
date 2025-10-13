@@ -186,7 +186,8 @@ export default defineConfig({
                   { text: 'Servername Ändern', link: '/gameserver/aloft/server-name-aendern' },
                   { text: 'Admin Hinzufügen', link: '/gameserver/aloft/admin-hinzufuegen' },
                   { text: 'Private Inseln Aktivieren', link: '/gameserver/aloft/private-inseln-aktivieren' },
-                  { text: 'Anzahl der Inseln ändern', link: '/gameserver/aloft/anzahl-der-inseln-aendern' }
+                  { text: 'Anzahl der Inseln ändern', link: '/gameserver/aloft/anzahl-der-inseln-aendern' },
+                  { text: 'Ingame Konsole öffnen', link: '/gameserver/aloft/ingame-konsole-oeffnen' }
                 ]
               }
             ]
@@ -455,7 +456,8 @@ export default defineConfig({
                   { text: 'Change server name', link: '/en/gameserver/aloft/change-server-name' },
                   { text: 'Add Admin', link: '/en/gameserver/aloft/add-admin' },
                   { text: 'Activate private islands', link: '/en/gameserver/aloft/activate-private-islands' },
-                  { text: 'Change Number of Islands', link: '/en/gameserver/aloft/change-number-of-islands' }
+                  { text: 'Change Number of Islands', link: '/en/gameserver/aloft/change-number-of-islands' },
+                  { text: 'Open ingame console', link: '/en/gameserver/aloft/open-ingame-console' }
                 ]
               }
             ]
