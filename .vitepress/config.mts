@@ -189,6 +189,14 @@ export default defineConfig({
                   { text: 'Anzahl der Inseln ändern', link: '/gameserver/aloft/anzahl-der-inseln-aendern' },
                   { text: 'Ingame Konsole öffnen', link: '/gameserver/aloft/ingame-konsole-oeffnen' }
                 ]
+              },
+              {
+                text: 'BeamMP',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Mods Hinzufügen', link: '/gameserver/beammp/mods-hinzufuegen' }
+                ]
               }
             ]
           },
@@ -458,6 +466,14 @@ export default defineConfig({
                   { text: 'Activate private islands', link: '/en/gameserver/aloft/activate-private-islands' },
                   { text: 'Change Number of Islands', link: '/en/gameserver/aloft/change-number-of-islands' },
                   { text: 'Open ingame console', link: '/en/gameserver/aloft/open-ingame-console' }
+                ]
+              },
+              {
+                text: 'BeamMP',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Add mods', link: '/en/gameserver/beammp/add-mods' }
                 ]
               }
             ]
