@@ -49,7 +49,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren' },
-                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-java-edition/slots-erhöhen' },
+                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-java-edition/slots-erhoehen' },
                   { text: 'View-Distance ändern', link: '/gameserver/minecraft-java-edition/view-distance-aendern' },
                   { text: 'Simulation-Distance ändern', link: '/gameserver/minecraft-java-edition/simulation-distance-aendern' },
                   { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern' },
@@ -86,7 +86,7 @@ export default defineConfig({
                 link: '/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
                 items: [
-                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-bedrock-edition/slots-erhöhen' },
+                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-bedrock-edition/slots-erhoehen' },
                   { text: 'View-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/view-distance-aendern' },
                   { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern' },
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen' },
