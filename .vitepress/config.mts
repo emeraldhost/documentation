@@ -197,6 +197,14 @@ export default defineConfig({
                 items: [
                   { text: 'Mods Hinzufügen', link: '/gameserver/beammp/mods-hinzufuegen' }
                 ]
+              },
+              {
+                text: 'Project Zomboid',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Mods Hinzufügen', link: '/gameserver/project-zomboid/mods-hinzufuegen' }
+                ]
               }
             ]
           },
@@ -474,6 +482,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add mods', link: '/en/gameserver/beammp/add-mods' }
+                ]
+              },
+              {
+                text: 'Project Zomboid',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' }
                 ]
               }
             ]
