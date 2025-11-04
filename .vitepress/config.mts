@@ -205,6 +205,14 @@ export default defineConfig({
                 items: [
                   { text: 'Mods Hinzufügen', link: '/gameserver/project-zomboid/mods-hinzufuegen' }
                 ]
+              },
+              {
+                text: 'V Rising',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Admin Hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' }
+                ]
               }
             ]
           },
@@ -490,6 +498,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' }
+                ]
+              },
+              {
+                text: 'V Rising',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' }
                 ]
               }
             ]
