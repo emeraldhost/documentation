@@ -211,7 +211,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Admin Hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' }
+                  { text: 'Admin Hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' },
+                  { text: 'Savegame Hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' }
                 ]
               }
             ]
@@ -505,7 +506,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' }
+                  { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' },
+                  { text: 'Add savegame', link: '/en/gameserver/v-rising/add-savegame' }
                 ]
               }
             ]
