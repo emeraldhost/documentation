@@ -126,6 +126,14 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'ARK Survival Evolved',
+                link: '/gameserver/ark-survival-evolved',
+                collapsed: true,
+                items: [
+                  { text: 'Admins hinzufügen', link: '/gameserver/ark-survival-evolved/admins-hinzufuegen' }
+                ]
+              },
+              {
                 text: 'Arma Reforger',
                 link: '',
                 collapsed: true,
@@ -418,6 +426,14 @@ export default defineConfig({
                   { text: 'Add mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
                   { text: 'Add admins', link: '/en/gameserver/american-truck-simulator/add-admins' },
                   { text: 'Deactivate player damage', link: '/en/gameserver/american-truck-simulator/deactivate-player-damage' }
+                ]
+              },
+              {
+                text: 'ARK Survival Evolved',
+                link: '/en/gameserver/ark-survival-evolved',
+                collapsed: true,
+                items: [
+                  { text: 'Add admins', link: '/en/gameserver/ark-survival-evolved/add-admins' }
                 ]
               },
               {
