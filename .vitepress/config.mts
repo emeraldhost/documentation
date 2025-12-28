@@ -207,6 +207,14 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Conan Exiles',
+                link: '/gameserver/conan-exiles',
+                collapsed: true,
+                items: [
+                  { text: 'Mods hinzufügen', link: '/gameserver/conan-exiles/mods-hinzufuegen' }
+                ]
+              },
+              {
                 text: 'Project Zomboid',
                 link: '',
                 collapsed: true,
@@ -507,6 +515,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add mods', link: '/en/gameserver/beammp/add-mods' }
+                ]
+              },
+              {
+                text: 'Conan Exiles',
+                link: '/en/gameserver/conan-exiles',
+                collapsed: true,
+                items: [
+                  { text: 'Add mods', link: '/en/gameserver/conan-exiles/add-mods' }
                 ]
               },
               {
