@@ -78,6 +78,14 @@ export default defineConfig({
                     items: [
                       { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/plugins/java-mit-bedrock-verknuepfen' }
                     ]
+                  },
+                  {
+                    text: 'Mods',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/mods/simple-voice-chat-einrichten' }
+                    ]
                   }
                 ]
               },
@@ -388,6 +396,14 @@ export default defineConfig({
                     collapsed: true,
                     items: [
                       { text: 'Link Java with Bedrock', link: '/en/gameserver/minecraft-java-edition/plugins/link-java-with-bedrock' }
+                    ]
+                  },
+                  {
+                    text: 'Mods',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/mods/setup-simple-voice-chat' }
                     ]
                   }
                 ]
