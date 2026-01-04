@@ -260,6 +260,7 @@ export default defineConfig({
                   { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/dienste_tools/teamspeak-3-server-installieren' },
                   { text: 'Minecraft Server installieren', link: '/rootserver/dienste_tools/minecraft-server-installieren' },
                   { text: 'Docker installieren', link: '/rootserver/dienste_tools/docker-installieren' },
+                  { text: 'Docker Compose installieren', link: '/rootserver/dienste_tools/docker-compose-installieren' },
                   { text: 'Webserver installieren', link: '/rootserver/dienste_tools/webserver-installieren' },
                   { text: 'Certbot installieren', link: '/rootserver/dienste_tools/certbot-installieren' }
                 ]
