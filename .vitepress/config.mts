@@ -667,7 +667,7 @@ export default defineConfig({
   themeConfig: {
     logo: "https://emeraldhost.b-cdn.net/branding/icon.svg",
     footer: {
-      copyright: '© 2016 - 2025 EmeraldHost'
+      copyright: '© 2016 - 2026 EmeraldHost'
     },
     search: {
       provider: 'local'
