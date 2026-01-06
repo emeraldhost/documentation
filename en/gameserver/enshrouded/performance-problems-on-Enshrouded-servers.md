@@ -17,9 +17,9 @@ The Enshrouded server software is currently poorly optimized. This problem affec
 
 ## Why do these problems occur?
 
-The current Enshrouded server software is unfortunately not sufficiently optimized. We already meet the recommended server requirements – however, we cannot work against poorly optimized server software.
+The current [Enshrouded](https://emeraldhost.de/en/enshrouded-server-mieten?utm_source=documentation&utm_medium=marketing&utm_campaign=performance-problems-on-enshrouded-servers) server software is unfortunately not sufficiently optimized. We already meet the recommended server requirements – however, we cannot work against poorly optimized server software.
 
-Together with other hosting providers, we are in direct contact with the Enshrouded development team to achieve a sustainable improvement. However, we have not yet received a solution.
+Together with other hosting providers, we are in direct contact with the [Enshrouded](https://emeraldhost.de/en/enshrouded-server-mieten?utm_source=documentation&utm_medium=marketing&utm_campaign=performance-problems-on-enshrouded-servers) development team to achieve a sustainable improvement. However, we have not yet received a solution.
 
 ## What can I do?
 

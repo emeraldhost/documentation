@@ -180,7 +180,7 @@ export default defineConfig({
                 link: '/gameserver/enshrouded',
                 collapsed: true,
                 items: [
-                  { text: '🚨 Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern' },
+                  { text: 'Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' }
                 ]
@@ -499,7 +499,7 @@ export default defineConfig({
                 link: '/en/gameserver/enshrouded',
                 collapsed: true,
                 items: [
-                  { text: '🚨 Performance problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-Enshrouded-servers' },
+                  { text: 'Performance problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' },
                   { text: 'Add savegame', link: '/en/gameserver/enshrouded/add-savegame' },
                   { text: 'Join server', link: '/en/gameserver/enshrouded/join-server' }
                 ]
