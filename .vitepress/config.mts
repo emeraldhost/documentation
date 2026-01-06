@@ -171,8 +171,8 @@ export default defineConfig({
                 link: '/gameserver/palworld',
                 collapsed: true,
                 items: [
-                  { text: '🚨 Performance-Probleme auf Palworld Servern', link: '/gameserver/palworld/performance-probleme-auf-palworld-servern' },
-                  { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten' },
+                  { text: 'Server Config anpassen', link: '/gameserver/palworld/server-config-anpassen' }
                 ]
               },
               {
@@ -490,8 +490,8 @@ export default defineConfig({
                 link: '/en/gameserver/palworld',
                 collapsed: true,
                 items: [
-                  { text: '🚨 Performance problems on Palworld servers', link: '/en/gameserver/palworld/performance-problems-on-palworld-servers' },
-                  { text: 'Join Server', link: '/en/gameserver/palworld/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/palworld/join-server' },
+                  { text: 'Edit Server Config', link: '/en/gameserver/palworld/edit-server-config' }
                 ]
               },
               {
