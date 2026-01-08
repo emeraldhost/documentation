@@ -219,6 +219,7 @@ export default defineConfig({
                 link: '/gameserver/conan-exiles',
                 collapsed: true,
                 items: [
+                  { text: 'Map wechseln', link: '/gameserver/conan-exiles/map-wechseln' },
                   { text: 'Mods hinzufügen', link: '/gameserver/conan-exiles/mods-hinzufuegen' }
                 ]
               },
@@ -538,6 +539,7 @@ export default defineConfig({
                 link: '/en/gameserver/conan-exiles',
                 collapsed: true,
                 items: [
+                  { text: 'Change map', link: '/en/gameserver/conan-exiles/change-map' },
                   { text: 'Add mods', link: '/en/gameserver/conan-exiles/add-mods' }
                 ]
               },
