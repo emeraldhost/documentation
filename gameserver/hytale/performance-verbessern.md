@@ -53,10 +53,10 @@ Das Plugin kann hier heruntergeladen werden: [Performance Saver Plugin auf GitHu
 ### Installation
 
 1. <b>Plugin herunterladen</b><br>
-   Lade die JAR-Datei des Performance Saver Plugins von GitHub herunter.
+   Lade die .jar Datei des Performance Saver Plugins von GitHub herunter.
 
 2. <b>Plugin hochladen</b><br>
-   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die JAR-Datei in den `mods/`-Ordner hoch.
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die .jar Datei in den `mods/`-Ordner hoch.
 
 3. <b>Server neustarten</b><br>
    Starte deinen Server neu, damit das Plugin geladen wird.
