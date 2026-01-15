@@ -239,6 +239,28 @@ export default defineConfig({
                   { text: 'Admin Hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' },
                   { text: 'Savegame Hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' }
                 ]
+              },
+              {
+                text: 'Hytale',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Server beitreten', link: '/gameserver/hytale/server-beitreten' },
+                  { text: 'Admin hinzufügen', link: '/gameserver/hytale/admin-hinzufuegen' },
+                  { text: 'Whitelist aktivieren', link: '/gameserver/hytale/whitelist-aktivieren' },
+                  { text: 'Spieler kicken und bannen', link: '/gameserver/hytale/spieler-kicken-bannen' },
+                  { text: 'Server-Name ändern', link: '/gameserver/hytale/server-name-aendern' },
+                  { text: 'Passwort setzen', link: '/gameserver/hytale/passwort-setzen' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/hytale/max-spieler-aendern' },
+                  { text: 'MOTD ändern', link: '/gameserver/hytale/motd-aendern' },
+                  { text: 'Gamemode ändern', link: '/gameserver/hytale/gamemode-aendern' },
+                  { text: 'Welt hochladen', link: '/gameserver/hytale/welt-hochladen' },
+                  { text: 'Mods installieren', link: '/gameserver/hytale/mods-installieren' },
+                  { text: 'Performance verbessern', link: '/gameserver/hytale/performance-verbessern' },
+                  { text: 'PvP aktivieren', link: '/gameserver/hytale/pvp-aktivieren' },
+                  { text: 'Fallschaden aktivieren', link: '/gameserver/hytale/fallschaden-aktivieren' },
+                  { text: 'Item-Verlust beim Tod', link: '/gameserver/hytale/item-verlust-beim-tod' }
+                ]
               }
             ]
           },
@@ -558,6 +580,28 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' },
                   { text: 'Add savegame', link: '/en/gameserver/v-rising/add-savegame' }
+                ]
+              },
+              {
+                text: 'Hytale',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Join Server', link: '/en/gameserver/hytale/join-server' },
+                  { text: 'Add Admin', link: '/en/gameserver/hytale/add-admin' },
+                  { text: 'Enable Whitelist', link: '/en/gameserver/hytale/enable-whitelist' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/hytale/kick-ban-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/hytale/change-server-name' },
+                  { text: 'Set Password', link: '/en/gameserver/hytale/set-password' },
+                  { text: 'Change Max Players', link: '/en/gameserver/hytale/change-max-players' },
+                  { text: 'Change MOTD', link: '/en/gameserver/hytale/change-motd' },
+                  { text: 'Change Gamemode', link: '/en/gameserver/hytale/change-gamemode' },
+                  { text: 'Upload World', link: '/en/gameserver/hytale/upload-world' },
+                  { text: 'Install Mods', link: '/en/gameserver/hytale/install-mods' },
+                  { text: 'Improve Performance', link: '/en/gameserver/hytale/improve-performance' },
+                  { text: 'Enable PvP', link: '/en/gameserver/hytale/enable-pvp' },
+                  { text: 'Enable Fall Damage', link: '/en/gameserver/hytale/enable-fall-damage' },
+                  { text: 'Item Loss on Death', link: '/en/gameserver/hytale/item-loss-on-death' }
                 ]
               }
             ]
