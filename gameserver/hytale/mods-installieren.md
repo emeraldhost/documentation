@@ -8,6 +8,10 @@ description: Mods auf einem Hytale Server installieren
 Stoppe deinen Server bevor du Mods installierst, da diese sonst nicht korrekt geladen werden.
 ::::
 
+:::: tip Tipp
+Mods für Hytale kannst du z.B. von [CurseForge](https://www.curseforge.com/hytale) herunterladen.
+::::
+
 ## So installierst du Mods
 
 1. <b>Server stoppen</b><br>
