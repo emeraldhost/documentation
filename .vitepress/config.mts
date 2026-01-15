@@ -44,83 +44,24 @@ export default defineConfig({
               { text: 'SteamID64 Herausfinden', link: '/gameserver/steamid64-herausfinden' },
               { text: 'Epic Games ID Herausfinden', link: '/gameserver/epicgamesid-herausfinden' },
               {
-                text: 'Minecraft Java Edition',
-                link: '/gameserver/minecraft-java-edition',
+                text: '7 Days to Die',
+                link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren' },
-                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-java-edition/slots-erhoehen' },
-                  { text: 'View-Distance ändern', link: '/gameserver/minecraft-java-edition/view-distance-aendern' },
-                  { text: 'Simulation-Distance ändern', link: '/gameserver/minecraft-java-edition/simulation-distance-aendern' },
-                  { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern' },
-                  { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-java-edition/whitelist-aktivieren' },
-                  { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben' },
-                  { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern' },
-                  { text: 'Version ändern', link: '/gameserver/minecraft-java-edition/version-aendern' },
-                  { text: 'World-Seed ändern', link: '/gameserver/minecraft-java-edition/world-seed-aendern' },
-                  { text: 'Welt Hochladen', link: '/gameserver/minecraft-java-edition/welt-hochladen' },
-                  { text: 'Welt Löschen', link: '/gameserver/minecraft-java-edition/welt-loeschen' },
-                  {
-                    text: 'Befehle',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-java-edition/befehle/tp-befehl-verwenden' },
-                      { text: 'Gamemode verändern', link: '/gameserver/minecraft-java-edition/befehle/gamemode-veraendern' },
-                      { text: 'Server moderieren', link: '/gameserver/minecraft-java-edition/befehle/server-moderieren' },
-                      { text: 'Wetter verändern', link: '/gameserver/minecraft-java-edition/befehle/wetter-veraendern' },
-                    ]
-                  },
-                  {
-                    text: 'Plugins',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/plugins/java-mit-bedrock-verknuepfen' }
-                    ]
-                  },
-                  {
-                    text: 'Mods',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/mods/simple-voice-chat-einrichten' }
-                    ]
-                  }
+                  { text: 'Crossplay Aktivieren', link: '/gameserver/7-days-to-die/crossplay-aktivieren' }
                 ]
               },
               {
-                text: 'Minecraft Bedrock Edition',
-                link: '/gameserver/minecraft-bedrock-edition',
+                text: 'Aloft',
+                link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-bedrock-edition/slots-erhoehen' },
-                  { text: 'View-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/view-distance-aendern' },
-                  { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern' },
-                  { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen' },
-                  { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren' },
-                  { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-bedrock-edition/op-rechte-vergeben' },
-                  { text: 'World-Seed ändern', link: '/gameserver/minecraft-bedrock-edition/world-seed-aendern' },
-                  { text: 'Welt Hochladen', link: '/gameserver/minecraft-bedrock-edition/welt-hochladen' },
-                  { text: 'Welt Löschen', link: '/gameserver/minecraft-bedrock-edition/welt-loeschen' },
-                  {
-                    text: 'Befehle',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-bedrock-edition/befehle/tp-befehl-verwenden' }
-                    ]
-                  }
-                ]
-              },
-              {
-                text: 'Euro Truck Simulator 2',
-                link: '/gameserver/euro-truck-simulator-2',
-                collapsed: true,
-                items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/euro-truck-simulator-2/mods-hinzufuegen' },
-                  { text: 'Admins hinzufügen', link: '/gameserver/euro-truck-simulator-2/admins-hinzufuegen' },
-                  { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/euro-truck-simulator-2/spieler-schaden-deaktivieren' }
+                  { text: 'Admin Hinzufügen', link: '/gameserver/aloft/admin-hinzufuegen' },
+                  { text: 'Anzahl der Inseln ändern', link: '/gameserver/aloft/anzahl-der-inseln-aendern' },
+                  { text: 'Ingame Konsole öffnen', link: '/gameserver/aloft/ingame-konsole-oeffnen' },
+                  { text: 'Private Inseln Aktivieren', link: '/gameserver/aloft/private-inseln-aktivieren' },
+                  { text: 'Server beitreten', link: '/gameserver/aloft/server-beitreten' },
+                  { text: 'Servername Ändern', link: '/gameserver/aloft/server-name-aendern' }
                 ]
               },
               {
@@ -128,8 +69,8 @@ export default defineConfig({
                 link: '/gameserver/american-truck-simulator',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/american-truck-simulator/mods-hinzufuegen' },
                   { text: 'Admins hinzufügen', link: '/gameserver/american-truck-simulator/admins-hinzufuegen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/american-truck-simulator/mods-hinzufuegen' },
                   { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/american-truck-simulator/spieler-schaden-deaktivieren' }
                 ]
               },
@@ -150,63 +91,6 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Terraria: tModLoader',
-                link: '/gameserver/terraria-tmodloader',
-                collapsed: true,
-                items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/terraria-tmodloader/mods-hinzufuegen' },
-                  { text: 'Welt hinzufügen', link: '/gameserver/terraria-tmodloader/welt-hinzufuegen' }
-                ]
-              },
-              {
-                text: 'Valheim',
-                link: '/gameserver/valheim',
-                collapsed: true,
-                items: [
-                  { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' }
-                ]
-              },
-              {
-                text: 'Palworld',
-                link: '/gameserver/palworld',
-                collapsed: true,
-                items: [
-                  { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten' },
-                  { text: 'Server Config anpassen', link: '/gameserver/palworld/server-config-anpassen' }
-                ]
-              },
-              {
-                text: 'Enshrouded',
-                link: '/gameserver/enshrouded',
-                collapsed: true,
-                items: [
-                  { text: 'Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern' },
-                  { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' }
-                ]
-              },
-              {
-                text: '7 Days to Die',
-                link: '',
-                collapsed: true,
-                items: [
-                  { text: 'Crossplay Aktivieren', link: '/gameserver/7-days-to-die/crossplay-aktivieren' }
-                ]
-              },
-              {
-                text: 'Aloft',
-                link: '',
-                collapsed: true,
-                items: [
-                  { text: 'Server beitreten', link: '/gameserver/aloft/server-beitreten' },
-                  { text: 'Servername Ändern', link: '/gameserver/aloft/server-name-aendern' },
-                  { text: 'Admin Hinzufügen', link: '/gameserver/aloft/admin-hinzufuegen' },
-                  { text: 'Private Inseln Aktivieren', link: '/gameserver/aloft/private-inseln-aktivieren' },
-                  { text: 'Anzahl der Inseln ändern', link: '/gameserver/aloft/anzahl-der-inseln-aendern' },
-                  { text: 'Ingame Konsole öffnen', link: '/gameserver/aloft/ingame-konsole-oeffnen' }
-                ]
-              },
-              {
                 text: 'BeamMP',
                 link: '',
                 collapsed: true,
@@ -224,11 +108,141 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Enshrouded',
+                link: '/gameserver/enshrouded',
+                collapsed: true,
+                items: [
+                  { text: 'Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' }
+                ]
+              },
+              {
+                text: 'Euro Truck Simulator 2',
+                link: '/gameserver/euro-truck-simulator-2',
+                collapsed: true,
+                items: [
+                  { text: 'Admins hinzufügen', link: '/gameserver/euro-truck-simulator-2/admins-hinzufuegen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/euro-truck-simulator-2/mods-hinzufuegen' },
+                  { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/euro-truck-simulator-2/spieler-schaden-deaktivieren' }
+                ]
+              },
+              {
+                text: 'Hytale',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/hytale/admin-hinzufuegen' },
+                  { text: 'Fallschaden aktivieren', link: '/gameserver/hytale/fallschaden-aktivieren' },
+                  { text: 'Gamemode ändern', link: '/gameserver/hytale/gamemode-aendern' },
+                  { text: 'Item-Verlust beim Tod', link: '/gameserver/hytale/item-verlust-beim-tod' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/hytale/max-spieler-aendern' },
+                  { text: 'Mods installieren', link: '/gameserver/hytale/mods-installieren' },
+                  { text: 'MOTD ändern', link: '/gameserver/hytale/motd-aendern' },
+                  { text: 'Passwort setzen', link: '/gameserver/hytale/passwort-setzen' },
+                  { text: 'Performance verbessern', link: '/gameserver/hytale/performance-verbessern' },
+                  { text: 'PvP aktivieren', link: '/gameserver/hytale/pvp-aktivieren' },
+                  { text: 'Server beitreten', link: '/gameserver/hytale/server-beitreten' },
+                  { text: 'Server-Name ändern', link: '/gameserver/hytale/server-name-aendern' },
+                  { text: 'Spieler kicken und bannen', link: '/gameserver/hytale/spieler-kicken-bannen' },
+                  { text: 'Welt hochladen', link: '/gameserver/hytale/welt-hochladen' },
+                  { text: 'Whitelist aktivieren', link: '/gameserver/hytale/whitelist-aktivieren' }
+                ]
+              },
+              {
+                text: 'Minecraft Bedrock Edition',
+                link: '/gameserver/minecraft-bedrock-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen' },
+                  { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-bedrock-edition/op-rechte-vergeben' },
+                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-bedrock-edition/slots-erhoehen' },
+                  { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern' },
+                  { text: 'View-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/view-distance-aendern' },
+                  { text: 'Welt Hochladen', link: '/gameserver/minecraft-bedrock-edition/welt-hochladen' },
+                  { text: 'Welt Löschen', link: '/gameserver/minecraft-bedrock-edition/welt-loeschen' },
+                  { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren' },
+                  { text: 'World-Seed ändern', link: '/gameserver/minecraft-bedrock-edition/world-seed-aendern' },
+                  {
+                    text: 'Befehle',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-bedrock-edition/befehle/tp-befehl-verwenden' }
+                    ]
+                  }
+                ]
+              },
+              {
+                text: 'Minecraft Java Edition',
+                link: '/gameserver/minecraft-java-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren' },
+                  { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern' },
+                  { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern' },
+                  { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben' },
+                  { text: 'Simulation-Distance ändern', link: '/gameserver/minecraft-java-edition/simulation-distance-aendern' },
+                  { text: 'Slots erhöhen', link: '/gameserver/minecraft-java-edition/slots-erhoehen' },
+                  { text: 'Version ändern', link: '/gameserver/minecraft-java-edition/version-aendern' },
+                  { text: 'View-Distance ändern', link: '/gameserver/minecraft-java-edition/view-distance-aendern' },
+                  { text: 'Welt Hochladen', link: '/gameserver/minecraft-java-edition/welt-hochladen' },
+                  { text: 'Welt Löschen', link: '/gameserver/minecraft-java-edition/welt-loeschen' },
+                  { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-java-edition/whitelist-aktivieren' },
+                  { text: 'World-Seed ändern', link: '/gameserver/minecraft-java-edition/world-seed-aendern' },
+                  {
+                    text: 'Befehle',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Gamemode verändern', link: '/gameserver/minecraft-java-edition/befehle/gamemode-veraendern' },
+                      { text: 'Server moderieren', link: '/gameserver/minecraft-java-edition/befehle/server-moderieren' },
+                      { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-java-edition/befehle/tp-befehl-verwenden' },
+                      { text: 'Wetter verändern', link: '/gameserver/minecraft-java-edition/befehle/wetter-veraendern' }
+                    ]
+                  },
+                  {
+                    text: 'Mods',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/mods/simple-voice-chat-einrichten' }
+                    ]
+                  },
+                  {
+                    text: 'Plugins',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/plugins/java-mit-bedrock-verknuepfen' }
+                    ]
+                  }
+                ]
+              },
+              {
+                text: 'Palworld',
+                link: '/gameserver/palworld',
+                collapsed: true,
+                items: [
+                  { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten' },
+                  { text: 'Server Config anpassen', link: '/gameserver/palworld/server-config-anpassen' }
+                ]
+              },
+              {
                 text: 'Project Zomboid',
                 link: '',
                 collapsed: true,
                 items: [
                   { text: 'Mods Hinzufügen', link: '/gameserver/project-zomboid/mods-hinzufuegen' }
+                ]
+              },
+              {
+                text: 'Terraria: tModLoader',
+                link: '/gameserver/terraria-tmodloader',
+                collapsed: true,
+                items: [
+                  { text: 'Mods hinzufügen', link: '/gameserver/terraria-tmodloader/mods-hinzufuegen' },
+                  { text: 'Welt hinzufügen', link: '/gameserver/terraria-tmodloader/welt-hinzufuegen' }
                 ]
               },
               {
@@ -241,25 +255,11 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Hytale',
-                link: '',
+                text: 'Valheim',
+                link: '/gameserver/valheim',
                 collapsed: true,
                 items: [
-                  { text: 'Server beitreten', link: '/gameserver/hytale/server-beitreten' },
-                  { text: 'Admin hinzufügen', link: '/gameserver/hytale/admin-hinzufuegen' },
-                  { text: 'Whitelist aktivieren', link: '/gameserver/hytale/whitelist-aktivieren' },
-                  { text: 'Spieler kicken und bannen', link: '/gameserver/hytale/spieler-kicken-bannen' },
-                  { text: 'Server-Name ändern', link: '/gameserver/hytale/server-name-aendern' },
-                  { text: 'Passwort setzen', link: '/gameserver/hytale/passwort-setzen' },
-                  { text: 'Max Spieler ändern', link: '/gameserver/hytale/max-spieler-aendern' },
-                  { text: 'MOTD ändern', link: '/gameserver/hytale/motd-aendern' },
-                  { text: 'Gamemode ändern', link: '/gameserver/hytale/gamemode-aendern' },
-                  { text: 'Welt hochladen', link: '/gameserver/hytale/welt-hochladen' },
-                  { text: 'Mods installieren', link: '/gameserver/hytale/mods-installieren' },
-                  { text: 'Performance verbessern', link: '/gameserver/hytale/performance-verbessern' },
-                  { text: 'PvP aktivieren', link: '/gameserver/hytale/pvp-aktivieren' },
-                  { text: 'Fallschaden aktivieren', link: '/gameserver/hytale/fallschaden-aktivieren' },
-                  { text: 'Item-Verlust beim Tod', link: '/gameserver/hytale/item-verlust-beim-tod' }
+                  { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' }
                 ]
               }
             ]
@@ -268,30 +268,23 @@ export default defineConfig({
             text: 'Rootserver',
             items: [
               {
-                text: 'Grundkonfiguration',
-                collapsed: true,
-                items: [
-                  { text: 'UFW installieren', link: '/rootserver/grundkonfiguration/ufw-installieren' },
-                  { text: 'Fail2Ban installieren', link: '/rootserver/grundkonfiguration/fail2ban-installieren' }
-                ]
-              },
-              {
                 text: 'Dienste & Tools',
                 collapsed: true,
                 items: [
+                  { text: 'Certbot installieren', link: '/rootserver/dienste_tools/certbot-installieren' },
+                  { text: 'Docker installieren', link: '/rootserver/dienste_tools/docker-installieren' },
+                  { text: 'Minecraft Server installieren', link: '/rootserver/dienste_tools/minecraft-server-installieren' },
                   { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/rootserver/dienste_tools/phpmyadmin-apache2-und-mysql' },
                   { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/dienste_tools/teamspeak-3-server-installieren' },
-                  { text: 'Minecraft Server installieren', link: '/rootserver/dienste_tools/minecraft-server-installieren' },
-                  { text: 'Docker installieren', link: '/rootserver/dienste_tools/docker-installieren' },
-                  { text: 'Webserver installieren', link: '/rootserver/dienste_tools/webserver-installieren' },
-                  { text: 'Certbot installieren', link: '/rootserver/dienste_tools/certbot-installieren' }
+                  { text: 'Webserver installieren', link: '/rootserver/dienste_tools/webserver-installieren' }
                 ]
               },
               {
-                text: 'Windows',
+                text: 'Grundkonfiguration',
                 collapsed: true,
                 items: [
-                  { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-hard-drive-expand' }
+                  { text: 'Fail2Ban installieren', link: '/rootserver/grundkonfiguration/fail2ban-installieren' },
+                  { text: 'UFW installieren', link: '/rootserver/grundkonfiguration/ufw-installieren' }
                 ]
               },
               {
@@ -299,6 +292,13 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Cronjobs erstellen', link: '/rootserver/tipps_fehlerbehebung/cronjobs-erstellen' }
+                ]
+              },
+              {
+                text: 'Windows',
+                collapsed: true,
+                items: [
+                  { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-hard-drive-expand' }
                 ]
               }
             ]
@@ -389,80 +389,24 @@ export default defineConfig({
               { text: 'SteamID64 Find out', link: '/en/gameserver/steamid64-find-out' },
               { text: 'Epic Games ID Find out', link: '/en/gameserver/epicgamesid-find-out' },
               {
-                text: 'Minecraft Java Edition',
-                link: '/en/gameserver/minecraft-java-edition',
+                text: '7 Days to Die',
+                link: '/en/gameserver/7-days-to-die',
                 collapsed: true,
                 items: [
-                  { text: 'Accept Minecraft EULA', link: '/en/gameserver/minecraft-java-edition/accept-minecraft-eula' },
-                  { text: 'Increase slots', link: '/en/gameserver/minecraft-java-edition/increase-slots' },
-                  { text: 'Change view distance', link: '/en/gameserver/minecraft-java-edition/change-view-distance' },
-                  { text: 'Change simulation distance', link: '/en/gameserver/minecraft-java-edition/change-simulation-distance' },
-                  { text: 'Change MOTD', link: '/en/gameserver/minecraft-java-edition/change-motd' },
-                  { text: 'Enable whitelist', link: '/en/gameserver/minecraft-java-edition/enable-whitelist' },
-                  { text: 'Grant OP rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights' },
-                  { text: 'Change Modpack', link: '/en/gameserver/minecraft-java-edition/change-modpack' },
-                  { text: 'Change Version', link: '/en/gameserver/minecraft-java-edition/change-version' },
-                  { text: 'Change world seed', link: '/en/gameserver/minecraft-java-edition/change-world-seed' },
-                  { text: 'Upload world', link: '/en/gameserver/minecraft-java-edition/upload-world' },
-                  { text: 'Delete world', link: '/en/gameserver/minecraft-java-edition/delete-world' },
-                  {
-                    text: 'Commands',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Use Tp command', link: '/en/gameserver/minecraft-java-edition/commands/use-tp-command' }
-                    ]
-                  },
-                  {
-                    text: 'Plugins',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Link Java with Bedrock', link: '/en/gameserver/minecraft-java-edition/plugins/link-java-with-bedrock' }
-                    ]
-                  },
-                  {
-                    text: 'Mods',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/mods/setup-simple-voice-chat' }
-                    ]
-                  }
+                  { text: 'Activate crossplay', link: '/en/gameserver/7-days-to-die/activate-crossplay' }
                 ]
               },
               {
-                text: 'Minecraft Bedrock Edition',
-                link: '/en/gameserver/minecraft-bedrock-edition',
+                text: 'Aloft',
+                link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Increase slots', link: '/en/gameserver/minecraft-bedrock-edition/increase-slots' },
-                  { text: 'Change view distance', link: '/en/gameserver/minecraft-bedrock-edition/change-view-distance' },
-                  { text: 'Change tick distance', link: '/en/gameserver/minecraft-bedrock-edition/change-tick-distance' },
-                  { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs' },
-                  { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist' },
-                  { text: 'Grant OP rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights' },
-                  { text: 'Change world seed', link: '/en/gameserver/minecraft-bedrock-edition/change-world-seed' },
-                  { text: 'Upload world', link: '/en/gameserver/minecraft-bedrock-edition/upload-world' },
-                  { text: 'Delete world', link: '/en/gameserver/minecraft-bedrock-edition/delete-world' },
-                  {
-                    text: 'Commands',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Use Tp command', link: '/en/gameserver/minecraft-bedrock-edition/commands/use-tp-command' }
-                    ]
-                  }
-                ]
-              },
-              {
-                text: 'Euro Truck Simulator 2',
-                link: '/en/gameserver/euro-truck-simulator-2',
-                collapsed: true,
-                items: [
-                  { text: 'Add mods', link: '/en/gameserver/euro-truck-simulator-2/add-mods' },
-                  { text: 'Add admins', link: '/en/gameserver/euro-truck-simulator-2/add-admins' },
-                  { text: 'Deactivate player damage', link: '/en/gameserver/euro-truck-simulator-2/deactivate-player-damage' }
+                  { text: 'Activate private islands', link: '/en/gameserver/aloft/activate-private-islands' },
+                  { text: 'Add Admin', link: '/en/gameserver/aloft/add-admin' },
+                  { text: 'Change Number of Islands', link: '/en/gameserver/aloft/change-number-of-islands' },
+                  { text: 'Change server name', link: '/en/gameserver/aloft/change-server-name' },
+                  { text: 'Join server', link: '/en/gameserver/aloft/join-server' },
+                  { text: 'Open ingame console', link: '/en/gameserver/aloft/open-ingame-console' }
                 ]
               },
               {
@@ -470,8 +414,8 @@ export default defineConfig({
                 link: '/en/gameserver/american-truck-simulator',
                 collapsed: true,
                 items: [
-                  { text: 'Add mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
                   { text: 'Add admins', link: '/en/gameserver/american-truck-simulator/add-admins' },
+                  { text: 'Add mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
                   { text: 'Deactivate player damage', link: '/en/gameserver/american-truck-simulator/deactivate-player-damage' }
                 ]
               },
@@ -492,63 +436,6 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Terraria: tModLoader',
-                link: '/en/gameserver/terraria-tmodloader',
-                collapsed: true,
-                items: [
-                  { text: 'Add Mods', link: '/en/gameserver/terraria-tmodloader/add-mods' },
-                  { text: 'Add world', link: '/en/gameserver/terraria-tmodloader/add-world' }
-                ]
-              },
-              {
-                text: 'Valheim',
-                link: '/en/gameserver/valheim',
-                collapsed: true,
-                items: [
-                  { text: 'Add savegame', link: '/en/gameserver/valheim/add-savegame' }
-                ]
-              },
-              {
-                text: 'Palworld',
-                link: '/en/gameserver/palworld',
-                collapsed: true,
-                items: [
-                  { text: 'Join Server', link: '/en/gameserver/palworld/join-server' },
-                  { text: 'Edit Server Config', link: '/en/gameserver/palworld/edit-server-config' }
-                ]
-              },
-              {
-                text: 'Enshrouded',
-                link: '/en/gameserver/enshrouded',
-                collapsed: true,
-                items: [
-                  { text: 'Performance problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' },
-                  { text: 'Add savegame', link: '/en/gameserver/enshrouded/add-savegame' },
-                  { text: 'Join server', link: '/en/gameserver/enshrouded/join-server' }
-                ]
-              },
-              {
-                text: '7 Days to Die',
-                link: '/en/gameserver/7-days-to-die',
-                collapsed: true,
-                items: [
-                  { text: 'Activate crossplay', link: '/en/gameserver/7-days-to-die/activate-crossplay' }
-                ]
-              },
-              {
-                text: 'Aloft',
-                link: '',
-                collapsed: true,
-                items: [
-                  { text: 'Join server', link: '/en/gameserver/aloft/join-server' },
-                  { text: 'Change server name', link: '/en/gameserver/aloft/change-server-name' },
-                  { text: 'Add Admin', link: '/en/gameserver/aloft/add-admin' },
-                  { text: 'Activate private islands', link: '/en/gameserver/aloft/activate-private-islands' },
-                  { text: 'Change Number of Islands', link: '/en/gameserver/aloft/change-number-of-islands' },
-                  { text: 'Open ingame console', link: '/en/gameserver/aloft/open-ingame-console' }
-                ]
-              },
-              {
                 text: 'BeamMP',
                 link: '',
                 collapsed: true,
@@ -561,8 +448,126 @@ export default defineConfig({
                 link: '/en/gameserver/conan-exiles',
                 collapsed: true,
                 items: [
-                  { text: 'Change map', link: '/en/gameserver/conan-exiles/change-map' },
-                  { text: 'Add mods', link: '/en/gameserver/conan-exiles/add-mods' }
+                  { text: 'Add mods', link: '/en/gameserver/conan-exiles/add-mods' },
+                  { text: 'Change map', link: '/en/gameserver/conan-exiles/change-map' }
+                ]
+              },
+              {
+                text: 'Enshrouded',
+                link: '/en/gameserver/enshrouded',
+                collapsed: true,
+                items: [
+                  { text: 'Add savegame', link: '/en/gameserver/enshrouded/add-savegame' },
+                  { text: 'Join server', link: '/en/gameserver/enshrouded/join-server' },
+                  { text: 'Performance problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' }
+                ]
+              },
+              {
+                text: 'Euro Truck Simulator 2',
+                link: '/en/gameserver/euro-truck-simulator-2',
+                collapsed: true,
+                items: [
+                  { text: 'Add admins', link: '/en/gameserver/euro-truck-simulator-2/add-admins' },
+                  { text: 'Add mods', link: '/en/gameserver/euro-truck-simulator-2/add-mods' },
+                  { text: 'Deactivate player damage', link: '/en/gameserver/euro-truck-simulator-2/deactivate-player-damage' }
+                ]
+              },
+              {
+                text: 'Hytale',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/hytale/add-admin' },
+                  { text: 'Change Gamemode', link: '/en/gameserver/hytale/change-gamemode' },
+                  { text: 'Change Max Players', link: '/en/gameserver/hytale/change-max-players' },
+                  { text: 'Change MOTD', link: '/en/gameserver/hytale/change-motd' },
+                  { text: 'Change Server Name', link: '/en/gameserver/hytale/change-server-name' },
+                  { text: 'Enable Fall Damage', link: '/en/gameserver/hytale/enable-fall-damage' },
+                  { text: 'Enable PvP', link: '/en/gameserver/hytale/enable-pvp' },
+                  { text: 'Enable Whitelist', link: '/en/gameserver/hytale/enable-whitelist' },
+                  { text: 'Improve Performance', link: '/en/gameserver/hytale/improve-performance' },
+                  { text: 'Install Mods', link: '/en/gameserver/hytale/install-mods' },
+                  { text: 'Item Loss on Death', link: '/en/gameserver/hytale/item-loss-on-death' },
+                  { text: 'Join Server', link: '/en/gameserver/hytale/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/hytale/kick-ban-players' },
+                  { text: 'Set Password', link: '/en/gameserver/hytale/set-password' },
+                  { text: 'Upload World', link: '/en/gameserver/hytale/upload-world' }
+                ]
+              },
+              {
+                text: 'Minecraft Bedrock Edition',
+                link: '/en/gameserver/minecraft-bedrock-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Add Behavior and Resource Packs', link: '/en/gameserver/minecraft-bedrock-edition/add-behavior-und-resource-packs' },
+                  { text: 'Change tick distance', link: '/en/gameserver/minecraft-bedrock-edition/change-tick-distance' },
+                  { text: 'Change view distance', link: '/en/gameserver/minecraft-bedrock-edition/change-view-distance' },
+                  { text: 'Change world seed', link: '/en/gameserver/minecraft-bedrock-edition/change-world-seed' },
+                  { text: 'Delete world', link: '/en/gameserver/minecraft-bedrock-edition/delete-world' },
+                  { text: 'Enable whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist' },
+                  { text: 'Grant OP rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights' },
+                  { text: 'Increase slots', link: '/en/gameserver/minecraft-bedrock-edition/increase-slots' },
+                  { text: 'Upload world', link: '/en/gameserver/minecraft-bedrock-edition/upload-world' },
+                  {
+                    text: 'Commands',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Use Tp command', link: '/en/gameserver/minecraft-bedrock-edition/commands/use-tp-command' }
+                    ]
+                  }
+                ]
+              },
+              {
+                text: 'Minecraft Java Edition',
+                link: '/en/gameserver/minecraft-java-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Accept Minecraft EULA', link: '/en/gameserver/minecraft-java-edition/accept-minecraft-eula' },
+                  { text: 'Change Modpack', link: '/en/gameserver/minecraft-java-edition/change-modpack' },
+                  { text: 'Change MOTD', link: '/en/gameserver/minecraft-java-edition/change-motd' },
+                  { text: 'Change simulation distance', link: '/en/gameserver/minecraft-java-edition/change-simulation-distance' },
+                  { text: 'Change Version', link: '/en/gameserver/minecraft-java-edition/change-version' },
+                  { text: 'Change view distance', link: '/en/gameserver/minecraft-java-edition/change-view-distance' },
+                  { text: 'Change world seed', link: '/en/gameserver/minecraft-java-edition/change-world-seed' },
+                  { text: 'Delete world', link: '/en/gameserver/minecraft-java-edition/delete-world' },
+                  { text: 'Enable whitelist', link: '/en/gameserver/minecraft-java-edition/enable-whitelist' },
+                  { text: 'Grant OP rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights' },
+                  { text: 'Increase slots', link: '/en/gameserver/minecraft-java-edition/increase-slots' },
+                  { text: 'Upload world', link: '/en/gameserver/minecraft-java-edition/upload-world' },
+                  {
+                    text: 'Commands',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Use Tp command', link: '/en/gameserver/minecraft-java-edition/commands/use-tp-command' }
+                    ]
+                  },
+                  {
+                    text: 'Mods',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/mods/setup-simple-voice-chat' }
+                    ]
+                  },
+                  {
+                    text: 'Plugins',
+                    link: '',
+                    collapsed: true,
+                    items: [
+                      { text: 'Link Java with Bedrock', link: '/en/gameserver/minecraft-java-edition/plugins/link-java-with-bedrock' }
+                    ]
+                  }
+                ]
+              },
+              {
+                text: 'Palworld',
+                link: '/en/gameserver/palworld',
+                collapsed: true,
+                items: [
+                  { text: 'Edit Server Config', link: '/en/gameserver/palworld/edit-server-config' },
+                  { text: 'Join Server', link: '/en/gameserver/palworld/join-server' }
                 ]
               },
               {
@@ -571,6 +576,15 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' }
+                ]
+              },
+              {
+                text: 'Terraria: tModLoader',
+                link: '/en/gameserver/terraria-tmodloader',
+                collapsed: true,
+                items: [
+                  { text: 'Add Mods', link: '/en/gameserver/terraria-tmodloader/add-mods' },
+                  { text: 'Add world', link: '/en/gameserver/terraria-tmodloader/add-world' }
                 ]
               },
               {
@@ -583,25 +597,11 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Hytale',
-                link: '',
+                text: 'Valheim',
+                link: '/en/gameserver/valheim',
                 collapsed: true,
                 items: [
-                  { text: 'Join Server', link: '/en/gameserver/hytale/join-server' },
-                  { text: 'Add Admin', link: '/en/gameserver/hytale/add-admin' },
-                  { text: 'Enable Whitelist', link: '/en/gameserver/hytale/enable-whitelist' },
-                  { text: 'Kick & Ban Players', link: '/en/gameserver/hytale/kick-ban-players' },
-                  { text: 'Change Server Name', link: '/en/gameserver/hytale/change-server-name' },
-                  { text: 'Set Password', link: '/en/gameserver/hytale/set-password' },
-                  { text: 'Change Max Players', link: '/en/gameserver/hytale/change-max-players' },
-                  { text: 'Change MOTD', link: '/en/gameserver/hytale/change-motd' },
-                  { text: 'Change Gamemode', link: '/en/gameserver/hytale/change-gamemode' },
-                  { text: 'Upload World', link: '/en/gameserver/hytale/upload-world' },
-                  { text: 'Install Mods', link: '/en/gameserver/hytale/install-mods' },
-                  { text: 'Improve Performance', link: '/en/gameserver/hytale/improve-performance' },
-                  { text: 'Enable PvP', link: '/en/gameserver/hytale/enable-pvp' },
-                  { text: 'Enable Fall Damage', link: '/en/gameserver/hytale/enable-fall-damage' },
-                  { text: 'Item Loss on Death', link: '/en/gameserver/hytale/item-loss-on-death' }
+                  { text: 'Add savegame', link: '/en/gameserver/valheim/add-savegame' }
                 ]
               }
             ]
@@ -613,27 +613,20 @@ export default defineConfig({
                 text: 'Basic configuration',
                 collapsed: true,
                 items: [
-                  { text: 'Install UFW', link: '/en/rootserver/basic_configuration/install-ufw' },
-                  { text: 'Install Fail2Ban', link: '/en/rootserver/basic_configuration/install-fail2ban' }
+                  { text: 'Install Fail2Ban', link: '/en/rootserver/basic_configuration/install-fail2ban' },
+                  { text: 'Install UFW', link: '/en/rootserver/basic_configuration/install-ufw' }
                 ]
               },
               {
                 text: 'Services & Tools',
                 collapsed: true,
                 items: [
+                  { text: 'Install Certbot', link: '/en/rootserver/services_tools/install-certbot' },
+                  { text: 'Install Docker', link: '/en/rootserver/services_tools/install-docker' },
+                  { text: 'Install Minecraft Server', link: '/en/rootserver/services_tools/install-minecraft-server' },
                   { text: 'Install phpMyAdmin, Apache2 und MySQL', link: '/en/rootserver/services_tools/install-phpmyadmin-apache2-und-mysql' },
                   { text: 'Install TeamSpeak 3 Server', link: '/en/rootserver/services_tools/install-teamspeak-3-server' },
-                  { text: 'Install Minecraft Server', link: '/en/rootserver/services_tools/install-minecraft-server' },
-                  { text: 'Install Docker', link: '/en/rootserver/services_tools/install-docker' },
-                  { text: 'Install Webserver ', link: '/en/rootserver/services_tools/install-webserver' },
-                  { text: 'Install Certbot', link: '/en/rootserver/services_tools/install-certbot' }
-                ]
-              },
-              {
-                text: 'Windows',
-                collapsed: true,
-                items: [
-                  { text: 'Expand Windows Hard Drive', link: '/en/rootserver/windows/windows-hard-drive-expand' }
+                  { text: 'Install Webserver', link: '/en/rootserver/services_tools/install-webserver' }
                 ]
               },
               {
@@ -641,6 +634,13 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Create cronjobs', link: '/en/rootserver/tips_troubleshooting/create-cronjobs' }
+                ]
+              },
+              {
+                text: 'Windows',
+                collapsed: true,
+                items: [
+                  { text: 'Expand Windows Hard Drive', link: '/en/rootserver/windows/windows-hard-drive-expand' }
                 ]
               }
             ]
