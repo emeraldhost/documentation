@@ -45,7 +45,7 @@ This method only changes the gamemode for new players. Existing players need to 
    Stop your server via the management panel.
 
 2. <b>Open the Configuration File</b><br>
-   Connect to your server via [SFTP](../sftp-verbindung-herstellen.md) and open the `config.json` file in the root directory.
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the `config.json` file in the root directory.
 
 3. <b>Change the Gamemode</b><br>
    Find `GameMode` and change the value to `Creative` or `Adventure`.
@@ -63,7 +63,7 @@ This method only changes the gamemode for new players. Existing players need to 
    Stop your server via the management panel.
 
 2. <b>Open the World Configuration</b><br>
-   Connect to your server via [SFTP](../sftp-verbindung-herstellen.md) and navigate to:
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and navigate to:
    ```
    /universe/worlds/default/
    ```

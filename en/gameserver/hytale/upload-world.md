@@ -41,7 +41,7 @@ Stop your server before uploading files, otherwise they will be overwritten by t
    Stop your server via the management panel.
 
 2. <b>Connect via SFTP</b><br>
-   Connect to your server via [SFTP](../sftp-verbindung-herstellen.md).
+   Connect to your server via [SFTP](../establish-sftp-connection.md).
 
 3. <b>Upload World Folder</b><br>
    Upload the copied world folder to the following directory:

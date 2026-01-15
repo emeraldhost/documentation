@@ -24,7 +24,7 @@ The view radius determines how many chunks are loaded around a player. A smaller
    Stop your server via the management panel.
 
 2. <b>Open the configuration file</b><br>
-   Connect to your server via [SFTP](../sftp-verbindung-herstellen.md) and open the `config.json` file in the root directory.
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the `config.json` file in the root directory.
 
 3. <b>Find MaxViewRadius</b><br>
    Look for the `MaxViewRadius` setting in the `config.json`.
@@ -56,7 +56,7 @@ The plugin can be downloaded here: [Performance Saver Plugin on GitHub](https://
    Download the JAR file of the Performance Saver Plugin from GitHub.
 
 2. <b>Upload the plugin</b><br>
-   Connect to your server via [SFTP](../sftp-verbindung-herstellen.md) and upload the JAR file to the `mods/` folder.
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the JAR file to the `mods/` folder.
 
 3. <b>Restart the server</b><br>
    Restart your server to load the plugin.

@@ -16,7 +16,7 @@ Stop your server before making changes to configuration files, otherwise they wi
    Stop your server via the management panel.
 
 2. <b>Open the World Configuration</b><br>
-   Connect to your server via [SFTP](../sftp-verbindung-herstellen.md) and navigate to:
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and navigate to:
    ```
    /universe/worlds/<worldname>/config.json
    ```

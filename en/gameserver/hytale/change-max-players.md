@@ -14,7 +14,7 @@ Stop your server before making changes to configuration files, otherwise they wi
    Stop your server via the management panel.
 
 2. <b>Open the Configuration File</b><br>
-   Connect to your server via [SFTP](../sftp-verbindung-herstellen.md) and open the `config.json` file in the root directory.
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the `config.json` file in the root directory.
 
 3. <b>Set Player Count</b><br>
    Find the `MaxPlayers` setting and change the value:
