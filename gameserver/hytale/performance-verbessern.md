@@ -12,13 +12,9 @@ Die Performance eines Hytale-Servers kann durch verschiedene Faktoren beeinfluss
 Stoppe deinen Server bevor du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 ::::
 
-## So optimierst du die Konfiguration
+## So optimierst du die Konfiguration auf einem Hytale Server
 
-Wenn du kein Plugin installieren möchtest, kannst du die Server-Performance auch durch Anpassung der Konfigurationsdatei verbessern. Die wichtigste Einstellung hierfür ist der **MaxViewRadius**.
-
-### So passt du den MaxViewRadius an
-
-Der View-Radius bestimmt, wie viele Chunks um einen Spieler herum geladen werden. Ein kleinerer Wert reduziert die Serverbelastung erheblich.
+Wenn du kein Plugin installieren möchtest, kannst du die Server-Performance auch durch Anpassung der Konfigurationsdatei verbessern. Die wichtigste Einstellung hierfür ist der **MaxViewRadius**. Der View-Radius bestimmt, wie viele Chunks um einen Spieler herum geladen werden. Ein kleinerer Wert reduziert die Serverbelastung erheblich.
 
 1. <b>Server stoppen</b><br>
    Stoppe deinen Server über die Verwaltung.
@@ -42,7 +38,40 @@ Der View-Radius bestimmt, wie viele Chunks um einen Spieler herum geladen werden
 5. <b>Server starten</b><br>
    Starte deinen Server, damit die Änderungen übernommen werden.
 
-## So installierst du das Performance Saver Plugin
+## So passt du die Startparameter auf einem Hytale Server an
+
+Über die Verwaltung kannst du in den Einstellungen zusätzliche Startparameter hinterlegen. So kannst du z.B. eigene Garbage Collector Parameter hinzufügen, um den Server weiter zu optimieren.
+
+1. <b>Verwaltung öffnen</b><br>
+   Öffne die Verwaltung deines Servers.
+
+2. <b>Einstellungen öffnen</b><br>
+   Navigiere zu **Einstellungen**.
+
+3. <b>Startparameter anpassen</b><br>
+   Füge im Feld **Zusätzliche Startparameter** deine gewünschten Parameter hinzu.
+   ```
+   -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200
+   ```
+
+4. <b>Server neustarten</b><br>
+   Starte deinen Server neu, damit die Änderungen übernommen werden.
+
+### Standard Garbage Collector Parameter
+
+Folgende Parameter sind standardmäßig bereits konfiguriert:
+
+| Parameter | Beschreibung |
+| --------- | ------------ |
+| `-XX:+UseG1GC` | Aktiviert den G1 Garbage Collector, der für Server mit viel RAM optimiert ist |
+| `-XX:+ParallelRefProcEnabled` | Beschleunigt die Referenzverarbeitung durch Parallelisierung |
+| `-XX:MaxGCPauseMillis=200` | Begrenzt Garbage Collection Pausen auf maximal 200ms |
+
+:::: tip Tipp
+Die Standardwerte sind für die meisten Server bereits optimal. Ändere diese nur, wenn du weißt was du tust.
+::::
+
+## So installierst du das Performance Saver Plugin auf einem Hytale Server
 
 Das Performance Saver Plugin von Nitrado ist ein effektives Tool zur Stabilisierung deines Hytale-Servers. Es optimiert die Ressourcennutzung unter Belastung und verhindert Server-Abstürze bei hoher Last.
 
@@ -52,14 +81,17 @@ Das Plugin kann hier heruntergeladen werden: [Performance Saver Plugin auf GitHu
 
 ### Installation
 
-1. <b>Plugin herunterladen</b><br>
+1. <b>Server stoppen</b><br>
+   Stoppe deinen Server über die Verwaltung.
+
+2. <b>Plugin herunterladen</b><br>
    Lade die .jar Datei des Performance Saver Plugins von GitHub herunter.
 
-2. <b>Plugin hochladen</b><br>
+3. <b>Plugin hochladen</b><br>
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die .jar Datei in den `mods/`-Ordner hoch.
 
-3. <b>Server neustarten</b><br>
-   Starte deinen Server neu, damit das Plugin geladen wird.
+4. <b>Server starten</b><br>
+   Starte deinen Server.
 
 ## Funktionen des Performance Saver Plugins
 
@@ -78,7 +110,7 @@ Das Plugin überwacht kontinuierlich die CPU-Auslastung (via TPS) und den RAM-Ve
 
 Das Plugin triggert automatisch die JVM-Speicherbereinigung, wenn Chunk-Entladungen andeuten, dass Speicher freigegeben werden kann. Dies verhindert Speicherprobleme und sorgt für eine stabilere Performance.
 
-## So installierst du das Spark Plugin
+## So installierst du das Spark Plugin auf einem Hytale Server
 
 Das Spark Plugin ist ein Performance-Profiler, mit dem du Lag-Ursachen auf deinem Server analysieren kannst. Es zeigt dir genau, welche Prozesse die meisten Ressourcen verbrauchen.
 
