@@ -78,6 +78,39 @@ The plugin continuously monitors CPU usage (via TPS) and RAM consumption (via Ga
 
 The plugin automatically triggers JVM garbage collection when chunk unloads indicate that memory can be freed. This prevents memory issues and ensures more stable performance.
 
+## How to Install the Spark Plugin
+
+The Spark Plugin is a performance profiler that allows you to analyze lag causes on your server. It shows you exactly which processes are consuming the most resources.
+
+### Download
+
+The plugin can be downloaded here: [Spark on CurseForge](https://www.curseforge.com/hytale/mods/spark)
+
+### Installation
+
+1. <b>Stop the Server</b><br>
+   Stop your server via the management panel.
+
+2. <b>Download the Plugin</b><br>
+   Download the .jar file of the Spark Plugin from CurseForge.
+
+3. <b>Upload the Plugin</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the .jar file to the `mods/` folder.
+
+4. <b>Start the Server</b><br>
+   Start your server.
+
+### Using Spark
+
+With Spark, you can use the following commands in-game as admin:
+
+| Command | Description |
+| ------- | ----------- |
+| `/spark profiler start` | Start profiling |
+| `/spark profiler stop` | Stop profiling and create report |
+| `/spark tps` | Show current TPS |
+| `/spark health` | Show server health |
+
 ## Daily Restarts
 
 A daily restart of your server can fix memory leaks (RAM leaks) and keep performance stable.
@@ -85,3 +118,9 @@ A daily restart of your server can fix memory leaks (RAM leaks) and keep perform
 :::: info Info
 Automatic restarts and backups can be requested for free via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
 ::::
+
+## Feedback to the Hytale Team
+
+Have you discovered performance issues or bugs with the server software? You can send direct feedback to the Hytale development team:
+
+[Send Feedback](https://accounts.hytale.com/feedback)

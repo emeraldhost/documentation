@@ -78,6 +78,39 @@ Das Plugin überwacht kontinuierlich die CPU-Auslastung (via TPS) und den RAM-Ve
 
 Das Plugin triggert automatisch die JVM-Speicherbereinigung, wenn Chunk-Entladungen andeuten, dass Speicher freigegeben werden kann. Dies verhindert Speicherprobleme und sorgt für eine stabilere Performance.
 
+## So installierst du das Spark Plugin
+
+Das Spark Plugin ist ein Performance-Profiler, mit dem du Lag-Ursachen auf deinem Server analysieren kannst. Es zeigt dir genau, welche Prozesse die meisten Ressourcen verbrauchen.
+
+### Download
+
+Das Plugin kann hier heruntergeladen werden: [Spark auf CurseForge](https://www.curseforge.com/hytale/mods/spark)
+
+### Installation
+
+1. <b>Server stoppen</b><br>
+   Stoppe deinen Server über die Verwaltung.
+
+2. <b>Plugin herunterladen</b><br>
+   Lade die .jar Datei des Spark Plugins von CurseForge herunter.
+
+3. <b>Plugin hochladen</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die .jar Datei in den `mods/`-Ordner hoch.
+
+4. <b>Server starten</b><br>
+   Starte deinen Server.
+
+### Spark verwenden
+
+Mit Spark kannst du im Spiel als Admin folgende Befehle nutzen:
+
+| Befehl | Beschreibung |
+| ------ | ------------ |
+| `/spark profiler start` | Profiling starten |
+| `/spark profiler stop` | Profiling beenden und Report erstellen |
+| `/spark tps` | Aktuelle TPS anzeigen |
+| `/spark health` | Server-Gesundheit anzeigen |
+
 ## Tägliche Neustarts
 
 Ein täglicher Neustart deines Servers kann Speicherlecks (RAM-Leaks) beheben und die Performance stabil halten.
@@ -85,3 +118,9 @@ Ein täglicher Neustart deines Servers kann Speicherlecks (RAM-Leaks) beheben un
 :::: info Info
 Automatische Neustarts sowie Backups können kostenlos über ein Support-Ticket angefragt werden. Die Funktion "Geplante Aufgaben" befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
 ::::
+
+## Feedback an das Hytale-Team
+
+Hast du Performance-Probleme oder Fehler mit der Server-Software entdeckt? Du kannst direktes Feedback an das Hytale-Entwicklerteam senden:
+
+[Feedback senden](https://accounts.hytale.com/feedback)
