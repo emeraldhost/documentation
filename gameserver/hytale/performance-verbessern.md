@@ -71,44 +71,67 @@ Folgende Parameter sind standardmäßig bereits konfiguriert:
 Die Standardwerte sind für die meisten Server bereits optimal. Ändere diese nur, wenn du weißt was du tust.
 ::::
 
-## So installierst du das Performance Saver Plugin auf einem Hytale Server
+## Empfohlene Performance-Plugins für Hytale Server
 
-Das Performance Saver Plugin von Nitrado ist ein effektives Tool zur Stabilisierung deines Hytale-Servers. Es optimiert die Ressourcennutzung unter Belastung und verhindert Server-Abstürze bei hoher Last.
+Zur Stabilisierung deines Servers empfehlen wir folgende Plugins:
 
-### Download
+| Plugin | Beschreibung |
+|--------|--------------|
+| Server Optimizer | Dynamische Performance-Anpassungen, NPC-AI-Optimierung |
+| Hyfixes | Bugfixes, Crash-Prävention, RAM-Optimierung |
+| Performance Saver | TPS-Limitierung, dynamische View-Radius-Anpassung |
 
-Das Plugin kann hier heruntergeladen werden: [Performance Saver Plugin auf GitHub](https://github.com/nitrado/hytale-plugin-performance-saver)
+### Downloads
+
+- [Server Optimizer auf CurseForge](https://www.curseforge.com/hytale/mods/server-optimizer)
+- [Hyfixes auf CurseForge](https://www.curseforge.com/hytale/mods/hyfixes)
+- [Performance Saver auf CurseForge](https://www.curseforge.com/hytale/mods/nitrado-performancesaver)
 
 ### Installation
 
 1. <b>Server stoppen</b><br>
    Stoppe deinen Server über die Verwaltung.
 
-2. <b>Plugin herunterladen</b><br>
-   Lade die .jar Datei des Performance Saver Plugins von GitHub herunter.
+2. <b>Plugins herunterladen</b><br>
+   Lade die .jar Dateien der gewünschten Plugins von CurseForge herunter.
 
-3. <b>Plugin hochladen</b><br>
-   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die .jar Datei in den `mods/`-Ordner hoch.
+3. <b>Plugins hochladen</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die .jar Dateien in den `mods/`-Ordner hoch.
 
 4. <b>Server starten</b><br>
    Starte deinen Server.
 
-## Funktionen des Performance Saver Plugins
 
-### TPS-Limitierung
+### Server Optimizer
 
-Das Plugin begrenzt die Ticks pro Sekunde (TPS) intelligent, um Ressourcen zu sparen. Basierend auf Netzwerk- und Client-Vorhersage-Mechaniken ist eine niedrigere, aber stabile TPS besser für die Spielererfahrung als schwankende Werte.
+Das Server Optimizer Plugin bringt folgende Vorteile:
 
-- **Standardwert mit Spielern:** 20 TPS
-- **Standardwert ohne Spieler:** 5 TPS
+- **View Distance Management** - Senkt die Sichtweite bei niedrigen TPS oder hoher RAM-Auslastung
+- **Per-Player Simulation Range** - Reduziert die Simulationsreichweite pro Spieler bei TPS-Drops
+- **NPC-AI-Optimierung** - Passt NPC-Tick-Raten basierend auf Distanz und Sichtbarkeit an
+- **Self-Healing Config** - Fehlende Einstellungen werden automatisch ergänzt
+- **Profiling** - Erstellt detaillierte Performance-Reports
 
-### Dynamische View-Radius-Anpassung
+### Hyfixes
 
-Das Plugin überwacht kontinuierlich die CPU-Auslastung (via TPS) und den RAM-Verbrauch (via Garbage Collection). Bei hoher Belastung wird der Sichtbereich automatisch reduziert, um Ressourcen freizugeben. Sobald die Belastung sinkt, wird der View-Radius wieder erhöht.
+Das Hyfixes Plugin bringt folgende Vorteile:
 
-### Automatische Garbage Collection
+- **Crash-Prävention** - Behebt Server-Crashes durch null-Referenzen und Iterator-Fehler
+- **Timeout-Fixes** - Verhindert Spieler-Kicks bei Netzwerk-Lag während Interaktionen
+- **RAM-Optimierung** - Verbesserte Chunk-Bereinigung (bis zu 77% RAM-Reduktion)
+- **Interaction-Chain-Fixes** - Entfernt korrupte Interaktionsketten vor Crashes
 
-Das Plugin triggert automatisch die JVM-Speicherbereinigung, wenn Chunk-Entladungen andeuten, dass Speicher freigegeben werden kann. Dies verhindert Speicherprobleme und sorgt für eine stabilere Performance.
+:::: warning Hinweis
+Hyfixes besteht aus zwei Dateien: `hyfixes.jar` kommt in den `mods/`-Ordner, `hyfixes-early.jar` in den `earlyplugins/`-Ordner.
+::::
+
+### Performance Saver
+
+Das Performance Saver Plugin bringt folgende Vorteile:
+
+- **TPS-Limitierung** - Begrenzt die Ticks pro Sekunde intelligent (20 TPS mit Spielern, 5 TPS ohne Spieler)
+- **Dynamische View-Radius-Anpassung** - Reduziert den Sichtbereich bei hoher Last automatisch
+- **Automatische Garbage Collection** - Triggert die Speicherbereinigung bei Chunk-Entladungen
 
 ## So installierst du das Spark Plugin auf einem Hytale Server
 

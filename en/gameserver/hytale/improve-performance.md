@@ -71,44 +71,67 @@ The following parameters are already configured by default:
 The default values are already optimal for most servers. Only change these if you know what you're doing.
 ::::
 
-## How to Install the Performance Saver Plugin on a Hytale Server
+## Recommended Performance Plugins for Hytale Servers
 
-The Performance Saver Plugin by Nitrado is an effective tool for stabilizing your Hytale server. It optimizes resource usage under load and prevents server crashes during high traffic.
+To stabilize your server, we recommend the following plugins:
 
-### Download
+| Plugin | Description |
+|--------|-------------|
+| Server Optimizer | Dynamic performance adjustments, NPC AI optimization |
+| Hyfixes | Bug fixes, crash prevention, RAM optimization |
+| Performance Saver | TPS limiting, dynamic view radius adjustment |
 
-The plugin can be downloaded here: [Performance Saver Plugin on GitHub](https://github.com/nitrado/hytale-plugin-performance-saver)
+### Downloads
+
+- [Server Optimizer on CurseForge](https://www.curseforge.com/hytale/mods/server-optimizer)
+- [Hyfixes on CurseForge](https://www.curseforge.com/hytale/mods/hyfixes)
+- [Performance Saver on CurseForge](https://www.curseforge.com/hytale/mods/nitrado-performancesaver)
 
 ### Installation
 
 1. <b>Stop the Server</b><br>
    Stop your server via the management panel.
 
-2. <b>Download the Plugin</b><br>
-   Download the .jar file of the Performance Saver Plugin from GitHub.
+2. <b>Download the Plugins</b><br>
+   Download the .jar files of the desired plugins from CurseForge.
 
-3. <b>Upload the Plugin</b><br>
-   Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the .jar file to the `mods/` folder.
+3. <b>Upload the Plugins</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the .jar files to the `mods/` folder.
 
 4. <b>Start the Server</b><br>
    Start your server.
 
-## Features of the Performance Saver Plugin
 
-### TPS Limiting
+### Server Optimizer
 
-The plugin intelligently limits ticks per second (TPS) to save resources. Based on network and client prediction mechanics, a lower but stable TPS is better for the player experience than fluctuating values.
+The Server Optimizer Plugin provides the following benefits:
 
-- **Default with players:** 20 TPS
-- **Default without players:** 5 TPS
+- **View Distance Management** - Lowers view distance on low TPS or high RAM usage
+- **Per-Player Simulation Range** - Reduces simulation range per player during TPS drops
+- **NPC AI Optimization** - Adjusts NPC tick rates based on distance and visibility
+- **Self-Healing Config** - Missing settings are automatically added
+- **Profiling** - Creates detailed performance reports
 
-### Dynamic View Radius Adjustment
+### Hyfixes
 
-The plugin continuously monitors CPU usage (via TPS) and RAM consumption (via Garbage Collection). Under high load, the view radius is automatically reduced to free up resources. Once the load decreases, the view radius is increased again.
+The Hyfixes Plugin provides the following benefits:
 
-### Automatic Garbage Collection
+- **Crash Prevention** - Fixes server crashes from null references and iterator errors
+- **Timeout Fixes** - Prevents player kicks during network lag in interactions
+- **RAM Optimization** - Improved chunk cleanup (up to 77% RAM reduction)
+- **Interaction Chain Fixes** - Removes corrupted interaction chains before crashes
 
-The plugin automatically triggers JVM garbage collection when chunk unloads indicate that memory can be freed. This prevents memory issues and ensures more stable performance.
+:::: warning Note
+Hyfixes consists of two files: `hyfixes.jar` goes in the `mods/` folder, `hyfixes-early.jar` goes in the `earlyplugins/` folder.
+::::
+
+### Performance Saver
+
+The Performance Saver Plugin provides the following benefits:
+
+- **TPS Limiting** - Intelligently limits ticks per second (20 TPS with players, 5 TPS without)
+- **Dynamic View Radius Adjustment** - Automatically reduces view distance under high load
+- **Automatic Garbage Collection** - Triggers memory cleanup on chunk unloads
 
 ## How to Install the Spark Plugin on a Hytale Server
 
