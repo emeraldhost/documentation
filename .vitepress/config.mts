@@ -108,6 +108,14 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'DayZ',
+                link: '/gameserver/dayz',
+                collapsed: true,
+                items: [
+                  { text: 'Mods installieren', link: '/gameserver/dayz/mods-installieren' }
+                ]
+              },
+              {
                 text: 'Enshrouded',
                 link: '/gameserver/enshrouded',
                 collapsed: true,
@@ -457,6 +465,14 @@ export default defineConfig({
                 items: [
                   { text: 'Add mods', link: '/en/gameserver/conan-exiles/add-mods' },
                   { text: 'Change map', link: '/en/gameserver/conan-exiles/change-map' }
+                ]
+              },
+              {
+                text: 'DayZ',
+                link: '/en/gameserver/dayz',
+                collapsed: true,
+                items: [
+                  { text: 'Install mods', link: '/en/gameserver/dayz/install-mods' }
                 ]
               },
               {
