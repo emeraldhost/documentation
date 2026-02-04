@@ -162,6 +162,7 @@ export default defineConfig({
                   { text: 'Tageszeit ändern', link: '/gameserver/hytale/tageszeit-aendern' },
                   { text: 'Welt hochladen', link: '/gameserver/hytale/welt-hochladen' },
                   { text: 'Wetter ändern', link: '/gameserver/hytale/wetter-aendern' },
+                  { text: 'World Seed ändern', link: '/gameserver/hytale/world-seed-aendern' },
                   { text: 'Whitelist aktivieren', link: '/gameserver/hytale/whitelist-aktivieren' }
                 ]
               },
@@ -523,7 +524,8 @@ export default defineConfig({
                   { text: 'Pause Game Time', link: '/en/gameserver/hytale/pause-game-time' },
                   { text: 'Set Password', link: '/en/gameserver/hytale/set-password' },
                   { text: 'Set Spawn Point', link: '/en/gameserver/hytale/set-spawn-point' },
-                  { text: 'Upload World', link: '/en/gameserver/hytale/upload-world' }
+                  { text: 'Upload World', link: '/en/gameserver/hytale/upload-world' },
+                  { text: 'Change World Seed', link: '/en/gameserver/hytale/change-world-seed' }
                 ]
               },
               {
