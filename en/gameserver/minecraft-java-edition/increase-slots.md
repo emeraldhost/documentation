@@ -1,23 +1,21 @@
 ---
-description: Minecraft Java Edition Gameserver Slots Increase - Step-by-step guide for Vanilla, Spigot, Bukkit, Paper, Folia, Purple and Pufferfish servers.
+description: Increase slots on a Minecraft Java Edition server
 ---
 
-# How can I increase the slots of my Minecraft Java Edition server?
+# How to Increase the Slots on a Minecraft Java Server
 
-1. <strong>Open your dashboard and select your Minecraft Java Edition server</strong>.
+1. **Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.**
 
-2. <strong>Go to the file browser</strong>.
-
-3. <strong>Open the file ```server.properties```.</strong>
-
-4. <strong>Look for the following entry:</strong>
+2. **Look for the following entry:**
 
     ```
     max-players=20
     ```
 
-5. <strong>Change the value to the desired number of players</strong>.
+3. **Change the value to the desired number of players.**
+
+4. **Save the changes and restart the server.**
 
 ::: warning Warning
-<strong>Important:</strong> Make sure that your server has enough resources (such as RAM and CPU) to support the increased number of players.
+**Important:** Make sure that your server has enough resources (such as RAM and CPU) to support the increased number of players.
 :::

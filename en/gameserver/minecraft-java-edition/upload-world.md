@@ -1,31 +1,29 @@
 ---
 title: Uploading a world in Minecraft Java Edition
-description: Step-by-step instructions on how to upload your own world in Minecraft Java Edition and configure the server accordingly.
+description: Upload a world to a Minecraft Java Edition server
 ---
 
-# Upload world in Minecraft Java Edition: File Browser & SFTP
+# How to Upload a World on a Minecraft Java Server
 
 ::: danger Attention
-The world files must not be an archive such as ```.zip```. Unzip the world first.
+The world files must not be an archive such as `.zip`. Unzip the world first.
 :::
 
-1. <strong>Stop your Minecraft Java Edition server.</strong>
+1. **Stop your Minecraft Java Edition server.**
 
-2. <strong>Open your dashboard, select your server and go to the file browser **or** connect to your server via SFTP. You can find instructions here: [Establish SFTP connection](../establish-sftp-connection.md).</strong>
+2. **Connect to your server via [SFTP](../establish-sftp-connection.md).**
 
-3. <strong>Upload your new world in the main folder, which also contains the ```world``` folder.</strong>
+3. **Upload your new world in the main folder, which also contains the `world` folder.**
 
-4. <strong>open the file ```server.properties```.</strong>
-
-5. <strong>Look for the following entry:</strong>
+4. **Open the file `server.properties` and look for the following entry:**
 
     ```
     level-name=world
     ```
 
-6. <strong>Change the value to the name of your uploaded world (e.g. ```level-name=NewWorld```).</strong>
+5. **Change the value to the name of your uploaded world (e.g. `level-name=NewWorld`).**
 
-7. <strong>Save the file and restart your server.</strong>
+6. **Save the changes and restart the server.**
 
 ::: tip Tip
 You can also run several worlds in parallel on your server, e.g. with plugins such as [Multiverse-Core](https://modrinth.com/plugin/multiverse-core).

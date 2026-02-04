@@ -1,8 +1,8 @@
 ---
-description: Step-by-step instructions on how to assign OP rights in Minecraft Java Edition via the in-game chat, the server console or the ops.json file.
+description: Grant OP rights on a Minecraft Java Edition server
 ---
 
-# Assign OP rights in Minecraft Java Edition: In-game chat, server console & ops.json
+# How to Grant OP Rights on a Minecraft Java Server
 
 ## Assign OP rights via the in-game chat
 
@@ -11,14 +11,14 @@ To execute this command, you must already have OP rights. If you do not have the
 :::
 
 ::: info Info
-When assigning OP rights, players automatically receive the OP level that is defined in the ```server.properties``` file under the ```op-permission-level``` entry.
+When assigning OP rights, players automatically receive the OP level that is defined in the `server.properties` file under the `op-permission-level` entry.
 :::
 
-1. <strong>Log in to your Minecraft server</strong>.
+1. **Log in to your Minecraft server.**
 
-2. <strong>Open the chat. By default with the ```t```</strong> key
+2. **Open the chat. By default with the `t` key**
 
-3. <strong>Enter the following command:</strong>
+3. **Enter the following command:**
 
     ```
     /op <player name>     # Makes the player an operator
@@ -27,18 +27,18 @@ When assigning OP rights, players automatically receive the OP level that is def
 ## Assign OP rights via the server console {#console}
 
 ::: warning Attention
-All commands must be entered in the console without ```/```!
+All commands must be entered in the console without `/`!
 :::
 
 ::: info Info
-When assigning OP rights, players automatically receive the OP level that is defined in the ```server.properties``` file under the ```op-permission-level``` entry.
+When assigning OP rights, players automatically receive the OP level that is defined in the `server.properties` file under the `op-permission-level` entry.
 :::
 
-1. <strong>Open your dashboard and select your Minecraft Java Edition server</strong>.
+1. **Open your dashboard and select your Minecraft Java Edition server.**
 
-2. <strong>Navigate to the server console under the menu item "Overview"</strong>.
+2. **Navigate to the server console under the menu item "Overview".**
 
-3. <strong>Enter the following command:</strong>
+3. **Enter the following command:**
 
     ```
     op <player name>     # Makes the player an operator
@@ -46,13 +46,9 @@ When assigning OP rights, players automatically receive the OP level that is def
 
 ## Assign OP rights via the ops.json file {#ops.json}
 
-1. <strong>Open your dashboard and select your Minecraft Java Edition server</strong>.
+1. **Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `ops.json`.**
 
-2. <strong>Go to the file browser</strong>.
-
-3. <strong>Open the file ```ops.json```.</strong>
-
-4. <strong>Insert the following entry within the square brackets ```[]```:</strong>
+2. **Insert the following entry within the square brackets `[]`:**
 
     ```
     {
@@ -63,8 +59,10 @@ When assigning OP rights, players automatically receive the OP level that is def
     }
     ```
 
+3. **Save the changes and restart the server.**
+
 ::: info Info
-If you want to enter several players, separate the entries with a comma ```,```:
+If you want to enter several players, separate the entries with a comma `,`:
 
 ```
 {
@@ -83,17 +81,17 @@ If you want to enter several players, separate the entries with a comma ```,```:
 
 :::
 
-<strong>Explanation of the OP levels</strong>
+**Explanation of the OP levels**
 
-- <strong>Level 1:</strong> Can change protected spawn areas.
-- <strong>Level 2:</strong> Can edit command blocks and use basic commands (except level 3-4 commands).
-- <strong>Level 3:</strong> May execute sanctions such as ```/kick```, ```/ban``` etc.
-- <strong>Level 4:</strong> Has full administrative control, including server commands such as ```/stop```.
+- **Level 1:** Can change protected spawn areas.
+- **Level 2:** Can edit command blocks and use basic commands (except level 3-4 commands).
+- **Level 3:** May execute sanctions such as `/kick`, `/ban` etc.
+- **Level 4:** Has full administrative control, including server commands such as `/stop`.
 
 ::: info Info
-```bypassesPlayerLimit``` allows the player to join the server even if the player limit has been reached.
+`bypassesPlayerLimit` allows the player to join the server even if the player limit has been reached.
 :::
 
 ::: tip Tip
-You can find out the UUID of a player e.g. at <strong>NameMC</strong> on the basis of his name.
+You can find out the UUID of a player e.g. at **NameMC** on the basis of his name.
 :::

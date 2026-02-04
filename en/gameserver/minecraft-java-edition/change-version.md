@@ -1,8 +1,8 @@
 ---
-description: Change version on a Minecraft server
+description: Change version on a Minecraft Java Edition server
 ---
 
-# Change version on a Minecraft server
+# How to Change the Version on a Minecraft Java Server
 
 ## Version
 
@@ -72,5 +72,3 @@ In Minecraft, a "version" refers to a specific variant or edition of the game. M
     <img src="../../../assets/gameserver/minecraft-java-edition/version-aendern/chrome_7rgg2mZwFp.png" />
 
     The completion of the process will be displayed as soon as your Minecraft server is online again.
-
-### That's it! With these steps you should be able to install another version for your Minecraft server

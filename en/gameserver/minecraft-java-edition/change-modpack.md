@@ -1,8 +1,8 @@
 ---
-description: Change modpack on a Minecraft server
+description: Change modpack on a Minecraft Java Edition server
 ---
 
-# Change modpack on a Minecraft server
+# How to Change the Modpack on a Minecraft Java Server
 
 ## Modpacks
 
@@ -38,5 +38,3 @@ Modpacks in Minecraft are collections of mods, texture packs and configuration s
     :::info
     If a modpack is missing, you are welcome to submit a recommendation for this modpack in our [Community Discord Server](https://discord.emeraldhost.de/).
     :::
-
-### That's it! With these steps you should be able to install a modpack for your Minecraft server

@@ -1,8 +1,8 @@
 ---
-description: Use whitelist on Minecraft server
+description: Enable whitelist on a Minecraft Java Edition server
 ---
 
-# Activate whitelist
+# How to Enable the Whitelist on a Minecraft Java Server
 
 A whitelist is a feature in Minecraft that allows server administrators to create a list of players who are allowed to enter the server, while other players are denied. It is used to keep out unwanted players and allow those who have been approved by the server operator.
 
@@ -35,5 +35,3 @@ A whitelist is a feature in Minecraft that allows server administrators to creat
 
 4. <b>Confirm the command</b><br>
     Press "Enter" or click on the button to execute the command.
-
-### That's it! With these steps, you should be able to successfully use the whitelist on your Minecraft server

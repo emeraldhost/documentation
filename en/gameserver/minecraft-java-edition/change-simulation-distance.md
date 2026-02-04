@@ -1,10 +1,8 @@
 ---
-description: Adjust Minecraft Java Edition Simulation Distance correctly - Instructions for Vanilla, Spigot, Bukkit, Paper, Folia, Purpur and Pufferfish Server to optimize performance.
+description: Change simulation distance on a Minecraft Java Edition server
 ---
 
-# Minecraft Java Edition - Customize Simulation Distance
-
-Customize simulation distance on your Minecraft Java Edition server.
+# How to Change the Simulation Distance on a Minecraft Java Server
 
 ## What is the simulation distance?
 
@@ -19,7 +17,7 @@ The ```simulation-distance``` determines how many chunks are actively calculated
 
 1. <strong>Go to your Minecraft Java Edition server in the dashboard</strong>.
 
-2. <strong>Open the file browser</strong>.
+2. <strong>Open the [file browser](../establish-sftp-connection.md) or connect to your server via SFTP.</strong>
 
 3. <strong>Open the file ```server.properties```.</strong>
 

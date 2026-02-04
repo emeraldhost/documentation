@@ -1,14 +1,12 @@
 ---
-description: Minecraft Java Edition Adjust View Distance correctly - Guide for Vanilla, Spigot, Bukkit, Paper, Folia, Purpur and Pufferfish Server to optimize performance and view distance.
+description: Change view distance on a Minecraft Java Edition server
 ---
 
-# Minecraft Java Edition - Customize View Distance
-
-Customize view distance on your Minecraft Java Edition server.
+# How to Change the View Distance on a Minecraft Java Server
 
 ## What is the view distance?
 
-The ```view-distance``` determines how many chunks a player can see around them. A chunk in Minecraft is an area of the world of 16x16 blocks. This means: If the view distance is set to 10, the player can see in a square of 21x21 chunks - i.e. 10 chunks in each direction. The view distance only affects the loading and display of the world, not the active calculation of e.g. mobs, redstone or the growth of plants.
+The `view-distance` determines how many chunks a player can see around them. A chunk in Minecraft is an area of the world of 16x16 blocks. This means: If the view distance is set to 10, the player can see in a square of 21x21 chunks - i.e. 10 chunks in each direction. The view distance only affects the loading and display of the world, not the active calculation of e.g. mobs, redstone or the growth of plants.
 
 ## What effects does the setting have on my server?
 
@@ -18,25 +16,17 @@ The ```view-distance``` determines how many chunks a player can see around them.
 
 ## How do I change the view distance?
 
-1. <strong>Go to your Minecraft Java Edition server in the dashboard</strong>.
+1. **Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.**
 
-2. <strong>Open the file browser</strong>.
-
-3. <strong>Open the file ```server.properties```.</strong>
-
-4. <strong>Set default rules</strong>
-
-5. <strong>Search for the following entry:</strong>
+2. **Look for the following entry:**
 
     ```
     view-distance=10
     ```
 
-6. <strong>Change the value as desired (e.g. 8 or 6)</strong>.
+3. **Change the value as desired (e.g. 8 or 6).**
 
-7. <strong>Save the changes by clicking on "Save"</strong>.
-
-8. <strong>Restart the server so that the changes become active</strong>.
+4. **Save the changes and restart the server.**
 
 ::: tip Recommendation
 

@@ -1,10 +1,8 @@
 ---
-description: Minecraft Java Edition View Distance richtig anpassen - Anleitung für Vanilla, Spigot, Bukkit, Paper, Folia, Purpur und Pufferfish Server zur Optimierung der Performance und Sichtweite.
+description: View-Distance auf einem Minecraft Java Edition Server ändern
 ---
 
-# Minecraft Java Edition - View-Distance anpassen
-
-View Distance auf deinem Minecraft Java Edition Server anpassen.
+# So änderst du die View-Distance auf einem Minecraft Java Server
 
 ## Was ist die View-Distance?
 
@@ -18,23 +16,17 @@ Die ```view-distance``` bestimmt, wie viele Chunks ein Spieler rund um sich sehe
 
 ## Wie ändere ich die View-Distance?
 
-1. <strong>Gehe im Dashboard auf deinen Minecraft Java Edition Server.</strong>
+1. <strong>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</strong>
 
-2. <strong>Öffne den Datei-Browser.</strong>
-
-3. <strong>Öffne die Datei ```server.properties```.</strong>
-
-4. <strong>Suche nach folgendem Eintrag:</strong>
+2. <strong>Suche nach folgendem Eintrag:</strong>
 
 ```
 view-distance=10
 ```
 
-5. <strong>Ändere den Wert nach Wunsch (z.B. 8 oder 6).</strong>
+3. <strong>Ändere den Wert nach Wunsch (z.B. 8 oder 6).</strong>
 
-6. <strong>Speichere die Änderungen durch einen Klick auf „Speichern“.</strong>
-
-7. <strong>Starte den Server neu, damit die Änderungen aktiv werden.</strong>
+4. <strong>Speichere die Änderungen und starte den Server neu.</strong>
 
 ::: tip Empfehlung
 
