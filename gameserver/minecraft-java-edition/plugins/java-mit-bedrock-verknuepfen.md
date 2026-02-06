@@ -1,9 +1,8 @@
 ---
-title: GeyserMC mit Floodgate einrichten – Minecraft Java & Bedrock Crossplay
-description: Schritt-für-Schritt-Anleitung, wie du für deinen Minecraft Java Edition Server Bedrock Support einrichtest und Crossplay aktivierst.
+description: Crossplay auf einem Minecraft Java Edition Server aktivieren
 ---
 
-# Minecraft Java mit Bedrock verknüpfen (Crossplay aktivieren)
+# So aktivierst du Bedrock-Crossplay auf einem Minecraft Java Server
 
 ::: tip Tipp
 Manche Paper-Server unterstützen standardmäßig kein Java 17. Füge in diesem Fall folgende Startup-Flag hinzu, um die Abfrage zu umgehen: -DPaper.IgnoreJavaVersion=true

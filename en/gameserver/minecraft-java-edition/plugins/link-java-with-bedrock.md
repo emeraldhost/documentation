@@ -1,9 +1,8 @@
 ---
-title: Set up GeyserMC with Floodgate – Minecraft Java & Bedrock Crossplay
-description: Step-by-step guide on how to set up Bedrock support for your Minecraft Java Edition server and enable crossplay.
+description: Enable crossplay on a Minecraft Java Edition server
 ---
 
-# Link Minecraft Java with Bedrock (Enable Crossplay)
+# How to Enable Bedrock Crossplay on a Minecraft Java Server
 
 ::: tip Tip
 Some Paper servers don't support Java 17 by default. In this case, add the following startup flag to bypass the check: -DPaper.IgnoreJavaVersion=true
