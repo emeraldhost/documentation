@@ -342,6 +342,12 @@ export default defineConfig({
             items: [
               { text: 'ServerQuery Login', link: '/teamspeak/serverquery-login' }
             ]
+          },
+          {
+            text: 'Allgemein',
+            items: [
+              { text: 'Netzwerk-Trace erstellen', link: '/allgemein/netzwerk-trace-erstellen' }
+            ]
           }
         ],
         outline: {
@@ -704,6 +710,12 @@ export default defineConfig({
             text: 'TeamSpeak',
             items: [
               { text: 'ServerQuery Login', link: '/en/teamspeak/serverquery-login' }
+            ]
+          },
+          {
+            text: 'General',
+            items: [
+              { text: 'Create Network Trace', link: '/en/general/create-network-trace' }
             ]
           }
         ],
