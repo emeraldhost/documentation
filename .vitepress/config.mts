@@ -87,7 +87,9 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Admin werden', link: '/gameserver/arma-reforger/admin-werden' },
                   { text: 'Mods installieren', link: '/gameserver/arma-reforger/mods-installieren' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/arma-reforger/spieler-kicken-bannen' },
                   { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
                 ]
               },
@@ -460,7 +462,9 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Become Admin', link: '/en/gameserver/arma-reforger/become-admin' },
                   { text: 'Install Mods', link: '/en/gameserver/arma-reforger/install-mods' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/arma-reforger/kick-ban-players' },
                   { text: 'Change scenario', link: '/en/gameserver/arma-reforger/change-scenario' }
                 ]
               },
