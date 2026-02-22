@@ -87,6 +87,7 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Mods installieren', link: '/gameserver/arma-reforger/mods-installieren' },
                   { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
                 ]
               },
@@ -459,6 +460,7 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Install Mods', link: '/en/gameserver/arma-reforger/install-mods' },
                   { text: 'Change scenario', link: '/en/gameserver/arma-reforger/change-scenario' }
                 ]
               },
