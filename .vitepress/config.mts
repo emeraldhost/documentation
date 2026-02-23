@@ -350,7 +350,8 @@ export default defineConfig({
           {
             text: 'Allgemein',
             items: [
-              { text: 'Netzwerk-Trace erstellen', link: '/allgemein/netzwerk-trace-erstellen' }
+              { text: 'Netzwerk-Trace erstellen', link: '/allgemein/netzwerk-trace-erstellen' },
+              { text: 'PCAP-Datei erstellen', link: '/allgemein/pcap-datei-erstellen' }
             ]
           }
         ],
@@ -723,7 +724,8 @@ export default defineConfig({
           {
             text: 'General',
             items: [
-              { text: 'Create Network Trace', link: '/en/general/create-network-trace' }
+              { text: 'Create Network Trace', link: '/en/general/create-network-trace' },
+              { text: 'Create PCAP File', link: '/en/general/create-pcap-file' }
             ]
           }
         ],
