@@ -328,6 +328,13 @@ export default defineConfig({
             ]
           },
           {
+            text: 'TeamSpeak',
+            items: [
+              { text: 'TeamSpeak 6 Server Verfügbarkeit', link: '/teamspeak/teamspeak-6-server-verfuegbarkeit' },
+              { text: 'ServerQuery Login', link: '/teamspeak/serverquery-login' }
+            ]
+          },
+          {
             text: 'Domains',
             items: [
               {
@@ -338,12 +345,6 @@ export default defineConfig({
                   { text: 'TeamSpeak Server', link: '/domains/dns-eintraege/teamspeak-server' }
                 ]
               }
-            ]
-          },
-          {
-            text: 'TeamSpeak',
-            items: [
-              { text: 'ServerQuery Login', link: '/teamspeak/serverquery-login' }
             ]
           },
           {
@@ -700,6 +701,13 @@ export default defineConfig({
             ]
           },
           {
+            text: 'TeamSpeak',
+            items: [
+              { text: 'TeamSpeak 6 Server Availability', link: '/en/teamspeak/teamspeak-6-server-availability' },
+              { text: 'ServerQuery Login', link: '/en/teamspeak/serverquery-login' }
+            ]
+          },
+          {
             text: 'Domains',
             items: [
               {
@@ -710,12 +718,6 @@ export default defineConfig({
                   { text: 'TeamSpeak Server', link: '/en/domains/dns-records/teamspeak-server' }
                 ]
               }
-            ]
-          },
-          {
-            text: 'TeamSpeak',
-            items: [
-              { text: 'ServerQuery Login', link: '/en/teamspeak/serverquery-login' }
             ]
           },
           {
