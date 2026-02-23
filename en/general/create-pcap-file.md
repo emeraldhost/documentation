@@ -37,6 +37,10 @@ Common interface names are `eth0`, `ens18`, or `ens192`.
 
 ### Start Capture
 
+::: info Recommended Packet Count
+We recommend a packet count of `100000` (100,000). This is sufficient in most cases to capture the issue without the file becoming unnecessarily large.
+:::
+
 **Capture all traffic (100,000 packets):**
 
 ```
@@ -49,16 +53,20 @@ sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap
 sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap port 25565
 ```
 
+::: info Info
+Port `25565` in this example is the default port for Minecraft. Replace it with the port of your affected service.
+:::
+
 **Capture only traffic from/to a specific IP:**
 
 ```
-sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 203.0.113.50
+sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 123.45.67.89
 ```
 
 **Combine port and IP:**
 
 ```
-sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 203.0.113.50 and port 25565
+sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 123.45.67.89 and port 25565
 ```
 
 **Exclude your own SSH connection** (recommended to prevent your session from skewing the capture):
@@ -112,7 +120,7 @@ Download [Wireshark](https://www.wireshark.org/download.html) and install it. Th
 **Capture only traffic from/to a specific IP:**
 
 ```
-"C:\Program Files\Wireshark\tshark.exe" -i 1 -f "host 203.0.113.50" -c 100000 -w C:\capture.pcap
+"C:\Program Files\Wireshark\tshark.exe" -i 1 -f "host 123.45.67.89" -c 100000 -w C:\capture.pcap
 ```
 
 ::: info Info

@@ -1,8 +1,8 @@
 ---
-description: Erfahre, wie du mit tcpdump eine PCAP-Datei auf deinem Rootserver erstellst und an unseren Support sendest, um Netzwerkprobleme detailliert zu analysieren.
+description: Erfahre, wie du mit tcpdump eine PCAP-Datei auf deinem vServer / Rootserver erstellst und an unseren Support sendest, um Netzwerkprobleme detailliert zu analysieren.
 ---
 
-# So erstellst du eine PCAP-Datei auf deinem Rootserver
+# So erstellst du eine PCAP-Datei auf deinem vServer / Rootserver
 
 Eine PCAP-Datei (Packet Capture) zeichnet den gesamten Netzwerkverkehr auf deinem Server auf. Unser Support benötigt diese Daten in manchen Fällen für eine tiefgehende Analyse von Netzwerkproblemen – z.B. bei DDoS-Angriffen, Verbindungsabbrüchen oder Paketverlust.
 
@@ -12,7 +12,7 @@ Eine PCAP-Datei ist eine Ergänzung zum [Netzwerk-Trace (MTR)](netzwerk-trace-er
 
 ## Voraussetzungen
 
-- **Rootserver** mit SSH- oder Remotedesktop-Zugang
+- **vServer / Rootserver** mit SSH- oder Remotedesktop-Zugang
 - **tcpdump** installiert (Linux) oder **Wireshark** installiert (Windows)
 
 ## Linux – tcpdump
@@ -37,6 +37,10 @@ Typische Interface-Namen sind `eth0`, `ens18` oder `ens192`.
 
 ### Aufnahme starten
 
+::: info Empfohlene Paketanzahl
+Wir empfehlen eine Paketanzahl von `100000` (100.000). Das ist in den meisten Fällen ausreichend, um das Problem zu erfassen, ohne dass die Datei unnötig groß wird.
+:::
+
 **Gesamten Traffic aufzeichnen (100.000 Pakete):**
 
 ```
@@ -49,16 +53,20 @@ sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap
 sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap port 25565
 ```
 
+::: info Info
+Port `25565` ist in diesem Beispiel der Standard-Port für Minecraft. Ersetze ihn durch den Port deines betroffenen Dienstes.
+:::
+
 **Nur Traffic von/zu einer bestimmten IP:**
 
 ```
-sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 203.0.113.50
+sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 123.45.67.89
 ```
 
 **Port und IP kombinieren:**
 
 ```
-sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 203.0.113.50 and port 25565
+sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 123.45.67.89 and port 25565
 ```
 
 **Eigene SSH-Verbindung ausschließen** (empfohlen, damit deine eigene Sitzung die Aufnahme nicht verfälscht):
@@ -112,7 +120,7 @@ Lade [Wireshark](https://www.wireshark.org/download.html) herunter und installie
 **Nur Traffic von/zu einer bestimmten IP:**
 
 ```
-"C:\Program Files\Wireshark\tshark.exe" -i 1 -f "host 203.0.113.50" -c 100000 -w C:\capture.pcap
+"C:\Program Files\Wireshark\tshark.exe" -i 1 -f "host 123.45.67.89" -c 100000 -w C:\capture.pcap
 ```
 
 ::: info Info
