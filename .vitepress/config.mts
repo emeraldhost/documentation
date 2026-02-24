@@ -270,6 +270,30 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'The Bus',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/the-bus/admin-hinzufuegen' },
+                  { text: 'Bus spawnen', link: '/gameserver/the-bus/bus-spawnen' },
+                  { text: 'Chat-Nachrichten senden', link: '/gameserver/the-bus/chat-nachrichten-senden' },
+                  { text: 'DLC aktivieren', link: '/gameserver/the-bus/dlc-aktivieren' },
+                  { text: 'Fahrplan ändern', link: '/gameserver/the-bus/fahrplan-aendern' },
+                  { text: 'Flotte ändern', link: '/gameserver/the-bus/flotte-aendern' },
+                  { text: 'KI-Busse aktivieren', link: '/gameserver/the-bus/ki-busse-aktivieren' },
+                  { text: 'Map ändern', link: '/gameserver/the-bus/map-aendern' },
+                  { text: 'Mods installieren', link: '/gameserver/the-bus/mods-installieren' },
+                  { text: 'Server beitreten', link: '/gameserver/the-bus/server-beitreten' },
+                  { text: 'Server konfigurieren', link: '/gameserver/the-bus/server-konfigurieren' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/the-bus/spieler-kicken-bannen' },
+                  { text: 'Tageszeit ändern', link: '/gameserver/the-bus/tageszeit-aendern' },
+                  { text: 'Teleportieren', link: '/gameserver/the-bus/teleportieren' },
+                  { text: 'Ticketchance ändern', link: '/gameserver/the-bus/ticketchance-aendern' },
+                  { text: 'Verkehr einstellen', link: '/gameserver/the-bus/verkehr-einstellen' },
+                  { text: 'Wetter ändern', link: '/gameserver/the-bus/wetter-aendern' }
+                ]
+              },
+              {
                 text: 'V Rising',
                 link: '',
                 collapsed: true,
@@ -641,6 +665,30 @@ export default defineConfig({
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/terraria-tmodloader/add-mods' },
                   { text: 'Add world', link: '/en/gameserver/terraria-tmodloader/add-world' }
+                ]
+              },
+              {
+                text: 'The Bus',
+                link: '',
+                collapsed: true,
+                items: [
+                  { text: 'Activate DLC', link: '/en/gameserver/the-bus/activate-dlc' },
+                  { text: 'Add Admin', link: '/en/gameserver/the-bus/add-admin' },
+                  { text: 'Change Fleet', link: '/en/gameserver/the-bus/change-fleet' },
+                  { text: 'Change Map', link: '/en/gameserver/the-bus/change-map' },
+                  { text: 'Change Operating Plan', link: '/en/gameserver/the-bus/change-operating-plan' },
+                  { text: 'Change Ticket Chance', link: '/en/gameserver/the-bus/change-ticket-chance' },
+                  { text: 'Change Time', link: '/en/gameserver/the-bus/change-time' },
+                  { text: 'Change Traffic', link: '/en/gameserver/the-bus/change-traffic' },
+                  { text: 'Change Weather', link: '/en/gameserver/the-bus/change-weather' },
+                  { text: 'Configure Server', link: '/en/gameserver/the-bus/configure-server' },
+                  { text: 'Enable AI Buses', link: '/en/gameserver/the-bus/enable-ai-buses' },
+                  { text: 'Install Mods', link: '/en/gameserver/the-bus/install-mods' },
+                  { text: 'Join Server', link: '/en/gameserver/the-bus/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/the-bus/kick-ban-players' },
+                  { text: 'Send Chat Messages', link: '/en/gameserver/the-bus/send-chat-messages' },
+                  { text: 'Spawn Bus', link: '/en/gameserver/the-bus/spawn-bus' },
+                  { text: 'Teleport', link: '/en/gameserver/the-bus/teleport' }
                 ]
               },
               {
