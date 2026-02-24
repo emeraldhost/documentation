@@ -271,7 +271,7 @@ export default defineConfig({
               },
               {
                 text: 'The Bus',
-                link: '',
+                link: '/gameserver/the-bus',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/the-bus/admin-hinzufuegen' },
@@ -669,7 +669,7 @@ export default defineConfig({
               },
               {
                 text: 'The Bus',
-                link: '',
+                link: '/en/gameserver/the-bus',
                 collapsed: true,
                 items: [
                   { text: 'Activate DLC', link: '/en/gameserver/the-bus/activate-dlc' },
