@@ -4,7 +4,7 @@ description: 'Wechsel den Branch deines Valheim-Servers'
 
 ## Voraussetzungen
 
-- Erstelle ein Ticket [Support-Ticket](https://emeraldhost.de/de/tickets) und bitte um Aktivierung der Branch-Auswahl.
+- Erstelle ein [Support-Ticket](https://emeraldhost.de/de/tickets) und bitte um Aktivierung der Branch-Auswahl.
 
 ## Wichtiger Hinweis
 - Das auswählen eines versteckten Branch (zum Beispiel "public-test") ist nicht möglich. Alle verfügbaren Branches kannst du auf [Steamdb.info](https://steamdb.info/app/896660/depots/) unter dem Punkt "Branches" nachlesen.
