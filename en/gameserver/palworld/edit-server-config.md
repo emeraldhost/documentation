@@ -1,29 +1,29 @@
 ---
-title: Edit Palworld Server Config
-description: Step-by-step instructions on how to edit your Palworld server config
+description: Edit a Palworld server config
 ---
 
-# Edit Palworld Server Config
+# How to Edit Your Palworld Server Config
 
-::: tip Tip
-You can also edit the config file using an FTP program. Here you will find instructions on how to [establish an SFTP connection](../establish-sftp-connection.md).
-:::
+You can adjust your server settings via the configuration file.
 
-::: warning Important
-Make sure your server is **stopped** before editing the config file. Otherwise, your changes will be overwritten by the game!
-:::
+:::: warning Warning
+Stop your server before editing the config file, otherwise your changes will be overwritten by the game.
+::::
 
-## Steps
+1. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
 
-1. <strong>Stop your server in the dashboard.</strong>
+2. <b>Connect via SFTP</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md).
 
-2. <strong>Navigate to the following path in the file browser:</strong>
+3. <b>Open config file</b><br>
+   Navigate to the following path and open the file `PalWorldSettings.ini`:
    ```
-   Pal/Saved/Config/LinuxServer
+   /Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
    ```
 
-3. <strong>Open the file ```PalWorldSettings.ini```.</strong>
+4. <b>Adjust settings</b><br>
+   Adjust the desired settings and save the file.
 
-4. <strong>Adjust the desired settings.</strong>
-
-5. <strong>Save the file and restart your server.</strong>
+5. <b>Start the server</b><br>
+   Restart your server for the changes to take effect.

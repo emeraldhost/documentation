@@ -1,29 +1,29 @@
 ---
-title: Palworld Server Config anpassen
-description: Schritt-für-Schritt-Anleitung, wie du die Config deines Palworld Servers anpasst
+description: Config eines Palworld Servers anpassen
 ---
 
-# Palworld Server Config anpassen
+# So passt du die Config deines Palworld Servers an
 
-::: tip Tipp
-Du kannst die Config-Datei auch mit einem FTP-Programm bearbeiten. Hier findest du eine Anleitung, wie du eine [SFTP-Verbindung herstellst](../sftp-verbindung-herstellen.md).
-:::
+Du kannst die Einstellungen deines Servers über die Konfigurationsdatei anpassen.
 
-::: warning Wichtig
-Stelle sicher, dass dein Server **gestoppt** ist, bevor du die Config-Datei bearbeitest. Andernfalls werden deine Änderungen vom Spiel überschrieben!
-:::
+:::: warning Achtung
+Stoppe deinen Server bevor du die Config-Datei bearbeitest, da deine Änderungen sonst vom Spiel überschrieben werden.
+::::
 
-## Schritte
+1. <b>Server stoppen</b><br>
+   Stoppe deinen Server über die Verwaltung.
 
-1. <strong>Stoppe deinen Server in der Verwaltung.</strong>
+2. <b>Per SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
 
-2. <strong>Navigiere im Datei-Browser zum folgenden Pfad:</strong>
+3. <b>Config-Datei öffnen</b><br>
+   Navigiere zum folgenden Pfad und öffne die Datei `PalWorldSettings.ini`:
    ```
-   Pal/Saved/Config/LinuxServer
+   /Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
    ```
 
-3. <strong>Öffne die Datei ```PalWorldSettings.ini```.</strong>
+4. <b>Einstellungen anpassen</b><br>
+   Passe die gewünschten Einstellungen an und speichere die Datei.
 
-4. <strong>Passe die gewünschten Einstellungen an.</strong>
-
-5. <strong>Speichere die Datei und starte deinen Server neu.</strong>
+5. <b>Server starten</b><br>
+   Starte deinen Server neu, damit die Änderungen übernommen werden.
