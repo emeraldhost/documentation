@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "npx markdownlint --fix . || true && vitepress dev",
+    "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "docs:lint": "markdownlint --fix ."
+    "docs:preview": "vitepress preview"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,6 @@
   },
   "homepage": "https://github.com/emeraldhost/documentation#readme",
   "devDependencies": {
-    "markdownlint": "^0.38.0",
-    "markdownlint-cli": "^0.47.0",
     "vitepress": "^1.0.0-rc.22",
     "vue": "^3.3.4"
   }
