@@ -30,16 +30,20 @@ Stoppe deinen Server bevor du Dateien hochlädst, da diese sonst vom Server übe
 
 3. <b>Savegame hochladen</b><br>
    Lade deinen Savegame-Ordner in folgendes Verzeichnis auf dem Server hoch:
+
    ```
    /Pal/Saved/SaveGames/0/
    ```
 
 4. <b>Ordnername eintragen</b><br>
    Öffne die Datei `GameUserSettings.ini` unter:
+
    ```
    /Pal/Saved/Config/LinuxServer/GameUserSettings.ini
    ```
+
    Suche den Parameter `DedicatedServerName=` und trage dort den Namen deines hochgeladenen Savegame-Ordners ein:
+
    ```ini
    DedicatedServerName=DEIN_ORDNERNAME
    ```

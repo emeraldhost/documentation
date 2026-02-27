@@ -30,16 +30,20 @@ Stop your server before uploading files, otherwise they will be overwritten by t
 
 3. <b>Upload savegame</b><br>
    Upload your savegame folder to the following directory on the server:
+
    ```
    /Pal/Saved/SaveGames/0/
    ```
 
 4. <b>Enter folder name</b><br>
    Open the file `GameUserSettings.ini` at:
+
    ```
    /Pal/Saved/Config/LinuxServer/GameUserSettings.ini
    ```
+
    Find the parameter `DedicatedServerName=` and enter the name of your uploaded savegame folder:
+
    ```ini
    DedicatedServerName=YOUR_FOLDER_NAME
    ```

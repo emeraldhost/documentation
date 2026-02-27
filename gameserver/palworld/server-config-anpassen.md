@@ -18,6 +18,7 @@ Stoppe deinen Server bevor du die Config-Datei bearbeitest, da deine Änderungen
 
 3. <b>Config-Datei öffnen</b><br>
    Navigiere zum folgenden Pfad und öffne die Datei `PalWorldSettings.ini`:
+
    ```
    /Pal/Saved/Config/LinuxServer/PalWorldSettings.ini
    ```
