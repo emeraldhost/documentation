@@ -248,6 +248,7 @@ export default defineConfig({
                 link: '/gameserver/palworld',
                 collapsed: true,
                 items: [
+                  { text: 'Savegame hochladen', link: '/gameserver/palworld/savegame-hochladen' },
                   { text: 'Server beitreten', link: '/gameserver/palworld/server-beitreten' },
                   { text: 'Server Config anpassen', link: '/gameserver/palworld/server-config-anpassen' }
                 ]
@@ -647,7 +648,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Edit Server Config', link: '/en/gameserver/palworld/edit-server-config' },
-                  { text: 'Join Server', link: '/en/gameserver/palworld/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/palworld/join-server' },
+                  { text: 'Upload Savegame', link: '/en/gameserver/palworld/upload-savegame' }
                 ]
               },
               {
