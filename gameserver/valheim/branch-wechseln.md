@@ -2,13 +2,22 @@
 description: 'Wechsel den Branch deines Valheim-Servers'
 ---
 
-## Voraussetzungen
+# So änderst du den Branch deines Valheim-Servers
 
-- Erstelle ein [Support-Ticket](https://emeraldhost.de/de/tickets) und bitte um Aktivierung der Branch-Auswahl.
+## Verfügbare Branches
+| Branch | Beschreibung |
+| -------- | ------------ |
+| public | Offizieller Standard Branch von Valheim |
+| default_old | Letzter sicherer Build vor der aktuellsten Version |
+| default_preml | Letzter sicherer Build vor dem Mistland-Update |
+| default_precta | Letzter sicherer Build vor dem Call-To-Arms-Update |
+| default_prebw | Letzter sicherer Build vor dem Bog-Witch-Update |
+| default_preal | Letzter sicherer Build vor dem Ashlands-Update |
+| ... | [Hier findest du alle verfügbaren Branches (Depots)](https://steamdb.info/app/896660/depots/) |
 
-## Wichtiger Hinweis
-- Das auswählen eines versteckten Branch (zum Beispiel "public-test") ist nicht möglich. Alle verfügbaren Branches kannst du auf [Steamdb.info](https://steamdb.info/app/896660/depots/) unter dem Punkt "Branches" nachlesen.
-- Den originalen Branch kannst du wählen, indem du das Feld `Steam Beta Branch` leer lässt.
+:::: tip Hinweis
+Das auswählen eines versteckten Branch (zum Beispiel "public-test") ist nicht möglich. Den originalen Branch kannst du wählen, indem du das Feld `Steam Beta Branch` leer lässt.
+::::
 
 ## Schritte
 
