@@ -83,14 +83,6 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Barotrauma',
-                link: '/gameserver/barotrauma',
-                collapsed: true,
-                items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' }
-                ]
-              },
-              {
                 text: 'Arma Reforger',
                 link: '',
                 collapsed: true,
@@ -99,6 +91,14 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/arma-reforger/mods-hinzufuegen' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/arma-reforger/spieler-kicken-bannen' },
                   { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
+                ]
+              },
+              {
+                text: 'Barotrauma',
+                link: '/gameserver/barotrauma',
+                collapsed: true,
+                items: [
+                  { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' }
                 ]
               },
               {
@@ -520,14 +520,6 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Barotrauma',
-                link: '/en/gameserver/barotrauma',
-                collapsed: true,
-                items: [
-                  { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' }
-                ]
-              },
-              {
                 text: 'Arma Reforger',
                 link: '',
                 collapsed: true,
@@ -536,6 +528,14 @@ export default defineConfig({
                   { text: 'Add Mods', link: '/en/gameserver/arma-reforger/add-mods' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/arma-reforger/kick-ban-players' },
                   { text: 'Change scenario', link: '/en/gameserver/arma-reforger/change-scenario' }
+                ]
+              },
+              {
+                text: 'Barotrauma',
+                link: '/en/gameserver/barotrauma',
+                collapsed: true,
+                items: [
+                  { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' }
                 ]
               },
               {
