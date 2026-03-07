@@ -83,12 +83,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Barotrauma',
+                link: '/gameserver/barotrauma',
+                collapsed: true,
+                items: [
+                  { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' }
+                ]
+              },
+              {
                 text: 'Arma Reforger',
                 link: '',
                 collapsed: true,
                 items: [
                   { text: 'Admin werden', link: '/gameserver/arma-reforger/admin-werden' },
-                  { text: 'Mods installieren', link: '/gameserver/arma-reforger/mods-installieren' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/arma-reforger/mods-hinzufuegen' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/arma-reforger/spieler-kicken-bannen' },
                   { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
                 ]
@@ -115,7 +123,7 @@ export default defineConfig({
                 link: '/gameserver/dayz',
                 collapsed: true,
                 items: [
-                  { text: 'Mods installieren', link: '/gameserver/dayz/mods-installieren' }
+                  { text: 'Mods hinzufügen', link: '/gameserver/dayz/mods-hinzufuegen' }
                 ]
               },
               {
@@ -150,7 +158,7 @@ export default defineConfig({
                   { text: 'Item-Verlust beim Tod', link: '/gameserver/hytale/item-verlust-beim-tod' },
                   { text: 'Max Spieler ändern', link: '/gameserver/hytale/max-spieler-aendern' },
                   { text: 'Max View Radius ändern', link: '/gameserver/hytale/max-view-radius-aendern' },
-                  { text: 'Mods installieren', link: '/gameserver/hytale/mods-installieren' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/hytale/mods-hinzufuegen' },
                   { text: 'MOTD ändern', link: '/gameserver/hytale/motd-aendern' },
                   { text: 'Neue Welt erstellen', link: '/gameserver/hytale/neue-welt-erstellen' },
                   { text: 'NPCs deaktivieren', link: '/gameserver/hytale/npcs-deaktivieren' },
@@ -261,7 +269,7 @@ export default defineConfig({
                   { text: 'HP-Regeneration ändern', link: '/gameserver/palworld/hp-regeneration-aendern' },
                   { text: 'Hunger & Ausdauer anpassen', link: '/gameserver/palworld/hunger-ausdauer-anpassen' },
                   { text: 'Max Dropped Items ändern', link: '/gameserver/palworld/max-dropped-items-aendern' },
-                  { text: 'Mods installieren', link: '/gameserver/palworld/mods-installieren' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/palworld/mods-hinzufuegen' },
                   { text: 'Pal-Fangrate ändern', link: '/gameserver/palworld/pal-fangrate-aendern' },
                   { text: 'Pal-Schaden ändern', link: '/gameserver/palworld/pal-schaden-aendern' },
                   { text: 'Pal-Spawnrate ändern', link: '/gameserver/palworld/pal-spawnrate-aendern' },
@@ -310,7 +318,7 @@ export default defineConfig({
                   { text: 'Flotte ändern', link: '/gameserver/the-bus/flotte-aendern' },
                   { text: 'KI-Busse aktivieren', link: '/gameserver/the-bus/ki-busse-aktivieren' },
                   { text: 'Map ändern', link: '/gameserver/the-bus/map-aendern' },
-                  { text: 'Mods installieren', link: '/gameserver/the-bus/mods-installieren' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/the-bus/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/the-bus/server-beitreten' },
                   { text: 'Server konfigurieren', link: '/gameserver/the-bus/server-konfigurieren' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/the-bus/spieler-kicken-bannen' },
@@ -512,12 +520,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Barotrauma',
+                link: '/en/gameserver/barotrauma',
+                collapsed: true,
+                items: [
+                  { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' }
+                ]
+              },
+              {
                 text: 'Arma Reforger',
                 link: '',
                 collapsed: true,
                 items: [
                   { text: 'Become Admin', link: '/en/gameserver/arma-reforger/become-admin' },
-                  { text: 'Install Mods', link: '/en/gameserver/arma-reforger/install-mods' },
+                  { text: 'Add Mods', link: '/en/gameserver/arma-reforger/add-mods' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/arma-reforger/kick-ban-players' },
                   { text: 'Change scenario', link: '/en/gameserver/arma-reforger/change-scenario' }
                 ]
@@ -544,7 +560,7 @@ export default defineConfig({
                 link: '/en/gameserver/dayz',
                 collapsed: true,
                 items: [
-                  { text: 'Install mods', link: '/en/gameserver/dayz/install-mods' }
+                  { text: 'Install mods', link: '/en/gameserver/dayz/add-mods' }
                 ]
               },
               {
@@ -587,7 +603,7 @@ export default defineConfig({
                   { text: 'Enable PvP', link: '/en/gameserver/hytale/enable-pvp' },
                   { text: 'Enable Whitelist', link: '/en/gameserver/hytale/enable-whitelist' },
                   { text: 'Improve Performance', link: '/en/gameserver/hytale/improve-performance' },
-                  { text: 'Install Mods', link: '/en/gameserver/hytale/install-mods' },
+                  { text: 'Add Mods', link: '/en/gameserver/hytale/add-mods' },
                   { text: 'Item Loss on Death', link: '/en/gameserver/hytale/item-loss-on-death' },
                   { text: 'Join Server', link: '/en/gameserver/hytale/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/hytale/kick-ban-players' },
@@ -698,7 +714,7 @@ export default defineConfig({
                   { text: 'Enable Hardcore Mode', link: '/en/gameserver/palworld/enable-hardcore-mode' },
                   { text: 'Enable PvP', link: '/en/gameserver/palworld/enable-pvp' },
                   { text: 'Enable Raids', link: '/en/gameserver/palworld/enable-raids' },
-                  { text: 'Install Mods', link: '/en/gameserver/palworld/install-mods' },
+                  { text: 'Add Mods', link: '/en/gameserver/palworld/add-mods' },
                   { text: 'Join Server', link: '/en/gameserver/palworld/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/palworld/kick-ban-players' },
                   { text: 'Reset World', link: '/en/gameserver/palworld/reset-world' },
@@ -739,7 +755,7 @@ export default defineConfig({
                   { text: 'Change Weather', link: '/en/gameserver/the-bus/change-weather' },
                   { text: 'Configure Server', link: '/en/gameserver/the-bus/configure-server' },
                   { text: 'Enable AI Buses', link: '/en/gameserver/the-bus/enable-ai-buses' },
-                  { text: 'Install Mods', link: '/en/gameserver/the-bus/install-mods' },
+                  { text: 'Add Mods', link: '/en/gameserver/the-bus/add-mods' },
                   { text: 'Join Server', link: '/en/gameserver/the-bus/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/the-bus/kick-ban-players' },
                   { text: 'Send Chat Messages', link: '/en/gameserver/the-bus/send-chat-messages' },
