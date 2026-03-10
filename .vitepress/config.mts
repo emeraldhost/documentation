@@ -343,6 +343,7 @@ export default defineConfig({
                 link: '/gameserver/valheim',
                 collapsed: true,
                 items: [
+                  { text: 'Mods hinzufügen', link: '/gameserver/valheim/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' }
                 ]
               }
@@ -777,6 +778,7 @@ export default defineConfig({
                 link: '/en/gameserver/valheim',
                 collapsed: true,
                 items: [
+                  { text: 'Add Mods', link: '/en/gameserver/valheim/add-mods' },
                   { text: 'Add savegame', link: '/en/gameserver/valheim/add-savegame' }
                 ]
               }
