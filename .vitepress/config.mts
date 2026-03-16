@@ -370,6 +370,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Fail2Ban installieren', link: '/rootserver/grundkonfiguration/fail2ban-installieren' },
+                  { text: 'SSH-Zugang absichern', link: '/rootserver/grundkonfiguration/ssh-zugang-absichern' },
                   { text: 'UFW installieren', link: '/rootserver/grundkonfiguration/ufw-installieren' }
                 ]
               },
@@ -794,6 +795,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Install Fail2Ban', link: '/en/rootserver/basic_configuration/install-fail2ban' },
+                  { text: 'Secure SSH Access', link: '/en/rootserver/basic_configuration/secure-ssh-access' },
                   { text: 'Install UFW', link: '/en/rootserver/basic_configuration/install-ufw' }
                 ]
               },
