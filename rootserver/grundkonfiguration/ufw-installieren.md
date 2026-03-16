@@ -1,118 +1,107 @@
 ---
-description: UFW-Firewall auf einem Rootserver installieren und konfigurieren (Ubuntu/Debian)
+description: UFW-Firewall auf einem Linux Rootserver / vServer installieren und konfigurieren (Ubuntu/Debian)
 ---
 
-# UFW installieren
+# So installierst du UFW auf deinem Linux Rootserver / vServer
 
-UFW-Firewall auf dem Rootserver installieren und konfigurieren (Ubuntu/Debian)
+**UFW** (Uncomplicated Firewall) ist ein einfaches Frontend für **iptables**, das die Verwaltung der Server-Firewall deutlich vereinfacht.
 
-<strong>UFW</strong> steht für <strong>Uncomplicated Firewall</strong> und ist ein einfaches Frontend für <strong>iptables</strong>, das die Verwaltung der Server-Firewall deutlich vereinfacht.
+## UFW installieren
 
----
+1. <b>System aktualisieren</b><br>
+   Aktualisiere zunächst die Paketlisten:
 
-1. <strong>System aktualisieren</strong>
-
-   Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
-
-   ```
-   apt update && apt upgrade -y
+   ```bash
+   sudo apt update
    ```
 
-2. <strong>UFW installieren</strong>
+2. <b>UFW installieren</b><br>
+   Installiere UFW mit folgendem Befehl:
 
-   Installiere UFW, indem du folgenden Befehl in der Konsole eingibst:
-
-   ```
-   apt install ufw
-   ```
-
-3. <strong>Überprüfen, ob die Installation erfolgreich war</strong>
-
-   Prüfe, ob die Installation erfolgreich war, indem du den folgenden Befehl eingibst:
-
-   ```
-   ufw status
+   ```bash
+   sudo apt install ufw -y
    ```
 
-   Standardeinstellung nach der Installation: ``` Status: inactive ```
+## UFW konfigurieren
 
-4. <strong>Standardregeln setzen</strong>
+1. <b>Standardregeln setzen</b><br>
+   Blockiere alle eingehenden Verbindungen und erlaube alle ausgehenden:
 
-   Wir empfehlen, alle eingehenden Verbindungen zu blockieren und nur die benötigten Ports freizugeben:
-
-   ```
+   ```bash
    sudo ufw default deny incoming
    sudo ufw default allow outgoing
    ```
 
-5. <strong>SSH-Port freigeben (Wichtig!)</strong>
+2. <b>SSH-Port freigeben</b><br>
+   Gib den SSH-Port frei, damit du dich weiterhin verbinden kannst:
 
-   Öffne den Standard-SSH-Port (Port 22), wenn du ihn für den Remote-Zugriff auf den Server benötigst:
-
-   ```
+   ```bash
    sudo ufw allow ssh
    ```
 
-   Falls dein SSH-Port von der Standardkonfiguration (Port 22) abweicht, nutze den korrekten Port z.B. 33
+   :::: danger Wichtig
+   Überspringe diesen Schritt **nicht**, sonst sperrst du dich aus dem Server aus! Falls du einen anderen SSH-Port verwendest, gib diesen stattdessen frei, z.B. `sudo ufw allow 2222/tcp`.
+   ::::
 
-6. <strong>Weitere Dienste freigeben (Optional)</strong>
+3. <b>Weitere Ports freigeben (optional)</b><br>
+   Gib je nach Bedarf weitere Ports frei:
 
-   HTTP (Webserver):
+   ```bash
+   # Webserver
+   sudo ufw allow http
+   sudo ufw allow https
 
-    ```
-    sudo ufw allow http
-    ```
+   # Minecraft (Standard-Port 25565)
+   sudo ufw allow 25565
 
-    HTTPS (SSL)
+   # TeamSpeak 3
+   sudo ufw allow 9987/udp    # Voice
+   sudo ufw allow 10011/tcp   # Query
+   sudo ufw allow 30033/tcp   # File Transfer
+   ```
 
-    ```
-    sudo ufw allow https
-    ```
+4. <b>UFW aktivieren</b><br>
+   Aktiviere die Firewall:
 
-    Minecraft (Standard-Port 25565)
+   ```bash
+   sudo ufw enable
+   ```
 
-    ```
-    sudo ufw allow 25565
-    ```
+   Bestätige mit `y`, wenn du gefragt wirst.
 
-    Teamspeak 3 (Beispiel)
+5. <b>Status prüfen</b><br>
+   Überprüfe, ob UFW korrekt läuft und welche Regeln aktiv sind:
 
-    ```
-    sudo ufw allow 9987     # Voice
-    sudo ufw allow 10011    # Query
-    sudo ufw allow 30033    # File Transfer
-    ```
+   ```bash
+   sudo ufw status
+   ```
 
-7. <strong>UFW aktivieren</strong>
+## Regeln verwalten
 
-Aktiviere die Firewall:
+Alle Regeln mit Nummern anzeigen:
 
+```bash
+sudo ufw status numbered
 ```
-sudo ufw enable
+
+Eine Regel entfernen (z.B. HTTP):
+
+```bash
+sudo ufw delete allow http
 ```
 
-Bestätige mit ``` y ```, wenn du gefragt wirst. Danach kannst du den Status überprüfen:
+Einen bestimmten Port sperren:
 
+```bash
+sudo ufw deny 8080
 ```
-sudo ufw status
+
+UFW deaktivieren:
+
+```bash
+sudo ufw disable
 ```
 
-8. <strong>Regeln verwalten</strong>
-
-    Regeln entfernen (z.B. HTTP-Port):
-
-    ```
-    sudo ufw delete allow http
-    ```
-
-    Alle Regeln anzeigen:
-
-    ```
-    sudo ufw status numbered
-    ```
-
-    UFW deaktivieren (Falls nötig)
-
-    ```
-    sudo ufw disable
-    ```
+:::: tip Tipp
+Für zusätzlichen Schutz vor Brute-Force-Angriffen richte auch [Fail2Ban](fail2ban-installieren.md) ein.
+::::

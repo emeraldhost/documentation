@@ -1,118 +1,107 @@
 ---
-description: Install and configure UFW firewall on a root server (Ubuntu/Debian)
+description: Install and configure UFW firewall on a Linux VPS (Ubuntu/Debian)
 ---
 
-# Install UFW
+# How to Install UFW on Your Linux VPS
 
-Install and configure UFW firewall on the root server (Ubuntu/Debian)
+**UFW** (Uncomplicated Firewall) is a simple frontend for **iptables** that significantly simplifies the management of your server firewall.
 
-<strong>UFW</strong> stands for <strong>Uncomplicated Firewall</strong> and is a simple frontend for <strong>iptables</strong> that significantly simplifies the administration of the server firewall.
+## Install UFW
 
----
+1. <b>Update system</b><br>
+   First, update the package lists:
 
-1. <strong>Update system</strong>
-
-   First update the system of your root server. Open the console and enter the following command:
-
-   ```
-   apt update && apt upgrade -y
+   ```bash
+   sudo apt update
    ```
 
-2. <strong>Install UFW</strong>
+2. <b>Install UFW</b><br>
+   Install UFW with the following command:
 
-   Install UFW by entering the following command in the console:
-
-   ```
-   apt install ufw
-   ```
-
-3. <strong>Check if the installation was successful</strong>
-
-   Check whether the installation was successful by entering the following command:
-
-   ```
-   ufw status
+   ```bash
+   sudo apt install ufw -y
    ```
 
-   Default setting after installation: ``` Status: inactive ```
+## Configure UFW
 
-4. set <strong>default rules</strong>
+1. <b>Set default rules</b><br>
+   Block all incoming connections and allow all outgoing:
 
-   We recommend blocking all incoming connections and only enabling the required ports:
-
-   ```
+   ```bash
    sudo ufw default deny incoming
    sudo ufw default allow outgoing
    ```
 
-5. <strong>Release SSH port (important!)</strong>
+2. <b>Allow SSH port</b><br>
+   Allow the SSH port so you can still connect:
 
-   Open the default SSH port (port 22) if you need it for remote access to the server:
-
-   ```
+   ```bash
    sudo ufw allow ssh
    ```
 
-   If your SSH port differs from the default configuration (port 22), use the correct port, e.g. 33
+   :::: danger Important
+   Do **not** skip this step, otherwise you will lock yourself out of the server! If you are using a different SSH port, allow that port instead, e.g. `sudo ufw allow 2222/tcp`.
+   ::::
 
-6. <strong>Enable other services (optional)</strong>
+3. <b>Allow additional ports (optional)</b><br>
+   Allow additional ports as needed:
 
-   HTTP (web server):
-
-   ```
+   ```bash
+   # Web server
    sudo ufw allow http
-   ```
-
-   HTTPS (SSL)
-
-   ```
    sudo ufw allow https
-   ```
 
-   Minecraft (default port 25565)
-
-   ```
+   # Minecraft (default port 25565)
    sudo ufw allow 25565
+
+   # TeamSpeak 3
+   sudo ufw allow 9987/udp    # Voice
+   sudo ufw allow 10011/tcp   # Query
+   sudo ufw allow 30033/tcp   # File Transfer
    ```
 
-   Teamspeak 3 (example)
-
-   ```
-   sudo ufw allow 9987 # Voice
-   sudo ufw allow 10011 # Query
-   sudo ufw allow 30033 # File Transfer
-   ```
-
-7. <strong>Enable UFW</strong>
-
+4. <b>Enable UFW</b><br>
    Activate the firewall:
 
-   ```
+   ```bash
    sudo ufw enable
    ```
 
-   Confirm with ``` y ``` when asked. You can then check the status:
+   Confirm with `y` when prompted.
 
-   ```
+5. <b>Check status</b><br>
+   Verify that UFW is running correctly and which rules are active:
+
+   ```bash
    sudo ufw status
    ```
 
-8. <strong>Manage rules</strong>
+## Manage rules
 
-    Remove rules (e.g. HTTP port):
+Show all rules with numbers:
 
-    ```
-    sudo ufw delete allow http
-    ```
+```bash
+sudo ufw status numbered
+```
 
-    Show all rules:
+Remove a rule (e.g. HTTP):
 
-    ```
-    sudo ufw status numbered
-    ```
+```bash
+sudo ufw delete allow http
+```
 
-    Disable UFW (if necessary)
+Block a specific port:
 
-    ```
-    sudo ufw disable
-    ```
+```bash
+sudo ufw deny 8080
+```
+
+Disable UFW:
+
+```bash
+sudo ufw disable
+```
+
+:::: tip Tip
+For additional protection against brute-force attacks, also set up [Fail2Ban](install-fail2ban.md).
+::::

@@ -1,24 +1,91 @@
 ---
-description: Install Fail2Ban on a root server (Ubuntu/Debian)
+description: Install Fail2Ban on a Linux VPS (Ubuntu/Debian)
 ---
 
-# Secure SSH with Fail2Ban
+# How to Install Fail2Ban on Your Linux VPS
 
-Securing the SSH server under Linux is crucial to close potential security gaps. A proven method to improve security is to use Fail2Ban, a software that automatically blocks malicious or suspicious connections.
+Fail2Ban protects your server from brute-force attacks by automatically banning IP addresses after multiple failed login attempts.
 
-Here are the steps to set up Fail2Ban to secure the SSH server:
+## Install Fail2Ban
 
-1. install Fail2Ban:
-   1. open the terminal on your Linux system.
-   2. run the command ```sudo apt-get install fail2ban``` to install Fail2Ban.
-   3. wait until the installation is complete.
-2. customize the configuration file:
-   1. navigate to the directory ```/etc/fail2ban/```.
-   2. open the file ```jail.conf``` or ```jail.local``` (if available) with a text editor.
-   3. search for the section ```[sshd]``` and adjust the settings to your needs and add ```enabled=true``` in this section to enable Fail2Ban. For example, you can set the maximum number of attempts ```maxretry``` and the ban time ```bantime```.
-   4. save the changes and close the file.
-3. restart the Fail2Ban service:
-   1. run the command ```sudo service fail2ban restart``` to restart the Fail2Ban service.
-   2. check if the service has started successfully by checking the status with the command ```sudo service fail2ban status```.
+1. <b>Update system</b><br>
+   First, update the package lists:
 
-Using Fail2Ban in conjunction with proper configuration provides an additional layer of protection against brute force attacks and other malicious activity on your SSH server.
+   ```bash
+   sudo apt update
+   ```
+
+2. <b>Install Fail2Ban</b><br>
+   Install Fail2Ban with the following command:
+
+   ```bash
+   sudo apt install fail2ban -y
+   ```
+
+3. <b>Enable service</b><br>
+   Make sure Fail2Ban starts automatically on boot:
+
+   ```bash
+   sudo systemctl enable fail2ban
+   ```
+
+## Configure Fail2Ban
+
+1. <b>Create configuration file</b><br>
+   Create a local configuration file so your settings are not overwritten during updates:
+
+   ```bash
+   sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+   ```
+
+2. <b>Edit configuration</b><br>
+   Open the file:
+
+   ```bash
+   sudo nano /etc/fail2ban/jail.local
+   ```
+
+3. <b>Enable SSH protection</b><br>
+   Find the `[sshd]` section and adjust it:
+
+   ```ini
+   [sshd]
+   enabled = true
+   port = ssh
+   maxretry = 5
+   bantime = 3600
+   findtime = 600
+   ```
+
+   | Setting | Description |
+   |---------|-------------|
+   | `enabled` | Enables SSH protection |
+   | `port` | The SSH port (change this if you have modified your SSH port) |
+   | `maxretry` | Maximum failed attempts before an IP is banned |
+   | `bantime` | Ban duration in seconds (3600 = 1 hour) |
+   | `findtime` | Time window in seconds in which failed attempts are counted |
+
+4. <b>Restart Fail2Ban</b><br>
+   Save with `Ctrl + O`, close with `Ctrl + X` and restart Fail2Ban:
+
+   ```bash
+   sudo systemctl restart fail2ban
+   ```
+
+## Check status
+
+Check if Fail2Ban is running:
+
+```bash
+sudo systemctl status fail2ban
+```
+
+Show the status of SSH protection:
+
+```bash
+sudo fail2ban-client status sshd
+```
+
+:::: tip Tip
+You can unban a blocked IP address with `sudo fail2ban-client set sshd unbanip IP_ADDRESS`.
+::::
