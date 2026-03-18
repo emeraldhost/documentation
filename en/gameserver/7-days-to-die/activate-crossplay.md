@@ -1,19 +1,30 @@
 ---
-title: 7 Days to Die Activating Crossplay for Xbox & Playstation
-description: Step-by-step guide on how to enable crossplay for Xbox & Playstation in 7 Days to Die
+description: Enable crossplay for Xbox and PlayStation on a 7 Days to Die server
 ---
 
-# 7 Days to Die Enable Crossplay for Xbox & Playstation
+# How to Enable Crossplay on Your 7 Days to Die Server
 
-1. <strong>Open your dashboard and select your 7 Days to Die server.</strong>
+You can enable crossplay so that Xbox and PlayStation players can join your server.
 
-2. <strong>Make the following changes in the server settings:</strong>
+1. <b>Open dashboard</b><br>
+   Open the dashboard of your server.
 
-    ```
-    - Maximum players: 8
-    - ServerAllowCrossplay: true
-    - EACEnabled: true
-    - IgnoreEOSSanctions: false
-    ```
+2. <b>Open settings</b><br>
+   Navigate to the **Settings**.
 
-6. <strong>Restart the server for the changes to take effect.</strong>
+3. <b>Change settings</b><br>
+   Set the following values:
+
+   | Setting | Value |
+   |---------|-------|
+   | Maximum Players | `8` |
+   | ServerAllowCrossplay | `true` |
+   | EACEnabled | `true` |
+   | IgnoreEOSSanctions | `false` |
+
+4. <b>Restart the server</b><br>
+   Save the settings and restart your server.
+
+:::: info Note
+Crossplay is limited to a maximum of 8 players.
+::::

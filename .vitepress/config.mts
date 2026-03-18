@@ -48,7 +48,14 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Crossplay Aktivieren', link: '/gameserver/7-days-to-die/crossplay-aktivieren' }
+                  { text: 'Admin hinzufügen', link: '/gameserver/7-days-to-die/admin-hinzufuegen' },
+                  { text: 'Cheat-Modus aktivieren', link: '/gameserver/7-days-to-die/cheat-modus-aktivieren' },
+                  { text: 'Crossplay aktivieren', link: '/gameserver/7-days-to-die/crossplay-aktivieren' },
+                  { text: 'Map ändern', link: '/gameserver/7-days-to-die/map-aendern' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/7-days-to-die/mods-hinzufuegen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/7-days-to-die/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/7-days-to-die/server-beitreten' },
+                  { text: 'Whitelist aktivieren', link: '/gameserver/7-days-to-die/whitelist-aktivieren' }
                 ]
               },
               {
@@ -488,7 +495,14 @@ export default defineConfig({
                 link: '/en/gameserver/7-days-to-die',
                 collapsed: true,
                 items: [
-                  { text: 'Activate crossplay', link: '/en/gameserver/7-days-to-die/activate-crossplay' }
+                  { text: 'Activate Crossplay', link: '/en/gameserver/7-days-to-die/activate-crossplay' },
+                  { text: 'Add Admin', link: '/en/gameserver/7-days-to-die/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/7-days-to-die/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/7-days-to-die/add-savegame' },
+                  { text: 'Change Map', link: '/en/gameserver/7-days-to-die/change-map' },
+                  { text: 'Enable Cheat Mode', link: '/en/gameserver/7-days-to-die/enable-cheat-mode' },
+                  { text: 'Enable Whitelist', link: '/en/gameserver/7-days-to-die/enable-whitelist' },
+                  { text: 'Join Server', link: '/en/gameserver/7-days-to-die/join-server' }
                 ]
               },
               {

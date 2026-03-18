@@ -1,19 +1,30 @@
 ---
-title: 7 Days to Die Crossplay für Xbox & Playstation Aktivieren
-description: Schritt-für-Schritt-Anleitung, wie du in 7 Days to Die Crossplay für Xbox & Playstation aktivierst
+description: Crossplay für Xbox und PlayStation auf einem 7 Days to Die Server aktivieren
 ---
 
-# 7 Days to Die Crossplay für Xbox & Playstation Aktivieren
+# So aktivierst du Crossplay auf deinem 7 Days to Die Server
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen 7 Days to Die Server aus.</strong>
+Du kannst Crossplay aktivieren, damit Xbox- und PlayStation-Spieler deinem Server beitreten können.
 
-2. <strong>Nimm folgende Änderungen in den Server-Einstellungen vor:</strong>
+1. <b>Verwaltung öffnen</b><br>
+   Öffne die Verwaltung deines Servers.
 
-    ```
-    - Maximale Spieler: 8
-    - ServerAllowCrossplay: true
-    - EACEnabled: true
-    - IgnoreEOSSanctions: false
-    ```
+2. <b>Einstellungen öffnen</b><br>
+   Navigiere zu den **Einstellungen**.
 
-6. <strong>Starte den Server neu, damit die Änderungen wirksam werden.</strong>
+3. <b>Einstellungen anpassen</b><br>
+   Setze die folgenden Werte:
+
+   | Einstellung | Wert |
+   |-------------|------|
+   | Maximum Players | `8` |
+   | ServerAllowCrossplay | `true` |
+   | EACEnabled | `true` |
+   | IgnoreEOSSanctions | `false` |
+
+4. <b>Server neu starten</b><br>
+   Speichere die Einstellungen und starte deinen Server neu.
+
+:::: info Hinweis
+Crossplay ist auf maximal 8 Spieler begrenzt.
+::::
