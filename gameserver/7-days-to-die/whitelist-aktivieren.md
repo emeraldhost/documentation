@@ -1,5 +1,5 @@
 ---
-description: Whitelist auf einem 7 Days to Die Server aktivieren.
+description: Whitelist auf einem 7 Days to Die Server aktivieren
 ---
 
 # So aktivierst du die Whitelist auf deinem 7 Days to Die Server
