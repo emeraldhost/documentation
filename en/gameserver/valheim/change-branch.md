@@ -1,29 +1,44 @@
 ---
-description: 'Change the branch of your Valheim server'
+description: Change the branch on a Valheim server
 ---
 
-# How to change the branch of your Valheim server
+# How to Change the Branch on Your Valheim Server
 
-## Available Branches
+You can change the branch of your server to use an older version of Valheim.
+
+## Available branches
+
 | Branch | Description |
-| -------- | ------------ |
-| public | Official default branch of Valheim |
-| default_old | Last stable build before the latest version |
-| default_preml | Last stable build before the Mistlands update |
-| default_precta | Last stable build before the Call-To-Arms update |
-| default_prebw | Last stable build before the Bog Witch update |
-| default_preal | Last stable build before the Ashlands update |
-| ... | [Here you can find all available branches (depots)](https://steamdb.info/app/896660/depots/) |
+|--------|-------------|
+| `public` | Official default branch |
+| `default_old` | Last stable build before the latest version |
+| `default_preml` | Last stable build before the Mistlands update |
+| `default_precta` | Last stable build before the Call-To-Arms update |
+| `default_prebw` | Last stable build before the Bog Witch update |
+| `default_preal` | Last stable build before the Ashlands update |
 
-:::: tip Note
-Selecting a hidden branch (for example `public-test`) is not possible. You can use the original branch by leaving the `Steam Beta Branch` field empty.
+:::: info Note
+You can find all available branches on [SteamDB](https://steamdb.info/app/896660/depots/).
 ::::
 
-## Steps
+## Change branch
 
-1. Go to the `Settings` of your Valheim server in the dashboard.
-2. At the bottom you will find the input field `Steam Beta Branch`.
-   - Enter the name of the branch under `Steam Beta Branch`.
-3. **Reinstall the server**
-   - Click the `three-dot menu` of your server next to the `Update` button.
-   - Select "Reinstall".
+1. <b>Open dashboard</b><br>
+   Open the dashboard of your server.
+
+2. <b>Open settings</b><br>
+   Navigate to the **Settings**.
+
+3. <b>Enter branch</b><br>
+   Enter the desired branch in the **Steam Beta Branch** field.
+
+   :::: tip Tip
+   To return to the default branch, leave the field empty.
+   ::::
+
+4. <b>Reinstall the server</b><br>
+   Click the **three-dot menu** of your server (next to the **Update** button) and select **Reinstall**.
+
+:::: warning Warning
+Hidden branches (e.g. `public-test`) cannot be selected.
+::::

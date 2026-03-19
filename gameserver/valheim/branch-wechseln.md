@@ -1,29 +1,44 @@
 ---
-description: 'Wechsel den Branch deines Valheim-Servers'
+description: Branch auf einem Valheim Server wechseln
 ---
 
-# So änderst du den Branch deines Valheim-Servers
+# So wechselst du den Branch auf deinem Valheim Server
+
+Du kannst den Branch deines Servers ändern, um eine ältere Version von Valheim zu verwenden.
 
 ## Verfügbare Branches
-| Branch | Beschreibung |
-| -------- | ------------ |
-| public | Offizieller Standard Branch von Valheim |
-| default_old | Letzter sicherer Build vor der aktuellsten Version |
-| default_preml | Letzter sicherer Build vor dem Mistland-Update |
-| default_precta | Letzter sicherer Build vor dem Call-To-Arms-Update |
-| default_prebw | Letzter sicherer Build vor dem Bog-Witch-Update |
-| default_preal | Letzter sicherer Build vor dem Ashlands-Update |
-| ... | [Hier findest du alle verfügbaren Branches (Depots)](https://steamdb.info/app/896660/depots/) |
 
-:::: tip Hinweis
-Das auswählen eines versteckten Branch (zum Beispiel "public-test") ist nicht möglich. Den originalen Branch kannst du wählen, indem du das Feld `Steam Beta Branch` leer lässt.
+| Branch | Beschreibung |
+|--------|-------------|
+| `public` | Offizieller Standard-Branch |
+| `default_old` | Letzter stabiler Build vor der aktuellsten Version |
+| `default_preml` | Letzter stabiler Build vor dem Mistlands-Update |
+| `default_precta` | Letzter stabiler Build vor dem Call-To-Arms-Update |
+| `default_prebw` | Letzter stabiler Build vor dem Bog-Witch-Update |
+| `default_preal` | Letzter stabiler Build vor dem Ashlands-Update |
+
+:::: info Hinweis
+Alle verfügbaren Branches findest du auf [SteamDB](https://steamdb.info/app/896660/depots/).
 ::::
 
-## Schritte
+## Branch wechseln
 
-1. Wechsel zu den `Einstellungen` deines Valheim-Servers im Dashboard.
-2. Du findest im unteren Bereich nun das EIngabefeld `Steam Beta Branch`.
-    - Trage unter `Steam Beta Branch` den Namen des Branches ein.
-3. <b>Installiere den Server neu</b>
-    - Klicke auf das `Drei-Punkte-Menü` deines Servers, neben dem `Updaten`-Button.
-    - Wähle "Neuinstallieren" aus.
+1. <b>Verwaltung öffnen</b><br>
+   Öffne die Verwaltung deines Servers.
+
+2. <b>Einstellungen öffnen</b><br>
+   Navigiere zu den **Einstellungen**.
+
+3. <b>Branch eintragen</b><br>
+   Trage den gewünschten Branch im Feld **Steam Beta Branch** ein.
+
+   :::: tip Tipp
+   Um zum Standard-Branch zurückzukehren, lasse das Feld leer.
+   ::::
+
+4. <b>Server neu installieren</b><br>
+   Klicke auf das **Drei-Punkte-Menü** deines Servers (neben dem **Updaten**-Button) und wähle **Neuinstallieren**.
+
+:::: warning Achtung
+Versteckte Branches (z.B. `public-test`) können nicht ausgewählt werden.
+::::
