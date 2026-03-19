@@ -1,5 +1,5 @@
 ---
-description: Expand the C: drive on a Windows Server
+description: "Expand the C: drive on a Windows Server"
 ---
 
 # How to Expand the C: Drive on Your Windows Server
