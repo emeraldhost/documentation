@@ -4,9 +4,9 @@ description: "Performance-Probleme auf Enshrouded Servern"
 
 # Performance-Probleme auf Enshrouded Servern
 
-::: danger Wichtiger Hinweis
+:::: danger Wichtiger Hinweis
 Die Enshrouded Serversoftware ist aktuell leider schlecht optimiert. Dieses Problem betrifft viele Hosting-Anbieter gleichermaßen.
-:::
+::::
 
 ## Welche Probleme können auftreten?
 
@@ -25,6 +25,6 @@ Wir stehen gemeinsam mit anderen Hosting-Anbietern im direkten Austausch mit dem
 
 Wenn du von Performance-Problemen betroffen bist, melde dich gerne bei uns per [Support-Ticket](https://emeraldhost.de/de/support). Wir können deinen Server **kostenlos** auf ein leistungsstärkeres Hostsystem verschieben.
 
-::: warning Hinweis
+:::: warning Hinweis
 Wir können leider nicht garantieren, dass die Probleme dadurch langfristig behoben werden.
-:::
+::::

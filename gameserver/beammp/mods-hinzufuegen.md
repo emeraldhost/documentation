@@ -5,14 +5,18 @@ description: Schritt-für-Schritt-Anleitung, wie du in BeamMP Mods hinzufügst
 
 # Mods in BeamMP Hinzufügen: Datei-Browser & SFTP
 
-::: danger Achtung
-Die Mods dürfen kein Archiv wie z. B. ```.zip``` sein. Entpacke die Mods vorher.
-:::
+:::: danger Achtung
+Die Mods dürfen kein Archiv wie z. B. `.zip` sein. Entpacke die Mods vorher.
+::::
 
-1. <strong>Stoppe Deinen BeamMP Server.</strong>
+1. <b>Server stoppen</b><br>
+   Stoppe Deinen BeamMP Server.
 
-2. <strong>Öffne Dein Dashboard, wähle Deinen BeamMP Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem BeamMP Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](../sftp-verbindung-herstellen.md).</strong>
+2. <b>Datei-Browser öffnen</b><br>
+   Öffne Dein Dashboard, wähle Deinen BeamMP Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem BeamMP Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](../sftp-verbindung-herstellen.md).
 
-3. <strong>Lade die Mods in den ```Resources```-Ordner hoch.</strong>
+3. <b>Mods hochladen</b><br>
+   Lade die Mods in den `Resources`-Ordner hoch.
 
-4. <strong>Starte Deinen BeamMP Server neu.</strong>
+4. <b>Server neustarten</b><br>
+   Starte Deinen BeamMP Server neu.

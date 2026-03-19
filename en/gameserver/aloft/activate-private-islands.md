@@ -1,16 +1,20 @@
 ---
-title: Aloft Server Private Islands Activation
 description: Step-by-step instructions on how to activate private islands on your Aloft server
 ---
 
-# Activate Aloft server private islands
+# How to Activate Private Islands on an Aloft Server
 
-1. <strong>Open your dashboard and select your Aloft server.</strong>
+1. <b>Open dashboard</b><br>
+   Open your dashboard and select your Aloft server.
 
-2. <strong>Go to the settings.</strong>
+2. <b>Go to settings</b><br>
+   Navigate to the settings page.
 
-3. <strong>Scroll down to "Private Islands".</strong>
+3. <b>Find private islands</b><br>
+   Scroll down to "Private Islands".
 
-4. <strong>Set the value to ```true```.</strong>
+4. <b>Enable setting</b><br>
+   Set the value to `true`.
 
-5. <strong>Restart your server so that the changes are applied.</strong>
+5. <b>Restart server</b><br>
+   Restart your server so that the changes are applied.

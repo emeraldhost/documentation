@@ -10,34 +10,37 @@ description: Verwendung der Allowlist in der Minecraft Bedrock Edition
 
 ## Um die Whitelist zu aktivieren, folge diesen Schritten
 
-1. <b>Öffne die Server-Konsole oder die Bedrock Edition GUI</b>
+1. <b>Konsole öffnen</b><br>
+   Öffne die Server-Konsole oder die Bedrock Edition GUI.
     - Öffne die Server-Konsole, wenn Du direkten Zugang hast.
     - Öffne die Bedrock Edition GUI, wenn Du über das Spiel verbunden bist.
 
-2. <b>Öffne die Servereinstellungen</b>
+2. <b>Einstellungen öffnen</b><br>
+   Öffne die Servereinstellungen.
     - In der Server-Konsole gib den Befehl `/whitelist` ein.
     - In der Bedrock Edition GUI wähle "Einstellungen" aus dem Hauptmenü und anschließend "Servereinstellungen".
 
-3. <b>Aktiviere die Allowlist</b>
-    - Stelle sicher, dass "`Whitelist`" auf "`true`" gesetzt ist.
+3. <b>Allowlist aktivieren</b><br>
+   Stelle sicher, dass "`Whitelist`" auf "`true`" gesetzt ist.
 
-4. <b>Online Modus aktivieren</b>
-    - Öffne die "Einstellungen" in der Server-Verwaltung.
-    - Stelle sicher, dass der Online Modus aktiviert ist, damit die Allowlist korrekt funktioniert.
+4. <b>Online Modus aktivieren</b><br>
+   Öffne die "Einstellungen" in der Server-Verwaltung. Stelle sicher, dass der Online Modus aktiviert ist, damit die Allowlist korrekt funktioniert.
 
-5. <b>Füge Spieler zur Allowlist hinzu</b>
+5. <b>Spieler hinzufügen</b><br>
+   Füge Spieler zur Allowlist hinzu.
     - In der Server-Konsole gib den Befehl `/whitelist add <Name>` ein, wobei Du \<Name> durch den Namen des Spielers ersetzt, den Du zur Allowlist hinzufügen möchtest.
     - In der Bedrock Edition GUI klicke auf "Whitelist bearbeiten" und füge den Namen des Spielers hinzu.
-    ::: info Info
+    :::: info Info
     Bitte beachte, dass das Verwenden von Schrägstrichen "/" bei den Befehlen im Webinterface nicht erforderlich ist.
-    :::
+    ::::
 
-6. <b>Überprüfe die Funktionsfähigkeit der Allowlist</b>
+6. <b>Allowlist überprüfen</b><br>
+   Überprüfe die Funktionsfähigkeit der Allowlist.
     - Stelle sicher, dass nur die Spieler, die zur Allowlist hinzugefügt wurden, Zugang zum Server haben.
     - Überprüfe die Aktivierung der Allowlist, indem Du versuchst, Dich mit einem Spieleraccount, der nicht auf der Allowlist steht, auf dem Server zu verbinden.
 
-::: warning Achtung!
+:::: warning Achtung!
 Bitte beachte, dass nur die Spieler, die zur Allowlist hinzugefügt wurden, Zugang zum Server haben.
-:::
+::::
 
 ### Das war's! Mit diesen Schritten solltest Du in der Lage sein, die Allowlist auf Deinem Minecraft Bedrock Edition Server zu verwenden

@@ -10,73 +10,73 @@ Es gibt zwei Methoden, um Mods auf deinem DayZ Server zu installieren: per Modli
 
 Diese Methode ist am einfachsten und empfohlen für die meisten Nutzer.
 
-1. **DayZ starten und Mods auswählen**<br>
+1. <b>DayZ starten</b><br>
    Starte DayZ und klicke auf **Mods**.
 
-2. **Gewünschte Mods aktivieren**<br>
+2. <b>Mods aktivieren</b><br>
    Aktiviere alle Mods, die du auf deinem Server haben möchtest.
 
-3. **Modlist exportieren**<br>
+3. <b>Modlist exportieren</b><br>
    Klicke auf **More** und wähle **Export list of mods to a file**.
 
-4. **Nur geladene Mods exportieren**<br>
+4. <b>Geladene Mods wählen</b><br>
    Wähle **Only loaded mods** und speichere die `.html` Datei.
 
-5. **Server stoppen**<br>
+5. <b>Server stoppen</b><br>
    Stoppe deinen Server über das Webinterface.
 
-6. **Modlist hochladen**<br>
+6. <b>Modlist hochladen</b><br>
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die `.html` Datei als `modlist.html` hoch.
 
-7. **Modlist konfigurieren**<br>
+7. <b>Modlist konfigurieren</b><br>
    Gehe in die **Einstellungen** über deine Verwaltung und trage den Dateinamen bei **Modliste-Datei (Exportiert aus dem DayZ Launcher)** ein. Standardmäßig ist dort bereits `modlist.html` eingetragen.
 
-8. **Server starten**<br>
+8. <b>Server starten</b><br>
    Starte deinen Server.
 
 ## Methode 2: Manuelle Installation
 
 Diese Methode bietet mehr Kontrolle und ist nötig für Server-Side-Only Mods.
 
-1. **Mod im Steam Workshop abonnieren**<br>
+1. <b>Mod abonnieren</b><br>
    Öffne Steam, wähle DayZ aus deiner Bibliothek und gehe zum **Workshop** Tab. Abonniere den gewünschten Mod.
 
-::: warning Hinweis
+:::: warning Hinweis
 Manche Mods haben Abhängigkeiten, die zuerst installiert werden müssen.
-:::
+::::
 
-2. **DayZ starten**<br>
+2. <b>DayZ starten</b><br>
    Starte DayZ, damit die Mods heruntergeladen werden.
 
-3. **Mod-Ordner öffnen**<br>
+3. <b>Mod-Ordner öffnen</b><br>
    Gehe zu **Mods**, wähle einen Mod aus und klicke auf die drei Punkte. Wähle **Open folder**.
 
-4. **Mods komprimieren**<br>
+4. <b>Mods komprimieren</b><br>
    Komprimiere die gewünschten Mod-Ordner (beginnen mit `@`) in eine `.zip` Datei.
 
-5. **Server stoppen**<br>
+5. <b>Server stoppen</b><br>
    Stoppe deinen Server über das Webinterface.
 
-6. **Mod-Archiv hochladen**<br>
+6. <b>Archiv hochladen</b><br>
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und lade die `.zip` Datei hoch.
 
-7. **Archiv entpacken**<br>
+7. <b>Archiv entpacken</b><br>
    Entpacke die `.zip` Datei auf dem Server.
 
-8. **Bikey-Dateien kopieren**<br>
+8. <b>Bikey-Dateien kopieren</b><br>
    Öffne den Mod-Ordner und navigiere zum `Keys` Unterordner. Lade alle `.bikey` Dateien herunter und lade sie in den `/keys` Ordner deines Servers hoch.
 
-9. **Mods aktivieren**<br>
+9. <b>Mods aktivieren</b><br>
    Gehe in die **Einstellungen** über deine Verwaltung und trage die Mod-Namen unter **Zusätzliche Mods** ein, getrennt durch Semikolon:
    ```
    @CF;@ModName1;@ModName2
    ```
 
-::: tip Hinweis
+:::: tip Hinweis
 Mods unter **Zusätzliche Mods** müssen auch von Spielern installiert werden. Mods unter **Mods** sind Server-Side Only und erfordern keine Installation durch Spieler.
-:::
+::::
 
-10. **Server starten**<br>
+10. <b>Server starten</b><br>
     Starte deinen Server.
 
 ## Fehlerbehebung

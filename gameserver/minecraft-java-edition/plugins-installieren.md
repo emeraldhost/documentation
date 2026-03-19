@@ -17,30 +17,38 @@ Plugins findest du auf folgenden Plattformen:
 - [SpigotMC](https://www.spigotmc.org/resources/)
 - [Bukkit](https://dev.bukkit.org/bukkit-plugins)
 
-::: warning Wichtig
+:::: warning Wichtig
 Lade Plugins nur von vertrauenswürdigen Quellen herunter. Plugins aus unbekannten Quellen können Schadcode enthalten.
-:::
+::::
 
 ## Wie installiere ich Plugins?
 
-1. <strong>Lade das Plugin als `.jar` Datei herunter.</strong>
+1. <b>Plugin herunterladen</b><br>
+   Lade das Plugin als `.jar` Datei herunter.
 
-2. <strong>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und navigiere zum `plugins` Ordner.</strong>
+2. <b>Per SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und navigiere zum `plugins` Ordner.
 
-3. <strong>Lade die `.jar` Datei in den `plugins` Ordner hoch.</strong>
+3. <b>Plugin hochladen</b><br>
+   Lade die `.jar` Datei in den `plugins` Ordner hoch.
 
-4. <strong>Starte den Server neu, damit das Plugin geladen wird.</strong>
+4. <b>Server neu starten</b><br>
+   Starte den Server neu, damit das Plugin geladen wird.
 
-::: tip Hinweis
+:::: tip Hinweis
 Nach dem ersten Start erstellt das Plugin meist einen eigenen Ordner unter `plugins/` mit Konfigurationsdateien, die du anpassen kannst.
-:::
+::::
 
 ## Wie entferne ich ein Plugin?
 
-1. <strong>Stoppe den Server.</strong>
+1. <b>Server stoppen</b><br>
+   Stoppe den Server.
 
-2. <strong>Lösche die `.jar` Datei des Plugins aus dem `plugins` Ordner.</strong>
+2. <b>Plugin löschen</b><br>
+   Lösche die `.jar` Datei des Plugins aus dem `plugins` Ordner.
 
-3. <strong>Lösche optional den zugehörigen Konfigurationsordner unter `plugins/`.</strong>
+3. <b>Konfiguration löschen</b><br>
+   Lösche optional den zugehörigen Konfigurationsordner unter `plugins/`.
 
-4. <strong>Starte den Server neu.</strong>
+4. <b>Server neu starten</b><br>
+   Starte den Server neu.

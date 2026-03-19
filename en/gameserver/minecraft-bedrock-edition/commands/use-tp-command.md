@@ -6,20 +6,23 @@ description: Minecraft Bedrock Edition Tp Command - Step-by-step guide to telepo
 
 ## Use teleport commands in the in-game chat
 
-::: warning Attention
-Make sure you have the necessary rights to execute the command!<!-- Here you can find instructions on how to give yourself OP rights: [Instructions](../op-rights-give.md)-->
-:::
+:::: warning Attention
+Make sure you have the necessary rights to execute the command!
+::::
 
-1. <strong>Log in to your Minecraft server</strong>.
+1. <b>Log in</b><br>
+   Log in to your Minecraft server.
 
-2. <strong>Open the chat with the appropriate key for your platform:</strong>
+2. <b>Open chat</b><br>
+   Open the chat with the appropriate key for your platform:
 
-    - <strong>Windows 10:</strong> ```t```
-    - <strong>PlayStation & Xbox:</strong> ```D-Pad right```
-    - <strong>Switch:</strong> ```→ on the directional pad```
-    - <strong>Mobile (Android/IOS):</strong> ```Tap on the chat icon (speech bubble)```
+    - **Windows 10:** ```t```
+    - **PlayStation & Xbox:** ```D-Pad right```
+    - **Switch:** ```→ on the directional pad```
+    - **Mobile (Android/IOS):** ```Tap on the chat icon (speech bubble)```
 
-3. <strong>Use one of the following teleport commands in the chat:</strong>
+3. <b>Teleport command</b><br>
+   Use one of the following teleport commands in the chat:
 
     ```
     /tp <player name> # Teleports you to a player
@@ -30,15 +33,18 @@ Make sure you have the necessary rights to execute the command!<!-- Here you can
 
 ## Use teleport commands in the server console
 
-::: warning Attention
+:::: warning Attention
 In the console, all commands must be entered without ```/```!
-:::
+::::
 
-1. <strong>Open your dashboard and select your Minecraft Bedrock Edition server</strong>.
+1. <b>Open dashboard</b><br>
+   Open your dashboard and select your Minecraft Bedrock Edition server.
 
-2. <strong>Navigate to the server console under the menu item "Overview"</strong>.
+2. <b>Open console</b><br>
+   Navigate to the server console under the menu item "Overview".
 
-3. <strong>Use one of the following teleport commands in the console:</strong>
+3. <b>Teleport command</b><br>
+   Use one of the following teleport commands in the console:
 
     ```
     tp <player name> <destination player name> # Teleports a player to another player

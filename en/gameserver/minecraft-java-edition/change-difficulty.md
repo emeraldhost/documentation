@@ -17,14 +17,18 @@ The difficulty determines how challenging the game is. It affects mob damage, hu
 
 ## How do I change the difficulty?
 
-1. <strong>Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.</strong>
+1. <b>Open server.properties</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.
 
-2. <strong>Search for the following entry:</strong>
+2. <b>Find the entry</b><br>
+   Search for the following entry:
 
-```
-difficulty=easy
-```
+   ```
+   difficulty=easy
+   ```
 
-3. <strong>Change the value to the desired difficulty.</strong>
+3. <b>Change the value</b><br>
+   Change the value to the desired difficulty.
 
-4. <strong>Save the changes and restart the server.</strong>
+4. <b>Restart the server</b><br>
+   Save the changes and restart the server.

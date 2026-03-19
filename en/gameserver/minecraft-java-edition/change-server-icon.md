@@ -16,12 +16,15 @@ The server icon must meet the following requirements:
 
 ## How do I change the server icon?
 
-1. <strong>Create an image with exactly 64x64 pixels and save it as `server-icon.png`.</strong>
+1. <b>Create the icon</b><br>
+   Create an image with exactly 64x64 pixels and save it as `server-icon.png`.
 
-2. <strong>Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the `server-icon.png` file to the root directory.</strong>
+2. <b>Upload the icon</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the `server-icon.png` file to the root directory.
 
-3. <strong>Restart the server so the icon becomes active.</strong>
+3. <b>Restart the server</b><br>
+   Restart the server so the icon becomes active.
 
-::: warning Important
+:::: warning Important
 The file must be named exactly `server-icon.png` and be exactly 64x64 pixels. Other formats or sizes will not be recognized.
-:::
+::::

@@ -1,16 +1,20 @@
 ---
-title: Change the number of islands on your Aloft server
 description: Step-by-step instructions on how to change the number of islands on your Aloft server
 ---
 
-# Change the number of islands on your Aloft server
+# How to Change the Number of Islands on an Aloft Server
 
-1. <strong>Open your dashboard and select your Aloft server.</strong>
+1. <b>Open dashboard</b><br>
+   Open your dashboard and select your Aloft server.
 
-2. <strong>Go to the settings.</strong>
+2. <b>Go to settings</b><br>
+   Navigate to the settings page.
 
-3. <strong>Scroll down to "Number of islands for a new world".</strong>
+3. <b>Find island setting</b><br>
+   Scroll down to "Number of islands for a new world".
 
-4. <strong>Change the value according to your wishes.</strong>
+4. <b>Change value</b><br>
+   Change the value according to your wishes.
 
-5. <strong>Restart your server so that the changes are applied.</strong>
+5. <b>Restart server</b><br>
+   Restart your server so that the changes are applied.

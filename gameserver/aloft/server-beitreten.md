@@ -1,56 +1,74 @@
 ---
-title: Aloft-Server über Raum-Code und Server Liste beitreten
 description: Schritt-für-Schritt-Anleitung, wie du deinem Aloft-Server sowohl über den Raum-Code als auch über die Server Liste beitrittst.
 ---
 
 # Aloft-Server beitreten (Raum-Code und Server Liste)
 
+Du kannst deinem Aloft-Server über den Raum-Code oder die öffentliche Server Liste beitreten.
+
 ## Raum-Code Variante
 
-::: tip Tipp
-Der Raum-Code wird beim Server-Start in der Konsole angezeigt: ```Server Ready : 123456 ;``` Du kannst den Raum-Code auch hier finden, ohne in den Datei-Browser zu gehen.
-:::
+:::: tip Tipp
+Der Raum-Code wird beim Server-Start in der Konsole angezeigt: `Server Ready : 123456 ;` Du kannst den Raum-Code auch hier finden, ohne in den Datei-Browser zu gehen.
+::::
 
-::: warning Achtung
-Der Raum-Code ändert sich bei jedem Server-Neustart. Alternativ kannst Du die öffentliche Server Liste verwenden.
-:::
+:::: warning Achtung
+Der Raum-Code ändert sich bei jedem Server-Neustart. Alternativ kannst du die öffentliche Server Liste verwenden.
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Aloft Server aus.</strong>
+1. <b>Dashboard öffnen</b><br>
+   Öffne dein Dashboard und wähle deinen Aloft Server aus.
 
-2. <strong>Gehe zum Datei-Browser.</strong>
+2. <b>Datei-Browser öffnen</b><br>
+   Gehe zum Datei-Browser.
 
-3. <strong>Öffne die Datei ```ServerRoomCode.txt```.</strong>
+3. <b>Datei öffnen</b><br>
+   Öffne die Datei `ServerRoomCode.txt`.
 
-4. <strong>Kopiere den 6-stelligen Code aus der Datei.</strong>
+4. <b>Code kopieren</b><br>
+   Kopiere den 6-stelligen Code aus der Datei.
 
-5. <strong>Starte Aloft.</strong>
+5. <b>Aloft starten</b><br>
+   Starte Aloft.
 
-6. <strong>Klicke auf „MEHRSPIELER“.</strong>
+6. <b>Mehrspieler wählen</b><br>
+   Klicke auf „MEHRSPIELER".
 
-7. <strong>Wähle „SPIEL BEITRETEN“ aus.</strong>
+7. <b>Spiel beitreten</b><br>
+   Wähle „SPIEL BEITRETEN" aus.
 
-8. <strong>Gib oben rechts Deinen Raum-Code ein.</strong>
+8. <b>Code eingeben</b><br>
+   Gib oben rechts deinen Raum-Code ein.
 
-9. <strong>Klicke auf „SPIEL BEITRETEN“.</strong>
+9. <b>Beitreten</b><br>
+   Klicke auf „SPIEL BEITRETEN".
 
 ## Öffentliche Server Liste Variante
 
-::: info Info
-Wenn Du Deinen Server nicht findest, stelle sicher, dass die Server-Region mit der Region in der Server Liste übereinstimmt.
-:::
+:::: info Info
+Wenn du deinen Server nicht findest, stelle sicher, dass die Server-Region mit der Region in der Server Liste übereinstimmt.
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Aloft Server aus.</strong>
+1. <b>Dashboard öffnen</b><br>
+   Öffne dein Dashboard und wähle deinen Aloft Server aus.
 
-2. <strong>Gehe zu den Einstellungen.</strong>
+2. <b>Einstellungen öffnen</b><br>
+   Gehe zu den Einstellungen.
 
-3. <strong>Scrolle nach unten zu „Server Liste“.</strong>
+3. <b>Server Liste finden</b><br>
+   Scrolle nach unten zu „Server Liste".
 
-4. <strong>Setze den Wert auf ```true```.</strong>
+4. <b>Wert setzen</b><br>
+   Setze den Wert auf `true`.
 
-5. <strong>Starte Aloft.</strong>
+5. <b>Aloft starten</b><br>
+   Starte Aloft.
 
-6. <strong>Klicke auf „MEHRSPIELER“.</strong>
+6. <b>Mehrspieler wählen</b><br>
+   Klicke auf „MEHRSPIELER".
 
-7. <strong>Wähle „SPIEL BEITRETEN“ aus.</strong>
+7. <b>Spiel beitreten</b><br>
+   Wähle „SPIEL BEITRETEN" aus.
 
-8. <strong>Jetzt kannst Du Deinen Aloft-Server in der Liste finden.</strong>
+8. <b>Server finden</b><br>
+   Jetzt kannst du deinen Aloft-Server in der Liste finden.

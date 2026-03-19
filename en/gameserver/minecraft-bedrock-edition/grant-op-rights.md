@@ -6,20 +6,23 @@ description: Step-by-step instructions on how to assign OP rights in Minecraft B
 
 ## Assign OP rights via the ingame chat
 
-::: warning Attention
+:::: warning Attention
 To execute this command, you must already have OP rights. If you do not have these, use the [console](#console) or the [permissions.json](#permissions.json) method instead.
-:::
+::::
 
-1. <strong>Log in to your Minecraft server</strong>.
+1. <b>Log in</b><br>
+   Log in to your Minecraft server.
 
-2. <strong>Open the chat with the appropriate key for your platform:</strong>
+2. <b>Open chat</b><br>
+   Open the chat with the appropriate key for your platform:
 
-    - <strong>Windows 10:</strong> ```t```
-    - <strong>PlayStation & Xbox:</strong> ```D-Pad right```
-    - <strong>Switch:</strong> ```→ on the directional pad```
-    - <strong>Mobile (Android/IOS):</strong> ```Tap on the chat icon (speech bubble)```
+    - **Windows 10:** ```t```
+    - **PlayStation & Xbox:** ```D-Pad right```
+    - **Switch:** ```→ on the directional pad```
+    - **Mobile (Android/IOS):** ```Tap on the chat icon (speech bubble)```
 
-3. <strong>Enter the following command:</strong>
+3. <b>Enter command</b><br>
+   Enter the following command:
 
     ```
     /op <player name> # Makes the player an operator
@@ -27,15 +30,18 @@ To execute this command, you must already have OP rights. If you do not have the
 
 ## Assign OP rights via the server console {#console}
 
-::: warning Attention
+:::: warning Attention
 All commands must be entered in the console without ```/```!
-:::
+::::
 
-1. <strong>Open your dashboard and select your Minecraft Bedrock Edition server</strong>.
+1. <b>Open dashboard</b><br>
+   Open your dashboard and select your Minecraft Bedrock Edition server.
 
-2. <strong>Navigate to the server console under the menu item "Overview"</strong>.
+2. <b>Open console</b><br>
+   Navigate to the server console under the menu item "Overview".
 
-3. <strong>Enter the following command:</strong>
+3. <b>Enter command</b><br>
+   Enter the following command:
 
     ```
     op <player name> # Makes the player an operator
@@ -43,13 +49,17 @@ All commands must be entered in the console without ```/```!
 
 ## Assign OP rights via the permissions.json file {#permissions.json}
 
-1. <strong>Open your dashboard and select your Minecraft Bedrock Edition server</strong>.
+1. <b>Open dashboard</b><br>
+   Open your dashboard and select your Minecraft Bedrock Edition server.
 
-2. <strong>Go to the file browser</strong>.
+2. <b>Open file browser</b><br>
+   Go to the file browser.
 
-3. <strong>Open the file ```permissions.json```.</strong>
+3. <b>Open file</b><br>
+   Open the file ```permissions.json```.
 
-4. <strong>Insert the following entry within the square brackets ```[]```:</strong>
+4. <b>Insert entry</b><br>
+   Insert the following entry within the square brackets ```[]```:
 
     ```
     {
@@ -58,7 +68,7 @@ All commands must be entered in the console without ```/```!
     }
     ```
 
-::: info Info
+:::: info Info
 If you want to enter multiple players, separate the entries with a comma ```,```:
 
 ```
@@ -72,14 +82,14 @@ If you want to enter multiple players, separate the entries with a comma ```,```
 }
 ```
 
-:::
+::::
 
-<strong>Roles and permissions in Minecraft Bedrock</strong>
+**Roles and permissions in Minecraft Bedrock**
 
-- <strong>Visitor:</strong> Can only view the world - no building or interacting.
-- <strong>Member:</strong> Default role - can build, mine and craft.
-- <strong>Operator:</strong> Has full administrative rights, including command usage and server management.
+- **Visitor:** Can only view the world - no building or interacting.
+- **Member:** Default role - can build, mine and craft.
+- **Operator:** Has full administrative rights, including command usage and server management.
 
-::: tip Tip
+:::: tip Tip
 A player's XUID is displayed when the player joins the server - you can find it in the console.
-:::
+::::

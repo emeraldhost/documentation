@@ -4,23 +4,26 @@ description: Spieler auf einem Arma Reforger Server kicken und bannen
 
 # So kickst und bannst du Spieler auf einem Arma Reforger Server
 
-::: warning Voraussetzung
+:::: warning Voraussetzung
 Du musst als Admin eingeloggt sein, um diese Befehle nutzen zu können. Siehe [Admin werden](admin-werden.md).
-:::
+::::
 
 ## Spieler-ID herausfinden
 
 Bevor du einen Spieler kicken oder bannen kannst, benötigst du dessen Spieler-ID.
 
-1. **Öffne den Chat mit der Taste `/`.**
+1. <b>Chat öffnen</b><br>
+   Öffne den Chat mit der Taste `/`.
 
-2. **Gib folgenden Befehl ein:**
+2. <b>Spieler auflisten</b><br>
+   Gib folgenden Befehl ein:
 
     ```
     #players
     ```
 
-3. **Notiere dir die ID des gewünschten Spielers aus der Liste.**
+3. <b>ID notieren</b><br>
+   Notiere dir die ID des gewünschten Spielers aus der Liste.
 
 ## Spieler kicken
 
@@ -30,7 +33,7 @@ Ein gekickter Spieler wird vom Server entfernt, kann aber sofort wieder beitrete
 #kick <spielerId>
 ```
 
-**Beispiel:**
+Beispiel:
 
 ```
 #kick 5
@@ -44,9 +47,9 @@ Ein gebannter Spieler kann dem Server nicht mehr beitreten, bis der Ban abgelauf
 #ban <spielerId> <dauer>
 ```
 
-Die Dauer wird in **Sekunden** angegeben. `0` bedeutet ein permanenter Ban.
+Die Dauer wird in Sekunden angegeben. `0` bedeutet ein permanenter Ban.
 
-**Beispiele:**
+Beispiele:
 
 | Befehl | Wirkung |
 |--------|---------|
@@ -66,6 +69,6 @@ Die Dauer wird in **Sekunden** angegeben. `0` bedeutet ein permanenter Ban.
 #ban list
 ```
 
-::: tip Tipp
+:::: tip Tipp
 Verwende immer die numerische Spieler-ID statt des Spielernamens, um sicherzustellen, dass der richtige Spieler betroffen ist.
-:::
+::::

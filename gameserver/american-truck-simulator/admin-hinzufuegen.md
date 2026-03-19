@@ -13,16 +13,16 @@ description: Admins auf einem American Truck Simulator Server hinzufügen
 
 ## Schritte
 
-1. <b>Suche die Server-Konfigurationsdatei</b>
-    - Stelle eine SFTP-Verbindung zu Deinem Server her.
-    - Navigiere zum Pfad "`.local/share/American Truck Simulator`".
+1. <b>Konfigurationsdatei suchen</b><br>
+   Stelle eine SFTP-Verbindung zu Deinem Server her.
+   - Navigiere zum Pfad "`.local/share/American Truck Simulator`".
 
-3. <b>Bearbeite die Konfigurationsdatei</b>
-    - Suche die Datei namens "`server_config.sii`".
-    - Öffne diese Datei in einem Texteditor.
+2. <b>Konfigurationsdatei bearbeiten</b><br>
+   Suche die Datei namens "`server_config.sii`".
+   - Öffne diese Datei in einem Texteditor.
 
-4. <b>Füge die neuen Admins hinzu</b>
-    - Suche nach der Zeile, die mit "`moderator_list:`" beginnt.
+3. <b>Admins hinzufügen</b><br>
+   Suche nach der Zeile, die mit "`moderator_list:`" beginnt.
     - Ändere die Anzahl in der Zeile "`moderator_list:`", um der Anzahl der Admins zu entsprechen.
     - Füge die Steam64\_IDs der Benutzer hinzu, die Du als Admin hinzufügen möchtest. Jede Steam64\_ID sollte in einer neuen Zeile stehen und wie folgt aussehen: "`moderator_list[X]:  Steam64_ID`". Dabei steht X für die entsprechende Stelle in der Liste.
 
@@ -35,8 +35,8 @@ description: Admins auf einem American Truck Simulator Server hinzufügen
       moderator_list[2]: Steam64_ID
       ```
 
-4. <b>Speichere die Änderungen und starte den Server neu</b>
-    - Speichere die Änderungen an der Konfigurationsdatei und schließe den Texteditor.
-    - Starte den Server neu über das Webinterface.
+4. <b>Änderungen speichern</b><br>
+   Speichere die Änderungen an der Konfigurationsdatei und schließe den Texteditor.
+   - Starte den Server neu über das Webinterface.
 
 ### Das war's! Mit diesen Schritten solltest Du in der Lage sein, neue Admins auf Deinem American Truck Simulator Server hinzuzufügen. Viel Spaß beim Spielen

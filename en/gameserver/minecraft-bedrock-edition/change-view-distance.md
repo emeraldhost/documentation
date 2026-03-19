@@ -18,28 +18,35 @@ The ```view-distance``` determines how many chunks a player can see around them.
 
 ## How do I change the view distance?
 
-1. <strong>Go to your Minecraft Bedrock Edition server in the dashboard</strong>.
+1. <b>Open dashboard</b><br>
+   Go to your Minecraft Bedrock Edition server in the dashboard.
 
-2. <strong>Open the file browser</strong>.
+2. <b>Open file browser</b><br>
+   Open the file browser.
 
-3. <strong>Open the file ```server.properties```.</strong>
+3. <b>Open config</b><br>
+   Open the file ```server.properties```.
 
-4. <strong>Search for the following entry:</strong>
+4. <b>Find entry</b><br>
+   Search for the following entry:
 
     ```
     view-distance=32
     ```
 
-5. <strong>Change the value as desired (e.g. 12 or 10)</strong>.
+5. <b>Change value</b><br>
+   Change the value as desired (e.g. 12 or 10).
 
-6. <strong>Save the changes by clicking on "Save"</strong>.
+6. <b>Save changes</b><br>
+   Save the changes by clicking on "Save".
 
-7. <strong>Restart the server so that the changes become active</strong>.
+7. <b>Restart server</b><br>
+   Restart the server so that the changes become active.
 
-::: tip Recommendation
+:::: tip Recommendation
 
 - 6-8 → For large numbers of players & low server performance
 - 10-12 → Balanced between performance and visibility
 - 16-20 → Only with high server performance
 - 32 → Standard setting
-:::
+::::

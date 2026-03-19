@@ -8,23 +8,28 @@ There are two ways to get admin rights on your Arma Reforger server: via an admi
 
 ## Set Admin Password
 
-1. **Open your dashboard and select your Arma Reforger server.**
+1. <b>Open dashboard</b><br>
+   Open your dashboard and select your Arma Reforger server.
 
-2. **Navigate to the settings and enter your desired password under `Admin Password`.**
+2. <b>Set password</b><br>
+   Navigate to the settings and enter your desired password under `Admin Password`.
 
-3. **Save the settings and restart the server.**
+3. <b>Restart server</b><br>
+   Save the settings and restart the server.
 
-::: warning Important
+:::: warning Important
 The admin password must be at least 3 characters long and cannot contain spaces.
-:::
+::::
 
 ## Permanent Admins via Steam64 ID
 
 Alternatively, you can permanently add players as admins so they don't need to log in each time.
 
-1. **Open the file `config.json` and find the `"admins"` entry in the `"game"` section.**
+1. <b>Open config</b><br>
+   Open the file `config.json` and find the `"admins"` entry in the `"game"` section.
 
-2. **Add the Steam64 IDs of the desired admins:**
+2. <b>Add Steam64 IDs</b><br>
+   Add the Steam64 IDs of the desired admins:
 
     ```json
     "game": {
@@ -35,27 +40,31 @@ Alternatively, you can permanently add players as admins so they don't need to l
     }
     ```
 
-3. **Save the changes and restart the server.**
+3. <b>Restart server</b><br>
+   Save the changes and restart the server.
 
-::: tip Tip
+:::: tip Tip
 You can find your Steam64 ID using our guide [Find your SteamID64](../steamid64-find-out.md).
-:::
+::::
 
 ## Log In as Admin In-Game
 
-1. **Join your server and open the chat with the `/` key.**
+1. <b>Open chat</b><br>
+   Join your server and open the chat with the `/` key.
 
-2. **Enter the following command:**
+2. <b>Enter command</b><br>
+   Enter the following command:
 
     ```
     #login YourAdminPassword
     ```
 
-3. **A confirmation message will appear upon successful login.**
+3. <b>Confirm login</b><br>
+   A confirmation message will appear upon successful login.
 
-::: info Info
+:::: info Info
 Use `#logout` to log out from admin status. Use `#roles` to check which permissions you currently have.
-:::
+::::
 
 ## Useful Admin Commands
 

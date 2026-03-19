@@ -16,21 +16,24 @@ The `view-distance` determines how many chunks a player can see around them. A c
 
 ## How do I change the view distance?
 
-1. **Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.**
+1. <b>Open server.properties</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.
 
-2. **Look for the following entry:**
+2. <b>Find the entry</b><br>
+   Look for the following entry:
 
-    ```
-    view-distance=10
-    ```
+   ```
+   view-distance=10
+   ```
 
-3. **Change the value as desired (e.g. 8 or 6).**
+3. <b>Change the value</b><br>
+   Change the value as desired (e.g. 8 or 6).
 
-4. **Save the changes and restart the server.**
+4. <b>Restart the server</b><br>
+   Save the changes and restart the server.
 
-::: tip Recommendation
-
+:::: tip Recommendation
 - 6-8 → For large numbers of players & low server performance
 - 10 → Standard setting
 - 10+ → Only with high server performance
-:::
+::::

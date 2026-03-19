@@ -1,50 +1,62 @@
 ---
-description: Install PhpMyAdmin, Apache2 and MySQL on a VPS (Ubuntu/Debian)
+description: Install PhpMyAdmin, Apache2 and MySQL on a Linux VPS (Ubuntu/Debian)
 ---
 
-# Install PhpMyAdmin, Apache2 and MySQL on a VPS (Ubuntu/Debian)
+# How to install PhpMyAdmin, Apache2 and MySQL on your Linux VPS
 
-## Install Apache2:&#x20;
+Instructions for installing PhpMyAdmin, Apache2 and MySQL on a Linux VPS.
 
-1. open a terminal window on your server &#x20;
-2. enter the following command to start the installation of Apache2:&#x20;
+## Install Apache2
 
-    ```
-    sudo apt update && apt install apache2 -y
-    ```
+1. <b>Update packages</b><br>
+   Open a terminal window on your server and run the following command:
 
-## Install MySQL:&#x20;
+   ```bash
+   sudo apt update && apt install apache2 -y
+   ```
 
-1. enter the following command to start the installation of MySQL:
+## Install MySQL
 
-    ```
-    sudo apt install mysql-server -y
-    ```
+1. <b>Install MySQL</b><br>
+   Enter the following command to start the installation of MySQL:
 
-2. during the installation you will be asked to set a password for the MySQL root user. Enter a secure password and save it in a safe place.
+   ```bash
+   sudo apt install mysql-server -y
+   ```
 
-## Install PhpMyAdmin:&#x20;
+2. <b>Set password</b><br>
+   During the installation you will be asked to set a password for the MySQL root user. Enter a secure password and save it in a safe place.
 
-1. enter the following command to start the installation of PhpMyAdmin:&#x20;
+## Install PhpMyAdmin
 
-    ```
-    sudo apt install phpmyadmin -y
-    ```
+1. <b>Install PhpMyAdmin</b><br>
+   Enter the following command to start the installation of PhpMyAdmin:
 
-2. during the installation you will be asked to select a web server. Select Apache2 and press the Enter key &#x20;
-3. during the installation you will be asked to set a password for the PhpMyAdmin administrator account. Enter a secure password and save it in a safe place&#x20;
-4. when you are finished, open your web browser and enter the address "<http://Server-Adresse/phpmyadmin/>". You should be prompted to log in with your PhpMyAdmin administrator account.
+   ```bash
+   sudo apt install phpmyadmin -y
+   ```
 
-## Configure PhpMyAdmin:&#x20;
+2. <b>Select web server</b><br>
+   During the installation you will be asked to select a web server. Select Apache2 and press the Enter key.
 
-1. open the file "config.inc.php", which is located in the directory "/etc/phpmyadmin/" &#x20;
+3. <b>Set admin password</b><br>
+   During the installation you will be asked to set a password for the PhpMyAdmin administrator account. Enter a secure password and save it in a safe place.
 
-    ```
-    nano /etc/phpmyadmin/config.inc.php
-    ```
+4. <b>Test installation</b><br>
+   When you are finished, open your web browser and enter the address `http://<server-ip>/phpmyadmin/`. You should be prompted to log in with your PhpMyAdmin administrator account.
 
-2. change the line "$cfg\['blowfish\_secret']" to a random string that is at least 32 characters long. c. Save the changes and close the file.
+## Configure PhpMyAdmin
 
-:::info
-Now save the input with **CTRL + O** and close the window with **CTRL + X**
-:::
+1. <b>Open configuration</b><br>
+   Open the file `config.inc.php`, which is located in the directory `/etc/phpmyadmin/`:
+
+   ```bash
+   nano /etc/phpmyadmin/config.inc.php
+   ```
+
+2. <b>Change Blowfish Secret</b><br>
+   Change the line `$cfg['blowfish_secret']` to a random string that is at least 32 characters long.
+
+:::: info
+Save the input with **Ctrl + O** and close the window with **Ctrl + X**.
+::::

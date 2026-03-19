@@ -6,62 +6,71 @@ description: Grant OP rights on a Minecraft Java Edition server
 
 ## Assign OP rights via the in-game chat
 
-::: warning Attention
+:::: warning Attention
 To execute this command, you must already have OP rights. If you do not have these, use the [console](#console) or the [ops.json](#ops.json) method instead.
-:::
+::::
 
-::: info Info
+:::: info Info
 When assigning OP rights, players automatically receive the OP level that is defined in the `server.properties` file under the `op-permission-level` entry.
-:::
+::::
 
-1. **Log in to your Minecraft server.**
+1. <b>Log in</b><br>
+   Log in to your Minecraft server.
 
-2. **Open the chat. By default with the `t` key**
+2. <b>Open the chat</b><br>
+   Open the chat. By default with the `t` key.
 
-3. **Enter the following command:**
+3. <b>Enter the command</b><br>
+   Enter the following command:
 
-    ```
-    /op <player name>     # Makes the player an operator
-    ```
+   ```
+   /op <player name>     # Makes the player an operator
+   ```
 
 ## Assign OP rights via the server console {#console}
 
-::: warning Attention
+:::: warning Attention
 All commands must be entered in the console without `/`!
-:::
+::::
 
-::: info Info
+:::: info Info
 When assigning OP rights, players automatically receive the OP level that is defined in the `server.properties` file under the `op-permission-level` entry.
-:::
+::::
 
-1. **Open your dashboard and select your Minecraft Java Edition server.**
+1. <b>Open the dashboard</b><br>
+   Open your dashboard and select your Minecraft Java Edition server.
 
-2. **Navigate to the server console under the menu item "Overview".**
+2. <b>Open the console</b><br>
+   Navigate to the server console under the menu item "Overview".
 
-3. **Enter the following command:**
+3. <b>Enter the command</b><br>
+   Enter the following command:
 
-    ```
-    op <player name>     # Makes the player an operator
-    ```
+   ```
+   op <player name>     # Makes the player an operator
+   ```
 
 ## Assign OP rights via the ops.json file {#ops.json}
 
-1. **Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `ops.json`.**
+1. <b>Open ops.json</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `ops.json`.
 
-2. **Insert the following entry within the square brackets `[]`:**
+2. <b>Add the entry</b><br>
+   Insert the following entry within the square brackets `[]`:
 
-    ```
-    {
-        "uuid": "<playeruuid>",
-        "name": "<game name>",
-        "level": 4,
-        "bypassesPlayerLimit": false
-    }
-    ```
+   ```
+   {
+       "uuid": "<playeruuid>",
+       "name": "<game name>",
+       "level": 4,
+       "bypassesPlayerLimit": false
+   }
+   ```
 
-3. **Save the changes and restart the server.**
+3. <b>Restart the server</b><br>
+   Save the changes and restart the server.
 
-::: info Info
+:::: info Info
 If you want to enter several players, separate the entries with a comma `,`:
 
 ```
@@ -78,20 +87,21 @@ If you want to enter several players, separate the entries with a comma `,`:
     "bypassesPlayerLimit": false
 }
 ```
+::::
 
-:::
+### OP Levels
 
-**Explanation of the OP levels**
+| Level | Description |
+|-------|-------------|
+| 1 | Can change protected spawn areas |
+| 2 | Can edit command blocks and use basic commands (except level 3-4 commands) |
+| 3 | May execute sanctions such as `/kick`, `/ban` etc. |
+| 4 | Has full administrative control, including server commands such as `/stop` |
 
-- **Level 1:** Can change protected spawn areas.
-- **Level 2:** Can edit command blocks and use basic commands (except level 3-4 commands).
-- **Level 3:** May execute sanctions such as `/kick`, `/ban` etc.
-- **Level 4:** Has full administrative control, including server commands such as `/stop`.
-
-::: info Info
+:::: info Info
 `bypassesPlayerLimit` allows the player to join the server even if the player limit has been reached.
-:::
+::::
 
-::: tip Tip
-You can find out the UUID of a player e.g. at **NameMC** on the basis of his name.
-:::
+:::: tip Tip
+You can find out the UUID of a player e.g. at NameMC on the basis of his name.
+::::

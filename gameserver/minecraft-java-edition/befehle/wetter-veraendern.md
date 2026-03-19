@@ -1,17 +1,20 @@
 ---
-title: Wetter in Minecraft Java Editon verändern
 description: Schritt-für-Schritt-Anleitung, wie du das Wetter in Minecraft Java Edition per Ingame-Chat oder Konsole änderst.
 ---
 
-# Wetter-Befehle im Spiel-Chat nutzen
+# Wetter in Minecraft Java Edition verändern
 
-::: warning Achtung
+:::: warning Achtung
 Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführen! Hier findest Du eine Anleitung, wie Du Dir OP-Rechte gibst: [Anleitung](../op-rechte-vergeben.md)
-:::
+::::
 
-1. <strong>Öffne den Chat. Standardmäßig mit der Taste ```t```.</strong>
+## Wetter über den Ingame-Chat ändern
 
-2. <strong>Gib folgenden Befehl ein, um das gewünschte Wetter zu aktivieren:</strong>
+1. <b>Chat öffnen</b><br>
+   Öffne den Chat. Standardmäßig mit der Taste `t`.
+
+2. <b>Befehl eingeben</b><br>
+   Gib folgenden Befehl ein, um das gewünschte Wetter zu aktivieren:
 
     ```
     /weather clear    # Lässt Regen und Nebel verschwinden!
@@ -21,15 +24,18 @@ Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführe
 
 ## Wetter über die Server-Konsole ändern
 
-::: warning Achtung
-In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
-:::
+:::: warning Achtung
+In der Konsole müssen alle Befehle ohne `/` eingegeben werden!
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.</strong>
+1. <b>Server auswählen</b><br>
+   Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.
 
-2. <strong>Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".</strong>
+2. <b>Konsole öffnen</b><br>
+   Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".
 
-3. <strong>Verwende einen der folgenden Wetter-Befehle in der Konsole:</strong>
+3. <b>Befehl eingeben</b><br>
+   Verwende einen der folgenden Wetter-Befehle in der Konsole:
 
     ```
     weather clear    # Lässt Regen und Nebel verschwinden!

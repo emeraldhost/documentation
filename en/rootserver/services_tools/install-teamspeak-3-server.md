@@ -1,64 +1,72 @@
 ---
-description: Install TeamSpeak 3 server on a root server (Ubuntu/Debian)
+description: Install a TeamSpeak 3 server on a Linux VPS (Ubuntu/Debian)
 ---
 
-# Install TeamSpeak 3 Server
+# How to install a TeamSpeak 3 server on your Linux VPS
 
-We recommend the program "[PuTTY](https://www.chiark.greenend.org.uk/\~sgtatham/putty/latest.html)" for SSH connections with servers.
+Instructions for installing a TeamSpeak 3 server on a Linux VPS.
 
-1. update your system and install the necessary programs
+We recommend the program [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) for SSH connections with servers.
 
-    ```
-    apt update && apt upgrade -y
-    ```
+1. <b>Update system</b><br>
+   Update your system and install the necessary programs:
 
-    ```
-    apt install sudo bzip2
-    ```
+   ```bash
+   apt update && apt upgrade -y
+   ```
 
-2. create a subuser for the server and log in
+   ```bash
+   apt install sudo bzip2
+   ```
 
-    ```
-    adduser teamspeak --disabled-login
-    ```
+2. <b>Create user</b><br>
+   Create a subuser for the server and log in:
 
-    ```
-    su teamspeak -l
-    ```
+   ```bash
+   adduser teamspeak --disabled-login
+   ```
 
-3. copy the link for the latest 64 bit Linux server version [on the TeamSpeak downloads page](https://www.teamspeak.com/en/downloads/#server)
-4. download the file, unzip it and navigate to the directory, for example with v3.13.7
+   ```bash
+   su teamspeak -l
+   ```
 
-    ```
-    wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_linux_amd64-3.13.7.tar.bz2
-    ```
+3. <b>Download server</b><br>
+   Copy the link for the latest 64-bit Linux server version [on the TeamSpeak downloads page](https://www.teamspeak.com/en/downloads/#server).
 
-    ```
-    tar xvfj teamspeak3-server_linux_amd64-3.13.7.tar.bz2
-    ```
+4. <b>Extract files</b><br>
+   Download the file, extract it and navigate to the directory, for example with v3.13.7:
 
-    ```
-    rm teamspeak3-server_linux_amd64-3.13.7.tar.bz2
-    ```
+   ```bash
+   wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_linux_amd64-3.13.7.tar.bz2
+   ```
 
-    ```
-    cd teamspeak3-server_linux_amd64
-    ```
+   ```bash
+   tar xvfj teamspeak3-server_linux_amd64-3.13.7.tar.bz2
+   ```
 
-5. accept licenses and start server
+   ```bash
+   rm teamspeak3-server_linux_amd64-3.13.7.tar.bz2
+   ```
 
-    ```
-    touch .ts3server_license_accepted
-    ```
+   ```bash
+   cd teamspeak3-server_linux_amd64
+   ```
 
-    ```
-    chmod +x ts3server_startscript.sh
-    ```
+5. <b>Start server</b><br>
+   Accept the licenses and start the server:
 
-    ```
-    ./ts3server_startscript.sh start
-    ```
+   ```bash
+   touch .ts3server_license_accepted
+   ```
 
-:::info
-./ts3server\_startscript.sh also works with stop, restart or status.
-:::
+   ```bash
+   chmod +x ts3server_startscript.sh
+   ```
+
+   ```bash
+   ./ts3server_startscript.sh start
+   ```
+
+:::: info
+`./ts3server_startscript.sh` also works with `stop`, `restart` or `status`.
+::::

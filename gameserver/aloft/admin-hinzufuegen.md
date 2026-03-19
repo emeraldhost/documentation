@@ -1,24 +1,28 @@
 ---
-title: Admins auf deinem Aloft-Server Hinzufügen
-description: Schritt-für-Schritt-Anleitung, wie du Admins auf deinem Aloft-Server Hinzufügst
+description: Schritt-für-Schritt-Anleitung, wie du Admins auf deinem Aloft-Server hinzufügst.
 ---
 
-# Aloft-Server Admin Hinzufügen
+# Aloft-Server Admin hinzufügen
 
-::: info Info
-Wenn du mehrere Admins Hinzufügen möchtest, kannst du die Steam64IDs einfach mit einem Leerzeichen trennen (z. B. ```11111111111111111 22222222222222222```).
-:::
+:::: info Info
+Wenn du mehrere Admins hinzufügen möchtest, kannst du die Steam64IDs einfach mit einem Leerzeichen trennen (z. B. `11111111111111111 22222222222222222`).
+::::
 
-::: tip Tipp
+:::: tip Tipp
 Hier findest du eine Anleitung, wie du deine [Steam64ID](../steamid64-herausfinden.md) herausfindest.
-:::
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Aloft Server aus.</strong>
+1. <b>Dashboard öffnen</b><br>
+   Öffne dein Dashboard und wähle deinen Aloft Server aus.
 
-2. <strong>Gehe zu den Einstellungen.</strong>
+2. <b>Einstellungen öffnen</b><br>
+   Gehe zu den Einstellungen.
 
-3. <strong>Scrolle nach unten zu „Admins“.</strong>
+3. <b>Admins finden</b><br>
+   Scrolle nach unten zu „Admins".
 
-4. <strong>Trage Deine Steam64ID in das Feld ein.</strong>
+4. <b>Steam64ID eintragen</b><br>
+   Trage deine Steam64ID in das Feld ein.
 
-5. <strong>Starte Deinen Server neu, damit die Änderungen übernommen werden.</strong>
+5. <b>Server neustarten</b><br>
+   Starte deinen Server neu, damit die Änderungen übernommen werden.

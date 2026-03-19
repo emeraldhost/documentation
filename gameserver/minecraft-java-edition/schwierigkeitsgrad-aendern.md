@@ -17,14 +17,18 @@ Der Schwierigkeitsgrad bestimmt, wie herausfordernd das Spiel ist. Er beeinfluss
 
 ## Wie ändere ich den Schwierigkeitsgrad?
 
-1. <strong>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</strong>
+1. <b>SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.
 
-2. <strong>Suche nach folgendem Eintrag:</strong>
+2. <b>Eintrag suchen</b><br>
+   Suche nach folgendem Eintrag:
 
-```
-difficulty=easy
-```
+    ```
+    difficulty=easy
+    ```
 
-3. <strong>Ändere den Wert auf den gewünschten Schwierigkeitsgrad.</strong>
+3. <b>Wert ändern</b><br>
+   Ändere den Wert auf den gewünschten Schwierigkeitsgrad.
 
-4. <strong>Speichere die Änderungen und starte den Server neu.</strong>
+4. <b>Server neustarten</b><br>
+   Speichere die Änderungen und starte den Server neu.

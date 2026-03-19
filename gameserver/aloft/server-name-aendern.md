@@ -1,24 +1,28 @@
 ---
-title: Name deines Aloft-Servers ändern
 description: Schritt-für-Schritt-Anleitung, wie du den Namen deines Aloft-Servers änderst.
 ---
 
 # Aloft-Server Name ändern
 
-::: info Info
-Der Servername ist wichtig, um Deinen Aloft-Server in der öffentlichen Server Liste zu finden.
-:::
+:::: info Info
+Der Servername ist wichtig, um deinen Aloft-Server in der öffentlichen Server Liste zu finden.
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Aloft Server aus.</strong>
+1. <b>Dashboard öffnen</b><br>
+   Öffne dein Dashboard und wähle deinen Aloft Server aus.
 
-2. <strong>Gehe zu den Einstellungen.</strong>
+2. <b>Einstellungen öffnen</b><br>
+   Gehe zu den Einstellungen.
 
-3. <strong>Scrolle nach unten zu „Server Name“.</strong>
+3. <b>Server Name finden</b><br>
+   Scrolle nach unten zu „Server Name".
 
-4. <strong>Ändere den Namen auf den gewünschten Servernamen.</strong>
+4. <b>Namen ändern</b><br>
+   Ändere den Namen auf den gewünschten Servernamen.
 
-5. <strong>Starte deinen Server neu, damit die Änderungen übernommen werden.</strong>
+5. <b>Server neustarten</b><br>
+   Starte deinen Server neu, damit die Änderungen übernommen werden.
 
-::: warning Achtung
+:::: warning Achtung
 Der Servername darf keine Leerzeichen enthalten.
-:::
+::::

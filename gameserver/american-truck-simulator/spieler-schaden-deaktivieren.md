@@ -5,16 +5,21 @@ description: Schritt-für-Schritt-Anleitung, wie du in American Truck Simulator 
 
 # Spieler-Schaden deaktivieren in American Truck Simulator
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen American Truck Simulator Server aus.</strong>
+1. <b>Dashboard öffnen</b><br>
+   Öffne Dein Dashboard und wähle Deinen American Truck Simulator Server aus.
 
-2. <strong>Gehe zum Datei-Browser.</strong>
+2. <b>Datei-Browser öffnen</b><br>
+   Gehe zum Datei-Browser.
 
-3. <strong>Öffne die Datei ```server_config.sii```.</strong>
+3. <b>Datei öffnen</b><br>
+   Öffne die Datei `server_config.sii`.
 
-4. <strong>Suche den folgenden Eintrag:</strong>
+4. <b>Eintrag suchen</b><br>
+   Suche den folgenden Eintrag:
 
-    ```
-    player_damage: true
-    ```
+   ```
+   player_damage: true
+   ```
 
-5. <strong>Ändere den Wert auf ```false```.</strong>
+5. <b>Wert ändern</b><br>
+   Ändere den Wert auf `false`.

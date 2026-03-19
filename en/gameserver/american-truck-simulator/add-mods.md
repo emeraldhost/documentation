@@ -6,82 +6,107 @@ description: Step-by-step instructions on how to install and activate Steam Work
 
 ## Add Steam Workshop mods
 
-1. <strong>Start American Truck Simulator</strong>.
+1. <b>Start game</b><br>
+   Start American Truck Simulator.
 
-2. <strong>Select the "Mods" item in the main menu</strong>.
+2. <b>Open mod menu</b><br>
+   Select the "Mods" item in the main menu.
 
-3. <strong>Click on "Steam Workshop" in the top right-hand corner</strong>.
+3. <b>Open workshop</b><br>
+   Click on "Steam Workshop" in the top right-hand corner.
 
-4. <strong>Browse the workshop and click on "Subscribe" to download the desired mods</strong>.
+4. <b>Subscribe to mods</b><br>
+   Browse the workshop and click on "Subscribe" to download the desired mods.
 
-5. <strong>Go back to the mod manager in the game</strong>.
+5. <b>Open mod manager</b><br>
+   Go back to the mod manager in the game.
 
-6. <strong>Activate the downloaded mods and click on "Confirm changes"</strong>.
+6. <b>Activate mods</b><br>
+   Activate the downloaded mods and click on "Confirm changes".
 
-7. <strong>Start a ride and open the console with the `~` or ```` ` ```` key.</strong>
+7. <b>Open console</b><br>
+   Start a ride and open the console with the `~` or `` ` `` key.
 
-8. <strong>Enter the following command in the console:</strong>
+8. <b>Export packages</b><br>
+   Enter the following command in the console:
 
     ```
     export_server_packages
     ```
 
-9. <strong>Wait until the process is complete and exit the game</strong>.
+9. <b>Exit game</b><br>
+   Wait until the process is complete and exit the game.
 
-10. <strong>Connect to your server via SFTP. You can find instructions on how to do this here: [Instructions](../establish-sftp-connection.md).</strong>
+10. <b>Connect via SFTP</b><br>
+    Connect to your server via SFTP. You can find instructions on how to do this here: [Instructions](../establish-sftp-connection.md).
 
-11. <strong>Navigate to the following directory:</strong>
+11. <b>Open directory</b><br>
+    Navigate to the following directory:
 
     ```
     .local/share/American Truck Simulator
     ```
 
-12. <strong>Upload the created files ```server_packages.sii``` and ```server_packages.dat```, which you will find under the following path:</strong>
+12. <b>Upload files</b><br>
+    Upload the created files `server_packages.sii` and `server_packages.dat`, which you will find under the following path:
 
     ```
     Documents/American Truck Simulator
     ```
 
-13. <strong>Restart the server and join the server</strong>.
+13. <b>Restart server</b><br>
+    Restart the server and join the server.
 
 ## Add external mods
 
-1. <strong>Download the desired mods from platforms such as Modhub or other sources</strong>.
+1. <b>Download mods</b><br>
+   Download the desired mods from platforms such as Modhub or other sources.
 
-2. <strong>Copy the mods into your local mod directory, which you can find under the following path:</strong>
+2. <b>Copy mods</b><br>
+   Copy the mods into your local mod directory, which you can find under the following path:
 
     ```
     Documents/American Truck Simulator/mod
     ```
 
-3. <strong>American Truck Simulator</strong>.
+3. <b>Start game</b><br>
+   Start American Truck Simulator.
 
-4. <strong>Select the "Mods" item in the main menu</strong>.
+4. <b>Open mod menu</b><br>
+   Select the "Mods" item in the main menu.
 
-5. <strong>Activate the previously added mods and click on "Confirm changes".</strong>
+5. <b>Activate mods</b><br>
+   Activate the previously added mods and click on "Confirm changes".
 
-6. <strong>Start a ride and open the console with the `~` or ```` ` ```` key.</strong>
+6. <b>Open console</b><br>
+   Start a ride and open the console with the `~` or `` ` `` key.
 
-7. <strong>Enter the following command in the console:</strong>
+7. <b>Export packages</b><br>
+   Enter the following command in the console:
 
     ```
     export_server_packages
     ```
 
-8. <strong>Wait until the process is complete and exit the game</strong>.
+8. <b>Exit game</b><br>
+   Wait until the process is complete and exit the game.
 
-9. <strong>Connect to your server via SFTP. You can find instructions on how to do this here: [Instructions](../establish-sftp-connection.md).</strong>
+9. <b>Connect via SFTP</b><br>
+   Connect to your server via SFTP. You can find instructions on how to do this here: [Instructions](../establish-sftp-connection.md).
 
-10. <strong>Navigate to the following directory:</strong>
+10. <b>Open directory</b><br>
+    Navigate to the following directory:
 
     ```
     .local/share/American Truck Simulator
     ```
 
-11. <strong>Upload the created files ```server_packages.sii``` and ```server_packages.dat```, which you will find under the following path:</strong>
+11. <b>Upload files</b><br>
+    Upload the created files `server_packages.sii` and `server_packages.dat`, which you will find under the following path:
 
     ```
     Documents/American Truck Simulator
     ```
 
-12. <strong>Restart the server and join the server</strong>.
+12. <b>Restart server</b><br>
+    Restart the server and join the server.

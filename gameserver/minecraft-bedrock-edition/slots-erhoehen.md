@@ -2,22 +2,27 @@
 description: Minecraft Bedrock Edition Gameserver Slots erhöhen - Schritt-für-Schritt Anleitung für Vanilla Server.
 ---
 
-# Wie kann ich die Slots meines Minecraft Bedrock Edition Servers erhöhen?
+# So erhöhst du die Slots auf einem Minecraft Bedrock Edition Server
 
-1. <strong>Öffne dein Dashboard und wähle deinen Minecraft Bedrock Edition Server aus.</strong>
+1. <b>Server auswählen</b><br>
+   Öffne dein Dashboard und wähle deinen Minecraft Bedrock Edition Server aus.
 
-2. <strong>Gehe zum Datei-Browser.</strong>
+2. <b>Datei-Browser öffnen</b><br>
+   Gehe zum Datei-Browser.
 
-3. <strong>Öffne die Datei ```server.properties```.</strong>
+3. <b>Datei öffnen</b><br>
+   Öffne die Datei `server.properties`.
 
-4. <strong>Suche den folgenden Eintrag:</strong>
+4. <b>Eintrag suchen</b><br>
+   Suche den folgenden Eintrag:
 
     ```
     max-players=10
     ```
 
-5. <strong>Ändere den Wert auf die gewünschte Anzahl an Spielern.</strong>
+5. <b>Wert ändern</b><br>
+   Ändere den Wert auf die gewünschte Anzahl an Spielern.
 
-::: warning Warnung
-<strong>Wichtig:</strong> Stelle sicher, dass dein Server genügend Ressourcen (wie RAM und CPU) zur Verfügung hat, um die erhöhte Spieleranzahl zu unterstützen.
-:::
+:::: warning Warnung
+**Wichtig:** Stelle sicher, dass dein Server genügend Ressourcen (wie RAM und CPU) zur Verfügung hat, um die erhöhte Spieleranzahl zu unterstützen.
+::::

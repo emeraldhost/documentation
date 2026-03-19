@@ -6,62 +6,71 @@ description: OP-Rechte auf einem Minecraft Java Edition Server vergeben
 
 ## OP-Rechte über den Ingame-Chat vergeben
 
-::: warning Achtung
+:::: warning Achtung
 Um diesen Befehl ausführen zu können, musst Du bereits OP-Rechte besitzen. Falls Du diese nicht hast, verwende stattdessen die [Konsole](#konsole) oder die [ops.json](#ops.json)-Methode.
-:::
+::::
 
-::: info Info
+:::: info Info
 Spieler erhalten beim Vergeben von OP-Rechten automatisch das OP-Level, das in der Datei `server.properties` unter dem Eintrag `op-permission-level` festgelegt ist.
-:::
+::::
 
-1. **Logge dich auf Deinen Minecraft-Server ein.**
+1. <b>Server beitreten</b><br>
+   Logge dich auf Deinen Minecraft-Server ein.
 
-2. **Öffne den Chat. Standardmäßig mit der Taste `t`**
+2. <b>Chat öffnen</b><br>
+   Öffne den Chat. Standardmäßig mit der Taste `t`.
 
-3. **Gib folgenden Befehl ein:**
+3. <b>Befehl eingeben</b><br>
+   Gib folgenden Befehl ein:
 
-    ```
-    /op <spielername>     # Macht den Spieler zum Operator
-    ```
+   ```
+   /op <spielername>     # Macht den Spieler zum Operator
+   ```
 
 ## OP-Rechte über die Server-Konsole vergeben {#konsole}
 
-::: warning Achtung
+:::: warning Achtung
 In der Konsole müssen alle Befehle ohne `/` eingegeben werden!
-:::
+::::
 
-::: info Info
+:::: info Info
 Spieler erhalten beim Vergeben von OP-Rechten automatisch das OP-Level, das in der Datei `server.properties` unter dem Eintrag `op-permission-level` festgelegt ist.
-:::
+::::
 
-1. **Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.**
+1. <b>Dashboard öffnen</b><br>
+   Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.
 
-2. **Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".**
+2. <b>Konsole aufrufen</b><br>
+   Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".
 
-3. **Gib folgenden Befehl ein:**
+3. <b>Befehl eingeben</b><br>
+   Gib folgenden Befehl ein:
 
-    ```
-    op <spielername>     # Macht den Spieler zum Operator
-    ```
+   ```
+   op <spielername>     # Macht den Spieler zum Operator
+   ```
 
 ## OP-Rechte über die Datei ops.json vergeben {#ops.json}
 
-1. **Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `ops.json`.**
+1. <b>Datei öffnen</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `ops.json`.
 
-2. **Füge innerhalb der eckigen Klammern `[]` folgenden Eintrag ein:**
+2. <b>Eintrag hinzufügen</b><br>
+   Füge innerhalb der eckigen Klammern `[]` folgenden Eintrag ein:
 
-    ```
-    {
-        "uuid": "<spieleruuid>",
-        "name": "<spielename>",
-        "level": 4,
-        "bypassesPlayerLimit": false
-    }
-    ```
+   ```
+   {
+       "uuid": "<spieleruuid>",
+       "name": "<spielename>",
+       "level": 4,
+       "bypassesPlayerLimit": false
+   }
+   ```
 
-3. **Speichere die Änderungen und starte den Server neu.**
+3. <b>Server neu starten</b><br>
+   Speichere die Änderungen und starte den Server neu.
 
-::: info Info
+:::: info Info
 Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komma `,`:
 
 ```
@@ -79,7 +88,7 @@ Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komm
 }
 ```
 
-:::
+::::
 
 **Erklärung der OP-Level**
 
@@ -88,10 +97,10 @@ Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komm
 - **Level 3:** Darf Sanktionen wie `/kick`, `/ban` usw. ausführen.
 - **Level 4:** Hat volle administrative Kontrolle, inkl. Serverbefehlen wie `/stop`.
 
-::: info Info
+:::: info Info
 `bypassesPlayerLimit` erlaubt es dem Spieler, auch dann dem Server beizutreten, wenn das Spielerlimit erreicht ist.
-:::
+::::
 
-::: tip Tipp
+:::: tip Tipp
 Die UUID eines Spielers kannst Du z.B. bei **NameMC** anhand seines Namens herausfinden.
-:::
+::::

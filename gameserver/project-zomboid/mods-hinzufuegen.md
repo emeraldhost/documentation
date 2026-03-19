@@ -5,23 +5,29 @@ description: Schritt-für-Schritt-Anleitung, wie du in Project Zomboid Mods inst
 
 # Mods in Project Zomboid Hinzufügen: Datei-Browser & SFTP
 
-::: info Info
+:::: info Info
 Die **Workshop-ID** und die **Mod-ID** findest Du auf der **Steam Workshop-Seite** des jeweiligen Mods.
-:::
+::::
 
-1. <strong>Stoppe Deinen Project Zomboid Server.</strong>
+1. <b>Server stoppen</b><br>
+   Stoppe Deinen Project Zomboid Server.
 
-2. <strong>Öffne Dein Dashboard, wähle Deinen Project Zomboid Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem Project Zomboid Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](../sftp-verbindung-herstellen.md).</strong>
+2. <b>Datei-Browser öffnen</b><br>
+   Öffne Dein Dashboard, wähle Deinen Project Zomboid Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem Project Zomboid Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](../sftp-verbindung-herstellen.md).
 
-3. <strong>Navigiere zum Ordner ```.cache/Server```.</strong>
+3. <b>Ordner öffnen</b><br>
+   Navigiere zum Ordner `.cache/Server`.
 
-4. <strong>Öffne die Datei ```ProjectZomboid.ini```.</strong>
+4. <b>Datei öffnen</b><br>
+   Öffne die Datei `ProjectZomboid.ini`.
 
-5. <strong>Füge folgende Einträge hinzu oder passe sie an:</strong>
+5. <b>Einträge hinzufügen</b><br>
+   Füge folgende Einträge hinzu oder passe sie an:
 
-    ```
-    Mods= Mod-ID1;Mod-ID2;Mod-ID3
-    WorkshopItems= Workshop-ID1;Workshop-ID2;Workshop-ID3
-    ```
+   ```
+   Mods= Mod-ID1;Mod-ID2;Mod-ID3
+   WorkshopItems= Workshop-ID1;Workshop-ID2;Workshop-ID3
+   ```
 
-6. <strong>Speichere die Änderungen und starte Deinen Server neu, damit die Mods geladen werden.</strong>
+6. <b>Server neustarten</b><br>
+   Speichere die Änderungen und starte Deinen Server neu, damit die Mods geladen werden.

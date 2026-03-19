@@ -6,20 +6,23 @@ description: Schritt-für-Schritt-Anleitung, wie du in Minecraft Bedrock Edition
 
 ## OP-Rechte über den Ingame-Chat vergeben
 
-::: warning Achtung
+:::: warning Achtung
 Um diesen Befehl ausführen zu können, musst Du bereits OP-Rechte besitzen. Falls Du diese nicht hast, verwende stattdessen die [Konsole](#konsole) oder die [permissions.json](#permissions.json)-Methode.
-:::
+::::
 
-1. <strong>Logge dich auf Deinen Minecraft-Server ein.</strong>
+1. <b>Server beitreten</b><br>
+   Logge dich auf Deinen Minecraft-Server ein.
 
-2. <strong>Öffne den Chat mit der für Deine Plattform passenden Taste:</strong>
+2. <b>Chat öffnen</b><br>
+   Öffne den Chat mit der für Deine Plattform passenden Taste:
 
-    - <strong>Windows 10:</strong> ```t```
-    - <strong>PlayStation & Xbox:</strong> ```D-Pad Rechts```
-    - <strong>Switch:</strong> ```→ auf dem Steuerkreuz```
-    - <strong>Mobile (Android/IOS):</strong> ```Tippe auf das Chat-Symbol (Sprechblase)```
+    - **Windows 10:** `t`
+    - **PlayStation & Xbox:** `D-Pad Rechts`
+    - **Switch:** `→ auf dem Steuerkreuz`
+    - **Mobile (Android/IOS):** `Tippe auf das Chat-Symbol (Sprechblase)`
 
-3. <strong>Gib folgenden Befehl ein:</strong>
+3. <b>Befehl eingeben</b><br>
+   Gib folgenden Befehl ein:
 
     ```
     /op <spielername>     # Macht den Spieler zum Operator
@@ -27,15 +30,18 @@ Um diesen Befehl ausführen zu können, musst Du bereits OP-Rechte besitzen. Fal
 
 ## OP-Rechte über die Server-Konsole vergeben {#konsole}
 
-::: warning Achtung
-In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
-:::
+:::: warning Achtung
+In der Konsole müssen alle Befehle ohne `/` eingegeben werden!
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Minecraft Bedrock Edition Server aus.</strong>
+1. <b>Server auswählen</b><br>
+   Öffne Dein Dashboard und wähle Deinen Minecraft Bedrock Edition Server aus.
 
-2. <strong>Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".</strong>
+2. <b>Konsole öffnen</b><br>
+   Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".
 
-3. <strong>Gib folgenden Befehl ein:</strong>
+3. <b>Befehl eingeben</b><br>
+   Gib folgenden Befehl ein:
 
     ```
     op <spielername>     # Macht den Spieler zum Operator
@@ -43,13 +49,17 @@ In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
 
 ## OP-Rechte über die Datei permissions.json vergeben {#permissions.json}
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Minecraft Bedrock Edition Server aus.</strong>
+1. <b>Server auswählen</b><br>
+   Öffne Dein Dashboard und wähle Deinen Minecraft Bedrock Edition Server aus.
 
-2. <strong>Gehe zum Datei-Browser.</strong>
+2. <b>Datei-Browser öffnen</b><br>
+   Gehe zum Datei-Browser.
 
-3. <strong>Öffne die Datei ```permissions.json```.</strong>
+3. <b>Datei öffnen</b><br>
+   Öffne die Datei `permissions.json`.
 
-4. <strong>Füge innerhalb der eckigen Klammern ```[]``` folgenden Eintrag ein:</strong>
+4. <b>Eintrag hinzufügen</b><br>
+   Füge innerhalb der eckigen Klammern `[]` folgenden Eintrag ein:
 
     ```
     {
@@ -58,8 +68,8 @@ In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
     }
     ```
 
-::: info Info
-Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komma ```,```:
+:::: info Info
+Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komma `,`:
 
 ```
     {
@@ -72,14 +82,14 @@ Wenn Du mehrere Spieler eintragen möchtest, trenne die Einträge mit einem Komm
     }
 ```
 
-:::
+::::
 
-<strong>Rollen und Berechtigungen in Minecraft Bedrock</strong>
+**Rollen und Berechtigungen in Minecraft Bedrock**
 
-- <strong>Visitor:</strong> Kann die Welt nur betrachten - kein Bauen oder Interagieren.
-- <strong>Member:</strong> Standardrolle - kann bauen, abbauen und craften.
-- <strong>Operator:</strong> Hat vollständige administrative Rechte, inkl. Befehlsnutzung und Serververwaltung.
+- **Visitor:** Kann die Welt nur betrachten - kein Bauen oder Interagieren.
+- **Member:** Standardrolle - kann bauen, abbauen und craften.
+- **Operator:** Hat vollständige administrative Rechte, inkl. Befehlsnutzung und Serververwaltung.
 
-::: tip Tipp
+:::: tip Tipp
 Die XUID eines Spielers wird angezeigt, wenn der Spieler dem Server beitritt - du findest sie in der Konsole.
-:::
+::::

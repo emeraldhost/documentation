@@ -1,50 +1,62 @@
 ---
-description: PhpMyAdmin, Apache2 und MySQL auf einen Rootserver installieren (Ubuntu/Debian)
+description: PhpMyAdmin, Apache2 und MySQL auf einem Linux Rootserver / vServer installieren (Ubuntu/Debian)
 ---
 
-# PhpMyAdmin, Apache2 und MySQL auf einen Rootserver installieren (Ubuntu/Debian)
+# So installierst du PhpMyAdmin, Apache2 und MySQL auf deinem Linux Rootserver / vServer
 
-## Installiere Apache2:&#x20;
+Anleitung zur Installation von PhpMyAdmin, Apache2 und MySQL auf einem Linux Rootserver / vServer.
 
-1. Öffne ein Terminalfenster auf Deinem Server.&#x20;
-2. Gib den folgenden Befehl ein, um die Installation von Apache2 zu starten:&#x20;
+## Apache2 installieren
 
-    ```
-    sudo apt update && apt install apache2 -y
-    ```
+1. <b>Paketlisten aktualisieren</b><br>
+   Öffne ein Terminalfenster auf deinem Server und führe folgenden Befehl aus:
 
-## Installiere MySQL:&#x20;
+   ```bash
+   sudo apt update && apt install apache2 -y
+   ```
 
-1. Gib den folgenden Befehl ein, um die Installation von MySQL zu starten:
+## MySQL installieren
 
-    ```
-    sudo apt install mysql-server -y
-    ```
+1. <b>MySQL installieren</b><br>
+   Gib den folgenden Befehl ein, um die Installation von MySQL zu starten:
 
-2. Während der Installation wirst Du aufgefordert, ein Passwort für den MySQL-Root-Benutzer festzulegen. Gib ein sicheres Passwort ein und speichere es an einem sicheren Ort.
+   ```bash
+   sudo apt install mysql-server -y
+   ```
 
-## Installiere PhpMyAdmin:&#x20;
+2. <b>Passwort festlegen</b><br>
+   Während der Installation wirst du aufgefordert, ein Passwort für den MySQL-Root-Benutzer festzulegen. Gib ein sicheres Passwort ein und speichere es an einem sicheren Ort.
 
-1. Gib den folgenden Befehl ein, um die Installation von PhpMyAdmin zu starten:&#x20;
+## PhpMyAdmin installieren
 
-    ```
-    sudo apt install phpmyadmin -y
-    ```
+1. <b>PhpMyAdmin installieren</b><br>
+   Gib den folgenden Befehl ein, um die Installation von PhpMyAdmin zu starten:
 
-2. Während der Installation wirst Du aufgefordert, einen Webserver auszuwählen. Wähle Apache2 aus und drücke die Enter-Taste.&#x20;
-3. Während der Installation wirst Du aufgefordert, ein Passwort für das PhpMyAdmin-Administratorkonto festzulegen. Gib ein sicheres Passwort ein und speichere es an einem sicheren Ort.&#x20;
-4. Wenn Du fertig bist, öffne Deinen Webbrowser und gib die Adresse "<http://Server-Adresse/phpmyadmin/>" ein. Du solltest aufgefordert werden, Dich mit Deinem PhpMyAdmin-Administratorkonto anzumelden.
+   ```bash
+   sudo apt install phpmyadmin -y
+   ```
 
-## Konfiguriere PhpMyAdmin:&#x20;
+2. <b>Webserver auswählen</b><br>
+   Während der Installation wirst du aufgefordert, einen Webserver auszuwählen. Wähle Apache2 aus und drücke die Enter-Taste.
 
-1. Öffne die Datei "config.inc.php", die sich im Verzeichnis "/etc/phpmyadmin/" befindet.&#x20;
+3. <b>Admin-Passwort festlegen</b><br>
+   Während der Installation wirst du aufgefordert, ein Passwort für das PhpMyAdmin-Administratorkonto festzulegen. Gib ein sicheres Passwort ein und speichere es an einem sicheren Ort.
 
-    ```
-    nano /etc/phpmyadmin/config.inc.php
-    ```
+4. <b>Installation testen</b><br>
+   Wenn du fertig bist, öffne deinen Webbrowser und gib die Adresse `http://<server-ip>/phpmyadmin/` ein. Du solltest aufgefordert werden, dich mit deinem PhpMyAdmin-Administratorkonto anzumelden.
 
-2. Ändere die Zeile "$cfg\['blowfish\_secret']" in eine zufällige Zeichenfolge, die mindestens 32 Zeichen lang ist. c. Speichere die Änderungen und schließe die Datei.
+## PhpMyAdmin konfigurieren
 
-:::info
-Speichere nun die Eingabe mit **STRG + O** und schließe das Fenster mit **STRG + X**
-:::
+1. <b>Konfiguration öffnen</b><br>
+   Öffne die Datei `config.inc.php`, die sich im Verzeichnis `/etc/phpmyadmin/` befindet:
+
+   ```bash
+   nano /etc/phpmyadmin/config.inc.php
+   ```
+
+2. <b>Blowfish Secret ändern</b><br>
+   Ändere die Zeile `$cfg['blowfish_secret']` in eine zufällige Zeichenfolge, die mindestens 32 Zeichen lang ist.
+
+:::: info
+Speichere die Eingabe mit **Strg + O** und schließe das Fenster mit **Strg + X**.
+::::

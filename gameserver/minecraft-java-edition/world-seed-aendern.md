@@ -4,22 +4,26 @@ description: World-Seed auf einem Minecraft Java Edition Server ändern
 
 # So änderst du den World-Seed auf einem Minecraft Java Server
 
-::: danger Achtung
+:::: danger Achtung
 Erstelle vorher ein Backup Deines Servers, da die aktuelle Welt durch das Ändern des World-Seeds verloren gehen kann.
-:::
+::::
 
-1. **Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.**
+1. <b>Datei öffnen</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.
 
-2. **Suche den folgenden Eintrag:**
+2. <b>Eintrag suchen</b><br>
+   Suche den folgenden Eintrag:
 
-    ```
-    level-seed=
-    ```
+   ```
+   level-seed=
+   ```
 
-3. **Füge an dieser Stelle den gewünschten World-Seed ein (z.B. `level-seed=5101553622029575588`).**
+3. <b>Seed eintragen</b><br>
+   Füge an dieser Stelle den gewünschten World-Seed ein (z.B. `level-seed=5101553622029575588`).
 
-4. **Speichere die Änderungen und starte den Server neu.**
+4. <b>Server neu starten</b><br>
+   Speichere die Änderungen und starte den Server neu.
 
-::: tip Tipp
+:::: tip Tipp
 Du kannst den aktuellen World-Seed einer bestehenden Welt herausfinden, indem Du den Befehl `/seed` im Spiel eingibst.
-:::
+::::

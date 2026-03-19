@@ -4,23 +4,26 @@ description: Kick and ban players on an Arma Reforger server
 
 # How to Kick and Ban Players on an Arma Reforger Server
 
-::: warning Prerequisite
+:::: warning Prerequisite
 You must be logged in as admin to use these commands. See [Become Admin](become-admin.md).
-:::
+::::
 
 ## Find Player ID
 
 Before you can kick or ban a player, you need their player ID.
 
-1. **Open the chat with the `/` key.**
+1. <b>Open chat</b><br>
+   Open the chat with the `/` key.
 
-2. **Enter the following command:**
+2. <b>List players</b><br>
+   Enter the following command:
 
     ```
     #players
     ```
 
-3. **Note the ID of the desired player from the list.**
+3. <b>Note the ID</b><br>
+   Note the ID of the desired player from the list.
 
 ## Kick a Player
 
@@ -30,7 +33,7 @@ A kicked player is removed from the server but can rejoin immediately.
 #kick <playerId>
 ```
 
-**Example:**
+Example:
 
 ```
 #kick 5
@@ -44,9 +47,9 @@ A banned player cannot rejoin the server until the ban expires or is manually re
 #ban <playerId> <duration>
 ```
 
-The duration is specified in **seconds**. `0` means a permanent ban.
+The duration is specified in seconds. `0` means a permanent ban.
 
-**Examples:**
+Examples:
 
 | Command | Effect |
 |---------|--------|
@@ -66,6 +69,6 @@ The duration is specified in **seconds**. `0` means a permanent ban.
 #ban list
 ```
 
-::: tip Tip
+:::: tip Tip
 Always use the numeric player ID instead of the player name to make sure the correct player is affected.
-:::
+::::

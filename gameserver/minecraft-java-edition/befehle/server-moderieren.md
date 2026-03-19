@@ -1,19 +1,20 @@
 ---
-title: Minecraft Java Edition Server moderieren – Bannen, Kicken & mehr
 description: Schritt-für-Schritt-Anleitung, wie du deinen Minecraft Java Edition Server per Ingame-Chat oder Konsole moderierst.
 ---
 
-# Minecraft Java Edition Server Moderieren: Chat & Konsole
+# Minecraft Java Edition Server moderieren
 
-::: warning Achtung
+:::: warning Achtung
 Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführen! Hier findest Du eine Anleitung, wie Du Dir OP-Rechte gibst: [Anleitung](../op-rechte-vergeben.md)
-:::
+::::
 
 ## Server über den Ingame-Chat moderieren
 
-1. <strong>Öffne den Chat. Standardmäßig mit der Taste ```t```.</strong>
+1. <b>Chat öffnen</b><br>
+   Öffne den Chat. Standardmäßig mit der Taste `t`.
 
-2. <strong>Nutze einen der folgenden Moderations-Befehle im Chat:</strong>
+2. <b>Befehl eingeben</b><br>
+   Nutze einen der folgenden Moderations-Befehle im Chat:
 
     ```
     /ban <spieler> [<grund>]    # Bannt den Spieler vom Server
@@ -25,15 +26,18 @@ Stelle sicher, dass Du die notwendigen Rechte besitzt, um den Befehl auszuführe
 
 ## Server über die Server-Konsole moderieren
 
-::: warning Achtung
-In der Konsole müssen alle Befehle ohne ```/``` eingegeben werden!
-:::
+:::: warning Achtung
+In der Konsole müssen alle Befehle ohne `/` eingegeben werden!
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.</strong>
+1. <b>Server auswählen</b><br>
+   Öffne Dein Dashboard und wähle Deinen Minecraft Java Edition Server aus.
 
-2. <strong>Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".</strong>
+2. <b>Konsole öffnen</b><br>
+   Navigiere zur Server-Konsole unter dem Menüpunkt "Übersicht".
 
-3. <strong>Verwende einen der folgenden Moderations-Befehle in der Konsole:</strong>
+3. <b>Befehl eingeben</b><br>
+   Verwende einen der folgenden Moderations-Befehle in der Konsole:
 
     ```
     ban <spieler> [<grund>]    # Bannt den Spieler vom Server

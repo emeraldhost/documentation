@@ -1,145 +1,143 @@
 ---
-description: Step-by-step guide to install Certbot on a root server with Apache2 or Nginx - secure your website with SSL certificates on Ubuntu/Debian.
+description: Step-by-step guide to install Certbot on a Linux VPS with Apache2 or Nginx - secure your website with SSL certificates on Ubuntu/Debian.
 ---
 
-# Install Certbot
+# How to install Certbot on your Linux VPS
 
-Instructions for installing Certbot for Apache2 and Nginx on a root server.
+Instructions for installing Certbot for Apache2 and Nginx on a Linux VPS.
 
-With <strong>Certbot</strong> you can set up free TLS/SSL certificates from Let's Encrypt.
+With Certbot you can set up free TLS/SSL certificates from Let's Encrypt.
 
 ## Certbot via Snap (recommended)
 
-1. <strong>Update system</strong>
+1. <b>Update system</b><br>
+   First update the system of your server. Open the console and enter the following command:
 
-    First update the system of your root server. Open the console and enter the following command:
+   ```bash
+   apt update && apt upgrade -y
+   ```
 
-    ```
-    apt update && apt upgrade -y
-    ```
+2. <b>Install Snap</b><br>
+   Install Snap by entering the following commands in the console:
 
-2. <strong>Install Snap</strong>
+   ```bash
+   sudo apt install snapd
+   sudo snap install core
+   sudo snap refresh core
+   ```
 
-    Install Snap by entering the following commands in the console:
+3. <b>Install Certbot</b><br>
+   Install Certbot via Snap:
 
-    ```
-    sudo apt install snapd
-    sudo snap install core
-    sudo snap refresh core
-    ```
+   ```bash
+   sudo snap install --classic certbot
+   ```
 
-3. install <strong>Certbot</strong>
+4. <b>Enable command</b><br>
+   Make the Certbot command available system-wide:
 
-    ```
-    sudo snap install --classic certbot
-    ```
+   ```bash
+   sudo ln -s /snap/bin/certbot /usr/bin/certbot
+   ```
 
-4. make <strong>Certbot command available</strong>
+5. <b>Use Certbot</b><br>
+   Run Certbot for your web server:
 
-    ```
-    sudo ln -s /snap/bin/certbot /usr/bin/certbot
-    ```
+   - For Apache2:
 
-5. use <strong>Certbot</strong>
+   ```bash
+   sudo certbot --apache
+   ```
 
-    - <strong>For Apache2:</strong>
+   - For Nginx:
 
-    ```
-    sudo certbot --apache
-    ```
+   ```bash
+   sudo certbot --nginx
+   ```
 
-    - <strong>For Nginx:</strong>
+6. <b>Check certificates</b><br>
+   You can find certificates under:
 
-    ```
-    sudo certbot --nginx
-    ```
+   ```
+   /etc/letsencrypt/live/<your-domain>/
+   ```
 
-6. <strong>Check certificates</strong>
+   Show status:
 
-    - You can find certificates under:
+   ```bash
+   sudo certbot certificates
+   ```
 
-    ```
-    /etc/letsencrypt/live/<your-domain>/
-    ```
+7. <b>Automatic renewal</b><br>
+   Certbot automatically creates a cronjob. You can use the following command to test whether the automatic renewal works correctly:
 
-    - Show status:
-
-    ```
-    sudo certbot certificates
-    ```
-
-7. <strong>Check automatic renewal</strong>
-
-    Certbot automatically creates a cronjob. You can use the following command to test whether the automatic renewal works correctly:
-
-    ```
-    sudo certbot renew --dry-run
-    ```
+   ```bash
+   sudo certbot renew --dry-run
+   ```
 
 ## Certbot via APT
 
-::: warning :warning: Note
-This method often installs outdated versions. Only use it if snap is not possible.
-:::
+:::: warning Note
+This method often installs outdated versions. Only use it if Snap is not possible.
+::::
 
-1. <strong>Update system</strong>
+1. <b>Update system</b><br>
+   First update the system of your server. Open the console and enter the following command:
 
-    First update the system of your root server. Open the console and enter the following command:
+   ```bash
+   apt update && apt upgrade -y
+   ```
 
-    ```
-    apt update && apt upgrade -y
-    ```
+2. <b>Install Certbot</b><br>
+   Install Certbot for your web server:
 
-2. install <strong>Certbot</strong>
+   - For Apache2:
 
-    - For Apache2:
+   ```bash
+   sudo apt install certbot python3-certbot-apache
+   ```
 
-    ```
-    sudo apt install certbot python3-certbot-apache
-    ```
+   - For Nginx:
 
-    - For Nginx:
+   ```bash
+   sudo apt install certbot python3-certbot-nginx
+   ```
 
-    ```
-    sudo apt install certbot python3-certbot-nginx
-    ```
+3. <b>Use Certbot</b><br>
+   Run Certbot for your web server:
 
-3. use <strong>Certbot</strong>
+   - For Apache2:
 
-    - For Apache2:
+   ```bash
+   sudo certbot --apache
+   ```
 
-    ```
-    sudo certbot --apache
-    ```
+   - For Nginx:
 
-    - For Nginx:
+   ```bash
+   sudo certbot --nginx
+   ```
 
-    ```
-    sudo certbot --nginx
-    ```
+4. <b>Check certificates</b><br>
+   You can find certificates under:
 
-4. <strong>Check certificates</strong>
+   ```
+   /etc/letsencrypt/live/<your-domain>/
+   ```
 
-    - You can find certificates under:
+   Show status:
 
-    ```
-    /etc/letsencrypt/live/<your-domain>/
-    ```
+   ```bash
+   sudo certbot certificates
+   ```
 
-    - Show status:
+5. <b>Automatic renewal</b><br>
+   Certbot automatically creates a cronjob. You can use the following command to test whether the automatic renewal works correctly:
 
-    ```
-    sudo certbot certificates
-    ```
+   ```bash
+   sudo certbot renew --dry-run
+   ```
 
-5. <strong>Check automatic renewal</strong>
-
-    Certbot automatically creates a cronjob. You can use the following command to test whether the automatic renewal works correctly:
-
-    ```
-    sudo certbot renew --dry-run
-    ```
-
-::: info :information_source: Important
+:::: info Important
 The domain must point to the server (A or AAAA entry), and port 80 (HTTP challenge) must be accessible - otherwise the validation will fail.
-:::
+::::

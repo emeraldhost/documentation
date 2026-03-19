@@ -1,12 +1,14 @@
 ---
-title: Open Aloft ingame console
 description: Step-by-step instructions on how to open the in-game console in Aloft
 ---
 
-# Open Aloft ingame console
+# How to Open the In-Game Console in Aloft
 
-5. <strong>Start Aloft.</strong>
+1. <b>Start Aloft</b><br>
+   Launch the game.
 
-2. <strong>Join your Aloft server.</strong>
+2. <b>Join server</b><br>
+   Join your Aloft server.
 
-3. <strong>Press the ```F1``` key to open the in-game console.</strong>
+3. <b>Open console</b><br>
+   Press the `F1` key to open the in-game console.

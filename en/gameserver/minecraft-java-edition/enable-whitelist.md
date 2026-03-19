@@ -13,19 +13,19 @@ A whitelist is a feature in Minecraft that allows server administrators to creat
 
 ## To activate the whitelist, follow these steps
 
-1. <b>Start the console or chat</b>
-    - Open the server console if you have direct access.
-    - Open the in-game chat if you are connected via the game
+1. <b>Open Console</b><br>
+   Open the server console if you have direct access.
+   Open the in-game chat if you are connected via the game.
 
-2. <b>Enter the command to activate the whitelist</b>
-    In the server console or in-game chat, enter the command to activate the whitelist. The command is:
+2. <b>Activate Whitelist</b><br>
+   In the server console or in-game chat, enter the command to activate the whitelist. The command is:
 
     ```
     /whitelist on
     ```
 
-3. <b>Enter the command to add someone to the whitelist</b>
-    In the server console or in-game chat, enter the command to add someone to the whitelist. The command is:
+3. <b>Add Player</b><br>
+   In the server console or in-game chat, enter the command to add someone to the whitelist. The command is:
 
     ```
     /whitelist add player name
@@ -33,5 +33,5 @@ A whitelist is a feature in Minecraft that allows server administrators to creat
 
     Replace ``player name`` with the name of the player you want to add to the whitelist.
 
-4. <b>Confirm the command</b><br>
-    Press "Enter" or click on the button to execute the command.
+4. <b>Confirm Command</b><br>
+   Press "Enter" or click on the button to execute the command.

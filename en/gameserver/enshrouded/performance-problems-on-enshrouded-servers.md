@@ -4,9 +4,9 @@ description: "Performance problems on Enshrouded servers"
 
 # Performance Problems on Enshrouded Servers
 
-::: danger Important Notice
+:::: danger Important Notice
 The Enshrouded server software is currently poorly optimized. This problem affects many hosting providers equally.
-:::
+::::
 
 ## What problems can occur?
 
@@ -25,6 +25,6 @@ Together with other hosting providers, we are in direct contact with the [Enshro
 
 If you are affected by performance issues, please contact us via [support ticket](https://emeraldhost.de/en/support). We can move your server to a more powerful host system **free of charge**.
 
-::: warning Note
+:::: warning Note
 Unfortunately, we cannot guarantee that this will fix the issues in the long term.
-:::
+::::

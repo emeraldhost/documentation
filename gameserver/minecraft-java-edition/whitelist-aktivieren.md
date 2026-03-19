@@ -13,25 +13,24 @@ Eine Whitelist ist eine Funktion in Minecraft, die es Serveradministratoren erm�
 
 ## Um die Whitelist zu aktivieren, folge diesen Schritten
 
-1. <b>Starte die Konsole oder den Chat</b>
-    - Öffne die Server-Konsole, wenn Du direkten Zugang hast.
-    - Öffne den In-Game Chat, wenn Du über das Spiel verbunden bist.
+1. <b>Konsole oder Chat öffnen</b><br>
+   Öffne die Server-Konsole, wenn Du direkten Zugang hast, oder den In-Game Chat, wenn Du über das Spiel verbunden bist.
 
-2. <b>Gib den Befehl ein, um die Whitelist zu aktiveren</b>
-    In der Server-Konsole oder im In-Game Chat gib den Befehl ein, um die Whitelist zu aktiveren. Der Befehl lautet:
+2. <b>Whitelist aktivieren</b><br>
+   In der Server-Konsole oder im In-Game Chat gib den Befehl ein, um die Whitelist zu aktivieren. Der Befehl lautet:
 
-    ```
-    /whitelist on
-    ```
+   ```
+   /whitelist on
+   ```
 
-3. <b>Gib den Befehl ein, um jemanden zur Whitelist hinzuzufügen</b>
-    In der Server-Konsole oder im In-Game Chat gib den Befehl ein, um jemanden zur Whitelist hinzuzufügen. Der Befehl lautet:
+3. <b>Spieler hinzufügen</b><br>
+   In der Server-Konsole oder im In-Game Chat gib den Befehl ein, um jemanden zur Whitelist hinzuzufügen. Der Befehl lautet:
 
-    ```
-    /whitelist add Spielername
-    ```
+   ```
+   /whitelist add Spielername
+   ```
 
-    Ersetze `Spielername` durch den Namen des Spielers, den Du zur Whitelist hinzufügen möchtest.
+   Ersetze `Spielername` durch den Namen des Spielers, den Du zur Whitelist hinzufügen möchtest.
 
-4. <b>Bestätige den Befehl</b><br>
-    Drücke "Enter" oder klicke auf die Schaltfläche, um den Befehl auszuführen.
+4. <b>Befehl bestätigen</b><br>
+   Drücke "Enter" oder klicke auf die Schaltfläche, um den Befehl auszuführen.
