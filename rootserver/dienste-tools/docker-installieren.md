@@ -4,36 +4,74 @@ description: Docker auf einem Linux Rootserver / vServer installieren (Ubuntu/De
 
 # So installierst du Docker auf deinem Linux Rootserver / vServer
 
-1. Aktualisiere zunächst das System deines Linux-Servers. Dazu öffne die Konsole und gib den folgenden Befehl ein.
+Docker ermöglicht es dir, Anwendungen in isolierten Containern auszuführen.
 
-    ```
-    apt update
-    ```
+## Docker installieren
 
-2. Installiere das Paket "docker.io", indem Du folgenden Befehl in der Konsole eingibst:
+1. <b>System aktualisieren</b><br>
+   Aktualisiere zunächst die Paketlisten:
 
-    ```
-    apt install docker.io
-    ```
+   ```bash
+   sudo apt update
+   ```
 
-3. Starte den Docker-Dienst mit folgendem Befehl:
+2. <b>Abhängigkeiten installieren</b><br>
+   Installiere die benötigten Pakete:
 
-    ```
-    sudo systemctl start docker
-    ```
+   ```bash
+   sudo apt install ca-certificates curl gnupg -y
+   ```
 
-4. Konfiguriere den Docker-Dienst, um automatisch gestartet zu werden, wenn das System hochgefahren wird, indem Du folgenden Befehl eingibst:
+3. <b>GPG-Schlüssel hinzufügen</b><br>
+   Füge den offiziellen Docker GPG-Schlüssel hinzu:
 
-    ```
-    sudo systemctl enable docker
-    ```
+   ```bash
+   sudo install -m 0755 -d /etc/apt/keyrings
+   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   sudo chmod a+r /etc/apt/keyrings/docker.gpg
+   ```
 
-4. Überprüfe, ob Docker ordnungsgemäß installiert wurde, mit folgendem Befehl:&#x20;
+   :::: info Hinweis
+   Für Debian ersetze `ubuntu` durch `debian` in der URL.
+   ::::
 
-    ```
-    sudo docker run hello-world
-    ```
+4. <b>Repository hinzufügen</b><br>
+   Füge das offizielle Docker-Repository hinzu:
 
-5. Wenn Docker ordnungsgemäß installiert wurde, wird das Hello-World-Beispiel ausgeführt und eine Bestätigungsmeldung angezeigt.
+   ```bash
+   echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   ```
 
-Nun ist Docker erfolgreich auf deinem Linux-Server installiert und Du kannst Container ausführen und verwalten. Um weitere Docker-Befehle zu lernen, kannst Du die Docker-Dokumentation lesen oder Online-Ressourcen nutzen.
+5. <b>Docker installieren</b><br>
+   Aktualisiere die Paketlisten und installiere Docker:
+
+   ```bash
+   sudo apt update
+   sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+   ```
+
+6. <b>Installation prüfen</b><br>
+   Überprüfe, ob Docker korrekt installiert wurde:
+
+   ```bash
+   sudo docker run hello-world
+   ```
+
+   Wenn die Installation erfolgreich war, wird eine Bestätigungsmeldung angezeigt.
+
+## Nützliche Befehle
+
+| Befehl | Beschreibung |
+|--------|-------------|
+| `docker ps` | Laufende Container anzeigen |
+| `docker ps -a` | Alle Container anzeigen |
+| `docker images` | Heruntergeladene Images anzeigen |
+| `docker start <Container>` | Container starten |
+| `docker stop <Container>` | Container stoppen |
+| `docker rm <Container>` | Container löschen |
+| `docker compose up -d` | Docker Compose starten |
+| `docker compose down` | Docker Compose stoppen |
+
+:::: tip Tipp
+Docker wird automatisch beim Systemstart gestartet. Du kannst den Status mit `sudo systemctl status docker` prüfen.
+::::
