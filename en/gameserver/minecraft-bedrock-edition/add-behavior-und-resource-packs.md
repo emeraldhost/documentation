@@ -1,8 +1,8 @@
 ---
-description: Use of Behavior and Resource Packs on Minecraft Bedrock Server
+description: Step-by-step instructions on how to add behavior and resource packs to your Minecraft Bedrock Edition server.
 ---
 
-# Add Behavior and Resource Packs
+# How to Add Behavior and Resource Packs to Your Minecraft Bedrock Edition Server
 
 ## Prerequisites
 

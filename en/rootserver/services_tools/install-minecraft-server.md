@@ -2,7 +2,7 @@
 description: Install Minecraft server on a Linux VPS (Ubuntu/Debian)
 ---
 
-# Install Minecraft Server
+# How to Install a Minecraft Server on Your Linux VPS
 
 1. <b>Update system</b><br>
    Update your system and install the necessary programs.

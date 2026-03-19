@@ -1,8 +1,8 @@
 ---
-description: Install Docker on a root server (Ubuntu/Debian)
+description: Install Docker on a Linux VPS (Ubuntu/Debian)
 ---
 
-# Install Docker
+# How to Install Docker on Your Linux VPS
 
 1. first update the system of your Linux server. To do this, open the console and enter the following command.
 

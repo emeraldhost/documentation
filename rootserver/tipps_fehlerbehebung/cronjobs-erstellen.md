@@ -1,8 +1,8 @@
 ---
-description: Cronjobs auf einem Rootserver konfigurieren (Ubuntu/Debian)
+description: Cronjobs auf einem Linux Rootserver / vServer erstellen (Ubuntu/Debian)
 ---
 
-# Cronjobs (zeitgesteuerte Aufgaben)
+# So erstellst du Cronjobs auf deinem Linux Rootserver / vServer
 
 Cronjobs sind eine Funktion auf Linux-Systemen, die es ermöglicht, Aufgaben zu automatisieren und zu einem bestimmten Zeitpunkt oder in regelmäßigen Abständen auszuführen. Sie sind besonders nützlich für Kunden, die nicht mit Rootservern vertraut sind, da sie die Möglichkeit bieten, wiederkehrende Aufgaben ohne manuelle Eingriffe durchzuführen.
 

@@ -2,7 +2,7 @@
 description: Step-by-step instructions on how to change the world seed on your Minecraft Bedrock Edition server.
 ---
 
-# Change world seed in Minecraft Bedrock Edition
+# How to Change the World Seed on Your Minecraft Bedrock Edition Server
 
 :::: danger Attention
 Create a backup of your server beforehand, as the current world can be lost by changing the world seed.

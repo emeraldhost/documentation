@@ -1,8 +1,8 @@
 ---
-description: Minecraft Bedrock Edition Tp Command - Step-by-step guide to teleporting on your server.
+description: Step-by-step instructions on how to use the teleport command on your Minecraft Bedrock Edition server.
 ---
 
-# How do I use the teleport command in Minecraft Bedrock Edition in-game chat and console?
+# How to Use the Teleport Command on Your Minecraft Bedrock Edition Server
 
 ## Use teleport commands in the in-game chat
 

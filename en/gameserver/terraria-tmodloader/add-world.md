@@ -1,8 +1,8 @@
 ---
-description: 'Transfer your Terraria world to a Terraria: tModloader server'
+description: Step-by-step instructions on how to add a world to your Terraria tModLoader server.
 ---
 
-# Add world to an Terraria: tModloader server
+# How to Add a World to Your Terraria tModLoader Server
 
 ## Requirements
 

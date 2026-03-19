@@ -1,8 +1,8 @@
 ---
-description: Step-by-step instructions on how to connect to your server via SFTP to edit, upload or delete files.
+description: Step-by-step instructions on how to establish an SFTP connection with your gameserver.
 ---
 
-# Establish SFTP connection with your game server
+# How to Establish an SFTP Connection with Your Gameserver
 
 1. <b>Open dashboard</b><br>
    Open your dashboard and select your server.

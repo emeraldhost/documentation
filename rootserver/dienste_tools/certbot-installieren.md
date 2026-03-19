@@ -1,8 +1,8 @@
 ---
-description: Schritt-für-Schritt Anleitung zur Installation von Certbot auf einem Linux Rootserver / vServer mit Apache2 oder Nginx - sichere deine Website mit SSL-Zertifikaten unter Ubuntu/Debian.
+description: Certbot auf einem Linux Rootserver / vServer installieren (Ubuntu/Debian)
 ---
 
-# Certbot installieren
+# So installierst du Certbot auf deinem Linux Rootserver / vServer
 
 Anleitung zur Installation von Certbot für Apache2 und Nginx auf einem Linux Rootserver / vServer.
 

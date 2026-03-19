@@ -1,9 +1,9 @@
 ---
-title: Adding Mods to Your Conan Exiles Server
-description: Step-by-step instructions on how to add mods to a Conan Exiles server
+title: How to Add Mods to Your Conan Exiles Server
+description: Step-by-step instructions on how to add mods to your Conan Exiles server.
 ---
 
-# Adding Mods to a Conan Exiles Server
+# How to Add Mods to Your Conan Exiles Server
 
 :::: tip Tip
 You can also upload the mod files using an FTP program. Here you will find instructions on how to [establish an SFTP connection](../establish-sftp-connection.md).

@@ -1,8 +1,8 @@
 ---
-description: Configuring cronjobs on a root server (Ubuntu/Debian)
+description: Create cronjobs on a Linux VPS (Ubuntu/Debian)
 ---
 
-# Cronjobs (time-controlled tasks)
+# How to Create Cronjobs on Your Linux VPS
 
 Cronjobs are a function on Linux systems that makes it possible to automate tasks and execute them at a specific time or at regular intervals. They are particularly useful for customers who are not familiar with root servers, as they offer the possibility to perform recurring tasks without manual intervention.
 

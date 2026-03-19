@@ -1,8 +1,8 @@
 ---
-description: Step-by-step guide on how to disable player damage in Euro Truck Simulator 2.
+description: Step-by-step guide on how to disable player damage on your Euro Truck Simulator 2 server.
 ---
 
-# Disable player damage in Euro Truck Simulator 2
+# How to Disable Player Damage on Your Euro Truck Simulator 2 Server
 
 1. <b>Open dashboard</b><br>
    Open your dashboard and select your Euro Truck Simulator 2 server.

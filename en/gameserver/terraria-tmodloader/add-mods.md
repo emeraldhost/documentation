@@ -1,8 +1,8 @@
 ---
-description: 'Installing mods on a Terraria: tModloader server'
+description: Step-by-step instructions on how to add mods to your Terraria tModLoader server.
 ---
 
-# Add mods to an Terraria: tModloader server
+# How to Add Mods to Your Terraria tModLoader Server
 
 ## Prerequisites
 

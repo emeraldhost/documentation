@@ -1,8 +1,8 @@
 ---
-description: Use of the Allowlist in the Minecraft Bedrock Edition
+description: Step-by-step instructions on how to enable the whitelist on your Minecraft Bedrock Edition server.
 ---
 
-# Enable whitelist
+# How to Enable the Whitelist on Your Minecraft Bedrock Edition Server
 
 ## Prerequisites
 

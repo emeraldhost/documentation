@@ -1,9 +1,9 @@
 ---
-title: Deleting a world in Minecraft Bedrock Edition
-description: Step-by-step instructions on how to delete your current world in Minecraft Bedrock Edition and automatically generate a new one.
+title: How to Delete a World on Your Minecraft Bedrock Edition Server
+description: Step-by-step instructions on how to delete a world on your Minecraft Bedrock Edition server.
 ---
 
-# Delete world in Minecraft Bedrock Edition: File Browser & SFTP
+# How to Delete a World on Your Minecraft Bedrock Edition Server
 
 :::: danger Attention
 If you delete the world, it cannot be restored. Create a backup beforehand in case you need the world again later.

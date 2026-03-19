@@ -1,9 +1,9 @@
 ---
-title: Adding a savegame to your V Rising server
-description: Step-by-step instructions on how to add a savegame to your V Rising server
+title: How to Add a Savegame to Your V Rising Server
+description: Step-by-step instructions on how to add a savegame to your V Rising server.
 ---
 
-# Adding a V Rising server savegame
+# How to Add a Savegame to Your V Rising Server
 
 :::: danger Warning
 When you add a new savegame, **your current game progress will be overwritten** and **cannot be restored**.

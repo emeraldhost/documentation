@@ -1,8 +1,8 @@
 ---
-description: Add admins on a Euro Truck Simulator 2 server
+description: Step-by-step instructions on how to add admins to your Euro Truck Simulator 2 server.
 ---
 
-# Add admins to an Euro Truck Simulator 2 server
+# How to Add Admins to Your Euro Truck Simulator 2 Server
 
 ## Requirements
 

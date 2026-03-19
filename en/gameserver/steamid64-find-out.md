@@ -1,8 +1,8 @@
 ---
-description: Step-by-step guide on how to find out your SteamID64.
+description: Step-by-step guide on how to find your SteamID64.
 ---
 
-# How to Find Out Your SteamID64
+# How to Find Your SteamID64
 
 :::: info Info
 When you enter your `Steam username`, multiple accounts may be displayed. Select your account.

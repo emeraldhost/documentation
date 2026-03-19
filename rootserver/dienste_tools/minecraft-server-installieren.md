@@ -2,7 +2,7 @@
 description: Minecraft Server auf einem Linux Rootserver / vServer installieren (Ubuntu/Debian)
 ---
 
-# Minecraft Server installieren
+# So installierst du einen Minecraft Server auf deinem Linux Rootserver / vServer
 
 Anleitung zur Installation eines Minecraft Servers auf einem Linux Rootserver / vServer.
 

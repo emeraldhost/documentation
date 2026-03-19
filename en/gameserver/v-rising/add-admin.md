@@ -1,8 +1,8 @@
 ---
-description: Step-by-step instructions on how to add admins to your V Rising server
+description: Step-by-step instructions on how to add an admin to your V Rising server.
 ---
 
-# Adding a V Rising Server Admin
+# How to Add an Admin to Your V Rising Server
 
 :::: info Info
 If you want to add multiple admins, simply paste **multiple Steam64IDs** - each on a **new line**.

@@ -1,9 +1,9 @@
 ---
-title: Uploading a world in Minecraft Bedrock Edition
-description: Step-by-step instructions on how to upload your own world in Minecraft Bedrock Edition and configure the server correctly.
+title: How to Upload a World to Your Minecraft Bedrock Edition Server
+description: Step-by-step instructions on how to upload a world to your Minecraft Bedrock Edition server.
 ---
 
-# Upload world in Minecraft Bedrock Edition: File Browser & SFTP
+# How to Upload a World to Your Minecraft Bedrock Edition Server
 
 :::: danger Attention
 The world files must not be an archive such as ```.zip``` or ```.mcworld```. Unzip the world beforehand. Make sure that the folder name remains unchanged.

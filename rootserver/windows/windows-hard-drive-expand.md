@@ -1,8 +1,8 @@
 ---
-description: Erweiterung der C:-Festplatte unter Windows Server
+description: C:-Festplatte auf einem Windows Server erweitern
 ---
 
-# Erweiterung der C:-Festplatte unter Windows Server
+# So erweiterst du die C:-Festplatte auf deinem Windows Server
 
 Bei der Bereitstellung eines Windows Servers kann es vorkommen, dass der gesamte verfügbare Speicherplatz nicht automatisch der `C:`-Partition zugewiesen wird. Diese Anleitung beschreibt, wie Du den nicht zugewiesenen Speicherplatz mit einem bereitgestellten Skript automatisch Deiner `C:`-Festplatte hinzufügen kannst.
 

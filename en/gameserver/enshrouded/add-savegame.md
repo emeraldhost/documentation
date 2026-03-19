@@ -1,8 +1,8 @@
 ---
-description: 'How to upload your own world to an Enshrouded server'
+description: Step-by-step instructions on how to add a savegame to your Enshrouded server.
 ---
 
-# Upload savegame to an Enshrouded server
+# How to Add a Savegame to Your Enshrouded Server
 
 ## Prerequisites
 

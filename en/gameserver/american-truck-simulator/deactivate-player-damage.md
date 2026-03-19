@@ -1,8 +1,8 @@
 ---
-description: Step-by-step guide on how to disable player damage in American Truck Simulator.
+description: Step-by-step guide on how to disable player damage on your American Truck Simulator server.
 ---
 
-# Disable player damage in American Truck Simulator
+# How to Disable Player Damage on Your American Truck Simulator Server
 
 1. <b>Open dashboard</b><br>
    Open your dashboard and select your American Truck Simulator server.

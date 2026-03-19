@@ -1,8 +1,8 @@
 ---
-description: Step-by-step guide on how to install and activate mods in Project Zomboid.
+description: Step-by-step guide on how to add mods to your Project Zomboid server.
 ---
 
-# Adding Mods to Project Zomboid: File Browser & SFTP
+# How to Add Mods to Your Project Zomboid Server
 
 :::: info Info
 You can find the **Workshop-ID** and **Mod-ID** on the **Steam Workshop page** for each mod.

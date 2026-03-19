@@ -1,8 +1,8 @@
 ---
-description: Step-by-step instructions on how to change the map on your Conan Exiles server
+description: Step-by-step instructions on how to change the map on your Conan Exiles server.
 ---
 
-# Change Conan Exiles Server Map
+# How to Change the Map on Your Conan Exiles Server
 
 :::: tip Tip
 You can also edit the files using an FTP program. Here you will find instructions on how to [establish an SFTP connection](../establish-sftp-connection.md).

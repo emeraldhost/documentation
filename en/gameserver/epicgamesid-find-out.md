@@ -1,8 +1,8 @@
 ---
-description: Step-by-step instructions on how to find out your Epic Games ID.
+description: Step-by-step instructions on how to find your Epic Games ID.
 ---
 
-# Find out your Epic Games ID
+# How to Find Your Epic Games ID
 
 ## Find out Epic Games ID via the web browser
 

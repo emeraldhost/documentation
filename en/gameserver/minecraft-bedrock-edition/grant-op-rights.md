@@ -1,8 +1,8 @@
 ---
-description: Step-by-step instructions on how to assign OP rights in Minecraft Bedrock Edition via the in-game chat, the server console or the permissions.json file.
+description: Step-by-step instructions on how to grant OP rights on your Minecraft Bedrock Edition server.
 ---
 
-# Assign OP rights in Minecraft Bedrock Edition: In-game chat, server console & permissions.json
+# How to Grant OP Rights on Your Minecraft Bedrock Edition Server
 
 ## Assign OP rights via the ingame chat
 

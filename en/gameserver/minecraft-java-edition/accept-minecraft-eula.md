@@ -1,8 +1,8 @@
 ---
-description: 'Instructions for accepting the Minecraft EULA in the eula.txt file'
+description: Step-by-step instructions on how to accept the Minecraft EULA on your Minecraft Java Edition server.
 ---
 
-# Accept the Minecraft EULA
+# How to Accept the Minecraft EULA on Your Minecraft Java Edition Server
 
 ## Requirements
 

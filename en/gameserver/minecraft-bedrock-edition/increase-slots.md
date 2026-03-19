@@ -1,8 +1,8 @@
 ---
-description: Minecraft Bedrock Edition Increase game server slots - step-by-step guide for vanilla servers.
+description: Step-by-step instructions on how to increase the slots on your Minecraft Bedrock Edition server.
 ---
 
-# How can I increase the slots of my Minecraft Bedrock Edition server?
+# How to Increase the Slots on Your Minecraft Bedrock Edition Server
 
 1. <b>Open dashboard</b><br>
    Open your dashboard and select your Minecraft Bedrock Edition server.

@@ -1,8 +1,8 @@
 ---
-description: Add admins on a American Truck Simulator server
+description: Step-by-step instructions on how to add admins to your American Truck Simulator server.
 ---
 
-# Add admins to an American Truck Simulator server
+# How to Add Admins to Your American Truck Simulator Server
 
 ## Requirements
 

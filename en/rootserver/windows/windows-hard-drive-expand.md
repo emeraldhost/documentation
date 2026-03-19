@@ -1,8 +1,8 @@
 ---
-description: Expanding the C:-Drive on Windows Server
+description: Expand the C: drive on a Windows Server
 ---
 
-# Expanding the C: Drive on Windows Server
+# How to Expand the C: Drive on Your Windows Server
 
 When deploying a Windows Server, it may happen that the entire available storage space is not automatically assigned to the `C:` partition. This guide describes how you can automatically add the unallocated space to your `C:` drive using a provided script.
 

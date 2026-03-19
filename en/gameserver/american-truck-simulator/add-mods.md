@@ -1,8 +1,8 @@
 ---
-description: Step-by-step instructions on how to install and activate Steam Workshop and external mods on an American Truck Simulator server.
+description: Step-by-step instructions on how to add mods to your American Truck Simulator server.
 ---
 
-# Install and activate mods (Steam Workshop and external) on your American Truck Simulator server
+# How to Add Mods to Your American Truck Simulator Server
 
 ## Add Steam Workshop mods
 
