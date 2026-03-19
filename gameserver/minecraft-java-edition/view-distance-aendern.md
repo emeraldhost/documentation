@@ -6,7 +6,7 @@ description: View-Distance auf einem Minecraft Java Edition Server ändern
 
 ## Was ist die View-Distance?
 
-Die ```view-distance``` bestimmt, wie viele Chunks ein Spieler rund um sich sehen kann. Ein Chunk ist in Minecraft ein Bereich der Welt von 16x16 Blöcken. Das bedeutet: Ist die View-Distance auf 10 gesetzt, sieht der Spieler in einem Quadrat von 21x21 Chunks - also 10 Chunks in jede Richtung. Die Sichtweite beeinflusst nur das Laden und Anzeigen der Welt, nicht die aktive Berechnung von z.B. Mobs, Redstone oder dem Wachstum der Pflanzen.
+Die `view-distance` bestimmt, wie viele Chunks ein Spieler rund um sich sehen kann. Ein Chunk ist in Minecraft ein Bereich der Welt von 16x16 Blöcken. Das bedeutet: Ist die View-Distance auf 10 gesetzt, sieht der Spieler in einem Quadrat von 21x21 Chunks - also 10 Chunks in jede Richtung. Die Sichtweite beeinflusst nur das Laden und Anzeigen der Welt, nicht die aktive Berechnung von z.B. Mobs, Redstone oder dem Wachstum der Pflanzen.
 
 ## Welche Auswirkungen hat die Einstellung auf meinen Server?
 
@@ -16,20 +16,23 @@ Die ```view-distance``` bestimmt, wie viele Chunks ein Spieler rund um sich sehe
 
 ## Wie ändere ich die View-Distance?
 
-1. <b>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</b><br>
+1. <b>Per SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.
 
-2. <b>Suche nach folgendem Eintrag:</b><br>
+2. <b>Eintrag suchen</b><br>
+   Suche nach folgendem Eintrag:
 
 ```
 view-distance=10
 ```
 
-3. <b>Ändere den Wert nach Wunsch (z.B. 8 oder 6).</b><br>
+3. <b>Wert ändern</b><br>
+   Ändere den Wert nach Wunsch (z.B. 8 oder 6).
 
-4. <b>Speichere die Änderungen und starte den Server neu.</b><br>
+4. <b>Server neu starten</b><br>
+   Speichere die Änderungen und starte den Server neu.
 
 :::: tip Empfehlung
-
 - 6–8 → Bei großen Spielerzahlen & wenig Serverleistung<br>
 - 10 → Standard-Einstellung<br>
 - 10+ → Nur bei starker Serverleistung

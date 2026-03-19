@@ -16,18 +16,21 @@ Alle Spieler, die den Voice Chat nutzen möchten, müssen den [Simple Voice Chat
 
 ## Schritt 1: Mod/Plugin installieren
 
-1. <b>Lade [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) für deine Server-Version herunter.</b><br>
+1. <b>Mod herunterladen</b><br>
+   Lade [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) für deine Server-Version herunter.
    - Für **Fabric/Forge**: Lade die Mod-Version herunter und lege sie in den `mods`-Ordner.
    - Für **Paper/Spigot/Bukkit**: Lade die Plugin-Version herunter und lege sie in den `plugins`-Ordner.
 
-2. <b>Starte deinen Server neu, damit die Config-Dateien erstellt werden.</b><br>
+2. <b>Server neu starten</b><br>
+   Starte deinen Server neu, damit die Config-Dateien erstellt werden.
 
 ## Schritt 2: Port freischalten
 
-1. <b>Öffne den Abschnitt "Netzwerk" in deiner Verwaltung.</b><br>
-   - Dort findest du eine Übersicht aller verfügbaren Ports.
+1. <b>Netzwerk öffnen</b><br>
+   Öffne den Abschnitt "Netzwerk" in deiner Verwaltung. Dort findest du eine Übersicht aller verfügbaren Ports.
 
-2. <b>Wähle einen freien Port aus und notiere ihn dir.</b><br>
+2. <b>Port auswählen</b><br>
+   Wähle einen freien Port aus und notiere ihn dir.
 
 :::: warning Wichtig
 Verwende **nicht** den Standard-Port deines Servers! Simple Voice Chat benötigt einen separaten UDP-Port.
@@ -35,21 +38,25 @@ Verwende **nicht** den Standard-Port deines Servers! Simple Voice Chat benötigt
 
 ## Schritt 3: Config-Datei anpassen
 
-1. <b>Navigiere im Datei-Browser zur Config-Datei von Simple Voice Chat.</b><br>
+1. <b>Config-Datei öffnen</b><br>
+   Navigiere im Datei-Browser zur Config-Datei von Simple Voice Chat.
    - **Fabric/Forge**: `config/voicechat/voicechat-server.properties`
    - **Paper/Spigot/Bukkit**: `plugins/voicechat/voicechat-server.properties`
 
-2. <b>Öffne die Datei und suche nach der Zeile:</b><br>
+2. <b>Port-Zeile suchen</b><br>
+   Öffne die Datei und suche nach der Zeile:
    ```
    port=24454
    ```
 
-3. <b>Ersetze `24454` mit deinem gewählten Port aus Schritt 2.</b><br>
+3. <b>Port ersetzen</b><br>
+   Ersetze `24454` mit deinem gewählten Port aus Schritt 2.
    ```
    port=DEIN_PORT
    ```
 
-4. <b>Speichere die Änderungen.</b><br>
+4. <b>Änderungen speichern</b><br>
+   Speichere die Datei.
 
 :::: tip Tipp
 Die restlichen Einstellungen wie `bind_address` oder `voice_host` kannst du auf den Standardwerten belassen – diese funktionieren für die meisten Server.
@@ -57,7 +64,8 @@ Die restlichen Einstellungen wie `bind_address` oder `voice_host` kannst du auf 
 
 ## Schritt 4: Server neu starten
 
-1. <b>Starte deinen Server neu, damit die Änderungen übernommen werden.</b><br>
+1. <b>Server neu starten</b><br>
+   Starte deinen Server neu, damit die Änderungen übernommen werden.
 
-2. <b>Überprüfe in der Server-Konsole, ob Simple Voice Chat erfolgreich gestartet wurde.</b><br>
-   - Du solltest eine Meldung sehen wie: `Voice chat server started on port XXXXX`
+2. <b>Konsole prüfen</b><br>
+   Überprüfe in der Server-Konsole, ob Simple Voice Chat erfolgreich gestartet wurde. Du solltest eine Meldung sehen wie: `Voice chat server started on port XXXXX`

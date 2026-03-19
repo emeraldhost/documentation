@@ -15,35 +15,32 @@ Make sure the mods are compatible with your current server version. Incompatible
 
 ## Steps
 
-1. <b>Subscribe to the desired mods in the [Steam Workshop](https://steamcommunity.com/app/440900/workshop/).</b><br>
-   - Open the Steam Workshop for Conan Exiles and subscribe to the mods you want to use on your server.
-   - Steam will automatically download the mods to your local PC.
+1. <b>Subscribe to mods</b><br>
+   Open the [Steam Workshop](https://steamcommunity.com/app/440900/workshop/) for Conan Exiles and subscribe to the mods you want to use on your server. Steam will automatically download the mods to your local PC.
 
-2. <b>Locate the downloaded mod files on your PC.</b><br>
-   - The mod files are located in the folder:
-     ```
-     C:\Program Files (x86)\Steam\steamapps\workshop\content\440900
-     ```
-   - Inside the numbered subfolders, you will find the `.pak` files – these are the ones you need.
+2. <b>Locate mod files</b><br>
+   The downloaded mod files are located on your PC in the folder:
+   ```
+   C:\Program Files (x86)\Steam\steamapps\workshop\content\440900
+   ```
+   Inside the numbered subfolders, you will find the `.pak` files – these are the ones you need.
 
-3. <b>Open your server in the file browser and create the Mods folder.</b><br>
-   - Navigate to the `ConanSandbox` folder.
-   - Create a new folder named `Mods`.
+3. <b>Create Mods folder</b><br>
+   Open your server in the file browser and navigate to the `ConanSandbox` folder. Create a new folder named `Mods`.
 
-4. <b>Upload the .pak files to the Mods folder.</b><br>
-   - Copy all `.pak` files of your desired mods to the `ConanSandbox/Mods` folder.
+4. <b>Upload mods</b><br>
+   Copy all `.pak` files of your desired mods to the `ConanSandbox/Mods` folder.
 
-5. <b>Create the modlist.txt file.</b><br>
-   - Create a new file named `modlist.txt` in the `ConanSandbox/Mods` folder.
-   - Add each mod with an asterisk (*) at the beginning – each mod on a new line:
-     ```
-     *ModName1.pak
-     *ModName2.pak
-     *ModName3.pak
-     ```
+5. <b>Create modlist.txt</b><br>
+   Create a new file named `modlist.txt` in the `ConanSandbox/Mods` folder. Add each mod with an asterisk (*) at the beginning – each mod on a new line:
+   ```
+   *ModName1.pak
+   *ModName2.pak
+   *ModName3.pak
+   ```
 
-6. <b>Save the file and restart your server.</b><br>
-   - After restarting, the mods will be loaded automatically.
+6. <b>Restart server</b><br>
+   Save the file and restart your server. After restarting, the mods will be loaded automatically.
 
 :::: info Info
 All players who want to join your server must have the same mods installed.

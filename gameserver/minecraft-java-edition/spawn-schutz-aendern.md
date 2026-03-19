@@ -10,17 +10,21 @@ Der Spawn-Schutz (Spawn Protection) verhindert, dass Spieler ohne OP-Rechte Blö
 
 ## Wie ändere ich den Spawn-Schutz?
 
-1. <b>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</b><br>
+1. <b>Per SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.
 
-2. <b>Suche nach folgendem Eintrag:</b><br>
+2. <b>Eintrag suchen</b><br>
+   Suche nach folgendem Eintrag:
 
 ```
 spawn-protection=16
 ```
 
-3. <b>Ändere den Wert nach Wunsch.</b><br>
+3. <b>Wert ändern</b><br>
+   Ändere den Wert nach Wunsch.
 
-4. <b>Speichere die Änderungen und starte den Server neu.</b><br>
+4. <b>Server neu starten</b><br>
+   Speichere die Änderungen und starte den Server neu.
 
 | Wert | Beschreibung |
 |------|--------------|

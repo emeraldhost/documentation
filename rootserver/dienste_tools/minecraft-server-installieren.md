@@ -1,13 +1,16 @@
 ---
-description: Minecraft Server auf einem Rootserver installieren (Ubuntu/Debian)
+description: Minecraft Server auf einem Linux Rootserver / vServer installieren (Ubuntu/Debian)
 ---
 
 # Minecraft Server installieren
 
-1. <b>System aktualisieren und notwendige Programme installieren</b><br>
+Anleitung zur Installation eines Minecraft Servers auf einem Linux Rootserver / vServer.
+
+1. <b>System aktualisieren</b><br>
+   Aktualisiere zunächst das System und installiere die notwendigen Programme:
 
     ```
-    apt update && upgrade -y
+    apt update && apt upgrade -y
     ```
 
     <details>
@@ -68,7 +71,8 @@ description: Minecraft Server auf einem Rootserver installieren (Ubuntu/Debian)
 
     </details>
 
-2. <b>Subuser für den Server anlegen und anmelden</b><br>
+2. <b>Benutzer anlegen</b><br>
+   Erstelle einen eigenen Benutzer für den Minecraft Server und melde dich an:
 
     ```
     adduser minecraft --disabled-login
@@ -78,7 +82,8 @@ description: Minecraft Server auf einem Rootserver installieren (Ubuntu/Debian)
     su minecraft -l
     ```
 
-3. <b>Versionsauswahl (beispielsweise mit Spigot 1.19.3)</b><br>
+3. <b>Version herunterladen</b><br>
+   Wähle deine gewünschte Server-Version (beispielsweise Spigot 1.19.3):
 
     - [Spigot Download](https://getbukkit.org/download/spigot)
     - [Craftbukkit Download](https://getbukkit.org/download/craftbukkit)
@@ -88,28 +93,28 @@ description: Minecraft Server auf einem Rootserver installieren (Ubuntu/Debian)
     ```
 
 4. <b>Startdatei erstellen</b><br>
-
-    Erstelle eine start.sh mit:
+   Erstelle eine start.sh mit folgendem Befehl:
 
     ```
     nano start.sh
     ```
 
-    Kopiere nun folgende Zeile und füge sie mit linksklick ein:
+    Kopiere nun folgende Zeile und füge sie mit Linksklick ein:
 
     ```
      screen -AmdS minecraft java -Xms1G -Xmx1G -jar spigot-1.19.3.jar
     ```
 
-    :::: warning
-    ändere bei -Xmx1G die 1 auf die anzahl deines Ram's z.B. 10 (Server mit 10 Gigabyte Ram)
+    :::: warning Hinweis
+    Ändere bei -Xmx1G die 1 auf die Anzahl deines RAMs, z.B. 10 (Server mit 10 Gigabyte RAM).
     ::::
 
-    :::: info
-    Speichere nun die Eingabe mit **STRG + O** und schließe das Fenster mit **STRG + X**
+    :::: info Info
+    Speichere nun die Eingabe mit **STRG + O** und schließe das Fenster mit **STRG + X**.
     ::::
 
-5. <b>Lizenzen akzeptieren und Dateirechte vergeben</b><br>
+5. <b>Lizenz akzeptieren</b><br>
+   Akzeptiere die EULA und vergib die nötigen Dateirechte:
 
     ```
     echo "eula = true" > eula.txt
@@ -120,11 +125,12 @@ description: Minecraft Server auf einem Rootserver installieren (Ubuntu/Debian)
     ```
 
 6. <b>Server starten</b><br>
+   Starte den Minecraft Server:
 
     ```
     ./start.sh
     ```
 
-    :::: info
+    :::: info Info
     Die Konsole kann mit "screen -r minecraft" geöffnet werden.
     ::::

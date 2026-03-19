@@ -10,17 +10,21 @@ Spawn protection prevents players without OP rights from breaking or placing blo
 
 ## How do I change the spawn protection?
 
-1. <b>Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.</b><br>
+1. <b>Connect via SFTP</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.
 
-2. <b>Search for the following entry:</b><br>
+2. <b>Find the entry</b><br>
+   Search for the following entry:
 
 ```
 spawn-protection=16
 ```
 
-3. <b>Change the value as desired.</b><br>
+3. <b>Change the value</b><br>
+   Change the value as desired.
 
-4. <b>Save the changes and restart the server.</b><br>
+4. <b>Restart the server</b><br>
+   Save the changes and restart the server.
 
 | Value | Description |
 |-------|-------------|

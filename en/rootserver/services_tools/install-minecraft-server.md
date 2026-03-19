@@ -1,10 +1,11 @@
 ---
-description: Install Minecraft server on a root server (Ubuntu/Debian)
+description: Install Minecraft server on a Linux VPS (Ubuntu/Debian)
 ---
 
 # Install Minecraft Server
 
-1. <b>Update your system and install necessary programs</b><br>
+1. <b>Update system</b><br>
+   Update your system and install the necessary programs.
 
     ```
     apt update && upgrade -y
@@ -68,7 +69,8 @@ description: Install Minecraft server on a root server (Ubuntu/Debian)
 
     </details>
 
-2. <b>Create a subuser for the server and log in</b><br>
+2. <b>Create subuser</b><br>
+   Create a subuser for the Minecraft server and log in with it.
 
     ```
     adduser minecraft --disabled-login
@@ -78,7 +80,8 @@ description: Install Minecraft server on a root server (Ubuntu/Debian)
     su minecraft -l
     ```
 
-3. <b>Version selection (for example with Spigot 1.19.3)</b><br>
+3. <b>Select version</b><br>
+   Choose a server version to download (for example Spigot 1.19.3).
 
     - [Spigot Download](https://getbukkit.org/download/spigot)
     - [Craftbukkit Download](https://getbukkit.org/download/craftbukkit)
@@ -88,28 +91,28 @@ description: Install Minecraft server on a root server (Ubuntu/Debian)
     ```
 
 4. <b>Create start file</b><br>
-
-    Create a start.sh with:
+   Create a start.sh file for launching the server.
 
     ```
     nano start.sh
     ```
 
-    Now copy the following line and paste it with a left click:
+    Copy the following line and paste it with a left click:
 
     ```
      screen -AmdS minecraft java -Xms1G -Xmx1G -jar spigot-1.19.3.jar
     ```
 
     :::: warning
-    change the 1 in -Xmx1G to the number of your ram e.g. 10 (server with 10 gigabyte ram)
+    Change the 1 in -Xmx1G to the number of your RAM e.g. 10 (server with 10 gigabyte RAM).
     ::::
 
     :::: info
-    Now save the entry with **CTRL + O** and close the window with **CTRL + X**
+    Save the entry with **CTRL + O** and close the window with **CTRL + X**.
     ::::
 
-5. <b>Accept licenses and assign file rights</b><br>
+5. <b>Accept licenses</b><br>
+   Accept the EULA and assign the correct file rights.
 
     ```
     echo "eula = true" > eula.txt
@@ -120,6 +123,7 @@ description: Install Minecraft server on a root server (Ubuntu/Debian)
     ```
 
 6. <b>Start server</b><br>
+   Run the start script to launch your Minecraft server.
 
     ```
     ./start.sh

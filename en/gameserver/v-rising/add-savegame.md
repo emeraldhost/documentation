@@ -14,14 +14,20 @@ Be sure to create a **backup** if you want to reuse your current save game later
 You can find a local save game in the following directory on your PC: ```C:\Users\<username>\AppData\LocalLow\Stunlock Studios\VRising\Saves```
 ::::
 
-1. <b>Open your dashboard and select your V Rising server.</b><br>
+1. <b>Open dashboard</b><br>
+   Open your dashboard and select your V Rising server.
 
-2. <b>Stop your V Rising server.</b><br>
+2. <b>Stop server</b><br>
+   Stop your V Rising server.
 
-2. <b>Navigate to the ```Saves/v1``` folder.</b><br>
+3. <b>Navigate to folder</b><br>
+   Navigate to the ```Saves/v1``` folder.
 
-3. <b>Open the folder for your save game.</b><br>
+4. <b>Open savegame folder</b><br>
+   Open the folder for your save game.
 
-4. <b>Delete the existing files and upload the new files for your desired save game.</b><br>
+5. <b>Upload files</b><br>
+   Delete the existing files and upload the new files for your desired save game.
 
-5. <b>Restart your server for the changes to take effect.</b><br>
+6. <b>Restart server</b><br>
+   Restart your server for the changes to take effect.

@@ -9,12 +9,17 @@ description: Step-by-step instructions on how to delete your current world in Mi
 If you delete the world, it cannot be restored. Create a backup beforehand in case you need the world again later.
 ::::
 
-1. <b>Stop your Minecraft Bedrock Edition server.</b><br>
+1. <b>Stop server</b><br>
+   Stop your Minecraft Bedrock Edition server.
 
-2. <b>Open your dashboard, select your server and go to the file browser **or** connect to your server via SFTP. You can find instructions here: [Establish SFTP connection](../establish-sftp-connection.md).</b><br>
+2. <b>Open file browser</b><br>
+   Open your dashboard, select your server and go to the file browser **or** connect to your server via SFTP. You can find instructions here: [Establish SFTP connection](../establish-sftp-connection.md).
 
-3. <b>Locate the folder ```worlds``` in the main folder.</b><br>
+3. <b>Locate folder</b><br>
+   Find the `worlds` folder in the main directory.
 
-3. <b>Delete the folder ```Bedrock level``` there.</b><br>
+4. <b>Delete world</b><br>
+   Delete the `Bedrock level` folder.
 
-4. <b>Restart your server. A new world will then be generated automatically.</b><br>
+5. <b>Restart server</b><br>
+   Restart your server. A new world will then be generated automatically.

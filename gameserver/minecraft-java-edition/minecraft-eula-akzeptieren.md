@@ -2,7 +2,7 @@
 description: 'Anleitung zum Akzeptieren der Minecraft EULA in der eula.txt-Datei'
 ---
 
-# Akzeptieren der Minecraft EULA
+# Minecraft EULA akzeptieren
 
 ## Voraussetzungen
 
@@ -11,21 +11,17 @@ description: 'Anleitung zum Akzeptieren der Minecraft EULA in der eula.txt-Datei
 
 ## Schritte
 
-1. <b>Suche die eula.txt-Datei</b>
-    - Im Hauptverzeichnis des Minecraft Servers.
-    - Falls nicht vorhanden, Server einmal starten, um die Datei zu erstellen.
+1. <b>Datei suchen</b><br>
+   Suche die `eula.txt`-Datei im Hauptverzeichnis des Minecraft Servers. Falls die Datei nicht vorhanden ist, starte den Server einmal, um sie automatisch erstellen zu lassen.
 
-2. <b>Öffne die eula.txt-Datei</b>
-    - Mit einem Texteditor wie Notepad oder Notepad++.
+2. <b>Datei öffnen</b><br>
+   Öffne die `eula.txt`-Datei mit einem Texteditor wie Notepad oder Notepad++.
 
-3. <b>Ändere den Wert der EULA</b>
-    - Suche die Zeile `eula=false`.
-    - Ändere diese in `eula=true`, um die [Minecraft EULA](https://www.minecraft.net/eula) zu akzeptieren.
+3. <b>EULA akzeptieren</b><br>
+   Suche die Zeile `eula=false` und ändere diese in `eula=true`, um die [Minecraft EULA](https://www.minecraft.net/eula) zu akzeptieren.
 
-4. <b>Speichere die Änderungen</b>
-    - Speichere die Datei und schließe den Editor.
+4. <b>Änderungen speichern</b><br>
+   Speichere die Datei und schließe den Editor.
 
-5. <b>Starte den Minecraft Server neu</b>
-    - Nach dem Speichern der EULA-Änderung.
-
-### Mit diesen Schritten hast Du die Minecraft EULA akzeptiert und kannst Deinen Server starten
+5. <b>Server neustarten</b><br>
+   Starte den Minecraft Server neu, damit die Änderung übernommen wird.
