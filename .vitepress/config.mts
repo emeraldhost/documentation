@@ -366,12 +366,12 @@ export default defineConfig({
                 text: 'Dienste & Tools',
                 collapsed: true,
                 items: [
-                  { text: 'Certbot installieren', link: '/rootserver/dienste_tools/certbot-installieren' },
-                  { text: 'Docker installieren', link: '/rootserver/dienste_tools/docker-installieren' },
-                  { text: 'Minecraft Server installieren', link: '/rootserver/dienste_tools/minecraft-server-installieren' },
-                  { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/rootserver/dienste_tools/phpmyadmin-apache2-und-mysql' },
-                  { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/dienste_tools/teamspeak-3-server-installieren' },
-                  { text: 'Webserver installieren', link: '/rootserver/dienste_tools/webserver-installieren' }
+                  { text: 'Certbot installieren', link: '/rootserver/dienste-tools/certbot-installieren' },
+                  { text: 'Docker installieren', link: '/rootserver/dienste-tools/docker-installieren' },
+                  { text: 'Minecraft Server installieren', link: '/rootserver/dienste-tools/minecraft-server-installieren' },
+                  { text: 'phpMyAdmin, Apache2 und MySQL installieren', link: '/rootserver/dienste-tools/phpmyadmin-apache2-und-mysql' },
+                  { text: 'TeamSpeak 3 Server installieren', link: '/rootserver/dienste-tools/teamspeak-3-server-installieren' },
+                  { text: 'Webserver installieren', link: '/rootserver/dienste-tools/webserver-installieren' }
                 ]
               },
               {
@@ -820,12 +820,12 @@ export default defineConfig({
                 text: 'Services & Tools',
                 collapsed: true,
                 items: [
-                  { text: 'Install Certbot', link: '/en/rootserver/services_tools/install-certbot' },
-                  { text: 'Install Docker', link: '/en/rootserver/services_tools/install-docker' },
-                  { text: 'Install Minecraft Server', link: '/en/rootserver/services_tools/install-minecraft-server' },
-                  { text: 'Install phpMyAdmin, Apache2 und MySQL', link: '/en/rootserver/services_tools/install-phpmyadmin-apache2-und-mysql' },
-                  { text: 'Install TeamSpeak 3 Server', link: '/en/rootserver/services_tools/install-teamspeak-3-server' },
-                  { text: 'Install Webserver', link: '/en/rootserver/services_tools/install-webserver' }
+                  { text: 'Install Certbot', link: '/en/rootserver/services-tools/install-certbot' },
+                  { text: 'Install Docker', link: '/en/rootserver/services-tools/install-docker' },
+                  { text: 'Install Minecraft Server', link: '/en/rootserver/services-tools/install-minecraft-server' },
+                  { text: 'Install phpMyAdmin, Apache2 und MySQL', link: '/en/rootserver/services-tools/install-phpmyadmin-apache2-und-mysql' },
+                  { text: 'Install TeamSpeak 3 Server', link: '/en/rootserver/services-tools/install-teamspeak-3-server' },
+                  { text: 'Install Webserver', link: '/en/rootserver/services-tools/install-webserver' }
                 ]
               },
               {
