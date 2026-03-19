@@ -6,11 +6,11 @@ description: Schritt-für-Schritt Anleitung zur Installation von Certbot auf ein
 
 Anleitung zur Installation von Certbot für Apache2 und Nginx auf einem Rootserver.
 
-Mit <strong>Certbot</strong> kannst du kostenlose TLS/SSL-Zertifikate von Let's Encrypt einrichten.
+Mit <b>Certbot</b> kannst du kostenlose TLS/SSL-Zertifikate von Let's Encrypt einrichten.
 
 ## Certbot via Snap (empfohlen)
 
-1. <strong>System aktualisieren</strong>
+1. <b>System aktualisieren</b><br>
 
     Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
 
@@ -18,7 +18,7 @@ Mit <strong>Certbot</strong> kannst du kostenlose TLS/SSL-Zertifikate von Let's 
     apt update && apt upgrade -y
     ```
 
-2. <strong>Snap installieren</strong>
+2. <b>Snap installieren</b><br>
 
     Installiere Snap, indem du folgende Befehle in der Konsole eingibst:
 
@@ -28,33 +28,33 @@ Mit <strong>Certbot</strong> kannst du kostenlose TLS/SSL-Zertifikate von Let's 
     sudo snap refresh core
     ```
 
-3. <strong>Certbot installieren</strong>
+3. <b>Certbot installieren</b><br>
 
     ```
     sudo snap install --classic certbot
     ```
 
-4. <strong>Certbot-Befehl verfügbar machen</strong>
+4. <b>Certbot-Befehl verfügbar machen</b><br>
 
     ```
     sudo ln -s /snap/bin/certbot /usr/bin/certbot
     ```
 
-5. <strong>Certbot verwenden</strong>
+5. <b>Certbot verwenden</b><br>
 
-    - <strong>Für Apache2:</strong>
+    - <b>Für Apache2:</b>
 
     ```
     sudo certbot --apache
     ```
 
-    - <strong>Für Nginx:</strong>
+    - <b>Für Nginx:</b>
 
     ```
     sudo certbot --nginx
     ```
 
-6. <strong>Zertifikate überprüfen</strong>
+6. <b>Zertifikate überprüfen</b><br>
 
     - Zertifikate findest du unter:
 
@@ -68,7 +68,7 @@ Mit <strong>Certbot</strong> kannst du kostenlose TLS/SSL-Zertifikate von Let's 
     sudo certbot certificates
     ```
 
-7. <strong>Automatische Verlängerung prüfen</strong>
+7. <b>Automatische Verlängerung prüfen</b><br>
 
     Certbot erstellt automatisch einen Cronjob. Mit folgendem Befehl kannst du testen, ob die automatische Verlängerung richtig funktioniert:
 
@@ -78,11 +78,11 @@ Mit <strong>Certbot</strong> kannst du kostenlose TLS/SSL-Zertifikate von Let's 
 
 ## Certbot via APT
 
-::: warning :warning: Hinweis
+:::: warning :warning: Hinweis
 Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap nicht möglich ist.
-:::
+::::
 
-1. <strong>System aktualisieren</strong>
+1. <b>System aktualisieren</b><br>
 
     Aktualisiere zunächst das System deines Rootservers. Öffne dazu die Konsole und gib den folgenden Befehl ein:
 
@@ -90,7 +90,7 @@ Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap n
     apt update && apt upgrade -y
     ```
 
-2. <strong>Certbot installieren</strong>
+2. <b>Certbot installieren</b><br>
 
     - Für Apache2:
 
@@ -104,7 +104,7 @@ Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap n
     sudo apt install certbot python3-certbot-nginx
     ```
 
-3. <strong>Certbot verwenden</strong>
+3. <b>Certbot verwenden</b><br>
 
     - Für Apache2:
 
@@ -118,7 +118,7 @@ Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap n
     sudo certbot --nginx
     ```
 
-4. <strong>Zertifikate überprüfen</strong>
+4. <b>Zertifikate überprüfen</b><br>
 
     - Zertifikate findest du unter:
 
@@ -132,7 +132,7 @@ Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap n
     sudo certbot certificates
     ```
 
-5. <strong>Automatische Verlängerung prüfen</strong>
+5. <b>Automatische Verlängerung prüfen</b><br>
 
     Certbot erstellt automatisch einen Cronjob. Mit folgendem Befehl kannst du testen, ob die automatische Verlängerung richtig funktioniert:
 
@@ -140,6 +140,6 @@ Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap n
     sudo certbot renew --dry-run
     ```
 
-::: info :information_source: Wichtig
+:::: info :information_source: Wichtig
 Die Domain muss auf den Server zeigen (A- oder AAAA-Eintrag), und Port 80 (HTTP-Challenge) muss erreichbar sein - sonst schlägt die Validierung fehl.
-:::
+::::

@@ -6,9 +6,9 @@ description: Erfahre, wie du mit tcpdump eine PCAP-Datei auf deinem vServer / Ro
 
 Eine PCAP-Datei (Packet Capture) zeichnet den gesamten Netzwerkverkehr auf deinem Server auf. Unser Support benötigt diese Daten in manchen Fällen für eine tiefgehende Analyse von Netzwerkproblemen – z.B. bei DDoS-Angriffen, Verbindungsabbrüchen oder Paketverlust.
 
-::: info Info
+:::: info Info
 Eine PCAP-Datei ist eine Ergänzung zum [Netzwerk-Trace (MTR)](netzwerk-trace-erstellen.md). Während ein MTR-Trace die Route und Paketverlust pro Hop zeigt, erfasst eine PCAP-Datei die tatsächlichen Pakete auf Protokollebene.
-:::
+::::
 
 ## Voraussetzungen
 
@@ -37,9 +37,9 @@ Typische Interface-Namen sind `eth0`, `ens18` oder `ens192`.
 
 ### Aufnahme starten
 
-::: info Empfohlene Paketanzahl
+:::: info Empfohlene Paketanzahl
 Wir empfehlen eine Paketanzahl von `100000` (100.000). Das ist in den meisten Fällen ausreichend, um das Problem zu erfassen, ohne dass die Datei unnötig groß wird.
-:::
+::::
 
 **Gesamten Traffic aufzeichnen (100.000 Pakete):**
 
@@ -53,9 +53,9 @@ sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap
 sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap port 25565
 ```
 
-::: info Info
+:::: info Info
 Port `25565` ist in diesem Beispiel der Standard-Port für Minecraft. Ersetze ihn durch den Port deines betroffenen Dienstes.
-:::
+::::
 
 **Nur Traffic von/zu einer bestimmten IP:**
 
@@ -75,9 +75,9 @@ sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 123.45.67.89 and port 
 sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap not port 22
 ```
 
-::: tip Tipp
+:::: tip Tipp
 Die Aufnahme läuft, bis die angegebene Paketanzahl erreicht ist oder du sie mit `Strg + C` manuell stoppst.
-:::
+::::
 
 ### Wichtige Parameter erklärt
 
@@ -123,9 +123,9 @@ Lade [Wireshark](https://www.wireshark.org/download.html) herunter und installie
 "C:\Program Files\Wireshark\tshark.exe" -i 1 -f "host 123.45.67.89" -c 100000 -w C:\capture.pcap
 ```
 
-::: info Info
+:::: info Info
 Ersetze `-i 1` mit der Nummer des gewünschten Interfaces aus der `-D` Ausgabe.
-:::
+::::
 
 ## Datei komprimieren
 
@@ -153,8 +153,8 @@ Sende uns folgende Informationen in deinem Support-Ticket:
 4. **Kurze Problembeschreibung** – z.B. DDoS-Angriff, Verbindungsabbrüche, Lag-Spikes
 5. **Betroffener Dienst** – welcher Dienst auf welchem Port betroffen ist
 
-::: warning Wichtig
+:::: warning Wichtig
 - **Aufnahme während des Problems durchführen** – eine Aufnahme ohne aktives Problem liefert keine verwertbaren Daten.
 - **Filter verwenden** – ohne Filter kann die Datei schnell mehrere Gigabyte groß werden.
 - **SSH ausschließen** – filtere deinen eigenen SSH-Traffic heraus (`not port 22`), damit die Aufnahme nicht unnötig groß wird.
-:::
+::::

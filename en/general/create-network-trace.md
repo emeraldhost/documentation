@@ -8,9 +8,9 @@ MTR is a network diagnostic tool that combines the functions of traceroute and p
 
 Our support team needs this data to specifically analyze and locate network problems.
 
-::: tip Tip
+:::: tip Tip
 Before creating a trace, check our **[status page](https://status.emeraldhost.de)** first to see if there is a known issue.
-:::
+::::
 
 ## Prerequisites
 
@@ -28,9 +28,9 @@ Before creating a trace, check our **[status page](https://status.emeraldhost.de
 
 4. **Click `Stop` and then `Export TEXT` to save the result.**
 
-::: info Note
+:::: info Note
 The following output is just an example – your result will look different depending on your location and provider.
-:::
+::::
 
 **Example output (WinMTR):**
 
@@ -71,9 +71,9 @@ The following output is just an example – your result will look different depe
     mtr -s 1000 -r -c 200 YOUR-SERVER-IP > mtr-result.txt
     ```
 
-::: info Note
+:::: info Note
 The following output is just an example – your result will look different depending on your location and provider.
-:::
+::::
 
 **Example output (Linux):**
 
@@ -111,9 +111,9 @@ HOST:                          Loss%   Snt   Last   Avg  Best  Wrst StDev
 
 ## Trace in Both Directions (VPS Only)
 
-::: info Info
+:::: info Info
 For **game servers** and **TeamSpeak servers**, only a trace in the direction **client → server** is possible, as there is no shell access. In this case, just send us the one trace.
-:::
+::::
 
 For a **VPS**, our support team needs traces in **both directions** for a complete analysis:
 
@@ -124,9 +124,9 @@ For a **VPS**, our support team needs traces in **both directions** for a comple
     mtr -s 1000 -r -c 200 YOUR-OWN-IP
     ```
 
-::: tip Tip
+:::: tip Tip
 You can find your own public IP address at [ifconfig.me](https://ifconfig.me).
-:::
+::::
 
 ## Columns Explained
 
@@ -153,13 +153,13 @@ You can find your own public IP address at [ifconfig.me](https://ifconfig.me).
 
 ## Common Mistakes to Avoid
 
-::: warning Important
+:::: warning Important
 - **Disable VPN or proxy first** – otherwise the VPN route is tested, not your actual connection.
 - **Run the trace while the problem is occurring** – a trace hours after the problem provides no useful data.
 - **Send at least 200 packets** – fewer packets are not meaningful enough for analysis.
 - **Check your firewall** – some local firewalls block ICMP packets, which can cause false 100% loss. Temporarily disable your firewall or allow ICMP.
 - **For VPSs: don't forget both directions** – only with traces in both directions is a complete analysis possible.
-:::
+::::
 
 ## Sending Results to Support
 

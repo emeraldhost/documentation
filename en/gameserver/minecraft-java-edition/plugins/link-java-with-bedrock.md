@@ -4,17 +4,17 @@ description: Enable crossplay on a Minecraft Java Edition server
 
 # How to Enable Bedrock Crossplay on a Minecraft Java Server
 
-::: tip Tip
+:::: tip Tip
 Some Paper servers don't support Java 17 by default. In this case, add the following startup flag to bypass the check: -DPaper.IgnoreJavaVersion=true
-:::
+::::
 
 ## Requirements
 
 ### General Requirements
 
-1. <strong>A Minecraft Java Edition server version 1.16.5 or higher.</strong>
+1. <b>A Minecraft Java Edition server version 1.16.5 or higher.</b><br>
 
-2. <strong>Java 17 or newer.</strong>
+2. <b>Java 17 or newer.</b><br>
 
 ### Required Plugins
 
@@ -28,86 +28,86 @@ Some Paper servers don't support Java 17 by default. In this case, add the follo
 
 ## Step 1: Upload Plugins
 
-::: info Info
+:::: info Info
 If you don't see the ```plugins``` folder, start your server once to create it.
-:::
+::::
 
-  1. <strong>Open your Dashboard, select your server and go to the File Browser **or** connect to your server via SFTP. You can find instructions here: [Establish SFTP Connection](/en/gameserver/establish-sftp-connection.md).</strong>
+  1. <b>Open your Dashboard, select your server and go to the File Browser **or** connect to your server via SFTP. You can find instructions here: [Establish SFTP Connection](/en/gameserver/establish-sftp-connection.md).</b><br>
 
   <img src="/assets/gameserver/minecraft-java-edition/geysermc/1.png" />
 
-  2. <strong>Upload the plugins to the ```plugins``` folder.</strong>
+  2. <b>Upload the plugins to the ```plugins``` folder.</b><br>
 
-  3. <strong>Restart your server to load the plugins.</strong>
+  3. <b>Restart your server to load the plugins.</b><br>
 
 ## Step 2: Configure GeyserMC
 
-  1. <strong>In the ```plugins``` folder, go to the ```Geyser-spigot``` folder.</strong>
+  1. <b>In the ```plugins``` folder, go to the ```Geyser-spigot``` folder.</b><br>
 
-  2. <strong>Open the ```config.yml``` file.</strong>
+  2. <b>Open the ```config.yml``` file.</b><br>
 
-  3. <strong>Search for the following entry:</strong>
+  3. <b>Search for the following entry:</b><br>
 
 ```
 clone-remote-port: false
 ```
 
-  4. <strong>Change the value to ```true```.</strong>
+  4. <b>Change the value to ```true```.</b><br>
 
-::: tip Tip
+:::: tip Tip
 To provide players with a better gaming experience, you can set the following options:
 
 - ```command-suggestions``` to ```false```
 - ```show-cooldown``` to ```actionbar```
-:::
+::::
 
-  5. <strong>Search for the following entry:</strong>
+  5. <b>Search for the following entry:</b><br>
 
 ```
 auth-type
 ```
 
-  6. <strong>Change the value to ```floodgate```.</strong>
+  6. <b>Change the value to ```floodgate```.</b><br>
 
-  7. <strong>Save the changes.</strong>
+  7. <b>Save the changes.</b><br>
 
 ## Step 3: Configure Floodgate
 
-  1. <strong>In the ```plugins``` folder, go to the ```Floodgate``` folder.</strong>
+  1. <b>In the ```plugins``` folder, go to the ```Floodgate``` folder.</b><br>
 
-  2. <strong>Download or copy the ```key.pem``` file.</strong>
+  2. <b>Download or copy the ```key.pem``` file.</b><br>
 
-  3. <strong>Paste the ```key.pem``` file into the ```Geyser-spigot``` folder.</strong>
+  3. <b>Paste the ```key.pem``` file into the ```Geyser-spigot``` folder.</b><br>
 
-::: tip Tip
+:::: tip Tip
 To change the prefix for Bedrock players in chat, open the ```Config.yml``` in the Floodgate folder and modify the line: username-prefix: "_". Enter your desired prefix within the quotation marks. Keep a prefix to avoid issues with duplicate usernames.
-:::
+::::
 
-  4. <strong>Save the changes.</strong>
+  4. <b>Save the changes.</b><br>
 
 ## Step 4: Allow Chat Messages from Bedrock Players
 
-  1. <strong>Open the ```server.properties``` file.</strong>
+  1. <b>Open the ```server.properties``` file.</b><br>
 
-  2. <strong>Search for the following entry:</strong>
+  2. <b>Search for the following entry:</b><br>
 
 ```
 enforce-secure-profile=true
 ```
 
-  3. <strong>Change the value to ```false```.</strong>
+  3. <b>Change the value to ```false```.</b><br>
 
-  4. <strong>Save the changes.</strong>
+  4. <b>Save the changes.</b><br>
 
 ## Step 5: Finalize & Test
 
-  1. <strong>Restart the server to apply all changes.</strong>
+  1. <b>Restart the server to apply all changes.</b><br>
 
-  2. <strong>Start Minecraft Bedrock Edition.</strong>
+  2. <b>Start Minecraft Bedrock Edition.</b><br>
 
-  3. <strong>Click "Play" and go to the "Servers" tab.</strong>
+  3. <b>Click "Play" and go to the "Servers" tab.</b><br>
 
-  4. <strong>Click "Add Server" and enter your server details:</strong>
+  4. <b>Click "Add Server" and enter your server details:</b><br>
 
 ```
 Server Name      # Your desired name
@@ -117,4 +117,4 @@ Port             # Your server port
 
 <img src="/assets/gameserver/minecraft-java-edition/geysermc/2.png" />
 
-  5. <strong>Click "Add Server" and connect.</strong>
+  5. <b>Click "Add Server" and connect.</b><br>

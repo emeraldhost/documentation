@@ -15,27 +15,27 @@ The ```simulation-distance``` determines how many chunks are actively calculated
 
 ## How do I change the simulation distance?
 
-1. <strong>Go to your Minecraft Java Edition server in the dashboard</strong>.
+1. <b>Go to your Minecraft Java Edition server in the dashboard</b>.<br>
 
-2. <strong>Open the [file browser](../establish-sftp-connection.md) or connect to your server via SFTP.</strong>
+2. <b>Open the [file browser](../establish-sftp-connection.md) or connect to your server via SFTP.</b><br>
 
-3. <strong>Open the file ```server.properties```.</strong>
+3. <b>Open the file ```server.properties```.</b><br>
 
-4. <strong>Search for the following entry:</strong>
+4. <b>Search for the following entry:</b><br>
 
 ```
 simulation-distance=10
 ```
 
-5. <strong>Change the value as required (e.g. 6 or 4)</strong>.
+5. <b>Change the value as required (e.g. 6 or 4)</b>.<br>
 
-6. <strong>Save the changes by clicking on "Save"</strong>.
+6. <b>Save the changes by clicking on "Save"</b>.<br>
 
-7. <strong>Restart the server so that the changes become active</strong>.
+7. <b>Restart the server so that the changes become active</b>.<br>
 
-::: tip Recommendation
+:::: tip Recommendation
 
 - 4-6 → For large numbers of players & low server performance<br>
 - 10 → Standard setting<br>
 - 10+ → Only with high server performance
-:::
+::::

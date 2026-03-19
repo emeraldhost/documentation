@@ -4,126 +4,127 @@ description: Minecraft Server auf einem Rootserver installieren (Ubuntu/Debian)
 
 # Minecraft Server installieren
 
-1. Aktualisiere dein System und installiere notwendige Programme
+1. <b>System aktualisieren und notwendige Programme installieren</b><br>
 
-```
-apt update && upgrade -y
-```
+    ```
+    apt update && upgrade -y
+    ```
 
-<details>
+    <details>
 
-<summary>Debian 10</summary>
+    <summary>Debian 10</summary>
 
-```
-apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 73C3DB2A
-```
+    ```
+    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 73C3DB2A
+    ```
 
-```
-echo "deb http://ppa.launchpad.net/linuxuprising/java/ubuntu focal main" | tee /etc/apt/sources.list.d/java.list
-```
+    ```
+    echo "deb http://ppa.launchpad.net/linuxuprising/java/ubuntu focal main" | tee /etc/apt/sources.list.d/java.list
+    ```
 
-```
-apt update
-```
+    ```
+    apt update
+    ```
 
-```
-apt install screen gnupg oracle-java17-installer -y
-```
+    ```
+    apt install screen gnupg oracle-java17-installer -y
+    ```
 
-Akzeptiere die Lizenz Bedingungen indem Du mit **TAB** auf "OK" gehst und mit **ENTER** bestätigst. Im folgendem Fenster gehst du auf "JA" und bestätigst wieder mit **ENTER**.
+    Akzeptiere die Lizenz Bedingungen indem Du mit **TAB** auf "OK" gehst und mit **ENTER** bestätigst. Im folgendem Fenster gehst du auf "JA" und bestätigst wieder mit **ENTER**.
 
-</details>
+    </details>
 
-<details>
+    <details>
 
-<summary>Debian 11</summary>
+    <summary>Debian 11</summary>
 
-```
-apt install screen openjdk-17-jre-headless -y 
-```
+    ```
+    apt install screen openjdk-17-jre-headless -y
+    ```
 
-</details>
+    </details>
 
-<details>
+    <details>
 
-<summary>Ubuntu</summary>
+    <summary>Ubuntu</summary>
 
-```
-sudo apt install screen gnupg software-properties-common -y
-```
+    ```
+    sudo apt install screen gnupg software-properties-common -y
+    ```
 
-```
-sudo add-apt-repository ppa:linuxuprising/java
-```
+    ```
+    sudo add-apt-repository ppa:linuxuprising/java
+    ```
 
-```
-sudo apt update
-```
+    ```
+    sudo apt update
+    ```
 
-```
-sudo apt install oracle-java17-installer -y
-```
+    ```
+    sudo apt install oracle-java17-installer -y
+    ```
 
-Akzeptiere die Lizenz Bedingungen indem du mit **TAB** auf "OK" gehst und mit **ENTER** bestätigst. Im folgendem Fenster gehst du auf "JA" und bestätigst wieder mit **ENTER**.
+    Akzeptiere die Lizenz Bedingungen indem du mit **TAB** auf "OK" gehst und mit **ENTER** bestätigst. Im folgendem Fenster gehst du auf "JA" und bestätigst wieder mit **ENTER**.
 
-</details>
+    </details>
 
-2. Lege einen Subuser für den Server an und melde Dich an
+2. <b>Subuser für den Server anlegen und anmelden</b><br>
 
-```
-adduser minecraft --disabled-login
-```
+    ```
+    adduser minecraft --disabled-login
+    ```
 
-```
-su minecraft -l
-```
+    ```
+    su minecraft -l
+    ```
 
-3. Versionsauswahl (beispielsweise mit Spigot 1.19.3)
-   - [Spigot Download](https://getbukkit.org/download/spigot)
-   - [Craftbukkit Download](https://getbukkit.org/download/craftbukkit)
+3. <b>Versionsauswahl (beispielsweise mit Spigot 1.19.3)</b><br>
 
-```
-wget https://download.getbukkit.org/spigot/spigot-1.19.3.jar
-```
+    - [Spigot Download](https://getbukkit.org/download/spigot)
+    - [Craftbukkit Download](https://getbukkit.org/download/craftbukkit)
 
-4. Startdatei erstellen
+    ```
+    wget https://download.getbukkit.org/spigot/spigot-1.19.3.jar
+    ```
 
-Erstelle eine start.sh mit:
+4. <b>Startdatei erstellen</b><br>
 
-```
-nano start.sh
-```
+    Erstelle eine start.sh mit:
 
-Kopiere nun folgende Zeile und füge sie mit linksklick ein:
+    ```
+    nano start.sh
+    ```
 
-```
- screen -AmdS minecraft java -Xms1G -Xmx1G -jar spigot-1.19.3.jar
-```
+    Kopiere nun folgende Zeile und füge sie mit linksklick ein:
 
-:::warning
-ändere bei -Xmx1G die 1 auf die anzahl deines Ram's z.B. 10 (Server mit 10 Gigabyte Ram)
-:::
+    ```
+     screen -AmdS minecraft java -Xms1G -Xmx1G -jar spigot-1.19.3.jar
+    ```
 
-:::info
-Speichere nun die Eingabe mit **STRG + O** und schließe das Fenster mit **STRG + X**
-:::
+    :::: warning
+    ändere bei -Xmx1G die 1 auf die anzahl deines Ram's z.B. 10 (Server mit 10 Gigabyte Ram)
+    ::::
 
-5. Lizenzen akzeptieren und dateirechte vergeben
+    :::: info
+    Speichere nun die Eingabe mit **STRG + O** und schließe das Fenster mit **STRG + X**
+    ::::
 
-```
-echo "eula = true" > eula.txt
-```
+5. <b>Lizenzen akzeptieren und Dateirechte vergeben</b><br>
 
-```
-chmod +x start.sh
-```
+    ```
+    echo "eula = true" > eula.txt
+    ```
 
-6. Server starten
+    ```
+    chmod +x start.sh
+    ```
 
-```
-./start.sh
-```
+6. <b>Server starten</b><br>
 
-:::info
-Die Konsole kann mit "screen -r minecraft" geöffnet werden.
-:::
+    ```
+    ./start.sh
+    ```
+
+    :::: info
+    Die Konsole kann mit "screen -r minecraft" geöffnet werden.
+    ::::

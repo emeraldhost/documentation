@@ -5,23 +5,23 @@ description: Schritt-für-Schritt-Anleitung, wie du ein Savegame auf deinem V Ri
 
 # V Rising-Server Savegame Hinzufügen
 
-::: danger Achtung
-Wenn Du ein neues Savegame hinzufügst, **wird Dein aktueller Spielstand überschrieben** und kann **nicht wiederhergestellt** werden.  
+:::: danger Achtung
+Wenn Du ein neues Savegame hinzufügst, **wird Dein aktueller Spielstand überschrieben** und kann **nicht wiederhergestellt** werden.
 Erstelle unbedingt ein **Backup**, falls Du Dein aktuelles Savegame später erneut verwenden möchtest.
-:::
+::::
 
-::: info Info
+:::: info Info
 Ein lokales Savegame findest du im folgenden Verzeichnis auf Deinem PC: ```C:\Users\<Benutzername>\AppData\LocalLow\Stunlock Studios\VRising\Saves```
-:::
+::::
 
-1. <strong>Öffne Dein Dashboard und wähle Deinen V Rising Server aus.</strong>
+1. <b>Öffne Dein Dashboard und wähle Deinen V Rising Server aus.</b><br>
 
-2. <strong>Stoppe Deinen V Rising Server.</strong>
+2. <b>Stoppe Deinen V Rising Server.</b><br>
 
-2. <strong>Navigiere zum Ordner ```Saves/v1```.</strong>
+2. <b>Navigiere zum Ordner ```Saves/v1```.</b><br>
 
-3. <strong>Öffne den Ordner Deines Savegames.</strong>
+3. <b>Öffne den Ordner Deines Savegames.</b><br>
 
-4. <strong>Lösche die vorhandenen Dateien und lade die neuen Dateien Deines gewünschten Savegames hoch.</strong>
+4. <b>Lösche die vorhandenen Dateien und lade die neuen Dateien Deines gewünschten Savegames hoch.</b><br>
 
-5. <strong>Starte Deinen Server neu, damit die Änderungen übernommen werden.</strong>
+5. <b>Starte Deinen Server neu, damit die Änderungen übernommen werden.</b><br>

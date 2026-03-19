@@ -8,9 +8,9 @@ MTR ist ein Netzwerk-Diagnose-Tool, das die Funktionen von Traceroute und Ping k
 
 Unser Support benötigt diese Daten, um Netzwerkprobleme gezielt analysieren und lokalisieren zu können.
 
-::: tip Tipp
+:::: tip Tipp
 Bevor du einen Trace erstellst, prüfe zunächst unsere **[Status Seite](https://status.emeraldhost.de)**, ob aktuell eine bekannte Störung vorliegt.
-:::
+::::
 
 ## Voraussetzungen
 
@@ -28,9 +28,9 @@ Bevor du einen Trace erstellst, prüfe zunächst unsere **[Status Seite](https:/
 
 4. **Klicke auf `Stop` und anschließend auf `Export TEXT`, um das Ergebnis zu speichern.**
 
-::: info Hinweis
+:::: info Hinweis
 Der folgende Output dient nur als Beispiel – dein Ergebnis wird je nach Standort und Anbieter anders aussehen.
-:::
+::::
 
 **Beispiel-Output (WinMTR):**
 
@@ -71,9 +71,9 @@ Der folgende Output dient nur als Beispiel – dein Ergebnis wird je nach Stando
     mtr -s 1000 -r -c 200 DEINE-SERVER-IP > mtr-ergebnis.txt
     ```
 
-::: info Hinweis
+:::: info Hinweis
 Der folgende Output dient nur als Beispiel – dein Ergebnis wird je nach Standort und Anbieter anders aussehen.
-:::
+::::
 
 **Beispiel-Output (Linux):**
 
@@ -111,9 +111,9 @@ HOST:                          Loss%   Snt   Last   Avg  Best  Wrst StDev
 
 ## Trace in beide Richtungen (nur Rootserver)
 
-::: info Info
+:::: info Info
 Bei **Gameservern** und **TeamSpeak-Servern** ist nur ein Trace in Richtung **Client → Server** möglich, da kein Shell-Zugang besteht. Sende uns in diesem Fall nur den einen Trace.
-:::
+::::
 
 Bei einem **Rootserver** benötigt unser Support Traces in **beide Richtungen** für eine vollständige Analyse:
 
@@ -124,9 +124,9 @@ Bei einem **Rootserver** benötigt unser Support Traces in **beide Richtungen** 
     mtr -s 1000 -r -c 200 DEINE-EIGENE-IP
     ```
 
-::: tip Tipp
+:::: tip Tipp
 Deine eigene öffentliche IP-Adresse findest du z.B. unter [ifconfig.me](https://ifconfig.me).
-:::
+::::
 
 ## Spalten erklärt
 
@@ -153,13 +153,13 @@ Deine eigene öffentliche IP-Adresse findest du z.B. unter [ifconfig.me](https:/
 
 ## Häufige Fehler vermeiden
 
-::: warning Wichtig
+:::: warning Wichtig
 - **VPN oder Proxy vorher deaktivieren** – sonst wird die VPN-Route getestet, nicht deine tatsächliche Verbindung.
 - **Trace während des Problems durchführen** – ein Trace Stunden nach dem Problem liefert keine verwertbaren Daten.
 - **Mindestens 200 Pakete senden** – weniger ist nicht aussagekräftig genug für eine Analyse.
 - **Firewall beachten** – manche lokale Firewalls blockieren ICMP-Pakete, was zu falschem 100% Loss führen kann. Deaktiviere testweise deine Firewall oder erlaube ICMP.
 - **Bei Rootservern: beide Richtungen nicht vergessen** – nur mit Traces in beide Richtungen ist eine vollständige Analyse möglich.
-:::
+::::
 
 ## Ergebnis an den Support senden
 

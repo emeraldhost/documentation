@@ -41,9 +41,9 @@ This method offers more control and is required for server-side only mods.
 1. **Subscribe to the mod in Steam Workshop**<br>
    Open Steam, select DayZ from your library and go to the **Workshop** tab. Subscribe to your desired mod.
 
-::: warning Note
+:::: warning Note
 Some mods have dependencies that must be installed first.
-:::
+::::
 
 2. **Launch DayZ**<br>
    Start DayZ so the mods are downloaded.
@@ -72,9 +72,9 @@ Some mods have dependencies that must be installed first.
    @CF;@ModName1;@ModName2
    ```
 
-::: tip Note
+:::: tip Note
 Mods under **Additional Mods** will require players to install the mods, while mods under **Mods** are server-side only and will not.
-:::
+::::
 
 10. **Start the server**<br>
     Start your server.

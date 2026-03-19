@@ -1,62 +1,74 @@
 ---
-title: Admins auf deinem ARK Survival Evolved Server hinzufügen
-description: Schritt-für-Schritt-Anleitung, wie du Admins auf einem ARK Survival Evolved Server hinzufügst
+description: Admin auf einem ARK Survival Evolved Server hinzufügen
 ---
 
-# ARK Survival Evolved Server Admin hinzufügen
+# So fügst du einen Admin auf deinem ARK Survival Evolved Server hinzu
 
-::: tip Tipp
-Hier findest du eine Anleitung, wie du deine [Steam64ID](../steamid64-herausfinden.md) herausfindest.
-:::
+:::: tip Tipp
+Hier findest du eine Anleitung, wie du deine [SteamID64](../steamid64-herausfinden.md) herausfindest.
+::::
 
-## Methode 1: Admin-Passwort (Temporäre Admin-Rechte)
+## Methode 1: Admin Passwort (temporäre Admin-Rechte)
 
-Mit dieser Methode kannst du dich im Spiel als Admin anmelden, indem du das Admin-Passwort eingibst.
+Mit dieser Methode kannst du dich im Spiel als Admin anmelden, indem du das Admin Passwort eingibst.
 
-1. <strong>Öffne deine Verwaltung und wähle deinen ARK Survival Evolved Server aus.</strong>
+1. <b>Verwaltung öffnen</b><br>
+   Öffne die Verwaltung deines Servers.
 
-2. <strong>Navigiere zu den Einstellungen deines Servers.</strong>
+2. <b>Einstellungen öffnen</b><br>
+   Navigiere zu den **Einstellungen**.
 
-3. <strong>Suche nach der Option ```Admin Passwort``` und setze ein sicheres Passwort.</strong>
+3. <b>Admin Passwort setzen</b><br>
+   Trage ein sicheres Passwort im Feld **Admin Passwort** ein und speichere die Änderung.
 
-4. <strong>Speichere die Änderungen und starte deinen Server neu.</strong>
+4. <b>Server neu starten</b><br>
+   Starte deinen Server neu, damit die Änderung übernommen wird.
 
-5. <strong>Im Spiel: Öffne die Konsole mit der Tab-Taste und gib folgenden Befehl ein:</strong>
+5. <b>Als Admin anmelden</b><br>
+   Öffne im Spiel die Konsole mit der `Tab`-Taste und gib folgenden Befehl ein:
+
    ```
    enablecheats DeinAdminPasswort
    ```
 
-::: info Info
-Die Admin-Rechte über das Passwort sind nur für die aktuelle Sitzung gültig. Nach einem Neuverbinden musst du das Passwort erneut eingeben.
-:::
+:::: info Hinweis
+Die Admin-Rechte über das Passwort sind nur für die aktuelle Sitzung gültig. Nach einem Neuverbinden musst du den Befehl erneut eingeben.
+::::
 
-## Methode 2: Permanente Admins (Steam64ID)
+## Methode 2: Permanente Admins (SteamID64)
 
 Mit dieser Methode wirst du dauerhaft als Admin hinterlegt und musst kein Passwort eingeben.
 
-1. <strong>Öffne deine Verwaltung und wähle deinen ARK Survival Evolved Server aus.</strong>
+1. <b>Server stoppen</b><br>
+   Stoppe deinen Server über die Verwaltung.
 
-2. <strong>Navigiere zum Datei-Browser und öffne den Ordner ```ShooterGame/Saved```.</strong>
+2. <b>Per SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
 
-3. <strong>Erstelle oder öffne die Datei ```AllowedCheaterSteamIDs.txt```.</strong>
+3. <b>Datei öffnen</b><br>
+   Erstelle oder öffne die Datei `AllowedCheaterSteamIDs.txt` im Verzeichnis:
 
-4. <strong>Füge deine Steam64ID in einer neuen Zeile ein.</strong>
+   ```
+   /ShooterGame/Saved/AllowedCheaterSteamIDs.txt
+   ```
 
-5. <strong>Speichere die Datei und starte deinen Server neu, damit die Änderungen übernommen werden.</strong>
+4. <b>SteamID64 eintragen</b><br>
+   Füge deine SteamID64 in einer neuen Zeile ein.
 
-::: info Info
-Wenn du mehrere Admins hinzufügen möchtest, füge einfach **mehrere Steam64IDs** ein - jede in einer **neuen Zeile**.
-:::
+5. <b>Server starten</b><br>
+   Speichere die Datei und starte deinen Server.
+
+:::: info Hinweis
+Wenn du mehrere Admins hinzufügen möchtest, füge einfach mehrere SteamID64s ein — jede in einer neuen Zeile.
+::::
 
 ## Wichtige Admin-Befehle
 
-Nach dem Aktivieren der Admin-Rechte stehen dir folgende Befehle zur Verfügung:
-
 | Befehl | Beschreibung |
-|--------|--------------|
-| `cheat fly` | Aktiviert den Flugmodus |
-| `cheat walk` | Deaktiviert den Flugmodus |
-| `cheat god` | Aktiviert den Unsterblichkeitsmodus |
-| `cheat giveresources` | Gibt dir 50 Einheiten jeder Ressource |
+|--------|-------------|
+| `cheat fly` | Flugmodus aktivieren |
+| `cheat walk` | Flugmodus deaktivieren |
+| `cheat god` | Unsterblichkeit aktivieren |
+| `cheat giveresources` | 50 Einheiten jeder Ressource erhalten |
 | `cheat infinitestats` | Unendlich Ausdauer, Gesundheit, etc. |
-| `cheat destroywilddinos` | Entfernt alle wilden Dinos |
+| `cheat destroywilddinos` | Alle wilden Dinos entfernen |

@@ -6,9 +6,9 @@ description: Learn how to create a PCAP file on your VPS using tcpdump and send 
 
 A PCAP file (Packet Capture) records all network traffic on your server. In some cases, our support team needs this data for an in-depth analysis of network issues – e.g. DDoS attacks, connection drops, or packet loss.
 
-::: info Info
+:::: info Info
 A PCAP file complements a [Network Trace (MTR)](create-network-trace.md). While an MTR trace shows the route and packet loss per hop, a PCAP file captures the actual packets at the protocol level.
-:::
+::::
 
 ## Prerequisites
 
@@ -37,9 +37,9 @@ Common interface names are `eth0`, `ens18`, or `ens192`.
 
 ### Start Capture
 
-::: info Recommended Packet Count
+:::: info Recommended Packet Count
 We recommend a packet count of `100000` (100,000). This is sufficient in most cases to capture the issue without the file becoming unnecessarily large.
-:::
+::::
 
 **Capture all traffic (100,000 packets):**
 
@@ -53,9 +53,9 @@ sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap
 sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap port 25565
 ```
 
-::: info Info
+:::: info Info
 Port `25565` in this example is the default port for Minecraft. Replace it with the port of your affected service.
-:::
+::::
 
 **Capture only traffic from/to a specific IP:**
 
@@ -75,9 +75,9 @@ sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap host 123.45.67.89 and port 
 sudo tcpdump -ni eth0 -s 0 -c 100000 -w capture.pcap not port 22
 ```
 
-::: tip Tip
+:::: tip Tip
 The capture runs until the specified packet count is reached or you stop it manually with `Ctrl + C`.
-:::
+::::
 
 ### Important Parameters Explained
 
@@ -123,9 +123,9 @@ Download [Wireshark](https://www.wireshark.org/download.html) and install it. Th
 "C:\Program Files\Wireshark\tshark.exe" -i 1 -f "host 123.45.67.89" -c 100000 -w C:\capture.pcap
 ```
 
-::: info Info
+:::: info Info
 Replace `-i 1` with the number of the desired interface from the `-D` output.
-:::
+::::
 
 ## Compress the File
 
@@ -153,8 +153,8 @@ Include the following information in your support ticket:
 4. **Brief problem description** – e.g. DDoS attack, connection drops, lag spikes
 5. **Affected service** – which service on which port is affected
 
-::: warning Important
+:::: warning Important
 - **Capture during the issue** – a capture without an active problem provides no useful data.
 - **Use filters** – without filters, the file can quickly grow to several gigabytes.
 - **Exclude SSH** – filter out your own SSH traffic (`not port 22`) to keep the capture file manageable.
-:::
+::::

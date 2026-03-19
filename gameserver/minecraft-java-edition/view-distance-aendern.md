@@ -16,21 +16,21 @@ Die ```view-distance``` bestimmt, wie viele Chunks ein Spieler rund um sich sehe
 
 ## Wie ändere ich die View-Distance?
 
-1. <strong>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</strong>
+1. <b>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</b><br>
 
-2. <strong>Suche nach folgendem Eintrag:</strong>
+2. <b>Suche nach folgendem Eintrag:</b><br>
 
 ```
 view-distance=10
 ```
 
-3. <strong>Ändere den Wert nach Wunsch (z.B. 8 oder 6).</strong>
+3. <b>Ändere den Wert nach Wunsch (z.B. 8 oder 6).</b><br>
 
-4. <strong>Speichere die Änderungen und starte den Server neu.</strong>
+4. <b>Speichere die Änderungen und starte den Server neu.</b><br>
 
-::: tip Empfehlung
+:::: tip Empfehlung
 
 - 6–8 → Bei großen Spielerzahlen & wenig Serverleistung<br>
 - 10 → Standard-Einstellung<br>
 - 10+ → Nur bei starker Serverleistung
-:::
+::::

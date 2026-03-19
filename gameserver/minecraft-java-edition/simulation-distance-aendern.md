@@ -15,20 +15,20 @@ Die `simulation-distance` bestimmt, wie viele Chunks rund um den Spieler aktiv b
 
 ## Wie ändere ich die Simulation-Distance?
 
-1. <strong>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</strong>
+1. <b>Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.</b><br>
 
-2. <strong>Suche nach folgendem Eintrag:</strong>
+2. <b>Suche nach folgendem Eintrag:</b><br>
 
     ```
     simulation-distance=10
     ```
 
-3. <strong>Ändere den Wert nach Wunsch (z. B. 6 oder 4).</strong>
+3. <b>Ändere den Wert nach Wunsch (z. B. 6 oder 4).</b><br>
 
-4. <strong>Speichere die Änderungen und starte den Server neu.</strong>
+4. <b>Speichere die Änderungen und starte den Server neu.</b><br>
 
-::: tip Empfehlung
+:::: tip Empfehlung
 - 4–6 → Bei großen Spielerzahlen & geringer Serverleistung
 - 10 → Standard-Einstellung
 - 10+ → Nur bei starker Serverleistung
-:::
+::::
