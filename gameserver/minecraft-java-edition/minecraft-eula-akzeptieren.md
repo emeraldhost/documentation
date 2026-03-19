@@ -2,7 +2,7 @@
 description: 'Anleitung zum Akzeptieren der Minecraft EULA in der eula.txt-Datei'
 ---
 
-# Akzeptieren der Minecraft EULA
+# So akzeptierst du die Minecraft EULA
 
 ## Voraussetzungen
 

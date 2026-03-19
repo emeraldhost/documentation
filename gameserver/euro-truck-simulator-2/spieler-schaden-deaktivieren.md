@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du in Euro Truck Simulator 2 den Spieler-Schaden deaktivieren kannst.
 ---
 
-# Spieler-Schaden deaktivieren in Euro Truck Simulator 2
+# So deaktivierst du Spieler-Schaden auf deinem Euro Truck Simulator 2 Server
 
 1. <b>Server auswählen</b><br>
    Öffne Dein Dashboard und wähle Deinen Euro Truck Simulator 2 Server aus.

@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du Steam Workshop- und externe Mods auf einem Euro Truck Simulator 2-Server installierst und aktivierst.
 ---
 
-# Mods (Steam Workshop und externe) auf Deinem Euro Truck Simulator 2-Server installieren und aktivieren
+# So fügst du Mods zu deinem Euro Truck Simulator 2 Server hinzu
 
 ## Steam Workshop-Mods Hinzufügen
 

@@ -2,7 +2,7 @@
 description: "Performance-Probleme auf Enshrouded Servern"
 ---
 
-# Performance-Probleme auf Enshrouded Servern
+# So behebst du Performance-Probleme auf deinem Enshrouded Server
 
 :::: danger Wichtiger Hinweis
 Die Enshrouded Serversoftware ist aktuell leider schlecht optimiert. Dieses Problem betrifft viele Hosting-Anbieter gleichermaßen.

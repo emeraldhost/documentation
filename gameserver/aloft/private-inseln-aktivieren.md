@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du Private Inseln auf deinem Aloft-Server aktivierst.
 ---
 
-# Aloft-Server Private Inseln aktivieren
+# So aktivierst du private Inseln auf deinem Aloft Server
 
 1. <b>Dashboard öffnen</b><br>
    Öffne dein Dashboard und wähle deinen Aloft Server aus.

@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du deinem Enshrouded-Server sowohl über Steam als auch ingame beitrittst.
 ---
 
-# Enshrouded Server beitreten (Steam und Ingame Variante)
+# So trittst du deinem Enshrouded Server bei
 
 ## Steam Variante (Empfohlen)
 

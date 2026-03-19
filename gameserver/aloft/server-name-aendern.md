@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du den Namen deines Aloft-Servers änderst.
 ---
 
-# Aloft-Server Name ändern
+# So änderst du den Server Namen auf deinem Aloft Server
 
 :::: info Info
 Der Servername ist wichtig, um deinen Aloft-Server in der öffentlichen Server Liste zu finden.

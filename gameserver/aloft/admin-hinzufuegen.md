@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du Admins auf deinem Aloft-Server hinzufügst.
 ---
 
-# Aloft-Server Admin hinzufügen
+# So fügst du einen Admin auf deinem Aloft Server hinzu
 
 :::: info Info
 Wenn du mehrere Admins hinzufügen möchtest, kannst du die Steam64IDs einfach mit einem Leerzeichen trennen (z. B. `11111111111111111 22222222222222222`).

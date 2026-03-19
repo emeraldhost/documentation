@@ -2,7 +2,7 @@
 description: 'Anleitung zum Hochladen Deiner Eigenen Welt auf einen Valheim-Server'
 ---
 
-# Savegame hinzufügen auf einen Valheim Server
+# So fügst du ein Savegame zu deinem Valheim Server hinzu
 
 ## Voraussetzungen
 

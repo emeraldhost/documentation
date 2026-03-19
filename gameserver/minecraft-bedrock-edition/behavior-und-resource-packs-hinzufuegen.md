@@ -2,7 +2,7 @@
 description: Verwendung von Behavior und Resource Packs auf Minecraft Bedrock Server
 ---
 
-# Behavior und Resource Packs hinzufügen
+# So fügst du Behavior und Resource Packs auf deinem Minecraft Bedrock Server hinzu
 
 ## Voraussetzungen
 

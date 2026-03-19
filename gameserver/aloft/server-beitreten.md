@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du deinem Aloft-Server sowohl über den Raum-Code als auch über die Server Liste beitrittst.
 ---
 
-# Aloft-Server beitreten (Raum-Code und Server Liste)
+# So trittst du deinem Aloft Server bei
 
 Du kannst deinem Aloft-Server über den Raum-Code oder die öffentliche Server Liste beitreten.
 

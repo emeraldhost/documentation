@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du auf deinem Aloft-Server die Anzahl der Inseln änderst.
 ---
 
-# Aloft-Server Anzahl der Inseln ändern
+# So änderst du die Anzahl der Inseln auf deinem Aloft Server
 
 1. <b>Dashboard öffnen</b><br>
    Öffne dein Dashboard und wähle deinen Aloft Server aus.

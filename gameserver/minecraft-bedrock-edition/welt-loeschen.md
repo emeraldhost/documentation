@@ -3,7 +3,7 @@ title: Welt in Minecraft Bedrock Edition Löschen
 description: Schritt-für-Schritt-Anleitung, wie du in Minecraft Bedrock Edition deine aktuelle Welt löschst und automatisch eine neue generieren lässt.
 ---
 
-# Welt in Minecraft Bedrock Edition Löschen: Datei-Browser & SFTP
+# So löschst du eine Welt auf deinem Minecraft Bedrock Server
 
 :::: danger Achtung
 Wenn Du die Welt löschst, kann sie nicht wiederhergestellt werden. Erstelle vorher ein Backup, falls Du die Welt später erneut benötigst.

@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du in Aloft die Ingame-Konsole öffnen kannst.
 ---
 
-# Aloft Ingame Konsole öffnen
+# So öffnest du die Ingame Konsole in Aloft
 
 1. <b>Aloft starten</b><br>
    Starte Aloft.

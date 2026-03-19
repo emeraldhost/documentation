@@ -3,7 +3,7 @@ title: Welt in Minecraft Bedrock Edition Hochladen
 description: Schritt-für-Schritt-Anleitung, wie du in Minecraft Bedrock Edition deine eigene Welt hochlädst und den Server korrekt konfigurierst.
 ---
 
-# Welt in Minecraft Bedrock Edition Hochladen: Datei-Browser & SFTP
+# So lädst du eine Welt auf deinen Minecraft Bedrock Server hoch
 
 :::: danger Achtung
 Die Welt-Dateien dürfen kein Archiv wie z. B. `.zip` oder `.mcworld` sein. Entpacke die Welt vorher. Achte darauf, dass der Ordnername unverändert bleibt.

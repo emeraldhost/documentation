@@ -2,7 +2,7 @@
 description: Verwendung der Allowlist in der Minecraft Bedrock Edition
 ---
 
-# Whitelist aktivieren
+# So aktivierst du die Whitelist auf deinem Minecraft Bedrock Server
 
 ## Voraussetzungen
 

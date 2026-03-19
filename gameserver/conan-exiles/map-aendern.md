@@ -3,7 +3,7 @@ title: Map auf deinem Conan Exiles Server wechseln
 description: Schritt-für-Schritt-Anleitung, wie du die Map auf deinem Conan Exiles Server wechselst
 ---
 
-# Conan Exiles Server Map wechseln
+# So änderst du die Map auf deinem Conan Exiles Server
 
 :::: tip Tipp
 Du kannst die Dateien auch mit einem FTP-Programm bearbeiten. Hier findest du eine Anleitung, wie du eine [SFTP-Verbindung herstellst](../sftp-verbindung-herstellen.md).

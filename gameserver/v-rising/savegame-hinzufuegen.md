@@ -3,7 +3,7 @@ title: Savegame auf deinem V Rising-Server Hinzufügen
 description: Schritt-für-Schritt-Anleitung, wie du ein Savegame auf deinem V Rising-Server Hinzufügen
 ---
 
-# V Rising-Server Savegame Hinzufügen
+# So fügst du ein Savegame zu deinem V Rising Server hinzu
 
 :::: danger Achtung
 Wenn Du ein neues Savegame hinzufügst, **wird Dein aktueller Spielstand überschrieben** und kann **nicht wiederhergestellt** werden.

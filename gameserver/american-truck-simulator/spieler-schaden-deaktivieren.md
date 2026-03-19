@@ -3,7 +3,7 @@ title: Spieler-Schaden deaktivieren in American Truck Simulator
 description: Schritt-für-Schritt-Anleitung, wie du in American Truck Simulator den Spieler-Schaden deaktivieren kannst.
 ---
 
-# Spieler-Schaden deaktivieren in American Truck Simulator
+# So deaktivierst du Spieler-Schaden auf deinem American Truck Simulator Server
 
 1. <b>Dashboard öffnen</b><br>
    Öffne Dein Dashboard und wähle Deinen American Truck Simulator Server aus.

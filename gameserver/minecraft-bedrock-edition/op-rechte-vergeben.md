@@ -2,7 +2,7 @@
 description: Schritt-für-Schritt-Anleitung, wie du in Minecraft Bedrock Edition OP-Rechte über den Ingame-Chat, die Server-Konsole oder die permissions.json-Datei vergibst.
 ---
 
-# OP-Rechte in Minecraft Bedrock Edition vergeben: Ingame-Chat, Server-Konsole & permissions.json
+# So vergibst du OP-Rechte auf deinem Minecraft Bedrock Server
 
 ## OP-Rechte über den Ingame-Chat vergeben
 
