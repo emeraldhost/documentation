@@ -1,9 +1,8 @@
 ---
-title: Mods in BeamMP Hinzufügen
-description: Schritt-für-Schritt-Anleitung, wie du in BeamMP Mods hinzufügst
+description: Mods auf einem BeamMP Server hinzufügen
 ---
 
-# Mods in BeamMP Hinzufügen: Datei-Browser & SFTP
+# So fügst du Mods zu deinem BeamMP Server hinzu
 
 :::: danger Achtung
 Die Mods dürfen kein Archiv wie z. B. `.zip` sein. Entpacke die Mods vorher.
