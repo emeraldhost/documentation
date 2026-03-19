@@ -2,7 +2,7 @@
 description: How to fix performance problems on your Enshrouded server.
 ---
 
-# How to Fix Performance Problems on Your Enshrouded Server
+# Performance Issues on Enshrouded Servers
 
 :::: danger Important Notice
 The Enshrouded server software is currently poorly optimized. This problem affects many hosting providers equally.
