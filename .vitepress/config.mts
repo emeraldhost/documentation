@@ -128,6 +128,14 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Core Keeper',
+                link: '/gameserver/core-keeper',
+                collapsed: true,
+                items: [
+                  { text: 'Savegame hinzufügen', link: '/gameserver/core-keeper/savegame-hinzufuegen' }
+                ]
+              },
+              {
                 text: 'DayZ',
                 link: '/gameserver/dayz',
                 collapsed: true,
@@ -573,6 +581,14 @@ export default defineConfig({
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/conan-exiles/add-mods' },
                   { text: 'Change Map', link: '/en/gameserver/conan-exiles/change-map' }
+                ]
+              },
+              {
+                text: 'Core Keeper',
+                link: '/en/gameserver/core-keeper',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/core-keeper/add-savegame' }
                 ]
               },
               {
