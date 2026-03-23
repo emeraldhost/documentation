@@ -364,6 +364,15 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/valheim/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' }
                 ]
+              },
+              {
+                text: 'VEIN',
+                link: '/gameserver/vein',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/vein/admin-hinzufuegen' },
+                  { text: 'Whitelist aktivieren', link: '/gameserver/vein/whitelist-aktivieren' }
+                ]
               }
             ]
           },
@@ -816,6 +825,15 @@ export default defineConfig({
                   { text: 'Add Mods', link: '/en/gameserver/valheim/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/valheim/add-savegame' },
                   { text: 'Change Branch', link: '/en/gameserver/valheim/change-branch' }
+                ]
+              },
+              {
+                text: 'VEIN',
+                link: '/en/gameserver/vein',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/vein/add-admin' },
+                  { text: 'Enable Whitelist', link: '/en/gameserver/vein/enable-whitelist' }
                 ]
               }
             ]
