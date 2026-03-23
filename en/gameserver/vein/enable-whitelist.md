@@ -38,3 +38,7 @@ Here you can find a guide on how to find your [SteamID64](../steamid64-find-out.
 :::: danger Important
 As soon as you add a player to the whitelist, **only listed players** can join the server. Make sure to add your own SteamID64 as well!
 ::::
+
+## Disable whitelist
+
+To disable the whitelist, remove all `WhitelistedPlayers` entries from the `Game.ini`. Once no entries are present, any player can join the server again.

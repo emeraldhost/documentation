@@ -38,3 +38,7 @@ Hier findest du eine Anleitung, wie du deine [SteamID64](../steamid64-herausfind
 :::: danger Wichtig
 Sobald du einen Spieler zur Whitelist hinzufügst, können **nur noch gelistete Spieler** dem Server beitreten. Vergiss nicht, deine eigene SteamID64 ebenfalls hinzuzufügen!
 ::::
+
+## Whitelist deaktivieren
+
+Um die Whitelist zu deaktivieren, entferne alle `WhitelistedPlayers`-Einträge aus der `Game.ini`. Sobald keine Einträge mehr vorhanden sind, kann wieder jeder Spieler dem Server beitreten.
