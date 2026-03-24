@@ -1,68 +1,61 @@
 ---
-description: Step-by-step guide on how to join your Enshrouded server both via Steam and ingame.
+description: Join an Enshrouded server and find the password
 ---
 
-# How to Join an Enshrouded Server
+# How to Join Your Enshrouded Server
 
-## Steam variant (Recommended)
+## Find connection details
 
-:::: info Note
-You can find the server password in the file `enshrouded_server.json`. You can also change the password here.
+:::: warning Important
+To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the game port!
 ::::
 
-1. <b>Start Steam</b><br>
+The server address is: `IP address:Query Port` (e.g. `123.45.67.89:15637`)
+
+## Find server password
+
+The server password is stored in the `enshrouded_server.json` file (in the user groups section). You can find the file either via the **File Browser** in the dashboard or via [SFTP](../establish-sftp-connection.md).
+
+## Steam variant (recommended)
+
+1. <b>Open Steam</b><br>
    Open the Steam client.
 
-2. <b>Open menu</b><br>
-   Click on "Show" in the top left corner.
+2. <b>Open server browser</b><br>
+   Click on **View** in the top left and select **Game Servers**.
 
-3. <b>Select game servers</b><br>
-   Select the "Game server" section.
+3. <b>Add server</b><br>
+   Click on the **Favorites** tab and then on **+** at the bottom right.
 
-4. <b>Open favorites</b><br>
-   Click on "Favorites".
+4. <b>Enter server address</b><br>
+   Enter the IP address and the **Query Port** of your server.
 
-5. <b>Add server</b><br>
-   Click on "+" at the bottom right.
+   :::: tip Example
+   ```
+   123.45.67.89:15637
+   ```
+   ::::
 
-6. <b>Enter server address</b><br>
-   Enter the IP address and query port of your server (e.g. `111.222.333.444:55555`).
+5. <b>Start Enshrouded</b><br>
+   Launch Enshrouded and select **Play** in the main menu.
 
-7. <b>Start Enshrouded</b><br>
-   Launch the game.
-
-8. <b>Select play</b><br>
-   Select the "Play" item in the main menu.
-
-9. <b>Click join</b><br>
-   Click on "Join" in the game selection.
-
-10. <b>Connect to server</b><br>
-    The server should now be displayed and you can join the server.
+6. <b>Join server</b><br>
+   Click on **Join**. Your server should now appear in the list.
 
 ## Ingame variant
 
-:::: info Note
-You can find the server password and the server name in the file `enshrouded_server.json`. You can also change these here.
-::::
-
 1. <b>Start Enshrouded</b><br>
-   Launch the game.
+   Launch Enshrouded and select **Play** in the main menu.
 
-2. <b>Select play</b><br>
-   Select the "Play" item in the main menu.
+2. <b>Click Join</b><br>
+   Click on **Join**.
 
-3. <b>Click join</b><br>
-   Click on "Join" in the game selection.
+3. <b>Search for server</b><br>
+   Click on **Search for servername** in the top right and enter the name of your server.
 
-4. <b>Search for server</b><br>
-   Click on "Search for servername" in the top right-hand corner.
+4. <b>Join server</b><br>
+   Click **Search**. Your server should now appear.
 
-5. <b>Enter server name</b><br>
-   Enter the name of your server in the popup.
-
-6. <b>Start search</b><br>
-   Click on "Search".
-
-7. <b>Connect to server</b><br>
-   The server should now be displayed and you can join the server.
+:::: info Note
+You can also find the server name in the `enshrouded_server.json` file.
+::::
