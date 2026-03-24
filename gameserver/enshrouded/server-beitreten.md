@@ -16,19 +16,19 @@ Die Serveradresse setzt sich zusammen aus: `IP-Adresse:Query-Port` (z.B. `123.45
 
 Das Server Passwort wird in der Datei `enshrouded_server.json` gespeichert (bei den Usergruppen). Du findest die Datei entweder über den **Datei-Browser** in der Verwaltung oder per [SFTP](../sftp-verbindung-herstellen.md).
 
-## Steam Variante (empfohlen)
+## Mit IP-Adresse verbinden
 
-1. <b>Steam öffnen</b><br>
-   Öffne den Steam-Client.
+1. <b>Enshrouded starten</b><br>
+   Starte Enshrouded und wähle im Hauptmenü **Spielen**.
 
-2. <b>Server-Browser öffnen</b><br>
-   Klicke oben links auf **Anzeige** und wähle **Spielserver**.
+2. <b>Beitreten klicken</b><br>
+   Klicke auf **Beitreten**.
 
-3. <b>Server hinzufügen</b><br>
-   Klicke auf den Tab **Favoriten** und dann unten rechts auf **+**.
+3. <b>Dedizierter Server Tab auswählen</b><br>
+   Wähle den Tab **Dedizierter Server** aus.
 
-4. <b>Serveradresse eintragen</b><br>
-   Gib die IP-Adresse und den **Query Port** deines Servers ein.
+4. <b>Server suchen</b><br>
+   Drücke `T` (unten rechts angezeigt), um das Suchfeld zu öffnen. Gib die IP-Adresse und den Query Port im Format `IP-Adresse:Query-Port` ein.
 
    :::: tip Beispiel
    ```
@@ -36,26 +36,22 @@ Das Server Passwort wird in der Datei `enshrouded_server.json` gespeichert (bei 
    ```
    ::::
 
-5. <b>Enshrouded starten</b><br>
-   Starte Enshrouded und wähle im Hauptmenü **Play**.
+5. <b>Server beitreten</b><br>
+   Klicke auf **Suchen**. Dein Server sollte nun angezeigt werden und du kannst beitreten.
 
-6. <b>Server beitreten</b><br>
-   Klicke auf **Join**. Dein Server sollte nun in der Liste angezeigt werden.
-
-## Ingame Variante
+## Über Servername suchen
 
 1. <b>Enshrouded starten</b><br>
-   Starte Enshrouded und wähle im Hauptmenü **Play**.
+   Starte Enshrouded und wähle im Hauptmenü **Spielen**.
 
-2. <b>Join klicken</b><br>
-   Klicke auf **Join**.
+2. <b>Beitreten klicken</b><br>
+   Klicke auf **Beitreten**.
 
-3. <b>Server suchen</b><br>
-   Klicke oben rechts auf **Search for servername** und gib den Namen deines Servers ein.
+3. <b>Dedizierter Server Tab auswählen</b><br>
+   Wähle den Tab **Dedizierter Server** aus.
 
-4. <b>Server beitreten</b><br>
-   Klicke auf **Search**. Dein Server sollte nun angezeigt werden.
+4. <b>Server suchen</b><br>
+   Klicke links bei den Filtern auf **Servernamen filtern** und gib den Namen deines Servers ein.
 
-:::: info Hinweis
-Den Servernamen findest du ebenfalls in der `enshrouded_server.json`.
-::::
+5. <b>Server beitreten</b><br>
+   Dein Server sollte nun automatisch in der Liste angezeigt werden.

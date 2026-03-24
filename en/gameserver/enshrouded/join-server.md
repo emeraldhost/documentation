@@ -16,33 +16,7 @@ The server address is: `IP address:Query Port` (e.g. `123.45.67.89:15637`)
 
 The server password is stored in the `enshrouded_server.json` file (in the user groups section). You can find the file either via the **File Browser** in the dashboard or via [SFTP](../establish-sftp-connection.md).
 
-## Steam variant (recommended)
-
-1. <b>Open Steam</b><br>
-   Open the Steam client.
-
-2. <b>Open server browser</b><br>
-   Click on **View** in the top left and select **Game Servers**.
-
-3. <b>Add server</b><br>
-   Click on the **Favorites** tab and then on **+** at the bottom right.
-
-4. <b>Enter server address</b><br>
-   Enter the IP address and the **Query Port** of your server.
-
-   :::: tip Example
-   ```
-   123.45.67.89:15637
-   ```
-   ::::
-
-5. <b>Start Enshrouded</b><br>
-   Launch Enshrouded and select **Play** in the main menu.
-
-6. <b>Join server</b><br>
-   Click on **Join**. Your server should now appear in the list.
-
-## Ingame variant
+## Connect with IP address
 
 1. <b>Start Enshrouded</b><br>
    Launch Enshrouded and select **Play** in the main menu.
@@ -50,12 +24,34 @@ The server password is stored in the `enshrouded_server.json` file (in the user 
 2. <b>Click Join</b><br>
    Click on **Join**.
 
-3. <b>Search for server</b><br>
-   Click on **Search for servername** in the top right and enter the name of your server.
+3. <b>Select Dedicated Server</b><br>
+   Select the **Dedicated Server** tab.
 
-4. <b>Join server</b><br>
-   Click **Search**. Your server should now appear.
+4. <b>Search for server</b><br>
+   Press `T` to open the search field. Enter the IP address and Query Port in the format `IP address:Query Port`.
 
-:::: info Note
-You can also find the server name in the `enshrouded_server.json` file.
-::::
+   :::: tip Example
+   ```
+   123.45.67.89:15637
+   ```
+   ::::
+
+5. <b>Join server</b><br>
+   Click **Search**. Your server should now appear and you can join.
+
+## Search by server name
+
+1. <b>Start Enshrouded</b><br>
+   Launch Enshrouded and select **Play** in the main menu.
+
+2. <b>Click Join</b><br>
+   Click on **Join**.
+
+3. <b>Select Dedicated Server tab</b><br>
+   Select the **Dedicated Server** tab.
+
+4. <b>Search for server</b><br>
+   Click on **Filter by servername** in the filters on the left and enter the name of your server.
+
+5. <b>Join server</b><br>
+   Your server should now automatically appear in the list.
