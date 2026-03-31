@@ -314,6 +314,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'RuneScape: Dragonwilds',
+                link: '/gameserver/runescape-dragonwilds',
+                collapsed: true,
+                items: [
+                  { text: 'Admin Passwort setzen', link: '/gameserver/runescape-dragonwilds/admin-passwort-setzen' },
+                  { text: 'Custom Welt erstellen', link: '/gameserver/runescape-dragonwilds/custom-welt-erstellen' },
+                  { text: 'Owner ID setzen', link: '/gameserver/runescape-dragonwilds/owner-id-setzen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/runescape-dragonwilds/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/runescape-dragonwilds/server-beitreten' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/runescape-dragonwilds/server-passwort-setzen' }
+                ]
+              },
+              {
                 text: 'Terraria: tModLoader',
                 link: '/gameserver/terraria-tmodloader',
                 collapsed: true,
@@ -773,6 +786,19 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' }
+                ]
+              },
+              {
+                text: 'RuneScape: Dragonwilds',
+                link: '/en/gameserver/runescape-dragonwilds',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/runescape-dragonwilds/add-savegame' },
+                  { text: 'Create Custom World', link: '/en/gameserver/runescape-dragonwilds/create-custom-world' },
+                  { text: 'Set Admin Password', link: '/en/gameserver/runescape-dragonwilds/set-admin-password' },
+                  { text: 'Join Server', link: '/en/gameserver/runescape-dragonwilds/join-server' },
+                  { text: 'Set Owner ID', link: '/en/gameserver/runescape-dragonwilds/set-owner-id' },
+                  { text: 'Set Server Password', link: '/en/gameserver/runescape-dragonwilds/set-server-password' }
                 ]
               },
               {
