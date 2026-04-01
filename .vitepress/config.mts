@@ -314,6 +314,14 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'RAGE:MP',
+                link: '/gameserver/ragemp',
+                collapsed: true,
+                items: [
+                  { text: 'Scripts hinzufügen', link: '/gameserver/ragemp/scripts-hinzufuegen' }
+                ]
+              },
+              {
                 text: 'RuneScape: Dragonwilds',
                 link: '/gameserver/runescape-dragonwilds',
                 collapsed: true,
@@ -786,6 +794,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' }
+                ]
+              },
+              {
+                text: 'RAGE:MP',
+                link: '/en/gameserver/ragemp',
+                collapsed: true,
+                items: [
+                  { text: 'Add Scripts', link: '/en/gameserver/ragemp/add-scripts' }
                 ]
               },
               {
