@@ -1,50 +1,94 @@
-# TeamSpeak Server
+---
+description: Domain mit einem TeamSpeak Server verknüpfen
+---
 
-Um deine Domain auf einen Minecraft Server weiterzuleiten, klicke in deiner Domain auf "**DNS Einstellungen**".
+# So verknüpfst du deine Domain mit einem TeamSpeak Server
 
-Sollte der TeamSpeak auf dem gleichen Account wie die Domain sein, so kannst Du unter "Typ" **PRODUKT** auswählen, der Weiterleitung einen Namen geben und unter "Ziel" den passenden TeamSpeak Server wählen.
+Du kannst deinen TeamSpeak Server über eine eigene Domain erreichbar machen, sodass Nutzer sich z.B. über `ts.deinedomain.de` oder `deinedomain.de` verbinden können — statt über eine IP-Adresse.
 
-<figure><img src="../../assets/Ts-Produkt.png" alt=""><figcaption><p>TeamSpeak bei EmeraldHost</p></figcaption></figure>
+## Voraussetzungen
 
-Hostest Du deinen TeamSpeak Server selbst oder bei einem anderen Hosting, so musst Du folgende Einträge erstellen.&#x20;
+- Eine Domain bei EmeraldHost
+- Die IP-Adresse und den Port deines TeamSpeak Servers (findest du in der **Verwaltung** deines Servers)
 
-## A-Eintrag
+## Mit Subdomain verbinden (z.B. ts.deinedomain.de)
 
-Wähle unter "Typ" den **A-Eintrag** aus.
+1. <b>DNS-Einstellungen öffnen</b><br>
+   Öffne die Verwaltung deiner Domain und klicke auf **DNS Einstellungen**.
 
-Vergebe der Weiterleitung einen Namen woran Du die TeamSpeak-Weiterleitung erkennen kannst.
+2. <b>A-Eintrag erstellen</b><br>
+   Erstelle einen neuen Eintrag mit Typ **A**:
 
-Das "Ziel" ist die IP-Adresse deines TeamSpeak-Servers ohne Port.
+   | Feld | Wert |
+   |------|------|
+   | Typ | `A` |
+   | Name | `ts` |
+   | Ziel | Die IP-Adresse deines Servers |
 
-<figure><img src="../../assets/A-Eintrag-TS.png" alt=""><figcaption><p>A Eintrag</p></figcaption></figure>
+3. <b>SRV-Eintrag erstellen</b><br>
+   Erstelle einen neuen Eintrag mit Typ **SRV**, damit TeamSpeak den richtigen Port findet:
 
-## SRV-Eintrag
+   **Name:**
 
-Wähle unter "Typ" den **SRV-Eintrag** aus.
+   | Feld | Wert |
+   |------|------|
+   | Service Name | `_ts3` |
+   | Protokoll | `UDP` |
+   | Name | `ts` |
 
-Klicke nun auf das leere Feld unter "Name".&#x20;
+   **Ziel:**
 
-Trage nun folgende Daten in das geöffnete Fenster ein:
+   | Feld | Wert |
+   |------|------|
+   | Priorität | `0` |
+   | Gewicht | `5` |
+   | Port | Der Port deines TeamSpeak Servers |
+   | Ziel | `ts.deinedomain.de` |
 
-- Service Name -> \_ts3
-- Protokoll -> UDP
-- Name -> Kann leer gelassen werden außer Du willst mit z.B. "ts." vor deiner Domain connecten
+4. <b>Verbindung testen</b><br>
+   Warte einige Minuten, bis die DNS-Änderungen aktiv sind, und verbinde dich in TeamSpeak mit `ts.deinedomain.de`.
 
-Bestätige die Eingaben nun mit "Speichern".
+## Ohne Subdomain verbinden (z.B. deinedomain.de)
 
-<figure><img src="../../assets/SRV-01.png" alt=""><figcaption><p>SRV Eintrag "Name"</p></figcaption></figure>
+1. <b>DNS-Einstellungen öffnen</b><br>
+   Öffne die Verwaltung deiner Domain und klicke auf **DNS Einstellungen**.
 
-Klicke nun auf das leere Feld unter "Ziel".&#x20;
+2. <b>A-Eintrag erstellen</b><br>
+   Erstelle einen neuen Eintrag mit Typ **A**:
 
-Trage nun folgende Daten in das geöffnete Fenster ein:
+   | Feld | Wert |
+   |------|------|
+   | Typ | `A` |
+   | Name | leer lassen |
+   | Ziel | Die IP-Adresse deines Servers |
 
-- Priorität -> 0
-- Gewicht -> 5
-- Port -> Der Port deines TeamSpeak-Servers
-- Ziel -> Deine Domain | Solltest Du unter "Name" eben etwas angegeben haben, so muss dies mit einem "." davor
+3. <b>SRV-Eintrag erstellen</b><br>
+   Erstelle einen neuen Eintrag mit Typ **SRV**:
 
-Bestätige nun deine Eingaben mit "Speichern".
+   **Name:**
 
-<figure><img src="../../assets/SRV-02.png" alt=""><figcaption><p>SRV Eintrag "Ziel"</p></figcaption></figure>
+   | Feld | Wert |
+   |------|------|
+   | Service Name | `_ts3` |
+   | Protokoll | `UDP` |
+   | Name | leer lassen |
 
-<figure><img src="../../assets/SRV-03.png" alt=""><figcaption><p>SRV Eintrag erstellen</p></figcaption></figure>
+   **Ziel:**
+
+   | Feld | Wert |
+   |------|------|
+   | Priorität | `0` |
+   | Gewicht | `5` |
+   | Port | Der Port deines TeamSpeak Servers |
+   | Ziel | `deinedomain.de` |
+
+4. <b>Verbindung testen</b><br>
+   Warte einige Minuten, bis die DNS-Änderungen aktiv sind, und verbinde dich in TeamSpeak mit `deinedomain.de`.
+
+:::: info Hinweis
+DNS-Änderungen können bis zu 24 Stunden dauern, bis sie weltweit aktiv sind. In der Regel sind sie aber innerhalb weniger Minuten verfügbar.
+::::
+
+:::: tip Tipp
+Falls dein TeamSpeak Server den Standard-Port `9987` verwendet, reicht der A-Eintrag allein aus. Der SRV-Eintrag wird nur benötigt, wenn dein Server einen anderen Port verwendet.
+::::

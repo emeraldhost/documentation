@@ -1,50 +1,94 @@
-# TeamSpeak Server
+---
+description: Connect a domain to a TeamSpeak server
+---
 
-To forward your domain to a Minecraft server, click on "**DNS settings**" in your domain.
+# How to Connect Your Domain to a TeamSpeak Server
 
-If the TeamSpeak is on the same account as the domain, you can select **PRODUCT** under "Type", give the forwarding a name and select the appropriate TeamSpeak server under "Destination".
+You can make your TeamSpeak server reachable via your own domain, so users can connect using e.g. `ts.yourdomain.com` or `yourdomain.com` — instead of an IP address.
 
-<figure><img src="../../../assets/Ts-Produkt.png" alt=""><figcaption><p>TeamSpeak at EmeraldHost</p></figcaption></figure>
+## Requirements
 
-If you host your TeamSpeak server yourself or with another hosting, you must create the following entries &#x20;
+- A domain with EmeraldHost
+- The IP address and port of your TeamSpeak server (you can find these in the **dashboard** of your server)
 
-## A-Record
+## Connect with subdomain (e.g. ts.yourdomain.com)
 
-Select the **A-Record** under "Type".
+1. <b>Open DNS settings</b><br>
+   Open the management of your domain and click on **DNS Settings**.
 
-Give the forwarding a name by which you can recognize the TeamSpeak forwarding.
+2. <b>Create A record</b><br>
+   Create a new record with type **A**:
 
-The "Destination" is the IP address of your TeamSpeak server without port.
+   | Field | Value |
+   |-------|-------|
+   | Type | `A` |
+   | Name | `ts` |
+   | Target | Your server IP address |
 
-<figure><img src="../../../assets/A-Eintrag-TS.png" alt=""><figcaption><p>A Record</p></figcaption></figure>
+3. <b>Create SRV record</b><br>
+   Create a new record with type **SRV** so TeamSpeak can find the correct port:
 
-## SRV Record
+   **Name:**
 
-Select the **SRV Record** under "Type".
+   | Field | Value |
+   |-------|-------|
+   | Service Name | `_ts3` |
+   | Protocol | `UDP` |
+   | Name | `ts` |
 
-Now click on the empty field under "Name" &#x20;
+   **Target:**
 
-Now enter the following data in the opened window:
+   | Field | Value |
+   |-------|-------|
+   | Priority | `0` |
+   | Weight | `5` |
+   | Port | Your TeamSpeak server port |
+   | Target | `ts.yourdomain.com` |
 
-- Service Name -> \_ts3
-- Protocol -> UDP
-- Name -> Can be left empty unless you want to connect with e.g. "ts." in front of your domain
+4. <b>Test connection</b><br>
+   Wait a few minutes for the DNS changes to take effect, then connect in TeamSpeak using `ts.yourdomain.com`.
 
-Confirm the entries with "Save".
+## Connect without subdomain (e.g. yourdomain.com)
 
-<figure><img src="../../../assets/SRV-01.png" alt=""><figcaption><p>SRV Record "Name"</p></figcaption></figure>
+1. <b>Open DNS settings</b><br>
+   Open the management of your domain and click on **DNS Settings**.
 
-Now click on the empty field under "Target" &#x20;
+2. <b>Create A record</b><br>
+   Create a new record with type **A**:
 
-Now enter the following data in the opened window:
+   | Field | Value |
+   |-------|-------|
+   | Type | `A` |
+   | Name | leave empty |
+   | Target | Your server IP address |
 
-- Priority -> 0
-- Weight -> 5
-- Port -> The port of your TeamSpeak server
-- Destination -> Your domain | If you have just entered something under "Name", this must be preceded by a ".".
+3. <b>Create SRV record</b><br>
+   Create a new record with type **SRV**:
 
-Now confirm your entries with "Save".
+   **Name:**
 
-<figure><img src="../../../assets/SRV-02.png" alt=""><figcaption><p>SRV Record "Destination"</p></figcaption></figure>
+   | Field | Value |
+   |-------|-------|
+   | Service Name | `_ts3` |
+   | Protocol | `UDP` |
+   | Name | leave empty |
 
-<figure><img src="../../../assets/SRV-03.png" alt=""><figcaption><p>Create SRV Record</p></figcaption></figure>
+   **Target:**
+
+   | Field | Value |
+   |-------|-------|
+   | Priority | `0` |
+   | Weight | `5` |
+   | Port | Your TeamSpeak server port |
+   | Target | `yourdomain.com` |
+
+4. <b>Test connection</b><br>
+   Wait a few minutes for the DNS changes to take effect, then connect in TeamSpeak using `yourdomain.com`.
+
+:::: info Note
+DNS changes can take up to 24 hours to propagate worldwide. However, they are usually available within a few minutes.
+::::
+
+:::: tip Tip
+If your TeamSpeak server uses the default port `9987`, the A record alone is sufficient. The SRV record is only needed if your server uses a different port.
+::::
