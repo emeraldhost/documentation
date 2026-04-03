@@ -128,6 +128,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Counter-Strike 2',
+                link: '/gameserver/counter-strike-2',
+                collapsed: true,
+                items: [
+                  { text: 'Map ändern', link: '/gameserver/counter-strike-2/map-aendern' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/counter-strike-2/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/counter-strike-2/server-beitreten' },
+                  { text: 'Server konfigurieren', link: '/gameserver/counter-strike-2/server-konfigurieren' },
+                  { text: 'Spielmodus ändern', link: '/gameserver/counter-strike-2/spielmodus-aendern' },
+                  { text: 'Workshop Maps hinzufügen', link: '/gameserver/counter-strike-2/workshop-maps-hinzufuegen' }
+                ]
+              },
+              {
                 text: 'Core Keeper',
                 link: '/gameserver/core-keeper',
                 collapsed: true,
@@ -613,6 +626,19 @@ export default defineConfig({
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/conan-exiles/add-mods' },
                   { text: 'Change Map', link: '/en/gameserver/conan-exiles/change-map' }
+                ]
+              },
+              {
+                text: 'Counter-Strike 2',
+                link: '/en/gameserver/counter-strike-2',
+                collapsed: true,
+                items: [
+                  { text: 'Add Mods', link: '/en/gameserver/counter-strike-2/add-mods' },
+                  { text: 'Add Workshop Maps', link: '/en/gameserver/counter-strike-2/add-workshop-maps' },
+                  { text: 'Change Game Mode', link: '/en/gameserver/counter-strike-2/change-game-mode' },
+                  { text: 'Change Map', link: '/en/gameserver/counter-strike-2/change-map' },
+                  { text: 'Configure Server', link: '/en/gameserver/counter-strike-2/configure-server' },
+                  { text: 'Join Server', link: '/en/gameserver/counter-strike-2/join-server' }
                 ]
               },
               {
