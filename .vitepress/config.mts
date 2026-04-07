@@ -466,6 +466,7 @@ export default defineConfig({
                 link: '/domains/dns-eintraege',
                 collapsed: true,
                 items: [
+                  { text: 'FiveM Server', link: '/domains/dns-eintraege/fivem-server' },
                   { text: 'Minecraft Server', link: '/domains/dns-eintraege/minecraft-server' },
                   { text: 'TeamSpeak Server', link: '/domains/dns-eintraege/teamspeak-server' }
                 ]
@@ -964,6 +965,7 @@ export default defineConfig({
                 link: '/en/domains/dns-records',
                 collapsed: true,
                 items: [
+                  { text: 'FiveM Server', link: '/en/domains/dns-records/fivem-server' },
                   { text: 'Minecraft Server', link: '/en/domains/dns-records/minecraft-server' },
                   { text: 'TeamSpeak Server', link: '/en/domains/dns-records/teamspeak-server' }
                 ]
