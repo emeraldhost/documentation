@@ -153,7 +153,16 @@ export default defineConfig({
                 link: '/gameserver/dayz',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/dayz/mods-hinzufuegen' }
+                  { text: 'Admin hinzufügen', link: '/gameserver/dayz/admin-hinzufuegen' },
+                  { text: 'Fadenkreuz aktivieren', link: '/gameserver/dayz/fadenkreuz-aktivieren' },
+                  { text: 'Loot anpassen', link: '/gameserver/dayz/loot-anpassen' },
+                  { text: 'Map ändern', link: '/gameserver/dayz/map-aendern' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/dayz/mods-hinzufuegen' },
+                  { text: 'PvP einstellen', link: '/gameserver/dayz/pvp-einstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/dayz/server-beitreten' },
+                  { text: 'Tageszeit ändern', link: '/gameserver/dayz/tageszeit-aendern' },
+                  { text: 'Third Person aktivieren', link: '/gameserver/dayz/third-person-aktivieren' },
+                  { text: 'VoN aktivieren', link: '/gameserver/dayz/von-aktivieren' }
                 ]
               },
               {
@@ -655,7 +664,16 @@ export default defineConfig({
                 link: '/en/gameserver/dayz',
                 collapsed: true,
                 items: [
-                  { text: 'Add Mods', link: '/en/gameserver/dayz/add-mods' }
+                  { text: 'Add Admin', link: '/en/gameserver/dayz/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/dayz/add-mods' },
+                  { text: 'Adjust Loot', link: '/en/gameserver/dayz/adjust-loot' },
+                  { text: 'Change Map', link: '/en/gameserver/dayz/change-map' },
+                  { text: 'Change Time', link: '/en/gameserver/dayz/change-time' },
+                  { text: 'Configure PvP', link: '/en/gameserver/dayz/configure-pvp' },
+                  { text: 'Enable Crosshair', link: '/en/gameserver/dayz/enable-crosshair' },
+                  { text: 'Enable Third Person', link: '/en/gameserver/dayz/enable-third-person' },
+                  { text: 'Enable VoN', link: '/en/gameserver/dayz/enable-von' },
+                  { text: 'Join Server', link: '/en/gameserver/dayz/join-server' }
                 ]
               },
               {
