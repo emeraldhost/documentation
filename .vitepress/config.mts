@@ -190,6 +190,7 @@ export default defineConfig({
                 link: '/gameserver/fivem',
                 collapsed: true,
                 items: [
+                  { text: 'Lizenz Key hinterlegen', link: '/gameserver/fivem/lizenz-key-hinterlegen' },
                   { text: 'Port einstellen', link: '/gameserver/fivem/port-einstellen' }
                 ]
               },
@@ -709,6 +710,7 @@ export default defineConfig({
                 link: '/en/gameserver/fivem',
                 collapsed: true,
                 items: [
+                  { text: 'Set License Key', link: '/en/gameserver/fivem/set-license-key' },
                   { text: 'Set Port', link: '/en/gameserver/fivem/set-port' }
                 ]
               },
