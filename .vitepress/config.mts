@@ -186,6 +186,14 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'FiveM',
+                link: '/gameserver/fivem',
+                collapsed: true,
+                items: [
+                  { text: 'Port einstellen', link: '/gameserver/fivem/port-einstellen' }
+                ]
+              },
+              {
                 text: 'Hytale',
                 link: '',
                 collapsed: true,
@@ -694,6 +702,14 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/euro-truck-simulator-2/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/euro-truck-simulator-2/add-mods' },
                   { text: 'Deactivate Player Damage', link: '/en/gameserver/euro-truck-simulator-2/deactivate-player-damage' }
+                ]
+              },
+              {
+                text: 'FiveM',
+                link: '/en/gameserver/fivem',
+                collapsed: true,
+                items: [
+                  { text: 'Set Port', link: '/en/gameserver/fivem/set-port' }
                 ]
               },
               {
