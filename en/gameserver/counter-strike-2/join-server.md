@@ -4,7 +4,48 @@ description: Join a Counter-Strike 2 server
 
 # How to Join Your Counter-Strike 2 Server
 
-You can join your server via the game console or the Steam server browser.
+## Find connection details
+
+:::: info Note
+You can find the IP address and port of your server in the **dashboard** of your server under the overview. If a server password is set, you will be asked for it when joining.
+::::
+
+## Via Steam server browser
+
+1. <b>Open Steam</b><br>
+   Open the Steam client.
+
+2. <b>Open server browser</b><br>
+   Click on **View** in the top left and select **Game Servers**.
+
+3. <b>Add server</b><br>
+   Click on the **Favorites** tab and then on **+** at the bottom right.
+
+4. <b>Enter server address</b><br>
+   Enter the IP address and port of your server.
+
+   :::: tip Example
+   ```
+   123.45.67.89:27015
+   ```
+   ::::
+
+5. <b>Connect</b><br>
+   Select the server and click **Connect**.
+
+## Search by server name
+
+1. <b>Open Steam</b><br>
+   Open the Steam client.
+
+2. <b>Open server browser</b><br>
+   Click on **View** in the top left and select **Game Servers**.
+
+3. <b>Open Internet tab</b><br>
+   Select the **Internet** tab and use the filter to search for the name of your server.
+
+4. <b>Join the server</b><br>
+   Select your server from the list and click **Connect**.
 
 ## Via game console
 
@@ -30,24 +71,3 @@ You can join your server via the game console or the Steam server browser.
    connect 123.45.67.89:27015
    ```
    ::::
-
-## Via Steam server browser
-
-1. <b>Open Steam</b><br>
-   Open the Steam client.
-
-2. <b>Open server browser</b><br>
-   Click on **View** in the top left and select **Game Servers**.
-
-3. <b>Add server</b><br>
-   Click on the **Favorites** tab and then on **+**.
-
-4. <b>Enter IP</b><br>
-   Enter `IP:Port` of your server.
-
-5. <b>Connect</b><br>
-   Select the server and click **Connect**.
-
-:::: info Note
-You can find the IP address and port in the dashboard of your server. If a server password is set, you will be asked for it when joining.
-::::

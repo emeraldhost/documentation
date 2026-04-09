@@ -4,8 +4,6 @@ description: Join an ARK Survival Evolved server
 
 # How to Join Your ARK Survival Evolved Server
 
-We recommend adding your server via the **Steam server browser** to find it directly in-game.
-
 ## Find connection details
 
 :::: warning Important

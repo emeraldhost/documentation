@@ -4,23 +4,42 @@ description: Join a Palworld server
 
 # How to Join Your Palworld Server
 
-You can join your server via the direct connection in the game.
+## Find connection details
 
 :::: info Note
-You can find the server address including port in the dashboard of your game server under the overview.
+You can find the server address including port in the **dashboard** of your server under the overview.
 ::::
 
+## Via Direct Connect
+
 1. <b>Start Palworld</b><br>
-   Start the game Palworld.
+   Launch Palworld.
 
 2. <b>Select multiplayer mode</b><br>
-   Select the option **Start multiplayer** in the main menu.
-   <img src="../../../assets/gameserver/palworld/server-beitreten/schritt1.jpg" alt="Select multiplayer mode">
+   Select **Start multiplayer** in the main menu.
 
 3. <b>Enter server address</b><br>
    Enter your server address in the input field for the direct connection.
-   <img src="../../../assets/gameserver/palworld/server-beitreten/schritt2.png" alt="Enter server address">
+
+   :::: tip Example
+   ```
+   123.45.67.89:8211
+   ```
+   ::::
 
 4. <b>Connect</b><br>
-   Click **Connect** to connect to the server.
-   <img src="../../../assets/gameserver/palworld/server-beitreten/schritt3.png" alt="Connect to server">
+   Click **Connect** to join the server.
+
+## Search by server name
+
+1. <b>Start Palworld</b><br>
+   Launch Palworld and select **Start multiplayer** in the main menu.
+
+2. <b>Open community servers</b><br>
+   Open the list of community servers.
+
+3. <b>Search for server</b><br>
+   Use the filter and search for the name of your server.
+
+4. <b>Join the server</b><br>
+   Select your server from the list and click **Connect**.

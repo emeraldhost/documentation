@@ -16,7 +16,24 @@ Die Serveradresse setzt sich zusammen aus: `IP-Adresse:Query-Port` (z.B. `123.45
 
 Das Server Passwort wird in der Datei `enshrouded_server.json` gespeichert (bei den Usergruppen). Du findest die Datei entweder über den **Datei-Browser** in der Verwaltung oder per [SFTP](../sftp-verbindung-herstellen.md).
 
-## Mit IP-Adresse verbinden
+## Über den Servernamen suchen
+
+1. <b>Enshrouded starten</b><br>
+   Starte Enshrouded und wähle im Hauptmenü **Spielen**.
+
+2. <b>Beitreten klicken</b><br>
+   Klicke auf **Beitreten**.
+
+3. <b>Dedizierter Server Tab auswählen</b><br>
+   Wähle den Tab **Dedizierter Server** aus.
+
+4. <b>Server suchen</b><br>
+   Klicke links bei den Filtern auf **Servernamen filtern** und gib den Namen deines Servers ein.
+
+5. <b>Server beitreten</b><br>
+   Dein Server sollte nun automatisch in der Liste angezeigt werden.
+
+## Über Direct Connect
 
 1. <b>Enshrouded starten</b><br>
    Starte Enshrouded und wähle im Hauptmenü **Spielen**.
@@ -37,21 +54,4 @@ Das Server Passwort wird in der Datei `enshrouded_server.json` gespeichert (bei 
    ::::
 
 5. <b>Server beitreten</b><br>
-   Klicke auf **Suchen**. Dein Server sollte nun angezeigt werden und du kannst beitreten.
-
-## Über Servername suchen
-
-1. <b>Enshrouded starten</b><br>
-   Starte Enshrouded und wähle im Hauptmenü **Spielen**.
-
-2. <b>Beitreten klicken</b><br>
-   Klicke auf **Beitreten**.
-
-3. <b>Dedizierter Server Tab auswählen</b><br>
-   Wähle den Tab **Dedizierter Server** aus.
-
-4. <b>Server suchen</b><br>
-   Klicke links bei den Filtern auf **Servernamen filtern** und gib den Namen deines Servers ein.
-
-5. <b>Server beitreten</b><br>
-   Dein Server sollte nun automatisch in der Liste angezeigt werden.
+   Dein Server sollte nun angezeigt werden und du kannst beitreten.

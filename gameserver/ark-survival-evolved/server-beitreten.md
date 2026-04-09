@@ -4,8 +4,6 @@ description: Einem ARK Survival Evolved Server beitreten
 
 # So trittst du deinem ARK Survival Evolved Server bei
 
-Wir empfehlen dir, deinen Server über den **Steam-Server-Browser** hinzuzufügen, um ihn ingame direkt zu finden.
-
 ## Verbindungsdaten finden
 
 :::: warning Wichtig

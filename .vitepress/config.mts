@@ -79,6 +79,7 @@ export default defineConfig({
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/american-truck-simulator/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/american-truck-simulator/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/american-truck-simulator/server-beitreten' },
                   { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/american-truck-simulator/spieler-schaden-deaktivieren' }
                 ]
               },
@@ -99,6 +100,7 @@ export default defineConfig({
                 items: [
                   { text: 'Admin werden', link: '/gameserver/arma-reforger/admin-werden' },
                   { text: 'Mods hinzufügen', link: '/gameserver/arma-reforger/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/arma-reforger/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/arma-reforger/spieler-kicken-bannen' },
                   { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
                 ]
@@ -108,7 +110,8 @@ export default defineConfig({
                 link: '/gameserver/barotrauma',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' }
+                  { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/barotrauma/server-beitreten' }
                 ]
               },
               {
@@ -116,7 +119,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/beammp/mods-hinzufuegen' }
+                  { text: 'Mods hinzufügen', link: '/gameserver/beammp/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/beammp/server-beitreten' }
                 ]
               },
               {
@@ -125,7 +129,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Map ändern', link: '/gameserver/conan-exiles/map-aendern' },
-                  { text: 'Mods hinzufügen', link: '/gameserver/conan-exiles/mods-hinzufuegen' }
+                  { text: 'Mods hinzufügen', link: '/gameserver/conan-exiles/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/conan-exiles/server-beitreten' }
                 ]
               },
               {
@@ -146,7 +151,8 @@ export default defineConfig({
                 link: '/gameserver/core-keeper',
                 collapsed: true,
                 items: [
-                  { text: 'Savegame hinzufügen', link: '/gameserver/core-keeper/savegame-hinzufuegen' }
+                  { text: 'Savegame hinzufügen', link: '/gameserver/core-keeper/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/core-keeper/server-beitreten' }
                 ]
               },
               {
@@ -183,6 +189,7 @@ export default defineConfig({
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/euro-truck-simulator-2/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/euro-truck-simulator-2/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/euro-truck-simulator-2/server-beitreten' },
                   { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/euro-truck-simulator-2/spieler-schaden-deaktivieren' }
                 ]
               },
@@ -192,7 +199,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Lizenz Key hinterlegen', link: '/gameserver/fivem/lizenz-key-hinterlegen' },
-                  { text: 'Port einstellen', link: '/gameserver/fivem/port-einstellen' }
+                  { text: 'Port einstellen', link: '/gameserver/fivem/port-einstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/fivem/server-beitreten' }
                 ]
               },
               {
@@ -233,6 +241,7 @@ export default defineConfig({
                 items: [
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen' },
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-bedrock-edition/op-rechte-vergeben' },
+                  { text: 'Server beitreten', link: '/gameserver/minecraft-bedrock-edition/server-beitreten' },
                   { text: 'Slots erhöhen', link: '/gameserver/minecraft-bedrock-edition/slots-erhoehen' },
                   { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern' },
                   { text: 'View-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/view-distance-aendern' },
@@ -261,6 +270,7 @@ export default defineConfig({
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben' },
                   { text: 'Plugins installieren', link: '/gameserver/minecraft-java-edition/plugins-installieren' },
                   { text: 'Schwierigkeitsgrad ändern', link: '/gameserver/minecraft-java-edition/schwierigkeitsgrad-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/minecraft-java-edition/server-beitreten' },
                   { text: 'Server-Icon ändern', link: '/gameserver/minecraft-java-edition/server-icon-aendern' },
                   { text: 'Simulation-Distance ändern', link: '/gameserver/minecraft-java-edition/simulation-distance-aendern' },
                   { text: 'Slots erhöhen', link: '/gameserver/minecraft-java-edition/slots-erhoehen' },
@@ -342,7 +352,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Mods hinzufügen', link: '/gameserver/project-zomboid/mods-hinzufuegen' }
+                  { text: 'Mods hinzufügen', link: '/gameserver/project-zomboid/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/project-zomboid/server-beitreten' }
                 ]
               },
               {
@@ -350,7 +361,8 @@ export default defineConfig({
                 link: '/gameserver/ragemp',
                 collapsed: true,
                 items: [
-                  { text: 'Scripts hinzufügen', link: '/gameserver/ragemp/scripts-hinzufuegen' }
+                  { text: 'Scripts hinzufügen', link: '/gameserver/ragemp/scripts-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/ragemp/server-beitreten' }
                 ]
               },
               {
@@ -372,6 +384,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Mods hinzufügen', link: '/gameserver/terraria-tmodloader/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/terraria-tmodloader/server-beitreten' },
                   { text: 'Welt hinzufügen', link: '/gameserver/terraria-tmodloader/welt-hinzufuegen' }
                 ]
               },
@@ -405,7 +418,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' },
-                  { text: 'Savegame hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' }
+                  { text: 'Savegame hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/v-rising/server-beitreten' }
                 ]
               },
               {
@@ -415,7 +429,8 @@ export default defineConfig({
                 items: [
                   { text: 'Branch wechseln', link: '/gameserver/valheim/branch-wechseln' },
                   { text: 'Mods hinzufügen', link: '/gameserver/valheim/mods-hinzufuegen' },
-                  { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' }
+                  { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/valheim/server-beitreten' }
                 ]
               },
               {
@@ -424,6 +439,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/vein/admin-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/vein/server-beitreten' },
                   { text: 'Whitelist aktivieren', link: '/gameserver/vein/whitelist-aktivieren' }
                 ]
               }
@@ -600,7 +616,8 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/american-truck-simulator/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
-                  { text: 'Deactivate Player Damage', link: '/en/gameserver/american-truck-simulator/deactivate-player-damage' }
+                  { text: 'Deactivate Player Damage', link: '/en/gameserver/american-truck-simulator/deactivate-player-damage' },
+                  { text: 'Join Server', link: '/en/gameserver/american-truck-simulator/join-server' }
                 ]
               },
               {
@@ -621,7 +638,8 @@ export default defineConfig({
                   { text: 'Become Admin', link: '/en/gameserver/arma-reforger/become-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/arma-reforger/add-mods' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/arma-reforger/kick-ban-players' },
-                  { text: 'Change Scenario', link: '/en/gameserver/arma-reforger/change-scenario' }
+                  { text: 'Change Scenario', link: '/en/gameserver/arma-reforger/change-scenario' },
+                  { text: 'Join Server', link: '/en/gameserver/arma-reforger/join-server' }
                 ]
               },
               {
@@ -629,7 +647,8 @@ export default defineConfig({
                 link: '/en/gameserver/barotrauma',
                 collapsed: true,
                 items: [
-                  { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' }
+                  { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' },
+                  { text: 'Join Server', link: '/en/gameserver/barotrauma/join-server' }
                 ]
               },
               {
@@ -637,7 +656,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Add Mods', link: '/en/gameserver/beammp/add-mods' }
+                  { text: 'Add Mods', link: '/en/gameserver/beammp/add-mods' },
+                  { text: 'Join Server', link: '/en/gameserver/beammp/join-server' }
                 ]
               },
               {
@@ -646,7 +666,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/conan-exiles/add-mods' },
-                  { text: 'Change Map', link: '/en/gameserver/conan-exiles/change-map' }
+                  { text: 'Change Map', link: '/en/gameserver/conan-exiles/change-map' },
+                  { text: 'Join Server', link: '/en/gameserver/conan-exiles/join-server' }
                 ]
               },
               {
@@ -667,7 +688,8 @@ export default defineConfig({
                 link: '/en/gameserver/core-keeper',
                 collapsed: true,
                 items: [
-                  { text: 'Add Savegame', link: '/en/gameserver/core-keeper/add-savegame' }
+                  { text: 'Add Savegame', link: '/en/gameserver/core-keeper/add-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/core-keeper/join-server' }
                 ]
               },
               {
@@ -704,7 +726,8 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/euro-truck-simulator-2/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/euro-truck-simulator-2/add-mods' },
-                  { text: 'Deactivate Player Damage', link: '/en/gameserver/euro-truck-simulator-2/deactivate-player-damage' }
+                  { text: 'Deactivate Player Damage', link: '/en/gameserver/euro-truck-simulator-2/deactivate-player-damage' },
+                  { text: 'Join Server', link: '/en/gameserver/euro-truck-simulator-2/join-server' }
                 ]
               },
               {
@@ -712,6 +735,7 @@ export default defineConfig({
                 link: '/en/gameserver/fivem',
                 collapsed: true,
                 items: [
+                  { text: 'Join Server', link: '/en/gameserver/fivem/join-server' },
                   { text: 'Set License Key', link: '/en/gameserver/fivem/set-license-key' },
                   { text: 'Set Port', link: '/en/gameserver/fivem/set-port' }
                 ]
@@ -760,6 +784,7 @@ export default defineConfig({
                   { text: 'Enable Whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist' },
                   { text: 'Grant OP Rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights' },
                   { text: 'Increase Slots', link: '/en/gameserver/minecraft-bedrock-edition/increase-slots' },
+                  { text: 'Join Server', link: '/en/gameserver/minecraft-bedrock-edition/join-server' },
                   { text: 'Upload World', link: '/en/gameserver/minecraft-bedrock-edition/upload-world' },
                   {
                     text: 'Commands',
@@ -791,6 +816,7 @@ export default defineConfig({
                   { text: 'Grant OP Rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights' },
                   { text: 'Increase Slots', link: '/en/gameserver/minecraft-java-edition/increase-slots' },
                   { text: 'Install Plugins', link: '/en/gameserver/minecraft-java-edition/install-plugins' },
+                  { text: 'Join Server', link: '/en/gameserver/minecraft-java-edition/join-server' },
                   { text: 'Upload World', link: '/en/gameserver/minecraft-java-edition/upload-world' },
                   {
                     text: 'Commands',
@@ -860,7 +886,8 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' }
+                  { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' },
+                  { text: 'Join Server', link: '/en/gameserver/project-zomboid/join-server' }
                 ]
               },
               {
@@ -868,7 +895,8 @@ export default defineConfig({
                 link: '/en/gameserver/ragemp',
                 collapsed: true,
                 items: [
-                  { text: 'Add Scripts', link: '/en/gameserver/ragemp/add-scripts' }
+                  { text: 'Add Scripts', link: '/en/gameserver/ragemp/add-scripts' },
+                  { text: 'Join Server', link: '/en/gameserver/ragemp/join-server' }
                 ]
               },
               {
@@ -890,7 +918,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/terraria-tmodloader/add-mods' },
-                  { text: 'Add World', link: '/en/gameserver/terraria-tmodloader/add-world' }
+                  { text: 'Add World', link: '/en/gameserver/terraria-tmodloader/add-world' },
+                  { text: 'Join Server', link: '/en/gameserver/terraria-tmodloader/join-server' }
                 ]
               },
               {
@@ -923,7 +952,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' },
-                  { text: 'Add Savegame', link: '/en/gameserver/v-rising/add-savegame' }
+                  { text: 'Add Savegame', link: '/en/gameserver/v-rising/add-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/v-rising/join-server' }
                 ]
               },
               {
@@ -933,7 +963,8 @@ export default defineConfig({
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/valheim/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/valheim/add-savegame' },
-                  { text: 'Change Branch', link: '/en/gameserver/valheim/change-branch' }
+                  { text: 'Change Branch', link: '/en/gameserver/valheim/change-branch' },
+                  { text: 'Join Server', link: '/en/gameserver/valheim/join-server' }
                 ]
               },
               {
@@ -942,7 +973,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/vein/add-admin' },
-                  { text: 'Enable Whitelist', link: '/en/gameserver/vein/enable-whitelist' }
+                  { text: 'Enable Whitelist', link: '/en/gameserver/vein/enable-whitelist' },
+                  { text: 'Join Server', link: '/en/gameserver/vein/join-server' }
                 ]
               }
             ]

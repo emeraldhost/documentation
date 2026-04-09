@@ -4,7 +4,48 @@ description: Einem Counter-Strike 2 Server beitreten
 
 # So trittst du deinem Counter-Strike 2 Server bei
 
-Du kannst deinem Server über die Spielkonsole oder den Steam-Server-Browser beitreten.
+## Verbindungsdaten finden
+
+:::: info Hinweis
+Die IP-Adresse und den Port deines Servers findest du in der **Verwaltung** deines Servers unter der Übersicht. Falls ein Server Passwort gesetzt ist, wirst du beim Beitreten danach gefragt.
+::::
+
+## Über den Steam-Server-Browser
+
+1. <b>Steam öffnen</b><br>
+   Öffne den Steam-Client.
+
+2. <b>Server-Browser öffnen</b><br>
+   Klicke oben links auf **Anzeige** und wähle **Spielserver**.
+
+3. <b>Server hinzufügen</b><br>
+   Klicke auf den Tab **Favoriten** und dann unten rechts auf **+**.
+
+4. <b>Serveradresse eintragen</b><br>
+   Gib die IP-Adresse und den Port deines Servers ein.
+
+   :::: tip Beispiel
+   ```
+   123.45.67.89:27015
+   ```
+   ::::
+
+5. <b>Verbinden</b><br>
+   Wähle den Server aus und klicke auf **Verbinden**.
+
+## Über den Servernamen suchen
+
+1. <b>Steam öffnen</b><br>
+   Öffne den Steam-Client.
+
+2. <b>Server-Browser öffnen</b><br>
+   Klicke oben links auf **Anzeige** und wähle **Spielserver**.
+
+3. <b>Internet-Tab öffnen</b><br>
+   Wähle den Tab **Internet** und nutze den Filter, um nach dem Namen deines Servers zu suchen.
+
+4. <b>Server beitreten</b><br>
+   Wähle deinen Server aus der Liste und klicke auf **Verbinden**.
 
 ## Über die Spielkonsole
 
@@ -30,24 +71,3 @@ Du kannst deinem Server über die Spielkonsole oder den Steam-Server-Browser bei
    connect 123.45.67.89:27015
    ```
    ::::
-
-## Über den Steam-Server-Browser
-
-1. <b>Steam öffnen</b><br>
-   Öffne den Steam-Client.
-
-2. <b>Server-Browser öffnen</b><br>
-   Klicke oben links auf **Anzeige** und wähle **Spielserver**.
-
-3. <b>Server hinzufügen</b><br>
-   Klicke auf den Tab **Favoriten** und dann auf **+**.
-
-4. <b>IP eingeben</b><br>
-   Gib `IP:Port` deines Servers ein.
-
-5. <b>Verbinden</b><br>
-   Wähle den Server aus und klicke auf **Verbinden**.
-
-:::: info Hinweis
-Die IP-Adresse und den Port findest du in der Verwaltung deines Servers. Falls ein Server Passwort gesetzt ist, wirst du beim Beitreten danach gefragt.
-::::

@@ -1,8 +1,8 @@
 ---
-description: Join a DayZ server
+description: Join a VEIN server
 ---
 
-# How to Join Your DayZ Server
+# How to Join Your VEIN Server
 
 ## Find connection details
 
@@ -26,23 +26,26 @@ To connect you need the **IP address** and the **Query Port** of your server. Yo
 
    :::: tip Example
    ```
-   123.45.67.89:27016
+   123.45.67.89:27015
    ```
    ::::
 
-5. <b>Connect</b><br>
-   Select the server and click **Connect**.
+5. <b>Start VEIN</b><br>
+   Launch VEIN.
+
+6. <b>Search for server</b><br>
+   Select **Multiplayer** in the main menu and filter by **Favorites** — your server should now appear in the list.
+
+7. <b>Join the server</b><br>
+   Select your server and click **Join**.
 
 ## Search by server name
 
-1. <b>Start DayZ</b><br>
-   Launch DayZ and select **Play** in the main menu.
+1. <b>Start VEIN</b><br>
+   Launch VEIN and select **Multiplayer** in the main menu.
 
-2. <b>Open Community Servers</b><br>
-   Select the **Community Servers** tab.
+2. <b>Search for server</b><br>
+   Use the filter and search for the name of your server.
 
-3. <b>Search for server</b><br>
-   Search for your server by name or filter by IP address.
-
-4. <b>Join the server</b><br>
-   Select your server and click **Play**.
+3. <b>Join the server</b><br>
+   Select your server from the list and click **Join**.

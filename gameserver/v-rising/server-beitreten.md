@@ -1,8 +1,8 @@
 ---
-description: Einem DayZ Server beitreten
+description: Einem V Rising Server beitreten
 ---
 
-# So trittst du deinem DayZ Server bei
+# So trittst du deinem V Rising Server bei
 
 ## Verbindungsdaten finden
 
@@ -26,23 +26,26 @@ Für die Verbindung benötigst du die **IP-Adresse** und den **Query Port** dein
 
    :::: tip Beispiel
    ```
-   123.45.67.89:27016
+   123.45.67.89:27015
    ```
    ::::
 
-5. <b>Verbinden</b><br>
-   Wähle den Server aus und klicke auf **Verbinden**.
+5. <b>V Rising starten</b><br>
+   Starte V Rising.
+
+6. <b>Server suchen</b><br>
+   Wähle im Hauptmenü **Play** → **Online Play** und filtere nach **Favoriten** — dein Server sollte nun in der Liste angezeigt werden.
+
+7. <b>Server beitreten</b><br>
+   Wähle deinen Server aus und klicke auf **Play**.
 
 ## Über den Servernamen suchen
 
-1. <b>DayZ starten</b><br>
-   Starte DayZ und wähle im Hauptmenü **Spielen**.
+1. <b>V Rising starten</b><br>
+   Starte V Rising und wähle im Hauptmenü **Play** → **Online Play**.
 
-2. <b>Community-Server öffnen</b><br>
-   Wähle den Tab **Community-Server**.
+2. <b>Server suchen</b><br>
+   Nutze den Filter und suche nach dem Namen deines Servers.
 
-3. <b>Server suchen</b><br>
-   Suche deinen Server über den Servernamen oder filtere nach IP-Adresse.
-
-4. <b>Server beitreten</b><br>
-   Wähle deinen Server aus und klicke auf **Spielen**.
+3. <b>Server beitreten</b><br>
+   Wähle deinen Server aus der Liste und klicke auf **Play**.

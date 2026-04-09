@@ -1,8 +1,8 @@
 ---
-description: Einem DayZ Server beitreten
+description: Einem VEIN Server beitreten
 ---
 
-# So trittst du deinem DayZ Server bei
+# So trittst du deinem VEIN Server bei
 
 ## Verbindungsdaten finden
 
@@ -26,23 +26,26 @@ Für die Verbindung benötigst du die **IP-Adresse** und den **Query Port** dein
 
    :::: tip Beispiel
    ```
-   123.45.67.89:27016
+   123.45.67.89:27015
    ```
    ::::
 
-5. <b>Verbinden</b><br>
-   Wähle den Server aus und klicke auf **Verbinden**.
+5. <b>VEIN starten</b><br>
+   Starte VEIN.
+
+6. <b>Server suchen</b><br>
+   Wähle im Hauptmenü **Multiplayer** und filtere nach **Favoriten** — dein Server sollte nun in der Liste angezeigt werden.
+
+7. <b>Server beitreten</b><br>
+   Wähle deinen Server aus und klicke auf **Join**.
 
 ## Über den Servernamen suchen
 
-1. <b>DayZ starten</b><br>
-   Starte DayZ und wähle im Hauptmenü **Spielen**.
+1. <b>VEIN starten</b><br>
+   Starte VEIN und wähle im Hauptmenü **Multiplayer**.
 
-2. <b>Community-Server öffnen</b><br>
-   Wähle den Tab **Community-Server**.
+2. <b>Server suchen</b><br>
+   Nutze den Filter und suche nach dem Namen deines Servers.
 
-3. <b>Server suchen</b><br>
-   Suche deinen Server über den Servernamen oder filtere nach IP-Adresse.
-
-4. <b>Server beitreten</b><br>
-   Wähle deinen Server aus und klicke auf **Spielen**.
+3. <b>Server beitreten</b><br>
+   Wähle deinen Server aus der Liste und klicke auf **Join**.
