@@ -88,7 +88,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/ark-survival-evolved/admin-hinzufuegen' },
-                  { text: 'Mods hinzufügen', link: '/gameserver/ark-survival-evolved/mods-hinzufuegen' }
+                  { text: 'Mods hinzufügen', link: '/gameserver/ark-survival-evolved/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/ark-survival-evolved/server-beitreten' }
                 ]
               },
               {
@@ -608,7 +609,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/ark-survival-evolved/add-admin' },
-                  { text: 'Add Mods', link: '/en/gameserver/ark-survival-evolved/add-mods' }
+                  { text: 'Add Mods', link: '/en/gameserver/ark-survival-evolved/add-mods' },
+                  { text: 'Join Server', link: '/en/gameserver/ark-survival-evolved/join-server' }
                 ]
               },
               {
