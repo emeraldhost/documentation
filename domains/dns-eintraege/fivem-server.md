@@ -59,7 +59,7 @@ Du kannst deinen FiveM Server über eine eigene Domain erreichbar machen, sodass
    | Feld | Wert |
    |------|------|
    | Typ | `A` |
-   | Name | leer lassen |
+   | Name | `@` |
    | Ziel | Die IP-Adresse deines Servers |
 
 3. <b>SRV-Eintrag erstellen</b><br>

@@ -59,7 +59,7 @@ Du kannst deinen Minecraft Server über eine eigene Domain erreichbar machen, so
    | Feld | Wert |
    |------|------|
    | Typ | `A` |
-   | Name | leer lassen |
+   | Name | `@` |
    | Ziel | Die IP-Adresse deines Servers |
 
 3. <b>SRV-Eintrag erstellen</b><br>

@@ -59,7 +59,7 @@ You can make your FiveM server reachable via your own domain, so players can con
    | Field | Value |
    |-------|-------|
    | Type | `A` |
-   | Name | leave empty |
+   | Name | `@` |
    | Target | Your server IP address |
 
 3. <b>Create SRV record</b><br>

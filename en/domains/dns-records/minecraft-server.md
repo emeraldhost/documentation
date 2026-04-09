@@ -59,7 +59,7 @@ You can make your Minecraft server reachable via your own domain, so players can
    | Field | Value |
    |-------|-------|
    | Type | `A` |
-   | Name | leave empty |
+   | Name | `@` |
    | Target | Your server IP address |
 
 3. <b>Create SRV record</b><br>

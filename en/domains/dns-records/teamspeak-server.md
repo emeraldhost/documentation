@@ -59,7 +59,7 @@ You can make your TeamSpeak server reachable via your own domain, so users can c
    | Field | Value |
    |-------|-------|
    | Type | `A` |
-   | Name | leave empty |
+   | Name | `@` |
    | Target | Your server IP address |
 
 3. <b>Create SRV record</b><br>
