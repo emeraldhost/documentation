@@ -132,10 +132,17 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/conan-exiles/admin-hinzufuegen' },
+                  { text: 'BattlEye aktivieren', link: '/gameserver/conan-exiles/battleye-aktivieren' },
                   { text: 'Map ändern', link: '/gameserver/conan-exiles/map-aendern' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/conan-exiles/max-spieler-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/conan-exiles/mods-hinzufuegen' },
+                  { text: 'PvP aktivieren', link: '/gameserver/conan-exiles/pvp-aktivieren' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/conan-exiles/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/conan-exiles/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/conan-exiles/server-beitreten' },
+                  { text: 'Server Community ändern', link: '/gameserver/conan-exiles/server-community-aendern' },
+                  { text: 'Server Name ändern', link: '/gameserver/conan-exiles/server-name-aendern' },
+                  { text: 'Server Region ändern', link: '/gameserver/conan-exiles/server-region-aendern' },
+                  { text: 'VAC aktivieren', link: '/gameserver/conan-exiles/vac-aktivieren' }
                 ]
               },
               {
@@ -715,6 +722,13 @@ export default defineConfig({
                   { text: 'Add Mods', link: '/en/gameserver/conan-exiles/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/conan-exiles/add-savegame' },
                   { text: 'Change Map', link: '/en/gameserver/conan-exiles/change-map' },
+                  { text: 'Change Max Players', link: '/en/gameserver/conan-exiles/change-max-players' },
+                  { text: 'Change Server Community', link: '/en/gameserver/conan-exiles/change-server-community' },
+                  { text: 'Change Server Name', link: '/en/gameserver/conan-exiles/change-server-name' },
+                  { text: 'Change Server Region', link: '/en/gameserver/conan-exiles/change-server-region' },
+                  { text: 'Enable BattlEye', link: '/en/gameserver/conan-exiles/enable-battleye' },
+                  { text: 'Enable PvP', link: '/en/gameserver/conan-exiles/enable-pvp' },
+                  { text: 'Enable VAC', link: '/en/gameserver/conan-exiles/enable-vac' },
                   { text: 'Join Server', link: '/en/gameserver/conan-exiles/join-server' }
                 ]
               },
