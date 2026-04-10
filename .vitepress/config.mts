@@ -111,6 +111,9 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/barotrauma/admin-hinzufuegen' },
+                  { text: 'Bots hinzufügen', link: '/gameserver/barotrauma/bots-hinzufuegen' },
+                  { text: 'Custom Ranks hinzufügen', link: '/gameserver/barotrauma/custom-ranks-hinzufuegen' },
+                  { text: 'Karma aktivieren', link: '/gameserver/barotrauma/karma-aktivieren' },
                   { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/barotrauma/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/barotrauma/server-beitreten' },
@@ -119,7 +122,9 @@ export default defineConfig({
                   { text: 'Server Passwort setzen', link: '/gameserver/barotrauma/server-passwort-setzen' },
                   { text: 'Serverliste aktivieren', link: '/gameserver/barotrauma/serverliste-aktivieren' },
                   { text: 'Spielmodus ändern', link: '/gameserver/barotrauma/spielmodus-aendern' },
-                  { text: 'Max Spieler ändern', link: '/gameserver/barotrauma/max-spieler-aendern' }
+                  { text: 'Max Spieler ändern', link: '/gameserver/barotrauma/max-spieler-aendern' },
+                  { text: 'Spieler bannen', link: '/gameserver/barotrauma/spieler-bannen' },
+                  { text: 'Traitors aktivieren', link: '/gameserver/barotrauma/traitors-aktivieren' }
                 ]
               },
               {
@@ -728,6 +733,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/barotrauma/add-admin' },
+                  { text: 'Add Bots', link: '/en/gameserver/barotrauma/add-bots' },
+                  { text: 'Add Custom Ranks', link: '/en/gameserver/barotrauma/add-custom-ranks' },
                   { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/barotrauma/add-savegame' },
                   { text: 'Change Game Mode', link: '/en/gameserver/barotrauma/change-game-mode' },
@@ -736,6 +743,9 @@ export default defineConfig({
                   { text: 'Change Server Name', link: '/en/gameserver/barotrauma/change-server-name' },
                   { text: 'Enable Server List', link: '/en/gameserver/barotrauma/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/barotrauma/join-server' },
+                  { text: 'Enable Karma', link: '/en/gameserver/barotrauma/enable-karma' },
+                  { text: 'Enable Traitors', link: '/en/gameserver/barotrauma/enable-traitors' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/barotrauma/kick-ban-players' },
                   { text: 'Set Server Password', link: '/en/gameserver/barotrauma/set-server-password' }
                 ]
               },
