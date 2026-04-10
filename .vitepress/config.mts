@@ -110,7 +110,9 @@ export default defineConfig({
                 link: '/gameserver/barotrauma',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/barotrauma/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/barotrauma/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/barotrauma/server-beitreten' }
                 ]
               },
@@ -120,7 +122,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Mods hinzufügen', link: '/gameserver/beammp/mods-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/beammp/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/beammp/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/beammp/server-name-aendern' }
                 ]
               },
               {
@@ -128,8 +131,10 @@ export default defineConfig({
                 link: '/gameserver/conan-exiles',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/conan-exiles/admin-hinzufuegen' },
                   { text: 'Map ändern', link: '/gameserver/conan-exiles/map-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/conan-exiles/mods-hinzufuegen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/conan-exiles/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/conan-exiles/server-beitreten' }
                 ]
               },
@@ -152,7 +157,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Savegame hinzufügen', link: '/gameserver/core-keeper/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/core-keeper/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/core-keeper/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/core-keeper/server-name-aendern' }
                 ]
               },
               {
@@ -352,8 +358,11 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/project-zomboid/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/project-zomboid/mods-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/project-zomboid/server-beitreten' }
+                  { text: 'Savegame hinzufügen', link: '/gameserver/project-zomboid/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/project-zomboid/server-beitreten' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/project-zomboid/server-passwort-setzen' }
                 ]
               },
               {
@@ -386,6 +395,7 @@ export default defineConfig({
                   { text: 'Admin hinzufügen', link: '/gameserver/soulmask/admin-hinzufuegen' },
                   { text: 'Admin Passwort setzen', link: '/gameserver/soulmask/admin-passwort-setzen' },
                   { text: 'Invitation Code finden', link: '/gameserver/soulmask/invitation-code-finden' },
+                  { text: 'Map ändern', link: '/gameserver/soulmask/map-aendern' },
                   { text: 'Max Spieler ändern', link: '/gameserver/soulmask/max-spieler-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/soulmask/mods-hinzufuegen' },
                   { text: 'PvP einstellen', link: '/gameserver/soulmask/pvp-einstellen' },
@@ -438,8 +448,11 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/v-rising/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/v-rising/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/v-rising/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/v-rising/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/v-rising/server-passwort-setzen' }
                 ]
               },
               {
@@ -447,10 +460,12 @@ export default defineConfig({
                 link: '/gameserver/valheim',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/valheim/admin-hinzufuegen' },
                   { text: 'Branch wechseln', link: '/gameserver/valheim/branch-wechseln' },
                   { text: 'Mods hinzufügen', link: '/gameserver/valheim/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/valheim/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/valheim/server-beitreten' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/valheim/server-passwort-setzen' }
                 ]
               },
               {
@@ -667,7 +682,9 @@ export default defineConfig({
                 link: '/en/gameserver/barotrauma',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/barotrauma/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/barotrauma/add-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/barotrauma/join-server' }
                 ]
               },
@@ -677,6 +694,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/beammp/add-mods' },
+                  { text: 'Change Server Name', link: '/en/gameserver/beammp/change-server-name' },
                   { text: 'Join Server', link: '/en/gameserver/beammp/join-server' }
                 ]
               },
@@ -685,7 +703,9 @@ export default defineConfig({
                 link: '/en/gameserver/conan-exiles',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/conan-exiles/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/conan-exiles/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/conan-exiles/add-savegame' },
                   { text: 'Change Map', link: '/en/gameserver/conan-exiles/change-map' },
                   { text: 'Join Server', link: '/en/gameserver/conan-exiles/join-server' }
                 ]
@@ -709,6 +729,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Savegame', link: '/en/gameserver/core-keeper/add-savegame' },
+                  { text: 'Change Server Name', link: '/en/gameserver/core-keeper/change-server-name' },
                   { text: 'Join Server', link: '/en/gameserver/core-keeper/join-server' }
                 ]
               },
@@ -906,8 +927,11 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/project-zomboid/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' },
-                  { text: 'Join Server', link: '/en/gameserver/project-zomboid/join-server' }
+                  { text: 'Add Savegame', link: '/en/gameserver/project-zomboid/add-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/project-zomboid/join-server' },
+                  { text: 'Set Server Password', link: '/en/gameserver/project-zomboid/set-server-password' }
                 ]
               },
               {
@@ -940,6 +964,7 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/soulmask/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/soulmask/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/soulmask/add-savegame' },
+                  { text: 'Change Map', link: '/en/gameserver/soulmask/change-map' },
                   { text: 'Change Max Players', link: '/en/gameserver/soulmask/change-max-players' },
                   { text: 'Change Server Name', link: '/en/gameserver/soulmask/change-server-name' },
                   { text: 'Configure PvP', link: '/en/gameserver/soulmask/configure-pvp' },
@@ -992,8 +1017,11 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/v-rising/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/v-rising/add-savegame' },
-                  { text: 'Join Server', link: '/en/gameserver/v-rising/join-server' }
+                  { text: 'Change Server Name', link: '/en/gameserver/v-rising/change-server-name' },
+                  { text: 'Join Server', link: '/en/gameserver/v-rising/join-server' },
+                  { text: 'Set Server Password', link: '/en/gameserver/v-rising/set-server-password' }
                 ]
               },
               {
@@ -1001,10 +1029,12 @@ export default defineConfig({
                 link: '/en/gameserver/valheim',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/valheim/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/valheim/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/valheim/add-savegame' },
                   { text: 'Change Branch', link: '/en/gameserver/valheim/change-branch' },
-                  { text: 'Join Server', link: '/en/gameserver/valheim/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/valheim/join-server' },
+                  { text: 'Set Server Password', link: '/en/gameserver/valheim/set-server-password' }
                 ]
               },
               {
