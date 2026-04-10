@@ -7,7 +7,7 @@ description: Add an admin on a Valheim server
 You can add admins via the `adminlist.txt` file. Each admin is identified by their SteamID64.
 
 :::: tip Tip
-Here you can find a guide on how to find your [SteamID64](../find-steamid64.md).
+Here you can find a guide on how to find your [SteamID64](../steamid64-find-out.md).
 ::::
 
 1. <b>Stop the server</b><br>
