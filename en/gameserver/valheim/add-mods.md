@@ -4,7 +4,7 @@ description: Add mods to a Valheim server
 
 # How to Add Mods to Your Valheim Server
 
-Valheim mods are based on the **BepInEx** framework, which is already pre-installed on your server.
+Valheim mods are based on the **BepInEx** framework. You need to install BepInEx first before you can add mods. See [Install BepInEx](install-bepinex.md).
 
 :::: warning Warning
 Stop your server before adding mods. After a game update, mods may be incompatible and cause crashes.

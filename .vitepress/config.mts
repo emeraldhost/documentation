@@ -481,8 +481,12 @@ export default defineConfig({
                   { text: 'Branch wechseln', link: '/gameserver/valheim/branch-wechseln' },
                   { text: 'Mods hinzufügen', link: '/gameserver/valheim/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' },
+                  { text: 'Backup Einstellungen ändern', link: '/gameserver/valheim/backup-einstellungen-aendern' },
+                  { text: 'Crossplay aktivieren', link: '/gameserver/valheim/crossplay-aktivieren' },
                   { text: 'Server beitreten', link: '/gameserver/valheim/server-beitreten' },
-                  { text: 'Server Passwort setzen', link: '/gameserver/valheim/server-passwort-setzen' }
+                  { text: 'Server Name ändern', link: '/gameserver/valheim/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/valheim/server-passwort-setzen' },
+                  { text: 'Serverliste aktivieren', link: '/gameserver/valheim/serverliste-aktivieren' }
                 ]
               },
               {
@@ -1067,6 +1071,10 @@ export default defineConfig({
                   { text: 'Add Mods', link: '/en/gameserver/valheim/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/valheim/add-savegame' },
                   { text: 'Change Branch', link: '/en/gameserver/valheim/change-branch' },
+                  { text: 'Change Backup Settings', link: '/en/gameserver/valheim/change-backup-settings' },
+                  { text: 'Change Server Name', link: '/en/gameserver/valheim/change-server-name' },
+                  { text: 'Enable Crossplay', link: '/en/gameserver/valheim/enable-crossplay' },
+                  { text: 'Enable Server List', link: '/en/gameserver/valheim/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/valheim/join-server' },
                   { text: 'Set Server Password', link: '/en/gameserver/valheim/set-server-password' }
                 ]
