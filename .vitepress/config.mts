@@ -121,9 +121,17 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Auth-Schlüssel hinterlegen', link: '/gameserver/beammp/auth-schluessel-hinterlegen' },
+                  { text: 'Chat Logging aktivieren', link: '/gameserver/beammp/chat-logging-aktivieren' },
+                  { text: 'Map ändern', link: '/gameserver/beammp/map-aendern' },
+                  { text: 'Max Autos ändern', link: '/gameserver/beammp/max-autos-aendern' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/beammp/max-spieler-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/beammp/mods-hinzufuegen' },
+                  { text: 'Privat-Modus aktivieren', link: '/gameserver/beammp/privat-modus-aktivieren' },
                   { text: 'Server beitreten', link: '/gameserver/beammp/server-beitreten' },
-                  { text: 'Server Name ändern', link: '/gameserver/beammp/server-name-aendern' }
+                  { text: 'Server Beschreibung ändern', link: '/gameserver/beammp/server-beschreibung-aendern' },
+                  { text: 'Server Name ändern', link: '/gameserver/beammp/server-name-aendern' },
+                  { text: 'Server Version ändern', link: '/gameserver/beammp/server-version-aendern' }
                 ]
               },
               {
@@ -725,8 +733,16 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Mods', link: '/en/gameserver/beammp/add-mods' },
+                  { text: 'Change Map', link: '/en/gameserver/beammp/change-map' },
+                  { text: 'Change Max Cars', link: '/en/gameserver/beammp/change-max-cars' },
+                  { text: 'Change Max Players', link: '/en/gameserver/beammp/change-max-players' },
+                  { text: 'Change Server Description', link: '/en/gameserver/beammp/change-server-description' },
                   { text: 'Change Server Name', link: '/en/gameserver/beammp/change-server-name' },
-                  { text: 'Join Server', link: '/en/gameserver/beammp/join-server' }
+                  { text: 'Change Server Version', link: '/en/gameserver/beammp/change-server-version' },
+                  { text: 'Enable Chat Logging', link: '/en/gameserver/beammp/enable-chat-logging' },
+                  { text: 'Enable Private Mode', link: '/en/gameserver/beammp/enable-private-mode' },
+                  { text: 'Join Server', link: '/en/gameserver/beammp/join-server' },
+                  { text: 'Set Auth Key', link: '/en/gameserver/beammp/set-auth-key' }
                 ]
               },
               {

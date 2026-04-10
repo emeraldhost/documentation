@@ -4,18 +4,31 @@ description: Mods auf einem BeamMP Server hinzufügen
 
 # So fügst du Mods zu deinem BeamMP Server hinzu
 
-:::: danger Achtung
-Die Mods dürfen kein Archiv wie z. B. `.zip` sein. Entpacke die Mods vorher.
+Du kannst Mods auf deinem Server installieren, um das Spielerlebnis zu erweitern.
+
+:::: warning Achtung
+Stoppe deinen Server bevor du Mods hinzufügst. Die Mods dürfen **kein Archiv** (z.B. `.zip`) sein — entpacke sie vorher.
 ::::
 
-1. <b>Server stoppen</b><br>
-   Stoppe Deinen BeamMP Server.
+1. <b>Mods herunterladen</b><br>
+   Lade die gewünschten Mods von [BeamNG.drive Mods](https://www.beamng.com/resources/) oder dem [BeamMP Forum](https://forum.beammp.com/) herunter.
 
-2. <b>Datei-Browser öffnen</b><br>
-   Öffne Dein Dashboard, wähle Deinen BeamMP Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem BeamMP Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](../sftp-verbindung-herstellen.md).
+2. <b>Server stoppen</b><br>
+   Stoppe deinen Server über die Verwaltung.
 
-3. <b>Mods hochladen</b><br>
-   Lade die Mods in den `Resources`-Ordner hoch.
+3. <b>Per SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
 
-4. <b>Server neustarten</b><br>
-   Starte Deinen BeamMP Server neu.
+4. <b>Mods hochladen</b><br>
+   Lade die entpackten Mod-Dateien in folgendes Verzeichnis hoch:
+
+   ```
+   /Resources/Client/
+   ```
+
+5. <b>Server starten</b><br>
+   Starte deinen Server.
+
+:::: info Hinweis
+Mods im `Resources/Client/`-Ordner werden automatisch an alle Spieler heruntergeladen, die dem Server beitreten.
+::::
