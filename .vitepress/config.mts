@@ -113,7 +113,13 @@ export default defineConfig({
                   { text: 'Admin hinzufügen', link: '/gameserver/barotrauma/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/barotrauma/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/barotrauma/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/barotrauma/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/barotrauma/server-beitreten' },
+                  { text: 'Server Beschreibung ändern', link: '/gameserver/barotrauma/server-beschreibung-aendern' },
+                  { text: 'Server Name ändern', link: '/gameserver/barotrauma/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/barotrauma/server-passwort-setzen' },
+                  { text: 'Serverliste aktivieren', link: '/gameserver/barotrauma/serverliste-aktivieren' },
+                  { text: 'Spielmodus ändern', link: '/gameserver/barotrauma/spielmodus-aendern' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/barotrauma/max-spieler-aendern' }
                 ]
               },
               {
@@ -724,7 +730,13 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/barotrauma/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/barotrauma/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/barotrauma/add-savegame' },
-                  { text: 'Join Server', link: '/en/gameserver/barotrauma/join-server' }
+                  { text: 'Change Game Mode', link: '/en/gameserver/barotrauma/change-game-mode' },
+                  { text: 'Change Max Players', link: '/en/gameserver/barotrauma/change-max-players' },
+                  { text: 'Change Server Description', link: '/en/gameserver/barotrauma/change-server-description' },
+                  { text: 'Change Server Name', link: '/en/gameserver/barotrauma/change-server-name' },
+                  { text: 'Enable Server List', link: '/en/gameserver/barotrauma/enable-server-list' },
+                  { text: 'Join Server', link: '/en/gameserver/barotrauma/join-server' },
+                  { text: 'Set Server Password', link: '/en/gameserver/barotrauma/set-server-password' }
                 ]
               },
               {
