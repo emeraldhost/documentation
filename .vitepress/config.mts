@@ -379,6 +379,26 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Soulmask',
+                link: '/gameserver/soulmask',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/soulmask/admin-hinzufuegen' },
+                  { text: 'Admin Passwort setzen', link: '/gameserver/soulmask/admin-passwort-setzen' },
+                  { text: 'Invitation Code finden', link: '/gameserver/soulmask/invitation-code-finden' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/soulmask/max-spieler-aendern' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/soulmask/mods-hinzufuegen' },
+                  { text: 'PvP einstellen', link: '/gameserver/soulmask/pvp-einstellen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/soulmask/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/soulmask/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/soulmask/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/soulmask/server-passwort-setzen' },
+                  { text: 'Shifting Sands einrichten', link: '/gameserver/soulmask/shifting-sands-einrichten' },
+                  { text: 'Speicher-Intervall ändern', link: '/gameserver/soulmask/speicher-intervall-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/soulmask/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Terraria: tModLoader',
                 link: '/gameserver/terraria-tmodloader',
                 collapsed: true,
@@ -910,6 +930,26 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/runescape-dragonwilds/join-server' },
                   { text: 'Set Owner ID', link: '/en/gameserver/runescape-dragonwilds/set-owner-id' },
                   { text: 'Set Server Password', link: '/en/gameserver/runescape-dragonwilds/set-server-password' }
+                ]
+              },
+              {
+                text: 'Soulmask',
+                link: '/en/gameserver/soulmask',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/soulmask/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/soulmask/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/soulmask/add-savegame' },
+                  { text: 'Change Max Players', link: '/en/gameserver/soulmask/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/soulmask/change-server-name' },
+                  { text: 'Configure PvP', link: '/en/gameserver/soulmask/configure-pvp' },
+                  { text: 'Find Invitation Code', link: '/en/gameserver/soulmask/find-invitation-code' },
+                  { text: 'Join Server', link: '/en/gameserver/soulmask/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/soulmask/kick-ban-players' },
+                  { text: 'Set Admin Password', link: '/en/gameserver/soulmask/set-admin-password' },
+                  { text: 'Set Server Password', link: '/en/gameserver/soulmask/set-server-password' },
+                  { text: 'Change Save Interval', link: '/en/gameserver/soulmask/change-save-interval' },
+                  { text: 'Setup Shifting Sands', link: '/en/gameserver/soulmask/setup-shifting-sands' }
                 ]
               },
               {
