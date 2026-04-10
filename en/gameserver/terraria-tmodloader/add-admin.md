@@ -48,3 +48,7 @@ The auth code changes with every server restart. If you have set a permanent pas
 :::: tip Tip
 To give other players admin rights, share the current auth code with them or set up a permanent password they can use.
 ::::
+
+:::: warning Note
+The auth code system is a tModLoader feature. Vanilla Terraria servers use the server console directly for admin commands and do not have an auth system. If you are running vanilla Terraria without tModLoader, you will need a mod like Hero's Mod or TShock to get an in-game admin system.
+::::

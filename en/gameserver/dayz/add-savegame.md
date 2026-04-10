@@ -4,7 +4,11 @@ description: Upload a savegame to a DayZ server
 
 # How to Add a Savegame to Your DayZ Server
 
-You can transfer your local savegame to your server and continue playing there. The savegame is located in the `storage_1` folder.
+You can transfer a savegame from another DayZ server to your server. The savegame is located in the `storage_1` folder.
+
+:::: info Note
+DayZ saves are stored server-side only. This guide describes transferring savegames between DayZ servers, not from a singleplayer game.
+::::
 
 :::: warning Warning
 Uploading will overwrite the existing savegame on the server. Create a backup beforehand if you want to keep the current savegame.
@@ -34,5 +38,5 @@ Uploading will overwrite the existing savegame on the server. Create a backup be
    Start your server. Your savegame will now be loaded.
 
 :::: tip Tip
-You can find your local savegame on your PC at `%LOCALAPPDATA%\DayZ\`.
+To obtain the savegame from another server, download the `storage_1` folder via SFTP from the source server.
 ::::

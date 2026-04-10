@@ -48,3 +48,7 @@ Der Auth-Code ändert sich bei jedem Serverneustart. Wenn du ein dauerhaftes Pas
 :::: tip Tipp
 Um weiteren Spielern Admin-Rechte zu geben, teile ihnen den aktuellen Auth-Code mit oder richte ein dauerhaftes Passwort ein, das sie verwenden können.
 ::::
+
+:::: warning Hinweis
+Das Auth-Code-System ist eine Funktion von tModLoader. Vanilla-Terraria-Server verwenden stattdessen die Serverkonsole direkt fuer Admin-Befehle und haben kein Auth-System. Wenn du Vanilla Terraria ohne tModLoader nutzt, benoetigst du ein Mod wie Hero's Mod oder TShock, um ein Ingame-Admin-System zu erhalten.
+::::

@@ -50,9 +50,24 @@ Hier findest du eine Anleitung, wie du die [SteamID64](../steamid64-herausfinden
 5. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.
 
+## Spieler per Chat-Befehl bannen
+
+Du kannst Spieler auch direkt per Chat-Befehl bannen, ohne die `ban.txt` manuell zu bearbeiten:
+
+1. <b>Chat öffnen</b><br>
+   Drücke `Enter`, um den Chat zu öffnen.
+
+2. <b>Spieler bannen</b><br>
+   Gib folgenden Befehl ein:
+
+   ```
+   #exec ban <Name>
+   ```
+
 ## Befehle im Überblick
 
 | Befehl | Beschreibung |
 |--------|-------------|
 | `#kick <SteamID64>` | Spieler vom Server kicken |
+| `#exec ban <Name>` | Spieler dauerhaft bannen |
 | `#shutdown` | Server herunterfahren |

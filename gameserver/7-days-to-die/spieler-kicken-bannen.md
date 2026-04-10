@@ -29,7 +29,12 @@ Du musst Admin auf deinem Server sein. Hier findest du eine Anleitung, wie du ei
    ```
 
    ```
-   ban <Name>
+   ban add <Name> <Dauer> <Einheit> [Grund]
+   ```
+
+   Beispiel:
+   ```
+   ban add PlayerName 1 year cheating
    ```
 
 ## Spieler über serveradmin.xml bannen
@@ -70,5 +75,5 @@ Hier findest du eine Anleitung, wie du die [SteamID64](../steamid64-herausfinden
 |--------|-------------|
 | `listplayers` | Alle verbundenen Spieler anzeigen |
 | `kick <Name>` | Spieler vom Server kicken |
-| `ban <Name>` | Spieler dauerhaft bannen |
-| `unban <Name>` | Ban eines Spielers aufheben |
+| `ban add <Name> <Dauer> <Einheit> [Grund]` | Spieler bannen (z.B. `ban add PlayerName 1 year cheating`) |
+| `ban remove <Name>` | Ban eines Spielers aufheben |

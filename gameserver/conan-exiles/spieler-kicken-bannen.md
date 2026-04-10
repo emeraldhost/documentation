@@ -30,3 +30,26 @@ Du musst Admin auf deinem Server sein. Hier findest du eine Anleitung, wie du ei
 :::: info Hinweis
 Ein gekickter Spieler kann dem Server sofort wieder beitreten. Ein gebannter Spieler wird dauerhaft vom Server ausgeschlossen.
 ::::
+
+## Spieler entbannen
+
+Um einen Spieler zu entbannen, musst du die Blacklist-Datei manuell bearbeiten:
+
+1. <b>Server stoppen</b><br>
+   Stoppe deinen Server über die Verwaltung.
+
+2. <b>Per SFTP verbinden</b><br>
+   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
+
+3. <b>blacklist.txt bearbeiten</b><br>
+   Öffne die Datei `blacklist.txt` unter:
+
+   ```
+   /ConanSandbox/Saved/blacklist.txt
+   ```
+
+4. <b>Spieler entfernen</b><br>
+   Entferne die Zeile mit der ID des Spielers, den du entbannen möchtest.
+
+5. <b>Server starten</b><br>
+   Speichere die Datei und starte deinen Server.

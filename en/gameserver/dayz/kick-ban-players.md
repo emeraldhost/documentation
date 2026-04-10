@@ -50,9 +50,24 @@ Here you can find a guide on how to find a player's [SteamID64](../steamid64-fin
 5. <b>Start the server</b><br>
    Save the file and start your server.
 
+## Ban players via chat command
+
+You can also ban players directly via chat command without manually editing the `ban.txt`:
+
+1. <b>Open the chat</b><br>
+   Press `Enter` to open the chat.
+
+2. <b>Ban a player</b><br>
+   Enter the following command:
+
+   ```
+   #exec ban <name>
+   ```
+
 ## Command overview
 
 | Command | Description |
 |---------|-------------|
 | `#kick <SteamID64>` | Kick a player from the server |
+| `#exec ban <name>` | Permanently ban a player |
 | `#shutdown` | Shut down the server |

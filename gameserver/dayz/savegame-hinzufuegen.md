@@ -4,7 +4,11 @@ description: Savegame auf einen DayZ Server hochladen
 
 # So fügst du ein Savegame zu deinem DayZ Server hinzu
 
-Du kannst dein lokales Savegame auf deinen Server übertragen und dort weiterspielen. Das Savegame befindet sich im `storage_1` Ordner.
+Du kannst ein Savegame von einem anderen DayZ-Server auf deinen Server übertragen. Das Savegame befindet sich im `storage_1` Ordner.
+
+:::: info Hinweis
+DayZ-Spielstände werden ausschließlich serverseitig gespeichert. Diese Anleitung beschreibt die Übertragung von Savegames zwischen DayZ-Servern, nicht aus einem Singleplayer-Spiel.
+::::
 
 :::: warning Achtung
 Beim Hochladen wird das bestehende Savegame auf dem Server überschrieben. Erstelle vorher ein Backup, falls du das aktuelle Savegame behalten möchtest.
@@ -34,5 +38,5 @@ Beim Hochladen wird das bestehende Savegame auf dem Server überschrieben. Erste
    Starte deinen Server. Dein Savegame wird nun geladen.
 
 :::: tip Tipp
-Dein lokales Savegame findest du auf deinem PC unter `%LOCALAPPDATA%\DayZ\`.
+Um das Savegame von einem anderen Server zu erhalten, lade den `storage_1` Ordner per SFTP von dem Quellserver herunter.
 ::::

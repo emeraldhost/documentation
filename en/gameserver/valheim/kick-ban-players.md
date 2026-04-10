@@ -45,7 +45,7 @@ You can also edit the ban list and permitted list directly via SFTP:
 3. <b>Edit files</b><br>
    Open the files at `/config/`:
 
-   - `banlist.txt` – Banned players (one SteamID64 per line)
+   - `bannedlist.txt` – Banned players (one SteamID64 per line)
    - `permittedlist.txt` – Permitted players (one SteamID64 per line)
 
 4. <b>Add or remove SteamID64</b><br>

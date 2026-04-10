@@ -26,13 +26,7 @@ Der Spieler wird dauerhaft vom Server ausgeschlossen.
 
 ## Spieler entbannen
 
-Per Konsole:
-
-```
-unban <Name>
-```
-
-Du kannst die Banliste auch manuell bearbeiten:
+Es gibt keinen Konsolenbefehl zum Entbannen. Du musst die Banliste manuell bearbeiten:
 
 1. <b>Server stoppen</b><br>
    Stoppe deinen Server über die Verwaltung.
@@ -52,4 +46,3 @@ Du kannst die Banliste auch manuell bearbeiten:
 |--------|-------------|
 | `kick <Name>` | Spieler kicken |
 | `ban <Name>` | Spieler bannen |
-| `unban <Name>` | Spieler entbannen |

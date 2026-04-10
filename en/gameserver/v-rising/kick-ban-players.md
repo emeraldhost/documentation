@@ -4,13 +4,43 @@ description: Kick and ban players on a V Rising server
 
 # How to Kick and Ban Players on Your V Rising Server
 
-You can permanently ban players from your server using the `banlist.txt`. There is no in-game kick command available.
+You can kick and ban players using in-game console commands or via the `banlist.txt`.
 
 :::: info Note
-You need admin rights to ban players. See [Add Admin](add-admin.md).
+You need admin rights to kick and ban players. See [Add Admin](add-admin.md).
 ::::
 
-## Ban a player
+## Kick and ban players via console
+
+1. <b>Open the console</b><br>
+   Press the backtick key (`` ` ``) to open the admin console.
+
+2. <b>Use commands</b><br>
+   Use one of the following commands:
+
+   **Kick a player:**
+   ```
+   kick <name>
+   ```
+
+   **Ban a player (by name):**
+   ```
+   banuser <name>
+   ```
+
+   **Ban a player (by character):**
+   ```
+   bancharacter <name>
+   ```
+
+   **Unban a player:**
+   ```
+   unban <name>
+   ```
+
+## Ban players via banlist.txt (alternative)
+
+You can also ban players manually via the ban list:
 
 1. <b>Stop the server</b><br>
    Stop your server via the dashboard.
@@ -37,4 +67,4 @@ Here you can find a guide on how to find your [SteamID64](../steamid64-find-out.
 
 ## Unban a player
 
-Remove the corresponding SteamID64 from the `banlist.txt` and restart the server.
+Use the console command `unban <name>` or remove the corresponding SteamID64 from the `banlist.txt` and restart the server.

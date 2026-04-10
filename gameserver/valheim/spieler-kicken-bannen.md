@@ -45,7 +45,7 @@ Du kannst die Banliste und die Erlaubtliste auch direkt per SFTP bearbeiten:
 3. <b>Dateien bearbeiten</b><br>
    Öffne die Dateien unter `/config/`:
 
-   - `banlist.txt` – Gebannte Spieler (eine SteamID64 pro Zeile)
+   - `bannedlist.txt` – Gebannte Spieler (eine SteamID64 pro Zeile)
    - `permittedlist.txt` – Erlaubte Spieler (eine SteamID64 pro Zeile)
 
 4. <b>SteamID64 hinzufügen oder entfernen</b><br>

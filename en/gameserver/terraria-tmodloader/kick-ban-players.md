@@ -26,13 +26,7 @@ The player is permanently banned from the server.
 
 ## Unban a player
 
-Via console:
-
-```
-unban <name>
-```
-
-You can also edit the ban list manually:
+There is no console command to unban players. You must edit the ban list manually:
 
 1. <b>Stop the server</b><br>
    Stop your server via the dashboard.
@@ -52,4 +46,3 @@ You can also edit the ban list manually:
 |---------|-------------|
 | `kick <name>` | Kick a player |
 | `ban <name>` | Ban a player |
-| `unban <name>` | Unban a player |

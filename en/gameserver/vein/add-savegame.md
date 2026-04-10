@@ -4,7 +4,7 @@ description: Upload a savegame to a VEIN server
 
 # How to Add a Savegame to Your VEIN Server
 
-You can transfer your local savegame to your server and continue playing there. The savegame consists of `.sav` files.
+You can transfer your local savegame to your server and continue playing there. The savegame consists of `.vns` files (e.g. `Server.vns`).
 
 :::: warning Warning
 Uploading will overwrite the existing savegame on the server. Create a backup beforehand if you want to keep the current savegame.
@@ -17,7 +17,7 @@ Uploading will overwrite the existing savegame on the server. Create a backup be
    Connect to your server via [SFTP](../establish-sftp-connection.md).
 
 3. <b>Upload savegame</b><br>
-   Upload your `.sav` files to the following directory on the server:
+   Upload your `.vns` files (e.g. `Server.vns`) to the following directory on the server:
 
    ```
    /Vein/Saved/SaveGames/
@@ -27,5 +27,5 @@ Uploading will overwrite the existing savegame on the server. Create a backup be
    Start your server. Your savegame will now be loaded.
 
 :::: tip Tip
-You can find your local savegame on your PC at `%LOCALAPPDATA%\Vein\Saved\SaveGames\`.
+You can find your local savegame on your PC in the Steam directory at `<Steam>\steamapps\common\VEIN\Saved\SaveGames\`.
 ::::

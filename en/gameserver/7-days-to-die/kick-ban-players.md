@@ -29,7 +29,12 @@ You must be an admin on your server. Here you can find a guide on how to [add an
    ```
 
    ```
-   ban <Name>
+   ban add <Name> <Duration> <Unit> [Reason]
+   ```
+
+   Example:
+   ```
+   ban add PlayerName 1 year cheating
    ```
 
 ## Ban players via serveradmin.xml
@@ -70,5 +75,5 @@ Here you can find a guide on how to find a player's [SteamID64](../steamid64-fin
 |---------|-------------|
 | `listplayers` | List all connected players |
 | `kick <Name>` | Kick a player from the server |
-| `ban <Name>` | Permanently ban a player |
-| `unban <Name>` | Unban a player |
+| `ban add <Name> <Duration> <Unit> [Reason]` | Ban a player (e.g. `ban add PlayerName 1 year cheating`) |
+| `ban remove <Name>` | Unban a player |

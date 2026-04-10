@@ -11,7 +11,7 @@ You can transfer your local savegame to your server and continue playing there.
 You can find your ARK savegames on your PC at:
 
 ```
-%LOCALAPPDATA%\ARK\Saved\SavedArks\
+<Steam>\steamapps\common\ARK\ShooterGame\Saved\SavedArksLocal\
 ```
 
 ## Upload the savegame

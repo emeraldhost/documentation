@@ -30,3 +30,26 @@ You must be an admin on your server. Here you can find a guide on how to [add an
 :::: info Note
 A kicked player can rejoin the server immediately. A banned player is permanently excluded from the server.
 ::::
+
+## Unban a player
+
+To unban a player, you need to manually edit the blacklist file:
+
+1. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
+
+2. <b>Connect via SFTP</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md).
+
+3. <b>Edit blacklist.txt</b><br>
+   Open the file `blacklist.txt` at:
+
+   ```
+   /ConanSandbox/Saved/blacklist.txt
+   ```
+
+4. <b>Remove the player</b><br>
+   Remove the line with the ID of the player you want to unban.
+
+5. <b>Start the server</b><br>
+   Save the file and start your server.

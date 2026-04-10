@@ -11,7 +11,7 @@ Du kannst dein lokales Savegame auf deinen Server übertragen und dort weiterspi
 Die ARK-Savegames findest du auf deinem PC unter:
 
 ```
-%LOCALAPPDATA%\ARK\Saved\SavedArks\
+<Steam>\steamapps\common\ARK\ShooterGame\Saved\SavedArksLocal\
 ```
 
 ## So lädst du das Savegame hoch
