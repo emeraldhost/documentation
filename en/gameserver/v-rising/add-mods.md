@@ -1,28 +1,34 @@
 ---
-description: Step-by-step instructions on how to add mods to your V Rising server.
+description: Add mods to a V Rising server
 ---
 
 # How to Add Mods to Your V Rising Server
 
-:::: danger Warning
-All players must have the **same mods** installed to be able to join the server.
-::::
+V Rising mods are based on the **BepInEx** framework. You need to install BepInEx first before you can add mods. See [Install BepInEx](install-bepinex.md).
 
-:::: info Info
-V Rising uses **BepInEx** as its mod framework. BepInEx is already pre-installed on your server.
+:::: warning Warning
+Stop your server before adding mods. After a game update, mods may be incompatible and cause crashes.
 ::::
 
 1. <b>Download mods</b><br>
-   Download the desired mods from [Thunderstore](https://thunderstore.io/c/v-rising/) or [NexusMods](https://www.nexusmods.com/vrising).
+   Download the desired mods from [Thunderstore](https://thunderstore.io/c/v-rising/) or [Nexus Mods](https://www.nexusmods.com/vrising).
 
-2. <b>Stop server</b><br>
-   Open your dashboard and stop your V Rising server.
+2. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
 
 3. <b>Connect via SFTP</b><br>
    Connect to your server via [SFTP](../establish-sftp-connection.md).
 
-4. <b>Upload mods</b><br>
-   Upload the `.dll` mod files to the `/BepInEx/plugins/` folder.
+4. <b>Upload mod files</b><br>
+   Extract the mod and upload the `.dll` file(s) to the following directory:
 
-5. <b>Start server</b><br>
-   Start your server for the mods to be loaded.
+   ```
+   /BepInEx/plugins/
+   ```
+
+5. <b>Start the server</b><br>
+   Start your server.
+
+:::: danger Important
+All players must have the **same mods** installed locally to join the server.
+::::

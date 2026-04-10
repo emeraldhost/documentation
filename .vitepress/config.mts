@@ -459,6 +459,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' },
+                  { text: 'BepInEx installieren', link: '/gameserver/v-rising/bepinex-installieren' },
                   { text: 'Mods hinzufügen', link: '/gameserver/v-rising/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/v-rising/server-beitreten' },
@@ -476,6 +477,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/valheim/admin-hinzufuegen' },
+                  { text: 'BepInEx installieren', link: '/gameserver/valheim/bepinex-installieren' },
                   { text: 'Branch wechseln', link: '/gameserver/valheim/branch-wechseln' },
                   { text: 'Mods hinzufügen', link: '/gameserver/valheim/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/valheim/savegame-hinzufuegen' },
@@ -1044,6 +1046,7 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/v-rising/add-mods' },
+                  { text: 'Install BepInEx', link: '/en/gameserver/v-rising/install-bepinex' },
                   { text: 'Add Savegame', link: '/en/gameserver/v-rising/add-savegame' },
                   { text: 'Change Game Settings', link: '/en/gameserver/v-rising/change-game-settings' },
                   { text: 'Change Save Interval', link: '/en/gameserver/v-rising/change-save-interval' },
@@ -1060,6 +1063,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/valheim/add-admin' },
+                  { text: 'Install BepInEx', link: '/en/gameserver/valheim/install-bepinex' },
                   { text: 'Add Mods', link: '/en/gameserver/valheim/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/valheim/add-savegame' },
                   { text: 'Change Branch', link: '/en/gameserver/valheim/change-branch' },
