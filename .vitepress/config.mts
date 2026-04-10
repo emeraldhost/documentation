@@ -359,10 +359,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/project-zomboid/admin-hinzufuegen' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/project-zomboid/max-spieler-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/project-zomboid/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/project-zomboid/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/project-zomboid/server-beitreten' },
-                  { text: 'Server Passwort setzen', link: '/gameserver/project-zomboid/server-passwort-setzen' }
+                  { text: 'Server Beschreibung ändern', link: '/gameserver/project-zomboid/server-beschreibung-aendern' },
+                  { text: 'Server Name ändern', link: '/gameserver/project-zomboid/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/project-zomboid/server-passwort-setzen' },
+                  { text: 'Serverliste aktivieren', link: '/gameserver/project-zomboid/serverliste-aktivieren' }
                 ]
               },
               {
@@ -930,6 +934,10 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/project-zomboid/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/project-zomboid/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/project-zomboid/add-savegame' },
+                  { text: 'Change Max Players', link: '/en/gameserver/project-zomboid/change-max-players' },
+                  { text: 'Change Server Description', link: '/en/gameserver/project-zomboid/change-server-description' },
+                  { text: 'Change Server Name', link: '/en/gameserver/project-zomboid/change-server-name' },
+                  { text: 'Enable Server List', link: '/en/gameserver/project-zomboid/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/project-zomboid/join-server' },
                   { text: 'Set Server Password', link: '/en/gameserver/project-zomboid/set-server-password' }
                 ]
