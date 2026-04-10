@@ -455,8 +455,12 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/v-rising/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/v-rising/server-beitreten' },
+                  { text: 'Server Beschreibung ändern', link: '/gameserver/v-rising/server-beschreibung-aendern' },
                   { text: 'Server Name ändern', link: '/gameserver/v-rising/server-name-aendern' },
-                  { text: 'Server Passwort setzen', link: '/gameserver/v-rising/server-passwort-setzen' }
+                  { text: 'Server Passwort setzen', link: '/gameserver/v-rising/server-passwort-setzen' },
+                  { text: 'Serverliste aktivieren', link: '/gameserver/v-rising/serverliste-aktivieren' },
+                  { text: 'Speicher-Intervall ändern', link: '/gameserver/v-rising/speicher-intervall-aendern' },
+                  { text: 'Spieleinstellungen ändern', link: '/gameserver/v-rising/spieleinstellungen-aendern' }
                 ]
               },
               {
@@ -1027,7 +1031,11 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/v-rising/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/v-rising/add-savegame' },
+                  { text: 'Change Game Settings', link: '/en/gameserver/v-rising/change-game-settings' },
+                  { text: 'Change Save Interval', link: '/en/gameserver/v-rising/change-save-interval' },
+                  { text: 'Change Server Description', link: '/en/gameserver/v-rising/change-server-description' },
                   { text: 'Change Server Name', link: '/en/gameserver/v-rising/change-server-name' },
+                  { text: 'Enable Server List', link: '/en/gameserver/v-rising/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/v-rising/join-server' },
                   { text: 'Set Server Password', link: '/en/gameserver/v-rising/set-server-password' }
                 ]
