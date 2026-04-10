@@ -163,12 +163,16 @@ export default defineConfig({
                 link: '/gameserver/core-keeper',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/core-keeper/admin-hinzufuegen' },
                   { text: 'Content Bundle ändern', link: '/gameserver/core-keeper/content-bundle-aendern' },
                   { text: 'Game ID ändern', link: '/gameserver/core-keeper/game-id-aendern' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/core-keeper/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/core-keeper/savegame-hinzufuegen' },
+                  { text: 'Seasonal Events aktivieren', link: '/gameserver/core-keeper/seasonal-events-aktivieren' },
                   { text: 'Server beitreten', link: '/gameserver/core-keeper/server-beitreten' },
                   { text: 'Server Name ändern', link: '/gameserver/core-keeper/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/core-keeper/server-passwort-setzen' },
+                  { text: 'Spieler bannen', link: '/gameserver/core-keeper/spieler-bannen' },
                   { text: 'Welt Index ändern', link: '/gameserver/core-keeper/welt-index-aendern' },
                   { text: 'Welt Modus ändern', link: '/gameserver/core-keeper/welt-modus-aendern' },
                   { text: 'Welt Seed ändern', link: '/gameserver/core-keeper/welt-seed-aendern' }
@@ -762,7 +766,10 @@ export default defineConfig({
                 link: '/en/gameserver/core-keeper',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/core-keeper/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/core-keeper/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/core-keeper/add-savegame' },
+                  { text: 'Ban Players', link: '/en/gameserver/core-keeper/ban-players' },
                   { text: 'Change Content Bundle', link: '/en/gameserver/core-keeper/change-content-bundle' },
                   { text: 'Change Game ID', link: '/en/gameserver/core-keeper/change-game-id' },
                   { text: 'Change Server Name', link: '/en/gameserver/core-keeper/change-server-name' },
@@ -770,6 +777,7 @@ export default defineConfig({
                   { text: 'Change World Mode', link: '/en/gameserver/core-keeper/change-world-mode' },
                   { text: 'Change World Seed', link: '/en/gameserver/core-keeper/change-world-seed' },
                   { text: 'Join Server', link: '/en/gameserver/core-keeper/join-server' },
+                  { text: 'Enable Seasonal Events', link: '/en/gameserver/core-keeper/enable-seasonal-events' },
                   { text: 'Set Server Password', link: '/en/gameserver/core-keeper/set-server-password' }
                 ]
               },
