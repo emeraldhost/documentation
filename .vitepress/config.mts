@@ -56,6 +56,7 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/7-days-to-die/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/7-days-to-die/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/7-days-to-die/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/7-days-to-die/spieler-kicken-bannen' },
                   { text: 'Whitelist aktivieren', link: '/gameserver/7-days-to-die/whitelist-aktivieren' }
                 ]
               },
@@ -68,8 +69,10 @@ export default defineConfig({
                   { text: 'Anzahl der Inseln ändern', link: '/gameserver/aloft/anzahl-der-inseln-aendern' },
                   { text: 'Ingame Konsole öffnen', link: '/gameserver/aloft/ingame-konsole-oeffnen' },
                   { text: 'Private Inseln aktivieren', link: '/gameserver/aloft/private-inseln-aktivieren' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/aloft/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/aloft/server-beitreten' },
-                  { text: 'Server Name ändern', link: '/gameserver/aloft/server-name-aendern' }
+                  { text: 'Server Name ändern', link: '/gameserver/aloft/server-name-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/aloft/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -80,6 +83,7 @@ export default defineConfig({
                   { text: 'Admin hinzufügen', link: '/gameserver/american-truck-simulator/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/american-truck-simulator/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/american-truck-simulator/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/american-truck-simulator/spieler-kicken-bannen' },
                   { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/american-truck-simulator/spieler-schaden-deaktivieren' }
                 ]
               },
@@ -90,7 +94,9 @@ export default defineConfig({
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/ark-survival-evolved/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/ark-survival-evolved/mods-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/ark-survival-evolved/server-beitreten' }
+                  { text: 'Savegame hinzufügen', link: '/gameserver/ark-survival-evolved/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/ark-survival-evolved/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/ark-survival-evolved/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -98,8 +104,10 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/arma-reforger/admin-hinzufuegen' },
                   { text: 'Admin werden', link: '/gameserver/arma-reforger/admin-werden' },
                   { text: 'Mods hinzufügen', link: '/gameserver/arma-reforger/mods-hinzufuegen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/arma-reforger/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/arma-reforger/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/arma-reforger/spieler-kicken-bannen' },
                   { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
@@ -132,6 +140,7 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/beammp/admin-hinzufuegen' },
                   { text: 'Auth-Schlüssel hinterlegen', link: '/gameserver/beammp/auth-schluessel-hinterlegen' },
                   { text: 'Chat Logging aktivieren', link: '/gameserver/beammp/chat-logging-aktivieren' },
                   { text: 'Map ändern', link: '/gameserver/beammp/map-aendern' },
@@ -139,10 +148,12 @@ export default defineConfig({
                   { text: 'Max Spieler ändern', link: '/gameserver/beammp/max-spieler-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/beammp/mods-hinzufuegen' },
                   { text: 'Privat-Modus aktivieren', link: '/gameserver/beammp/privat-modus-aktivieren' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/beammp/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/beammp/server-beitreten' },
                   { text: 'Server Beschreibung ändern', link: '/gameserver/beammp/server-beschreibung-aendern' },
                   { text: 'Server Name ändern', link: '/gameserver/beammp/server-name-aendern' },
-                  { text: 'Server Version ändern', link: '/gameserver/beammp/server-version-aendern' }
+                  { text: 'Server Version ändern', link: '/gameserver/beammp/server-version-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/beammp/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -161,6 +172,7 @@ export default defineConfig({
                   { text: 'Server Community ändern', link: '/gameserver/conan-exiles/server-community-aendern' },
                   { text: 'Server Name ändern', link: '/gameserver/conan-exiles/server-name-aendern' },
                   { text: 'Server Region ändern', link: '/gameserver/conan-exiles/server-region-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/conan-exiles/spieler-kicken-bannen' },
                   { text: 'VAC aktivieren', link: '/gameserver/conan-exiles/vac-aktivieren' }
                 ]
               },
@@ -173,6 +185,7 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/counter-strike-2/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/counter-strike-2/server-beitreten' },
                   { text: 'Server konfigurieren', link: '/gameserver/counter-strike-2/server-konfigurieren' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/counter-strike-2/spieler-kicken-bannen' },
                   { text: 'Spielmodus ändern', link: '/gameserver/counter-strike-2/spielmodus-aendern' },
                   { text: 'Workshop Maps hinzufügen', link: '/gameserver/counter-strike-2/workshop-maps-hinzufuegen' }
                 ]
@@ -208,7 +221,9 @@ export default defineConfig({
                   { text: 'Map ändern', link: '/gameserver/dayz/map-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/dayz/mods-hinzufuegen' },
                   { text: 'PvP einstellen', link: '/gameserver/dayz/pvp-einstellen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/dayz/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/dayz/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/dayz/spieler-kicken-bannen' },
                   { text: 'Tageszeit ändern', link: '/gameserver/dayz/tageszeit-aendern' },
                   { text: 'Third Person aktivieren', link: '/gameserver/dayz/third-person-aktivieren' },
                   { text: 'VoN aktivieren', link: '/gameserver/dayz/von-aktivieren' }
@@ -219,9 +234,11 @@ export default defineConfig({
                 link: '/gameserver/enshrouded',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/enshrouded/admin-hinzufuegen' },
                   { text: 'Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/enshrouded/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -232,6 +249,7 @@ export default defineConfig({
                   { text: 'Admin hinzufügen', link: '/gameserver/euro-truck-simulator-2/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/euro-truck-simulator-2/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/euro-truck-simulator-2/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/euro-truck-simulator-2/spieler-kicken-bannen' },
                   { text: 'Spieler-Schaden deaktivieren', link: '/gameserver/euro-truck-simulator-2/spieler-schaden-deaktivieren' }
                 ]
               },
@@ -286,6 +304,7 @@ export default defineConfig({
                   { text: 'Server beitreten', link: '/gameserver/minecraft-bedrock-edition/server-beitreten' },
                   { text: 'Slots erhöhen', link: '/gameserver/minecraft-bedrock-edition/slots-erhoehen' },
                   { text: 'Tick-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/tick-distance-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/minecraft-bedrock-edition/spieler-kicken-bannen' },
                   { text: 'View-Distance ändern', link: '/gameserver/minecraft-bedrock-edition/view-distance-aendern' },
                   { text: 'Welt Hochladen', link: '/gameserver/minecraft-bedrock-edition/welt-hochladen' },
                   { text: 'Welt Löschen', link: '/gameserver/minecraft-bedrock-edition/welt-loeschen' },
@@ -317,6 +336,7 @@ export default defineConfig({
                   { text: 'Simulation-Distance ändern', link: '/gameserver/minecraft-java-edition/simulation-distance-aendern' },
                   { text: 'Slots erhöhen', link: '/gameserver/minecraft-java-edition/slots-erhoehen' },
                   { text: 'Spawn-Schutz ändern', link: '/gameserver/minecraft-java-edition/spawn-schutz-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/minecraft-java-edition/spieler-kicken-bannen' },
                   { text: 'Version ändern', link: '/gameserver/minecraft-java-edition/version-aendern' },
                   { text: 'View-Distance ändern', link: '/gameserver/minecraft-java-edition/view-distance-aendern' },
                   { text: 'Welt Hochladen', link: '/gameserver/minecraft-java-edition/welt-hochladen' },
@@ -402,7 +422,8 @@ export default defineConfig({
                   { text: 'Server Beschreibung ändern', link: '/gameserver/project-zomboid/server-beschreibung-aendern' },
                   { text: 'Server Name ändern', link: '/gameserver/project-zomboid/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/project-zomboid/server-passwort-setzen' },
-                  { text: 'Serverliste aktivieren', link: '/gameserver/project-zomboid/serverliste-aktivieren' }
+                  { text: 'Serverliste aktivieren', link: '/gameserver/project-zomboid/serverliste-aktivieren' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/project-zomboid/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -424,7 +445,8 @@ export default defineConfig({
                   { text: 'Owner ID setzen', link: '/gameserver/runescape-dragonwilds/owner-id-setzen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/runescape-dragonwilds/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/runescape-dragonwilds/server-beitreten' },
-                  { text: 'Server Passwort setzen', link: '/gameserver/runescape-dragonwilds/server-passwort-setzen' }
+                  { text: 'Server Passwort setzen', link: '/gameserver/runescape-dragonwilds/server-passwort-setzen' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/runescape-dragonwilds/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -453,8 +475,11 @@ export default defineConfig({
                 link: '/gameserver/terraria-tmodloader',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/terraria-tmodloader/admin-hinzufuegen' },
                   { text: 'Mods hinzufügen', link: '/gameserver/terraria-tmodloader/mods-hinzufuegen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/terraria-tmodloader/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/terraria-tmodloader/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/terraria-tmodloader/spieler-kicken-bannen' },
                   { text: 'Welt hinzufügen', link: '/gameserver/terraria-tmodloader/welt-hinzufuegen' }
                 ]
               },
@@ -472,6 +497,7 @@ export default defineConfig({
                   { text: 'KI-Busse aktivieren', link: '/gameserver/the-bus/ki-busse-aktivieren' },
                   { text: 'Map ändern', link: '/gameserver/the-bus/map-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/the-bus/mods-hinzufuegen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/the-bus/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/the-bus/server-beitreten' },
                   { text: 'Server konfigurieren', link: '/gameserver/the-bus/server-konfigurieren' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/the-bus/spieler-kicken-bannen' },
@@ -497,7 +523,8 @@ export default defineConfig({
                   { text: 'Server Passwort setzen', link: '/gameserver/v-rising/server-passwort-setzen' },
                   { text: 'Serverliste aktivieren', link: '/gameserver/v-rising/serverliste-aktivieren' },
                   { text: 'Speicher-Intervall ändern', link: '/gameserver/v-rising/speicher-intervall-aendern' },
-                  { text: 'Spieleinstellungen ändern', link: '/gameserver/v-rising/spieleinstellungen-aendern' }
+                  { text: 'Spieleinstellungen ändern', link: '/gameserver/v-rising/spieleinstellungen-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/v-rising/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -515,7 +542,8 @@ export default defineConfig({
                   { text: 'Server beitreten', link: '/gameserver/valheim/server-beitreten' },
                   { text: 'Server Name ändern', link: '/gameserver/valheim/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/valheim/server-passwort-setzen' },
-                  { text: 'Serverliste aktivieren', link: '/gameserver/valheim/serverliste-aktivieren' }
+                  { text: 'Serverliste aktivieren', link: '/gameserver/valheim/serverliste-aktivieren' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/valheim/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -524,7 +552,9 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/vein/admin-hinzufuegen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/vein/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/vein/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/vein/spieler-kicken-bannen' },
                   { text: 'Whitelist aktivieren', link: '/gameserver/vein/whitelist-aktivieren' }
                 ]
               }
@@ -678,7 +708,8 @@ export default defineConfig({
                   { text: 'Change Map', link: '/en/gameserver/7-days-to-die/change-map' },
                   { text: 'Enable Cheat Mode', link: '/en/gameserver/7-days-to-die/enable-cheat-mode' },
                   { text: 'Enable Whitelist', link: '/en/gameserver/7-days-to-die/enable-whitelist' },
-                  { text: 'Join Server', link: '/en/gameserver/7-days-to-die/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/7-days-to-die/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/7-days-to-die/kick-ban-players' }
                 ]
               },
               {
@@ -688,9 +719,11 @@ export default defineConfig({
                 items: [
                   { text: 'Activate Private Islands', link: '/en/gameserver/aloft/activate-private-islands' },
                   { text: 'Add Admin', link: '/en/gameserver/aloft/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/aloft/add-savegame' },
                   { text: 'Change Number of Islands', link: '/en/gameserver/aloft/change-number-of-islands' },
                   { text: 'Change Server Name', link: '/en/gameserver/aloft/change-server-name' },
                   { text: 'Join Server', link: '/en/gameserver/aloft/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/aloft/kick-ban-players' },
                   { text: 'Open Ingame Console', link: '/en/gameserver/aloft/open-ingame-console' }
                 ]
               },
@@ -702,7 +735,8 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/american-truck-simulator/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/american-truck-simulator/add-mods' },
                   { text: 'Deactivate Player Damage', link: '/en/gameserver/american-truck-simulator/deactivate-player-damage' },
-                  { text: 'Join Server', link: '/en/gameserver/american-truck-simulator/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/american-truck-simulator/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/american-truck-simulator/kick-ban-players' }
                 ]
               },
               {
@@ -712,7 +746,9 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/ark-survival-evolved/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/ark-survival-evolved/add-mods' },
-                  { text: 'Join Server', link: '/en/gameserver/ark-survival-evolved/join-server' }
+                  { text: 'Add Savegame', link: '/en/gameserver/ark-survival-evolved/add-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/ark-survival-evolved/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/ark-survival-evolved/kick-ban-players' }
                 ]
               },
               {
@@ -720,8 +756,10 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
-                  { text: 'Become Admin', link: '/en/gameserver/arma-reforger/become-admin' },
+                  { text: 'Add Admin', link: '/en/gameserver/arma-reforger/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/arma-reforger/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/arma-reforger/add-savegame' },
+                  { text: 'Become Admin', link: '/en/gameserver/arma-reforger/become-admin' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/arma-reforger/kick-ban-players' },
                   { text: 'Change Scenario', link: '/en/gameserver/arma-reforger/change-scenario' },
                   { text: 'Join Server', link: '/en/gameserver/arma-reforger/join-server' }
@@ -754,7 +792,9 @@ export default defineConfig({
                 link: '',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/beammp/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/beammp/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/beammp/add-savegame' },
                   { text: 'Change Map', link: '/en/gameserver/beammp/change-map' },
                   { text: 'Change Max Cars', link: '/en/gameserver/beammp/change-max-cars' },
                   { text: 'Change Max Players', link: '/en/gameserver/beammp/change-max-players' },
@@ -764,6 +804,7 @@ export default defineConfig({
                   { text: 'Enable Chat Logging', link: '/en/gameserver/beammp/enable-chat-logging' },
                   { text: 'Enable Private Mode', link: '/en/gameserver/beammp/enable-private-mode' },
                   { text: 'Join Server', link: '/en/gameserver/beammp/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/beammp/kick-ban-players' },
                   { text: 'Set Auth Key', link: '/en/gameserver/beammp/set-auth-key' }
                 ]
               },
@@ -783,7 +824,8 @@ export default defineConfig({
                   { text: 'Enable BattlEye', link: '/en/gameserver/conan-exiles/enable-battleye' },
                   { text: 'Enable PvP', link: '/en/gameserver/conan-exiles/enable-pvp' },
                   { text: 'Enable VAC', link: '/en/gameserver/conan-exiles/enable-vac' },
-                  { text: 'Join Server', link: '/en/gameserver/conan-exiles/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/conan-exiles/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/conan-exiles/kick-ban-players' }
                 ]
               },
               {
@@ -796,7 +838,8 @@ export default defineConfig({
                   { text: 'Change Game Mode', link: '/en/gameserver/counter-strike-2/change-game-mode' },
                   { text: 'Change Map', link: '/en/gameserver/counter-strike-2/change-map' },
                   { text: 'Configure Server', link: '/en/gameserver/counter-strike-2/configure-server' },
-                  { text: 'Join Server', link: '/en/gameserver/counter-strike-2/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/counter-strike-2/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/counter-strike-2/kick-ban-players' }
                 ]
               },
               {
@@ -826,6 +869,7 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/dayz/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/dayz/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/dayz/add-savegame' },
                   { text: 'Adjust Loot', link: '/en/gameserver/dayz/adjust-loot' },
                   { text: 'Change Map', link: '/en/gameserver/dayz/change-map' },
                   { text: 'Change Time', link: '/en/gameserver/dayz/change-time' },
@@ -833,7 +877,8 @@ export default defineConfig({
                   { text: 'Enable Crosshair', link: '/en/gameserver/dayz/enable-crosshair' },
                   { text: 'Enable Third Person', link: '/en/gameserver/dayz/enable-third-person' },
                   { text: 'Enable VoN', link: '/en/gameserver/dayz/enable-von' },
-                  { text: 'Join Server', link: '/en/gameserver/dayz/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/dayz/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/dayz/kick-ban-players' }
                 ]
               },
               {
@@ -841,8 +886,10 @@ export default defineConfig({
                 link: '/en/gameserver/enshrouded',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/enshrouded/add-admin' },
                   { text: 'Add Savegame', link: '/en/gameserver/enshrouded/add-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/enshrouded/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/enshrouded/kick-ban-players' },
                   { text: 'Performance Problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' }
                 ]
               },
@@ -854,7 +901,8 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/euro-truck-simulator-2/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/euro-truck-simulator-2/add-mods' },
                   { text: 'Deactivate Player Damage', link: '/en/gameserver/euro-truck-simulator-2/deactivate-player-damage' },
-                  { text: 'Join Server', link: '/en/gameserver/euro-truck-simulator-2/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/euro-truck-simulator-2/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/euro-truck-simulator-2/kick-ban-players' }
                 ]
               },
               {
@@ -912,6 +960,7 @@ export default defineConfig({
                   { text: 'Grant OP Rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights' },
                   { text: 'Increase Slots', link: '/en/gameserver/minecraft-bedrock-edition/increase-slots' },
                   { text: 'Join Server', link: '/en/gameserver/minecraft-bedrock-edition/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/minecraft-bedrock-edition/kick-ban-players' },
                   { text: 'Upload World', link: '/en/gameserver/minecraft-bedrock-edition/upload-world' },
                   {
                     text: 'Commands',
@@ -944,6 +993,7 @@ export default defineConfig({
                   { text: 'Increase Slots', link: '/en/gameserver/minecraft-java-edition/increase-slots' },
                   { text: 'Install Plugins', link: '/en/gameserver/minecraft-java-edition/install-plugins' },
                   { text: 'Join Server', link: '/en/gameserver/minecraft-java-edition/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/minecraft-java-edition/kick-ban-players' },
                   { text: 'Upload World', link: '/en/gameserver/minecraft-java-edition/upload-world' },
                   {
                     text: 'Commands',
@@ -1021,6 +1071,7 @@ export default defineConfig({
                   { text: 'Change Server Name', link: '/en/gameserver/project-zomboid/change-server-name' },
                   { text: 'Enable Server List', link: '/en/gameserver/project-zomboid/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/project-zomboid/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/project-zomboid/kick-ban-players' },
                   { text: 'Set Server Password', link: '/en/gameserver/project-zomboid/set-server-password' }
                 ]
               },
@@ -1042,6 +1093,7 @@ export default defineConfig({
                   { text: 'Create Custom World', link: '/en/gameserver/runescape-dragonwilds/create-custom-world' },
                   { text: 'Set Admin Password', link: '/en/gameserver/runescape-dragonwilds/set-admin-password' },
                   { text: 'Join Server', link: '/en/gameserver/runescape-dragonwilds/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/runescape-dragonwilds/kick-ban-players' },
                   { text: 'Set Owner ID', link: '/en/gameserver/runescape-dragonwilds/set-owner-id' },
                   { text: 'Set Server Password', link: '/en/gameserver/runescape-dragonwilds/set-server-password' }
                 ]
@@ -1072,9 +1124,12 @@ export default defineConfig({
                 link: '/en/gameserver/terraria-tmodloader',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/terraria-tmodloader/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/terraria-tmodloader/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/terraria-tmodloader/add-savegame' },
                   { text: 'Add World', link: '/en/gameserver/terraria-tmodloader/add-world' },
-                  { text: 'Join Server', link: '/en/gameserver/terraria-tmodloader/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/terraria-tmodloader/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/terraria-tmodloader/kick-ban-players' }
                 ]
               },
               {
@@ -1094,6 +1149,7 @@ export default defineConfig({
                   { text: 'Configure Server', link: '/en/gameserver/the-bus/configure-server' },
                   { text: 'Enable AI Buses', link: '/en/gameserver/the-bus/enable-ai-buses' },
                   { text: 'Add Mods', link: '/en/gameserver/the-bus/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/the-bus/add-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/the-bus/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/the-bus/kick-ban-players' },
                   { text: 'Send Chat Messages', link: '/en/gameserver/the-bus/send-chat-messages' },
@@ -1116,6 +1172,7 @@ export default defineConfig({
                   { text: 'Change Server Name', link: '/en/gameserver/v-rising/change-server-name' },
                   { text: 'Enable Server List', link: '/en/gameserver/v-rising/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/v-rising/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/v-rising/kick-ban-players' },
                   { text: 'Set Server Password', link: '/en/gameserver/v-rising/set-server-password' }
                 ]
               },
@@ -1134,6 +1191,7 @@ export default defineConfig({
                   { text: 'Enable Crossplay', link: '/en/gameserver/valheim/enable-crossplay' },
                   { text: 'Enable Server List', link: '/en/gameserver/valheim/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/valheim/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/valheim/kick-ban-players' },
                   { text: 'Set Server Password', link: '/en/gameserver/valheim/set-server-password' }
                 ]
               },
@@ -1143,8 +1201,10 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/vein/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/vein/add-savegame' },
                   { text: 'Enable Whitelist', link: '/en/gameserver/vein/enable-whitelist' },
-                  { text: 'Join Server', link: '/en/gameserver/vein/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/vein/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/vein/kick-ban-players' }
                 ]
               }
             ]
