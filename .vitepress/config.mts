@@ -163,9 +163,15 @@ export default defineConfig({
                 link: '/gameserver/core-keeper',
                 collapsed: true,
                 items: [
+                  { text: 'Content Bundle ändern', link: '/gameserver/core-keeper/content-bundle-aendern' },
+                  { text: 'Game ID ändern', link: '/gameserver/core-keeper/game-id-aendern' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/core-keeper/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/core-keeper/server-beitreten' },
-                  { text: 'Server Name ändern', link: '/gameserver/core-keeper/server-name-aendern' }
+                  { text: 'Server Name ändern', link: '/gameserver/core-keeper/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/core-keeper/server-passwort-setzen' },
+                  { text: 'Welt Index ändern', link: '/gameserver/core-keeper/welt-index-aendern' },
+                  { text: 'Welt Modus ändern', link: '/gameserver/core-keeper/welt-modus-aendern' },
+                  { text: 'Welt Seed ändern', link: '/gameserver/core-keeper/welt-seed-aendern' }
                 ]
               },
               {
@@ -757,8 +763,14 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Savegame', link: '/en/gameserver/core-keeper/add-savegame' },
+                  { text: 'Change Content Bundle', link: '/en/gameserver/core-keeper/change-content-bundle' },
+                  { text: 'Change Game ID', link: '/en/gameserver/core-keeper/change-game-id' },
                   { text: 'Change Server Name', link: '/en/gameserver/core-keeper/change-server-name' },
-                  { text: 'Join Server', link: '/en/gameserver/core-keeper/join-server' }
+                  { text: 'Change World Index', link: '/en/gameserver/core-keeper/change-world-index' },
+                  { text: 'Change World Mode', link: '/en/gameserver/core-keeper/change-world-mode' },
+                  { text: 'Change World Seed', link: '/en/gameserver/core-keeper/change-world-seed' },
+                  { text: 'Join Server', link: '/en/gameserver/core-keeper/join-server' },
+                  { text: 'Set Server Password', link: '/en/gameserver/core-keeper/set-server-password' }
                 ]
               },
               {
