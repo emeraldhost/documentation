@@ -450,6 +450,16 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Satisfactory',
+                collapsed: true,
+                items: [
+                  { text: 'Admin Passwort setzen', link: '/gameserver/satisfactory/admin-passwort-setzen' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/satisfactory/max-spieler-aendern' },
+                  { text: 'Server Name ändern', link: '/gameserver/satisfactory/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/satisfactory/server-passwort-setzen' }
+                ]
+              },
+              {
                 text: 'Soulmask',
                 link: '/gameserver/soulmask',
                 collapsed: true,
@@ -1096,6 +1106,16 @@ export default defineConfig({
                   { text: 'Kick & Ban Players', link: '/en/gameserver/runescape-dragonwilds/kick-ban-players' },
                   { text: 'Set Owner ID', link: '/en/gameserver/runescape-dragonwilds/set-owner-id' },
                   { text: 'Set Server Password', link: '/en/gameserver/runescape-dragonwilds/set-server-password' }
+                ]
+              },
+              {
+                text: 'Satisfactory',
+                collapsed: true,
+                items: [
+                  { text: 'Change Max Players', link: '/en/gameserver/satisfactory/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/satisfactory/change-server-name' },
+                  { text: 'Set Admin Password', link: '/en/gameserver/satisfactory/set-admin-password' },
+                  { text: 'Set Server Password', link: '/en/gameserver/satisfactory/set-server-password' }
                 ]
               },
               {
