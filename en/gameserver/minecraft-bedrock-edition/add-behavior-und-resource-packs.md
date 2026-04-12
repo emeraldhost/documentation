@@ -1,40 +1,72 @@
 ---
-description: Step-by-step instructions on how to add behavior and resource packs to your Minecraft Bedrock Edition server.
+description: Add behavior and resource packs to a Minecraft Bedrock server
 ---
 
-# How to Add Behavior and Resource Packs to Your Minecraft Bedrock Edition Server
+# How to Add Behavior and Resource Packs to Your Minecraft Bedrock Server
 
-## Prerequisites
+You can install behavior packs and resource packs on your server to enhance the gameplay experience. Packs are uploaded as folders and then activated via a JSON file in the world.
 
-- Access to the server folder (either via an SFTP connection or direct access to the server files)
-- You can find the SFTP access data in the overview of your game server.
-- A behavior pack in the format .mcpack or .mcaddon
-- Text editor (such as Notepad, Notepad++, Windows Editor or Visual Studio Code)
+## Upload packs
 
-## To add a Behavior Pack and Resource Packs, follow these steps
+1. <b>Download pack</b><br>
+   Download the desired pack. If it comes as a `.mcpack` or `.mcaddon` file, rename it to `.zip` and extract it.
 
-1. <b>Download Behavior Pack</b><br>
-   Download a Behavior Pack of your choice and unzip the files with a suitable program (like WinRAR or 7-Zip).
+2. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
 
-2. <b>Upload Packs</b><br>
-   Connect to your server via the FTP tool. Upload the Behavior Pack folder to /behavior\_packs and the Resource Pack folder (if available) to /resources\_packs.
+3. <b>Connect via SFTP</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md).
 
-3. <b>Restart Server</b><br>
-   Restart the server via the web interface.
+4. <b>Upload pack folder</b><br>
+   Upload the extracted folder to the corresponding directory:
 
-4. <b>Create JSON Files</b><br>
-   Create two new files with the names "`world_resource_packs.json`" and "`world_behavior_packs.json`".
+   | Pack type | Directory |
+   |-----------|-----------|
+   | Behavior Pack | `/behavior_packs/` |
+   | Resource Pack | `/resource_packs/` |
 
-5. <b>Copy Resource Info</b><br>
-   Open the file "manifest.json" in the Resource Pack folder. Copy the UUID and version number and paste them into the "world\_resource\_packs.json" file. Pay attention to the correct formatting.
+## Activate packs
 
-6. <b>Copy Behavior Info</b><br>
-   Repeat the same process for the "`world_behavior_packs.json`" file and the corresponding Behavior Pack folder.
+5. <b>Find UUID and version</b><br>
+   Open the `manifest.json` file inside the uploaded pack folder. Copy the `uuid` and `version` values from the `header` section:
 
-7. <b>Upload JSON Files</b><br>
-   Upload both `.json` files to the World subfolder on your server.
+   ```json
+   {
+     "header": {
+       "uuid": "your-pack-uuid",
+       "version": [1, 0, 0]
+     }
+   }
+   ```
 
-8. <b>Restart and Verify</b><br>
-   Restart your server and make sure that the packs are installed correctly.
+6. <b>Edit JSON file</b><br>
+   Open (or create) the corresponding JSON file in your server's world folder (e.g. `/worlds/Bedrock level/`):
 
-### Now you can get started and have fun! With these steps, you should be able to successfully use Behavior and Resource Packs on your Minecraft Bedrock server
+   | Pack type | File |
+   |-----------|------|
+   | Behavior Pack | `world_behavior_packs.json` |
+   | Resource Pack | `world_resource_packs.json` |
+
+   Add the pack with its `pack_id` and `version`:
+
+   ```json
+   [
+     {
+       "pack_id": "your-pack-uuid",
+       "version": [1, 0, 0]
+     }
+   ]
+   ```
+
+   For multiple packs, add additional entries separated by commas.
+
+7. <b>Start the server</b><br>
+   Save the files and start your server.
+
+:::: warning Warning
+Always use the `uuid` from the `header` section of `manifest.json`, not from the `modules` section.
+::::
+
+:::: info Note
+Some packs require all players to install the resource pack on their client as well.
+::::
