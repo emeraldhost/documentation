@@ -4,6 +4,8 @@ description: Plugins auf einem Minecraft Java Edition Server installieren
 
 # So installierst du Plugins auf einem Minecraft Java Server
 
+Du kannst Plugins auf deinem Server installieren, um neue Funktionen, Verwaltungstools oder Spielmechaniken hinzuzufügen.
+
 :::: info Hinweis
 Plugins funktionieren nur mit Plugin-fähigen Server-Versionen wie **Spigot**, **Paper**, **Purpur** oder **Pufferfish**. Vanilla-Server unterstützen keine Plugins. Wenn du stattdessen Mods (Forge, Fabric etc.) verwenden möchtest, findest du hier die Anleitung: [Mods hinzufügen](mods-hinzufuegen.md).
 ::::
