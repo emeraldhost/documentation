@@ -327,6 +327,7 @@ export default defineConfig({
                 items: [
                   { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren' },
                   { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/minecraft-java-edition/mods-hinzufuegen' },
                   { text: 'MOTD ändern', link: '/gameserver/minecraft-java-edition/motd-aendern' },
                   { text: 'OP-Rechte vergeben', link: '/gameserver/minecraft-java-edition/op-rechte-vergeben' },
                   { text: 'Plugins installieren', link: '/gameserver/minecraft-java-edition/plugins-installieren' },
@@ -1001,6 +1002,7 @@ export default defineConfig({
                   { text: 'Enable Whitelist', link: '/en/gameserver/minecraft-java-edition/enable-whitelist' },
                   { text: 'Grant OP Rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights' },
                   { text: 'Increase Slots', link: '/en/gameserver/minecraft-java-edition/increase-slots' },
+                  { text: 'Install Mods', link: '/en/gameserver/minecraft-java-edition/install-mods' },
                   { text: 'Install Plugins', link: '/en/gameserver/minecraft-java-edition/install-plugins' },
                   { text: 'Join Server', link: '/en/gameserver/minecraft-java-edition/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/minecraft-java-edition/kick-ban-players' },
