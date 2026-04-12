@@ -4,9 +4,9 @@ description: Install plugins on a Minecraft Java Edition server
 
 # How to Install Plugins on a Minecraft Java Server
 
-## Prerequisites
-
+:::: info Note
 Plugins only work with plugin-capable server versions such as Spigot, Paper, Purpur or Pufferfish. Vanilla servers do not support plugins. If you want to use mods (Forge, Fabric, etc.) instead, see: [Install Mods](install-mods.md).
+::::
 
 ## Where can I find plugins?
 
