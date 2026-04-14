@@ -568,6 +568,21 @@ export default defineConfig({
                   { text: 'Spieler kicken & bannen', link: '/gameserver/vein/spieler-kicken-bannen' },
                   { text: 'Whitelist aktivieren', link: '/gameserver/vein/whitelist-aktivieren' }
                 ]
+              },
+              {
+                text: 'Windrose',
+                collapsed: true,
+                items: [
+                  { text: 'Invite Code setzen', link: '/gameserver/windrose/invite-code-setzen' },
+                  { text: 'Island ID setzen', link: '/gameserver/windrose/island-id-setzen' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/windrose/max-spieler-aendern' },
+                  { text: 'Notiz setzen', link: '/gameserver/windrose/notiz-setzen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/windrose/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/windrose/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/windrose/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/windrose/server-passwort-setzen' },
+                  { text: 'Welt-Einstellungen ändern', link: '/gameserver/windrose/welt-einstellungen-aendern' }
+                ]
               }
             ]
           },
@@ -1227,6 +1242,21 @@ export default defineConfig({
                   { text: 'Enable Whitelist', link: '/en/gameserver/vein/enable-whitelist' },
                   { text: 'Join Server', link: '/en/gameserver/vein/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/vein/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Windrose',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/windrose/add-savegame' },
+                  { text: 'Change Max Players', link: '/en/gameserver/windrose/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/windrose/change-server-name' },
+                  { text: 'Change World Settings', link: '/en/gameserver/windrose/change-world-settings' },
+                  { text: 'Join Server', link: '/en/gameserver/windrose/join-server' },
+                  { text: 'Set Invite Code', link: '/en/gameserver/windrose/set-invite-code' },
+                  { text: 'Set Island ID', link: '/en/gameserver/windrose/set-island-id' },
+                  { text: 'Set Note', link: '/en/gameserver/windrose/set-note' },
+                  { text: 'Set Server Password', link: '/en/gameserver/windrose/set-server-password' }
                 ]
               }
             ]
