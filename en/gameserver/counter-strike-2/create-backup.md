@@ -1,10 +1,10 @@
 ---
-description: Create a backup of a Hytale server
+description: Create a backup of a Counter-Strike 2 server
 ---
 
-# How to Create a Backup of Your Hytale Server
+# How to Create a Backup of Your Counter-Strike 2 Server
 
-Regular backups of your Hytale server protect you from data loss — whether due to a failed update, a faulty configuration or an accidentally deleted save.
+Regular backups of your Counter-Strike 2 server protect you from data loss — whether due to a failed update, a faulty configuration or an accidentally deleted save.
 
 ## When should you create a backup?
 

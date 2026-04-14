@@ -1,10 +1,10 @@
 ---
-description: Backup eines Hytale Servers erstellen
+description: Backup eines Core Keeper Servers erstellen
 ---
 
-# So erstellst du ein Backup deines Hytale Servers
+# So erstellst du ein Backup deines Core Keeper Servers
 
-Ein regelmäßiges Backup deines Hytale Servers schützt dich vor Datenverlust — egal ob durch ein fehlgeschlagenes Update, eine fehlerhafte Konfiguration oder einen versehentlich gelöschten Spielstand.
+Ein regelmäßiges Backup deines Core Keeper Servers schützt dich vor Datenverlust — egal ob durch ein fehlgeschlagenes Update, eine fehlerhafte Konfiguration oder einen versehentlich gelöschten Spielstand.
 
 ## Wann solltest du ein Backup erstellen?
 
