@@ -47,6 +47,7 @@ export default defineConfig({
                 items: [
                   { text: 'SFTP-Verbindung Herstellen', link: '/gameserver/sftp-verbindung-herstellen' },
                   { text: 'Datenbank erstellen', link: '/gameserver/datenbank-erstellen' },
+                  { text: 'Backup erstellen', link: '/gameserver/backup-erstellen' },
                   { text: 'Epic Games ID Herausfinden', link: '/gameserver/epicgamesid-herausfinden' },
                   { text: 'SteamID64 Herausfinden', link: '/gameserver/steamid64-herausfinden' }
                 ]
@@ -734,6 +735,7 @@ export default defineConfig({
                 items: [
                   { text: 'Establish SFTP Connection', link: '/en/gameserver/establish-sftp-connection' },
                   { text: 'Create Database', link: '/en/gameserver/create-database' },
+                  { text: 'Create Backup', link: '/en/gameserver/create-backup' },
                   { text: 'Epic Games ID Find Out', link: '/en/gameserver/epicgamesid-find-out' },
                   { text: 'SteamID64 Find Out', link: '/en/gameserver/steamid64-find-out' }
                 ]
