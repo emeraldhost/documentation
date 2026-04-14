@@ -46,7 +46,7 @@ export default defineConfig({
               { text: 'Epic Games ID Herausfinden', link: '/gameserver/epicgamesid-herausfinden' },
               {
                 text: '7 Days to Die',
-                link: '',
+                link: '/gameserver/7-days-to-die',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/7-days-to-die/admin-hinzufuegen' },
@@ -62,7 +62,7 @@ export default defineConfig({
               },
               {
                 text: 'Aloft',
-                link: '',
+                link: '/gameserver/aloft',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/aloft/admin-hinzufuegen' },
@@ -101,7 +101,7 @@ export default defineConfig({
               },
               {
                 text: 'Arma Reforger',
-                link: '',
+                link: '/gameserver/arma-reforger',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/arma-reforger/admin-hinzufuegen' },
@@ -137,7 +137,7 @@ export default defineConfig({
               },
               {
                 text: 'BeamMP',
-                link: '',
+                link: '/gameserver/beammp',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/beammp/admin-hinzufuegen' },
@@ -412,7 +412,7 @@ export default defineConfig({
               },
               {
                 text: 'Project Zomboid',
-                link: '',
+                link: '/gameserver/project-zomboid',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/project-zomboid/admin-hinzufuegen' },
@@ -452,6 +452,7 @@ export default defineConfig({
               },
               {
                 text: 'Satisfactory',
+                link: '/gameserver/satisfactory',
                 collapsed: true,
                 items: [
                   { text: 'Admin Passwort setzen', link: '/gameserver/satisfactory/admin-passwort-setzen' },
@@ -521,7 +522,7 @@ export default defineConfig({
               },
               {
                 text: 'V Rising',
-                link: '',
+                link: '/gameserver/v-rising',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' },
@@ -741,7 +742,7 @@ export default defineConfig({
               },
               {
                 text: 'Aloft',
-                link: '',
+                link: '/en/gameserver/aloft',
                 collapsed: true,
                 items: [
                   { text: 'Activate Private Islands', link: '/en/gameserver/aloft/activate-private-islands' },
@@ -780,7 +781,7 @@ export default defineConfig({
               },
               {
                 text: 'Arma Reforger',
-                link: '',
+                link: '/en/gameserver/arma-reforger',
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/arma-reforger/add-admin' },
@@ -816,7 +817,7 @@ export default defineConfig({
               },
               {
                 text: 'BeamMP',
-                link: '',
+                link: '/en/gameserver/beammp',
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/beammp/add-admin' },
@@ -1088,7 +1089,7 @@ export default defineConfig({
               },
               {
                 text: 'Project Zomboid',
-                link: '',
+                link: '/en/gameserver/project-zomboid',
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/project-zomboid/add-admin' },
@@ -1128,6 +1129,7 @@ export default defineConfig({
               },
               {
                 text: 'Satisfactory',
+                link: '/en/gameserver/satisfactory',
                 collapsed: true,
                 items: [
                   { text: 'Change Max Players', link: '/en/gameserver/satisfactory/change-max-players' },
@@ -1197,7 +1199,7 @@ export default defineConfig({
               },
               {
                 text: 'V Rising',
-                link: '',
+                link: '/en/gameserver/v-rising',
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/v-rising/add-admin' },
