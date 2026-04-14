@@ -571,6 +571,7 @@ export default defineConfig({
               },
               {
                 text: 'Windrose',
+                link: '/gameserver/windrose',
                 collapsed: true,
                 items: [
                   { text: 'Invite Code setzen', link: '/gameserver/windrose/invite-code-setzen' },
@@ -1246,6 +1247,7 @@ export default defineConfig({
               },
               {
                 text: 'Windrose',
+                link: '/en/gameserver/windrose',
                 collapsed: true,
                 items: [
                   { text: 'Add Savegame', link: '/en/gameserver/windrose/add-savegame' },
