@@ -41,9 +41,16 @@ export default defineConfig({
           {
             text: 'Gameserver',
             items: [
-              { text: 'SFTP-Verbindung Herstellen', link: '/gameserver/sftp-verbindung-herstellen' },
-              { text: 'SteamID64 Herausfinden', link: '/gameserver/steamid64-herausfinden' },
-              { text: 'Epic Games ID Herausfinden', link: '/gameserver/epicgamesid-herausfinden' },
+              {
+                text: 'Allgemein',
+                collapsed: false,
+                items: [
+                  { text: 'SFTP-Verbindung Herstellen', link: '/gameserver/sftp-verbindung-herstellen' },
+                  { text: 'Datenbank erstellen', link: '/gameserver/datenbank-erstellen' },
+                  { text: 'Epic Games ID Herausfinden', link: '/gameserver/epicgamesid-herausfinden' },
+                  { text: 'SteamID64 Herausfinden', link: '/gameserver/steamid64-herausfinden' }
+                ]
+              },
               {
                 text: '7 Days to Die',
                 link: '/gameserver/7-days-to-die',
@@ -721,9 +728,16 @@ export default defineConfig({
           {
             text: 'Gameserver',
             items: [
-              { text: 'Establish SFTP Connection', link: '/en/gameserver/establish-sftp-connection' },
-              { text: 'SteamID64 Find Out', link: '/en/gameserver/steamid64-find-out' },
-              { text: 'Epic Games ID Find Out', link: '/en/gameserver/epicgamesid-find-out' },
+              {
+                text: 'General',
+                collapsed: false,
+                items: [
+                  { text: 'Establish SFTP Connection', link: '/en/gameserver/establish-sftp-connection' },
+                  { text: 'Create Database', link: '/en/gameserver/create-database' },
+                  { text: 'Epic Games ID Find Out', link: '/en/gameserver/epicgamesid-find-out' },
+                  { text: 'SteamID64 Find Out', link: '/en/gameserver/steamid64-find-out' }
+                ]
+              },
               {
                 text: '7 Days to Die',
                 link: '/en/gameserver/7-days-to-die',
