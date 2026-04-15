@@ -43,3 +43,23 @@ Die IP-Adresse und den Port deines Servers findest du in der **Verwaltung** dein
 
 4. <b>Verbinden</b><br>
    Klicke auf **Join**, um dem Server beizutreten.
+
+## Auf PlayStation 5
+
+Auf der PlayStation 5 funktioniert der Beitritt im Prinzip genauso wie auf dem PC. Der Server muss allerdings als Cross-Platform-Server konfiguriert sein, damit er für PS5-Spieler sichtbar ist.
+
+:::: info Hinweis
+Damit dein Server auf der PlayStation 5 angezeigt wird, muss in der Server-Config **BattlEye aktiviert** und **Cross-Platform** erlaubt sein. Ohne BattlEye erscheinen keine Server im PS5-Browser.
+::::
+
+1. <b>Arma Reforger starten</b><br>
+   Starte Arma Reforger auf deiner PS5.
+
+2. <b>Multiplayer öffnen</b><br>
+   Wähle im Hauptmenü **Multiplayer**.
+
+3. <b>Server suchen</b><br>
+   Nutze den Filter oder die Suche, um deinen Server in der Liste zu finden. Alternativ kannst du über **Direct Join** die IP-Adresse und den Port direkt eingeben.
+
+4. <b>Server beitreten</b><br>
+   Wähle deinen Server aus und klicke auf **Join**.

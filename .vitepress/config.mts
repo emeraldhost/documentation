@@ -127,6 +127,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Astroneer',
+                link: '/gameserver/astroneer',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/astroneer/backup-erstellen' },
+                  { text: 'Maximale Spieler ändern', link: '/gameserver/astroneer/max-spieler-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/astroneer/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/astroneer/server-name-aendern' },
+                  { text: 'Server Owner festlegen', link: '/gameserver/astroneer/server-owner-festlegen' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/astroneer/server-passwort-setzen' }
+                ]
+              },
+              {
                 text: 'Barotrauma',
                 link: '/gameserver/barotrauma',
                 collapsed: true,
@@ -257,8 +270,27 @@ export default defineConfig({
                   { text: 'Backup erstellen', link: '/gameserver/enshrouded/backup-erstellen' },
                   { text: 'Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen' },
+                  { text: 'Schwierigkeit anpassen', link: '/gameserver/enshrouded/schwierigkeit-anpassen' },
                   { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/enshrouded/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Empyrion: Galactic Survival',
+                link: '/gameserver/empyrion-galactic-survival',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/empyrion-galactic-survival/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/empyrion-galactic-survival/backup-erstellen' },
+                  { text: 'Gamemode ändern', link: '/gameserver/empyrion-galactic-survival/gamemode-aendern' },
+                  { text: 'Maximale Spieler ändern', link: '/gameserver/empyrion-galactic-survival/max-spieler-aendern' },
+                  { text: 'Savegame-Name ändern', link: '/gameserver/empyrion-galactic-survival/savegame-name-aendern' },
+                  { text: 'Seed ändern', link: '/gameserver/empyrion-galactic-survival/seed-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/empyrion-galactic-survival/server-beitreten' },
+                  { text: 'Server Beschreibung ändern', link: '/gameserver/empyrion-galactic-survival/server-beschreibung-aendern' },
+                  { text: 'Server Name ändern', link: '/gameserver/empyrion-galactic-survival/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/empyrion-galactic-survival/server-passwort-setzen' },
+                  { text: 'Serverliste aktivieren', link: '/gameserver/empyrion-galactic-survival/serverliste-aktivieren' }
                 ]
               },
               {
@@ -283,6 +315,23 @@ export default defineConfig({
                   { text: 'Lizenz Key hinterlegen', link: '/gameserver/fivem/lizenz-key-hinterlegen' },
                   { text: 'Port einstellen', link: '/gameserver/fivem/port-einstellen' },
                   { text: 'Server beitreten', link: '/gameserver/fivem/server-beitreten' }
+                ]
+              },
+              {
+                text: 'FOUNDRY',
+                link: '/gameserver/foundry',
+                collapsed: true,
+                items: [
+                  { text: 'Autosave ändern', link: '/gameserver/foundry/autosave-aendern' },
+                  { text: 'Backup erstellen', link: '/gameserver/foundry/backup-erstellen' },
+                  { text: 'Maximale Spieler ändern', link: '/gameserver/foundry/max-spieler-aendern' },
+                  { text: 'Server anhalten wenn leer', link: '/gameserver/foundry/server-anhalten-wenn-leer' },
+                  { text: 'Server beitreten', link: '/gameserver/foundry/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/foundry/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/foundry/server-passwort-setzen' },
+                  { text: 'Serverliste aktivieren', link: '/gameserver/foundry/serverliste-aktivieren' },
+                  { text: 'Welt Name ändern', link: '/gameserver/foundry/welt-name-aendern' },
+                  { text: 'Welt Seed ändern', link: '/gameserver/foundry/welt-seed-aendern' }
                 ]
               },
               {
@@ -314,6 +363,20 @@ export default defineConfig({
                   { text: 'Wetter ändern', link: '/gameserver/hytale/wetter-aendern' },
                   { text: 'World Seed ändern', link: '/gameserver/hytale/world-seed-aendern' },
                   { text: 'Whitelist aktivieren', link: '/gameserver/hytale/whitelist-aktivieren' }
+                ]
+              },
+              {
+                text: 'Icarus',
+                link: '/gameserver/icarus',
+                collapsed: true,
+                items: [
+                  { text: 'Admin Passwort setzen', link: '/gameserver/icarus/admin-passwort-setzen' },
+                  { text: 'Backup erstellen', link: '/gameserver/icarus/backup-erstellen' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/icarus/max-spieler-aendern' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/icarus/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/icarus/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/icarus/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/icarus/server-passwort-setzen' }
                 ]
               },
               {
@@ -479,6 +542,38 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Rust',
+                link: '/gameserver/rust',
+                collapsed: true,
+                items: [
+                  { text: 'Autosave-Intervall ändern', link: '/gameserver/rust/autosave-intervall-aendern' },
+                  { text: 'Backup erstellen', link: '/gameserver/rust/backup-erstellen' },
+                  { text: 'Custom Map URL setzen', link: '/gameserver/rust/custom-map-url-setzen' },
+                  { text: 'Map ändern', link: '/gameserver/rust/map-aendern' },
+                  { text: 'Maximale Spieler ändern', link: '/gameserver/rust/max-spieler-aendern' },
+                  { text: 'Seed ändern', link: '/gameserver/rust/seed-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/rust/server-beitreten' },
+                  { text: 'Server Beschreibung ändern', link: '/gameserver/rust/server-beschreibung-aendern' },
+                  { text: 'Server Image setzen', link: '/gameserver/rust/server-image-setzen' },
+                  { text: 'Server Logo setzen', link: '/gameserver/rust/server-logo-setzen' },
+                  { text: 'Server Name ändern', link: '/gameserver/rust/server-name-aendern' },
+                  { text: 'Server URL setzen', link: '/gameserver/rust/server-url-setzen' },
+                  { text: 'uMod installieren', link: '/gameserver/rust/umod-installieren' },
+                  { text: 'Weltgröße ändern', link: '/gameserver/rust/weltgroesse-aendern' }
+                ]
+              },
+              {
+                text: 'SCP: Secret Laboratory',
+                link: '/gameserver/scp-secret-laboratory',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/scp-secret-laboratory/backup-erstellen' },
+                  { text: 'EXILED Plugins installieren', link: '/gameserver/scp-secret-laboratory/exiled-plugins-installieren' },
+                  { text: 'Ränge vergeben', link: '/gameserver/scp-secret-laboratory/raenge-vergeben' },
+                  { text: 'Server beitreten', link: '/gameserver/scp-secret-laboratory/server-beitreten' }
+                ]
+              },
+              {
                 text: 'Satisfactory',
                 link: '/gameserver/satisfactory',
                 collapsed: true,
@@ -560,6 +655,7 @@ export default defineConfig({
                   { text: 'Admin hinzufügen', link: '/gameserver/v-rising/admin-hinzufuegen' },
                   { text: 'Backup erstellen', link: '/gameserver/v-rising/backup-erstellen' },
                   { text: 'BepInEx installieren', link: '/gameserver/v-rising/bepinex-installieren' },
+                  { text: 'EOS NotReady Fehler beheben', link: '/gameserver/v-rising/eos-notready-fehler-beheben' },
                   { text: 'Mods hinzufügen', link: '/gameserver/v-rising/mods-hinzufuegen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/v-rising/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/v-rising/server-beitreten' },
@@ -843,6 +939,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Astroneer',
+                link: '/en/gameserver/astroneer',
+                collapsed: true,
+                items: [
+                  { text: 'Change Max Players', link: '/en/gameserver/astroneer/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/astroneer/change-server-name' },
+                  { text: 'Create Backup', link: '/en/gameserver/astroneer/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/astroneer/join-server' },
+                  { text: 'Set Server Owner', link: '/en/gameserver/astroneer/set-server-owner' },
+                  { text: 'Set Server Password', link: '/en/gameserver/astroneer/set-server-password' }
+                ]
+              },
+              {
                 text: 'Barotrauma',
                 link: '/en/gameserver/barotrauma',
                 collapsed: true,
@@ -971,10 +1080,29 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/enshrouded/add-admin' },
                   { text: 'Add Savegame', link: '/en/gameserver/enshrouded/add-savegame' },
+                  { text: 'Adjust Difficulty', link: '/en/gameserver/enshrouded/adjust-difficulty' },
                   { text: 'Create Backup', link: '/en/gameserver/enshrouded/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/enshrouded/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/enshrouded/kick-ban-players' },
                   { text: 'Performance Problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' }
+                ]
+              },
+              {
+                text: 'Empyrion: Galactic Survival',
+                link: '/en/gameserver/empyrion-galactic-survival',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/empyrion-galactic-survival/add-admin' },
+                  { text: 'Change Gamemode', link: '/en/gameserver/empyrion-galactic-survival/change-gamemode' },
+                  { text: 'Change Max Players', link: '/en/gameserver/empyrion-galactic-survival/change-max-players' },
+                  { text: 'Change Savegame Name', link: '/en/gameserver/empyrion-galactic-survival/change-savegame-name' },
+                  { text: 'Change Seed', link: '/en/gameserver/empyrion-galactic-survival/change-seed' },
+                  { text: 'Change Server Description', link: '/en/gameserver/empyrion-galactic-survival/change-server-description' },
+                  { text: 'Change Server Name', link: '/en/gameserver/empyrion-galactic-survival/change-server-name' },
+                  { text: 'Create Backup', link: '/en/gameserver/empyrion-galactic-survival/create-backup' },
+                  { text: 'Enable Server List', link: '/en/gameserver/empyrion-galactic-survival/enable-server-list' },
+                  { text: 'Join Server', link: '/en/gameserver/empyrion-galactic-survival/join-server' },
+                  { text: 'Set Server Password', link: '/en/gameserver/empyrion-galactic-survival/set-server-password' }
                 ]
               },
               {
@@ -999,6 +1127,23 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/fivem/join-server' },
                   { text: 'Set License Key', link: '/en/gameserver/fivem/set-license-key' },
                   { text: 'Set Port', link: '/en/gameserver/fivem/set-port' }
+                ]
+              },
+              {
+                text: 'FOUNDRY',
+                link: '/en/gameserver/foundry',
+                collapsed: true,
+                items: [
+                  { text: 'Change Autosave', link: '/en/gameserver/foundry/change-autosave' },
+                  { text: 'Change Max Players', link: '/en/gameserver/foundry/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/foundry/change-server-name' },
+                  { text: 'Change World Name', link: '/en/gameserver/foundry/change-world-name' },
+                  { text: 'Change World Seed', link: '/en/gameserver/foundry/change-world-seed' },
+                  { text: 'Create Backup', link: '/en/gameserver/foundry/create-backup' },
+                  { text: 'Enable Server List', link: '/en/gameserver/foundry/enable-server-list' },
+                  { text: 'Join Server', link: '/en/gameserver/foundry/join-server' },
+                  { text: 'Pause Server When Empty', link: '/en/gameserver/foundry/pause-server-when-empty' },
+                  { text: 'Set Server Password', link: '/en/gameserver/foundry/set-server-password' }
                 ]
               },
               {
@@ -1030,6 +1175,20 @@ export default defineConfig({
                   { text: 'Set Spawn Point', link: '/en/gameserver/hytale/set-spawn-point' },
                   { text: 'Upload World', link: '/en/gameserver/hytale/upload-world' },
                   { text: 'Change World Seed', link: '/en/gameserver/hytale/change-world-seed' }
+                ]
+              },
+              {
+                text: 'Icarus',
+                link: '/en/gameserver/icarus',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/icarus/add-savegame' },
+                  { text: 'Change Max Players', link: '/en/gameserver/icarus/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/icarus/change-server-name' },
+                  { text: 'Create Backup', link: '/en/gameserver/icarus/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/icarus/join-server' },
+                  { text: 'Set Admin Password', link: '/en/gameserver/icarus/set-admin-password' },
+                  { text: 'Set Server Password', link: '/en/gameserver/icarus/set-server-password' }
                 ]
               },
               {
@@ -1192,6 +1351,38 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Rust',
+                link: '/en/gameserver/rust',
+                collapsed: true,
+                items: [
+                  { text: 'Change Autosave Interval', link: '/en/gameserver/rust/change-autosave-interval' },
+                  { text: 'Change Map', link: '/en/gameserver/rust/change-map' },
+                  { text: 'Change Max Players', link: '/en/gameserver/rust/change-max-players' },
+                  { text: 'Change Seed', link: '/en/gameserver/rust/change-seed' },
+                  { text: 'Change Server Description', link: '/en/gameserver/rust/change-server-description' },
+                  { text: 'Change Server Name', link: '/en/gameserver/rust/change-server-name' },
+                  { text: 'Change World Size', link: '/en/gameserver/rust/change-world-size' },
+                  { text: 'Create Backup', link: '/en/gameserver/rust/create-backup' },
+                  { text: 'Install uMod', link: '/en/gameserver/rust/install-umod' },
+                  { text: 'Join Server', link: '/en/gameserver/rust/join-server' },
+                  { text: 'Set Custom Map URL', link: '/en/gameserver/rust/set-custom-map-url' },
+                  { text: 'Set Server Image', link: '/en/gameserver/rust/set-server-image' },
+                  { text: 'Set Server Logo', link: '/en/gameserver/rust/set-server-logo' },
+                  { text: 'Set Server URL', link: '/en/gameserver/rust/set-server-url' }
+                ]
+              },
+              {
+                text: 'SCP: Secret Laboratory',
+                link: '/en/gameserver/scp-secret-laboratory',
+                collapsed: true,
+                items: [
+                  { text: 'Assign Ranks', link: '/en/gameserver/scp-secret-laboratory/assign-ranks' },
+                  { text: 'Create Backup', link: '/en/gameserver/scp-secret-laboratory/create-backup' },
+                  { text: 'Install EXILED Plugins', link: '/en/gameserver/scp-secret-laboratory/install-exiled-plugins' },
+                  { text: 'Join Server', link: '/en/gameserver/scp-secret-laboratory/join-server' }
+                ]
+              },
+              {
                 text: 'Satisfactory',
                 link: '/en/gameserver/satisfactory',
                 collapsed: true,
@@ -1280,6 +1471,7 @@ export default defineConfig({
                   { text: 'Change Server Name', link: '/en/gameserver/v-rising/change-server-name' },
                   { text: 'Create Backup', link: '/en/gameserver/v-rising/create-backup' },
                   { text: 'Enable Server List', link: '/en/gameserver/v-rising/enable-server-list' },
+                  { text: 'Fix EOS NotReady Error', link: '/en/gameserver/v-rising/fix-eos-notready-error' },
                   { text: 'Join Server', link: '/en/gameserver/v-rising/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/v-rising/kick-ban-players' },
                   { text: 'Set Server Password', link: '/en/gameserver/v-rising/set-server-password' }
