@@ -715,6 +715,7 @@ export default defineConfig({
                   { text: 'Server beitreten', link: '/gameserver/windrose/server-beitreten' },
                   { text: 'Server Name ändern', link: '/gameserver/windrose/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/windrose/server-passwort-setzen' },
+                  { text: 'Systemanforderungen', link: '/gameserver/windrose/systemanforderungen' },
                   { text: 'Welt-Einstellungen ändern', link: '/gameserver/windrose/welt-einstellungen-aendern' }
                 ]
               }
@@ -1524,7 +1525,8 @@ export default defineConfig({
                   { text: 'Set Invite Code', link: '/en/gameserver/windrose/set-invite-code' },
                   { text: 'Set Island ID', link: '/en/gameserver/windrose/set-island-id' },
                   { text: 'Set Note', link: '/en/gameserver/windrose/set-note' },
-                  { text: 'Set Server Password', link: '/en/gameserver/windrose/set-server-password' }
+                  { text: 'Set Server Password', link: '/en/gameserver/windrose/set-server-password' },
+                  { text: 'System Requirements', link: '/en/gameserver/windrose/system-requirements' }
                 ]
               }
             ]
