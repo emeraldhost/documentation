@@ -4,7 +4,7 @@ description: Systemanforderungen für einen Windrose Server
 
 # Systemanforderungen für deinen Windrose Server
 
-Der benötigte Arbeitsspeicher auf deinem Windrose Server skaliert mit der Anzahl der Spieler. Die folgenden Werte entsprechen den offiziellen Angaben aus dem [Windrose Dedicated Server Guide](https://playwindrose.com/dedicated-server-guide/).
+Der benötigte Arbeitsspeicher auf deinem Windrose Server skaliert mit der Anzahl der Spieler. Die folgenden Werte entsprechen den offiziellen Angaben aus dem [Windrose Dedicated Server Guide](https://playwindrose.com/dedicated-server-guide/#wsg-faq-sysreq).
 
 ## Empfohlene Anforderungen
 
