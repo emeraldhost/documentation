@@ -4,7 +4,7 @@ description: System requirements for a Windrose server
 
 # System Requirements for Your Windrose Server
 
-The required RAM on your Windrose server scales with the number of players. The following values are the official specifications from the [Windrose Dedicated Server Guide](https://playwindrose.com/dedicated-server-guide/).
+The required RAM on your Windrose server scales with the number of players. The following values are the official specifications from the [Windrose Dedicated Server Guide](https://playwindrose.com/dedicated-server-guide/#wsg-faq-sysreq).
 
 ## Recommended requirements
 
