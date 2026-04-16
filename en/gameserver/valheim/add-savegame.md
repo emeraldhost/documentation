@@ -1,33 +1,48 @@
 ---
-description: Step-by-step instructions on how to add a savegame to your Valheim server.
+description: Add a savegame to a Valheim server
 ---
 
 # How to Add a Savegame to Your Valheim Server
 
-## Prerequisites
+You can transfer a local save to your server to continue playing with an existing world.
 
-- Access to the server folder (either via an SFTP connection or direct access to the server files)
-    - You can find the SFTP access data in the overview of your game server.
+## Find the local savegame
 
-## Steps
+1. <b>Open savegame folder</b><br>
+   Press `Windows Key + R`, enter the following path and confirm with Enter:
 
-1. <b>Open SFTP Client</b><br>
-   On the left you see your local files, on the right the files of your server.
+   ```
+   %userprofile%\AppData\LocalLow\IronGate\Valheim\worlds_local
+   ```
 
-2. <b>Start Server First</b><br>
-   This is necessary to create the required folder structure for savegames.
+2. <b>Identify world files</b><br>
+   Each world consists of two files with the same name: `<WorldName>.fwl` (world metadata) and `<WorldName>.db` (world data). Both files must be transferred together.
 
-3. <b>Find Local Savegame</b><br>
-   Search for the `.fwl` and `.db` files in `C:\Users\Username\AppData\LocalLow\IronGate\Valheim`.
+## Upload and apply the savegame
 
-4. <b>Transfer Savegame Files</b><br>
-   Connect to your server via SFTP and navigate to the folder `.config\unity3d\IronGate\Valheim\worlds_local`.
-   Drag your local savegame files into this folder or use the upload function.
+1. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
 
-5. <b>Change World Name</b><br>
-   Go to the basic settings of your server and change the world name from "world" to the name of your uploaded savegame files (without file extensions).
+2. <b>Connect via SFTP</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md).
 
-6. <b>Restart Server</b><br>
-   Restart the server and check that your world is loading correctly.
+3. <b>Upload world files</b><br>
+   Upload both files `<WorldName>.fwl` and `<WorldName>.db` to the following directory:
 
-### Now you can enjoy your Valheim world! With these steps you should be able to successfully transfer your Valheim world to your Valheim server
+   ```
+   /.config/unity3d/IronGate/Valheim/worlds_local/
+   ```
+
+4. <b>Set world name</b><br>
+   Open the dashboard, navigate to the **Settings** and enter the name of your uploaded files – without the file extension – in the **World Name** field (e.g. `MyWorld` for `MyWorld.fwl` and `MyWorld.db`).
+
+5. <b>Start the server</b><br>
+   Save the settings and start your server.
+
+:::: warning Warning
+If the `worlds_local` folder does not exist, start the server once so the folder structure is created automatically. Stop the server again before uploading the files.
+::::
+
+:::: tip Tip
+Create a backup of your existing server savegame before uploading, in case you want to switch back later.
+::::
