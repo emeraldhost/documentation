@@ -443,21 +443,14 @@ export default defineConfig({
                     ]
                   },
                   {
-                    text: 'Mods',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'BlueMap einrichten', link: '/gameserver/minecraft-java-edition/mods/bluemap-einrichten' },
-                      { text: 'Dynmap einrichten', link: '/gameserver/minecraft-java-edition/mods/dynmap-einrichten' },
-                      { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/mods/simple-voice-chat-einrichten' }
-                    ]
-                  },
-                  {
                     text: 'Plugins',
                     link: '',
                     collapsed: true,
                     items: [
-                      { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/plugins/java-mit-bedrock-verknuepfen' }
+                      { text: 'BlueMap einrichten', link: '/gameserver/minecraft-java-edition/plugins/bluemap-einrichten' },
+                      { text: 'Dynmap einrichten', link: '/gameserver/minecraft-java-edition/plugins/dynmap-einrichten' },
+                      { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/plugins/java-mit-bedrock-verknuepfen' },
+                      { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/plugins/simple-voice-chat-einrichten' }
                     ]
                   }
                 ]
@@ -1255,21 +1248,14 @@ export default defineConfig({
                     ]
                   },
                   {
-                    text: 'Mods',
-                    link: '',
-                    collapsed: true,
-                    items: [
-                      { text: 'Setup BlueMap', link: '/en/gameserver/minecraft-java-edition/mods/setup-bluemap' },
-                      { text: 'Setup Dynmap', link: '/en/gameserver/minecraft-java-edition/mods/setup-dynmap' },
-                      { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/mods/setup-simple-voice-chat' }
-                    ]
-                  },
-                  {
                     text: 'Plugins',
                     link: '',
                     collapsed: true,
                     items: [
-                      { text: 'Link Java with Bedrock', link: '/en/gameserver/minecraft-java-edition/plugins/link-java-with-bedrock' }
+                      { text: 'Link Java with Bedrock', link: '/en/gameserver/minecraft-java-edition/plugins/link-java-with-bedrock' },
+                      { text: 'Setup BlueMap', link: '/en/gameserver/minecraft-java-edition/plugins/setup-bluemap' },
+                      { text: 'Setup Dynmap', link: '/en/gameserver/minecraft-java-edition/plugins/setup-dynmap' },
+                      { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/plugins/setup-simple-voice-chat' }
                     ]
                   }
                 ]
