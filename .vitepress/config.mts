@@ -450,7 +450,10 @@ export default defineConfig({
                       { text: 'BlueMap einrichten', link: '/gameserver/minecraft-java-edition/plugins/bluemap-einrichten' },
                       { text: 'Dynmap einrichten', link: '/gameserver/minecraft-java-edition/plugins/dynmap-einrichten' },
                       { text: 'Java mit Bedrock verknüpfen', link: '/gameserver/minecraft-java-edition/plugins/java-mit-bedrock-verknuepfen' },
-                      { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/plugins/simple-voice-chat-einrichten' }
+                      { text: 'Plasmo Voice einrichten', link: '/gameserver/minecraft-java-edition/plugins/plasmo-voice-einrichten' },
+                      { text: 'Pl3xMap einrichten', link: '/gameserver/minecraft-java-edition/plugins/pl3xmap-einrichten' },
+                      { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/plugins/simple-voice-chat-einrichten' },
+                      { text: 'squaremap einrichten', link: '/gameserver/minecraft-java-edition/plugins/squaremap-einrichten' }
                     ]
                   }
                 ]
@@ -1255,7 +1258,10 @@ export default defineConfig({
                       { text: 'Link Java with Bedrock', link: '/en/gameserver/minecraft-java-edition/plugins/link-java-with-bedrock' },
                       { text: 'Setup BlueMap', link: '/en/gameserver/minecraft-java-edition/plugins/setup-bluemap' },
                       { text: 'Setup Dynmap', link: '/en/gameserver/minecraft-java-edition/plugins/setup-dynmap' },
-                      { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/plugins/setup-simple-voice-chat' }
+                      { text: 'Setup Plasmo Voice', link: '/en/gameserver/minecraft-java-edition/plugins/setup-plasmo-voice' },
+                      { text: 'Setup Pl3xMap', link: '/en/gameserver/minecraft-java-edition/plugins/setup-pl3xmap' },
+                      { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/plugins/setup-simple-voice-chat' },
+                      { text: 'Setup squaremap', link: '/en/gameserver/minecraft-java-edition/plugins/setup-squaremap' }
                     ]
                   }
                 ]
