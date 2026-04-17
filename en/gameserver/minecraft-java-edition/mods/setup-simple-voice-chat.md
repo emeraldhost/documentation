@@ -7,7 +7,7 @@ description: Set up Simple Voice Chat on a Minecraft Java Edition server
 Simple Voice Chat enables proximity voice chat on your Minecraft server – players can talk to each other based on how close they are in-game.
 
 :::: warning Warning
-Simple Voice Chat requires its **own UDP port**. Do **not** use your server's default port!
+Simple Voice Chat requires its **own port**. Do **not** use your server's default port!
 ::::
 
 :::: info Info
@@ -33,7 +33,7 @@ All players who want to use the voice chat must also have the [Simple Voice Chat
    Choose an available port and note it down.
 
 :::: warning Important
-Do **not** use your server's default port! Simple Voice Chat requires a separate UDP port.
+Do **not** use your server's default port! Simple Voice Chat requires a separate port.
 ::::
 
 ## Step 3: Configure the Config File

@@ -447,6 +447,8 @@ export default defineConfig({
                     link: '',
                     collapsed: true,
                     items: [
+                      { text: 'BlueMap einrichten', link: '/gameserver/minecraft-java-edition/mods/bluemap-einrichten' },
+                      { text: 'Dynmap einrichten', link: '/gameserver/minecraft-java-edition/mods/dynmap-einrichten' },
                       { text: 'Simple Voice Chat einrichten', link: '/gameserver/minecraft-java-edition/mods/simple-voice-chat-einrichten' }
                     ]
                   },
@@ -1257,6 +1259,8 @@ export default defineConfig({
                     link: '',
                     collapsed: true,
                     items: [
+                      { text: 'Setup BlueMap', link: '/en/gameserver/minecraft-java-edition/mods/setup-bluemap' },
+                      { text: 'Setup Dynmap', link: '/en/gameserver/minecraft-java-edition/mods/setup-dynmap' },
                       { text: 'Setup Simple Voice Chat', link: '/en/gameserver/minecraft-java-edition/mods/setup-simple-voice-chat' }
                     ]
                   },
