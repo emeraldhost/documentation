@@ -606,6 +606,24 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Squad 44',
+                link: '/gameserver/squad-44',
+                collapsed: true,
+                items: [
+                  { text: 'Admin werden', link: '/gameserver/squad-44/admin-werden' },
+                  { text: 'Backup erstellen', link: '/gameserver/squad-44/backup-erstellen' },
+                  { text: 'Demos aufzeichnen', link: '/gameserver/squad-44/demos-aufzeichnen' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/squad-44/max-spieler-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/squad-44/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/squad-44/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/squad-44/server-passwort-setzen' },
+                  { text: 'Serverliste aktivieren', link: '/gameserver/squad-44/serverliste-aktivieren' },
+                  { text: 'Team Balance erzwingen', link: '/gameserver/squad-44/team-balance-erzwingen' },
+                  { text: 'Teamwechsel erlauben', link: '/gameserver/squad-44/teamwechsel-erlauben' },
+                  { text: 'Teamwechsel verhindern', link: '/gameserver/squad-44/teamwechsel-verhindern' }
+                ]
+              },
+              {
                 text: 'Terraria: tModLoader',
                 link: '/gameserver/terraria-tmodloader',
                 collapsed: true,
@@ -1412,6 +1430,24 @@ export default defineConfig({
                   { text: 'Set Server Password', link: '/en/gameserver/soulmask/set-server-password' },
                   { text: 'Change Save Interval', link: '/en/gameserver/soulmask/change-save-interval' },
                   { text: 'Setup Shifting Sands', link: '/en/gameserver/soulmask/setup-shifting-sands' }
+                ]
+              },
+              {
+                text: 'Squad 44',
+                link: '/en/gameserver/squad-44',
+                collapsed: true,
+                items: [
+                  { text: 'Allow Team Change', link: '/en/gameserver/squad-44/allow-team-change' },
+                  { text: 'Become Admin', link: '/en/gameserver/squad-44/become-admin' },
+                  { text: 'Change Max Players', link: '/en/gameserver/squad-44/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/squad-44/change-server-name' },
+                  { text: 'Create Backup', link: '/en/gameserver/squad-44/create-backup' },
+                  { text: 'Enable Server List', link: '/en/gameserver/squad-44/enable-server-list' },
+                  { text: 'Force Team Balance', link: '/en/gameserver/squad-44/force-team-balance' },
+                  { text: 'Join Server', link: '/en/gameserver/squad-44/join-server' },
+                  { text: 'Prevent Team Change', link: '/en/gameserver/squad-44/prevent-team-change' },
+                  { text: 'Record Demos', link: '/en/gameserver/squad-44/record-demos' },
+                  { text: 'Set Server Password', link: '/en/gameserver/squad-44/set-server-password' }
                 ]
               },
               {
