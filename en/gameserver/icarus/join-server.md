@@ -13,7 +13,7 @@ You can find the IP address and port of your server in the **dashboard** of your
 ## Via Direct Connect
 
 1. <b>Launch Icarus</b><br>
-   Start Icarus via Steam.
+   Start Icarus.
 
 2. <b>Select Play</b><br>
    Click **Play** in the main menu.

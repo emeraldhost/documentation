@@ -13,7 +13,7 @@ Die IP-Adresse und den Port deines Servers findest du in der **Verwaltung** dein
 ## Über Direct Connect
 
 1. <b>Icarus starten</b><br>
-   Starte Icarus über Steam.
+   Starte Icarus.
 
 2. <b>Play auswählen</b><br>
    Klicke im Hauptmenü auf **Play**.

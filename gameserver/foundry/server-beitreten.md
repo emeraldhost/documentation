@@ -13,7 +13,7 @@ Die IP-Adresse und den Port deines Servers findest du in der **Verwaltung** dein
 ## Über IP Direct Connect
 
 1. <b>FOUNDRY starten</b><br>
-   Starte FOUNDRY über Steam.
+   Starte FOUNDRY.
 
 2. <b>Multiplayer öffnen</b><br>
    Klicke im Hauptmenü auf **Multiplayer**.

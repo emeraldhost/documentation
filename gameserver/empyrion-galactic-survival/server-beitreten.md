@@ -13,7 +13,7 @@ Die IP-Adresse und den Port deines Servers findest du in der **Verwaltung** dein
 ## Über Direct IP and Port
 
 1. <b>Empyrion starten</b><br>
-   Starte Empyrion: Galactic Survival über Steam.
+   Starte Empyrion: Galactic Survival.
 
 2. <b>Join a Game öffnen</b><br>
    Klicke im Hauptmenü auf **Join a Game**.

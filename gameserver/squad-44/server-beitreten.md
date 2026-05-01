@@ -13,7 +13,7 @@ Notiere dir den **Servernamen** deines Servers. Diesen kannst du in der Verwaltu
 ## Server beitreten
 
 1. <b>Squad 44 starten</b><br>
-   Starte Squad 44 über Steam.
+   Starte Squad 44.
 
 2. <b>Server-Browser öffnen</b><br>
    Wähle im Hauptmenü **Server Browser**.

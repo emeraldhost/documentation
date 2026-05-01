@@ -13,7 +13,7 @@ You can find the IP address and port of your server in the **dashboard** of your
 ## Via Direct Connect
 
 1. <b>Launch SCP: Secret Laboratory</b><br>
-   Start SCP: Secret Laboratory via Steam.
+   Start SCP: Secret Laboratory.
 
 2. <b>Open Servers</b><br>
    Click **Servers** in the main menu.

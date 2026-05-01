@@ -13,7 +13,7 @@ Die IP-Adresse und den Port deines Servers findest du in der **Verwaltung** dein
 ## Über die F1-Konsole
 
 1. <b>Rust starten</b><br>
-   Starte Rust über Steam.
+   Starte Rust.
 
 2. <b>Konsole öffnen</b><br>
    Drücke im Hauptmenü die Taste `F1`, um die Konsole zu öffnen.

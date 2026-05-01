@@ -13,7 +13,7 @@ Note down the **server name** of your server. You can change it via the dashboar
 ## Join the server
 
 1. <b>Start Squad 44</b><br>
-   Launch Squad 44 via Steam.
+   Launch Squad 44.
 
 2. <b>Open server browser</b><br>
    Select **Server Browser** in the main menu.

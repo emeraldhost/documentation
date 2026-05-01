@@ -13,7 +13,7 @@ You can find the IP address and port of your server in the **dashboard** of your
 ## Via Direct IP and Port
 
 1. <b>Launch Empyrion</b><br>
-   Start Empyrion: Galactic Survival via Steam.
+   Start Empyrion: Galactic Survival.
 
 2. <b>Open Join a Game</b><br>
    Click **Join a Game** in the main menu.

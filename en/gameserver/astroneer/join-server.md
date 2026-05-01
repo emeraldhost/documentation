@@ -7,7 +7,7 @@ description: Join an Astroneer server
 To join your server you need the IP address and port of your server as well as the server password if one is set.
 
 1. <b>Launch Astroneer</b><br>
-   Start Astroneer via Steam.
+   Start Astroneer.
 
 2. <b>Select CO-OP</b><br>
    In the main menu, select **CO-OP**.

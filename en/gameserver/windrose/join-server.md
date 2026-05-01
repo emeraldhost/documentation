@@ -4,10 +4,16 @@ description: Join a Windrose server
 
 # How to Join Your Windrose Server
 
+:::: info Note
+The direct connection via IP address and port is **disabled** by default. To enable it, see [Enable Direct Connection](enable-direct-connection.md).
+::::
+
+## Via invite code
+
 To join your server, you need the [invite code](set-invite-code.md) and – if set – the [server password](set-server-password.md).
 
 1. <b>Launch Windrose</b><br>
-   Start Windrose via Steam.
+   Start Windrose.
 
 2. <b>Select Play</b><br>
    Click **Play** in the main menu.
@@ -27,3 +33,27 @@ To join your server, you need the [invite code](set-invite-code.md) and – if s
 :::: info Note
 You can find your invite code in the dashboard under **Settings** or in the file `/R5/ServerDescription.json`. The code is case-sensitive – pay attention to correct capitalization when entering it.
 ::::
+
+## Via direct connection (IP address)
+
+:::: info Prerequisite
+[Direct connection must be enabled](enable-direct-connection.md).
+::::
+
+1. <b>Launch Windrose</b><br>
+   Start Windrose.
+
+2. <b>Select Play</b><br>
+   Click **Play** in the main menu.
+
+3. <b>Connect to server</b><br>
+   Select the **Connect to Server** option.
+
+4. <b>Enter IP address</b><br>
+   Enter the IP address and port of your server in the format `IP:Port` and confirm.
+
+   :::: tip Example
+   ```
+   123.45.67.89:7777
+   ```
+   ::::

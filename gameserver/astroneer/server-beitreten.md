@@ -7,7 +7,7 @@ description: Einem Astroneer Server beitreten
 Um deinem Server beizutreten, benötigst du die IP-Adresse und den Port deines Servers sowie – falls gesetzt – das Server-Passwort.
 
 1. <b>Astroneer starten</b><br>
-   Starte Astroneer über Steam.
+   Starte Astroneer.
 
 2. <b>CO-OP auswählen</b><br>
    Wähle im Hauptmenü **CO-OP**.

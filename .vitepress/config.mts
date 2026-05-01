@@ -723,6 +723,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Backup erstellen', link: '/gameserver/windrose/backup-erstellen' },
+                  { text: 'Direktverbindung aktivieren', link: '/gameserver/windrose/direktverbindung-aktivieren' },
                   { text: 'Invite Code setzen', link: '/gameserver/windrose/invite-code-setzen' },
                   { text: 'Island ID setzen', link: '/gameserver/windrose/island-id-setzen' },
                   { text: 'Max Spieler ändern', link: '/gameserver/windrose/max-spieler-aendern' },
@@ -1554,6 +1555,7 @@ export default defineConfig({
                   { text: 'Change Server Name', link: '/en/gameserver/windrose/change-server-name' },
                   { text: 'Change World Settings', link: '/en/gameserver/windrose/change-world-settings' },
                   { text: 'Create Backup', link: '/en/gameserver/windrose/create-backup' },
+                  { text: 'Enable Direct Connection', link: '/en/gameserver/windrose/enable-direct-connection' },
                   { text: 'Join Server', link: '/en/gameserver/windrose/join-server' },
                   { text: 'Set Invite Code', link: '/en/gameserver/windrose/set-invite-code' },
                   { text: 'Set Island ID', link: '/en/gameserver/windrose/set-island-id' },
