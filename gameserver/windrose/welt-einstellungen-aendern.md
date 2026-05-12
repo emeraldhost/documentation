@@ -67,3 +67,7 @@ Die Welt-Einstellungen werden in der Datei `WorldDescription.json` festgelegt. D
 :::: tip Tipp
 Wenn du den `WorldPresetType` auf `Custom` setzt, kannst du die einzelnen Parameter frei anpassen.
 ::::
+
+:::: info Hinweis
+Du musst `WorldPresetType` nicht manuell auf `Custom` setzen. Sobald du eigene Werte in den `WorldSettings` hinterlegst und den Server neu startest, wechselt der Server `WorldPresetType` beim nächsten Start automatisch auf `Custom`. Es reicht also, deine gewünschten Einstellungen einzutragen, zu speichern und den Server neu zu starten.
+::::

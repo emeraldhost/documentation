@@ -67,3 +67,7 @@ Do not change the `IslandId` value if you want to keep using the world. The valu
 :::: tip Tip
 If you set `WorldPresetType` to `Custom`, you can freely adjust the individual parameters.
 ::::
+
+:::: info Note
+You don't have to set `WorldPresetType` to `Custom` manually. As soon as you enter custom values in the `WorldSettings` and restart the server, the server automatically switches `WorldPresetType` to `Custom` on the next launch. Just enter your desired settings, save the file and restart the server.
+::::
