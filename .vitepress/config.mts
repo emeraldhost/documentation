@@ -525,6 +525,24 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Renown',
+                link: '/gameserver/renown',
+                collapsed: true,
+                items: [
+                  { text: 'Admin Passwort setzen', link: '/gameserver/renown/admin-passwort-setzen' },
+                  { text: 'Backup erstellen', link: '/gameserver/renown/backup-erstellen' },
+                  { text: 'First Person Only aktivieren', link: '/gameserver/renown/first-person-only-aktivieren' },
+                  { text: 'Map Rotation ändern', link: '/gameserver/renown/map-rotation-aendern' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/renown/max-spieler-aendern' },
+                  { text: 'Öffentlicher Server ändern', link: '/gameserver/renown/oeffentlicher-server-aendern' },
+                  { text: 'Private Sitzung ändern', link: '/gameserver/renown/private-sitzung-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/renown/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/renown/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/renown/server-passwort-setzen' },
+                  { text: 'Use First Map aktivieren', link: '/gameserver/renown/use-first-map-aktivieren' }
+                ]
+              },
+              {
                 text: 'RuneScape: Dragonwilds',
                 link: '/gameserver/runescape-dragonwilds',
                 collapsed: true,
@@ -1350,6 +1368,24 @@ export default defineConfig({
                   { text: 'Add Scripts', link: '/en/gameserver/ragemp/add-scripts' },
                   { text: 'Create Backup', link: '/en/gameserver/ragemp/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/ragemp/join-server' }
+                ]
+              },
+              {
+                text: 'Renown',
+                link: '/en/gameserver/renown',
+                collapsed: true,
+                items: [
+                  { text: 'Change Map Rotation', link: '/en/gameserver/renown/change-map-rotation' },
+                  { text: 'Change Max Players', link: '/en/gameserver/renown/change-max-players' },
+                  { text: 'Change Private Session', link: '/en/gameserver/renown/change-private-session' },
+                  { text: 'Change Public Server', link: '/en/gameserver/renown/change-public-server' },
+                  { text: 'Change Server Name', link: '/en/gameserver/renown/change-server-name' },
+                  { text: 'Create Backup', link: '/en/gameserver/renown/create-backup' },
+                  { text: 'Enable First Person Only', link: '/en/gameserver/renown/enable-first-person-only' },
+                  { text: 'Enable Use First Map', link: '/en/gameserver/renown/enable-use-first-map' },
+                  { text: 'Join Server', link: '/en/gameserver/renown/join-server' },
+                  { text: 'Set Admin Password', link: '/en/gameserver/renown/set-admin-password' },
+                  { text: 'Set Server Password', link: '/en/gameserver/renown/set-server-password' }
                 ]
               },
               {
