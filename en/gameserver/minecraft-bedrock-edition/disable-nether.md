@@ -4,7 +4,7 @@ description: Disable the Nether on a Minecraft Bedrock Edition server
 
 # How to Disable the Nether on a Minecraft Bedrock Server
 
-Unlike Java Edition, Bedrock dedicated servers have **no setting in `server.properties`** to disable the Nether. Instead, you have to block access to the dimension in a different way.
+Unlike Java Edition, Bedrock servers have **no setting in `server.properties`** to disable the Nether. Instead, you have to block access to the dimension in a different way.
 
 ## Options
 

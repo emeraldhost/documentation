@@ -4,7 +4,7 @@ description: End auf einem Minecraft Bedrock Edition Server deaktivieren
 
 # So deaktivierst du den End auf einem Minecraft Bedrock Server
 
-Anders als bei Java Edition gibt es auf Bedrock-Dedicated-Servern **keine Einstellung in der `server.properties`**, um den End zu deaktivieren. Stattdessen musst du den Zugang zur Dimension auf andere Weise blockieren.
+Anders als bei Java Edition gibt es auf Bedrock Servern **keine Einstellung in der `server.properties`**, um den End zu deaktivieren. Stattdessen musst du den Zugang zur Dimension auf andere Weise blockieren.
 
 ## Möglichkeiten
 
