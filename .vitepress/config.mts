@@ -272,6 +272,7 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/enshrouded/savegame-hinzufuegen' },
                   { text: 'Schwierigkeit anpassen', link: '/gameserver/enshrouded/schwierigkeit-anpassen' },
                   { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' },
+                  { text: 'Server Passwort ändern', link: '/gameserver/enshrouded/server-passwort-aendern' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/enshrouded/spieler-kicken-bannen' }
                 ]
               },
@@ -1124,6 +1125,7 @@ export default defineConfig({
                   { text: 'Add Admin', link: '/en/gameserver/enshrouded/add-admin' },
                   { text: 'Add Savegame', link: '/en/gameserver/enshrouded/add-savegame' },
                   { text: 'Adjust Difficulty', link: '/en/gameserver/enshrouded/adjust-difficulty' },
+                  { text: 'Change Server Password', link: '/en/gameserver/enshrouded/change-server-password' },
                   { text: 'Create Backup', link: '/en/gameserver/enshrouded/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/enshrouded/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/enshrouded/kick-ban-players' },
