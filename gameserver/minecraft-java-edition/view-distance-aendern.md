@@ -6,15 +6,21 @@ description: View-Distance auf einem Minecraft Java Edition Server ändern
 
 ## Was ist die View-Distance?
 
-Die `view-distance` bestimmt, wie viele Chunks ein Spieler rund um sich sehen kann. Ein Chunk ist in Minecraft ein Bereich der Welt von 16x16 Blöcken. Das bedeutet: Ist die View-Distance auf 10 gesetzt, sieht der Spieler in einem Quadrat von 21x21 Chunks - also 10 Chunks in jede Richtung. Die Sichtweite beeinflusst nur das Laden und Anzeigen der Welt, nicht die aktive Berechnung von z.B. Mobs, Redstone oder dem Wachstum der Pflanzen.
+Die `view-distance` bestimmt, **wie viele Chunks der Server lädt und an die Clients sendet**. Ein Chunk ist in Minecraft ein Bereich von 16x16 Blöcken. Bei einer View-Distance von 10 sieht der Spieler in jede Richtung 10 Chunks (also ein Quadrat von 21x21 Chunks).
 
-## Welche Auswirkungen hat die Einstellung auf meinen Server?
+Die View-Distance beeinflusst nur das **Anzeigen** der Welt — also wie weit die Landschaft sichtbar ist. Sie hat **nichts** mit der aktiven Berechnung von Mobs, Redstone oder Spielern zu tun.
 
-- Höhere Werte ermöglichen eine größere Weltsicht.<br>
-- Je mehr Spieler gleichzeitig online sind, desto stärker wird der Server belastet.<br>
+:::: info Spieler oder Mobs werden erst aus der Nähe sichtbar?
+Dann ist nicht die `view-distance`, sondern die [`simulation-distance`](simulation-distance-aendern.md) zuständig. Entities werden nur in dem Bereich getickt und angezeigt, der von der Simulation-Distance abgedeckt wird.
+::::
+
+## Auswirkungen auf den Server
+
+- Höhere Werte ermöglichen eine größere Weltsicht.
+- Je mehr Spieler gleichzeitig online sind, desto stärker wird der Server belastet.
 - Zu hohe Werte können zu Rucklern, Verbindungsproblemen oder hoher RAM-Auslastung führen.
 
-## Wie ändere ich die View-Distance?
+## View-Distance ändern
 
 1. <b>Per SFTP verbinden</b><br>
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.
@@ -22,18 +28,22 @@ Die `view-distance` bestimmt, wie viele Chunks ein Spieler rund um sich sehen ka
 2. <b>Eintrag suchen</b><br>
    Suche nach folgendem Eintrag:
 
-```
-view-distance=10
-```
+   ```
+   view-distance=16
+   ```
 
 3. <b>Wert ändern</b><br>
-   Ändere den Wert nach Wunsch (z.B. 8 oder 6).
+   Ändere den Wert nach Wunsch (z.B. `8` oder `12`).
 
 4. <b>Server neu starten</b><br>
    Speichere die Änderungen und starte den Server neu.
 
 :::: tip Empfehlung
-- 6–8 → Bei großen Spielerzahlen & wenig Serverleistung<br>
-- 10 → Standard-Einstellung<br>
-- 10+ → Nur bei starker Serverleistung
+- `6`–`8` → Bei großen Spielerzahlen & wenig Serverleistung
+- `16` → Standard-Einstellung
+- `16`+ → Nur bei starker Serverleistung
 ::::
+
+## Hinweis zur Client-Seite
+
+Die View-Distance des Servers ist die **Obergrenze** — der Client kann nicht weiter sehen als der Server an ihn sendet. Spieler müssen zusätzlich in ihren **Video-Einstellungen** die **Render-Distanz** entsprechend hoch setzen, damit sie die ganze gesendete Sichtweite auch tatsächlich angezeigt bekommen.

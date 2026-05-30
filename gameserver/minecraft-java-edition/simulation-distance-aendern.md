@@ -6,14 +6,25 @@ description: Simulation-Distance auf einem Minecraft Java Edition Server ändern
 
 ## Was ist die Simulation-Distance?
 
-Die `simulation-distance` bestimmt, wie viele Chunks rund um den Spieler aktiv berechnet und simuliert werden. Das bedeutet: In diesem Bereich laufen Prozesse wie z. B. Redstone-Schaltungen, Mob-Bewegung und -Spawning, Pflanzenwachstum sowie Ticks von Feuer, Wasser und Tropfstein. Außerhalb dieses Bereichs werden Chunks nur geladen, solange sie innerhalb der View-Distance liegen - sie werden jedoch nicht aktiv verarbeitet, sondern sind sozusagen „eingefroren".
+Die `simulation-distance` bestimmt, **in welchem Radius rund um den Spieler Entities und Spielmechaniken aktiv getickt werden**. Das umfasst:
 
-## Welche Auswirkungen hat die Einstellung auf meinen Server?
+- **Andere Spieler und Mobs** — sie werden nur in diesem Bereich bewegt und angezeigt
+- **Redstone-Schaltungen**
+- **Mob-Spawning**
+- **Pflanzenwachstum** und Ticks von Feuer, Wasser, Tropfstein etc.
 
-- Zu niedrige Werte können dazu führen, dass Farmen, Redstone oder Mobs außerhalb des Spielers nicht funktionieren.
+Chunks außerhalb der Simulation-Distance werden zwar noch geladen (solange sie in der [`view-distance`](view-distance-aendern.md) liegen), sind aber sozusagen "eingefroren".
+
+:::: warning Spieler werden erst aus der Nähe sichtbar?
+Das ist der häufigste Fall: Steht die Simulation-Distance zu niedrig (z.B. auf `5`), erscheinen andere Spieler und Entities erst, wenn sie sich sehr nah befinden. Setze den Wert testweise auf `8`–`16` und starte den Server neu.
+::::
+
+## Auswirkungen auf den Server
+
+- Zu niedrige Werte führen dazu, dass Farmen, Redstone, Mobs oder Spieler außerhalb des Spielers nicht aktiv sind.
 - Höhere Werte bedeuten mehr Serverlast, besonders bei vielen Spielern oder umfangreichen Systemen.
 
-## Wie ändere ich die Simulation-Distance?
+## Simulation-Distance ändern
 
 1. <b>Per SFTP verbinden</b><br>
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.
@@ -21,18 +32,22 @@ Die `simulation-distance` bestimmt, wie viele Chunks rund um den Spieler aktiv b
 2. <b>Eintrag suchen</b><br>
    Suche nach folgendem Eintrag:
 
-```
-simulation-distance=10
-```
+   ```
+   simulation-distance=16
+   ```
 
 3. <b>Wert ändern</b><br>
-   Ändere den Wert nach Wunsch (z. B. 6 oder 4).
+   Ändere den Wert nach Wunsch (z.B. `8` oder `12`).
 
 4. <b>Server neu starten</b><br>
    Speichere die Änderungen und starte den Server neu.
 
 :::: tip Empfehlung
-- 4–6 → Bei großen Spielerzahlen & geringer Serverleistung
-- 10 → Standard-Einstellung
-- 10+ → Nur bei starker Serverleistung
+- `4`–`6` → Bei großen Spielerzahlen & geringer Serverleistung
+- `16` → Standard-Einstellung, ausreichend für die meisten Server
+- `16`+ → Nur bei starker Serverleistung
 ::::
+
+## Hinweis zur Client-Seite
+
+Damit Spieler tatsächlich die volle Sichtweite haben, sollten sie auch in ihren **Video-Einstellungen** die **Render-Distanz** hoch genug setzen. Sonst sehen sie nur einen Ausschnitt der vom Server gesendeten Welt — unabhängig davon, was du serverseitig einstellst.
