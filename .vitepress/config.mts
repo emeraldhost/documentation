@@ -760,6 +760,19 @@ export default defineConfig({
                   { text: 'Systemanforderungen', link: '/gameserver/windrose/systemanforderungen' },
                   { text: 'Welt-Einstellungen ändern', link: '/gameserver/windrose/welt-einstellungen-aendern' }
                 ]
+              },
+              {
+                text: 'Wreckfest',
+                link: '/gameserver/wreckfest',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/wreckfest/backup-erstellen' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/wreckfest/max-spieler-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/wreckfest/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/wreckfest/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/wreckfest/server-passwort-setzen' },
+                  { text: 'Willkommensnachricht ändern', link: '/gameserver/wreckfest/willkommensnachricht-aendern' }
+                ]
               }
             ]
           },
@@ -1612,6 +1625,19 @@ export default defineConfig({
                   { text: 'Set Note', link: '/en/gameserver/windrose/set-note' },
                   { text: 'Set Server Password', link: '/en/gameserver/windrose/set-server-password' },
                   { text: 'System Requirements', link: '/en/gameserver/windrose/system-requirements' }
+                ]
+              },
+              {
+                text: 'Wreckfest',
+                link: '/en/gameserver/wreckfest',
+                collapsed: true,
+                items: [
+                  { text: 'Change Max Players', link: '/en/gameserver/wreckfest/change-max-players' },
+                  { text: 'Change Server Name', link: '/en/gameserver/wreckfest/change-server-name' },
+                  { text: 'Change Welcome Message', link: '/en/gameserver/wreckfest/change-welcome-message' },
+                  { text: 'Create Backup', link: '/en/gameserver/wreckfest/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/wreckfest/join-server' },
+                  { text: 'Set Server Password', link: '/en/gameserver/wreckfest/set-server-password' }
                 ]
               }
             ]
