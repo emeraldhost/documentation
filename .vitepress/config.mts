@@ -821,7 +821,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Mit einem Windows Server verbinden', link: '/rootserver/windows/mit-windows-server-verbinden' },
-                  { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-hard-drive-expand' }
+                  { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-hard-drive-expand' },
+                  { text: 'Windows Firewall freischalten', link: '/rootserver/windows/windows-firewall-freischalten' }
                 ]
               }
             ]
@@ -1695,7 +1696,8 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Connect to Windows Server', link: '/en/rootserver/windows/connect-to-windows-server' },
-                  { text: 'Expand Windows Hard Drive', link: '/en/rootserver/windows/windows-hard-drive-expand' }
+                  { text: 'Expand Windows Hard Drive', link: '/en/rootserver/windows/windows-hard-drive-expand' },
+                  { text: 'Open Windows Firewall Ports', link: '/en/rootserver/windows/open-windows-firewall-ports' }
                 ]
               }
             ]
