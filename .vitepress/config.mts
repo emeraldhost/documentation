@@ -803,6 +803,13 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Linux',
+                collapsed: true,
+                items: [
+                  { text: 'Mit einem Linux Server verbinden', link: '/rootserver/linux/mit-linux-server-verbinden' }
+                ]
+              },
+              {
                 text: 'Tipps & Fehlerbehebung',
                 collapsed: true,
                 items: [
@@ -813,6 +820,7 @@ export default defineConfig({
                 text: 'Windows',
                 collapsed: true,
                 items: [
+                  { text: 'Mit einem Windows Server verbinden', link: '/rootserver/windows/mit-windows-server-verbinden' },
                   { text: 'Windows Festplatte erweitern', link: '/rootserver/windows/windows-hard-drive-expand' }
                 ]
               }
@@ -1656,6 +1664,13 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Linux',
+                collapsed: true,
+                items: [
+                  { text: 'Connect to Linux Server', link: '/en/rootserver/linux/connect-to-linux-server' }
+                ]
+              },
+              {
                 text: 'Services & Tools',
                 collapsed: true,
                 items: [
@@ -1679,6 +1694,7 @@ export default defineConfig({
                 text: 'Windows',
                 collapsed: true,
                 items: [
+                  { text: 'Connect to Windows Server', link: '/en/rootserver/windows/connect-to-windows-server' },
                   { text: 'Expand Windows Hard Drive', link: '/en/rootserver/windows/windows-hard-drive-expand' }
                 ]
               }
