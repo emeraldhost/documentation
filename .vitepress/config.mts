@@ -381,6 +381,36 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Insurgency: Sandstorm',
+                link: '/gameserver/insurgency-sandstorm',
+                collapsed: true,
+                items: [
+                  { text: 'Admins hinzufügen', link: '/gameserver/insurgency-sandstorm/admins-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/insurgency-sandstorm/backup-erstellen' },
+                  { text: 'Bots hinzufügen', link: '/gameserver/insurgency-sandstorm/bots-hinzufuegen' },
+                  { text: 'Cheats aktivieren', link: '/gameserver/insurgency-sandstorm/cheats-aktivieren' },
+                  { text: 'Co-Op-Server einrichten', link: '/gameserver/insurgency-sandstorm/coop-server-einrichten' },
+                  { text: 'Game Stats Token setzen', link: '/gameserver/insurgency-sandstorm/game-stats-token-setzen' },
+                  { text: 'Gamemode-Einstellungen ändern', link: '/gameserver/insurgency-sandstorm/gamemode-einstellungen-aendern' },
+                  { text: 'GSL Token setzen', link: '/gameserver/insurgency-sandstorm/gsl-token-setzen' },
+                  { text: 'Kill-Feed konfigurieren', link: '/gameserver/insurgency-sandstorm/kill-feed-konfigurieren' },
+                  { text: 'Map ändern', link: '/gameserver/insurgency-sandstorm/map-aendern' },
+                  { text: 'Map Cycle einrichten', link: '/gameserver/insurgency-sandstorm/map-cycle-aendern' },
+                  { text: 'Max Spieler ändern', link: '/gameserver/insurgency-sandstorm/max-spieler-aendern' },
+                  { text: 'Mods aktivieren', link: '/gameserver/insurgency-sandstorm/mods-aktivieren' },
+                  { text: 'Mutatoren hinzufügen', link: '/gameserver/insurgency-sandstorm/mutatoren-hinzufuegen' },
+                  { text: 'RCON verwenden', link: '/gameserver/insurgency-sandstorm/rcon-verwenden' },
+                  { text: 'Server beitreten', link: '/gameserver/insurgency-sandstorm/server-beitreten' },
+                  { text: 'Server Name ändern', link: '/gameserver/insurgency-sandstorm/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/insurgency-sandstorm/server-passwort-setzen' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/insurgency-sandstorm/spieler-kicken-bannen' },
+                  { text: 'Spieler-Voting konfigurieren', link: '/gameserver/insurgency-sandstorm/spieler-voting-konfigurieren' },
+                  { text: 'Szenario ändern', link: '/gameserver/insurgency-sandstorm/szenario-aendern' },
+                  { text: 'Team-Kill-Einstellungen', link: '/gameserver/insurgency-sandstorm/team-kill-einstellungen' },
+                  { text: 'Zusätzliche Parameter', link: '/gameserver/insurgency-sandstorm/zusaetzliche-parameter' }
+                ]
+              },
+              {
                 text: 'Minecraft Bedrock Edition',
                 link: '/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
@@ -1256,6 +1286,36 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/icarus/join-server' },
                   { text: 'Set Admin Password', link: '/en/gameserver/icarus/set-admin-password' },
                   { text: 'Set Server Password', link: '/en/gameserver/icarus/set-server-password' }
+                ]
+              },
+              {
+                text: 'Insurgency: Sandstorm',
+                link: '/en/gameserver/insurgency-sandstorm',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admins', link: '/en/gameserver/insurgency-sandstorm/add-admins' },
+                  { text: 'Add Bots', link: '/en/gameserver/insurgency-sandstorm/add-bots' },
+                  { text: 'Add Mutators', link: '/en/gameserver/insurgency-sandstorm/add-mutators' },
+                  { text: 'Additional Parameters', link: '/en/gameserver/insurgency-sandstorm/additional-parameters' },
+                  { text: 'Change Gamemode Settings', link: '/en/gameserver/insurgency-sandstorm/change-gamemode-settings' },
+                  { text: 'Change Map', link: '/en/gameserver/insurgency-sandstorm/change-map' },
+                  { text: 'Change Max Players', link: '/en/gameserver/insurgency-sandstorm/change-max-players' },
+                  { text: 'Change Scenario', link: '/en/gameserver/insurgency-sandstorm/change-scenario' },
+                  { text: 'Change Server Name', link: '/en/gameserver/insurgency-sandstorm/change-server-name' },
+                  { text: 'Configure Kill Feed', link: '/en/gameserver/insurgency-sandstorm/configure-kill-feed' },
+                  { text: 'Configure Player Voting', link: '/en/gameserver/insurgency-sandstorm/configure-player-voting' },
+                  { text: 'Create Backup', link: '/en/gameserver/insurgency-sandstorm/create-backup' },
+                  { text: 'Enable Cheats', link: '/en/gameserver/insurgency-sandstorm/enable-cheats' },
+                  { text: 'Enable Mods', link: '/en/gameserver/insurgency-sandstorm/enable-mods' },
+                  { text: 'Join Server', link: '/en/gameserver/insurgency-sandstorm/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/insurgency-sandstorm/kick-ban-players' },
+                  { text: 'Set Game Stats Token', link: '/en/gameserver/insurgency-sandstorm/set-game-stats-token' },
+                  { text: 'Set GSL Token', link: '/en/gameserver/insurgency-sandstorm/set-gsl-token' },
+                  { text: 'Set Map Cycle', link: '/en/gameserver/insurgency-sandstorm/set-map-cycle' },
+                  { text: 'Set Server Password', link: '/en/gameserver/insurgency-sandstorm/set-server-password' },
+                  { text: 'Set Up Co-Op Server', link: '/en/gameserver/insurgency-sandstorm/setup-coop-server' },
+                  { text: 'Team Kill Settings', link: '/en/gameserver/insurgency-sandstorm/team-kill-settings' },
+                  { text: 'Use RCON', link: '/en/gameserver/insurgency-sandstorm/use-rcon' }
                 ]
               },
               {
