@@ -4,117 +4,100 @@ description: "Add mods via mod.io on an Insurgency: Sandstorm server"
 
 # How to Add Mods to Your Insurgency: Sandstorm Server
 
-Mods for Insurgency: Sandstorm are provided via **mod.io**. For your server to load mods, it logs in to mod.io with a personal **access token** and downloads the mods you specify in a mod list.
+Mods for Insurgency: Sandstorm are provided via **mod.io**. The server logs in with its own mod.io account and downloads the mods that this account has **subscribed to** in the **mod.io web portal**. The login is done once via a **security code**.
+
+:::: info Changed with update 1.20
+With update **1.20 (Operation: Clear Sight)**, mod.io changed the mod process. Mods are now loaded via a **dedicated server account** and a one-time **security code**. The previous methods (access token in `GameUserSettings.ini`, `Mods.txt` / `-ModList`) **no longer work**.
+::::
+
+:::: warning Warning
+The server needs its **own separate mod.io account** with its own email address — **not** the same account you use as a player in-game. With a shared account the server will not download any mods.
+::::
 
 ## Step 1: Create a mod.io account
 
-Create a [mod.io](https://mod.io/) account. You can also sign in with an existing Steam, Xbox, Google or Facebook account.
+Create a new [mod.io](https://mod.io/) account exclusively for your server and remember the email address you used. mod.io does not use passwords but logs you in via an email code.
 
-## Step 2: Generate an access token
+## Step 2: Subscribe to mods
 
-1. <b>Open your profile</b><br>
-   Click your username in the top right to go to your profile.
+1. <b>Sign in to the web portal</b><br>
+   Sign in with the **server account** on [mod.io](https://mod.io/).
 
-2. <b>Open API Access</b><br>
-   Select **API Access** in the left menu.
-
-3. <b>Create a token</b><br>
-   In the **OAuth 2 Management** section, enter a name under **Generate Access Token** (e.g. `Insurgency Server`) and click **Create Token**.
-
-4. <b>Copy the token</b><br>
-   Click the token's name to display it and copy it in full.
-
-   :::: warning Warning
-   Treat the access token like a password and do not share it with anyone. Each server needs its **own** access token (i.e. its own mod.io account) — do not reuse the same token across multiple servers.
-   ::::
-
-## Step 3: Add the access token to the config
-
-1. <b>Stop the server</b><br>
-   Stop your server via the dashboard.
-
-2. <b>Connect via SFTP</b><br>
-   Connect to your server via [SFTP](../establish-sftp-connection.md).
-
-3. <b>Open GameUserSettings.ini</b><br>
-   The `GameUserSettings.ini` file is located in the `Insurgency/Saved/Config/LinuxServer/` directory. Open it.
-
-4. <b>Add the token</b><br>
-   Add the following section and replace `YOUR_TOKEN` with your access token. If the section `[/Script/ModKit.ModIOClient]` already exists, just add the two lines below it:
-
-   ```ini
-   [/Script/ModKit.ModIOClient]
-   bHasUserAcceptedTerms=True
-   AccessToken=YOUR_TOKEN
-   ```
-
-   :::: warning Warning
-   The entire token must be on a **single line** directly after `AccessToken=`, even though it is very long. Do not insert any line breaks. When copied from mod.io the token may appear wrapped across several lines; in `GameUserSettings.ini` it must occupy exactly one line. The line `bHasUserAcceptedTerms=True` is mandatory — without it the server will not log in.
-   ::::
-
-## Step 4: Find the mod IDs
-
-1. <b>Find mods</b><br>
-   Open the [Insurgency: Sandstorm section on mod.io](https://mod.io/g/insurgencysandstorm) and select a desired mod.
-
-2. <b>Note the mod ID</b><br>
-   The numeric **mod ID** is shown in the mod page URL. In a URL like `https://mod.io/g/insurgencysandstorm/m/<name>` the mod ID is the **number**, not the name slug. Note the numeric IDs of all mods the server should load.
-
-## Step 5: Create the mod list
-
-1. <b>Create the folder</b><br>
-   If it does not already exist, create the folder `Insurgency/Config/Server/`. In your SFTP client (e.g. FileZilla/WinSCP) you create folders via right-click → **Create directory**.
-
-2. <b>Create Mods.txt</b><br>
-   In this folder, create a file called `Mods.txt` and enter **one mod ID per line**:
-
-   ```
-   1234567
-   2345678
-   ```
-
-   The easiest way is to create `Mods.txt` locally in a text editor and then upload it. Make sure the file is named exactly `Mods.txt` (not `Mods.txt.txt` — Windows hides known file extensions by default).
-
-   :::: tip Tip
-   Alternatively, you can specify the mods via the launch parameter `-CmdModList="1234567,2345678"` without creating a `Mods.txt`. With `-ModList=MyList` you load a differently-named list file from the same folder (handy for several mod sets, file name without `.txt`). Use either `Mods.txt` or `-CmdModList` — not both at the same time.
-   ::::
-
-## Step 6: Enable mods and start the server
-
-1. <b>Check the parameters</b><br>
-   Open the **Settings** in the dashboard, make sure the parameter `-Mods` is set in the **Additional Parameters** field, and save the setting. Optionally add `-ModDownloadTravelTo=MAP?Scenario=SCENARIO` so the server automatically travels to the modded map after the download. The exact `MAP` and `SCENARIO` values are listed in the map mod's description on mod.io or in the [Server Admin Guide](https://mod.io/g/insurgencysandstorm/r/server-admin-guide).
-
-2. <b>Start the server</b><br>
-   Start your server. On startup it logs in to mod.io with the access token and downloads the mods from your list.
+2. <b>Subscribe to mods</b><br>
+   Open the [Insurgency: Sandstorm section](https://mod.io/g/insurgencysandstorm) and subscribe to every mod the server should load.
 
    :::: info Note
-   For some mods (e.g. custom maps) players must also subscribe to/download the mod to be able to join.
+   Mods are controlled exclusively via the **subscriptions** of the server account. Adding and removing mods is only possible through the mod.io web portal.
    ::::
 
-## Verify mods and troubleshooting
+## Step 3: Request the security code
 
-:::: info Note
-After starting, check the **server console** in the dashboard: you should see the mod.io login and a download line per mod ID. A modded map also appears when connecting or in the server overview.
+On the first launch, the server has to authorize itself with mod.io once using a **security code**.
+
+1. <b>Open PowerShell</b><br>
+   Open **PowerShell** on your PC.
+
+2. <b>Request the code</b><br>
+   Run the following command and replace `YOUR_EMAIL` with the email address of your **server account**:
+
+   ```powershell
+   curl.exe -s -L -X POST "https://g-254.modapi.io/v1/oauth/emailrequest?api_key=bbf3af200848aef28418c032a601e7a2" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json" -d "email=YOUR_EMAIL"
+   ```
+
+3. <b>Get the code from the email</b><br>
+   You will then receive a **5-digit security code** by email.
+
+## Step 4: Authorize the server once
+
+1. <b>Open dashboard</b><br>
+   Open the dashboard and navigate to the **Settings**.
+
+2. <b>Enter the security code</b><br>
+   Enter the code you received by email in the **Security Code** field (replacing the default value `none`) and save the setting.
+
+3. <b>Start the server</b><br>
+   Start your server. It authorizes itself once with the code and downloads the subscribed mods.
+
+## Step 5: Reset the security code
+
+The security code is **one-time** and is used up after the first launch. Set the **Security Code** field back to `none` afterwards and restart the server.
+
+:::: tip Tip
+The **Security Code** field defaults to `none`, and `-Mods` is already active in the **Additional Parameters** field. You only enter the code for the **one-time** first launch and set the field back to `none` afterwards.
 ::::
 
-If no mods are loaded, check these common causes:
+## Load a modded map
 
-- The `AccessToken` was not copied in full or contains line breaks/spaces — paste the complete token again on a **single** line.
-- The line `bHasUserAcceptedTerms=True` is missing or not exactly `True`.
-- The parameter `-Mods` is not set in the **Additional Parameters** field — without it the server downloads nothing.
-- Wrong or non-numeric mod IDs, or extra/blank lines in `Mods.txt`.
-- `GameUserSettings.ini` was edited while the server was running and got overwritten on shutdown — always stop the server **before** editing.
-- The wrong file was edited — `GameUserSettings.ini` is located under `Insurgency/Saved/Config/LinuxServer/`.
+To make the server travel directly to a modded map after the download, add the following in the **Additional Parameters** field:
 
-## Update or remove mods
+```
+-ModDownloadTravelTo=MAP?Scenario=SCENARIO
+```
 
-- <b>Remove:</b> Delete the relevant mod ID from `Mods.txt` (or from `-CmdModList`) and restart the server.
-- <b>Update:</b> The server pulls the current version from mod.io on start. If an old version keeps loading, you can delete the cached mod download so the server re-downloads it.
+The exact `MAP` and `SCENARIO` values are listed in the map mod's description on mod.io.
+
+:::: warning Warning
+The **Map**/**Scenario** set as the boot map must be a **vanilla** map — a modded map cannot be used as the start map because it has not been downloaded yet at startup. The server boots on the vanilla map, downloads the mods and only then travels to the modded map via `-ModDownloadTravelTo`.
+::::
+
+## Troubleshooting
+
+If the server does not download any mods, check the following:
+
+- The server account is its **own** account (not your player account).
+- The server account has **subscribed** to the desired mods in the web portal.
+- `-Mods` is set in the **Additional Parameters** field.
+- Message "Security code has already been redeemed": the code has already been used — set the **Security Code** field to `none` (the server is already authorized then).
+- Persistent download problems: delete the mod.io cache (folder `mod.io/254/`) via [SFTP](../establish-sftp-connection.md) and re-authorize the server with a new code.
+
+:::: info Note
+Players must also subscribe to the mods (e.g. custom maps) with their own mod.io account to be able to join the server. The download starts in the background when connecting and is not always shown with a progress bar.
+::::
+
+:::: info Migrating from the old method
+If you previously set up the server with an **access token** in `GameUserSettings.ini`: remove the `[/Script/ModKit.ModIOClient]` section from that file. The current method uses the security code exclusively.
+::::
 
 ## Mutators
 
-Some mods additionally require enabled **mutators**. To learn how to enable them, see the [Add Mutators](add-mutators.md) guide.
-
-:::: info Note
-Some mods require additional entries in `Game.ini` (`Insurgency/Saved/Config/LinuxServer/Game.ini`). If a mod loads but does nothing, check the mod's description on mod.io for required configuration keys.
-::::
+Some mods additionally require enabled **mutators**. To learn how to enable them, see the [Add Mutators](add-mutators.md) guide. Some mods also require entries in `Game.ini` — check the mod's description on mod.io for this.

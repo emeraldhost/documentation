@@ -45,13 +45,15 @@ Im Co-Op-Modus (z.B. **Checkpoint**) spielst du gemeinsam mit anderen Spielern g
    MaxPlayersToScaleEnemyCount=8
    ```
 
-   | Einstellung | Beschreibung |
-   |-------------|--------------|
-   | `AIDifficulty` | Schwierigkeit der KI von einfach (`0`) bis schwer (`1`) |
-   | `bUseVehicleInsertion` | Gegner rücken per Fahrzeug ein |
-   | `MinimumEnemies` / `MaximumEnemies` | Minimale/maximale Anzahl gegnerischer Bots |
-   | `FriendlyBotQuota` | Füllt das Spieler-Team mit Bots auf |
-   | `MaxPlayersToScaleEnemyCount` | Passt die Gegnerzahl an die Spieler-/Bot-Anzahl an |
+   | Einstellung | Standard | Beschreibung |
+   |-------------|----------|--------------|
+   | `AIDifficulty` | `1` | Schwierigkeit der KI von einfach (`0`) bis schwer (`1`) |
+   | `bUseVehicleInsertion` | `True` | Gegner rücken per Fahrzeug ein |
+   | `MinimumEnemies` | `5` | Minimale Anzahl gegnerischer Bots |
+   | `MaximumEnemies` | `40` | Maximale Anzahl gegnerischer Bots |
+   | `bBots` | `True` | Aktiviert KI-Bots im Koop-Modus |
+   | `FriendlyBotQuota` | `8` | Füllt das Spieler-Team mit Bots auf |
+   | `MaxPlayersToScaleEnemyCount` | `8` | Passt die Gegnerzahl an die Spieler-/Bot-Anzahl an |
 
 5. <b>Checkpoint-Einstellungen anpassen (optional)</b><br>
    Für den Checkpoint-Modus kannst du zusätzlich folgenden Abschnitt verwenden:

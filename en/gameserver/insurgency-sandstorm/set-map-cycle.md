@@ -36,11 +36,11 @@ With a map cycle your server automatically rotates through a list of scenarios (
 1. <b>Open settings</b><br>
    Open the **Settings** in the dashboard.
 
-2. <b>Set the parameter</b><br>
-   Enter the following parameter in the **Additional Parameters** field and specify the file name **without** `.txt`:
+2. <b>Adjust the parameter</b><br>
+   The **Additional Parameters** field defaults to `-Mods -Mapcycle=ppMapCycle`. Change the `-Mapcycle=` value to the name of your file (**without** `.txt`) and keep `-Mods` — only **one** `-Mapcycle=` may be active:
 
    ```
-   -Mapcycle=MapCycle
+   -Mods -Mapcycle=MapCycle
    ```
 
 3. <b>Start the server</b><br>

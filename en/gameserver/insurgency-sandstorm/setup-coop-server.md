@@ -45,13 +45,15 @@ In co-op mode (e.g. **Checkpoint**) you play together with other players against
    MaxPlayersToScaleEnemyCount=8
    ```
 
-   | Setting | Description |
-   |---------|-------------|
-   | `AIDifficulty` | AI difficulty from easy (`0`) to hard (`1`) |
-   | `bUseVehicleInsertion` | Enemies arrive by vehicle |
-   | `MinimumEnemies` / `MaximumEnemies` | Minimum/maximum number of enemy bots |
-   | `FriendlyBotQuota` | Fills the player team with bots |
-   | `MaxPlayersToScaleEnemyCount` | Scales the enemy count to the player/bot count |
+   | Setting | Default | Description |
+   |---------|---------|-------------|
+   | `AIDifficulty` | `1` | AI difficulty from easy (`0`) to hard (`1`) |
+   | `bUseVehicleInsertion` | `True` | Enemies arrive by vehicle |
+   | `MinimumEnemies` | `5` | Minimum number of enemy bots |
+   | `MaximumEnemies` | `40` | Maximum number of enemy bots |
+   | `bBots` | `True` | Enables AI bots in co-op mode |
+   | `FriendlyBotQuota` | `8` | Fills the player team with bots |
+   | `MaxPlayersToScaleEnemyCount` | `8` | Scales the enemy count to the player/bot count |
 
 5. <b>Adjust checkpoint settings (optional)</b><br>
    For the Checkpoint mode you can additionally use the following section:

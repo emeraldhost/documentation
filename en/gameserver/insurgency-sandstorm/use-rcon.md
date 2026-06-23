@@ -6,49 +6,29 @@ description: "Use RCON on an Insurgency: Sandstorm server"
 
 RCON lets you remotely control and moderate your server — for example to kick or ban players, change the map or send messages. The commands can be run via an RCON tool or directly in the server console in the dashboard.
 
-## Step 1: Enable RCON
+## RCON credentials
 
-1. <b>Stop the server</b><br>
-   Stop your server via the dashboard.
+RCON is **already enabled** on your server — you don't need to configure anything. You only need the RCON password and the RCON port:
 
-2. <b>Connect via SFTP</b><br>
-   Connect to your server via [SFTP](../establish-sftp-connection.md).
+- <b>RCON password</b><br>
+  You can find and change the password in the dashboard in the **RCON Password** field.
 
-3. <b>Open Game.ini</b><br>
-   The `Game.ini` file is located in the `Insurgency/Saved/Config/LinuxServer/` directory. Open it.
-
-4. <b>Add the RCON section</b><br>
-   Add the following section and replace `YOUR_RCON_PASSWORD` with a secure password:
-
-   ```ini
-   [Rcon]
-   bEnabled=True
-   Password=YOUR_RCON_PASSWORD
-   ListenPort=27015
-   ```
-
-   | Setting | Description |
-   |---------|-------------|
-   | `bEnabled` | Enables RCON (`True`/`False`) |
-   | `Password` | Password for the RCON connection |
-   | `ListenPort` | Port RCON listens on — choose a free port from your port overview in the dashboard |
-
-5. <b>Start the server</b><br>
-   Save the file and start your server.
+- <b>RCON port</b><br>
+  You can find the RCON port in the dashboard in the **port overview**.
 
 :::: warning Warning
-Treat the RCON password like an admin password and only share it with trusted people. Only edit `Game.ini` while the server is stopped.
+Treat the RCON password like an admin password and only share it with trusted people. Change the default password before first use.
 ::::
 
-## Step 2: Connect with an RCON tool
+## Connect with an RCON tool
 
 1. <b>Open an RCON tool</b><br>
    Open an RCON tool such as **mcrcon** or a comparable RCON client.
 
 2. <b>Enter the connection details</b><br>
    - **Host:** your server's IP address (without the port)
-   - **Port:** the RCON port set in `ListenPort`
-   - **Password:** your RCON password from step 1
+   - **Port:** the RCON port from the dashboard
+   - **Password:** your RCON password from the dashboard
 
 3. <b>Run commands</b><br>
    Once connected, you can run the commands below.

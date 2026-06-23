@@ -23,8 +23,6 @@ description: "Zusätzliche Startparameter auf einem Insurgency: Sandstorm Server
 | Parameter | Beschreibung |
 |-----------|--------------|
 | `-Mods` | Aktiviert das Mod-System (mod.io) — siehe [Mods hinzufügen](mods-hinzufuegen.md) |
-| `-CmdModList="<IDs>"` | Liste der zu ladenden Mod-IDs (Alternative zur `Mods.txt`), z.B. `-CmdModList="1234567,2345678"` |
-| `-ModList=<Datei>` | Verwendet eine anders benannte Mod-Listen-Datei statt `Mods.txt` (Dateiname ohne `.txt`) |
 | `-ModDownloadTravelTo=<Map>?Scenario=<Szenario>` | Lädt die Mods herunter und wechselt anschließend auf die angegebene (modifizierte) Map |
 | `-Mutators=<Name1,Name2>` | Aktiviert Mutatoren (z.B. von manchen Mods benötigt) |
 | `-Mapcycle=<Datei>` | Verwendet die angegebene Map-Rotations-Datei (ohne Dateiendung) |

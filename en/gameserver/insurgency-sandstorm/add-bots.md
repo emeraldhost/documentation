@@ -34,6 +34,7 @@ Bots (AI enemies and teammates) are useful for filling co-op modes such as Check
    | `bUseVehicleInsertion` | `True` | Whether bots spawn in using vehicles |
    | `MinimumEnemies` | `5` | Minimum number of enemy bots |
    | `MaximumEnemies` | `40` | Maximum number of enemy bots |
+   | `bBots` | `True` | Enables AI bots in co-op mode |
    | `FriendlyBotQuota` | `8` | Number of friendly bots in co-op modes |
 
 5. <b>Add the versus settings (optional)</b><br>

@@ -6,49 +6,29 @@ description: "RCON auf einem Insurgency: Sandstorm Server verwenden"
 
 Über RCON kannst du deinen Server fernsteuern und moderieren — z.B. Spieler kicken oder bannen, die Map wechseln oder Nachrichten senden. Die Befehle lassen sich über ein RCON-Tool oder direkt über die Server-Konsole in der Verwaltung ausführen.
 
-## Schritt 1: RCON aktivieren
+## RCON-Zugangsdaten
 
-1. <b>Server stoppen</b><br>
-   Stoppe deinen Server über die Verwaltung.
+RCON ist auf deinem Server **bereits aktiviert** — du musst nichts in der Konfiguration einrichten. Du benötigst lediglich das RCON-Passwort und den RCON-Port:
 
-2. <b>Per SFTP verbinden</b><br>
-   Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
+- <b>RCON-Passwort</b><br>
+  Das Passwort findest und änderst du in der Verwaltung im Feld **RCON Passwort**.
 
-3. <b>Game.ini öffnen</b><br>
-   Die Datei `Game.ini` befindet sich im Verzeichnis `Insurgency/Saved/Config/LinuxServer/`. Öffne sie.
-
-4. <b>RCON-Abschnitt eintragen</b><br>
-   Füge den folgenden Abschnitt hinzu und ersetze `DEIN_RCON_PASSWORT` durch ein sicheres Passwort:
-
-   ```ini
-   [Rcon]
-   bEnabled=True
-   Password=DEIN_RCON_PASSWORT
-   ListenPort=27015
-   ```
-
-   | Einstellung | Beschreibung |
-   |-------------|--------------|
-   | `bEnabled` | Aktiviert RCON (`True`/`False`) |
-   | `Password` | Passwort für die RCON-Verbindung |
-   | `ListenPort` | Port, auf dem RCON lauscht — wähle einen freien Port aus deiner Port-Übersicht in der Verwaltung |
-
-5. <b>Server starten</b><br>
-   Speichere die Datei und starte deinen Server.
+- <b>RCON-Port</b><br>
+  Den RCON-Port findest du in der Verwaltung in der **Port-Übersicht**.
 
 :::: warning Achtung
-Behandle das RCON-Passwort wie ein Admin-Passwort und teile es nur mit vertrauenswürdigen Personen. Bearbeite die `Game.ini` nur bei gestopptem Server.
+Behandle das RCON-Passwort wie ein Admin-Passwort und teile es nur mit vertrauenswürdigen Personen. Ändere das Standard-Passwort vor dem ersten Einsatz.
 ::::
 
-## Schritt 2: Mit einem RCON-Tool verbinden
+## Mit einem RCON-Tool verbinden
 
 1. <b>RCON-Tool öffnen</b><br>
    Öffne ein RCON-Tool wie **mcrcon** oder einen vergleichbaren RCON-Client.
 
 2. <b>Verbindungsdaten eingeben</b><br>
    - **Host:** die IP-Adresse deines Servers (ohne Port)
-   - **Port:** der unter `ListenPort` festgelegte RCON-Port
-   - **Passwort:** dein RCON-Passwort aus Schritt 1
+   - **Port:** der RCON-Port aus der Verwaltung
+   - **Passwort:** dein RCON-Passwort aus der Verwaltung
 
 3. <b>Befehle ausführen</b><br>
    Nach erfolgreicher Verbindung kannst du die untenstehenden Befehle ausführen.

@@ -34,6 +34,7 @@ Bots (KI-Gegner und -Mitspieler) eignen sich, um Koop-Modi wie Checkpoint zu fü
    | `bUseVehicleInsertion` | `True` | Legt fest, ob Bots per Fahrzeug einrücken |
    | `MinimumEnemies` | `5` | Minimale Anzahl gegnerischer Bots |
    | `MaximumEnemies` | `40` | Maximale Anzahl gegnerischer Bots |
+   | `bBots` | `True` | Aktiviert KI-Bots im Koop-Modus |
    | `FriendlyBotQuota` | `8` | Anzahl freundlicher Bots in Koop-Modi |
 
 5. <b>Versus-Einstellungen eintragen (optional)</b><br>
