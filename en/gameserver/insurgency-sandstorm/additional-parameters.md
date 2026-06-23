@@ -22,7 +22,7 @@ The **Additional Parameters** field lets you pass extra options to the server on
 
 | Parameter | Description |
 |-----------|-------------|
-| `-Mods` | Enables the mod system (mod.io) — see [Enable Mods](enable-mods.md) |
+| `-Mods` | Enables the mod system (mod.io) — see [Add Mods](add-mods.md) |
 | `-CmdModList="<IDs>"` | List of mod IDs to load (alternative to `Mods.txt`), e.g. `-CmdModList="1234567,2345678"` |
 | `-ModList=<file>` | Uses a differently-named mod list file instead of `Mods.txt` (file name without `.txt`) |
 | `-ModDownloadTravelTo=<map>?Scenario=<scenario>` | Downloads the mods and then travels to the specified (modded) map |

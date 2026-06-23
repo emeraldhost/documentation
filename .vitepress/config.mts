@@ -1295,6 +1295,7 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admins', link: '/en/gameserver/insurgency-sandstorm/add-admins' },
                   { text: 'Add Bots', link: '/en/gameserver/insurgency-sandstorm/add-bots' },
+                  { text: 'Add Mods', link: '/en/gameserver/insurgency-sandstorm/add-mods' },
                   { text: 'Add Mutators', link: '/en/gameserver/insurgency-sandstorm/add-mutators' },
                   { text: 'Additional Parameters', link: '/en/gameserver/insurgency-sandstorm/additional-parameters' },
                   { text: 'Change Gamemode Settings', link: '/en/gameserver/insurgency-sandstorm/change-gamemode-settings' },
@@ -1306,7 +1307,6 @@ export default defineConfig({
                   { text: 'Configure Player Voting', link: '/en/gameserver/insurgency-sandstorm/configure-player-voting' },
                   { text: 'Create Backup', link: '/en/gameserver/insurgency-sandstorm/create-backup' },
                   { text: 'Enable Cheats', link: '/en/gameserver/insurgency-sandstorm/enable-cheats' },
-                  { text: 'Enable Mods', link: '/en/gameserver/insurgency-sandstorm/enable-mods' },
                   { text: 'Join Server', link: '/en/gameserver/insurgency-sandstorm/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/insurgency-sandstorm/kick-ban-players' },
                   { text: 'Set Game Stats Token', link: '/en/gameserver/insurgency-sandstorm/set-game-stats-token' },
