@@ -1,8 +1,8 @@
 ---
-description: "Mods über mod.io auf einem Insurgency: Sandstorm Server aktivieren"
+description: "Mods über mod.io auf einem Insurgency: Sandstorm Server hinzufügen"
 ---
 
-# So aktivierst du Mods auf deinem Insurgency: Sandstorm Server
+# So fügst du Mods auf deinem Insurgency: Sandstorm Server hinzu
 
 Mods für Insurgency: Sandstorm werden über **mod.io** bereitgestellt. Damit dein Server Mods laden kann, meldet er sich mit einem persönlichen **Access Token** bei mod.io an und lädt die Mods herunter, die du in einer Mod-Liste angibst.
 

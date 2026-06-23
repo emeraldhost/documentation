@@ -397,7 +397,7 @@ export default defineConfig({
                   { text: 'Map ändern', link: '/gameserver/insurgency-sandstorm/map-aendern' },
                   { text: 'Map Cycle einrichten', link: '/gameserver/insurgency-sandstorm/map-cycle-aendern' },
                   { text: 'Max Spieler ändern', link: '/gameserver/insurgency-sandstorm/max-spieler-aendern' },
-                  { text: 'Mods aktivieren', link: '/gameserver/insurgency-sandstorm/mods-aktivieren' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/insurgency-sandstorm/mods-hinzufuegen' },
                   { text: 'Mutatoren hinzufügen', link: '/gameserver/insurgency-sandstorm/mutatoren-hinzufuegen' },
                   { text: 'RCON verwenden', link: '/gameserver/insurgency-sandstorm/rcon-verwenden' },
                   { text: 'Server beitreten', link: '/gameserver/insurgency-sandstorm/server-beitreten' },
