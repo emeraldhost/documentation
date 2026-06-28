@@ -447,6 +447,7 @@ export default defineConfig({
                 items: [
                   { text: 'Backup erstellen', link: '/gameserver/minecraft-java-edition/backup-erstellen' },
                   { text: 'End deaktivieren', link: '/gameserver/minecraft-java-edition/end-deaktivieren' },
+                  { text: 'Locator Bar deaktivieren', link: '/gameserver/minecraft-java-edition/locator-bar-deaktivieren' },
                   { text: 'Minecraft EULA akzeptieren', link: '/gameserver/minecraft-java-edition/minecraft-eula-akzeptieren' },
                   { text: 'Modpack ändern', link: '/gameserver/minecraft-java-edition/modpack-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/minecraft-java-edition/mods-hinzufuegen' },
@@ -1368,6 +1369,7 @@ export default defineConfig({
                   { text: 'Delete World', link: '/en/gameserver/minecraft-java-edition/delete-world' },
                   { text: 'Disable End', link: '/en/gameserver/minecraft-java-edition/disable-end' },
                   { text: 'Disable Nether', link: '/en/gameserver/minecraft-java-edition/disable-nether' },
+                  { text: 'Disable Locator Bar', link: '/en/gameserver/minecraft-java-edition/disable-locator-bar' },
                   { text: 'Enable Whitelist', link: '/en/gameserver/minecraft-java-edition/enable-whitelist' },
                   { text: 'Grant OP Rights', link: '/en/gameserver/minecraft-java-edition/grant-op-rights' },
                   { text: 'Increase Slots', link: '/en/gameserver/minecraft-java-edition/increase-slots' },
