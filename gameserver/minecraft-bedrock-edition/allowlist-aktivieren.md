@@ -45,12 +45,14 @@ Auf Bedrock heißt die frühere „Whitelist" seit Version **1.18.10** **Allowli
 
 ## Spieler zur Allowlist hinzufügen
 
+Du kannst Spieler über die **Server-Konsole** in der Verwaltung oder als Spieler mit [OP-Rechten](op-rechte-vergeben.md) direkt im **Ingame-Chat** hinzufügen.
+
 :::: warning Achtung
-In der Konsole müssen alle Befehle ohne `/` eingegeben werden!
+In der Server-Konsole werden Befehle **ohne** `/` eingegeben, im Ingame-Chat **mit** `/`.
 ::::
 
-1. <b>Konsole öffnen</b><br>
-   Navigiere in der Verwaltung zur Server-Konsole unter dem Menüpunkt „Übersicht".
+1. <b>Konsole oder Chat öffnen</b><br>
+   Öffne die Server-Konsole in der Verwaltung, oder öffne als Operator den Ingame-Chat auf dem Server.
 
 2. <b>Spieler hinzufügen</b><br>
    Gib folgenden Befehl ein und ersetze `<Name>` durch den Namen des Spielers:
@@ -58,6 +60,8 @@ In der Konsole müssen alle Befehle ohne `/` eingegeben werden!
    ```
    allowlist add <Name>
    ```
+
+   Im Ingame-Chat mit vorangestelltem Schrägstrich: `/allowlist add <Name>`.
 
 3. <b>Allowlist überprüfen</b><br>
    Ab jetzt haben nur Spieler auf der Allowlist Zugang zum Server. Verbinde dich testweise mit einem Account, der nicht auf der Allowlist steht — die Verbindung sollte abgewiesen werden.

@@ -45,12 +45,14 @@ On Bedrock the former "whitelist" has been called the **allowlist** since versio
 
 ## Add a player to the allowlist
 
+You can add players via the **server console** in the dashboard, or as a player with [OP rights](grant-op-rights.md) directly in the **in-game chat**.
+
 :::: warning Caution
-In the console, all commands must be entered without `/`!
+In the server console, commands are entered **without** `/`; in the in-game chat **with** `/`.
 ::::
 
-1. <b>Open the console</b><br>
-   In the dashboard, navigate to the server console under the "Overview" menu item.
+1. <b>Open the console or chat</b><br>
+   Open the server console in the dashboard, or open the in-game chat as an operator on the server.
 
 2. <b>Add the player</b><br>
    Enter the following command and replace `<name>` with the player's name:
@@ -58,6 +60,8 @@ In the console, all commands must be entered without `/`!
    ```
    allowlist add <name>
    ```
+
+   In the in-game chat with a leading slash: `/allowlist add <name>`.
 
 3. <b>Check the allowlist</b><br>
    From now on only players on the allowlist can join the server. Try connecting with an account that is not on the allowlist — the connection should be rejected.
