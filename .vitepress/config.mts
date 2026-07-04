@@ -415,6 +415,7 @@ export default defineConfig({
                 link: '/gameserver/minecraft-bedrock-edition',
                 collapsed: true,
                 items: [
+                  { text: 'Allowlist aktivieren', link: '/gameserver/minecraft-bedrock-edition/allowlist-aktivieren' },
                   { text: 'Backup erstellen', link: '/gameserver/minecraft-bedrock-edition/backup-erstellen' },
                   { text: 'Behavior und Resource Packs hinzufügen', link: '/gameserver/minecraft-bedrock-edition/behavior-und-resource-packs-hinzufuegen' },
                   { text: 'End deaktivieren', link: '/gameserver/minecraft-bedrock-edition/end-deaktivieren' },
@@ -429,7 +430,6 @@ export default defineConfig({
                   { text: 'Welt-Grenze ändern', link: '/gameserver/minecraft-bedrock-edition/welt-grenze-aendern' },
                   { text: 'Welt Hochladen', link: '/gameserver/minecraft-bedrock-edition/welt-hochladen' },
                   { text: 'Welt Löschen', link: '/gameserver/minecraft-bedrock-edition/welt-loeschen' },
-                  { text: 'Whitelist aktivieren', link: '/gameserver/minecraft-bedrock-edition/whitelist-aktivieren' },
                   { text: 'World-Seed ändern', link: '/gameserver/minecraft-bedrock-edition/world-seed-aendern' },
                   {
                     text: 'Befehle',
@@ -1335,7 +1335,7 @@ export default defineConfig({
                   { text: 'Disable End', link: '/en/gameserver/minecraft-bedrock-edition/disable-end' },
                   { text: 'Disable Locator Bar', link: '/en/gameserver/minecraft-bedrock-edition/disable-locator-bar' },
                   { text: 'Disable Nether', link: '/en/gameserver/minecraft-bedrock-edition/disable-nether' },
-                  { text: 'Enable Whitelist', link: '/en/gameserver/minecraft-bedrock-edition/enable-whitelist' },
+                  { text: 'Enable Allowlist', link: '/en/gameserver/minecraft-bedrock-edition/enable-allowlist' },
                   { text: 'Grant OP Rights', link: '/en/gameserver/minecraft-bedrock-edition/grant-op-rights' },
                   { text: 'Increase Slots', link: '/en/gameserver/minecraft-bedrock-edition/increase-slots' },
                   { text: 'Join Server', link: '/en/gameserver/minecraft-bedrock-edition/join-server' },
