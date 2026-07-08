@@ -33,7 +33,7 @@ Stoppe deinen Server, bevor du die Konfigurationsdatei bearbeitest. Ein laufende
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server oder nutze den Datei-Browser in der Verwaltung.
 
 3. <b>Konfigurationsdatei öffnen</b><br>
-   Öffne im Ordner deiner Welt (typischerweise unter `Saves/<Weltname>/`) die Datei `Sandbox_config.sbc`.
+   Öffne im Ordner deiner Welt `Saves/World/` die Datei `Sandbox_config.sbc`.
 
 4. <b>Mod-Liste einfügen</b><br>
    Suche nach dem `<Mods>`-Block (bei einer neuen Welt steht dort `<Mods />`) und trage pro Mod einen `<ModItem>` ein. Ersetze `123456789` durch die jeweilige Workshop-ID:
@@ -66,7 +66,7 @@ Skripte für **Programmierbare Blöcke** sind keine Mods und werden nicht in die
 ::::
 
 :::: warning Mods fehlen nach einem Neustart?
-Space Engineers führt die Mod-Liste zusätzlich in der Server-Konfiguration `SpaceEngineers-Dedicated.cfg`. Stelle sicher, dass dort deine Welt geladen wird und dass derselbe `<Mods>`-Block auch dort eingetragen ist — andernfalls kann eine leere Liste die Mods beim Neustart wieder entfernen.
+Öffne bei gestopptem Server erneut `Saves/World/Sandbox_config.sbc` und prüfe, ob dein `<Mods>`-Block noch vorhanden ist. Trage die Mods andernfalls erneut ein und starte den Server neu.
 ::::
 
 :::: danger Wichtig

@@ -667,6 +667,7 @@ export default defineConfig({
                 link: '/gameserver/space-engineers',
                 collapsed: true,
                 items: [
+                  { text: 'Admins hinzufügen', link: '/gameserver/space-engineers/admins-hinzufuegen' },
                   { text: 'Automatische Backups aktivieren', link: '/gameserver/space-engineers/automatische-backups-aktivieren' },
                   { text: 'Experimental Modus aktivieren', link: '/gameserver/space-engineers/experimental-modus-aktivieren' },
                   { text: 'Game Mode ändern', link: '/gameserver/space-engineers/game-mode-aendern' },
@@ -674,8 +675,12 @@ export default defineConfig({
                   { text: 'Maximale Spieler ändern', link: '/gameserver/space-engineers/max-spieler-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/space-engineers/mods-hinzufuegen' },
                   { text: 'Remote API aktivieren', link: '/gameserver/space-engineers/remote-api-aktivieren' },
+                  { text: 'Server beitreten', link: '/gameserver/space-engineers/server-beitreten' },
                   { text: 'Server Beschreibung ändern', link: '/gameserver/space-engineers/server-beschreibung-aendern' },
-                  { text: 'Server Name ändern', link: '/gameserver/space-engineers/server-name-aendern' }
+                  { text: 'Server Name ändern', link: '/gameserver/space-engineers/server-name-aendern' },
+                  { text: 'Server Passwort setzen', link: '/gameserver/space-engineers/server-passwort-setzen' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/space-engineers/spieler-kicken-bannen' },
+                  { text: 'Welt hochladen', link: '/gameserver/space-engineers/welt-hochladen' }
                 ]
               },
               {
@@ -1590,6 +1595,7 @@ export default defineConfig({
                 link: '/en/gameserver/space-engineers',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admins', link: '/en/gameserver/space-engineers/add-admins' },
                   { text: 'Add Mods', link: '/en/gameserver/space-engineers/add-mods' },
                   { text: 'Change Game Mode', link: '/en/gameserver/space-engineers/change-game-mode' },
                   { text: 'Change Max Players', link: '/en/gameserver/space-engineers/change-max-players' },
@@ -1598,7 +1604,11 @@ export default defineConfig({
                   { text: 'Configure Automatic Backups', link: '/en/gameserver/space-engineers/configure-automatic-backups' },
                   { text: 'Enable Experimental Mode', link: '/en/gameserver/space-engineers/enable-experimental-mode' },
                   { text: 'Enable In-Game Scripts', link: '/en/gameserver/space-engineers/enable-ingame-scripts' },
-                  { text: 'Enable Remote API', link: '/en/gameserver/space-engineers/enable-remote-api' }
+                  { text: 'Enable Remote API', link: '/en/gameserver/space-engineers/enable-remote-api' },
+                  { text: 'Join Server', link: '/en/gameserver/space-engineers/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/space-engineers/kick-ban-players' },
+                  { text: 'Set Server Password', link: '/en/gameserver/space-engineers/set-server-password' },
+                  { text: 'Upload World', link: '/en/gameserver/space-engineers/upload-world' }
                 ]
               },
               {

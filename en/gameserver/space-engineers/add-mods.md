@@ -33,7 +33,7 @@ Stop your server before editing the config file. A running server can overwrite 
    Connect to your server via [SFTP](../establish-sftp-connection.md), or use the file browser in the dashboard.
 
 3. <b>Open the config file</b><br>
-   In your world folder (typically under `Saves/<WorldName>/`) open the file `Sandbox_config.sbc`.
+   In your world folder `Saves/World/` open the file `Sandbox_config.sbc`.
 
 4. <b>Insert the mod list</b><br>
    Look for the `<Mods>` block (on a new world it reads `<Mods />`) and add one `<ModItem>` per mod. Replace `123456789` with the respective Workshop ID:
@@ -66,7 +66,7 @@ Scripts for **Programmable Blocks** are not mods and are not added to the mod li
 ::::
 
 :::: warning Mods missing after a restart?
-Space Engineers also keeps the mod list in the server config `SpaceEngineers-Dedicated.cfg`. Make sure it loads your world and that the same `<Mods>` block is present there too — otherwise an empty list can remove the mods again on restart.
+With the server stopped, open `Saves/World/Sandbox_config.sbc` again and check that your `<Mods>` block is still present. If not, re-add the mods and restart the server.
 ::::
 
 :::: danger Important
