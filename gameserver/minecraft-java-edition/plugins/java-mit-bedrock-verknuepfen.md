@@ -4,140 +4,101 @@ description: Crossplay auf einem Minecraft Java Edition Server aktivieren
 
 # So aktivierst du Bedrock-Crossplay auf einem Minecraft Java Server
 
-:::: tip Tipp
-Manche Paper-Server unterstützen standardmäßig kein Java 17. Füge in diesem Fall folgende Startup-Flag hinzu, um die Abfrage zu umgehen: -DPaper.IgnoreJavaVersion=true
+Mit den Plugins **GeyserMC** und **Floodgate** können Spieler der Minecraft Bedrock Edition (Smartphone, Konsole, Windows) auf deinem Java-Server mitspielen — auch ohne Java-Account.
+
+:::: warning Achtung
+GeyserMC benötigt einen **eigenen Port**. Verwende **nicht** den Standard-Port deines Servers!
 ::::
 
-## Anforderungen
+## Schritt 1: Plugins installieren
 
-### Allgemeine Anforderungen
-
-1. Einen Minecraft Java Edition Server ab Version 1.16.5.
-
-2. Java 17 oder neuer.
-
-### Benötigte Plugins
-
-1. [GeyserMC](https://geysermc.org/download?project=geyser)
-
-2. [Floodgate](https://geysermc.org/download?project=floodgate)
-
-3. [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/)
-
-4. [ViaBackwards](https://www.spigotmc.org/resources/viabackwards.27448/)
-
-## Schritt 1: Plugins hochladen
-
-:::: info Info
-Falls Du den Ordner ```plugins``` nicht siehst, starte Deinen Server einmal, damit der Ordner erstellt wird.
-::::
-
-1. <b>Datei-Browser öffnen</b><br>
-   Öffne Dein Dashboard, wähle Deinen Server aus und gehe zum Datei-Browser **oder** verbinde Dich per SFTP mit Deinem Server. Eine Anleitung hierzu findest du hier: [SFTP-Verbindung herstellen](/gameserver/sftp-verbindung-herstellen.md).
-
-   <img src="/assets/gameserver/minecraft-java-edition/geysermc/1.png" />
+1. <b>Plugins herunterladen</b><br>
+   Lade die **Spigot**-Version von [GeyserMC](https://geysermc.org/download?project=geyser) und [Floodgate](https://geysermc.org/download?project=floodgate) herunter.
 
 2. <b>Plugins hochladen</b><br>
-   Lade die Plugins in den Ordner ```plugins``` hoch.
+   Lade beide Dateien in den Ordner `plugins` hoch. Falls du den Ordner nicht siehst, starte deinen Server einmal, damit er erstellt wird.
 
 3. <b>Server neu starten</b><br>
-   Starte Deinen Server neu, damit die Plugins geladen werden.
+   Starte deinen Server neu, damit die Config-Dateien erstellt werden.
 
-## Schritt 2: GeyserMC konfigurieren
-
-1. <b>Ordner öffnen</b><br>
-   Gehe im ```plugins```-Ordner in den ```Geyser-spigot```-Ordner.
-
-2. <b>Config öffnen</b><br>
-   Öffne die Datei ```config.yml```.
-
-3. <b>Eintrag suchen</b><br>
-   Suche nach folgendem Eintrag:
-
-   ```
-   clone-remote-port: false
-   ```
-
-4. <b>Wert ändern</b><br>
-   Ändere den Wert auf ```true```.
-
-:::: tip Tipp
-Um Spielern eine bessere Spielerfahrung zu bieten, kannst Du folgende Optionen setzen:
-
-- ```command-suggestions``` auf ```false```
-- ```show-cooldown``` auf ```actionbar```
+:::: info Hinweis
+Läuft dein Server **nicht** auf der aktuellen Minecraft-Version, installiere zusätzlich [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/), damit neuere Bedrock-Clients beitreten können.
 ::::
 
-5. <b>Auth-Type suchen</b><br>
-   Suche nach folgendem Eintrag:
+## Schritt 2: Port freischalten
 
-   ```
-   auth-type
-   ```
+1. <b>Netzwerk öffnen</b><br>
+   Öffne den Abschnitt "Netzwerk" in deiner Verwaltung. Dort findest du eine Übersicht aller verfügbaren Ports.
 
-6. <b>Wert ändern</b><br>
-   Ändere den Wert auf ```floodgate```.
+2. <b>Port auswählen</b><br>
+   Wähle einen freien Port aus und notiere ihn dir.
 
-7. <b>Änderungen speichern</b><br>
-   Speichere die Datei.
-
-## Schritt 3: Floodgate konfigurieren
-
-1. <b>Ordner öffnen</b><br>
-   Gehe im ```plugins```-Ordner in den ```Floodgate```-Ordner.
-
-2. <b>Key herunterladen</b><br>
-   Lade die Datei ```key.pem``` herunter oder kopiere sie.
-
-3. <b>Key einfügen</b><br>
-   Füge die Datei ```key.pem``` im ```Geyser-spigot```-Ordner ein.
-
-:::: tip Tipp
-Um den Prefix von Bedrock-Spielern im Chat zu ändern, öffne die ```Config.yml``` im Floodgate-Ordner und ändere die Zeile: username-prefix: "_". Trage in die Anführungszeichen deinen gewünschten Prefix ein. Lass einen Prefix bestehen, sonst kann es zu Problemen mit gleichen Spielernamen kommen.
+:::: warning Wichtig
+Verwende **nicht** den Standard-Port deines Servers! Nutzt du weitere Plugins mit eigenem Port (z.B. [Simple Voice Chat](simple-voice-chat-einrichten.md)), benötigt jedes seinen eigenen Port.
 ::::
+
+## Schritt 3: GeyserMC konfigurieren
+
+1. <b>Config öffnen</b><br>
+   Öffne im Datei-Browser die Datei `plugins/Geyser-Spigot/config.yml`.
+
+2. <b>Port eintragen</b><br>
+   Suche im Abschnitt `bedrock:` die Zeile `port:` und trage deinen gewählten Port aus Schritt 2 ein:
+
+   ```yaml
+   bedrock:
+     port: DEIN_PORT
+   ```
+
+3. <b>Auth-Type prüfen</b><br>
+   Suche im Abschnitt `java:` die Zeile `auth-type:` und stelle sicher, dass sie auf `floodgate` steht:
+
+   ```yaml
+   java:
+     auth-type: floodgate
+   ```
 
 4. <b>Änderungen speichern</b><br>
    Speichere die Datei.
 
-## Schritt 4: Chatnachrichten von Bedrock-Spielern erlauben
+:::: tip Tipp
+Die übrigen Einstellungen kannst du auf den Standardwerten belassen — `address: 0.0.0.0` und `clone-remote-port: false` sind bereits korrekt.
+::::
+
+## Schritt 4: Chat für Bedrock-Spieler erlauben
 
 1. <b>Datei öffnen</b><br>
-   Öffne die Datei ```server.properties```.
+   Öffne die Datei `server.properties`.
 
-2. <b>Eintrag suchen</b><br>
-   Suche nach folgendem Eintrag:
-
-   ```
-   enforce-secure-profile=true
-   ```
-
-3. <b>Wert ändern</b><br>
-   Ändere den Wert auf ```false```.
-
-4. <b>Änderungen speichern</b><br>
-   Speichere die Datei.
-
-## Schritt 5: Fertigstellen & Testen
-
-1. <b>Server neu starten</b><br>
-   Starte den Server neu, damit alle Änderungen aktiv werden.
-
-2. <b>Bedrock starten</b><br>
-   Starte Minecraft Bedrock Edition.
-
-3. <b>Server-Tab öffnen</b><br>
-   Klicke auf „Spielen" und gehe in den Reiter „Server".
-
-4. <b>Server hinzufügen</b><br>
-   Klicke auf „Server hinzufügen" und trage die Daten Deines Servers ein:
+2. <b>Eintrag ändern</b><br>
+   Suche nach `enforce-secure-profile=true` und ändere den Wert auf `false` — andernfalls können Bedrock-Spieler nicht chatten:
 
    ```
-   Servername    # Dein gewünschter Name
-   Serveradresse    # Deine Server-IP
-   Port    # Dein Server-Port
+   enforce-secure-profile=false
    ```
 
-   <img src="/assets/gameserver/minecraft-java-edition/geysermc/2.png" />
+3. <b>Server neu starten</b><br>
+   Speichere die Datei und starte deinen Server neu, damit alle Änderungen aktiv werden.
 
-5. <b>Verbinden</b><br>
-   Klicke auf „Server hinzufügen" und verbinde Dich.
+## Schritt 5: Mit Bedrock verbinden
+
+1. <b>Server hinzufügen</b><br>
+   Starte Minecraft Bedrock Edition, klicke auf **Spielen**, wechsle in den Reiter **Server** und wähle **Server hinzufügen**.
+
+2. <b>Verbindungsdaten eintragen</b><br>
+   Trage als **Serveradresse** die IP-Adresse deines Servers ein und ersetze den vorausgefüllten Port `19132` durch **deinen gewählten Port** aus Schritt 2.
+
+3. <b>Verbinden</b><br>
+   Speichere den Server und verbinde dich.
+
+:::: info Hinweis
+Bedrock-Spieler erscheinen auf dem Server standardmäßig mit einem `.` vor dem Namen — so kommt es nicht zu Konflikten mit Java-Accounts.
+::::
+
+:::: tip Verbindung testen
+In der Server-Konsole kannst du mit `geyser connectiontest <Server-IP> <Port>` prüfen, ob dein Bedrock-Port erreichbar ist.
+::::
+
+:::: warning Hinweis für bestehende Setups
+Nach älteren Anleitungen wurde die Datei `key.pem` aus dem Floodgate-Ordner in den Geyser-Ordner kopiert. Das ist **nicht mehr nötig** — lösche eine dort vorhandene Kopie, da sie zu Verbindungsfehlern führen kann.
+::::
