@@ -27,10 +27,10 @@ Stelle sicher, dass dein Server gestoppt ist, bevor du die Config-Datei bearbeit
    Suche den Parameter `PalEggDefaultHatchingTime` und passe den Wert an:
 
    ```
-   PalEggDefaultHatchingTime=72.000000
+   PalEggDefaultHatchingTime=1.000000
    ```
 
-   Der Wert ist in **Stunden** angegeben.
+   Der Wert ist in **Stunden** angegeben und gilt für das größte Ei (Huge Egg) — kleinere Eier schlüpfen entsprechend schneller.
 
 5. <b>Server starten</b><br>
    Starte deinen Server.
@@ -40,6 +40,10 @@ Stelle sicher, dass dein Server gestoppt ist, bevor du die Config-Datei bearbeit
 | Wert | Beschreibung |
 |------|-------------|
 | `0` | Sofortiges Ausbrüten |
-| `1.0` | 1 Stunde |
+| `1.0` | 1 Stunde (Standard) |
 | `24.0` | 1 Tag |
-| `72.0` | 3 Tage (Standard) |
+| `72.0` | 3 Tage |
+
+:::: info Hinweis
+Seit dem 1.0-Release ist der Standardwert `1` Stunde. Auf Servern, die vor 1.0 erstellt wurden, gilt weiterhin der in der Config eingetragene Wert (früherer Standard: `72`).
+::::

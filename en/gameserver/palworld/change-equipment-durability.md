@@ -24,10 +24,10 @@ Make sure your server is stopped before editing the config file. Changes to the 
    ```
 
 4. <b>Adjust durability</b><br>
-   Find the parameter `BuildObjectDeteriorationDamageRate` and adjust the value:
+   Find the parameter `EquipmentDurabilityDamageRate` and adjust the value:
 
    ```
-   BuildObjectDeteriorationDamageRate=1.000000
+   EquipmentDurabilityDamageRate=1.000000
    ```
 
 5. <b>Start the server</b><br>

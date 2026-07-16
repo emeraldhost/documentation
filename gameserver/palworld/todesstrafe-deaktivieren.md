@@ -43,5 +43,5 @@ Stelle sicher, dass dein Server gestoppt ist, bevor du die Config-Datei bearbeit
 | `All` | Alles verlieren (Items, Ausrüstung und Pals) |
 
 :::: info Hinweis
-Der Standardwert ist `All`.
+Seit dem 1.0-Release ist der Standardwert `Item` — die Server-Standardwerte wurden an den Normal-Schwierigkeitsgrad des Einzelspielermodus angeglichen. Auf Servern, die vor 1.0 erstellt wurden, gilt weiterhin der in der Config eingetragene Wert (früherer Standard: `All`).
 ::::

@@ -24,8 +24,12 @@ You need admin rights to use this command. See [Add Admin](add-admin.md).
 
    Replace `<MessageText>` with the desired text.
 
+:::: warning Caution
+The message is cut off at the first **space** — of `Server will restart` only `Server` would be sent. Use underscores instead.
+::::
+
 :::: tip Example
 ```
-/Broadcast Server will restart in 10 minutes!
+/Broadcast Server_restart_in_10_minutes!
 ```
 ::::

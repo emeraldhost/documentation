@@ -43,5 +43,5 @@ Make sure your server is stopped before editing the config file. Changes to the 
 | `All` | Lose everything (items, equipment, and Pals) |
 
 :::: info Note
-The default value is `All`.
+As of the 1.0 release, the default value is `Item` — the server defaults were aligned with the single-player Normal difficulty. Servers created before 1.0 keep the value set in their config (previous default: `All`).
 ::::

@@ -36,7 +36,15 @@ Der Spieler wird dauerhaft vom Server ausgeschlossen.
 
 ## Spieler entbannen
 
-Es gibt keinen Ingame-Befehl zum Entbannen. Du musst die Banliste manuell bearbeiten:
+```
+/UnBanPlayer <SteamID>
+```
+
+Die SteamID des Spielers findest du in der `banlist.txt` oder über eine zuvor notierte `/ShowPlayers`-Ausgabe.
+
+### Alternativ: Banliste manuell bearbeiten
+
+Falls gerade kein Admin online ist, kannst du die Banliste auch direkt bearbeiten:
 
 1. <b>Server stoppen</b><br>
    Stoppe deinen Server über die Verwaltung.
@@ -64,3 +72,4 @@ Es gibt keinen Ingame-Befehl zum Entbannen. Du musst die Banliste manuell bearbe
 | `/ShowPlayers` | Spielerliste anzeigen |
 | `/KickPlayer <SteamID>` | Spieler kicken |
 | `/BanPlayer <SteamID>` | Spieler bannen |
+| `/UnBanPlayer <SteamID>` | Spieler entbannen |

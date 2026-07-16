@@ -36,7 +36,15 @@ The player is permanently banned from the server.
 
 ## Unban a player
 
-There is no in-game command for unbanning. You need to edit the ban list manually:
+```
+/UnBanPlayer <SteamID>
+```
+
+You can find the player's SteamID in the `banlist.txt` or from a previously noted `/ShowPlayers` output.
+
+### Alternative: edit the ban list manually
+
+If no admin is currently online, you can also edit the ban list directly:
 
 1. <b>Stop the server</b><br>
    Stop your server via the dashboard.
@@ -64,3 +72,4 @@ There is no in-game command for unbanning. You need to edit the ban list manuall
 | `/ShowPlayers` | Show player list |
 | `/KickPlayer <SteamID>` | Kick a player |
 | `/BanPlayer <SteamID>` | Ban a player |
+| `/UnBanPlayer <SteamID>` | Unban a player |

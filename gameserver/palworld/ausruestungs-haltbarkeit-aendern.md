@@ -24,10 +24,10 @@ Stelle sicher, dass dein Server gestoppt ist, bevor du die Config-Datei bearbeit
    ```
 
 4. <b>Haltbarkeit anpassen</b><br>
-   Suche den Parameter `BuildObjectDeteriorationDamageRate` und passe den Wert an:
+   Suche den Parameter `EquipmentDurabilityDamageRate` und passe den Wert an:
 
    ```
-   BuildObjectDeteriorationDamageRate=1.000000
+   EquipmentDurabilityDamageRate=1.000000
    ```
 
 5. <b>Server starten</b><br>

@@ -24,8 +24,12 @@ Du benötigst Admin-Rechte, um diesen Befehl nutzen zu können. Siehe [Admin hin
 
    Ersetze `<Nachricht>` durch den gewünschten Text.
 
+:::: warning Achtung
+Die Nachricht wird beim ersten **Leerzeichen** abgeschnitten — von `Server wird neugestartet` käme nur `Server` an. Verwende stattdessen Unterstriche.
+::::
+
 :::: tip Beispiel
 ```
-/Broadcast Server wird in 10 Minuten neugestartet!
+/Broadcast Server_Neustart_in_10_Minuten!
 ```
 ::::

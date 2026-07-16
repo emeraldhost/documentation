@@ -27,10 +27,10 @@ Make sure your server is stopped before editing the config file. Changes to the 
    Find the parameter `PalEggDefaultHatchingTime` and adjust the value:
 
    ```
-   PalEggDefaultHatchingTime=72.000000
+   PalEggDefaultHatchingTime=1.000000
    ```
 
-   The value is in **hours**.
+   The value is in **hours** and applies to the largest egg (Huge Egg) — smaller eggs hatch correspondingly faster.
 
 5. <b>Start the server</b><br>
    Start your server.
@@ -40,6 +40,10 @@ Make sure your server is stopped before editing the config file. Changes to the 
 | Value | Description |
 |-------|-------------|
 | `0` | Instant hatching |
-| `1.0` | 1 hour |
+| `1.0` | 1 hour (default) |
 | `24.0` | 1 day |
-| `72.0` | 3 days (default) |
+| `72.0` | 3 days |
+
+:::: info Note
+As of the 1.0 release, the default value is `1` hour. Servers created before 1.0 keep the value set in their config (previous default: `72`).
+::::
