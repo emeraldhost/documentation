@@ -4,32 +4,37 @@ description: Schritt-für-Schritt-Anleitung, wie du den World-Seed auf deinem Mi
 
 # So änderst du den World-Seed auf deinem Minecraft Bedrock Server
 
+Der World-Seed legt fest, wie die Welt generiert wird. Er wirkt sich **nur auf neu generierte Welten** aus — du musst deine bestehende Welt daher vorher löschen.
+
 :::: danger Achtung
-Erstelle vorher ein Backup Deines Servers, da die aktuelle Welt durch das Ändern des World-Seeds verloren gehen kann.
+Deine aktuelle Welt geht dabei unwiderruflich verloren. Erstelle vorher ein [Backup](backup-erstellen.md), falls du sie später noch benötigst.
 ::::
 
-1. <b>Server auswählen</b><br>
-   Öffne Dein Dashboard und wähle Deinen Minecraft Bedrock Edition Server aus.
+1. <b>Server stoppen</b><br>
+   Stoppe deinen Server über die Verwaltung.
 
 2. <b>Datei-Browser öffnen</b><br>
-   Gehe zum Datei-Browser.
+   Öffne den Datei-Browser oder verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
 
-3. <b>Datei öffnen</b><br>
-   Öffne die Datei `server.properties`.
+3. <b>Seed eintragen</b><br>
+   Öffne die Datei `server.properties`, suche den Eintrag `level-seed=` und trage den gewünschten Seed ein:
 
-4. <b>Eintrag suchen</b><br>
-   Suche den folgenden Eintrag:
+   ```
+   level-seed=1111132940
+   ```
 
-    ```
-    level-seed=
-    ```
+   Speichere die Datei anschließend.
 
-5. <b>Seed eintragen</b><br>
-   Füge an dieser Stelle den gewünschten World-Seed ein (z.B. `level-seed=1111132940`).
+4. <b>Alte Welt löschen</b><br>
+   Wechsle in den Ordner `worlds` und lösche dort den Ordner `Bedrock level`. Ohne diesen Schritt lädt der Server einfach deine alte Welt weiter und der neue Seed bleibt wirkungslos.
 
-6. <b>Server neustarten</b><br>
-   Speichere die Datei und starte den Server neu, damit der neue World-Seed wirksam wird.
+   :::: info Hinweis
+   Hast du in der `server.properties` unter `level-name` einen eigenen Weltnamen eingetragen, heißt der Ordner entsprechend anders.
+   ::::
+
+5. <b>Server starten</b><br>
+   Starte deinen Server. Die Welt wird nun mit deinem neuen Seed erzeugt.
 
 :::: tip Tipp
-Du kannst den aktuellen World-Seed einer bestehenden Welt herausfinden, indem Du den Befehl `/seed` im Spiel eingibst.
+Den Seed einer bestehenden Welt findest du heraus, indem du im Spiel den Befehl `/seed` eingibst. Lässt du `level-seed=` leer, generiert der Server einen zufälligen Seed.
 ::::
