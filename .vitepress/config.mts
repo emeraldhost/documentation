@@ -899,7 +899,8 @@ export default defineConfig({
                   { text: 'Minecraft Server', link: '/domains/dns-eintraege/minecraft-server' },
                   { text: 'TeamSpeak Server', link: '/domains/dns-eintraege/teamspeak-server' }
                 ]
-              }
+              },
+              { text: 'NIS2 – Inhaberverifizierung', link: '/domains/nis2-inhaberverifizierung' }
             ]
           },
           {
@@ -1827,7 +1828,8 @@ export default defineConfig({
                   { text: 'Minecraft Server', link: '/en/domains/dns-records/minecraft-server' },
                   { text: 'TeamSpeak Server', link: '/en/domains/dns-records/teamspeak-server' }
                 ]
-              }
+              },
+              { text: 'NIS2 – Domain Owner Verification', link: '/en/domains/nis2-domain-verification' }
             ]
           },
           {
