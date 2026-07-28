@@ -44,14 +44,16 @@ Check in advance whether the email address stored for your domain is still up to
    Open the mailbox of the email address stored as the owner contact for your domain (e.g. `deine-email@example.de`).
 
 2. <b>Find the email</b><br>
-   Look for the verification email from `do-not-reply@domain-robot.org`. The subject line contains your domain and — depending on the language setting — looks roughly like this:
+   Look for the verification email from `do-not-reply@domain-robot.org`. The subject line can vary and may appear in English or German — for example:
 
    ```
    deine-domain.de - Owner Verification
    deine-domain.de - Inhaber-Verifizierung
+   Action required – Domain owner verification
+   Handlungsbedarf – Verifizierung des Domaininhabers
    ```
 
-   Also check your **spam** or **junk folder** — such messages often end up there.
+   It is therefore best to search by **sender** rather than by subject. Also check your **spam** or **junk folder** — such messages often end up there.
 
 3. <b>Verify authenticity</b><br>
    Make sure the email is genuine. You will find the characteristics in the section [How do I know the email is genuine?](#how-do-i-know-the-email-is-genuine).
@@ -74,7 +76,7 @@ Because such emails are often mistaken for phishing, here are the key characteri
 
 - **The sender is `do-not-reply@domain-robot.org`.**
 - **The link points to `domain-robot.org`.** This is the system of our registrar InterNetX. Hover over the link (without clicking) to see the target in your email program.
-- **Your specific domain is named** — already in the subject line (e.g. `deine-domain.de`).
+- **Your specific domain is named** (e.g. `deine-domain.de`) — depending on the subject line variant, only inside the email itself.
 - **Payment details are never requested** — no credit card, bank details or PayPal access.
 - **You are never asked for a password** — neither your EmeraldHost password nor any other credentials.
 - **There is no file attachment** for you to open.

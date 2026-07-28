@@ -44,14 +44,16 @@ Prüfe vorab, ob die bei deiner Domain hinterlegte E-Mail-Adresse noch aktuell u
    Öffne das Postfach der E-Mail-Adresse, die als Inhaberkontakt deiner Domain hinterlegt ist (z.B. `deine-email@example.de`).
 
 2. <b>E-Mail suchen</b><br>
-   Suche nach der Verifizierungs-E-Mail von `do-not-reply@domain-robot.org`. Der Betreff enthält deine Domain und sieht — je nach Spracheinstellung — in etwa so aus:
+   Suche nach der Verifizierungs-E-Mail von `do-not-reply@domain-robot.org`. Der Betreff kann unterschiedlich ausfallen — zum Beispiel:
 
    ```
    deine-domain.de - Inhaber-Verifizierung
    deine-domain.de - Owner Verification
+   Handlungsbedarf – Verifizierung des Domaininhabers
+   Action required – Domain owner verification
    ```
 
-   Sieh auch im **Spam-** bzw. **Junk-Ordner** nach — dort landen solche Nachrichten häufig.
+   Suche deshalb am besten nach dem **Absender** statt nach dem Betreff. Sieh auch im **Spam-** bzw. **Junk-Ordner** nach — dort landen solche Nachrichten häufig.
 
 3. <b>Echtheit prüfen</b><br>
    Vergewissere dich, dass die E-Mail echt ist. Die Merkmale dafür findest du im Abschnitt [Woran erkenne ich, dass die Mail echt ist?](#woran-erkenne-ich-dass-die-mail-echt-ist).
@@ -74,7 +76,7 @@ Weil solche E-Mails oft für Phishing gehalten werden, hier die wichtigsten Merk
 
 - **Als Absender steht `do-not-reply@domain-robot.org`.**
 - **Der Link verweist auf `domain-robot.org`.** Das ist das System unseres Registrars InterNetX. Fahre mit der Maus über den Link (ohne zu klicken), um das Ziel in deinem E-Mail-Programm anzuzeigen.
-- **Deine konkrete Domain wird genannt** — bereits im Betreff (z.B. `deine-domain.de`).
+- **Deine konkrete Domain wird genannt** (z.B. `deine-domain.de`) — je nach Betreff-Variante erst in der E-Mail selbst.
 - **Es werden niemals Zahlungsdaten abgefragt** — weder Kreditkarte, noch Bankverbindung oder PayPal-Zugang.
 - **Es wird niemals nach einem Passwort gefragt** — weder nach deinem EmeraldHost-Passwort noch nach einem anderen Zugang.
 - **Es hängt keine Datei an**, die du öffnen sollst.
