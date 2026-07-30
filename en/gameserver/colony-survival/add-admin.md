@@ -132,7 +132,7 @@ Once you are in the group `god` yourself, you can grant all further permissions 
 | `/colony addowner <player>` · `/colony removeowner <player>` | Manages the co-owners of a colony |
 
 :::: info Note
-Admin commands are always entered in the in-game chat. The chat opens with `T`, or directly with `/`.
+Admin commands are always entered in the in-game chat. The chat opens with `T` and closes with `Esc`.
 ::::
 
 ## Create custom permission groups

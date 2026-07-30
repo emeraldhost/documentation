@@ -132,7 +132,7 @@ Sobald du selbst in der Gruppe `god` bist, vergibst du alle weiteren Rechte bequ
 | `/colony addowner <Spieler>` · `/colony removeowner <Spieler>` | Verwaltet die Mitbesitzer einer Kolonie |
 
 :::: info Hinweis
-Adminbefehle gibst du immer im Chat im Spiel ein. Der Chat öffnet sich mit `T`, alternativ direkt mit `/`.
+Adminbefehle gibst du immer im Chat im Spiel ein. Der Chat öffnet sich mit `T` und schließt sich mit `Esc`.
 ::::
 
 ## Eigene Rechtegruppen anlegen

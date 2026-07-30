@@ -93,5 +93,5 @@ Als `<Spieler>` funktionieren sowohl der Spielername als auch die SteamID64. Ist
 ::::
 
 :::: info Hinweis
-Manche Hoster bieten zusätzlich eine Blacklist-Datei zum Bearbeiten an, in die eine SteamID64 pro Zeile eingetragen wird. Ob und wo es diese Datei gibt, ist von Version und Hoster abhängig – der zuverlässige Weg sind die Befehle im Spiel.
+Der Server speichert Blacklist und Whitelist als Dateien im Savegame-Verzeichnis. Wie diese Dateien genau heißen und aufgebaut sind, hängt von der Spielversion ab – pflege die Listen deshalb über die Befehle im Chat und nicht direkt in der Datei.
 ::::

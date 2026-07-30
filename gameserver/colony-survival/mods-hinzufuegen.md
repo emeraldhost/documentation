@@ -12,7 +12,7 @@ Stoppe deinen Server, bevor du Mods hinzufügst, änderst oder entfernst. Erstel
 
 ## Mod herunterladen
 
-Auf einem gemieteten Server kannst du Workshop-Mods nicht automatisch herunterladen lassen: Dafür wäre ein Steam-Konto nötig, das Colony Survival besitzt. Du lädst die Mod-Dateien deshalb auf deinem PC herunter und überträgst sie per SFTP.
+Dein Server hat keine Workshop-Anbindung, über die er Mods selbst herunterlädt. Du lädst die Mod-Dateien deshalb auf deinem PC herunter und überträgst sie anschließend per SFTP.
 
 1. <b>Mod im Workshop abonnieren</b><br>
    Abonniere den gewünschten Mod im Steam-Workshop von Colony Survival und starte das Spiel einmal, damit Steam die Dateien herunterlädt.
@@ -49,7 +49,7 @@ Wird ein Mod außerhalb des Workshops angeboten, lade ihn dort herunter und entp
    ```
 
    :::: info Hinweis
-   Existiert der Ordner noch nicht, lege ihn an. Im Auslieferungszustand liegt dort bereits das Beispiel `ExampleTexturePack` – daran siehst du, wie ein Mod-Ordner aufgebaut ist.
+   Im Auslieferungszustand liegt dort bereits das mitgelieferte Beispiel `ExampleTexturePack` – daran siehst du, wie ein Mod-Ordner aufgebaut ist. Fehlt das Verzeichnis, lege es an.
    ::::
 
 4. <b>Mod hochladen</b><br>
@@ -84,6 +84,7 @@ Hochgeladene Mods sind noch nicht aktiv. Aktiviert werden sie pro Welt in der Da
      "ModConfigEntries": [
        {
          "ModName": "ExampleTexturePack",
+         "ModVersionLastKnown": "---",
          "Enabled": true
        }
      ]
@@ -91,7 +92,7 @@ Hochgeladene Mods sind noch nicht aktiv. Aktiviert werden sie pro Welt in der Da
    ```
 
    :::: info Hinweis
-   Ändere nur den Abschnitt `ModConfigEntries` und lass die übrigen Werte der Datei unverändert. Den Namen des Mods findest du in seiner `modInfo.json`. Bei Workshop-Mods können die Einträge zusätzliche Felder wie `WorkshopID` enthalten – lösche diese nicht.
+   Ändere nur den Abschnitt `ModConfigEntries` und lass die übrigen Werte der Datei unverändert. Der Wert von `ModName` muss exakt dem Feld `name` aus der `modInfo.json` des Mods entsprechen. `"ModVersionLastKnown": "---"` trägt der Server selbst ein, wenn er einen Mod zum ersten Mal sieht – schreibst du den Eintrag von Hand, übernimmst du diesen Wert. Bei Workshop-Mods kommt zusätzlich das Feld `WorkshopID` dazu – lösche es nicht.
    ::::
 
 3. <b>Server starten</b><br>

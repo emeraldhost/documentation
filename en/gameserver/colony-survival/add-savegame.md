@@ -26,7 +26,7 @@ The folder name has to match the value you enter in the **World Name** field in 
 | `permissiongroups.json` | Optional: custom permission groups for this world |
 
 :::: info Note
-If the world comes from a version older than 0.16, it may contain a `regions/` folder and a `settings_readonly.json` file instead of `world.sqlite3`. In that case upload the complete folder as well.
+If the world comes from an older game version, it may still contain a `regions/` folder and a `settings_readonly.json` file instead of `world.sqlite3`. In that case upload the complete folder as well – the server converts the world while loading it. Very old worlds (from before version 0.9) can no longer be loaded.
 ::::
 
 ## Upload the savegame

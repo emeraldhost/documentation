@@ -93,5 +93,5 @@ Both the player name and the SteamID64 work as `<player>`. If a player is curren
 ::::
 
 :::: info Note
-Some hosts additionally offer a blacklist file for editing, which takes one SteamID64 per line. Whether and where that file exists depends on the version and the host – the reliable way are the in-game commands.
+The server stores the blacklist and the whitelist as files in the savegame directory. Their exact names and structure depend on the game version – so maintain the lists through the in-game commands rather than editing the files directly.
 ::::

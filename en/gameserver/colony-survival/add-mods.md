@@ -12,7 +12,7 @@ Stop your server before adding, changing or removing mods. Also create a [backup
 
 ## Download the mod
 
-On a rented server you cannot let Workshop mods download automatically: that would require a Steam account that owns Colony Survival. Instead you download the mod files on your PC and transfer them via SFTP.
+Your server has no Workshop integration that downloads mods on its own. So you download the mod files on your PC and then transfer them via SFTP.
 
 1. <b>Subscribe to the mod in the Workshop</b><br>
    Subscribe to the mod you want in the Colony Survival Steam Workshop and start the game once so Steam downloads the files.
@@ -49,7 +49,7 @@ If a mod is offered outside the Workshop, download it there and extract the arch
    ```
 
    :::: info Note
-   If the folder does not exist yet, create it. Out of the box it already contains the example `ExampleTexturePack` – it shows you how a mod folder is structured.
+   Out of the box it already contains the bundled example `ExampleTexturePack` – it shows you how a mod folder is structured. If the directory is missing, create it.
    ::::
 
 4. <b>Upload the mod</b><br>
@@ -84,6 +84,7 @@ Uploaded mods are not active yet. They are enabled per world in the file `worldc
      "ModConfigEntries": [
        {
          "ModName": "ExampleTexturePack",
+         "ModVersionLastKnown": "---",
          "Enabled": true
        }
      ]
@@ -91,7 +92,7 @@ Uploaded mods are not active yet. They are enabled per world in the file `worldc
    ```
 
    :::: info Note
-   Only change the `ModConfigEntries` section and leave the other values of the file untouched. You can find the name of the mod in its `modInfo.json`. For Workshop mods the entries may contain additional fields such as `WorkshopID` – do not delete those.
+   Only change the `ModConfigEntries` section and leave the other values of the file untouched. The value of `ModName` has to match the `name` field from the `modInfo.json` of the mod exactly. `"ModVersionLastKnown": "---"` is what the server itself writes when it sees a mod for the first time – if you write the entry by hand, use that value. For Workshop mods the field `WorkshopID` is added as well – do not delete it.
    ::::
 
 3. <b>Start the server</b><br>
