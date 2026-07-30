@@ -21,7 +21,7 @@ You can find the IP address and the **Game Port** of your server in the **dashbo
    Select **Multiplayer** in the main menu.
 
 3. <b>Choose your character</b><br>
-   Select the character you want to join the server with, or create a new one.
+   If Craftopia asks for a character, select the one you want to join the server with, or create a new one.
 
 4. <b>Select Join via IP</b><br>
    Click on **Join via IP**.
