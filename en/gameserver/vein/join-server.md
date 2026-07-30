@@ -7,7 +7,7 @@ description: Join a VEIN server
 ## Find connection details
 
 :::: warning Important
-To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the game port!
+To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the Game Port!
 ::::
 
 ## Via Steam server browser

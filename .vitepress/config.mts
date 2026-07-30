@@ -690,6 +690,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'SCUM',
+                link: '/gameserver/scum',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/scum/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/scum/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/scum/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/scum/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/scum/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/scum/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Satisfactory',
                 link: '/gameserver/satisfactory',
                 collapsed: true,
@@ -710,7 +723,8 @@ export default defineConfig({
                   { text: 'Backup erstellen', link: '/gameserver/sons-of-the-forest/backup-erstellen' },
                   { text: 'Savegame herunterladen', link: '/gameserver/sons-of-the-forest/savegame-herunterladen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/sons-of-the-forest/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/sons-of-the-forest/server-beitreten' }
+                  { text: 'Server beitreten', link: '/gameserver/sons-of-the-forest/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/sons-of-the-forest/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -1712,6 +1726,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'SCUM',
+                link: '/en/gameserver/scum',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/scum/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/scum/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/scum/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/scum/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/scum/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/scum/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Satisfactory',
                 link: '/en/gameserver/satisfactory',
                 collapsed: true,
@@ -1732,7 +1759,8 @@ export default defineConfig({
                   { text: 'Add Savegame', link: '/en/gameserver/sons-of-the-forest/add-savegame' },
                   { text: 'Create Backup', link: '/en/gameserver/sons-of-the-forest/create-backup' },
                   { text: 'Download Savegame', link: '/en/gameserver/sons-of-the-forest/download-savegame' },
-                  { text: 'Join Server', link: '/en/gameserver/sons-of-the-forest/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/sons-of-the-forest/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/sons-of-the-forest/kick-ban-players' }
                 ]
               },
               {

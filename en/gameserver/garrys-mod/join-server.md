@@ -72,7 +72,7 @@ You can find the **IP address** and the **port** of your server in the **dashboa
    ::::
 
 :::: warning Caution
-Always enter the **game port** of your server. Port `27005` is the local client port of your game and must not be used as a server address.
+Always enter the **Game Port** of your server. Port `27005` is the local client port of your game and must not be used as a server address.
 ::::
 
 :::: info Server not showing up in the public server list?

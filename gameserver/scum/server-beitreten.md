@@ -4,7 +4,7 @@ description: Einem SCUM Server beitreten
 
 # So trittst du deinem SCUM Server bei
 
-SCUM verwendet zum Verbinden **nicht den Gameport**, sondern den Query-Port. Dieser liegt immer **zwei Ports über** dem Gameport deines Servers. Das ist der häufigste Grund, warum ein Beitritt scheitert.
+SCUM verwendet zum Verbinden **nicht den Game Port**, sondern den Query-Port. Dieser liegt immer **zwei Ports über** dem Game Port deines Servers. Das ist der häufigste Grund, warum ein Beitritt scheitert.
 
 ## Verbindungsdaten finden
 
@@ -13,7 +13,7 @@ Für die Verbindung benötigst du die **IP-Adresse** und den **Port** deines Ser
 ::::
 
 :::: tip Beispiel
-| Angezeigter Port (Gameport) | Port zum Verbinden |
+| Angezeigter Port (Game Port) | Port zum Verbinden |
 |-----------------------------|--------------------|
 | `7777` | `7779` |
 | `7000` | `7002` |
@@ -38,7 +38,7 @@ Die Direktverbindung ist der zuverlässigste Weg auf deinen Server.
    ```
 
    :::: warning Achtung
-   Denk daran, hier den Gameport **+2** einzutragen. Der unveränderte Port aus der Verwaltung funktioniert nicht.
+   Denk daran, hier den Game Port **+2** einzutragen. Der unveränderte Port aus der Verwaltung funktioniert nicht.
    ::::
 
 4. <b>Verbinden</b><br>
@@ -75,14 +75,14 @@ Du kannst deinen Server auch dauerhaft in Steam hinterlegen:
 ## Welche Ports nutzt SCUM?
 
 :::: info Hinweis
-Ein SCUM-Server belegt mehrere aufeinanderfolgende Ports. Ausgehend vom Gameport (im Beispiel `7777`) sieht die Aufteilung so aus:
+Ein SCUM-Server belegt mehrere aufeinanderfolgende Ports. Ausgehend vom Game Port (im Beispiel `7777`) sieht die Aufteilung so aus:
 
 | Port | Protokoll | Verwendung |
 |------|-----------|------------|
-| `7777` | UDP | Gameport |
+| `7777` | UDP | Game Port |
 | `7778` | UDP | Raw-UDP |
 | `7779` | UDP | Query-Port – hierüber verbinden sich Spieler und der Steam-Serverbrowser |
 | `7777` | TCP | RCON |
 
-Deshalb trägst du im Spiel immer den Gameport **+2** ein.
+Deshalb trägst du im Spiel immer den Game Port **+2** ein.
 ::::

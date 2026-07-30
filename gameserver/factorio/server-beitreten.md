@@ -40,7 +40,7 @@ Für die Verbindung benötigst du die **IP-Adresse** und den **Port** deines Ser
 Ist dein Server öffentlich gelistet, kannst du ihn auch über **Multiplayer** → **Browse public games** suchen und beitreten.
 
 :::: info Hinweis
-Damit dein Server dort erscheint, benötigst du gültige factorio.com-Zugangsdaten. Trage sie in der Verwaltung unter **Einstellungen** in den Feldern **Server Username** und **Server Token** ein. Der Token ist sicherer als das Passwort und lässt sich auf factorio.com in deinem Profil abrufen.
+Damit dein Server dort erscheint, benötigst du gültige factorio.com-Zugangsdaten. Trage sie in der Verwaltung unter **Einstellungen** in den Feldern **Server Benutzername** und **Server Token** ein. Der Token ist sicherer als das Passwort und lässt sich auf factorio.com in deinem Profil abrufen.
 
 Zusätzlich muss in der Datei `data/server-settings.json` die Sichtbarkeit auf öffentlich stehen. Die Datei bearbeitest du per [SFTP](../sftp-verbindung-herstellen.md):
 
@@ -55,7 +55,7 @@ Starte deinen Server anschließend neu.
 ::::
 
 :::: warning Achtung
-Trage `username` und `token` nicht direkt in der Datei `data/server-settings.json` ein. Beide Werte werden bei jedem Serverstart aus den Feldern **Server Username** und **Server Token** der Verwaltung überschrieben.
+Trage `username` und `token` nicht direkt in der Datei `data/server-settings.json` ein. Beide Werte werden bei jedem Serverstart aus den Feldern **Server Benutzername** und **Server Token** der Verwaltung überschrieben.
 ::::
 
 :::: danger Wichtig

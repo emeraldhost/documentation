@@ -9,7 +9,7 @@ There are two ways to join your server: through the in-game server browser or th
 ## Find connection details
 
 :::: warning Important
-For a direct connection you need the **IP address** and the **game port** of your server. You can find both in the dashboard of your server. The ports `master_server_port` and `authentication_port` from the `[STEAM]` section of the `server.ini` file are internal Steam ports and are **not** used to connect.
+For a direct connection you need the **IP address** and the **Game Port** of your server. You can find both in the dashboard of your server. The ports `master_server_port` and `authentication_port` from the `[STEAM]` section of the `server.ini` file are internal Steam ports and are **not** used to connect.
 ::::
 
 ## Via the in-game server browser
@@ -39,7 +39,7 @@ After a start it can take up to 10 minutes for your server to appear in the serv
    Press `~` to open the console.
 
 3. <b>Enter the connect command</b><br>
-   Enter the command with the IP address and the game port of your server and confirm with Enter:
+   Enter the command with the IP address and the Game Port of your server and confirm with Enter:
 
    ```
    c_connect("123.45.67.89", 10999)

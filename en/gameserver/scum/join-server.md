@@ -4,7 +4,7 @@ description: Join a SCUM server
 
 # How to Join Your SCUM Server
 
-To connect, SCUM does **not** use the game port but the query port. That port is always **two ports above** the game port of your server. This is the most common reason why joining fails.
+To connect, SCUM does **not** use the Game Port but the query port. That port is always **two ports above** the Game Port of your server. This is the most common reason why joining fails.
 
 ## Find connection details
 
@@ -13,7 +13,7 @@ To connect you need the **IP address** and the **port** of your server. You can 
 ::::
 
 :::: tip Example
-| Displayed port (game port) | Port used to connect |
+| Displayed port (Game Port) | Port used to connect |
 |----------------------------|----------------------|
 | `7777` | `7779` |
 | `7000` | `7002` |
@@ -38,7 +38,7 @@ A direct connection is the most reliable way onto your server.
    ```
 
    :::: warning Warning
-   Remember to enter the game port **+2** here. The unchanged port from the dashboard will not work.
+   Remember to enter the Game Port **+2** here. The unchanged port from the dashboard will not work.
    ::::
 
 4. <b>Connect</b><br>
@@ -75,7 +75,7 @@ You can also store your server permanently in Steam:
 ## Which ports does SCUM use?
 
 :::: info Note
-A SCUM server occupies several consecutive ports. Starting from the game port (`7777` in this example) they are used as follows:
+A SCUM server occupies several consecutive ports. Starting from the Game Port (`7777` in this example) they are used as follows:
 
 | Port | Protocol | Purpose |
 |------|----------|---------|
@@ -84,5 +84,5 @@ A SCUM server occupies several consecutive ports. Starting from the game port (`
 | `7779` | UDP | Query port – players and the Steam server browser connect through this one |
 | `7777` | TCP | RCON |
 
-That is why you always enter the game port **+2** in the game.
+That is why you always enter the Game Port **+2** in the game.
 ::::

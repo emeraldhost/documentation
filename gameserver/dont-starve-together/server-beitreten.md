@@ -9,7 +9,7 @@ Du kannst deinem Server auf zwei Wegen beitreten: über die Serversuche im Spiel
 ## Verbindungsdaten finden
 
 :::: warning Wichtig
-Für die Direktverbindung benötigst du die **IP-Adresse** und den **Gameport** deines Servers. Beide findest du in der Verwaltung deines Servers. Die Ports `master_server_port` und `authentication_port` aus dem Abschnitt `[STEAM]` der Datei `server.ini` sind interne Steam-Ports und werden **nicht** für die Verbindung verwendet.
+Für die Direktverbindung benötigst du die **IP-Adresse** und den **Game Port** deines Servers. Beide findest du in der Verwaltung deines Servers. Die Ports `master_server_port` und `authentication_port` aus dem Abschnitt `[STEAM]` der Datei `server.ini` sind interne Steam-Ports und werden **nicht** für die Verbindung verwendet.
 ::::
 
 ## Über die Serversuche im Spiel
@@ -39,7 +39,7 @@ Nach einem Start kann es bis zu 10 Minuten dauern, bis dein Server in der Server
    Drücke `~`, um die Konsole zu öffnen.
 
 3. <b>Verbindungsbefehl eingeben</b><br>
-   Gib den Befehl mit der IP-Adresse und dem Gameport deines Servers ein und bestätige mit Enter:
+   Gib den Befehl mit der IP-Adresse und dem Game Port deines Servers ein und bestätige mit Enter:
 
    ```
    c_connect("123.45.67.89", 10999)

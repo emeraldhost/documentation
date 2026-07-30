@@ -9,7 +9,7 @@ You can join your server directly via its IP address or search for it in the ing
 ## Find connection details
 
 :::: warning Important
-For the direct connection you need the **IP address** and the **game port** (default `8766`) of your server. The **query port** (default `27016`) is only used for Steam server queries – do not use it for the direct connection. You can find both values in the dashboard of your server.
+You can find the **IP address** and the ports of your server in the **dashboard**. For the direct connection you need the **Game Port**, and for adding the server in the Steam server browser you need the **Query Port**. Always use the values shown there – the ports are assigned to your server and may differ from the game's default ports.
 ::::
 
 ## Via direct connection
@@ -24,7 +24,7 @@ For the direct connection you need the **IP address** and the **game port** (def
    Click on **Direct** at the bottom.
 
 4. <b>Enter server address</b><br>
-   Enter the IP address and the **game port** of your server.
+   Enter the IP address and the **Game Port** of your server.
 
    :::: tip Example
    ```
@@ -64,7 +64,7 @@ For the direct connection you need the **IP address** and the **game port** (def
    Switch to the **Favorites** tab and click **Add a server**.
 
 4. <b>Enter server address</b><br>
-   Enter the IP address and the **query port** of your server.
+   Enter the IP address and the **Query Port** of your server.
 
    :::: tip Example
    ```

@@ -74,7 +74,7 @@ For a cluster you need **two Soulmask servers** — one for each map. All player
    Replace `IP:Port` with the IP address of the main server and the **Game Port + 4**.
 
    :::: tip Example
-   If the main server's game port is `8778`:
+   If the main server's Game Port is `8778`:
    ```
    -clientserverconnect=123.45.67.89:8782
    ```

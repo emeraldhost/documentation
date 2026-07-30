@@ -9,7 +9,7 @@ Du kannst deinem Server direkt über die IP-Adresse beitreten oder ihn im Server
 ## Verbindungsdaten finden
 
 :::: warning Wichtig
-Für die Direktverbindung benötigst du die **IP-Adresse** und den **Gameport** (Standard `8766`) deines Servers. Der **Query Port** (Standard `27016`) wird ausschließlich für die Steam-Serverabfrage verwendet – trage ihn nicht in die Direktverbindung ein. Beide Werte findest du in der Verwaltung deines Servers.
+Die **IP-Adresse** und die Ports deines Servers findest du in der **Verwaltung**. Für die Direktverbindung benötigst du den **Game Port**, für den Eintrag im Steam-Server-Browser den **Query Port**. Verwende immer die dort angezeigten Werte – die Ports werden deinem Server fest zugewiesen und können von den Standard-Ports des Spiels abweichen.
 ::::
 
 ## Über die Direktverbindung
@@ -24,7 +24,7 @@ Für die Direktverbindung benötigst du die **IP-Adresse** und den **Gameport** 
    Klicke unten auf **Direct**.
 
 4. <b>Serveradresse eingeben</b><br>
-   Gib die IP-Adresse und den **Gameport** deines Servers ein.
+   Gib die IP-Adresse und den **Game Port** deines Servers ein.
 
    :::: tip Beispiel
    ```

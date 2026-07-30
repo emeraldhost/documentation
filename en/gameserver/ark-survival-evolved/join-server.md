@@ -7,7 +7,7 @@ description: Join an ARK Survival Evolved server
 ## Find connection details
 
 :::: warning Important
-To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the game port!
+To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the Game Port!
 ::::
 
 ## Via Steam server browser
@@ -78,5 +78,5 @@ To connect you need the **IP address** and the **Query Port** of your server. Yo
    ::::
 
 :::: info Note
-For the in-game console, you must use the **game port** (not the Query Port).
+For the in-game console, you must use the **Game Port** (not the Query Port).
 ::::

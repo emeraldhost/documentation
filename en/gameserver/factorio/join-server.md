@@ -40,7 +40,7 @@ To connect you need the **IP address** and the **port** of your server. You can 
 If your server is listed publicly, you can also find and join it via **Multiplayer** → **Browse public games**.
 
 :::: info Note
-For your server to appear there, you need valid factorio.com credentials. Enter them in the dashboard under **Settings** in the fields **Server Username** and **Server Token**. The token is safer than the password and can be retrieved from your profile on factorio.com.
+For your server to appear there, you need valid factorio.com credentials. Enter them in the dashboard under **Settings** in the fields **Server Benutzername** and **Server Token**. The token is safer than the password and can be retrieved from your profile on factorio.com.
 
 In addition, the visibility must be set to public in the file `data/server-settings.json`. You can edit the file via [SFTP](../establish-sftp-connection.md):
 
@@ -55,7 +55,7 @@ Afterwards, restart your server.
 ::::
 
 :::: warning Warning
-Do not enter `username` and `token` directly in the file `data/server-settings.json`. Both values are overwritten on every server start from the **Server Username** and **Server Token** fields in the dashboard.
+Do not enter `username` and `token` directly in the file `data/server-settings.json`. Both values are overwritten on every server start from the **Server Benutzername** and **Server Token** fields in the dashboard.
 ::::
 
 :::: danger Important

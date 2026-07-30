@@ -7,7 +7,7 @@ description: Join an Enshrouded server and find the password
 ## Find connection details
 
 :::: warning Important
-To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the game port!
+To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the Game Port!
 ::::
 
 The server address is: `IP address:Query Port` (e.g. `123.45.67.89:15637`)

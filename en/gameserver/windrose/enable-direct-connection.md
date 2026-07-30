@@ -22,7 +22,7 @@ With the `UseDirectConnection` option, players can connect directly via IP addre
 4. <b>Adjust UseDirectConnection</b><br>
    Set `UseDirectConnection` to `true` and adjust the following fields:
    - `DirectConnectionServerAddress` — the host IP of your server
-   - `DirectConnectionServerPort` — the default game port of your server (we already set this by default)
+   - `DirectConnectionServerPort` — the default Game Port of your server (we already set this by default)
    - `DirectConnectionProxyAddress` — stays at `0.0.0.0`
 
    ```

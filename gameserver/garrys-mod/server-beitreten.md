@@ -72,7 +72,7 @@ Die **IP-Adresse** und den **Port** deines Servers findest du in der **Verwaltun
    ::::
 
 :::: warning Achtung
-Trage immer den **Gameport** deines Servers ein. Der Port `27005` ist der lokale Client-Port deines Spiels und darf nicht als Serveradresse verwendet werden.
+Trage immer den **Game Port** deines Servers ein. Der Port `27005` ist der lokale Client-Port deines Spiels und darf nicht als Serveradresse verwendet werden.
 ::::
 
 :::: info Server erscheint nicht in der öffentlichen Serverliste?
