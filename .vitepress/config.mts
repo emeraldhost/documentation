@@ -271,6 +271,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Don’t Starve Together',
+                link: '/gameserver/dont-starve-together',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/dont-starve-together/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/dont-starve-together/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/dont-starve-together/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/dont-starve-together/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/dont-starve-together/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/dont-starve-together/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/dont-starve-together/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Enshrouded',
                 link: '/gameserver/enshrouded',
                 collapsed: true,
@@ -284,6 +298,20 @@ export default defineConfig({
                   { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' },
                   { text: 'Server Passwort ändern', link: '/gameserver/enshrouded/server-passwort-aendern' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/enshrouded/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Don’t Starve Together',
+                link: '/gameserver/dont-starve-together',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/dont-starve-together/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/dont-starve-together/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/dont-starve-together/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/dont-starve-together/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/dont-starve-together/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/dont-starve-together/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/dont-starve-together/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -318,6 +346,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Factorio',
+                link: '/gameserver/factorio',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/factorio/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/factorio/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/factorio/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/factorio/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/factorio/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/factorio/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/factorio/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'FiveM',
                 link: '/gameserver/fivem',
                 collapsed: true,
@@ -343,6 +385,18 @@ export default defineConfig({
                   { text: 'Serverliste aktivieren', link: '/gameserver/foundry/serverliste-aktivieren' },
                   { text: 'Welt Name ändern', link: '/gameserver/foundry/welt-name-aendern' },
                   { text: 'Welt Seed ändern', link: '/gameserver/foundry/welt-seed-aendern' }
+                ]
+              },
+              {
+                text: 'Garry\'s Mod',
+                link: '/gameserver/garrys-mod',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/garrys-mod/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/garrys-mod/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/garrys-mod/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/garrys-mod/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/garrys-mod/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -655,6 +709,18 @@ export default defineConfig({
                   { text: 'Max Spieler ändern', link: '/gameserver/satisfactory/max-spieler-aendern' },
                   { text: 'Server Name ändern', link: '/gameserver/satisfactory/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/satisfactory/server-passwort-setzen' }
+                ]
+              },
+              {
+                text: 'Sons Of The Forest',
+                link: '/gameserver/sons-of-the-forest',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/sons-of-the-forest/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/sons-of-the-forest/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/sons-of-the-forest/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/sons-of-the-forest/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/sons-of-the-forest/server-beitreten' }
                 ]
               },
               {
@@ -1228,6 +1294,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Don’t Starve Together',
+                link: '/en/gameserver/dont-starve-together',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/dont-starve-together/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/dont-starve-together/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/dont-starve-together/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/dont-starve-together/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/dont-starve-together/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/dont-starve-together/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/dont-starve-together/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Enshrouded',
                 link: '/en/gameserver/enshrouded',
                 collapsed: true,
@@ -1241,6 +1321,20 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/enshrouded/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/enshrouded/kick-ban-players' },
                   { text: 'Performance Problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' }
+                ]
+              },
+              {
+                text: 'Don’t Starve Together',
+                link: '/en/gameserver/dont-starve-together',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/dont-starve-together/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/dont-starve-together/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/dont-starve-together/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/dont-starve-together/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/dont-starve-together/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/dont-starve-together/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/dont-starve-together/kick-ban-players' }
                 ]
               },
               {
@@ -1275,6 +1369,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Factorio',
+                link: '/en/gameserver/factorio',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/factorio/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/factorio/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/factorio/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/factorio/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/factorio/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/factorio/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/factorio/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'FiveM',
                 link: '/en/gameserver/fivem',
                 collapsed: true,
@@ -1300,6 +1408,18 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/foundry/join-server' },
                   { text: 'Pause Server When Empty', link: '/en/gameserver/foundry/pause-server-when-empty' },
                   { text: 'Set Server Password', link: '/en/gameserver/foundry/set-server-password' }
+                ]
+              },
+              {
+                text: 'Garry\'s Mod',
+                link: '/en/gameserver/garrys-mod',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/garrys-mod/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/garrys-mod/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/garrys-mod/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/garrys-mod/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/garrys-mod/kick-ban-players' }
                 ]
               },
               {
@@ -1609,6 +1729,18 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/satisfactory/create-backup' },
                   { text: 'Set Admin Password', link: '/en/gameserver/satisfactory/set-admin-password' },
                   { text: 'Set Server Password', link: '/en/gameserver/satisfactory/set-server-password' }
+                ]
+              },
+              {
+                text: 'Sons Of The Forest',
+                link: '/en/gameserver/sons-of-the-forest',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/sons-of-the-forest/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/sons-of-the-forest/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/sons-of-the-forest/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/sons-of-the-forest/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/sons-of-the-forest/join-server' }
                 ]
               },
               {
