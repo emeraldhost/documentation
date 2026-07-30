@@ -232,6 +232,32 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Black Mesa',
+                link: '/gameserver/black-mesa',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/black-mesa/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/black-mesa/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/black-mesa/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/black-mesa/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/black-mesa/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Colony Survival',
+                link: '/gameserver/colony-survival',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/colony-survival/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/colony-survival/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/colony-survival/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/colony-survival/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/colony-survival/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/colony-survival/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/colony-survival/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Conan Exiles',
                 link: '/gameserver/conan-exiles',
                 collapsed: true,
@@ -567,6 +593,32 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Kerbal Space Program',
+                link: '/gameserver/kerbal-space-program',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/kerbal-space-program/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/kerbal-space-program/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/kerbal-space-program/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/kerbal-space-program/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/kerbal-space-program/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/kerbal-space-program/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/kerbal-space-program/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Left 4 Dead',
+                link: '/gameserver/left-4-dead',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/left-4-dead/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/left-4-dead/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/left-4-dead/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/left-4-dead/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/left-4-dead/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Left 4 Dead 2',
                 link: '/gameserver/left-4-dead-2',
                 collapsed: true,
@@ -576,6 +628,33 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/left-4-dead-2/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/left-4-dead-2/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/left-4-dead-2/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Longvinter',
+                link: '/gameserver/longvinter',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/longvinter/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/longvinter/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/longvinter/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/longvinter/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/longvinter/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/longvinter/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Mindustry',
+                link: '/gameserver/mindustry',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/mindustry/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/mindustry/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/mindustry/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/mindustry/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/mindustry/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/mindustry/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/mindustry/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -608,6 +687,20 @@ export default defineConfig({
                       { text: 'Tp-Befehl verwenden', link: '/gameserver/minecraft-bedrock-edition/befehle/tp-befehl-verwenden' }
                     ]
                   }
+                ]
+              },
+              {
+                text: 'Minecraft Endstone Edition',
+                link: '/gameserver/minecraft-endstone-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/minecraft-endstone-edition/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/minecraft-endstone-edition/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/minecraft-endstone-edition/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/minecraft-endstone-edition/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/minecraft-endstone-edition/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/minecraft-endstone-edition/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/minecraft-endstone-edition/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -734,6 +827,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'No More Room in Hell',
+                link: '/gameserver/no-more-room-in-hell',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/no-more-room-in-hell/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/no-more-room-in-hell/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/no-more-room-in-hell/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/no-more-room-in-hell/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/no-more-room-in-hell/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Palworld',
                 link: '/gameserver/palworld',
                 collapsed: true,
@@ -770,6 +875,19 @@ export default defineConfig({
                   { text: 'Todesstrafe deaktivieren', link: '/gameserver/palworld/todesstrafe-deaktivieren' },
                   { text: 'Welt zurücksetzen', link: '/gameserver/palworld/welt-zuruecksetzen' },
                   { text: 'XP-Rate ändern', link: '/gameserver/palworld/xp-rate-aendern' }
+                ]
+              },
+              {
+                text: 'PixARK',
+                link: '/gameserver/pixark',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/pixark/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/pixark/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/pixark/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/pixark/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/pixark/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/pixark/server-beitreten' }
                 ]
               },
               {
@@ -1527,6 +1645,32 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Black Mesa',
+                link: '/en/gameserver/black-mesa',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/black-mesa/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/black-mesa/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/black-mesa/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/black-mesa/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/black-mesa/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Colony Survival',
+                link: '/en/gameserver/colony-survival',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/colony-survival/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/colony-survival/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/colony-survival/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/colony-survival/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/colony-survival/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/colony-survival/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/colony-survival/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Conan Exiles',
                 link: '/en/gameserver/conan-exiles',
                 collapsed: true,
@@ -1862,6 +2006,32 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Kerbal Space Program',
+                link: '/en/gameserver/kerbal-space-program',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/kerbal-space-program/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/kerbal-space-program/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/kerbal-space-program/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/kerbal-space-program/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/kerbal-space-program/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/kerbal-space-program/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/kerbal-space-program/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Left 4 Dead',
+                link: '/en/gameserver/left-4-dead',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/left-4-dead/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/left-4-dead/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/left-4-dead/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/left-4-dead/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/left-4-dead/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Left 4 Dead 2',
                 link: '/en/gameserver/left-4-dead-2',
                 collapsed: true,
@@ -1871,6 +2041,33 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/left-4-dead-2/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/left-4-dead-2/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/left-4-dead-2/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Longvinter',
+                link: '/en/gameserver/longvinter',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/longvinter/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/longvinter/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/longvinter/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/longvinter/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/longvinter/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/longvinter/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Mindustry',
+                link: '/en/gameserver/mindustry',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/mindustry/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/mindustry/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/mindustry/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/mindustry/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/mindustry/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/mindustry/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/mindustry/kick-ban-players' }
                 ]
               },
               {
@@ -1903,6 +2100,20 @@ export default defineConfig({
                       { text: 'Use Tp Command', link: '/en/gameserver/minecraft-bedrock-edition/commands/use-tp-command' }
                     ]
                   }
+                ]
+              },
+              {
+                text: 'Minecraft Endstone Edition',
+                link: '/en/gameserver/minecraft-endstone-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/minecraft-endstone-edition/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/minecraft-endstone-edition/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/minecraft-endstone-edition/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/minecraft-endstone-edition/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/minecraft-endstone-edition/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/minecraft-endstone-edition/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/minecraft-endstone-edition/kick-ban-players' }
                 ]
               },
               {
@@ -2026,6 +2237,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'No More Room in Hell',
+                link: '/en/gameserver/no-more-room-in-hell',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/no-more-room-in-hell/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/no-more-room-in-hell/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/no-more-room-in-hell/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/no-more-room-in-hell/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/no-more-room-in-hell/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Palworld',
                 link: '/en/gameserver/palworld',
                 collapsed: true,
@@ -2062,6 +2285,19 @@ export default defineConfig({
                   { text: 'Reset World', link: '/en/gameserver/palworld/reset-world' },
                   { text: 'Set Server Password', link: '/en/gameserver/palworld/set-server-password' },
                   { text: 'Add Savegame', link: '/en/gameserver/palworld/upload-savegame' }
+                ]
+              },
+              {
+                text: 'PixARK',
+                link: '/en/gameserver/pixark',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/pixark/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/pixark/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/pixark/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/pixark/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/pixark/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/pixark/join-server' }
                 ]
               },
               {
