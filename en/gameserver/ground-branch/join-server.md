@@ -66,7 +66,7 @@ If a password is set for your server, the dialog **Password required** appears w
 If your server uses mods, the Server Browser notifies you before joining and starts a **mod sync**.
 
 :::: info Note
-The client automatically subscribes to and downloads the required Workshop content — you do not have to look up the mods yourself. Wait for the download to finish and join again afterwards. You can read more under [Add Mods](add-mods.md).
+The client automatically subscribes to and downloads the required Workshop content — you do not have to look up the mods yourself. Wait for the download to finish and join again afterwards. The **Sync Mods** button in the server details also lets you download a server's mods before joining. You can read more under [Add Mods](add-mods.md).
 ::::
 
 ## The server cannot be found

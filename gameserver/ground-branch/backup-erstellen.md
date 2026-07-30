@@ -52,7 +52,7 @@ Möchtest du nur die Servereinstellungen sichern, lädst du den Konfigurationsor
 |-------|--------|
 | `Server.ini` | Allgemeine Servereinstellungen |
 | `Admin.ini` | Admins und Admingruppen – siehe [Admin hinzufügen](admin-hinzufuegen.md) |
-| `Ban.ini` | Banns und Standard-Banndauer |
+| `Ban.ini` | Standard-Banndauer – siehe [Spieler kicken & bannen](spieler-kicken-bannen.md) |
 | `TeamKill.ini` | Automatische Banns bei Teamkills |
 | `Vote.ini` | Regeln für Abstimmungen der Spieler |
 | `MapList.ini` | Kartenliste des Servers |

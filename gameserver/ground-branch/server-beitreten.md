@@ -66,7 +66,7 @@ Ist für deinen Server ein Passwort gesetzt, erscheint beim Beitritt der Dialog 
 Nutzt dein Server Mods, weist der Server Browser dich vor dem Beitritt darauf hin und startet einen **Mod-Sync**.
 
 :::: info Hinweis
-Der Client abonniert und lädt die benötigten Workshop-Inhalte dabei automatisch – du musst die Mods nicht von Hand heraussuchen. Warte den Download ab und tritt anschließend erneut bei. Mehr dazu unter [Mods hinzufügen](mods-hinzufuegen.md).
+Der Client abonniert und lädt die benötigten Workshop-Inhalte dabei automatisch – du musst die Mods nicht von Hand heraussuchen. Warte den Download ab und tritt anschließend erneut bei. Über die Schaltfläche **Sync Mods** in den Serverdetails lädst du die Mods eines Servers auch schon vor dem Beitritt herunter. Mehr dazu unter [Mods hinzufügen](mods-hinzufuegen.md).
 ::::
 
 ## Der Server wird nicht gefunden

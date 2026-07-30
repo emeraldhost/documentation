@@ -91,21 +91,21 @@ The SteamID64 is entered without any additions. The suffix `:0` mentioned in old
 
 ## Admin groups
 
-Which commands a group may use is also defined in the `Admin.ini`. The following groups exist by default:
+Which commands a group may use is also defined in the `Admin.ini`. Every group gets its own `AdminGroups=` line, placed **above** the admins:
 
 ```ini
 AdminGroups=(Name="SuperAdmin",Commands=("all"))
-AdminGroups=(Name="Admin",Commands=("say","kick","ban","kill","changemap","nextmap"))
-AdminGroups=(Name="Moderator",Commands=("kick","ban","changemap","nextmap"))
-AdminGroups=(Name="ElevatedPlayer",Commands=("changemap","nextmap"))
+AdminGroups=(Name="Moderator",Commands=("kick","ban","changemap"))
 ```
 
-| Group | Permissions |
-|-------|-------------|
-| `SuperAdmin` | All commands |
-| `Admin` | Announcements, kick, ban, kill, change map |
-| `Moderator` | Kick, ban, change map |
-| `ElevatedPlayer` | Map changes only |
+| Field | Meaning |
+|-------|---------|
+| `Name` | Name of the group that you enter under `Group` for your admins |
+| `Commands` | List of allowed commands, `"all"` allows every command |
+
+:::: info Note
+An admin in the `SuperAdmin` group may do everything, while an admin in the `Moderator` group in the example above may only kick, ban and change the map. Which commands can be assigned to a group at all is listed in the file `GroundBranch/Config/DefaultZooKeeper.ini`.
+::::
 
 :::: info Note
 Admins can be managed both in the file and in the game through the admin menu. The **groups** themselves can only be created and edited in the `Admin.ini`.
@@ -119,18 +119,27 @@ Once you are an admin, there are three ways to reach the admin menu in the game:
 - The ESC menu and the admin button there
 - The console (`` ` ``) and the command `admin`
 
-In the admin menu you manage players (kick and ban), the map change and map list as well as the server name, MOTD, player count and password.
+In the admin menu you manage players (kick and ban), the map change and map list as well as the admin list itself.
 
 ## Further admin commands
 
 | Command | Description |
 |---------|-------------|
-| `admin setup <password>` | One-time setup of the first admin |
+| `admin setup <password>` | One-time setup of the first admin via the console |
 | `admin` | Opens the admin menu |
-| `admin motd` | Edits the message of the day |
-| `admin resurrect [all]` | Revives a player or all players |
-| `admin resurrectnear [all]` | Revives nearby players (short form: `admin resnear`) |
-| `ServerRestart` | Restarts the server |
+| `kick` | Removes a player from the server, with an optional reason |
+| `ban` | Bans a player temporarily or permanently, with an optional reason |
+| `unban` | Lifts a ban using the player's unique ID |
+| `say` | Sends a message to everyone on the server |
+| `motd` | Shows the message of the day to all players |
+| `changemap` / `nextmap` | Changes the map or jumps to the next map in the map list |
+| `resurrect` (`res`) | Revives a fallen player at the spot where they died |
+| `resurrectnear` (`resnear`) | Revives a fallen player at the nearest living player |
+| `restartserver` | Restarts the server |
+
+:::: info Note
+Which of these commands are available to you depends on your admin group. Only `admin setup <password>` and `admin` are officially documented as console commands; all other commands are used through the admin menu.
+::::
 
 :::: warning No RCON
 Ground Branch does not offer an RCON interface. All administration happens in the game through the admin menu or the in-game console.

@@ -91,21 +91,21 @@ Die SteamID64 wird ohne Zusätze eingetragen. Der in älteren Anleitungen genann
 
 ## Admingruppen
 
-Welche Befehle eine Gruppe nutzen darf, legst du ebenfalls in der `Admin.ini` fest. Standardmäßig sind folgende Gruppen vorhanden:
+Welche Befehle eine Gruppe nutzen darf, legst du ebenfalls in der `Admin.ini` fest. Jede Gruppe bekommt eine eigene `AdminGroups=`-Zeile, die **oberhalb** der Admins steht:
 
 ```ini
 AdminGroups=(Name="SuperAdmin",Commands=("all"))
-AdminGroups=(Name="Admin",Commands=("say","kick","ban","kill","changemap","nextmap"))
-AdminGroups=(Name="Moderator",Commands=("kick","ban","changemap","nextmap"))
-AdminGroups=(Name="ElevatedPlayer",Commands=("changemap","nextmap"))
+AdminGroups=(Name="Moderator",Commands=("kick","ban","changemap"))
 ```
 
-| Gruppe | Rechte |
-|--------|--------|
-| `SuperAdmin` | Alle Befehle |
-| `Admin` | Ansagen, kicken, bannen, töten, Karte wechseln |
-| `Moderator` | Kicken, bannen, Karte wechseln |
-| `ElevatedPlayer` | Nur Kartenwechsel |
+| Feld | Bedeutung |
+|------|-----------|
+| `Name` | Name der Gruppe, den du bei den Admins unter `Group` einträgst |
+| `Commands` | Liste der erlaubten Befehle, `"all"` erlaubt sämtliche Befehle |
+
+:::: info Hinweis
+Ein Admin der Gruppe `SuperAdmin` darf alles, ein Admin der Gruppe `Moderator` im obigen Beispiel nur kicken, bannen und die Karte wechseln. Welche Befehle du einer Gruppe überhaupt zuweisen kannst, listet die Datei `GroundBranch/Config/DefaultZooKeeper.ini` auf.
+::::
 
 :::: info Hinweis
 Admins lassen sich sowohl in der Datei als auch im Spiel über das Adminmenü verwalten. Die **Gruppen** selbst kannst du ausschließlich in der `Admin.ini` anlegen und bearbeiten.
@@ -119,18 +119,27 @@ Sobald du Admin bist, stehen dir im Spiel drei Wege zum Adminmenü offen:
 - ESC-Menü und dort die Admin-Schaltfläche
 - Konsole (`` ` ``) und der Befehl `admin`
 
-Im Adminmenü verwaltest du unter anderem Spieler (kicken und bannen), den Kartenwechsel und die Kartenliste sowie Servername, MOTD, Spielerzahl und Passwort.
+Im Adminmenü verwaltest du unter anderem Spieler (kicken und bannen), den Kartenwechsel und die Kartenliste sowie die Adminliste selbst.
 
 ## Weitere Adminbefehle
 
 | Befehl | Beschreibung |
 |--------|-------------|
-| `admin setup <Passwort>` | Einmalige Einrichtung des ersten Admins |
+| `admin setup <Passwort>` | Einmalige Einrichtung des ersten Admins über die Konsole |
 | `admin` | Öffnet das Adminmenü |
-| `admin motd` | Bearbeitet die Nachricht des Tages |
-| `admin resurrect [all]` | Belebt einen Spieler bzw. alle Spieler wieder |
-| `admin resurrectnear [all]` | Belebt Spieler in der Nähe wieder (Kurzform: `admin resnear`) |
-| `ServerRestart` | Startet den Server neu |
+| `kick` | Entfernt einen Spieler vom Server, optional mit Grund |
+| `ban` | Sperrt einen Spieler befristet oder dauerhaft, optional mit Grund |
+| `unban` | Hebt einen Bann über die eindeutige Spieler-ID wieder auf |
+| `say` | Sendet eine Nachricht an alle Spieler |
+| `motd` | Zeigt allen Spielern die Nachricht des Tages an |
+| `changemap` / `nextmap` | Wechselt die Karte bzw. springt zur nächsten Karte der Kartenliste |
+| `resurrect` (`res`) | Belebt einen gefallenen Spieler an seinem Todesort wieder |
+| `resurrectnear` (`resnear`) | Belebt einen gefallenen Spieler beim nächsten lebenden Spieler wieder |
+| `restartserver` | Startet den Server neu |
+
+:::: info Hinweis
+Welche dieser Befehle dir zur Verfügung stehen, hängt von deiner Admingruppe ab. Für die Konsole offiziell dokumentiert sind `admin setup <Passwort>` und `admin`; alle übrigen Befehle rufst du über das Adminmenü auf.
+::::
 
 :::: warning Kein RCON
 Ground Branch bietet keine RCON-Schnittstelle. Die gesamte Administration läuft im Spiel über das Adminmenü beziehungsweise die Spielkonsole.

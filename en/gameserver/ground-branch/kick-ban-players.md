@@ -22,10 +22,10 @@ You need admin rights with the `kick` and `ban` permissions. See [Add Admin](add
    Pick the player in question from the player list.
 
 4. <b>Choose an action</b><br>
-   Select **Kick** to disconnect the player from the server, or **Ban** to lock them out.
+   Select **Kick** to disconnect the player from the server, or **Ban** to lock them out. In both cases you can optionally state a reason.
 
 5. <b>Confirm the ban duration</b><br>
-   When banning, the server asks you for the duration. It is prefilled with the value from the `Ban.ini`, which you can overwrite.
+   When banning, the server asks you for the duration. It is prefilled with the value from the `Ban.ini`, which you can overwrite. A ban can be temporary or permanent.
 
 :::: info Note
 A kick only disconnects the player — they can rejoin immediately. Only a ban locks them out for the given duration.
@@ -89,8 +89,8 @@ TeamKillExpireTime=30
 | `BanTime` | Duration of the automatic ban in minutes |
 | `TeamKillExpireTime` | Time in minutes after which a single team kill expires again |
 
-:::: info Lift a team kill ban
-To let an automatically banned player back in, stop the server, remove their entries from the `TeamKill.ini` and start the server again.
+:::: info Note
+With the default values a player is banned once they kill three of their own teammates within 30 minutes. Such a ban is lifted with the `unban` command, just like any other ban.
 ::::
 
 ## Configure player votes
@@ -104,32 +104,44 @@ The `Vote.ini` defines what players on your server may vote on — including a k
 ```ini
 [/Script/RBZooKeeper.ZKVote]
 VotingCommands=kick
+VotingCommands=changemap
+VotingCommands=nextmap
+VotingCommands=missionsettings
+VotingCommands=restartround
 ```
 
 | Value | Meaning |
 |-------|---------|
-| `VotingCommands` | Allowed votes: `kick`, `changemap`, `nextmap`, `missionsettings`, `restartround` |
-| `VoteDuration` | Duration of a running vote |
+| `VotingCommands` | One line per allowed vote. Only `kick`, `changemap`, `nextmap`, `missionsettings` and `restartround` are available |
+| `VoteDuration` | Duration of a running vote in seconds |
 | `MinPlayers` | Minimum number of players required for voting |
-| `VoteSucceededTimeout` | Cooldown after a successful vote |
-| `VoteFailedTimeout` | Cooldown after a failed vote |
-| `MapVoteTimeout` | Cooldown between map votes |
+| `VoteSucceededTimeout` | Cooldown in seconds after a successful vote |
+| `VoteFailedTimeout` | Cooldown in seconds after a failed vote |
+| `MapVoteTimeout` | Cooldown in seconds between map votes |
 | `bAllowVotingOffMapList` | Allows voting for maps outside the map list |
 | `PermittedGameModes` | Game modes in which voting is allowed |
 
 :::: warning Warning
-To disable vote kicks entirely, remove `kick` from `VotingCommands`. Otherwise players can throw each other off the server without any admin rights.
+To disable vote kicks entirely, remove the line `VotingCommands=kick`. Otherwise players can throw each other off the server without any admin rights.
+::::
+
+## Lift a ban
+
+Ground Branch has the admin command `unban`. It removes a player from the ban list based on their unique player ID (SteamID64). You use it like the other admin commands through the admin menu — see [Add Admin](add-admin.md).
+
+:::: info Note
+The exact console syntax of `unban` is not officially documented. Note down the SteamID64 of the player before you ban them — without it you cannot lift that specific ban.
+::::
+
+## Whitelist
+
+Ground Branch does have a whitelist — when it is active, only admins and whitelisted players can join. Everyone else gets a message when joining that the server uses a whitelist.
+
+:::: info Note
+You manage the whitelist in the admin menu under **Whitelist**. The file name and format on the server are not officially documented, so maintain it in the game rather than via SFTP.
 ::::
 
 ## What Ground Branch does not offer
-
-:::: warning Lifting a ban
-There is no documented way to lift a regular ban issued through the admin menu. Set the ban duration deliberately and work with shorter periods when in doubt. For automatic team kill bans, the procedure via the `TeamKill.ini` described above works.
-::::
-
-:::: info Whitelist
-Ground Branch does have a whitelist — when it is active, only admins and whitelisted players can join. The file name and format are not officially documented though. If you want to restrict your server to a fixed group of people, a server password is the more reliable route.
-::::
 
 :::: info No RCON
 Ground Branch does not offer an RCON interface. Kicks and bans run exclusively through the in-game admin menu.

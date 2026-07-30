@@ -52,7 +52,7 @@ If you only want to save the server settings, download the configuration folder 
 |------|----------|
 | `Server.ini` | General server settings |
 | `Admin.ini` | Admins and admin groups — see [Add Admin](add-admin.md) |
-| `Ban.ini` | Bans and the default ban duration |
+| `Ban.ini` | Default ban duration — see [Kick & Ban Players](kick-ban-players.md) |
 | `TeamKill.ini` | Automatic bans for team kills |
 | `Vote.ini` | Rules for player votes |
 | `MapList.ini` | Map list of the server |
