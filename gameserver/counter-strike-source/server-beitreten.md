@@ -96,5 +96,5 @@ Alternativ kannst du die Konsole dauerhaft über den Startparameter `-console` a
    ::::
 
 :::: info Server erscheint nicht in der öffentlichen Serverliste?
-Ohne gültigen Steam Game Server Login Token (GSLT) wird dein Server unter Umständen nicht in der öffentlichen Serverliste geführt und nutzt kein VAC. Einen Token erstellst du unter [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) mit der App-ID `240`. Trage ihn anschließend in der **Verwaltung** deines Servers ein und starte den Server neu. Der Server startet damit mit dem Parameter `+sv_setsteamaccount <Token>`. Jeder Server benötigt einen eigenen Token. Die Direktverbindung über IP und Game Port funktioniert auch ohne Token.
+Ohne gültigen Steam Game Server Login Token (GSLT) wird dein Server unter Umständen nicht in der öffentlichen Serverliste geführt und nutzt kein VAC. Einen Token erstellst du unter [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) mit der App-ID `240`. Trage ihn anschließend in der **Verwaltung** deines Servers ein und starte den Server neu. Jeder Server benötigt einen eigenen Token. Die Direktverbindung über IP und Game Port funktioniert auch ohne Token.
 ::::

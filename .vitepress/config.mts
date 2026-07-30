@@ -171,6 +171,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Avorion',
+                link: '/gameserver/avorion',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/avorion/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/avorion/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/avorion/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/avorion/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/avorion/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/avorion/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/avorion/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Barotrauma',
                 link: '/gameserver/barotrauma',
                 collapsed: true,
@@ -274,6 +288,18 @@ export default defineConfig({
                   { text: 'Welt Index ändern', link: '/gameserver/core-keeper/welt-index-aendern' },
                   { text: 'Welt Modus ändern', link: '/gameserver/core-keeper/welt-modus-aendern' },
                   { text: 'Welt Seed ändern', link: '/gameserver/core-keeper/welt-seed-aendern' }
+                ]
+              },
+              {
+                text: 'Counter-Strike Source',
+                link: '/gameserver/counter-strike-source',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/counter-strike-source/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/counter-strike-source/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/counter-strike-source/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/counter-strike-source/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/counter-strike-source/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -436,6 +462,18 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/garrys-mod/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/garrys-mod/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/garrys-mod/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'GTA San Andreas',
+                link: '/gameserver/gta-san-andreas',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/gta-san-andreas/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/gta-san-andreas/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/gta-san-andreas/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/gta-san-andreas/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/gta-san-andreas/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -630,6 +668,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Minecraft PocketMine Edition',
+                link: '/gameserver/minecraft-pocketmine-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/minecraft-pocketmine-edition/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/minecraft-pocketmine-edition/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/minecraft-pocketmine-edition/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/minecraft-pocketmine-edition/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/minecraft-pocketmine-edition/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/minecraft-pocketmine-edition/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/minecraft-pocketmine-edition/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Mordhau',
                 link: '/gameserver/mordhau',
                 collapsed: true,
@@ -639,6 +691,19 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/mordhau/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/mordhau/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/mordhau/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Myth of Empires',
+                link: '/gameserver/myth-of-empires',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/myth-of-empires/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/myth-of-empires/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/myth-of-empires/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/myth-of-empires/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/myth-of-empires/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/myth-of-empires/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -818,6 +883,17 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Smalland Survive the Wilds',
+                link: '/gameserver/smalland-survive-the-wilds',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/smalland-survive-the-wilds/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/smalland-survive-the-wilds/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/smalland-survive-the-wilds/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/smalland-survive-the-wilds/server-beitreten' }
+                ]
+              },
+              {
                 text: 'Sons Of The Forest',
                 link: '/gameserver/sons-of-the-forest',
                 collapsed: true,
@@ -876,6 +952,17 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Space Station 14',
+                link: '/gameserver/space-station-14',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/space-station-14/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/space-station-14/backup-erstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/space-station-14/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/space-station-14/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Squad 44',
                 link: '/gameserver/squad-44',
                 collapsed: true,
@@ -903,6 +990,20 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/terraria/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/terraria/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/terraria/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Terraria tShock',
+                link: '/gameserver/terraria-tshock',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/terraria-tshock/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/terraria-tshock/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/terraria-tshock/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/terraria-tshock/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/terraria-tshock/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/terraria-tshock/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/terraria-tshock/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -971,6 +1072,18 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/the-front/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/the-front/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/the-front/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'The Lord of the Rings Return to Moria',
+                link: '/gameserver/the-lord-of-the-rings-return-to-moria',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/the-lord-of-the-rings-return-to-moria/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/the-lord-of-the-rings-return-to-moria/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/the-lord-of-the-rings-return-to-moria/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/the-lord-of-the-rings-return-to-moria/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/the-lord-of-the-rings-return-to-moria/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -1353,6 +1466,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Avorion',
+                link: '/en/gameserver/avorion',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/avorion/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/avorion/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/avorion/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/avorion/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/avorion/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/avorion/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/avorion/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Barotrauma',
                 link: '/en/gameserver/barotrauma',
                 collapsed: true,
@@ -1456,6 +1583,18 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/core-keeper/join-server' },
                   { text: 'Enable Seasonal Events', link: '/en/gameserver/core-keeper/enable-seasonal-events' },
                   { text: 'Set Server Password', link: '/en/gameserver/core-keeper/set-server-password' }
+                ]
+              },
+              {
+                text: 'Counter-Strike Source',
+                link: '/en/gameserver/counter-strike-source',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/counter-strike-source/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/counter-strike-source/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/counter-strike-source/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/counter-strike-source/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/counter-strike-source/kick-ban-players' }
                 ]
               },
               {
@@ -1618,6 +1757,18 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/garrys-mod/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/garrys-mod/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/garrys-mod/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'GTA San Andreas',
+                link: '/en/gameserver/gta-san-andreas',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/gta-san-andreas/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/gta-san-andreas/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/gta-san-andreas/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/gta-san-andreas/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/gta-san-andreas/kick-ban-players' }
                 ]
               },
               {
@@ -1809,6 +1960,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Minecraft PocketMine Edition',
+                link: '/en/gameserver/minecraft-pocketmine-edition',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/minecraft-pocketmine-edition/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/minecraft-pocketmine-edition/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/minecraft-pocketmine-edition/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/minecraft-pocketmine-edition/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/minecraft-pocketmine-edition/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/minecraft-pocketmine-edition/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/minecraft-pocketmine-edition/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Mordhau',
                 link: '/en/gameserver/mordhau',
                 collapsed: true,
@@ -1818,6 +1983,19 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/mordhau/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/mordhau/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/mordhau/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Myth of Empires',
+                link: '/en/gameserver/myth-of-empires',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/myth-of-empires/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/myth-of-empires/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/myth-of-empires/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/myth-of-empires/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/myth-of-empires/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/myth-of-empires/kick-ban-players' }
                 ]
               },
               {
@@ -1997,6 +2175,17 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Smalland Survive the Wilds',
+                link: '/en/gameserver/smalland-survive-the-wilds',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/smalland-survive-the-wilds/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/smalland-survive-the-wilds/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/smalland-survive-the-wilds/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/smalland-survive-the-wilds/join-server' }
+                ]
+              },
+              {
                 text: 'Sons Of The Forest',
                 link: '/en/gameserver/sons-of-the-forest',
                 collapsed: true,
@@ -2055,6 +2244,17 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Space Station 14',
+                link: '/en/gameserver/space-station-14',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/space-station-14/add-admin' },
+                  { text: 'Create Backup', link: '/en/gameserver/space-station-14/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/space-station-14/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/space-station-14/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Squad 44',
                 link: '/en/gameserver/squad-44',
                 collapsed: true,
@@ -2082,6 +2282,20 @@ export default defineConfig({
                   { text: 'Download Savegame', link: '/en/gameserver/terraria/download-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/terraria/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/terraria/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Terraria tShock',
+                link: '/en/gameserver/terraria-tshock',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/terraria-tshock/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/terraria-tshock/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/terraria-tshock/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/terraria-tshock/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/terraria-tshock/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/terraria-tshock/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/terraria-tshock/kick-ban-players' }
                 ]
               },
               {
@@ -2150,6 +2364,18 @@ export default defineConfig({
                   { text: 'Download Savegame', link: '/en/gameserver/the-front/download-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/the-front/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/the-front/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'The Lord of the Rings Return to Moria',
+                link: '/en/gameserver/the-lord-of-the-rings-return-to-moria',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/the-lord-of-the-rings-return-to-moria/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/the-lord-of-the-rings-return-to-moria/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/the-lord-of-the-rings-return-to-moria/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/the-lord-of-the-rings-return-to-moria/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/the-lord-of-the-rings-return-to-moria/kick-ban-players' }
                 ]
               },
               {

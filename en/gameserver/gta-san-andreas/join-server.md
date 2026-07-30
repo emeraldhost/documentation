@@ -50,12 +50,12 @@ An invalid player name is the most common reason why joining fails.
 
 | Rule | Details |
 |------|---------|
-| Length | 20 characters maximum |
-| Allowed characters | `0-9`, `a-z` as well as `[` `]` `(` `)` `$` `@` `.` `_` `=` |
+| Length | 3 to 20 characters when joining |
+| Allowed characters | `0-9`, `a-z`, `A-Z` as well as `[` `]` `(` `)` `$` `@` `.` `_` `=` |
 | Uniqueness | The name must not already be used by a connected player |
 
 :::: warning Caution
-If you get the message **Unacceptable NickName**, your name contains a forbidden character, is too long — or another player is already on the server using the same name.
+If you get the message **Unacceptable NickName**, your name contains a forbidden character, is too short or too long — or another player is already on the server using the same name. Less commonly the message also appears after a very long server uptime; restarting your server helps in that case.
 ::::
 
 ## Server does not show up in the server list
@@ -75,12 +75,13 @@ Whether your server is publicly visible is controlled by two settings. You can r
 
 ```
 announce 1
+query 1
 ```
 
 | Setting | Purpose |
 |---------|---------|
 | `announce` | Registers the server with the public server list (masterlist) |
-| `enable_query` | Defines whether server information is displayed in the server browser (open.mp) |
+| `enable_query` or `query` | Defines whether server information is displayed in the server browser — `enable_query` in `config.json`, `query` in `server.cfg` |
 
 :::: info Note
 The server browser additionally shows the values `name` or `hostname`, `language`, `mapname` and `gamemodetext` as well as `weburl` from your configuration. Connecting via IP address and port works even if your server is not listed publicly.

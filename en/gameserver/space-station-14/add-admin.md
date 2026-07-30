@@ -60,7 +60,7 @@ Space Station 14 does not use a SteamID. What you enter is your **SS14 username*
    Click on **Add Admin** and enter the SS14 username or the user ID of the player into the `Username/User ID` field.
 
 4. <b>Select the permissions</b><br>
-   Choose the desired permissions. Optionally you can assign a custom title under `Custom title…`. With the `Suspended?` checkbox you can temporarily disable an admin without deleting them.
+   Choose the desired permissions. Optionally you can assign your own title in the `Custom title` field – if you leave it blank, the title of the rank is inherited. With the `Suspended?` checkbox you can temporarily disable an admin without deleting them.
 
 5. <b>Save</b><br>
    Confirm your input. The permissions apply immediately and are stored permanently.
@@ -82,13 +82,15 @@ The `permissions` command only works in the in-game console, not in the server c
 | `Debug` | Debug commands |
 | `Fun` | Commands with a direct effect on the ongoing round |
 | `Permissions` | Manage other admins (permissions panel) |
-| `Server` | Server-related commands |
+| `Server` | Control the server, for example restart it or change the round type |
 | `Spawn` | Spawn objects and creatures |
-| `VarEdit` | Edit variables of objects directly |
-| `Mapping` | Mapping tools |
-| `Logs` | View the server logs |
-| `Round` | Start, end and restart rounds |
+| `VarEdit` | Edit variables of objects directly (view variables) |
+| `Mapping` | Large mapping operations |
+| `Logs` | View the admin logs |
+| `Round` | Influence the running round, for example force a map or preset |
 | `+HOST` | Full access to everything |
+
+There are further permissions on top of these, for example for the admin chat, the admin help or the notes. The permissions panel always shows you the complete list.
 
 :::: danger Important
 `+HOST` privileges are **extremely dangerous**. Giving somebody `+HOST` allows them to completely take over your server. Only grant this permission to people you trust without reservation.

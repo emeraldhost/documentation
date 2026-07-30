@@ -60,7 +60,7 @@ Space Station 14 nutzt keine SteamID. Eingetragen wird dein **SS14-Benutzername*
    Klicke auf **Add Admin** und trage im Feld `Username/User ID` den SS14-Benutzernamen oder die User-ID des Spielers ein.
 
 4. <b>Rechte auswählen</b><br>
-   Wähle die gewünschten Berechtigungen aus. Optional kannst du unter `Custom title…` einen eigenen Titel vergeben. Mit der Checkbox `Suspended?` setzt du einen Admin vorübergehend außer Kraft, ohne ihn zu löschen.
+   Wähle die gewünschten Berechtigungen aus. Optional kannst du im Feld `Custom title` einen eigenen Titel vergeben – bleibt es leer, wird der Titel des Rangs übernommen. Mit der Checkbox `Suspended?` setzt du einen Admin vorübergehend außer Kraft, ohne ihn zu löschen.
 
 5. <b>Speichern</b><br>
    Bestätige die Eingabe. Die Rechte gelten sofort und bleiben dauerhaft gespeichert.
@@ -82,13 +82,15 @@ Der Befehl `permissions` funktioniert nur in der Konsole im Spiel, nicht in der 
 | `Debug` | Debug-Befehle |
 | `Fun` | Befehle mit direkter Auswirkung auf das Spielgeschehen |
 | `Permissions` | Andere Admins verwalten (Berechtigungsfenster) |
-| `Server` | Servernahe Befehle |
+| `Server` | Server steuern, etwa neu starten oder den Rundentyp ändern |
 | `Spawn` | Objekte und Kreaturen erzeugen |
-| `VarEdit` | Variablen von Objekten direkt bearbeiten |
-| `Mapping` | Mapping-Werkzeuge |
-| `Logs` | Server-Logs einsehen |
-| `Round` | Runden starten, beenden und neu starten |
+| `VarEdit` | Variablen von Objekten direkt bearbeiten (View Variables) |
+| `Mapping` | Umfangreiche Mapping-Eingriffe |
+| `Logs` | Admin-Logs einsehen |
+| `Round` | Laufende Runde beeinflussen, etwa Map oder Preset erzwingen |
 | `+HOST` | Vollzugriff auf sämtliche Bereiche |
+
+Darüber hinaus gibt es weitere Berechtigungen, etwa für den Admin-Chat, die Admin-Hilfe oder die Notizen. Im Berechtigungsfenster siehst du jeweils die vollständige Liste.
 
 :::: danger Wichtig
 `+HOST`-Rechte sind **extrem gefährlich**. Wer `+HOST` besitzt, kann deinen Server vollständig übernehmen. Vergib diese Berechtigung nur an Personen, denen du uneingeschränkt vertraust.

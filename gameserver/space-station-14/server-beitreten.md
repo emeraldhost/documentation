@@ -9,7 +9,7 @@ Space Station 14 wird ausschließlich über den offiziellen **SS14-Launcher** ge
 ## Verbindungsdaten finden
 
 :::: danger Wichtig
-Die IP-Adresse sowie den **Game Port** und den **Query Port** deines Servers findest du in der **Verwaltung** deines Servers. Trage im Launcher immer die dort angezeigten Werte ein – feste Standardports gibt es nicht.
+Die IP-Adresse sowie den **Game Port** und den **Query Port** deines Servers findest du in der **Verwaltung** deines Servers. Trage im Launcher immer die dort angezeigten Werte ein und verlasse dich nicht auf feste Standardwerte.
 ::::
 
 ## Direkt verbinden
@@ -67,10 +67,6 @@ Damit dein Server in der öffentlichen Serverliste (Hub) auftaucht, musst du das
 
 6. <b>Server suchen</b><br>
    Suche im Launcher in der Serverliste nach dem Namen deines Servers.
-
-:::: info Hinweis
-Unter welchem Namen dein Server in der Liste erscheint, legt `hostname` im Abschnitt `[game]` der `server_config.toml` fest. Eine Beschreibung ergänzt du dort mit `desc`.
-::::
 
 :::: warning Server erscheint nicht in der Liste
 Steht in der Server-Konsole eine Meldung wie `[ERRO] hub: Error status while advertising server: [UnprocessableEntity] "Unable to contact status address"`, konnte der Hub deinen Server nicht erreichen. Prüfe dann, ob du in der Verwaltung die richtigen Ports verwendest und ob dein Server läuft. Bis zur Klärung erreichst du deinen Server jederzeit über die Direktverbindung.

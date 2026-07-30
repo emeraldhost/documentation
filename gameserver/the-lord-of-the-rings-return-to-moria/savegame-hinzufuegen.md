@@ -4,7 +4,7 @@ description: Savegame auf einem The Lord of the Rings Return to Moria Server hin
 
 # So fügst du ein Savegame zu deinem The Lord of the Rings Return to Moria Server hinzu
 
-Eine Welt in Return to Moria ist eine einzelne Datei mit dem Präfix `MW_` und der Endung `.sav`, zum Beispiel `MW_Khazad-dum.sav`. Du lädst diese Datei auf deinen Server hoch und trägst anschließend in der Konfiguration ein, welche Welt geladen werden soll.
+Eine Welt in Return to Moria ist eine einzelne Datei mit dem Präfix `MW_` und der Endung `.sav`, zum Beispiel `MW_BAD1ED294904FE2C24A8ED8BC98145AB.sav`. Du lädst diese Datei auf deinen Server hoch und trägst anschließend in der Konfiguration ein, welche Welt geladen werden soll.
 
 :::: tip Tipp
 Erstelle vor dem Hochladen ein [Backup](backup-erstellen.md) deines bisherigen Server-Spielstands, falls du später zurückwechseln möchtest.
@@ -20,7 +20,7 @@ Erstelle vor dem Hochladen ein [Backup](backup-erstellen.md) deines bisherigen S
    ```
 
 2. <b>Ordner deiner Plattform wählen</b><br>
-   Öffne den Ordner deiner Plattform – bei Steam heißt er `SaveGamesSteam`, beim Epic Games Store trägt er entsprechend `Epic` im Namen.
+   Öffne den Ordner deiner Plattform: `SaveGamesSteam` bei Steam, `SaveGamesEpic` beim Epic Games Store.
 
 3. <b>Weltdatei auswählen</b><br>
    Darin liegen deine Welten als einzelne `MW_*.sav`-Dateien. Wähle die Datei der Welt aus, die du auf den Server übertragen möchtest.
@@ -56,7 +56,7 @@ Erstelle vor dem Hochladen ein [Backup](backup-erstellen.md) deines bisherigen S
 
    ```
    [World]
-   OptionalWorldFilename=MW_Khazad-dum.sav
+   OptionalWorldFilename=MW_BAD1ED294904FE2C24A8ED8BC98145AB.sav
    ```
 
    Damit lädt der Server gezielt genau diese Datei – inklusive der Endung `.sav`.
@@ -68,21 +68,20 @@ Erstelle vor dem Hochladen ein [Backup](backup-erstellen.md) deines bisherigen S
 6. <b>Server starten</b><br>
    Speichere die Änderung und starte deinen Server. Beim Start wird jetzt deine hochgeladene Welt geladen.
 
-## Welt über den Namen laden
+## Warum du den Weltnamen nicht verwenden solltest
 
-Alternativ zum Dateinamen kannst du im selben Abschnitt einen Weltnamen angeben:
+Im Abschnitt `[World]` steht zusätzlich der Eintrag `Name`. Darüber lässt sich eine Welt zwar ebenfalls auswählen, für deinen Server ist das aber nicht der richtige Weg.
 
-```
-[World]
-Name="Khazad-dum"
-```
+:::: warning Achtung
+Der Eintrag `Name` wird bei jedem Start automatisch aus den Servereinstellungen deines Servers übernommen. Eine Änderung direkt in der `MoriaServerConfig.ini` bleibt deshalb nicht bestehen. Nutze zum Laden eines hochgeladenen Spielstands immer `OptionalWorldFilename`.
+::::
 
 :::: danger Wichtig
-Findet der Server unter diesem Namen keine Welt, legt er automatisch eine **neue** Welt mit den Werten aus dem Abschnitt `[World.Create]` an – also mit dem dort eingetragenen Spielmodus, Seed und Schwierigkeitsgrad. Dein hochgeladener Spielstand bleibt dann zwar auf der Platte liegen, wird aber nicht geladen. Bist du dir beim Namen nicht sicher, verwende `OptionalWorldFilename` mit dem exakten Dateinamen.
+Findet der Server unter dem eingetragenen Weltnamen keine Welt, legt er automatisch eine **neue** Welt mit den Werten aus dem Abschnitt `[World.Create]` an – also mit dem dort eingetragenen Spielmodus, Seed und Schwierigkeitsgrad. Dein hochgeladener Spielstand bleibt dann zwar auf der Platte liegen, wird aber nicht geladen.
 ::::
 
 :::: tip Tipp
-`OptionalWorldFilename` ist auch dann die richtige Wahl, wenn du mehrere Welten mit demselben Namen im Ordner liegen hast.
+`OptionalWorldFilename` ist auch dann die richtige Wahl, wenn du mehrere Welten mit demselben Namen im Ordner liegen hast. Trage dort immer den exakten Dateinamen inklusive `.sav` ein.
 ::::
 
 ## Wichtige Hinweise

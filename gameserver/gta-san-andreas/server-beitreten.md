@@ -50,12 +50,12 @@ Ein ungültiger Spielername ist der häufigste Grund, warum ein Beitritt scheite
 
 | Regel | Details |
 |-------|---------|
-| Länge | maximal 20 Zeichen |
-| Erlaubte Zeichen | `0-9`, `a-z` sowie `[` `]` `(` `)` `$` `@` `.` `_` `=` |
+| Länge | 3 bis 20 Zeichen beim Beitritt |
+| Erlaubte Zeichen | `0-9`, `a-z`, `A-Z` sowie `[` `]` `(` `)` `$` `@` `.` `_` `=` |
 | Eindeutigkeit | Der Name darf nicht bereits von einem verbundenen Spieler verwendet werden |
 
 :::: warning Achtung
-Erscheint die Meldung **Unacceptable NickName**, enthält dein Name ein unerlaubtes Zeichen, ist zu lang — oder ein anderer Spieler ist bereits mit demselben Namen auf dem Server.
+Erscheint die Meldung **Unacceptable NickName**, enthält dein Name ein unerlaubtes Zeichen, ist zu kurz oder zu lang — oder ein anderer Spieler ist bereits mit demselben Namen auf dem Server. Seltener tritt die Meldung auch bei sehr langer Serverlaufzeit auf; dann hilft ein Neustart deines Servers.
 ::::
 
 ## Server erscheint nicht in der Serverliste
@@ -75,12 +75,13 @@ Ob dein Server öffentlich sichtbar ist, steuerst du über zwei Einstellungen. D
 
 ```
 announce 1
+query 1
 ```
 
 | Einstellung | Bedeutung |
 |-------------|-----------|
 | `announce` | Meldet den Server an der öffentlichen Serverliste (Masterlist) an |
-| `enable_query` | Legt fest, ob Serverinformationen im Serverbrowser angezeigt werden (open.mp) |
+| `enable_query` bzw. `query` | Legt fest, ob Serverinformationen im Serverbrowser angezeigt werden — `enable_query` in der `config.json`, `query` in der `server.cfg` |
 
 :::: info Hinweis
 Zusätzlich erscheinen im Serverbrowser die Werte `name` beziehungsweise `hostname`, `language`, `mapname` und `gamemodetext` sowie `weburl` aus deiner Konfiguration. Die Verbindung über IP-Adresse und Port funktioniert auch dann, wenn dein Server nicht in der öffentlichen Liste steht.

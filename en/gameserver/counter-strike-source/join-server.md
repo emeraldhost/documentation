@@ -96,5 +96,5 @@ Alternatively you can enable the console permanently with the launch option `-co
    ::::
 
 :::: info Server does not show up in the public server list?
-Without a valid Steam Game Server Login Token (GSLT) your server may not be listed in the public server list and does not use VAC. You can create a token at [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) using the App ID `240`. Afterwards enter it in the **dashboard** of your server and restart the server. The server then starts with the parameter `+sv_setsteamaccount <token>`. Every server needs its own token. A direct connection via IP and Game Port works without a token as well.
+Without a valid Steam Game Server Login Token (GSLT) your server may not be listed in the public server list and does not use VAC. You can create a token at [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) using the App ID `240`. Afterwards enter it in the **dashboard** of your server and restart the server. Every server needs its own token. A direct connection via IP and Game Port works without a token as well.
 ::::

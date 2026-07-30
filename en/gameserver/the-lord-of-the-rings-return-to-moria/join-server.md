@@ -60,15 +60,14 @@ The direct connection works independently of the invite code and is the most rel
 
 ## Password protected server
 
-The server password is stored in the file `MoriaServerConfig.ini` in the main directory of your server:
-
-```
-[Main]
-OptionalPassword=
-```
+If a password is set for your server, your friends need it both when joining with the invite code and when connecting directly.
 
 :::: warning Caution
-The password is case-sensitive. Pass it on to your friends exactly as it appears in the configuration.
+The password is case-sensitive. Pass it on to your friends exactly as it is stored in your server settings.
+::::
+
+:::: info Note
+The `OptionalPassword` entry in `MoriaServerConfig.ini` is applied automatically from your server settings on every start. Changing it directly in the file therefore does not persist.
 ::::
 
 ## Crossplay and player count
@@ -108,5 +107,5 @@ Return to Moria has **no public server list**. Your server never shows up anywhe
 ::::
 
 :::: info Note
-The values `AdvertiseAddress` and `AdvertisePort` in `MoriaServerConfig.ini` are set automatically for your server. Do not change them manually, otherwise your server may become unreachable.
+The values `ListenPort`, `AdvertiseAddress` and `AdvertisePort` in `MoriaServerConfig.ini` are set automatically for your server on every start. Do not change them manually – your changes are overwritten and your server may become unreachable.
 ::::

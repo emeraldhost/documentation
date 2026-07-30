@@ -60,15 +60,14 @@ Die Direktverbindung funktioniert unabhängig vom Invite-Code und ist der zuverl
 
 ## Passwortgeschützter Server
 
-Das Serverpasswort steht in der Datei `MoriaServerConfig.ini` im Hauptverzeichnis deines Servers:
-
-```
-[Main]
-OptionalPassword=
-```
+Ist für deinen Server ein Passwort gesetzt, brauchen deine Mitspieler es sowohl beim Beitritt über den Invite-Code als auch bei der Direktverbindung.
 
 :::: warning Achtung
-Das Passwort unterscheidet zwischen Groß- und Kleinschreibung. Gib es deinen Mitspielern deshalb genau so weiter, wie es in der Konfiguration steht.
+Das Passwort unterscheidet zwischen Groß- und Kleinschreibung. Gib es deinen Mitspielern deshalb genau so weiter, wie es in den Servereinstellungen hinterlegt ist.
+::::
+
+:::: info Hinweis
+Der Eintrag `OptionalPassword` in der `MoriaServerConfig.ini` wird bei jedem Start automatisch aus den Servereinstellungen deines Servers übernommen. Eine Änderung direkt in der Datei bleibt deshalb nicht bestehen.
 ::::
 
 ## Crossplay und Spielerzahl
@@ -108,5 +107,5 @@ Return to Moria besitzt **keine öffentliche Serverliste**. Dein Server taucht a
 ::::
 
 :::: info Hinweis
-Die Werte `AdvertiseAddress` und `AdvertisePort` in der `MoriaServerConfig.ini` werden für deinen Server automatisch passend gesetzt. Ändere sie nicht von Hand, sonst ist dein Server unter Umständen nicht mehr erreichbar.
+Die Werte `ListenPort`, `AdvertiseAddress` und `AdvertisePort` in der `MoriaServerConfig.ini` werden bei jedem Start automatisch passend für deinen Server gesetzt. Ändere sie nicht von Hand – deine Änderungen werden überschrieben und dein Server ist unter Umständen nicht mehr erreichbar.
 ::::
