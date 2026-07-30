@@ -1,0 +1,42 @@
+---
+description: Download a savegame from a VEIN server
+---
+
+# How to Download the Savegame of Your VEIN Server
+
+You can download your server's savegame to your PC at any time – for example as an additional backup, to archive a save, or to move it to another server.
+
+:::: warning Caution
+Stop your server before downloading the files. While the server is running it saves regularly — otherwise you would download an incomplete or corrupted save.
+::::
+
+1. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
+
+2. <b>Connect via SFTP</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md).
+
+3. <b>Open the directory</b><br>
+   Navigate to the following directory:
+
+   ```
+   /Vein/Saved/SaveGames/
+   ```
+
+4. <b>Download the files</b><br>
+   Download all `.vns` files (e.g. `Server.vns`) from this directory to your PC. The savegame consists solely of these files.
+
+5. <b>Start the server</b><br>
+   Start your server again.
+
+:::: tip Tip
+Your server's savegame is usually named `Server.vns`. If there are several `.vns` files in the folder, it is best to download all of them – that way older saves are backed up as well.
+::::
+
+:::: tip Restoring the savegame
+If you want to transfer the save back to a server later, follow the guide [Add savegame](add-savegame.md).
+::::
+
+:::: info Regular backups
+For automatic or regular backups you can also use the backup function: [Create backup](create-backup.md).
+::::
