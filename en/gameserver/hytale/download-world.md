@@ -27,7 +27,7 @@ Stop your server before downloading the files. While the server is running, it s
    Every world is stored here as its own folder. Download the complete folder of your world to your PC.
 
 5. <b>Download player data (optional)</b><br>
-   Player progress (inventory, position, etc.) is not stored in the world folders but separately in the `players/` folder. If you want to save it as well, additionally download the contents of that folder.
+   Player progress (inventory, position, etc.) is not stored in the world folders but one level up under `/universe/players/`. If you want to save it as well, additionally download the contents of that folder.
 
 6. <b>Start the server</b><br>
    Start your server again.

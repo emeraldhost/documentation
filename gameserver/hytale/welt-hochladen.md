@@ -102,7 +102,7 @@ Du kannst die Standard-Welt auch manuell in der Server-Konfiguration setzen:
 Wenn du auch deinen Spielerfortschritt übertragen möchtest (Inventar, Position, etc.):
 
 1. Kopiere den Inhalt des `players/` Ordners aus deinem Singleplayer-Spielstand.
-2. Lade ihn in den `players/` Ordner auf dem Server hoch.
+2. Lade ihn auf dem Server in den Ordner `/universe/players/` hoch.
 
 :::: warning Achtung
 Lade nur die Welt-Ordner hoch, nicht den gesamten `universe/` Ordner - sonst werden bestehende Server-Welten überschrieben.

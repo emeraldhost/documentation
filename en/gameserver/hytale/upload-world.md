@@ -102,7 +102,7 @@ You can also set the default world manually in the server configuration:
 If you also want to transfer your player progress (inventory, position, etc.):
 
 1. Copy the contents of the `players/` folder from your singleplayer save.
-2. Upload it to the `players/` folder on the server.
+2. Upload it to the `/universe/players/` folder on the server.
 
 :::: warning Warning
 Only upload the world folders, not the entire `universe/` folder - otherwise existing server worlds will be overwritten.

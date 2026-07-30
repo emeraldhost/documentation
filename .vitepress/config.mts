@@ -401,7 +401,7 @@ export default defineConfig({
               },
               {
                 text: 'Hytale',
-                link: '',
+                link: '/gameserver/hytale',
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/hytale/admin-hinzufuegen' },
@@ -624,16 +624,6 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'RAGE:MP',
-                link: '/gameserver/ragemp',
-                collapsed: true,
-                items: [
-                  { text: 'Backup erstellen', link: '/gameserver/ragemp/backup-erstellen' },
-                  { text: 'Scripts hinzufügen', link: '/gameserver/ragemp/scripts-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/ragemp/server-beitreten' }
-                ]
-              },
-              {
                 text: 'Renown',
                 link: '/gameserver/renown',
                 collapsed: true,
@@ -784,6 +774,18 @@ export default defineConfig({
                   { text: 'Team Balance erzwingen', link: '/gameserver/squad-44/team-balance-erzwingen' },
                   { text: 'Teamwechsel erlauben', link: '/gameserver/squad-44/teamwechsel-erlauben' },
                   { text: 'Teamwechsel verhindern', link: '/gameserver/squad-44/teamwechsel-verhindern' }
+                ]
+              },
+              {
+                text: 'Terraria',
+                link: '/gameserver/terraria',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/terraria/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/terraria/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/terraria/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/terraria/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/terraria/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -1424,7 +1426,7 @@ export default defineConfig({
               },
               {
                 text: 'Hytale',
-                link: '',
+                link: '/en/gameserver/hytale',
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/hytale/add-admin' },
@@ -1644,16 +1646,6 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'RAGE:MP',
-                link: '/en/gameserver/ragemp',
-                collapsed: true,
-                items: [
-                  { text: 'Add Scripts', link: '/en/gameserver/ragemp/add-scripts' },
-                  { text: 'Create Backup', link: '/en/gameserver/ragemp/create-backup' },
-                  { text: 'Join Server', link: '/en/gameserver/ragemp/join-server' }
-                ]
-              },
-              {
                 text: 'Renown',
                 link: '/en/gameserver/renown',
                 collapsed: true,
@@ -1804,6 +1796,18 @@ export default defineConfig({
                   { text: 'Prevent Team Change', link: '/en/gameserver/squad-44/prevent-team-change' },
                   { text: 'Record Demos', link: '/en/gameserver/squad-44/record-demos' },
                   { text: 'Set Server Password', link: '/en/gameserver/squad-44/set-server-password' }
+                ]
+              },
+              {
+                text: 'Terraria',
+                link: '/en/gameserver/terraria',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/terraria/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/terraria/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/terraria/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/terraria/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/terraria/kick-ban-players' }
                 ]
               },
               {

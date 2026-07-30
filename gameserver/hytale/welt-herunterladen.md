@@ -27,7 +27,7 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    Jede Welt liegt hier als eigener Ordner. Lade den Ordner deiner Welt vollständig auf deinen PC herunter.
 
 5. <b>Spielerdaten herunterladen (optional)</b><br>
-   Der Spielerfortschritt (Inventar, Position, etc.) liegt nicht in den Welt-Ordnern, sondern separat im Ordner `players/`. Möchtest du ihn ebenfalls sichern, lade zusätzlich den Inhalt dieses Ordners herunter.
+   Der Spielerfortschritt (Inventar, Position, etc.) liegt nicht in den Welt-Ordnern, sondern eine Ebene höher unter `/universe/players/`. Möchtest du ihn ebenfalls sichern, lade zusätzlich den Inhalt dieses Ordners herunter.
 
 6. <b>Server starten</b><br>
    Starte deinen Server wieder.

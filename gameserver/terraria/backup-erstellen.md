@@ -1,16 +1,17 @@
 ---
-description: "Backup eines RAGE:MP Servers erstellen"
+description: Backup eines Terraria Servers erstellen
 ---
 
-# So erstellst du ein Backup deines RAGE:MP Servers
+# So erstellst du ein Backup deines Terraria Servers
 
-Ein regelmäßiges Backup deines RAGE:MP Servers schützt dich vor Datenverlust — egal ob durch ein fehlgeschlagenes Update, eine fehlerhafte Konfiguration oder einen versehentlich gelöschten Spielstand.
+Ein regelmäßiges Backup deines Terraria Servers schützt dich vor Datenverlust — egal ob durch ein fehlgeschlagenes Update, einen Weltwechsel oder eine versehentlich überschriebene Welt.
 
 ## Wann solltest du ein Backup erstellen?
 
 - Vor Updates der Server-Version
-- Vor dem Installieren oder Entfernen von Mods, Plugins oder Add-ons
 - Vor größeren Änderungen an der Welt oder Konfiguration
+- Vor dem Hochladen einer anderen Welt
+- Bevor du deine Welt in den Hardmode überführst
 - In regelmäßigen Abständen, damit du jederzeit einen sicheren Stand hast
 
 ## Backup erstellen
@@ -19,6 +20,10 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 
 :::: tip Tipp
 Sperre wichtige Backups (z.B. vor großen Änderungen), damit sie nicht durch automatische Backups überschrieben werden. Lade besonders wichtige Backups zusätzlich auf deinen PC herunter, falls dein Backup-Limit erreicht wird.
+::::
+
+:::: info Hinweis
+Möchtest du nur die Welt sichern, kannst du die `.wld`-Datei auch einzeln herunterladen: [Savegame herunterladen](savegame-herunterladen.md).
 ::::
 
 :::: info Info
