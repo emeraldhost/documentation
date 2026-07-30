@@ -209,6 +209,16 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'BATTALION Legacy',
+                link: '/gameserver/battalion-legacy',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/battalion-legacy/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/battalion-legacy/backup-erstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/battalion-legacy/server-beitreten' }
+                ]
+              },
+              {
                 text: 'BeamMP',
                 link: '/gameserver/beammp',
                 collapsed: true,
@@ -412,6 +422,17 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/dont-starve-together/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/dont-starve-together/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/dont-starve-together/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Echoes of Elysium',
+                link: '/gameserver/echoes-of-elysium',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/echoes-of-elysium/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/echoes-of-elysium/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/echoes-of-elysium/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/echoes-of-elysium/server-beitreten' }
                 ]
               },
               {
@@ -903,6 +924,15 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'No Love Lost',
+                link: '/gameserver/no-love-lost',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/no-love-lost/backup-erstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/no-love-lost/server-beitreten' }
+                ]
+              },
+              {
                 text: 'No More Room in Hell',
                 link: '/gameserver/no-more-room-in-hell',
                 collapsed: true,
@@ -998,6 +1028,15 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'QANGA',
+                link: '/gameserver/qanga',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/qanga/backup-erstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/qanga/server-beitreten' }
+                ]
+              },
+              {
                 text: 'Quake Live',
                 link: '/gameserver/quake-live',
                 collapsed: true,
@@ -1025,6 +1064,17 @@ export default defineConfig({
                   { text: 'Server Name ändern', link: '/gameserver/renown/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/renown/server-passwort-setzen' },
                   { text: 'Use First Map aktivieren', link: '/gameserver/renown/use-first-map-aktivieren' }
+                ]
+              },
+              {
+                text: 'Romestead',
+                link: '/gameserver/romestead',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/romestead/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/romestead/savegame-herunterladen' },
+                  { text: 'Server beitreten', link: '/gameserver/romestead/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/romestead/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -1973,6 +2023,17 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Echoes of Elysium',
+                link: '/en/gameserver/echoes-of-elysium',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/echoes-of-elysium/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/echoes-of-elysium/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/echoes-of-elysium/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/echoes-of-elysium/join-server' }
+                ]
+              },
+              {
                 text: 'Eco',
                 link: '/en/gameserver/eco',
                 collapsed: true,
@@ -2458,6 +2519,15 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'No Love Lost',
+                link: '/en/gameserver/no-love-lost',
+                collapsed: true,
+                items: [
+                  { text: 'Create Backup', link: '/en/gameserver/no-love-lost/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/no-love-lost/join-server' }
+                ]
+              },
+              {
                 text: 'No More Room in Hell',
                 link: '/en/gameserver/no-more-room-in-hell',
                 collapsed: true,
@@ -2553,6 +2623,15 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'QANGA',
+                link: '/en/gameserver/qanga',
+                collapsed: true,
+                items: [
+                  { text: 'Create Backup', link: '/en/gameserver/qanga/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/qanga/join-server' }
+                ]
+              },
+              {
                 text: 'Quake Live',
                 link: '/en/gameserver/quake-live',
                 collapsed: true,
@@ -2580,6 +2659,17 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/renown/join-server' },
                   { text: 'Set Admin Password', link: '/en/gameserver/renown/set-admin-password' },
                   { text: 'Set Server Password', link: '/en/gameserver/renown/set-server-password' }
+                ]
+              },
+              {
+                text: 'Romestead',
+                link: '/en/gameserver/romestead',
+                collapsed: true,
+                items: [
+                  { text: 'Create Backup', link: '/en/gameserver/romestead/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/romestead/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/romestead/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/romestead/kick-ban-players' }
                 ]
               },
               {
