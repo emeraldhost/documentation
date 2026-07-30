@@ -690,6 +690,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'IOSoccer',
+                link: '/gameserver/iosoccer',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/iosoccer/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/iosoccer/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/iosoccer/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/iosoccer/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/iosoccer/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Kerbal Space Program',
                 link: '/gameserver/kerbal-space-program',
                 collapsed: true,
@@ -738,6 +750,15 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/longvinter/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/longvinter/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/longvinter/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Midnight Ghost Hunt',
+                link: '/gameserver/midnight-ghost-hunt',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/midnight-ghost-hunt/backup-erstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/midnight-ghost-hunt/server-beitreten' }
                 ]
               },
               {
@@ -945,6 +966,21 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'No One Survived',
+                link: '/gameserver/no-one-survived',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/no-one-survived/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/no-one-survived/backup-erstellen' },
+                  { text: 'Map ändern', link: '/gameserver/no-one-survived/map-aendern' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/no-one-survived/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/no-one-survived/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/no-one-survived/server-beitreten' },
+                  { text: 'Spieleinstellungen ändern', link: '/gameserver/no-one-survived/spieleinstellungen-aendern' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/no-one-survived/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Operation Harsh Doorstop',
                 link: '/gameserver/operation-harsh-doorstop',
                 collapsed: true,
@@ -1115,6 +1151,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 's&box',
+                link: '/gameserver/sbox',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/sbox/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/sbox/backup-erstellen' },
+                  { text: 'Gamemode ändern', link: '/gameserver/sbox/gamemode-aendern' },
+                  { text: 'Map ändern', link: '/gameserver/sbox/map-aendern' },
+                  { text: 'Server beitreten', link: '/gameserver/sbox/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/sbox/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'SCP: Secret Laboratory',
                 link: '/gameserver/scp-secret-laboratory',
                 collapsed: true,
@@ -1182,6 +1231,18 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/soldat/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/soldat/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/soldat/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Soldat 2',
+                link: '/gameserver/soldat-2',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/soldat-2/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/soldat-2/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/soldat-2/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/soldat-2/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/soldat-2/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -1348,6 +1409,17 @@ export default defineConfig({
                   { text: 'Ticketchance ändern', link: '/gameserver/the-bus/ticketchance-aendern' },
                   { text: 'Verkehr einstellen', link: '/gameserver/the-bus/verkehr-einstellen' },
                   { text: 'Wetter ändern', link: '/gameserver/the-bus/wetter-aendern' }
+                ]
+              },
+              {
+                text: 'The Cenozoic Era',
+                link: '/gameserver/the-cenozoic-era',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/the-cenozoic-era/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/the-cenozoic-era/backup-erstellen' },
+                  { text: 'Server beitreten', link: '/gameserver/the-cenozoic-era/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/the-cenozoic-era/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -1814,6 +1886,16 @@ export default defineConfig({
                   { text: 'Enable Traitors', link: '/en/gameserver/barotrauma/enable-traitors' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/barotrauma/kick-ban-players' },
                   { text: 'Set Server Password', link: '/en/gameserver/barotrauma/set-server-password' }
+                ]
+              },
+              {
+                text: 'BATTALION Legacy',
+                link: '/en/gameserver/battalion-legacy',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/battalion-legacy/add-admin' },
+                  { text: 'Create Backup', link: '/en/gameserver/battalion-legacy/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/battalion-legacy/join-server' }
                 ]
               },
               {
@@ -2288,6 +2370,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'IOSoccer',
+                link: '/en/gameserver/iosoccer',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/iosoccer/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/iosoccer/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/iosoccer/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/iosoccer/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/iosoccer/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Kerbal Space Program',
                 link: '/en/gameserver/kerbal-space-program',
                 collapsed: true,
@@ -2336,6 +2430,15 @@ export default defineConfig({
                   { text: 'Download Savegame', link: '/en/gameserver/longvinter/download-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/longvinter/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/longvinter/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Midnight Ghost Hunt',
+                link: '/en/gameserver/midnight-ghost-hunt',
+                collapsed: true,
+                items: [
+                  { text: 'Create Backup', link: '/en/gameserver/midnight-ghost-hunt/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/midnight-ghost-hunt/join-server' }
                 ]
               },
               {
@@ -2540,6 +2643,21 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'No One Survived',
+                link: '/en/gameserver/no-one-survived',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/no-one-survived/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/no-one-survived/add-savegame' },
+                  { text: 'Change Game Settings', link: '/en/gameserver/no-one-survived/change-game-settings' },
+                  { text: 'Change Map', link: '/en/gameserver/no-one-survived/change-map' },
+                  { text: 'Create Backup', link: '/en/gameserver/no-one-survived/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/no-one-survived/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/no-one-survived/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/no-one-survived/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Operation Harsh Doorstop',
                 link: '/en/gameserver/operation-harsh-doorstop',
                 collapsed: true,
@@ -2710,6 +2828,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 's&box',
+                link: '/en/gameserver/sbox',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/sbox/add-admin' },
+                  { text: 'Change Gamemode', link: '/en/gameserver/sbox/change-gamemode' },
+                  { text: 'Change Map', link: '/en/gameserver/sbox/change-map' },
+                  { text: 'Create Backup', link: '/en/gameserver/sbox/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/sbox/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/sbox/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'SCP: Secret Laboratory',
                 link: '/en/gameserver/scp-secret-laboratory',
                 collapsed: true,
@@ -2777,6 +2908,18 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/soldat/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/soldat/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/soldat/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Soldat 2',
+                link: '/en/gameserver/soldat-2',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/soldat-2/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/soldat-2/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/soldat-2/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/soldat-2/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/soldat-2/kick-ban-players' }
                 ]
               },
               {
@@ -2943,6 +3086,17 @@ export default defineConfig({
                   { text: 'Send Chat Messages', link: '/en/gameserver/the-bus/send-chat-messages' },
                   { text: 'Spawn Bus', link: '/en/gameserver/the-bus/spawn-bus' },
                   { text: 'Teleport', link: '/en/gameserver/the-bus/teleport' }
+                ]
+              },
+              {
+                text: 'The Cenozoic Era',
+                link: '/en/gameserver/the-cenozoic-era',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/the-cenozoic-era/add-admin' },
+                  { text: 'Create Backup', link: '/en/gameserver/the-cenozoic-era/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/the-cenozoic-era/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/the-cenozoic-era/kick-ban-players' }
                 ]
               },
               {
