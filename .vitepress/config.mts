@@ -71,6 +71,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Abiotic Factor',
+                link: '/gameserver/abiotic-factor',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/abiotic-factor/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/abiotic-factor/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/abiotic-factor/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/abiotic-factor/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/abiotic-factor/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/abiotic-factor/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Aloft',
                 link: '/gameserver/aloft',
                 collapsed: true,
@@ -112,6 +125,20 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/ark-survival-evolved/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/ark-survival-evolved/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/ark-survival-evolved/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Arma 3',
+                link: '/gameserver/arma-3',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/arma-3/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/arma-3/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/arma-3/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/arma-3/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/arma-3/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/arma-3/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/arma-3/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -250,6 +277,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Craftopia',
+                link: '/gameserver/craftopia',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/craftopia/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/craftopia/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/craftopia/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/craftopia/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/craftopia/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'DayZ',
                 link: '/gameserver/dayz',
                 collapsed: true,
@@ -285,6 +324,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Eco',
+                link: '/gameserver/eco',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/eco/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/eco/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/eco/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/eco/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/eco/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/eco/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/eco/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Enshrouded',
                 link: '/gameserver/enshrouded',
                 collapsed: true,
@@ -298,20 +351,6 @@ export default defineConfig({
                   { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' },
                   { text: 'Server Passwort ändern', link: '/gameserver/enshrouded/server-passwort-aendern' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/enshrouded/spieler-kicken-bannen' }
-                ]
-              },
-              {
-                text: 'Don’t Starve Together',
-                link: '/gameserver/dont-starve-together',
-                collapsed: true,
-                items: [
-                  { text: 'Admin hinzufügen', link: '/gameserver/dont-starve-together/admin-hinzufuegen' },
-                  { text: 'Backup erstellen', link: '/gameserver/dont-starve-together/backup-erstellen' },
-                  { text: 'Mods hinzufügen', link: '/gameserver/dont-starve-together/mods-hinzufuegen' },
-                  { text: 'Savegame herunterladen', link: '/gameserver/dont-starve-together/savegame-herunterladen' },
-                  { text: 'Savegame hinzufügen', link: '/gameserver/dont-starve-together/savegame-hinzufuegen' },
-                  { text: 'Server beitreten', link: '/gameserver/dont-starve-together/server-beitreten' },
-                  { text: 'Spieler kicken & bannen', link: '/gameserver/dont-starve-together/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -400,6 +439,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'HumanitZ',
+                link: '/gameserver/humanitz',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/humanitz/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/humanitz/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/humanitz/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/humanitz/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/humanitz/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/humanitz/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Hytale',
                 link: '/gameserver/hytale',
                 collapsed: true,
@@ -474,6 +526,18 @@ export default defineConfig({
                   { text: 'Szenario ändern', link: '/gameserver/insurgency-sandstorm/szenario-aendern' },
                   { text: 'Team-Kill-Einstellungen', link: '/gameserver/insurgency-sandstorm/team-kill-einstellungen' },
                   { text: 'Zusätzliche Parameter', link: '/gameserver/insurgency-sandstorm/zusaetzliche-parameter' }
+                ]
+              },
+              {
+                text: 'Left 4 Dead 2',
+                link: '/gameserver/left-4-dead-2',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/left-4-dead-2/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/left-4-dead-2/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/left-4-dead-2/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/left-4-dead-2/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/left-4-dead-2/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -563,6 +627,45 @@ export default defineConfig({
                       { text: 'squaremap einrichten', link: '/gameserver/minecraft-java-edition/plugins/squaremap-einrichten' }
                     ]
                   }
+                ]
+              },
+              {
+                text: 'Mordhau',
+                link: '/gameserver/mordhau',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/mordhau/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/mordhau/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/mordhau/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/mordhau/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/mordhau/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Necesse',
+                link: '/gameserver/necesse',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/necesse/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/necesse/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/necesse/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/necesse/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/necesse/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/necesse/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/necesse/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Nightingale',
+                link: '/gameserver/nightingale',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/nightingale/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/nightingale/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/nightingale/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/nightingale/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/nightingale/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/nightingale/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -858,6 +961,33 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'The Front',
+                link: '/gameserver/the-front',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/the-front/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/the-front/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/the-front/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/the-front/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/the-front/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/the-front/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Unturned',
+                link: '/gameserver/unturned',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/unturned/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/unturned/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/unturned/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/unturned/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/unturned/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/unturned/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/unturned/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'V Rising',
                 link: '/gameserver/v-rising',
                 collapsed: true,
@@ -1123,6 +1253,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Abiotic Factor',
+                link: '/en/gameserver/abiotic-factor',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/abiotic-factor/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/abiotic-factor/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/abiotic-factor/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/abiotic-factor/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/abiotic-factor/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/abiotic-factor/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Aloft',
                 link: '/en/gameserver/aloft',
                 collapsed: true,
@@ -1164,6 +1307,20 @@ export default defineConfig({
                   { text: 'Download Savegame', link: '/en/gameserver/ark-survival-evolved/download-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/ark-survival-evolved/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/ark-survival-evolved/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Arma 3',
+                link: '/en/gameserver/arma-3',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/arma-3/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/arma-3/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/arma-3/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/arma-3/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/arma-3/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/arma-3/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/arma-3/kick-ban-players' }
                 ]
               },
               {
@@ -1302,6 +1459,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Craftopia',
+                link: '/en/gameserver/craftopia',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/craftopia/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/craftopia/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/craftopia/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/craftopia/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/craftopia/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'DayZ',
                 link: '/en/gameserver/dayz',
                 collapsed: true,
@@ -1337,6 +1506,20 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Eco',
+                link: '/en/gameserver/eco',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/eco/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/eco/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/eco/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/eco/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/eco/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/eco/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/eco/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Enshrouded',
                 link: '/en/gameserver/enshrouded',
                 collapsed: true,
@@ -1350,20 +1533,6 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/enshrouded/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/enshrouded/kick-ban-players' },
                   { text: 'Performance Problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' }
-                ]
-              },
-              {
-                text: 'Don’t Starve Together',
-                link: '/en/gameserver/dont-starve-together',
-                collapsed: true,
-                items: [
-                  { text: 'Add Admin', link: '/en/gameserver/dont-starve-together/add-admin' },
-                  { text: 'Add Mods', link: '/en/gameserver/dont-starve-together/add-mods' },
-                  { text: 'Add Savegame', link: '/en/gameserver/dont-starve-together/add-savegame' },
-                  { text: 'Create Backup', link: '/en/gameserver/dont-starve-together/create-backup' },
-                  { text: 'Download Savegame', link: '/en/gameserver/dont-starve-together/download-savegame' },
-                  { text: 'Join Server', link: '/en/gameserver/dont-starve-together/join-server' },
-                  { text: 'Kick & Ban Players', link: '/en/gameserver/dont-starve-together/kick-ban-players' }
                 ]
               },
               {
@@ -1452,6 +1621,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'HumanitZ',
+                link: '/en/gameserver/humanitz',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/humanitz/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/humanitz/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/humanitz/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/humanitz/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/humanitz/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/humanitz/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Hytale',
                 link: '/en/gameserver/hytale',
                 collapsed: true,
@@ -1526,6 +1708,18 @@ export default defineConfig({
                   { text: 'Set Up Co-Op Server', link: '/en/gameserver/insurgency-sandstorm/setup-coop-server' },
                   { text: 'Team Kill Settings', link: '/en/gameserver/insurgency-sandstorm/team-kill-settings' },
                   { text: 'Use RCON', link: '/en/gameserver/insurgency-sandstorm/use-rcon' }
+                ]
+              },
+              {
+                text: 'Left 4 Dead 2',
+                link: '/en/gameserver/left-4-dead-2',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/left-4-dead-2/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/left-4-dead-2/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/left-4-dead-2/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/left-4-dead-2/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/left-4-dead-2/kick-ban-players' }
                 ]
               },
               {
@@ -1612,6 +1806,45 @@ export default defineConfig({
                       { text: 'Setup squaremap', link: '/en/gameserver/minecraft-java-edition/plugins/setup-squaremap' }
                     ]
                   }
+                ]
+              },
+              {
+                text: 'Mordhau',
+                link: '/en/gameserver/mordhau',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/mordhau/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/mordhau/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/mordhau/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/mordhau/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/mordhau/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Necesse',
+                link: '/en/gameserver/necesse',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/necesse/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/necesse/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/necesse/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/necesse/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/necesse/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/necesse/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/necesse/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Nightingale',
+                link: '/en/gameserver/nightingale',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/nightingale/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/nightingale/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/nightingale/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/nightingale/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/nightingale/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/nightingale/kick-ban-players' }
                 ]
               },
               {
@@ -1904,6 +2137,33 @@ export default defineConfig({
                   { text: 'Download Savegame', link: '/en/gameserver/the-forest/download-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/the-forest/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/the-forest/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'The Front',
+                link: '/en/gameserver/the-front',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/the-front/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/the-front/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/the-front/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/the-front/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/the-front/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/the-front/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Unturned',
+                link: '/en/gameserver/unturned',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/unturned/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/unturned/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/unturned/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/unturned/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/unturned/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/unturned/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/unturned/kick-ban-players' }
                 ]
               },
               {
