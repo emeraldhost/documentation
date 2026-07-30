@@ -845,6 +845,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'The Forest',
+                link: '/gameserver/the-forest',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/the-forest/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/the-forest/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/the-forest/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/the-forest/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/the-forest/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/the-forest/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'V Rising',
                 link: '/gameserver/v-rising',
                 collapsed: true,
@@ -1878,6 +1891,19 @@ export default defineConfig({
                   { text: 'Send Chat Messages', link: '/en/gameserver/the-bus/send-chat-messages' },
                   { text: 'Spawn Bus', link: '/en/gameserver/the-bus/spawn-bus' },
                   { text: 'Teleport', link: '/en/gameserver/the-bus/teleport' }
+                ]
+              },
+              {
+                text: 'The Forest',
+                link: '/en/gameserver/the-forest',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/the-forest/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/the-forest/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/the-forest/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/the-forest/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/the-forest/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/the-forest/kick-ban-players' }
                 ]
               },
               {
