@@ -1192,9 +1192,13 @@ export default defineConfig({
                 link: '/gameserver/satisfactory',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/satisfactory/admin-hinzufuegen' },
                   { text: 'Admin Passwort setzen', link: '/gameserver/satisfactory/admin-passwort-setzen' },
                   { text: 'Backup erstellen', link: '/gameserver/satisfactory/backup-erstellen' },
                   { text: 'Max Spieler ändern', link: '/gameserver/satisfactory/max-spieler-aendern' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/satisfactory/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/satisfactory/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/satisfactory/server-beitreten' },
                   { text: 'Server Name ändern', link: '/gameserver/satisfactory/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/satisfactory/server-passwort-setzen' }
                 ]
@@ -2869,9 +2873,13 @@ export default defineConfig({
                 link: '/en/gameserver/satisfactory',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/satisfactory/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/satisfactory/add-savegame' },
                   { text: 'Change Max Players', link: '/en/gameserver/satisfactory/change-max-players' },
                   { text: 'Change Server Name', link: '/en/gameserver/satisfactory/change-server-name' },
                   { text: 'Create Backup', link: '/en/gameserver/satisfactory/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/satisfactory/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/satisfactory/join-server' },
                   { text: 'Set Admin Password', link: '/en/gameserver/satisfactory/set-admin-password' },
                   { text: 'Set Server Password', link: '/en/gameserver/satisfactory/set-server-password' }
                 ]
