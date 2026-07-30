@@ -244,6 +244,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Citadel Forged with Fire',
+                link: '/gameserver/citadel-forged-with-fire',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/citadel-forged-with-fire/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/citadel-forged-with-fire/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/citadel-forged-with-fire/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/citadel-forged-with-fire/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/citadel-forged-with-fire/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/citadel-forged-with-fire/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Colony Survival',
                 link: '/gameserver/colony-survival',
                 collapsed: true,
@@ -317,6 +330,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Counter-Strike Global Offensive',
+                link: '/gameserver/counter-strike-global-offensive',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/counter-strike-global-offensive/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/counter-strike-global-offensive/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/counter-strike-global-offensive/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/counter-strike-global-offensive/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/counter-strike-global-offensive/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Counter-Strike Source',
                 link: '/gameserver/counter-strike-source',
                 collapsed: true,
@@ -338,6 +363,20 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/craftopia/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/craftopia/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/craftopia/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'CryoFall',
+                link: '/gameserver/cryofall',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/cryofall/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/cryofall/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/cryofall/mods-hinzufuegen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/cryofall/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/cryofall/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/cryofall/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/cryofall/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -451,6 +490,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Fistful of Frags',
+                link: '/gameserver/fistful-of-frags',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/fistful-of-frags/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/fistful-of-frags/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/fistful-of-frags/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/fistful-of-frags/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/fistful-of-frags/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'FiveM',
                 link: '/gameserver/fivem',
                 collapsed: true,
@@ -479,6 +530,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Frozen Flame',
+                link: '/gameserver/frozen-flame',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/frozen-flame/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/frozen-flame/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/frozen-flame/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/frozen-flame/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/frozen-flame/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/frozen-flame/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Garry\'s Mod',
                 link: '/gameserver/garrys-mod',
                 collapsed: true,
@@ -488,6 +552,18 @@ export default defineConfig({
                   { text: 'Mods hinzufügen', link: '/gameserver/garrys-mod/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/garrys-mod/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/garrys-mod/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Ground Branch',
+                link: '/gameserver/ground-branch',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/ground-branch/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/ground-branch/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/ground-branch/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/ground-branch/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/ground-branch/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -839,6 +915,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Operation Harsh Doorstop',
+                link: '/gameserver/operation-harsh-doorstop',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/operation-harsh-doorstop/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/operation-harsh-doorstop/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/operation-harsh-doorstop/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/operation-harsh-doorstop/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/operation-harsh-doorstop/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Palworld',
                 link: '/gameserver/palworld',
                 collapsed: true,
@@ -907,6 +995,18 @@ export default defineConfig({
                   { text: 'Server Passwort setzen', link: '/gameserver/project-zomboid/server-passwort-setzen' },
                   { text: 'Serverliste aktivieren', link: '/gameserver/project-zomboid/serverliste-aktivieren' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/project-zomboid/spieler-kicken-bannen' }
+                ]
+              },
+              {
+                text: 'Quake Live',
+                link: '/gameserver/quake-live',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/quake-live/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/quake-live/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/quake-live/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/quake-live/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/quake-live/spieler-kicken-bannen' }
                 ]
               },
               {
@@ -1012,6 +1112,29 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Solace Crafting',
+                link: '/gameserver/solace-crafting',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/solace-crafting/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/solace-crafting/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/solace-crafting/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/solace-crafting/server-beitreten' }
+                ]
+              },
+              {
+                text: 'Soldat',
+                link: '/gameserver/soldat',
+                collapsed: true,
+                items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/soldat/admin-hinzufuegen' },
+                  { text: 'Backup erstellen', link: '/gameserver/soldat/backup-erstellen' },
+                  { text: 'Mods hinzufügen', link: '/gameserver/soldat/mods-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/soldat/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/soldat/spieler-kicken-bannen' }
+                ]
+              },
+              {
                 text: 'Sons Of The Forest',
                 link: '/gameserver/sons-of-the-forest',
                 collapsed: true,
@@ -1096,6 +1219,17 @@ export default defineConfig({
                   { text: 'Team Balance erzwingen', link: '/gameserver/squad-44/team-balance-erzwingen' },
                   { text: 'Teamwechsel erlauben', link: '/gameserver/squad-44/teamwechsel-erlauben' },
                   { text: 'Teamwechsel verhindern', link: '/gameserver/squad-44/teamwechsel-verhindern' }
+                ]
+              },
+              {
+                text: 'StarRupture',
+                link: '/gameserver/starrupture',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/starrupture/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/starrupture/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/starrupture/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/starrupture/server-beitreten' }
                 ]
               },
               {
@@ -1273,6 +1407,17 @@ export default defineConfig({
                   { text: 'Server beitreten', link: '/gameserver/vein/server-beitreten' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/vein/spieler-kicken-bannen' },
                   { text: 'Whitelist aktivieren', link: '/gameserver/vein/whitelist-aktivieren' }
+                ]
+              },
+              {
+                text: 'Voyagers of Nera',
+                link: '/gameserver/voyagers-of-nera',
+                collapsed: true,
+                items: [
+                  { text: 'Backup erstellen', link: '/gameserver/voyagers-of-nera/backup-erstellen' },
+                  { text: 'Savegame herunterladen', link: '/gameserver/voyagers-of-nera/savegame-herunterladen' },
+                  { text: 'Savegame hinzufügen', link: '/gameserver/voyagers-of-nera/savegame-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/voyagers-of-nera/server-beitreten' }
                 ]
               },
               {
@@ -1657,6 +1802,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Citadel Forged with Fire',
+                link: '/en/gameserver/citadel-forged-with-fire',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/citadel-forged-with-fire/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/citadel-forged-with-fire/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/citadel-forged-with-fire/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/citadel-forged-with-fire/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/citadel-forged-with-fire/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/citadel-forged-with-fire/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Colony Survival',
                 link: '/en/gameserver/colony-survival',
                 collapsed: true,
@@ -1730,6 +1888,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Counter-Strike Global Offensive',
+                link: '/en/gameserver/counter-strike-global-offensive',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/counter-strike-global-offensive/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/counter-strike-global-offensive/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/counter-strike-global-offensive/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/counter-strike-global-offensive/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/counter-strike-global-offensive/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Counter-Strike Source',
                 link: '/en/gameserver/counter-strike-source',
                 collapsed: true,
@@ -1751,6 +1921,20 @@ export default defineConfig({
                   { text: 'Download Savegame', link: '/en/gameserver/craftopia/download-savegame' },
                   { text: 'Join Server', link: '/en/gameserver/craftopia/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/craftopia/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'CryoFall',
+                link: '/en/gameserver/cryofall',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/cryofall/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/cryofall/add-mods' },
+                  { text: 'Add Savegame', link: '/en/gameserver/cryofall/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/cryofall/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/cryofall/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/cryofall/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/cryofall/kick-ban-players' }
                 ]
               },
               {
@@ -1864,6 +2048,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Fistful of Frags',
+                link: '/en/gameserver/fistful-of-frags',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/fistful-of-frags/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/fistful-of-frags/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/fistful-of-frags/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/fistful-of-frags/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/fistful-of-frags/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'FiveM',
                 link: '/en/gameserver/fivem',
                 collapsed: true,
@@ -1892,6 +2088,19 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Frozen Flame',
+                link: '/en/gameserver/frozen-flame',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/frozen-flame/add-admin' },
+                  { text: 'Add Savegame', link: '/en/gameserver/frozen-flame/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/frozen-flame/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/frozen-flame/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/frozen-flame/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/frozen-flame/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Garry\'s Mod',
                 link: '/en/gameserver/garrys-mod',
                 collapsed: true,
@@ -1901,6 +2110,18 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/garrys-mod/create-backup' },
                   { text: 'Join Server', link: '/en/gameserver/garrys-mod/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/garrys-mod/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Ground Branch',
+                link: '/en/gameserver/ground-branch',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/ground-branch/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/ground-branch/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/ground-branch/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/ground-branch/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/ground-branch/kick-ban-players' }
                 ]
               },
               {
@@ -2249,6 +2470,18 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Operation Harsh Doorstop',
+                link: '/en/gameserver/operation-harsh-doorstop',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/operation-harsh-doorstop/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/operation-harsh-doorstop/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/operation-harsh-doorstop/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/operation-harsh-doorstop/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/operation-harsh-doorstop/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Palworld',
                 link: '/en/gameserver/palworld',
                 collapsed: true,
@@ -2317,6 +2550,18 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/project-zomboid/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/project-zomboid/kick-ban-players' },
                   { text: 'Set Server Password', link: '/en/gameserver/project-zomboid/set-server-password' }
+                ]
+              },
+              {
+                text: 'Quake Live',
+                link: '/en/gameserver/quake-live',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/quake-live/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/quake-live/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/quake-live/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/quake-live/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/quake-live/kick-ban-players' }
                 ]
               },
               {
@@ -2422,6 +2667,29 @@ export default defineConfig({
                 ]
               },
               {
+                text: 'Solace Crafting',
+                link: '/en/gameserver/solace-crafting',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/solace-crafting/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/solace-crafting/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/solace-crafting/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/solace-crafting/join-server' }
+                ]
+              },
+              {
+                text: 'Soldat',
+                link: '/en/gameserver/soldat',
+                collapsed: true,
+                items: [
+                  { text: 'Add Admin', link: '/en/gameserver/soldat/add-admin' },
+                  { text: 'Add Mods', link: '/en/gameserver/soldat/add-mods' },
+                  { text: 'Create Backup', link: '/en/gameserver/soldat/create-backup' },
+                  { text: 'Join Server', link: '/en/gameserver/soldat/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/soldat/kick-ban-players' }
+                ]
+              },
+              {
                 text: 'Sons Of The Forest',
                 link: '/en/gameserver/sons-of-the-forest',
                 collapsed: true,
@@ -2506,6 +2774,17 @@ export default defineConfig({
                   { text: 'Prevent Team Change', link: '/en/gameserver/squad-44/prevent-team-change' },
                   { text: 'Record Demos', link: '/en/gameserver/squad-44/record-demos' },
                   { text: 'Set Server Password', link: '/en/gameserver/squad-44/set-server-password' }
+                ]
+              },
+              {
+                text: 'StarRupture',
+                link: '/en/gameserver/starrupture',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/starrupture/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/starrupture/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/starrupture/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/starrupture/join-server' }
                 ]
               },
               {
@@ -2683,6 +2962,17 @@ export default defineConfig({
                   { text: 'Enable Whitelist', link: '/en/gameserver/vein/enable-whitelist' },
                   { text: 'Join Server', link: '/en/gameserver/vein/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/vein/kick-ban-players' }
+                ]
+              },
+              {
+                text: 'Voyagers of Nera',
+                link: '/en/gameserver/voyagers-of-nera',
+                collapsed: true,
+                items: [
+                  { text: 'Add Savegame', link: '/en/gameserver/voyagers-of-nera/add-savegame' },
+                  { text: 'Create Backup', link: '/en/gameserver/voyagers-of-nera/create-backup' },
+                  { text: 'Download Savegame', link: '/en/gameserver/voyagers-of-nera/download-savegame' },
+                  { text: 'Join Server', link: '/en/gameserver/voyagers-of-nera/join-server' }
                 ]
               },
               {
