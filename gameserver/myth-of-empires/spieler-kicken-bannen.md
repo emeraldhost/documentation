@@ -14,6 +14,10 @@ Du benötigst Adminrechte, um diese Befehle nutzen zu können. Siehe [Admin hinz
 Hier findest du eine Anleitung, wie du eine [SteamID64](../steamid64-herausfinden.md) herausfindest.
 ::::
 
+:::: warning Achtung
+Für Myth of Empires gibt es **keine offizielle Befehlsübersicht** des Entwicklers. Die Kick- und Ban-Befehle in dieser Anleitung stammen aus der Serveradministrations-Community. Je nach Serverversion kann es deshalb sein, dass ein Befehl bei dir nicht wie beschrieben funktioniert.
+::::
+
 ## Spieler kicken
 
 1. <b>Konsole öffnen</b><br>

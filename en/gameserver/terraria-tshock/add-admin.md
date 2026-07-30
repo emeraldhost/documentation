@@ -45,6 +45,10 @@ This is the fastest way because it requires neither a setup code nor an existing
 
    You now have admin rights and can use all commands of your group.
 
+   :::: warning Turn off the setup code
+   If tShock printed a setup code on startup, that code stays valid until the next server start – even if you created your account through the console. So after logging in, enter `/setup` once in the in-game chat. This disables the setup system immediately and deletes the code.
+   ::::
+
 ## Create an admin via the setup code
 
 Alternatively you can use the setup assistant that tShock provides on the first start.

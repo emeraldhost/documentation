@@ -9,7 +9,7 @@ Avorion gives you two ways onto your server: the in-game server browser or a dir
 ## Find connection details
 
 :::: danger Important
-To connect you need the **IP address** and the **Game Port** of your server. You can find both in the **dashboard** of your server. Use the Game Port – not the Query Port.
+To connect you need the **IP address** and the **Game Port** of your server. You can find both in the **dashboard** of your server.
 ::::
 
 ## Connect directly via IP
@@ -32,8 +32,8 @@ To connect you need the **IP address** and the **Game Port** of your server. You
 
    You can find the exact values in the **dashboard** of your server.
 
-5. <b>Join</b><br>
-   Confirm with **Add Server** or **Join**. The server then stays in your server list and you can select it directly next time.
+5. <b>Name the entry and join</b><br>
+   Additionally give the entry a name and confirm with **Add Server**. The server is added to your server list and the connection is established – next time you simply pick it from the list. With **Join** you connect without saving the server permanently.
 
 ## Via the server browser
 
@@ -47,7 +47,7 @@ To connect you need the **IP address** and the **Game Port** of your server. You
    Search the list for your server name and join it with a double click or via **Join**.
 
 :::: info Note
-Your server only appears in the server browser if it is publicly listed. This is controlled by the startup parameter `--listed true` or the value `isListed=true` in the `server.ini`. If you cannot find your server there, use the direct connection via **Join via IP**.
+Your server only appears in the server browser if it is publicly listed. This is controlled in the **dashboard** via the setting **Serverliste** (`true` = listed, `false` = not listed); internally this corresponds to the startup parameter `--listed` or the value `isListed` in the `server.ini`. If you cannot find your server there, use the direct connection via **Join via IP**.
 ::::
 
 :::: warning Warning
@@ -55,5 +55,5 @@ After a restart or a change to the settings it takes a moment until the server i
 ::::
 
 :::: tip Tip
-Besides the Game Port, an Avorion server also uses a Query Port as well as ports for the Steam query. These ports are assigned to you in the **dashboard** – to connect in the game you only need the Game Port.
+Besides the Game Port, an Avorion server also uses a Query Port as well as ports for the Steam query. All values are assigned to your server in the **dashboard**. To connect, first enter the **Game Port** – if the connection does not work with it, try the same entry with the **Query Port**.
 ::::

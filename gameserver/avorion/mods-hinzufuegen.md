@@ -50,11 +50,10 @@ Stoppe deinen Server, bevor du Mods hinzufügst oder entfernst. Nach einem Spiel
    }
    allowed =
    {
-       {workshopid = "1691539727"},
    }
    ```
 
-   Der Block `allowed` verwendet dieselbe Schreibweise wie `mods`. Brauchst du ihn nicht, lässt du ihn einfach leer.
+   Den Block `allowed` kannst du leer lassen. Möchtest du zusätzlich clientseitige Mods erlauben, trägst du sie dort in derselben Schreibweise ein: `{workshopid = "…"}`.
 
 5. <b>Speichern und starten</b><br>
    Speichere die Datei und starte deinen Server. Beim Start lädt er die eingetragenen Mods herunter und aktiviert sie – der erste Start kann dadurch etwas länger dauern.

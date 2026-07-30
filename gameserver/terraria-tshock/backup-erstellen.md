@@ -47,7 +47,7 @@ Diese Sicherungen sind vollwertige Weltdateien – du machst daraus wieder eine 
    Lade die vorhandene `.wld`-Datei aus dem Hauptverzeichnis herunter oder benenne sie um, falls du zum aktuellen Stand zurückkehren möchtest.
 
 4. <b>Sicherung wiederherstellen</b><br>
-   Kopiere die gewünschte Datei aus `/tshock/backups/` in das Hauptverzeichnis deines Servers und benenne sie exakt so, wie das Feld **Welt Name** in den Einstellungen lautet – also z.B. `MeineWelt.wld`. Entferne dabei den Zeitstempel und die Endung `.bak`.
+   Kopiere die gewünschte Datei aus `/tshock/backups/` in das Hauptverzeichnis deines Servers und benenne sie exakt so, wie das Feld **World Name** in den Einstellungen lautet – also z.B. `MeineWelt.wld`. Entferne dabei den Zeitstempel und die Endung `.bak`.
 
 5. <b>Server starten</b><br>
    Starte deinen Server. Der wiederhergestellte Stand wird jetzt geladen.

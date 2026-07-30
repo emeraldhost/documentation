@@ -53,6 +53,10 @@ Mehrere SteamID64 trennst du durch ein **Semikolon** (`;`) – ohne Leerzeichen 
 
 ## Befehle im Überblick
 
+:::: warning Achtung
+Für Myth of Empires gibt es **keine offizielle Befehlsübersicht** des Entwicklers. Die folgende Liste stammt aus der Serveradministrations-Community. Je nach Serverversion kann ein einzelner Befehl deshalb abweichen oder fehlen.
+::::
+
 | Befehl | Beschreibung |
 |--------|-------------|
 | `cheat SaveWorld` | Welt sofort speichern |

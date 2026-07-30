@@ -45,6 +45,10 @@ Das ist der schnellste Weg, weil du dafür weder einen Setup-Code noch ein beste
 
    Du hast jetzt Adminrechte und kannst alle Befehle deiner Gruppe nutzen.
 
+   :::: warning Setup-Code abschalten
+   Hat tShock beim Start einen Setup-Code ausgegeben, bleibt dieser bis zum nächsten Serverstart gültig – auch dann, wenn du deinen Account über die Konsole angelegt hast. Gib deshalb nach der Anmeldung einmal `/setup` im Ingame-Chat ein. Damit wird das Setup-System sofort abgeschaltet und der Code gelöscht.
+   ::::
+
 ## Admin über den Setup-Code anlegen
 
 Alternativ nutzt du den Einrichtungsassistenten, den tShock beim ersten Start bereitstellt.

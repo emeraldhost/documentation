@@ -50,11 +50,10 @@ Stop your server before adding or removing mods. After a game update, mods may b
    }
    allowed =
    {
-       {workshopid = "1691539727"},
    }
    ```
 
-   The `allowed` block uses the same notation as `mods`. If you do not need it, simply leave it empty.
+   You can leave the `allowed` block empty. If you additionally want to allow client-side mods, add them there using the same notation: `{workshopid = "…"}`.
 
 5. <b>Save and start</b><br>
    Save the file and start your server. On startup it downloads the configured mods and activates them – the first start can therefore take a little longer.

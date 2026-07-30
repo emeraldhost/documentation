@@ -58,15 +58,16 @@ An IP ban affects everyone behind the same IP address – for example several pe
 | `/banip <player IP>` | Ban an IP address |
 | `/unbanip <player IP>` | Lift an IP ban |
 | `/blacklist` | Show the blacklist options |
-| `/player` | Show connected players |
-| `/status` | Show the status of the server |
+| `/whitelist` | Show the whitelist options |
+| `/player` | Show the number of connected players |
+| `/status` | Show information about the current status of the server |
 | `/w <player name>` | Send a private message to a player |
-| `/save` | Save the galaxy |
+| `/save` | Save the current state |
 | `/stop` | Shut down the server |
 | `/help` | Show all available commands |
 
 :::: tip Tip
-If you are unsure about the spelling of a player name, use `/player` to list the connected players and take the name from there.
+The player name has to match exactly – including capitalisation. It is best to copy it from the console of your dashboard, where it appears when the player connects.
 ::::
 
 :::: info Note

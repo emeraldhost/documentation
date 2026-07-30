@@ -50,7 +50,7 @@ Erstelle vor dem Hochladen ein [Backup](backup-erstellen.md) deiner bisherigen S
    ::::
 
 4. <b>Weltnamen setzen</b><br>
-   Öffne die Verwaltung, navigiere zu den **Einstellungen** und trage im Feld **Welt Name** den Dateinamen deiner Welt ein – **ohne** die Endung `.wld` (z.B. `Meine_Welt` für `Meine_Welt.wld`).
+   Öffne die Verwaltung, navigiere zu den **Einstellungen** und trage im Feld **World Name** den Dateinamen deiner Welt ein – **ohne** die Endung `.wld` (z.B. `Meine_Welt` für `Meine_Welt.wld`).
 
 5. <b>Server starten</b><br>
    Speichere die Einstellungen und starte deinen Server. Beim Start wird jetzt deine hochgeladene Welt geladen.

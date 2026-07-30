@@ -14,6 +14,10 @@ You need admin rights to use these commands. See [Add Admin](add-admin.md).
 Here you can find a guide on how to find a [SteamID64](../steamid64-find-out.md).
 ::::
 
+:::: warning Warning
+There is **no official command reference** from the developer for Myth of Empires. The kick and ban commands in this guide come from the server administration community. Depending on your server version a command may therefore not work exactly as described.
+::::
+
 ## Kick a player
 
 1. <b>Open the console</b><br>

@@ -53,6 +53,10 @@ Separate multiple SteamID64 with a **semicolon** (`;`) – without any spaces in
 
 ## Command overview
 
+:::: warning Warning
+There is **no official command reference** from the developer for Myth of Empires. The following list comes from the server administration community. Depending on your server version an individual command may therefore differ or be missing.
+::::
+
 | Command | Description |
 |---------|-------------|
 | `cheat SaveWorld` | Save the world immediately |

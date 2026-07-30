@@ -32,14 +32,14 @@ Stoppe deinen Server, bevor du die Datei herunterlädst. Beim Stoppen über die 
    Starte deinen Server wieder.
 
 :::: tip Welche Datei ist die richtige?
-Welche Welt geladen wird, erkennst du am Feld **Welt Name** in den **Einstellungen** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst du die Datei `MeineWelt.wld`.
+Welche Welt geladen wird, erkennst du am Feld **World Name** in den **Einstellungen** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst du die Datei `MeineWelt.wld`.
 ::::
 
 ## Weitere Daten, die zum Spielstand gehören
 
 | Pfad | Inhalt |
 |------|--------|
-| `/<Welt Name>.wld` | Die Welt selbst – Gelände, Bauten, Truhen, NPCs |
+| `/<World Name>.wld` | Die Welt selbst – Gelände, Bauten, Truhen, NPCs |
 | `/tshock/tshock.sqlite` | Accounts, Gruppen, Banns und – bei aktivierten Server Side Characters – die Charakterdaten der Spieler |
 | `/tshock/config.json` | Die Servereinstellungen von tShock |
 | `/tshock/backups/` | Die automatischen Weltsicherungen von tShock |
