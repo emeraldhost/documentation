@@ -74,7 +74,7 @@ A `!` in front of an entry marks an IP address. If you enter a Steam name instea
 | `e` | unban | Remove bans |
 | `f` | slay | Slay or harm players |
 | `g` | changemap | Change the map or major gameplay features |
-| `h` | cvar | Change most ConVars |
+| `h` | cvars | Change most ConVars |
 | `i` | config | Execute config files |
 | `j` | chat | Special chat privileges |
 | `k` | vote | Start or create votes |

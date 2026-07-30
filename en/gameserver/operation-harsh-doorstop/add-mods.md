@@ -23,7 +23,7 @@ Your server does **not** download mods from the Workshop on its own. You downloa
    You can also download the mod on your PC without subscribing, using SteamCMD:
 
    ```
-   +login anonymous +workshop_download_item 736590 <workshop ID> validate +quit
+   steamcmd +login anonymous +workshop_download_item 736590 <workshop ID> +quit
    ```
 
    The files then end up under `steamapps/workshop/content/736590/<workshop ID>` as well.
@@ -60,7 +60,7 @@ Your server does **not** download mods from the Workshop on its own. You downloa
 Upload the folder completely and only start the server afterwards. An interrupted upload means maps or game modes of the mod cannot be loaded.
 ::::
 
-## Step 3: Enable the mod content in game
+## Step 3: Enable the mod content on the server
 
 Uploading the mod is not enough: maps, factions and game modes additionally have to be selected in the **startup parameters** of your server. You adjust those in the **dashboard**.
 

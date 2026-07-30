@@ -74,7 +74,7 @@ Ein `!` vor dem Eintrag kennzeichnet eine IP-Adresse. Trägst du stattdessen ein
 | `e` | unban | Banns aufheben |
 | `f` | slay | Spieler töten oder verletzen |
 | `g` | changemap | Map wechseln oder zentrale Spielfunktionen ändern |
-| `h` | cvar | Die meisten ConVars ändern |
+| `h` | cvars | Die meisten ConVars ändern |
 | `i` | config | Konfigurationsdateien ausführen |
 | `j` | chat | Besondere Chat-Rechte |
 | `k` | vote | Abstimmungen starten oder erstellen |

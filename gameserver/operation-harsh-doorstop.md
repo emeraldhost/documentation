@@ -8,6 +8,6 @@ Gespielt wird in rundenbasierten Modi, in denen zwei Fraktionen um Kontrollpunkt
 
 Das Herzstück des Spiels ist die Modbarkeit: Karten, Fraktionen, Waffen und ganze Spielmodi stammen aus dem Steam Workshop und werden von der Community erstellt. Auf einem eigenen Server bestimmst du, welche Mods laufen, welche Karten rotieren und welche Fraktionen gegeneinander antreten.
 
-Auf deinem eigenen Server verwaltest du außerdem Admins, Bans und Whitelist über Konfigurationsdateien und steuerst das laufende Spiel per Ingame-Konsole oder RCON – vom Kartenwechsel bis zum Kick einzelner Spieler.
+Auf deinem eigenen Server verwaltest du außerdem Admins und Bans über Konfigurationsdateien und steuerst das laufende Spiel per Ingame-Konsole oder RCON – vom Kartenwechsel bis zum Kick einzelner Spieler.
 
 Operation Harsh Doorstop ist auf dem PC über Steam erhältlich und ist kostenlos spielbar.

@@ -15,7 +15,7 @@ Operation Harsh Doorstop does not store a world state: every round starts from s
 - Before updating the server version
 - Before major changes to the configuration
 - Before adding or removing mods
-- Before changing admin, ban or whitelist files
+- Before changing the admin and ban files
 - At regular intervals so you always have a safe state to return to
 
 ## Create a backup

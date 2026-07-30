@@ -8,6 +8,6 @@ Matches are round-based, with two factions fighting over control points. Besides
 
 The heart of the game is its moddability: maps, factions, weapons and entire game modes come from the Steam Workshop and are created by the community. On your own server you decide which mods run, which maps rotate and which factions face each other.
 
-On your own server you also manage admins, bans and the whitelist through configuration files, and control the running match via the in-game console or RCON – from switching maps to kicking individual players.
+On your own server you also manage admins and bans through configuration files, and control the running match via the in-game console or RCON – from switching maps to kicking individual players.
 
 Operation Harsh Doorstop is available on PC via Steam and is free to play.

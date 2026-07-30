@@ -23,7 +23,7 @@ Dein Server lädt Mods **nicht** selbstständig aus dem Workshop herunter. Du l�
    Du kannst die Mod auch ohne Abo mit SteamCMD auf deinem PC herunterladen:
 
    ```
-   +login anonymous +workshop_download_item 736590 <Workshop-ID> validate +quit
+   steamcmd +login anonymous +workshop_download_item 736590 <Workshop-ID> +quit
    ```
 
    Die Dateien liegen danach ebenfalls unter `steamapps/workshop/content/736590/<Workshop-ID>`.
@@ -60,7 +60,7 @@ Dein Server lädt Mods **nicht** selbstständig aus dem Workshop herunter. Du l�
 Lade den Ordner vollständig hoch und starte den Server erst danach. Ein abgebrochener Upload führt dazu, dass Karten oder Spielmodi der Mod nicht geladen werden können.
 ::::
 
-## Schritt 3: Modinhalte im Spiel aktivieren
+## Schritt 3: Modinhalte auf dem Server aktivieren
 
 Es reicht nicht, die Mod hochzuladen: Karten, Fraktionen und Spielmodi musst du zusätzlich in den **Startparametern** deines Servers auswählen. Diese passt du in der **Verwaltung** an.
 

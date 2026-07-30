@@ -37,17 +37,8 @@ Deine Mitspieler müssen für Plugins nichts installieren. Plugins werden aussch
 5. <b>Server starten</b><br>
    Starte deinen Server und prüfe in der Serverkonsole mit `meta version`, ob Metamod:Source geladen wurde.
 
-:::: warning Metamod wird nicht geladen?
-Antwortet der Server auf `meta version` mit `Unknown command`, kannst du Metamod:Source über eine VDF-Datei einbinden. Lege dazu die Datei `/fof/addons/metamod.vdf` mit folgendem Inhalt an:
-
-```
-"Plugin"
-{
-	"file"	"../fof/addons/metamod/bin/server"
-}
-```
-
-Starte den Server anschließend neu.
+:::: info Hinweis
+Eine eigene `metamod.vdf` musst du nicht anlegen — die passende Datei liegt dem Paket bereits bei und landet beim Hochladen automatisch unter `/fof/addons/metamod.vdf`. Antwortet der Server auf `meta version` mit `Unknown command`, prüfe zuerst, ob diese Datei und der Ordner `/fof/addons/metamod/` wirklich vorhanden sind und ob du das Linux-Paket verwendet hast.
 ::::
 
 ## SourceMod installieren
