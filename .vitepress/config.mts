@@ -1705,6 +1705,15 @@ export default defineConfig({
         lastUpdated: {
           text: 'Zuletzt aktualisiert'
         },
+        // Labels that VitePress otherwise renders in English. Most of them are
+        // only visible on mobile or as a tooltip.
+        darkModeSwitchLabel: 'Erscheinungsbild',
+        lightModeSwitchTitle: 'Zum hellen Design wechseln',
+        darkModeSwitchTitle: 'Zum dunklen Design wechseln',
+        sidebarMenuLabel: 'Menü',
+        returnToTopLabel: 'Nach oben',
+        langMenuLabel: 'Sprache wechseln',
+        skipToContentLabel: 'Zum Inhalt springen'
       }
     },
     en: {
@@ -3395,7 +3404,36 @@ export default defineConfig({
       copyright: '© 2016 - 2026 EmeraldHost'
     },
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        // VitePress only ships English strings for the local search UI.
+        // The `en` locale is left out on purpose so it keeps those defaults.
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Suchen',
+                buttonAriaLabel: 'Suchen'
+              },
+              modal: {
+                displayDetails: 'Detaillierte Liste anzeigen',
+                resetButtonTitle: 'Suche zurücksetzen',
+                backButtonTitle: 'Suche schließen',
+                noResultsText: 'Keine Ergebnisse für',
+                footer: {
+                  selectText: 'zum Auswählen',
+                  selectKeyAriaLabel: 'Eingabetaste',
+                  navigateText: 'zum Navigieren',
+                  navigateUpKeyAriaLabel: 'Pfeil nach oben',
+                  navigateDownKeyAriaLabel: 'Pfeil nach unten',
+                  closeText: 'zum Schließen',
+                  closeKeyAriaLabel: 'Escape'
+                }
+              }
+            }
+          }
+        }
+      }
     },
     lastUpdated: true,
     i18nRouting: false
