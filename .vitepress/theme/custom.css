@@ -43,8 +43,18 @@
  *    custom containers.
  * -------------------------------------------------------------------------- */
 
+/*
+ * Light mode.
+ *
+ * The `-1` shades are text colours that sit on top of the matching `-soft`
+ * background (inline code and links inside custom blocks, badges). Because the
+ * `-soft` colours here use a 40% alpha instead of the ~15% VitePress ships
+ * with, those backgrounds are noticeably more saturated and the text on top of
+ * them has to be darker to stay readable. Every `-1` value below is picked to
+ * clear a 4.5:1 contrast ratio against its own `-soft` background over white.
+ */
 :root {
-    --vp-c-primary: #91d655;
+    --vp-c-primary: #387017;
     --vp-c-primary-soft: rgba(145, 214, 85, 0.40);
 
     --vp-c-gray-1: #dddde3;
@@ -52,30 +62,36 @@
     --vp-c-gray-3: #ebebef;
     --vp-c-gray-soft: rgba(142, 150, 170, 0.14);
 
-    --vp-c-indigo-1: #a5b4fc;
-    --vp-c-indigo-2: #3b82f6;
-    --vp-c-indigo-3: #2563eb;
+    --vp-c-indigo-1: #3451b2;
+    --vp-c-indigo-2: #3a5ccc;
+    --vp-c-indigo-3: #5672cd;
     --vp-c-indigo-soft: rgba(100, 108, 255, 0.40);
 
-    --vp-c-green-1: #86efac;
-    --vp-c-green-2: #22c55e;
-    --vp-c-green-3: #16a34a;
+    --vp-c-green-1: #18794e;
+    --vp-c-green-2: #299764;
+    --vp-c-green-3: #30a46c;
     --vp-c-green-soft: rgba(16, 185, 129, 0.40);
 
-    --vp-c-yellow-1: #fdba74;
-    --vp-c-yellow-2: #f59e0b;
-    --vp-c-yellow-3: #d97706;
+    --vp-c-yellow-1: #7d4c26;
+    --vp-c-yellow-2: #915930;
+    --vp-c-yellow-3: #9f6a00;
     --vp-c-yellow-soft: rgba(234, 179, 8, 0.40);
 
-    --vp-c-red-1: #fca5a5;
-    --vp-c-red-2: #ef4444;
-    --vp-c-red-3: #dc2626;
+    --vp-c-red-1: #9b1c21;
+    --vp-c-red-2: #b8272c;
+    --vp-c-red-3: #cd2b31;
     --vp-c-red-soft: rgba(244, 63, 94, 0.40);
 
     --vp-c-sponsor: #db2777;
 }
 
+/*
+ * Dark mode. The brand green is restated here because the light mode value
+ * above would otherwise be inherited.
+ */
 .dark {
+    --vp-c-primary: #91d655;
+    --vp-c-primary-soft: rgba(145, 214, 85, 0.40);
 
     --vp-c-gray-1: #515c67;
     --vp-c-gray-2: #414853;
@@ -265,7 +281,12 @@
     --vp-z-index-nav: 30;
     --vp-z-index-layout-top: 40;
     --vp-z-index-backdrop: 50;
-    --vp-z-index-sidebar: 60;
+    /*
+     * --vp-z-index-sidebar is intentionally not set here.
+     * VitePress lowers it to 25 from 960px upwards so the sidebar stays below
+     * the navbar. Overriding it with a flat value pushes the sidebar on top and
+     * its curtain element then hides the logo and the site title.
+     */
 }
 
 /**

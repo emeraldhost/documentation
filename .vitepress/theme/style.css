@@ -136,7 +136,11 @@
   .DocSearch {
     --docsearch-primary-color: var(--vp-c-brand-1) !important;
   }
-  .dark [class*='DocSearch'] {
+  /*
+   * Exclude .vp-icon: since VitePress 1.6 the search icons are drawn with a CSS
+   * mask plus background-color. A fixed background colour would paint over them.
+   */
+  .dark [class*='DocSearch']:not(.vp-icon) {
     background-color: #242427!important;
   }
   .dark .DocSearch-Button .DocSearch-Button-Key {
