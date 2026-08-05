@@ -15,11 +15,11 @@ Die **Game ID** deines Servers findest du in der **Verwaltung** deines Servers u
 1. <b>Core Keeper starten</b><br>
    Starte Core Keeper.
 
-2. <b>Charakter auswählen</b><br>
-   Wähle deinen Charakter aus.
-
-3. <b>Co-op beitreten</b><br>
+2. <b>Co-op beitreten</b><br>
    Klicke auf **Co-op** und wähle **Join Game**.
+
+3. <b>Charakter auswählen</b><br>
+   Wähle deinen Charakter aus.
 
 4. <b>Game ID eingeben</b><br>
    Gib die **Game ID** deines Servers in das Eingabefeld ein.
