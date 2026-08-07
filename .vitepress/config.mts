@@ -527,10 +527,17 @@ export default defineConfig({
                 link: '/gameserver/fivem',
                 collapsed: true,
                 items: [
+                  { text: 'Admin hinzufügen', link: '/gameserver/fivem/admin-hinzufuegen' },
                   { text: 'Backup erstellen', link: '/gameserver/fivem/backup-erstellen' },
+                  { text: 'Datenbank einrichten', link: '/gameserver/fivem/datenbank-einrichten' },
+                  { text: 'Datenbank importieren', link: '/gameserver/fivem/datenbank-importieren' },
                   { text: 'Lizenz Key hinterlegen', link: '/gameserver/fivem/lizenz-key-hinterlegen' },
                   { text: 'Port einstellen', link: '/gameserver/fivem/port-einstellen' },
-                  { text: 'Server beitreten', link: '/gameserver/fivem/server-beitreten' }
+                  { text: 'Resources hinzufügen', link: '/gameserver/fivem/resources-hinzufuegen' },
+                  { text: 'Server beitreten', link: '/gameserver/fivem/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/fivem/spieler-kicken-bannen' },
+                  { text: 'Steam Web API Key hinterlegen', link: '/gameserver/fivem/steam-web-api-key-hinterlegen' },
+                  { text: 'txAdmin aktivieren', link: '/gameserver/fivem/txadmin-aktivieren' }
                 ]
               },
               {
@@ -2220,10 +2227,17 @@ export default defineConfig({
                 link: '/en/gameserver/fivem',
                 collapsed: true,
                 items: [
+                  { text: 'Add Admin', link: '/en/gameserver/fivem/add-admin' },
+                  { text: 'Add Resources', link: '/en/gameserver/fivem/add-resources' },
                   { text: 'Create Backup', link: '/en/gameserver/fivem/create-backup' },
+                  { text: 'Enable txAdmin', link: '/en/gameserver/fivem/enable-txadmin' },
+                  { text: 'Import Database', link: '/en/gameserver/fivem/import-database' },
                   { text: 'Join Server', link: '/en/gameserver/fivem/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/fivem/kick-ban-players' },
                   { text: 'Set License Key', link: '/en/gameserver/fivem/set-license-key' },
-                  { text: 'Set Port', link: '/en/gameserver/fivem/set-port' }
+                  { text: 'Set Port', link: '/en/gameserver/fivem/set-port' },
+                  { text: 'Set Steam Web API Key', link: '/en/gameserver/fivem/set-steam-web-api-key' },
+                  { text: 'Set Up Database', link: '/en/gameserver/fivem/set-up-database' }
                 ]
               },
               {
