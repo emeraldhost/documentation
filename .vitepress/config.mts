@@ -455,6 +455,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/enshrouded/admin-hinzufuegen' },
+                  { text: 'Automatische Updates steuern', link: '/gameserver/enshrouded/automatische-updates-steuern' },
                   { text: 'Backup erstellen', link: '/gameserver/enshrouded/backup-erstellen' },
                   { text: 'Performance-Probleme auf Enshrouded Servern', link: '/gameserver/enshrouded/performance-probleme-auf-enshrouded-servern' },
                   { text: 'Savegame herunterladen', link: '/gameserver/enshrouded/savegame-herunterladen' },
@@ -462,7 +463,11 @@ export default defineConfig({
                   { text: 'Schwierigkeit anpassen', link: '/gameserver/enshrouded/schwierigkeit-anpassen' },
                   { text: 'Server beitreten', link: '/gameserver/enshrouded/server-beitreten' },
                   { text: 'Server Passwort ändern', link: '/gameserver/enshrouded/server-passwort-aendern' },
-                  { text: 'Spieler kicken & bannen', link: '/gameserver/enshrouded/spieler-kicken-bannen' }
+                  { text: 'Server-Log auslesen', link: '/gameserver/enshrouded/server-log-auslesen' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/enshrouded/spieler-kicken-bannen' },
+                  { text: 'Text-Chat aktivieren', link: '/gameserver/enshrouded/text-chat-aktivieren' },
+                  { text: 'Voice-Chat aktivieren', link: '/gameserver/enshrouded/voice-chat-aktivieren' },
+                  { text: 'Welt zurücksetzen', link: '/gameserver/enshrouded/welt-zuruecksetzen' }
                 ]
               },
               {
@@ -2158,11 +2163,16 @@ export default defineConfig({
                   { text: 'Add Savegame', link: '/en/gameserver/enshrouded/add-savegame' },
                   { text: 'Adjust Difficulty', link: '/en/gameserver/enshrouded/adjust-difficulty' },
                   { text: 'Change Server Password', link: '/en/gameserver/enshrouded/change-server-password' },
+                  { text: 'Control Automatic Updates', link: '/en/gameserver/enshrouded/control-automatic-updates' },
                   { text: 'Create Backup', link: '/en/gameserver/enshrouded/create-backup' },
                   { text: 'Download Savegame', link: '/en/gameserver/enshrouded/download-savegame' },
+                  { text: 'Enable Text Chat', link: '/en/gameserver/enshrouded/enable-text-chat' },
+                  { text: 'Enable Voice Chat', link: '/en/gameserver/enshrouded/enable-voice-chat' },
                   { text: 'Join Server', link: '/en/gameserver/enshrouded/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/enshrouded/kick-ban-players' },
-                  { text: 'Performance Problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' }
+                  { text: 'Performance Problems on Enshrouded Servers', link: '/en/gameserver/enshrouded/performance-problems-on-enshrouded-servers' },
+                  { text: 'Read Server Log', link: '/en/gameserver/enshrouded/read-server-log' },
+                  { text: 'Reset World', link: '/en/gameserver/enshrouded/reset-world' }
                 ]
               },
               {
