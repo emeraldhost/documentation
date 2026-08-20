@@ -4,10 +4,10 @@ description: Locator Bar auf einem Minecraft Bedrock Edition Server deaktivieren
 
 # So deaktivierst du die Locator Bar auf einem Minecraft Bedrock Server
 
-Die Locator Bar ist eine kompassähnliche Leiste über der Schnellzugriffsleiste, die mit dem Update **„Chase the Skies" (Bedrock 1.21.90)** hinzugefügt wurde. Sie zeigt die Richtung anderer Spieler in der Nähe an. Anders als bei Java Edition wird sie auf Bedrock **nicht** über die Spielregel `locatorBar` gesteuert, sondern über die Spielregel `playerWaypoints` — diese setzt du auf `off`, um die Leiste serverweit für alle Spieler abzuschalten.
+Die Locator Bar ist eine kompassähnliche Leiste über der Schnellzugriffsleiste, die mit dem Update **„Chase the Skies" (Bedrock 1.21.90)** hinzugefügt wurde. Sie zeigt die Richtung anderer Spieler in der Nähe an. Anders als bei Minecraft Java Edition wird sie auf Bedrock **nicht** über die Spielregel `locatorBar` gesteuert, sondern über die Spielregel `playerWaypoints` — diese setzt du auf `off`, um die Leiste serverweit für alle Spieler abzuschalten.
 
 :::: info Hinweis
-`playerWaypoints` ist eine **Welt-Spielregel** und wird über den `/gamerule`-Befehl gesetzt — es gibt **keinen Eintrag in der `server.properties`**. Die Spielregel verwendet die Werte `everyone` (Standard) und `off` — **nicht** `true`/`false` wie bei Java Edition.
+`playerWaypoints` ist eine **Welt-Spielregel** und wird über den `/gamerule`-Befehl gesetzt — es gibt **keinen Eintrag in der `server.properties`**. Die Spielregel verwendet die Werte `everyone` (Standard) und `off` — **nicht** `true`/`false` wie bei Minecraft Java Edition.
 ::::
 
 ## Voraussetzung

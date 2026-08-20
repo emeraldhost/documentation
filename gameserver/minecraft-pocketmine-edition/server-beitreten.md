@@ -66,5 +66,5 @@ Auf Xbox, PlayStation und Nintendo Switch lassen sich keine eigenen Server-Adres
 ## Minecraft Java Edition
 
 :::: danger Wichtig
-Clients der **Java Edition** können einem PocketMine-Server nicht beitreten. Beide Editionen nutzen unterschiedliche Netzwerkprotokolle – Bedrock kommuniziert über UDP, Java über TCP. Es existieren Plugins, die eine teilweise Unterstützung nachrüsten; laut offizieller PocketMine-Dokumentation ist diese aber ausdrücklich nur teilweise und kein vollwertiger Ersatz.
+Clients der **Minecraft Java Edition** können einem PocketMine-Server nicht beitreten. Beide Editionen nutzen unterschiedliche Netzwerkprotokolle – Bedrock kommuniziert über UDP, Java über TCP. Es existieren Plugins, die eine teilweise Unterstützung nachrüsten; laut offizieller PocketMine-Dokumentation ist diese aber ausdrücklich nur teilweise und kein vollwertiger Ersatz.
 ::::

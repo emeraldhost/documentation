@@ -2,7 +2,7 @@
 description: Improve performance on a Minecraft Java Edition server
 ---
 
-# How to Improve Performance on Your Minecraft Java Server
+# How to Improve Performance on Your Minecraft Java Edition Server
 
 ## Understanding Lag
 

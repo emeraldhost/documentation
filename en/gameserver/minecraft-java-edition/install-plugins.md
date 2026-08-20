@@ -2,7 +2,7 @@
 description: Install plugins on a Minecraft Java Edition server
 ---
 
-# How to Install Plugins on a Minecraft Java Server
+# How to Install Plugins on a Minecraft Java Edition Server
 
 You can install plugins on your server to add new features, management tools or gameplay mechanics.
 

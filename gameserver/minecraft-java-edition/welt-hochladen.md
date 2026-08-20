@@ -2,7 +2,7 @@
 description: Welt auf einen Minecraft Java Edition Server hochladen
 ---
 
-# So lädst du eine Welt auf einem Minecraft Java Server hoch
+# So lädst du eine Welt auf einem Minecraft Java Edition Server hoch
 
 :::: danger Achtung
 Die Welt-Dateien dürfen kein Archiv wie z. B. `.zip` sein. Entpacke die Welt vorher.

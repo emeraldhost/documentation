@@ -1,8 +1,8 @@
 ---
-description: Mods auf einem Minecraft Java Server installieren
+description: Mods auf einem Minecraft Java Edition Server installieren
 ---
 
-# So fügst du Mods auf deinem Minecraft Java Server hinzu
+# So fügst du Mods auf deinem Minecraft Java Edition Server hinzu
 
 Du kannst Mods auf deinem Server installieren, um neue Inhalte, Mechaniken oder Verbesserungen hinzuzufügen.
 

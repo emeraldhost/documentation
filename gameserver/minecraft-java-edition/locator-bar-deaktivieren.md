@@ -2,7 +2,7 @@
 description: Locator Bar auf einem Minecraft Java Edition Server deaktivieren
 ---
 
-# So deaktivierst du die Locator Bar auf einem Minecraft Java Server
+# So deaktivierst du die Locator Bar auf einem Minecraft Java Edition Server
 
 Die Locator Bar ist eine kompassähnliche Leiste über der Schnellzugriffsleiste, die mit dem Update **1.21.6 „Chase the Skies"** hinzugefügt wurde. Sie zeigt die Richtung anderer Spieler in der Nähe an. Über die Spielregel `locatorBar` kannst du sie serverweit für alle Spieler abschalten.
 

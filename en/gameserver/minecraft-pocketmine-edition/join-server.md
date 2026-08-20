@@ -66,5 +66,5 @@ On Xbox, PlayStation and Nintendo Switch you cannot enter custom server addresse
 ## Minecraft Java Edition
 
 :::: danger Important
-**Java Edition** clients cannot join a PocketMine server. Both editions use different network protocols – Bedrock communicates over UDP, Java over TCP. Plugins exist that add partial support, but according to the official PocketMine documentation this support is explicitly only partial and no full replacement.
+**Minecraft Java Edition** clients cannot join a PocketMine server. Both editions use different network protocols – Bedrock communicates over UDP, Java over TCP. Plugins exist that add partial support, but according to the official PocketMine documentation this support is explicitly only partial and no full replacement.
 ::::

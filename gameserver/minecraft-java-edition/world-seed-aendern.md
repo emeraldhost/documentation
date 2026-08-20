@@ -2,7 +2,7 @@
 description: World-Seed auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du den World-Seed auf einem Minecraft Java Server
+# So änderst du den World-Seed auf einem Minecraft Java Edition Server
 
 Der World-Seed legt fest, wie die Welt generiert wird. Er wirkt sich **nur auf neu generierte Welten** aus — du musst deine bestehende Welt daher vorher löschen.
 

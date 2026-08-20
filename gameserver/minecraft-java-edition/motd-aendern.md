@@ -2,7 +2,7 @@
 description: MOTD auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du die MOTD auf einem Minecraft Java Server
+# So änderst du die MOTD auf einem Minecraft Java Edition Server
 
 Die MOTD (Message of the Day) eines Minecraft-Servers ist eine Nachricht, die auf dem Multiplayer-Server angezeigt wird, wenn Du versuchst, Dich zu verbinden. Sie dient dazu, den Spielern Informationen über den Server zu vermitteln, wie zum Beispiel den Servernamen, Regeln, Willkommensnachrichten oder sogar Links zu Ressourcen.
 

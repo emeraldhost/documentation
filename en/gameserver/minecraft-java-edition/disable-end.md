@@ -2,7 +2,7 @@
 description: Disable the End on a Minecraft Java Edition server
 ---
 
-# How to Disable the End on a Minecraft Java Server
+# How to Disable the End on a Minecraft Java Edition Server
 
 When the End is disabled, end portals stop working and players can no longer enter the End dimension. Players who are already in the End are moved back to the overworld on their next login.
 

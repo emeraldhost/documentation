@@ -2,7 +2,7 @@
 description: Change the world border (worldborder) on a Minecraft Java Edition server
 ---
 
-# How to Change the World Border on a Minecraft Java Server
+# How to Change the World Border on a Minecraft Java Edition Server
 
 The world border is an invisible, square boundary around the center of your world. Players cannot move past it, and chunks outside the border are no longer generated. By default the border is 60,000,000 blocks wide.
 

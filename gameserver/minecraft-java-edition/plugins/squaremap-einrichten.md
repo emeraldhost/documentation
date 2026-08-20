@@ -2,7 +2,7 @@
 description: squaremap auf einem Minecraft Java Edition Server einrichten
 ---
 
-# So richtest du squaremap auf einem Minecraft Java Server ein
+# So richtest du squaremap auf einem Minecraft Java Edition Server ein
 
 squaremap erstellt eine minimalistische 2D-Web-Karte deines Minecraft-Servers. Die Karte wird im Vanilla-Stil gerendert und kann direkt im Browser geöffnet werden.
 

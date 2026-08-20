@@ -6,7 +6,7 @@ Minecraft Endstone Edition refers to Endstone – a plugin platform for Minecraf
 
 Because the official Bedrock server still does the actual work under the hood, existing Bedrock worlds and configurations keep working unchanged. The server is configured through the familiar `server.properties` file, worlds live in the `worlds` folder, and behavior as well as resource packs can be added exactly like on a regular Bedrock server.
 
-The real benefit is the plugin system. Endstone plugins are written either in Python (as a `.whl` package) or in C++ (as a `.so` file on Linux servers) and run exclusively on the server. Your fellow players do not have to install anything and connect with a completely unmodified Minecraft Bedrock client – whether from Windows, Android or iOS. Classic mods for Forge or Fabric belong to the Java Edition and do not work here.
+The real benefit is the plugin system. Endstone plugins are written either in Python (as a `.whl` package) or in C++ (as a `.so` file on Linux servers) and run exclusively on the server. Your fellow players do not have to install anything and connect with a completely unmodified Minecraft Bedrock client – whether from Windows, Android or iOS. Classic mods for Forge or Fabric belong to the Minecraft Java Edition and do not work here.
 
 On top of that, Endstone adds server commands the official Bedrock server is missing. These include a full ban system with `/ban`, `/ban-ip`, `/banlist` and `/pardon` as well as commands such as `/plugins`, `/status` and `/reload`. A ban can therefore be lifted with a single command, without stopping the server or editing files by hand. Permission management builds on the familiar Bedrock operator levels, so `/op` and the `permissions.json` file work just as you know them.
 

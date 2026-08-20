@@ -2,7 +2,7 @@
 description: Change simulation distance on a Minecraft Java Edition server
 ---
 
-# How to Change the Simulation Distance on a Minecraft Java Server
+# How to Change the Simulation Distance on a Minecraft Java Edition Server
 
 ## What is the simulation distance?
 

@@ -4,10 +4,10 @@ description: Disable the Locator Bar on a Minecraft Bedrock Edition server
 
 # How to Disable the Locator Bar on a Minecraft Bedrock Server
 
-The Locator Bar is a compass-like bar above the hotbar that was added in the **"Chase the Skies" update (Bedrock 1.21.90)**. It shows the direction of other nearby players. Unlike Java Edition, on Bedrock it is **not** controlled by the `locatorBar` game rule but by the `playerWaypoints` game rule — set it to `off` to turn the bar off server-wide for all players.
+The Locator Bar is a compass-like bar above the hotbar that was added in the **"Chase the Skies" update (Bedrock 1.21.90)**. It shows the direction of other nearby players. Unlike Minecraft Java Edition, on Bedrock it is **not** controlled by the `locatorBar` game rule but by the `playerWaypoints` game rule — set it to `off` to turn the bar off server-wide for all players.
 
 :::: info Note
-`playerWaypoints` is a **world game rule** set via the `/gamerule` command — there is **no `server.properties` entry** for it. The game rule uses the values `everyone` (default) and `off` — **not** `true`/`false` like on Java Edition.
+`playerWaypoints` is a **world game rule** set via the `/gamerule` command — there is **no `server.properties` entry** for it. The game rule uses the values `everyone` (default) and `off` — **not** `true`/`false` like on Minecraft Java Edition.
 ::::
 
 ## Requirement

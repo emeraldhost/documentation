@@ -2,7 +2,7 @@
 description: Schwierigkeitsgrad auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du den Schwierigkeitsgrad auf einem Minecraft Java Server
+# So änderst du den Schwierigkeitsgrad auf einem Minecraft Java Edition Server
 
 ## Was ist der Schwierigkeitsgrad?
 

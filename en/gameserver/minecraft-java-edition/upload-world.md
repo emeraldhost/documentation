@@ -3,7 +3,7 @@ title: Uploading a world in Minecraft Java Edition
 description: Upload a world to a Minecraft Java Edition server
 ---
 
-# How to Upload a World on a Minecraft Java Server
+# How to Upload a World on a Minecraft Java Edition Server
 
 :::: danger Attention
 The world files must not be an archive such as `.zip`. Unzip the world first.

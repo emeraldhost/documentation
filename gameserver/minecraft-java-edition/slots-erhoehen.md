@@ -2,7 +2,7 @@
 description: Slots auf einem Minecraft Java Edition Server erhöhen
 ---
 
-# So erhöhst du die Slots auf einem Minecraft Java Server
+# So erhöhst du die Slots auf einem Minecraft Java Edition Server
 
 1. <b>Datei öffnen</b><br>
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `server.properties`.

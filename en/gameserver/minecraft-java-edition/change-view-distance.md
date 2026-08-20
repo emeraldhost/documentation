@@ -2,7 +2,7 @@
 description: Change view distance on a Minecraft Java Edition server
 ---
 
-# How to Change the View Distance on a Minecraft Java Server
+# How to Change the View Distance on a Minecraft Java Edition Server
 
 ## What is the view distance?
 

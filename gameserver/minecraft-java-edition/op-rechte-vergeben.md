@@ -2,7 +2,7 @@
 description: OP-Rechte auf einem Minecraft Java Edition Server vergeben
 ---
 
-# So vergibst du OP-Rechte auf einem Minecraft Java Server
+# So vergibst du OP-Rechte auf einem Minecraft Java Edition Server
 
 ## OP-Rechte über den Ingame-Chat vergeben
 

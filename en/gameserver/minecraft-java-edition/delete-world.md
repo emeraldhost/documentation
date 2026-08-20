@@ -3,7 +3,7 @@ title: Delete world in Minecraft Java Edition
 description: Delete a world on a Minecraft Java Edition server
 ---
 
-# How to Delete a World on a Minecraft Java Server
+# How to Delete a World on a Minecraft Java Edition Server
 
 :::: danger Attention
 If you delete the world, it cannot be restored. Create a backup beforehand in case you need the world again later.

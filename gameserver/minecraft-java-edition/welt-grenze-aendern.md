@@ -2,7 +2,7 @@
 description: Welt-Grenze (Worldborder) auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du die Welt-Grenze auf einem Minecraft Java Server
+# So änderst du die Welt-Grenze auf einem Minecraft Java Edition Server
 
 Die Welt-Grenze (Worldborder) ist eine unsichtbare, quadratische Grenze um den Mittelpunkt deiner Welt. Spieler können nicht über sie hinausgehen, und Chunks außerhalb werden nicht mehr generiert. Standardmäßig beträgt die Grenze 60.000.000 Blöcke.
 

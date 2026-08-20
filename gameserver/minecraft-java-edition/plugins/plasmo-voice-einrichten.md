@@ -2,7 +2,7 @@
 description: Plasmo Voice auf einem Minecraft Java Edition Server einrichten
 ---
 
-# So richtest du Plasmo Voice auf einem Minecraft Java Server ein
+# So richtest du Plasmo Voice auf einem Minecraft Java Edition Server ein
 
 Plasmo Voice bringt Proximity Voice Chat auf deinen Minecraft Server – ähnlich zu Simple Voice Chat, aber mit zusätzlichen Features wie Gruppen und Radios.
 

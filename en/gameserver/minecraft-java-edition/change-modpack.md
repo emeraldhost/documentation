@@ -2,7 +2,7 @@
 description: Change modpack on a Minecraft Java Edition server
 ---
 
-# How to Change the Modpack on a Minecraft Java Server
+# How to Change the Modpack on a Minecraft Java Edition Server
 
 ## Modpacks
 

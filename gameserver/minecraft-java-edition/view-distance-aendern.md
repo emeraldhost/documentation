@@ -2,7 +2,7 @@
 description: View-Distance auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du die View-Distance auf einem Minecraft Java Server
+# So änderst du die View-Distance auf einem Minecraft Java Edition Server
 
 ## Was ist die View-Distance?
 

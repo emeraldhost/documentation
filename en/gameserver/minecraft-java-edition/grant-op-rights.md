@@ -2,7 +2,7 @@
 description: Grant OP rights on a Minecraft Java Edition server
 ---
 
-# How to Grant OP Rights on a Minecraft Java Server
+# How to Grant OP Rights on a Minecraft Java Edition Server
 
 ## Assign OP rights via the in-game chat
 

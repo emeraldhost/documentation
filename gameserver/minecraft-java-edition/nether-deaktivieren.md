@@ -2,7 +2,7 @@
 description: Nether auf einem Minecraft Java Edition Server deaktivieren
 ---
 
-# So deaktivierst du den Nether auf einem Minecraft Java Server
+# So deaktivierst du den Nether auf einem Minecraft Java Edition Server
 
 Wenn der Nether deaktiviert ist, funktionieren Nether-Portale nicht mehr und Spieler können die Nether-Dimension nicht betreten. Bereits dort befindliche Spieler werden bei der nächsten Anmeldung in die Oberwelt verschoben.
 

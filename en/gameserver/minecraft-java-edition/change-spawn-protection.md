@@ -2,7 +2,7 @@
 description: Change spawn protection on a Minecraft Java Edition server
 ---
 
-# How to Change the Spawn Protection on a Minecraft Java Server
+# How to Change the Spawn Protection on a Minecraft Java Edition Server
 
 ## What is spawn protection?
 

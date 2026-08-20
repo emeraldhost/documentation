@@ -2,7 +2,7 @@
 description: Set up Pl3xMap on a Minecraft Java Edition server
 ---
 
-# How to Set Up Pl3xMap on a Minecraft Java Server
+# How to Set Up Pl3xMap on a Minecraft Java Edition Server
 
 Pl3xMap creates a lightweight web map of your Minecraft server in the vanilla rendering style. You can open the map directly in a browser.
 

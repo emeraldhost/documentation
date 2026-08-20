@@ -2,7 +2,7 @@
 description: Disable the Locator Bar on a Minecraft Java Edition server
 ---
 
-# How to Disable the Locator Bar on a Minecraft Java Server
+# How to Disable the Locator Bar on a Minecraft Java Edition Server
 
 The Locator Bar is a compass-like bar above the hotbar that was added in the **1.21.6 "Chase the Skies"** update. It shows the direction of other nearby players. Using the `locatorBar` game rule you can turn it off server-wide for all players.
 

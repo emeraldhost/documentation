@@ -2,7 +2,7 @@
 description: Set up Simple Voice Chat on a Minecraft Java Edition server
 ---
 
-# How to Set Up Simple Voice Chat on a Minecraft Java Server
+# How to Set Up Simple Voice Chat on a Minecraft Java Edition Server
 
 Simple Voice Chat enables proximity voice chat on your Minecraft server – players can talk to each other based on how close they are in-game.
 

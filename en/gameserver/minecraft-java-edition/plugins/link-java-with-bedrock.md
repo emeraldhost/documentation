@@ -2,7 +2,7 @@
 description: Enable crossplay on a Minecraft Java Edition server
 ---
 
-# How to Enable Bedrock Crossplay on a Minecraft Java Server
+# How to Enable Bedrock Crossplay on a Minecraft Java Edition Server
 
 With the **GeyserMC** and **Floodgate** plugins, Minecraft Bedrock Edition players (smartphone, console, Windows) can play on your Java server — even without a Java account.
 

@@ -2,7 +2,7 @@
 description: Increase slots on a Minecraft Java Edition server
 ---
 
-# How to Increase the Slots on a Minecraft Java Server
+# How to Increase the Slots on a Minecraft Java Edition Server
 
 1. <b>Open server.properties</b><br>
    Connect to your server via [SFTP](../establish-sftp-connection.md) and open the file `server.properties`.

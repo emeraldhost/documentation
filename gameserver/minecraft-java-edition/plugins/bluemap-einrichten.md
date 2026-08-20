@@ -2,7 +2,7 @@
 description: BlueMap auf einem Minecraft Java Edition Server einrichten
 ---
 
-# So richtest du BlueMap auf einem Minecraft Java Server ein
+# So richtest du BlueMap auf einem Minecraft Java Edition Server ein
 
 BlueMap erstellt eine 3D-Web-Karte deines Minecraft-Servers, die du im Browser anzeigen kannst. Die Karte wird als Mesh mit Texturen gerendert und erlaubt Kamerafahrten durch die Welt.
 

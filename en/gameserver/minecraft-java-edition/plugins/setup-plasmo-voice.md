@@ -2,7 +2,7 @@
 description: Set up Plasmo Voice on a Minecraft Java Edition server
 ---
 
-# How to Set Up Plasmo Voice on a Minecraft Java Server
+# How to Set Up Plasmo Voice on a Minecraft Java Edition Server
 
 Plasmo Voice brings proximity voice chat to your Minecraft server – similar to Simple Voice Chat, but with additional features like groups and radios.
 

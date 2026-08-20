@@ -1,10 +1,10 @@
 ---
-description: Backup eines Minecraft Java Servers erstellen
+description: Backup eines Minecraft Java Edition Servers erstellen
 ---
 
-# So erstellst du ein Backup deines Minecraft Java Servers
+# So erstellst du ein Backup deines Minecraft Java Edition Servers
 
-Ein regelmäßiges Backup deines Minecraft Java Servers schützt dich vor Datenverlust — egal ob durch ein fehlgeschlagenes Update, eine fehlerhafte Konfiguration oder einen versehentlich gelöschten Spielstand.
+Ein regelmäßiges Backup deines Minecraft Java Edition Servers schützt dich vor Datenverlust — egal ob durch ein fehlgeschlagenes Update, eine fehlerhafte Konfiguration oder einen versehentlich gelöschten Spielstand.
 
 ## Wann solltest du ein Backup erstellen?
 

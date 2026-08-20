@@ -7,7 +7,7 @@ description: Mods bzw. Plugins auf einem Minecraft PocketMine Edition Server hin
 PocketMine-MP kennt **keine klassischen Mods**. Erweitert wird der Server stattdessen über **Plugins** – kleine PHP-Erweiterungen im `.phar`-Format, die ausschließlich auf dem Server laufen.
 
 :::: danger Wichtig
-Weder Forge- oder Fabric-Mods noch Bedrock Add-Ons funktionieren auf einem PocketMine-Server. Forge und Fabric gehören zur Java Edition, und Behaviour Packs werden von PocketMine-MP ausdrücklich nicht unterstützt. Packs, die ein Behaviour Pack voraussetzen, funktionieren dort ebenfalls nicht korrekt.
+Weder Forge- oder Fabric-Mods noch Bedrock Add-Ons funktionieren auf einem PocketMine-Server. Forge und Fabric gehören zur Minecraft Java Edition, und Behaviour Packs werden von PocketMine-MP ausdrücklich nicht unterstützt. Packs, die ein Behaviour Pack voraussetzen, funktionieren dort ebenfalls nicht korrekt.
 ::::
 
 :::: info Hinweis

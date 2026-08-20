@@ -104,12 +104,12 @@ Erstelle vor dem Wechsel ein [Backup](backup-erstellen.md) deiner bisherigen Wel
 |-------------------|--------|---------------|
 | Bedrock Edition bis 1.18.20 | LevelDB | Wird direkt geladen |
 | Bedrock Edition ab 1.18.30 | LevelDB | Wird direkt geladen, Entities werden unter Umständen nicht geladen |
-| Java Edition bis 1.12.x | McRegion / Anvil | Wird beim Laden konvertiert |
+| Minecraft Java Edition bis 1.12.x | McRegion / Anvil | Wird beim Laden konvertiert |
 | PocketMine-MP 3 | PMAnvil | Wird beim Laden konvertiert |
-| Java Edition ab 1.13 | Anvil | Nicht unterstützt |
+| Minecraft Java Edition ab 1.13 | Anvil | Nicht unterstützt |
 
 :::: danger Wichtig
-Welten der Java Edition ab Version 1.13 werden von PocketMine-MP nicht unterstützt und lassen sich nicht laden.
+Welten der Minecraft Java Edition ab Version 1.13 werden von PocketMine-MP nicht unterstützt und lassen sich nicht laden.
 ::::
 
 ## Neue Welt erzeugen lassen

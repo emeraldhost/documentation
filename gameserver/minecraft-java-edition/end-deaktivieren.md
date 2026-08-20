@@ -2,7 +2,7 @@
 description: End auf einem Minecraft Java Edition Server deaktivieren
 ---
 
-# So deaktivierst du den End auf einem Minecraft Java Server
+# So deaktivierst du den End auf einem Minecraft Java Edition Server
 
 Wenn der End deaktiviert ist, funktionieren End-Portale nicht mehr und Spieler können die End-Dimension nicht betreten. Bereits dort befindliche Spieler werden bei der nächsten Anmeldung in die Oberwelt verschoben.
 

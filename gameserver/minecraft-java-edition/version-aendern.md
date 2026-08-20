@@ -2,7 +2,7 @@
 description: Version auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du die Version auf einem Minecraft Java Server
+# So änderst du die Version auf einem Minecraft Java Edition Server
 
 ## Version
 

@@ -104,12 +104,12 @@ Before switching, create a [backup](create-backup.md) of your current world or d
 |---------------------|--------|---------|
 | Bedrock Edition up to 1.18.20 | LevelDB | Loaded directly |
 | Bedrock Edition 1.18.30 and newer | LevelDB | Loaded directly, entities may not load |
-| Java Edition up to 1.12.x | McRegion / Anvil | Converted on load |
+| Minecraft Java Edition up to 1.12.x | McRegion / Anvil | Converted on load |
 | PocketMine-MP 3 | PMAnvil | Converted on load |
-| Java Edition 1.13 and newer | Anvil | Not supported |
+| Minecraft Java Edition 1.13 and newer | Anvil | Not supported |
 
 :::: danger Important
-Java Edition worlds from version 1.13 onwards are not supported by PocketMine-MP and cannot be loaded.
+Minecraft Java Edition worlds from version 1.13 onwards are not supported by PocketMine-MP and cannot be loaded.
 ::::
 
 ## Let the server generate a new world

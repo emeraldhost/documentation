@@ -2,7 +2,7 @@
 description: Crossplay auf einem Minecraft Java Edition Server aktivieren
 ---
 
-# So aktivierst du Bedrock-Crossplay auf einem Minecraft Java Server
+# So aktivierst du Bedrock-Crossplay auf einem Minecraft Java Edition Server
 
 Mit den Plugins **GeyserMC** und **Floodgate** können Spieler der Minecraft Bedrock Edition (Smartphone, Konsole, Windows) auf deinem Java-Server mitspielen — auch ohne Java-Account.
 

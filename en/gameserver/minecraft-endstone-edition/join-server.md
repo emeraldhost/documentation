@@ -112,5 +112,5 @@ This changes the DNS settings of your console. Write down the current values bef
 ## Minecraft Java Edition
 
 :::: danger Important
-**Java Edition** clients cannot join your server. Endstone launches the Bedrock Dedicated Server, and both editions use different network protocols – Bedrock communicates over UDP, Java over TCP.
+**Minecraft Java Edition** clients cannot join your server. Endstone launches the Bedrock Dedicated Server, and both editions use different network protocols – Bedrock communicates over UDP, Java over TCP.
 ::::

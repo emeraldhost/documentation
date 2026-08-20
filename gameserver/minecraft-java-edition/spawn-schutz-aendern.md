@@ -2,7 +2,7 @@
 description: Spawn-Schutz auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du den Spawn-Schutz auf einem Minecraft Java Server
+# So änderst du den Spawn-Schutz auf einem Minecraft Java Edition Server
 
 ## Was ist der Spawn-Schutz?
 

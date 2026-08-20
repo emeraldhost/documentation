@@ -2,7 +2,7 @@
 description: Server-Icon auf einem Minecraft Java Edition Server ändern
 ---
 
-# So änderst du das Server-Icon auf einem Minecraft Java Server
+# So änderst du das Server-Icon auf einem Minecraft Java Edition Server
 
 ## Anforderungen an das Icon
 

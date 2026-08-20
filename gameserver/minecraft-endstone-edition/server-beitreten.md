@@ -112,5 +112,5 @@ Du änderst hierbei die DNS-Einstellungen deiner Konsole. Notiere dir vorher die
 ## Minecraft Java Edition
 
 :::: danger Wichtig
-Clients der **Java Edition** können deinem Server nicht beitreten. Endstone startet den Bedrock Dedicated Server, und beide Editionen nutzen unterschiedliche Netzwerkprotokolle – Bedrock kommuniziert über UDP, Java über TCP.
+Clients der **Minecraft Java Edition** können deinem Server nicht beitreten. Endstone startet den Bedrock Dedicated Server, und beide Editionen nutzen unterschiedliche Netzwerkprotokolle – Bedrock kommuniziert über UDP, Java über TCP.
 ::::

@@ -2,7 +2,7 @@
 description: Change difficulty on a Minecraft Java Edition server
 ---
 
-# How to Change the Difficulty on a Minecraft Java Server
+# How to Change the Difficulty on a Minecraft Java Edition Server
 
 ## What is the difficulty?
 

@@ -2,7 +2,7 @@
 description: Dynmap auf einem Minecraft Java Edition Server einrichten
 ---
 
-# So richtest du Dynmap auf einem Minecraft Java Server ein
+# So richtest du Dynmap auf einem Minecraft Java Edition Server ein
 
 Dynmap erstellt eine interaktive Web-Karte deines Minecraft-Servers, die du im Browser öffnen kannst – ähnlich wie Google Maps für deine Welt.
 

@@ -2,7 +2,7 @@
 description: Welt auf einem Minecraft Java Edition Server löschen
 ---
 
-# So löschst du eine Welt auf einem Minecraft Java Server
+# So löschst du eine Welt auf einem Minecraft Java Edition Server
 
 :::: danger Achtung
 Wenn Du die Welt löschst, kann sie nicht wiederhergestellt werden. Erstelle vorher ein Backup, falls Du die Welt später erneut benötigst.
