@@ -122,7 +122,7 @@ Die häufigsten Lag-Quellen in der Praxis — und was dagegen hilft:
 
 ## Wenn der RAM dauerhaft voll ist
 
-Zeigt `/spark health` dauerhaft eine fast volle RAM-Auslastung, hilft auch die beste Optimierung nicht mehr: Mehr Spieler, Plugins und Mods benötigen schlicht mehr Arbeitsspeicher. In diesem Fall solltest du deinen Tarif auf ein Paket mit mehr RAM upgraden.
+Zeigt `/spark health` dauerhaft eine fast volle RAM-Auslastung, hilft auch die beste Optimierung nicht mehr: Mehr Spieler, Plugins und Mods benötigen schlicht mehr Arbeitsspeicher. In diesem Fall solltest du deinen Server upgraden mit mehr RAM.
 
 ## Tägliche Neustarts
 

@@ -122,7 +122,7 @@ The most common sources of lag in practice — and what helps against them:
 
 ## If the RAM Is Permanently Full
 
-If `/spark health` permanently shows nearly full RAM usage, even the best optimization won't help anymore: more players, plugins and mods simply need more memory. In that case you should upgrade your plan to a package with more RAM.
+If `/spark health` permanently shows nearly full RAM usage, even the best optimization won't help anymore: more players, plugins and mods simply need more memory. In that case you should upgrade your server with more RAM.
 
 ## Daily Restarts
 
