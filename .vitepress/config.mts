@@ -1014,6 +1014,7 @@ export default defineConfig({
                   { text: 'Admin hinzufügen', link: '/gameserver/palworld/admin-hinzufuegen' },
                   { text: 'Arbeitsgeschwindigkeit ändern', link: '/gameserver/palworld/arbeitsgeschwindigkeit-aendern' },
                   { text: 'Ausrüstungs-Haltbarkeit ändern', link: '/gameserver/palworld/ausruestungs-haltbarkeit-aendern' },
+                  { text: 'Automatisches Backup wiederherstellen', link: '/gameserver/palworld/automatisches-backup-wiederherstellen' },
                   { text: 'Backup erstellen', link: '/gameserver/palworld/backup-erstellen' },
                   { text: 'Broadcast Nachricht senden', link: '/gameserver/palworld/broadcast-nachricht-senden' },
                   { text: 'Drop-Rate ändern', link: '/gameserver/palworld/drop-rate-aendern' },
@@ -2745,6 +2746,7 @@ export default defineConfig({
                   { text: 'Join Server', link: '/en/gameserver/palworld/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/palworld/kick-ban-players' },
                   { text: 'Reset World', link: '/en/gameserver/palworld/reset-world' },
+                  { text: 'Restore Automatic Backup', link: '/en/gameserver/palworld/restore-automatic-backup' },
                   { text: 'Set Server Password', link: '/en/gameserver/palworld/set-server-password' },
                   { text: 'Add Savegame', link: '/en/gameserver/palworld/upload-savegame' }
                 ]
