@@ -1188,9 +1188,14 @@ export default defineConfig({
                   { text: 'EXILED Plugins installieren', link: '/gameserver/scp-secret-laboratory/exiled-plugins-installieren' },
                   { text: 'Friendly Fire konfigurieren', link: '/gameserver/scp-secret-laboratory/friendly-fire-konfigurieren' },
                   { text: 'Gameplay-Einstellungen anpassen', link: '/gameserver/scp-secret-laboratory/gameplay-einstellungen-anpassen' },
+                  { text: 'LabAPI Plugins installieren', link: '/gameserver/scp-secret-laboratory/labapi-plugins-installieren' },
+                  { text: 'Plugins laden nicht', link: '/gameserver/scp-secret-laboratory/plugins-laden-nicht' },
                   { text: 'Ränge vergeben', link: '/gameserver/scp-secret-laboratory/raenge-vergeben' },
                   { text: 'Remote Admin nutzen', link: '/gameserver/scp-secret-laboratory/remote-admin-nutzen' },
+                  { text: 'Reservierte Slots einrichten', link: '/gameserver/scp-secret-laboratory/reservierte-slots-einrichten' },
                   { text: 'Server beitreten', link: '/gameserver/scp-secret-laboratory/server-beitreten' },
+                  { text: 'Server verifizieren lassen', link: '/gameserver/scp-secret-laboratory/server-verifizieren-lassen' },
+                  { text: 'Server-Info hinterlegen', link: '/gameserver/scp-secret-laboratory/server-info-hinterlegen' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/scp-secret-laboratory/spieler-kicken-und-bannen' },
                   { text: 'Whitelist einrichten', link: '/gameserver/scp-secret-laboratory/whitelist-einrichten' }
                 ]
@@ -2899,9 +2904,14 @@ export default defineConfig({
                   { text: 'Configure Friendly Fire', link: '/en/gameserver/scp-secret-laboratory/configure-friendly-fire' },
                   { text: 'Create Backup', link: '/en/gameserver/scp-secret-laboratory/create-backup' },
                   { text: 'Edit Config Files', link: '/en/gameserver/scp-secret-laboratory/edit-config-files' },
+                  { text: 'Get Server Verified', link: '/en/gameserver/scp-secret-laboratory/get-server-verified' },
                   { text: 'Install EXILED Plugins', link: '/en/gameserver/scp-secret-laboratory/install-exiled-plugins' },
+                  { text: 'Install LabAPI Plugins', link: '/en/gameserver/scp-secret-laboratory/install-labapi-plugins' },
                   { text: 'Join Server', link: '/en/gameserver/scp-secret-laboratory/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/scp-secret-laboratory/kick-and-ban-players' },
+                  { text: 'Plugins Not Loading', link: '/en/gameserver/scp-secret-laboratory/plugins-not-loading' },
+                  { text: 'Set Up Reserved Slots', link: '/en/gameserver/scp-secret-laboratory/set-up-reserved-slots' },
+                  { text: 'Set Up Server Info', link: '/en/gameserver/scp-secret-laboratory/set-up-server-info' },
                   { text: 'Set Up Whitelist', link: '/en/gameserver/scp-secret-laboratory/set-up-whitelist' },
                   { text: 'Use Remote Admin', link: '/en/gameserver/scp-secret-laboratory/use-remote-admin' }
                 ]
