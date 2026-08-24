@@ -7,7 +7,7 @@ description: "Assign ranks on a SCP: Secret Laboratory server"
 Using the `config_remoteadmin.txt` file you can grant players admin, moderator or owner rights on your server.
 
 :::: warning Warning
-The path to the configuration file contains your server port: `/config/<Port>/config_remoteadmin.txt`. Replace `<Port>` with the actual port of your server. You can find the port in the dashboard under **Overview**.
+The path to the configuration file contains your server port: `/.config/SCP Secret Laboratory/config/<Port>/config_remoteadmin.txt`. Replace `<Port>` with the actual port of your server. You can find the port in the dashboard under **Overview**.
 ::::
 
 ## Assign a rank
@@ -25,7 +25,7 @@ The path to the configuration file contains your server port: `/config/<Port>/co
    Open the following file — replace `<Port>` with your server port:
 
    ```
-   /config/<Port>/config_remoteadmin.txt
+   /.config/SCP Secret Laboratory/config/<Port>/config_remoteadmin.txt
    ```
 
 5. <b>Add an entry to the Members section</b><br>
