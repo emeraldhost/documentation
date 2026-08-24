@@ -8,7 +8,7 @@ EXILED is the most popular plugin framework for SCP: Secret Laboratory and must 
 
 ## Prerequisite: EXILED
 
-EXILED is usually pre-installed by hosting providers. If that is not the case on your server, you can find the official installation guide on the [EXILED GitHub page](https://github.com/Exiled-Team/EXILED).
+EXILED is usually pre-installed by hosting providers. If that is not the case on your server, you can find the official installation guide on the [EXILED GitHub page](https://github.com/ExMod-Team/EXILED).
 
 ## Install a plugin
 
