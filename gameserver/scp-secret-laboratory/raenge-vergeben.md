@@ -7,13 +7,13 @@ description: "Ränge auf einem SCP: Secret Laboratory Server vergeben"
 Über die Datei `config_remoteadmin.txt` kannst du Spielern Admin-, Moderator- oder Eigentümer-Rechte zuweisen.
 
 :::: warning Achtung
-Der Pfad zur Konfigurationsdatei enthält den Server-Port deines Servers: `/.config/SCP Secret Laboratory/config/<Port>/config_remoteadmin.txt`. Ersetze `<Port>` durch den tatsächlichen Port deines Servers. Den Port findest du in der Verwaltung unter **Übersicht**.
+Der Pfad zur Konfigurationsdatei enthält den Game Port deines Servers: `/.config/SCP Secret Laboratory/config/<Port>/config_remoteadmin.txt`. Ersetze `<Port>` durch den tatsächlichen Port deines Servers. Den Port findest du in der Verwaltung unter **Übersicht**.
 ::::
 
 ## Rang zuweisen
 
-1. <b>Server-Port herausfinden</b><br>
-   Öffne die Verwaltung deines Servers und notiere dir den Server-Port aus der **Übersicht**.
+1. <b>Game Port herausfinden</b><br>
+   Öffne die Verwaltung deines Servers und notiere dir den Game Port aus der **Übersicht**.
 
 2. <b>Server stoppen</b><br>
    Stoppe deinen Server über die Verwaltung.
@@ -22,7 +22,7 @@ Der Pfad zur Konfigurationsdatei enthält den Server-Port deines Servers: `/.con
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
 
 4. <b>Konfigurationsdatei öffnen</b><br>
-   Öffne folgende Datei — ersetze `<Port>` durch deinen Server-Port:
+   Öffne folgende Datei — ersetze `<Port>` durch deinen Game Port:
 
    ```
    /.config/SCP Secret Laboratory/config/<Port>/config_remoteadmin.txt

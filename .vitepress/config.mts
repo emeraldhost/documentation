@@ -1184,9 +1184,15 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Backup erstellen', link: '/gameserver/scp-secret-laboratory/backup-erstellen' },
+                  { text: 'Config-Dateien bearbeiten', link: '/gameserver/scp-secret-laboratory/config-dateien-bearbeiten' },
                   { text: 'EXILED Plugins installieren', link: '/gameserver/scp-secret-laboratory/exiled-plugins-installieren' },
+                  { text: 'Friendly Fire konfigurieren', link: '/gameserver/scp-secret-laboratory/friendly-fire-konfigurieren' },
+                  { text: 'Gameplay-Einstellungen anpassen', link: '/gameserver/scp-secret-laboratory/gameplay-einstellungen-anpassen' },
                   { text: 'Ränge vergeben', link: '/gameserver/scp-secret-laboratory/raenge-vergeben' },
-                  { text: 'Server beitreten', link: '/gameserver/scp-secret-laboratory/server-beitreten' }
+                  { text: 'Remote Admin nutzen', link: '/gameserver/scp-secret-laboratory/remote-admin-nutzen' },
+                  { text: 'Server beitreten', link: '/gameserver/scp-secret-laboratory/server-beitreten' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/scp-secret-laboratory/spieler-kicken-und-bannen' },
+                  { text: 'Whitelist einrichten', link: '/gameserver/scp-secret-laboratory/whitelist-einrichten' }
                 ]
               },
               {
@@ -2888,10 +2894,16 @@ export default defineConfig({
                 link: '/en/gameserver/scp-secret-laboratory',
                 collapsed: true,
                 items: [
+                  { text: 'Adjust Gameplay Settings', link: '/en/gameserver/scp-secret-laboratory/adjust-gameplay-settings' },
                   { text: 'Assign Ranks', link: '/en/gameserver/scp-secret-laboratory/assign-ranks' },
+                  { text: 'Configure Friendly Fire', link: '/en/gameserver/scp-secret-laboratory/configure-friendly-fire' },
                   { text: 'Create Backup', link: '/en/gameserver/scp-secret-laboratory/create-backup' },
+                  { text: 'Edit Config Files', link: '/en/gameserver/scp-secret-laboratory/edit-config-files' },
                   { text: 'Install EXILED Plugins', link: '/en/gameserver/scp-secret-laboratory/install-exiled-plugins' },
-                  { text: 'Join Server', link: '/en/gameserver/scp-secret-laboratory/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/scp-secret-laboratory/join-server' },
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/scp-secret-laboratory/kick-and-ban-players' },
+                  { text: 'Set Up Whitelist', link: '/en/gameserver/scp-secret-laboratory/set-up-whitelist' },
+                  { text: 'Use Remote Admin', link: '/en/gameserver/scp-secret-laboratory/use-remote-admin' }
                 ]
               },
               {
