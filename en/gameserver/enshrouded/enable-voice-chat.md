@@ -61,7 +61,7 @@ The dashboard only rewrites `name`, `slotCount`, `queryPort` and `gameSettingsPr
 Once voice chat is active, players can mute their microphone, switch between push-to-talk and an open microphone and adjust the microphone input volume. On the **Social** page in the menu they can also lower the volume of individual players or mute them.
 
 :::: tip Tip
-Check the JSON file for syntax errors before starting the server – a single missing comma can cause the server to discard your settings.
+Check the JSON file for syntax errors with a JSON formatter like [JSONLint](https://jsonlint.com/) before starting the server – a single missing comma can cause the server to discard your settings.
 ::::
 
 Since you are opening `enshrouded_server.json` for this change anyway, you can also [Change Server Password](change-server-password.md) or [Enable Text Chat](enable-text-chat.md) at the same time.

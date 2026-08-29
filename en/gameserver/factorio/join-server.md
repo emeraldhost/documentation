@@ -54,6 +54,10 @@ In addition, the visibility must be set to public in the file `data/server-setti
 Afterwards, restart your server.
 ::::
 
+:::: tip Tip
+Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from starting.
+::::
+
 :::: warning Warning
 Do not enter `username` and `token` directly in the file `data/server-settings.json`. Both values are overwritten on every server start from the **Server Benutzername** and **Server Token** fields in the dashboard.
 ::::

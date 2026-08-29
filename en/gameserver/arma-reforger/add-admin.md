@@ -33,6 +33,10 @@ Here you can find a guide on how to find your [SteamID64](../steamid64-find-out.
 
    Add one SteamID64 per entry. Make sure the entries are separated by commas.
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to prevent the server from starting.
+   ::::
+
 5. <b>Start the server</b><br>
    Save the file and start your server.
 

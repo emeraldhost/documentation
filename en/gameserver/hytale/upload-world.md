@@ -94,6 +94,10 @@ You can also set the default world manually in the server configuration:
    }
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from loading the configuration.
+   ::::
+
 4. <b>Start the Server</b><br>
    Start your server.
 

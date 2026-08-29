@@ -75,7 +75,7 @@ Hochgeladene Mods sind noch nicht aktiv. Aktiviert werden sie pro Welt in der Da
    ```
 
 2. <b>Mod eintragen</b><br>
-   Ergänze den Abschnitt `ModConfigEntries` um einen Eintrag pro Mod:
+   Ergänze den Abschnitt `ModConfigEntries` um einen Eintrag pro Mod. Das Beispiel zeigt, wie zwei Mods in der Liste stehen – die Einträge werden mit einem Komma getrennt:
 
    ```json
    {
@@ -86,13 +86,24 @@ Hochgeladene Mods sind noch nicht aktiv. Aktiviert werden sie pro Welt in der Da
          "ModName": "ExampleTexturePack",
          "ModVersionLastKnown": "---",
          "Enabled": true
+       },
+       {
+         "ModName": "WeitererModName",
+         "ModVersionLastKnown": "---",
+         "Enabled": true
        }
      ]
    }
    ```
 
+   Nutzt du nur einen Mod, entfällt der zweite Eintrag samt Komma.
+
    :::: info Hinweis
    Ändere nur den Abschnitt `ModConfigEntries` und lass die übrigen Werte der Datei unverändert. Der Wert von `ModName` muss exakt dem Feld `name` aus der `modInfo.json` des Mods entsprechen. `"ModVersionLastKnown": "---"` trägt der Server selbst ein, wenn er einen Mod zum ersten Mal sieht – schreibst du den Eintrag von Hand, übernimmst du diesen Wert. Bei Workshop-Mods kommt zusätzlich das Feld `WorkshopID` dazu – lösche es nicht.
+   ::::
+
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server deine Mods nicht lädt.
    ::::
 
 3. <b>Server starten</b><br>

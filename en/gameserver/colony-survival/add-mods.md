@@ -75,7 +75,7 @@ Uploaded mods are not active yet. They are enabled per world in the file `worldc
    ```
 
 2. <b>Add the mod</b><br>
-   Add one entry per mod to the `ModConfigEntries` section:
+   Add one entry per mod to the `ModConfigEntries` section. The example shows two mods in the list – the entries are separated by a comma:
 
    ```json
    {
@@ -86,13 +86,24 @@ Uploaded mods are not active yet. They are enabled per world in the file `worldc
          "ModName": "ExampleTexturePack",
          "ModVersionLastKnown": "---",
          "Enabled": true
+       },
+       {
+         "ModName": "AnotherModName",
+         "ModVersionLastKnown": "---",
+         "Enabled": true
        }
      ]
    }
    ```
 
+   If you only use one mod, the second entry including its comma is omitted.
+
    :::: info Note
    Only change the `ModConfigEntries` section and leave the other values of the file untouched. The value of `ModName` has to match the `name` field from the `modInfo.json` of the mod exactly. `"ModVersionLastKnown": "---"` is what the server itself writes when it sees a mod for the first time – if you write the entry by hand, use that value. For Workshop mods the field `WorkshopID` is added as well – do not delete it.
+   ::::
+
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to stop the server from loading your mods.
    ::::
 
 3. <b>Start the server</b><br>

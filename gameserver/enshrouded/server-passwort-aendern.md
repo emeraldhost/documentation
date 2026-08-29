@@ -65,6 +65,10 @@ In Enshrouded werden die Passwörter über **Usergruppen** in der Datei `enshrou
    ]
    ```
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server deine neuen Passwörter verwirft.
+   ::::
+
 5. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.
 

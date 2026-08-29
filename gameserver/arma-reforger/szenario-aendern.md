@@ -94,6 +94,10 @@ Du kannst auch benutzerdefinierte Szenarien aus dem [Arma Reforger Workshop](htt
    ]
    ```
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server nicht startet.
+   ::::
+
 4. <b>Szenario ID setzen</b><br>
    Trage die Szenario ID des Workshop-Szenarios in der Verwaltung unter **Einstellungen** im Feld **Szenario ID** ein.
 

@@ -59,7 +59,7 @@ Die Verwaltung überschreibt bei jedem Start nur `name`, `slotCount`, `queryPort
 Ist der Text-Chat aktiv, findest du den Chatverlauf auf der Seite **Social** im Menü. Spieler können dort einzelne Mitspieler auswählen und deren Nachrichten stummschalten.
 
 :::: tip Tipp
-Prüfe die JSON-Datei nach dem Bearbeiten auf Syntax-Fehler, bevor du den Server startest – ein einzelnes fehlendes Komma kann dazu führen, dass der Server deine Einstellungen verwirft.
+Prüfe die JSON-Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) auf Syntax-Fehler, bevor du den Server startest – ein einzelnes fehlendes Komma kann dazu führen, dass der Server deine Einstellungen verwirft.
 ::::
 
 Der Sprach-Chat wird über eigene Schlüssel gesteuert. Wie das geht, liest du unter [Voice Chat aktivieren](voice-chat-aktivieren.md).

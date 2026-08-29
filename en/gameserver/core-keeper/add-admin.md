@@ -26,10 +26,11 @@ Here you can find a guide on how to find your [SteamID64](../steamid64-find-out.
    ```
 
 4. <b>Add admin</b><br>
-   Add a new entry in the `adminList` array:
+   Add one entry per admin to the `adminList` array. The example shows two entries – they are separated by a comma; with only one admin, the second entry including its comma is omitted:
 
    ```json
-   { "index": 1, "privileges": 2, "name": "YourCharacterName", "steamId": 76561198012345678 }
+   { "index": 1, "privileges": 2, "name": "YourCharacterName", "steamId": 76561198012345678 },
+   { "index": 2, "privileges": 1, "name": "SecondCharacterName", "steamId": 76561198087654321 }
    ```
 
    | Field | Description |
@@ -38,6 +39,10 @@ Here you can find a guide on how to find your [SteamID64](../steamid64-find-out.
    | `privileges` | `2` = full admin, `1` = limited admin |
    | `name` | Your in-game character name |
    | `steamId` | Your SteamID64 |
+
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to stop the server from applying the admin list.
+   ::::
 
 5. <b>Start the server</b><br>
    Save the file and start your server.

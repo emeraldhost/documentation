@@ -49,6 +49,10 @@ The Bus uses a rank system with four levels. You can add players via `PlayerData
    }
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the player data unreadable for the server.
+   ::::
+
 4. <b>Restart server</b><br>
    Save the changes and restart the server.
 

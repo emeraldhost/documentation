@@ -26,10 +26,11 @@ Hier findest du eine Anleitung, wie du deine [SteamID64](../steamid64-herausfind
    ```
 
 4. <b>Admin hinzufügen</b><br>
-   Füge einen neuen Eintrag im `adminList`-Array hinzu:
+   Füge für jeden Admin einen Eintrag im `adminList`-Array hinzu. Das Beispiel zeigt zwei Einträge – sie werden mit einem Komma getrennt; bei nur einem Admin entfällt der zweite Eintrag samt Komma:
 
    ```json
-   { "index": 1, "privileges": 2, "name": "DeinCharaktername", "steamId": 76561198012345678 }
+   { "index": 1, "privileges": 2, "name": "DeinCharaktername", "steamId": 76561198012345678 },
+   { "index": 2, "privileges": 1, "name": "ZweiterCharaktername", "steamId": 76561198087654321 }
    ```
 
    | Feld | Beschreibung |
@@ -38,6 +39,10 @@ Hier findest du eine Anleitung, wie du deine [SteamID64](../steamid64-herausfind
    | `privileges` | `2` = Voll-Admin, `1` = eingeschränkter Admin |
    | `name` | Dein Ingame-Charaktername |
    | `steamId` | Deine SteamID64 |
+
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Adminliste nicht übernimmt.
+   ::::
 
 5. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.

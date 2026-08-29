@@ -48,7 +48,7 @@ Stop your server via the dashboard before uploading files or changing the config
    ```json
    {
        "pawn": {
-           "main_scripts": ["my-gamemode 1"]
+           "main_scripts": ["my-gamemode 1", "second-gamemode 1"]
        }
    }
    ```
@@ -59,13 +59,17 @@ Stop your server via the dashboard before uploading files or changing the config
    gamemode0 my-gamemode 1
    ```
 
-   The number behind it defines how many rounds the gamemode runs before the server switches to the next entry.
+   The number behind it defines how many rounds the gamemode runs before the server switches to the next entry. In `config.json` you separate several gamemodes with a comma — if you only use one gamemode, remove the second entry including the comma.
+
+   :::: tip Tip
+   If you edit `config.json`, check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop your server from reading the configuration.
+   ::::
 
 5. <b>Start the server</b><br>
    Save the change and start your server.
 
 :::: tip Tip
-If you want to rotate through several gamemodes, add them as further entries in `main_scripts`, or use consecutive `gamemode0`, `gamemode1`, `gamemode2` and so on in `server.cfg`.
+If you want to rotate through several gamemodes, add them as further entries in `main_scripts` as shown in the example, or use consecutive `gamemode0`, `gamemode1`, `gamemode2` and so on in `server.cfg`.
 ::::
 
 ## Install a filterscript
@@ -86,7 +90,7 @@ Filterscripts run in addition to the gamemode and can be combined freely.
    ```json
    {
        "pawn": {
-           "side_scripts": ["filterscripts/Race_System"]
+           "side_scripts": ["filterscripts/Race_System", "filterscripts/Anticheat"]
        }
    }
    ```
@@ -97,7 +101,7 @@ Filterscripts run in addition to the gamemode and can be combined freely.
    filterscripts Race_System Anticheat Adminspec
    ```
 
-   In `server.cfg` you separate several filterscripts with spaces.
+   In `config.json` you separate several filterscripts with a comma — if you only use one filterscript, remove the second entry including the comma. In `server.cfg` you separate several filterscripts with spaces.
 
 3. <b>Start the server</b><br>
    Save the change and start your server.

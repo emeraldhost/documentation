@@ -37,6 +37,10 @@ In der Verwaltung gibt es kein Feld für ein Admin-Passwort. Die Rechtevergabe l
    }
    ```
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server deine Usergruppen verwirft.
+   ::::
+
 5. <b>Passwort vergeben</b><br>
    Im Feld `password` steht standardmäßig ein zufällig erzeugtes Passwort. Ersetze es durch eines, das nur deine Admins kennen. Mehr dazu unter [Server Passwort ändern](server-passwort-aendern.md).
 

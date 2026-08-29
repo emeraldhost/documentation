@@ -53,7 +53,7 @@ Deine Mitspieler müssen **nichts** manuell installieren und auch nichts abonnie
    ```
 
    :::: warning Achtung
-   Ändere nur den Bereich `File_IDs` und lass die übrigen Einträge der Datei unangetastet. Hinter der letzten ID darf **kein** Komma stehen, sonst ist die Datei ungültig und dein Server startet nicht.
+   Ändere nur den Bereich `File_IDs` und lass die übrigen Einträge der Datei unangetastet. Hinter der letzten ID darf **kein** Komma stehen, sonst ist die Datei ungültig und dein Server startet nicht. Prüfe die Datei nach dem Bearbeiten deshalb mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/).
    ::::
 
 5. <b>Server starten</b><br>

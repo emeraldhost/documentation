@@ -59,6 +59,10 @@ Die Banliste liegt als Datei `server-banlist.json` im Hauptverzeichnis deines Se
 
 Starte den Server nach dem Bearbeiten neu, damit die Liste neu eingelesen wird.
 
+:::: tip Tipp
+Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die Banliste nicht lädt.
+::::
+
 ## Spieler stummschalten
 
 ```

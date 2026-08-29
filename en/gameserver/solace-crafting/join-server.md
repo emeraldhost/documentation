@@ -45,6 +45,10 @@ Solace Crafting reads the Game Port and the Query Port from its configuration fi
    The numbers shown here are only an example. Only the ports assigned to your server in the dashboard are relevant.
    ::::
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the configuration unreadable for the server.
+   ::::
+
 5. <b>Start the server</b><br>
    Save the file and start your server.
 

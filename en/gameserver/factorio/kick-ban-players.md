@@ -59,6 +59,10 @@ The ban list is stored as the file `server-banlist.json` in the main directory o
 
 Restart the server after editing so the list is read in again.
 
+:::: tip Tip
+Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to keep the server from loading the ban list.
+::::
+
 ## Mute a player
 
 ```

@@ -78,7 +78,7 @@ Deine SLG-ID zeigt dir der Server direkt im Spiel an:
    Speichere die Datei und starte deinen Server. Beim Start werden die Adminrechte übernommen.
 
 :::: warning Achtung
-`Users.eco` muss gültiges JSON bleiben. Ein fehlendes oder überzähliges Komma reicht aus, damit die Datei nicht mehr eingelesen wird. Geht etwas schief, kannst du dir mit `Users.eco.template` den ursprünglichen Aufbau der Datei ansehen.
+`Users.eco` muss gültiges JSON bleiben. Ein fehlendes oder überzähliges Komma reicht aus, damit die Datei nicht mehr eingelesen wird. Prüfe die Datei nach dem Bearbeiten deshalb mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/). Geht etwas schief, kannst du dir mit `Users.eco.template` den ursprünglichen Aufbau der Datei ansehen.
 ::::
 
 :::: info Erster Admin

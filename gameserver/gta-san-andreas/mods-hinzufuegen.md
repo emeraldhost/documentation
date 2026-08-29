@@ -48,7 +48,7 @@ Stoppe deinen Server über die Verwaltung, bevor du Dateien hochlädst oder die 
    ```json
    {
        "pawn": {
-           "main_scripts": ["mein-gamemode 1"]
+           "main_scripts": ["mein-gamemode 1", "zweiter-gamemode 1"]
        }
    }
    ```
@@ -59,13 +59,17 @@ Stoppe deinen Server über die Verwaltung, bevor du Dateien hochlädst oder die 
    gamemode0 mein-gamemode 1
    ```
 
-   Die Zahl dahinter gibt an, wie viele Runden der Gamemode läuft, bevor der Server zum nächsten Eintrag wechselt.
+   Die Zahl dahinter gibt an, wie viele Runden der Gamemode läuft, bevor der Server zum nächsten Eintrag wechselt. In der `config.json` trennst du mehrere Gamemodes durch ein Komma — nutzt du nur einen Gamemode, entfällt der zweite Eintrag samt Komma.
+
+   :::: tip Tipp
+   Bearbeitest du die `config.json`, prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit dein Server die Konfiguration nicht mehr einlesen kann.
+   ::::
 
 5. <b>Server starten</b><br>
    Speichere die Änderung und starte deinen Server.
 
 :::: tip Tipp
-Möchtest du mehrere Gamemodes im Wechsel laufen lassen, trägst du sie in `main_scripts` als weitere Einträge ein beziehungsweise nutzt in der `server.cfg` fortlaufend `gamemode0`, `gamemode1`, `gamemode2` und so weiter.
+Möchtest du mehrere Gamemodes im Wechsel laufen lassen, trägst du sie wie im Beispiel als weitere Einträge in `main_scripts` ein beziehungsweise nutzt in der `server.cfg` fortlaufend `gamemode0`, `gamemode1`, `gamemode2` und so weiter.
 ::::
 
 ## Filterscript installieren
@@ -86,7 +90,7 @@ Filterscripts laufen zusätzlich zum Gamemode und lassen sich beliebig kombinier
    ```json
    {
        "pawn": {
-           "side_scripts": ["filterscripts/Race_System"]
+           "side_scripts": ["filterscripts/Race_System", "filterscripts/Anticheat"]
        }
    }
    ```
@@ -97,7 +101,7 @@ Filterscripts laufen zusätzlich zum Gamemode und lassen sich beliebig kombinier
    filterscripts Race_System Anticheat Adminspec
    ```
 
-   In der `server.cfg` trennst du mehrere Filterscripts durch Leerzeichen.
+   In der `config.json` trennst du mehrere Filterscripts durch ein Komma — nutzt du nur ein Filterscript, entfällt der zweite Eintrag samt Komma. In der `server.cfg` trennst du mehrere Filterscripts durch Leerzeichen.
 
 3. <b>Server starten</b><br>
    Speichere die Änderung und starte deinen Server.

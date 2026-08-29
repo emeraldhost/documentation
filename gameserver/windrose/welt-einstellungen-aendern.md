@@ -151,6 +151,10 @@ Die Parameter werden in der Datei nicht als einfache Namen, sondern als `TagName
 }
 ```
 
+:::: tip Tipp
+Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Einstellungen nicht mehr einlesen kann.
+::::
+
 :::: warning Achtung
 Ändere `IslandId` nicht — der Wert muss mit dem Ordnernamen und der `IslandId` in `WorldSettings.json` übereinstimmen. Möchtest du eine andere Welt laden, siehe [Island ID setzen](island-id-setzen.md).
 ::::

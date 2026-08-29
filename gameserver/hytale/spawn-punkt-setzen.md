@@ -75,6 +75,10 @@ Du kannst das Respawn-Verhalten nach dem Tod in der Welt-Konfiguration anpassen:
 - `HomeOrSpawnPoint` - Respawn am Home oder Spawn-Punkt
 - `SpawnPoint` - Nur am Spawn-Punkt
 
+:::: tip Tipp
+Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Konfiguration nicht mehr laden kann.
+::::
+
 :::: tip Hinweis
 Für weitere Spawn-Optionen siehe auch [Neue Welt erstellen](neue-welt-erstellen.md) - neue Welten haben ihren eigenen Spawn-Punkt.
 ::::

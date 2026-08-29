@@ -75,6 +75,10 @@ You can adjust the respawn behavior after death in the world configuration:
 - `HomeOrSpawnPoint` - Respawn at home or spawn point
 - `SpawnPoint` - Only at spawn point
 
+:::: tip Tip
+Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from loading the world configuration.
+::::
+
 :::: tip Note
 For more spawn options, see also [Create New World](create-new-world.md) - new worlds have their own spawn point.
 ::::

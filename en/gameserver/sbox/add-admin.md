@@ -67,7 +67,7 @@ Additional admins are added as further entries in the same list, separated by a 
 ```
 
 :::: warning Warning
-The file has to be valid JSON. A single missing or extra comma is enough to make the entire list unreadable, and nobody will receive admin rights.
+The file has to be valid JSON. A single missing or extra comma is enough to make the entire list unreadable, and nobody will receive admin rights. Therefore check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing.
 ::::
 
 ## Which claims are there?

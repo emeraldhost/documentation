@@ -62,7 +62,7 @@ Which mods are loaded is controlled by the file `mods/mod-list.json`. It is crea
 Set `enabled` to `false` to disable a mod without deleting it. Restart the server after making changes.
 
 :::: warning Warning
-Make sure the file stays valid JSON – a missing comma or an extra bracket can cause the server to discard the file or fail to start.
+Make sure the file stays valid JSON – a missing comma or an extra bracket can cause the server to discard the file or fail to start. Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing.
 ::::
 
 :::: danger Important

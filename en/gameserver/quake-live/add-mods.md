@@ -124,6 +124,10 @@ In Quake Live, gameplay settings do **not** belong in `server.cfg` — they get 
    }
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from loading the factory.
+   ::::
+
 5. <b>Start the server</b><br>
    Save the file and start your server.
 

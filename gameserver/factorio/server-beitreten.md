@@ -54,6 +54,10 @@ Zusätzlich muss in der Datei `data/server-settings.json` die Sichtbarkeit auf �
 Starte deinen Server anschließend neu.
 ::::
 
+:::: tip Tipp
+Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server nicht mehr startet.
+::::
+
 :::: warning Achtung
 Trage `username` und `token` nicht direkt in der Datei `data/server-settings.json` ein. Beide Werte werden bei jedem Serverstart aus den Feldern **Server Benutzername** und **Server Token** der Verwaltung überschrieben.
 ::::

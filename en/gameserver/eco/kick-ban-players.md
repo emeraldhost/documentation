@@ -107,24 +107,27 @@ Bans and mutes can also be set directly in the configuration without being in th
    Connect to your server via [SFTP](../establish-sftp-connection.md).
 
 3. <b>Enter the ID</b><br>
-   Open `/Configs/Users.eco` and add the SLG ID or SteamID64 to `$values` in the desired section. The structure of the section already exists – only add the ID and leave the rest unchanged:
+   Open `/Configs/Users.eco` and add the SLG ID or SteamID64 to `$values` in the desired section. The structure of the section already exists – only add the IDs and leave the rest unchanged:
 
    ```json
    "BlackList": {
      "System.String": {
        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
        "$values": [
-         "76561198012345678"
+         "76561198012345678",
+         "76561198087654321"
        ]
      }
    }
    ```
 
+   The example shows two entries – they are separated by a comma. With only one entry, the second one including its comma is omitted.
+
 4. <b>Start the server</b><br>
    Save the file and start your server.
 
 :::: info Unbanning via the file
-To lift a ban, remove the ID from `$values` – including its comma. Make sure the file stays valid JSON and restart the server afterwards.
+To lift a ban, remove the ID from `$values` – including its comma. Make sure the file stays valid JSON (when in doubt, check it with a JSON formatter like [JSONLint](https://jsonlint.com/)) and restart the server afterwards.
 ::::
 
 :::: warning Warning

@@ -133,7 +133,7 @@ Die XUID eines Spielers wird in der Konsole deines Servers angezeigt, sobald der
    Speichere die Datei und starte deinen Server.
 
 :::: warning Achtung
-Achte auf gültiges JSON: Jeder Eintrag steht in geschweiften Klammern, die Einträge werden durch Kommas getrennt, und nach dem letzten Eintrag steht **kein** Komma. Ist die Datei fehlerhaft, kann der Server sie nicht einlesen.
+Achte auf gültiges JSON: Jeder Eintrag steht in geschweiften Klammern, die Einträge werden durch Kommas getrennt, und nach dem letzten Eintrag steht **kein** Komma. Ist die Datei fehlerhaft, kann der Server sie nicht einlesen. Prüfe die Datei nach dem Bearbeiten deshalb mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/).
 ::::
 
 :::: tip Tipp

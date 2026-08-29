@@ -151,6 +151,10 @@ Parameters are stored in the file not as plain names, but as `TagName`-style key
 }
 ```
 
+:::: tip Tip
+Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from reading the world settings.
+::::
+
 :::: warning Warning
 Do not change `IslandId` — the value must match the folder name and the `IslandId` in `WorldSettings.json`. To load a different world, see [Set Island ID](set-island-id.md).
 ::::

@@ -61,7 +61,7 @@ Die Verwaltung überschreibt bei jedem Start nur `name`, `slotCount`, `queryPort
 Ist der Voice Chat aktiv, können Spieler ihr Mikrofon stummschalten, zwischen Push-to-Talk und offenem Mikrofon wählen und die Eingangslautstärke anpassen. Über die Seite **Social** im Menü lassen sich außerdem einzelne Mitspieler leiser stellen oder stummschalten.
 
 :::: tip Tipp
-Prüfe die JSON-Datei nach dem Bearbeiten auf Syntax-Fehler, bevor du den Server startest – ein einzelnes fehlendes Komma kann dazu führen, dass der Server deine Einstellungen verwirft.
+Prüfe die JSON-Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) auf Syntax-Fehler, bevor du den Server startest – ein einzelnes fehlendes Komma kann dazu führen, dass der Server deine Einstellungen verwirft.
 ::::
 
 Da du für diese Änderung ohnehin die `enshrouded_server.json` öffnest, kannst du im selben Zug auch dein [Server Passwort ändern](server-passwort-aendern.md) oder den [Text-Chat aktivieren](text-chat-aktivieren.md).

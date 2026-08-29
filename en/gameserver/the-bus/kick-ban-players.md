@@ -68,6 +68,10 @@ Alternatively, you can open the file `TheBus/Saved/PlayerData.json` via [SFTP](.
 
 Restart the server afterwards.
 
+:::: tip Tip
+Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the player data unreadable for the server.
+::::
+
 ## How to mute a player
 
 ```

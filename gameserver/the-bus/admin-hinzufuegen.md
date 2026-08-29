@@ -49,6 +49,10 @@ The Bus verwendet ein Rang-System mit vier Stufen. Du kannst Spieler über die `
    }
    ```
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Spielerdaten nicht mehr einlesen kann.
+   ::::
+
 4. <b>Server neu starten</b><br>
    Speichere die Änderungen und starte den Server neu.
 

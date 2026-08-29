@@ -61,6 +61,10 @@ Oder in der `config.json` im Hauptverzeichnis:
 }
 ```
 
+:::: tip Tipp
+Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die config.json nicht mehr laden kann.
+::::
+
 ## Alle Welt-Befehle
 
 | Befehl | Beschreibung |

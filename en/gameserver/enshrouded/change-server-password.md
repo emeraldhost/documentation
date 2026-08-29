@@ -65,6 +65,10 @@ In Enshrouded, passwords are managed via **user groups** in the `enshrouded_serv
    ]
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to make the server discard your new passwords.
+   ::::
+
 5. <b>Start the server</b><br>
    Save the file and start your server.
 

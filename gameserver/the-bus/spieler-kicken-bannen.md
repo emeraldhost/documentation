@@ -68,6 +68,10 @@ Alternativ kannst du die Datei `TheBus/Saved/PlayerData.json` per [SFTP](../sftp
 
 Starte den Server anschließend neu.
 
+:::: tip Tipp
+Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Spielerdaten nicht mehr einlesen kann.
+::::
+
 ## So mutest du einen Spieler
 
 ```

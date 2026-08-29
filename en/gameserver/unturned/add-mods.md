@@ -53,7 +53,7 @@ Your fellow players do **not** have to install or subscribe to anything manually
    ```
 
    :::: warning Warning
-   Only change the `File_IDs` section and leave the remaining entries of the file untouched. There must be **no** comma after the last ID, otherwise the file is invalid and your server will not start.
+   Only change the `File_IDs` section and leave the remaining entries of the file untouched. There must be **no** comma after the last ID, otherwise the file is invalid and your server will not start. Therefore check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing.
    ::::
 
 5. <b>Start the server</b><br>

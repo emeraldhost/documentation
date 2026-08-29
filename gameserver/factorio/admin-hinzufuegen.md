@@ -50,6 +50,10 @@ Der Befehl legt die Datei `server-adminlist.json` automatisch an und speichert d
    ]
    ```
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die Admin-Liste nicht lädt.
+   ::::
+
 5. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.
 

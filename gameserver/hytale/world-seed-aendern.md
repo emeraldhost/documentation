@@ -25,6 +25,10 @@ Stoppe deinen Server bevor du Änderungen an Konfigurationsdateien vornimmst, da
    ```
    Du kannst eine beliebige Zahl als Seed verwenden.
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Konfiguration nicht mehr laden kann.
+   ::::
+
 4. <b>Welt-Daten löschen</b><br>
    Lösche den `chunks` Ordner im gleichen Verzeichnis (`universe/worlds/<weltname>/chunks`), damit die Welt mit dem neuen Seed neu generiert wird.
 

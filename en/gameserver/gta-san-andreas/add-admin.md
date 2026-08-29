@@ -39,6 +39,10 @@ Graded admin levels, logging in with an account or commands such as `/setadmin` 
    rcon_password your-secure-password
    ```
 
+   :::: tip Tip
+   If you edit `config.json`, check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop your server from reading the configuration.
+   ::::
+
 5. <b>Start the server</b><br>
    Save the file and start your server.
 

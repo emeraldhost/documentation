@@ -124,6 +124,10 @@ Gameplay-Einstellungen gehören in Quake Live **nicht** in die `server.cfg` — 
    }
    ```
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die Factory nicht lädt.
+   ::::
+
 5. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.
 

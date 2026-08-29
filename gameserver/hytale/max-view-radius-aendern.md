@@ -24,6 +24,10 @@ Stoppe deinen Server bevor du Änderungen an Konfigurationsdateien vornimmst, da
    "MaxViewRadius": 16
    ```
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server die config.json nicht mehr laden kann.
+   ::::
+
 4. <b>Server starten</b><br>
    Starte deinen Server, damit die Änderungen übernommen werden.
 

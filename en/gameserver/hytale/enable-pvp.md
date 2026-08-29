@@ -30,6 +30,10 @@ Stop your server before making changes to configuration files, otherwise they wi
    - `true` - PvP enabled
    - `false` - PvP disabled
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from loading the world configuration.
+   ::::
+
 4. <b>Start the Server</b><br>
    Start your server for the changes to take effect.
 

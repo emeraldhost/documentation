@@ -59,7 +59,7 @@ The dashboard only rewrites `name`, `slotCount`, `queryPort` and `gameSettingsPr
 Once text chat is active, you will find the chat log on the **Social** page in the menu. Players can select individual players there and mute their messages.
 
 :::: tip Tip
-Check the JSON file for syntax errors before starting the server – a single missing comma can cause the server to discard your settings.
+Check the JSON file for syntax errors with a JSON formatter like [JSONLint](https://jsonlint.com/) before starting the server – a single missing comma can cause the server to discard your settings.
 ::::
 
 Voice chat is controlled by its own keys. You can read how that works under [Enable Voice Chat](enable-voice-chat.md).

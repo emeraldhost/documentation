@@ -94,6 +94,10 @@ You can also use custom scenarios from the [Arma Reforger Workshop](https://refo
    ]
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to prevent the server from starting.
+   ::::
+
 4. <b>Set scenario ID</b><br>
    Enter the scenario ID of the workshop scenario in the dashboard under **Settings** in the **Scenario ID** field.
 

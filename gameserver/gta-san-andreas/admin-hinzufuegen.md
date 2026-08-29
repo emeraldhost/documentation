@@ -39,6 +39,10 @@ Abgestufte Adminrechte, Login über einen Account oder Befehle wie `/setadmin` k
    rcon_password dein-sicheres-passwort
    ```
 
+   :::: tip Tipp
+   Bearbeitest du die `config.json`, prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit dein Server die Konfiguration nicht mehr einlesen kann.
+   ::::
+
 5. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.
 

@@ -71,6 +71,10 @@ Press `Windows key + R`, enter the path and confirm with Enter. Every subfolder 
    "worldSaveToUse": "MyWorld",
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the configuration unreadable for the server.
+   ::::
+
    :::: tip Alternative
    Instead of changing the value you can simply rename your uploaded folder to `MultiplayerWorld`. The default configuration then stays untouched.
    ::::

@@ -133,7 +133,7 @@ The XUID of a player is shown in the console of your server as soon as the playe
    Save the file and start your server.
 
 :::: warning Caution
-Make sure the JSON stays valid: every entry sits in curly brackets, entries are separated by commas, and there is **no** comma after the last entry. If the file is malformed, the server cannot read it.
+Make sure the JSON stays valid: every entry sits in curly brackets, entries are separated by commas, and there is **no** comma after the last entry. If the file is malformed, the server cannot read it. Therefore check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing.
 ::::
 
 :::: tip Tip

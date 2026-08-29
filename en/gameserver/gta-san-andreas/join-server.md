@@ -83,6 +83,10 @@ query 1
 | `announce` | Registers the server with the public server list (masterlist) |
 | `enable_query` or `query` | Defines whether server information is displayed in the server browser — `enable_query` in `config.json`, `query` in `server.cfg` |
 
+:::: tip Tip
+If you edit `config.json`, check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop your server from reading the configuration.
+::::
+
 :::: info Note
 The server browser additionally shows the values `name` or `hostname`, `language`, `mapname` and `gamemodetext` as well as `weburl` from your configuration. Connecting via IP address and port works even if your server is not listed publicly.
 ::::

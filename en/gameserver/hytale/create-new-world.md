@@ -61,6 +61,10 @@ Or in the `config.json` in the root directory:
 }
 ```
 
+:::: tip Tip
+Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from loading the config.json.
+::::
+
 ## All World Commands
 
 | Command | Description |

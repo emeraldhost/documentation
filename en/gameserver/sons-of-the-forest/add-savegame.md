@@ -63,6 +63,10 @@ Sons Of The Forest does **not** store player data such as inventory, position an
 
    The number in `SaveSlot` must match the folder name without the leading zeros (`0000000002` therefore corresponds to `2`).
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the configuration unreadable for the server.
+   ::::
+
 6. <b>Start the server</b><br>
    Save the file and start your server.
 

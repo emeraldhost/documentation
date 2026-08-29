@@ -67,7 +67,7 @@ Mehrere Admins trägst du als weitere Einträge in dieselbe Liste ein, getrennt 
 ```
 
 :::: warning Achtung
-Die Datei muss gültiges JSON sein. Ein fehlendes oder überzähliges Komma reicht aus, damit die gesamte Liste nicht eingelesen wird und niemand Adminrechte erhält.
+Die Datei muss gültiges JSON sein. Ein fehlendes oder überzähliges Komma reicht aus, damit die gesamte Liste nicht eingelesen wird und niemand Adminrechte erhält. Prüfe die Datei nach dem Bearbeiten deshalb mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/).
 ::::
 
 ## Welche Claims gibt es?

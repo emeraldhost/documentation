@@ -37,6 +37,10 @@ There is no admin password field in the dashboard. Permissions are managed exclu
    }
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to make the server discard your user groups.
+   ::::
+
 5. <b>Set a password</b><br>
    By default, the `password` field contains a randomly generated password. Replace it with one that only your admins know. You can find more about this under [Change Server Password](change-server-password.md).
 

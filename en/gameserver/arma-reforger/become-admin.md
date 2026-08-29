@@ -40,6 +40,10 @@ Alternatively, you can permanently add players as admins so they don't need to l
     }
     ```
 
+    :::: tip Tip
+    Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to prevent the server from starting.
+    ::::
+
 3. <b>Restart server</b><br>
    Save the changes and restart the server.
 

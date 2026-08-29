@@ -78,7 +78,7 @@ The server shows you your SLG ID directly in the game:
    Save the file and start your server. The admin rights are applied on startup.
 
 :::: warning Warning
-`Users.eco` has to remain valid JSON. A single missing or extra comma is enough to make the file unreadable for the server. If something goes wrong, you can look at `Users.eco.template` to see the original structure of the file.
+`Users.eco` has to remain valid JSON. A single missing or extra comma is enough to make the file unreadable for the server. Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing. If something goes wrong, you can look at `Users.eco.template` to see the original structure of the file.
 ::::
 
 :::: info First admin

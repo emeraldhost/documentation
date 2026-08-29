@@ -40,6 +40,10 @@ Alternativ kannst du Spieler dauerhaft als Admin eintragen, sodass sie sich nich
     }
     ```
 
+    :::: tip Tipp
+    Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) — ein fehlendes oder überzähliges Komma reicht, damit der Server nicht startet.
+    ::::
+
 3. <b>Server neustarten</b><br>
    Speichere die Änderungen und starte den Server neu.
 

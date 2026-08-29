@@ -63,6 +63,10 @@ Sons Of The Forest speichert Spielerdaten wie Inventar, Position und Kleidung **
 
    Die Zahl bei `SaveSlot` muss dem Ordnernamen ohne führende Nullen entsprechen (`0000000002` entspricht also `2`).
 
+   :::: tip Tipp
+   Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Konfiguration nicht mehr einlesen kann.
+   ::::
+
 6. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.
 

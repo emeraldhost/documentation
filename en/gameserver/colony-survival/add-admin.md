@@ -82,7 +82,7 @@ For the full admin role – including banning players and granting permissions t
    If the command goes through, you have admin rights. If you lack the rights, the server tells you that the matching permission is missing.
 
 :::: warning Warning
-Make sure the JSON stays valid: double quotes, commas between the entries and no comma after the last entry. If the file is malformed, the permissions are not applied.
+Make sure the JSON stays valid: double quotes, commas between the entries and no comma after the last entry. If the file is malformed, the permissions are not applied. When in doubt, check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing.
 ::::
 
 ## Add more admins in the game

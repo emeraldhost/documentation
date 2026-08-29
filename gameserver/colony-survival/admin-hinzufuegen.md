@@ -82,7 +82,7 @@ Für die volle Adminrolle – inklusive Bannen und Vergeben von Rechten an ander
    Läuft der Befehl durch, hast du Adminrechte. Fehlen dir die Rechte, meldet der Server, dass dir die passende Berechtigung fehlt.
 
 :::: warning Achtung
-Achte auf gültiges JSON: doppelte Anführungszeichen, Kommas zwischen den Einträgen und kein Komma hinter dem letzten Eintrag. Ist die Datei fehlerhaft, werden die Rechte nicht übernommen.
+Achte auf gültiges JSON: doppelte Anführungszeichen, Kommas zwischen den Einträgen und kein Komma hinter dem letzten Eintrag. Ist die Datei fehlerhaft, werden die Rechte nicht übernommen. Prüfe die Datei nach dem Bearbeiten im Zweifel mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/).
 ::::
 
 ## Weitere Admins im Spiel hinzufügen

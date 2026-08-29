@@ -50,6 +50,10 @@ The command creates the file `server-adminlist.json` automatically and stores th
    ]
    ```
 
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to keep the server from loading the admin list.
+   ::::
+
 5. <b>Start the server</b><br>
    Save the file and start your server.
 

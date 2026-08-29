@@ -107,24 +107,27 @@ Banns und Stummschaltungen kannst du auch ohne laufendes Spiel direkt in der Kon
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server.
 
 3. <b>ID eintragen</b><br>
-   Öffne `/Configs/Users.eco` und trage die SLG-ID oder SteamID64 im gewünschten Abschnitt unter `$values` ein. Der Aufbau des Abschnitts ist bereits vorhanden – ergänze nur die ID und lass den Rest unverändert:
+   Öffne `/Configs/Users.eco` und trage die SLG-ID oder SteamID64 im gewünschten Abschnitt unter `$values` ein. Der Aufbau des Abschnitts ist bereits vorhanden – ergänze nur die IDs und lass den Rest unverändert:
 
    ```json
    "BlackList": {
      "System.String": {
        "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
        "$values": [
-         "76561198012345678"
+         "76561198012345678",
+         "76561198087654321"
        ]
      }
    }
    ```
 
+   Das Beispiel zeigt zwei Einträge – sie werden mit einem Komma getrennt. Bei nur einem Eintrag entfällt der zweite samt Komma.
+
 4. <b>Server starten</b><br>
    Speichere die Datei und starte deinen Server.
 
 :::: info Entbannen über die Datei
-Um einen Bann aufzuheben, entfernst du die ID aus `$values` – inklusive des zugehörigen Kommas. Achte darauf, dass die Datei gültiges JSON bleibt, und starte den Server anschließend neu.
+Um einen Bann aufzuheben, entfernst du die ID aus `$values` – inklusive des zugehörigen Kommas. Achte darauf, dass die Datei gültiges JSON bleibt (prüfe sie im Zweifel mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/)), und starte den Server anschließend neu.
 ::::
 
 :::: warning Achtung

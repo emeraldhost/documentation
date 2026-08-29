@@ -62,7 +62,7 @@ Welche Mods geladen werden, steuert die Datei `mods/mod-list.json`. Sie wird bei
 Setze `enabled` auf `false`, um eine Mod zu deaktivieren, ohne sie zu löschen. Starte den Server nach der Änderung neu.
 
 :::: warning Achtung
-Achte beim Bearbeiten auf gültiges JSON – ein fehlendes Komma oder eine überzählige Klammer kann dazu führen, dass der Server die Datei verwirft oder nicht startet.
+Achte beim Bearbeiten auf gültiges JSON – ein fehlendes Komma oder eine überzählige Klammer kann dazu führen, dass der Server die Datei verwirft oder nicht startet. Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/).
 ::::
 
 :::: danger Wichtig
