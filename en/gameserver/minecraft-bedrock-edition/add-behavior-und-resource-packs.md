@@ -47,18 +47,26 @@ You can install behavior packs and resource packs on your server to enhance the 
    | Behavior Pack | `world_behavior_packs.json` |
    | Resource Pack | `world_resource_packs.json` |
 
-   Add the pack with its `pack_id` and `version`:
+   Add the pack with its `pack_id` and `version`. The example shows how two packs appear in the list — the entries are separated by a comma:
 
    ```json
    [
      {
-       "pack_id": "your-pack-uuid",
+       "pack_id": "uuid-of-the-first-pack",
        "version": [1, 0, 0]
+     },
+     {
+       "pack_id": "uuid-of-the-second-pack",
+       "version": [1, 2, 0]
      }
    ]
    ```
 
-   For multiple packs, add additional entries separated by commas.
+   Each entry gets the `uuid` and `version` from the `manifest.json` of the respective pack. If you only use one pack, leave out the second entry along with the comma.
+
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from loading your packs.
+   ::::
 
 7. <b>Start the server</b><br>
    Save the files and start your server.
