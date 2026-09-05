@@ -209,7 +209,7 @@ Einordnung, und für jedes übergeordnete Segment muss eine passende
 | `product_keys`        | String[] | Produkt-Keys, zu denen die Anleitung gehört, zum Beispiel `["minecraft"]`. Weglassen, wenn es kein passendes Produkt gibt.                                         |
 | `author`              | String   | Angezeigter Name auf der Seite. Nutze `EmeraldHost Team`, außer Du möchtest Deinen eigenen Namen auf der Seite sehen.                                              |
 | `author_link`         | String   | URL hinter dem Autorennamen, für das Team `https://emeraldhost.de`.                                                                                               |
-| `author_img`          | String   | Avatar-Schlüssel, für das Team `emeraldhost-team`.                                                                                                                |
+| `author_img`          | String   | Avatar-Schlüssel, für das Team `emeraldhost-team`. Dieser Schlüssel wird mit dem eigenen Avatar der Seite dargestellt; jeder andere Schlüssel braucht eine passende Datei `header-images/authors/<key>.webp` in diesem Repository. |
 | `author_description`  | String   | Ein Satz über die Autorin oder den Autor, in der Sprache dieser Datei.                                                                                            |
 | `available_languages` | String[] | Sprachen, in denen es die Anleitung gibt. Jede Anleitung trägt `["de", "en"]`; sonst schlägt die Sprachprüfung fehl.                                               |
 | `short_title`         | String   | Label für Listen und die Seitenleiste. Kürzer als `title`.                                                                                                        |

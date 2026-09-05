@@ -205,7 +205,7 @@ categorisation, and every parent segment must have a matching
 | `product_keys`        | string[] | Product keys this guide belongs to, for example `["minecraft"]`. Leave it out when no product exists for the topic.                                 |
 | `author`              | string   | Display name shown on the page. Use `EmeraldHost Team` unless you want your own name on the page.                                                  |
 | `author_link`         | string   | URL behind the author name, `https://emeraldhost.de` for the team.                                                                                 |
-| `author_img`          | string   | Avatar key, `emeraldhost-team` for the team.                                                                                                       |
+| `author_img`          | string   | Avatar key, `emeraldhost-team` for the team. That key is rendered with the site's own avatar; any other key needs a matching `header-images/authors/<key>.webp` file in this repository. |
 | `author_description`  | string   | One sentence about the author, in this file's language.                                                                                            |
 | `available_languages` | string[] | Languages this guide exists in. Every guide ships `["de", "en"]`; the language check fails otherwise.                                               |
 | `short_title`         | string   | Label for lists and the sidebar. Shorter than `title`.                                                                                             |
