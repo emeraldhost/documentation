@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Necesse"
+  de: "Necesse"
+
+description:
+  en: "Tutorials for the Necesse game server."
+  de: "Anleitungen für den Necesse Gameserver."

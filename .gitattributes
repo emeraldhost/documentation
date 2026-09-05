@@ -1,0 +1,8 @@
+# Normalise every text file to LF in the repository.
+* text=auto eol=lf
+*.sh text eol=lf
+
+# Binary assets are never converted.
+*.png -text
+*.webp -text
+*.mp4 -text

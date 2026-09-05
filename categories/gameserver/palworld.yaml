@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Palworld"
+  de: "Palworld"
+
+description:
+  en: "Tutorials for the Palworld game server."
+  de: "Anleitungen für den Palworld Gameserver."

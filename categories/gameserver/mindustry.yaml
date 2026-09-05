@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Mindustry"
+  de: "Mindustry"
+
+description:
+  en: "Tutorials for the Mindustry game server."
+  de: "Anleitungen für den Mindustry Gameserver."

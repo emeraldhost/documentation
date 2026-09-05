@@ -1,0 +1,11 @@
+sort: 2
+
+parent: "rootserver"
+
+name:
+  en: "Basic Configuration"
+  de: "Grundkonfiguration"
+
+description:
+  en: "Guides for the first setup steps on a new rootserver."
+  de: "Anleitungen für die ersten Einrichtungsschritte auf einem neuen Rootserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Solace Crafting"
+  de: "Solace Crafting"
+
+description:
+  en: "Tutorials for the Solace Crafting game server."
+  de: "Anleitungen für den Solace Crafting Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "BATTALION: Legacy"
+  de: "BATTALION: Legacy"
+
+description:
+  en: "Tutorials for the BATTALION: Legacy game server."
+  de: "Anleitungen für den BATTALION: Legacy Gameserver."

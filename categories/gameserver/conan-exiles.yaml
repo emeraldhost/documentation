@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Conan Exiles"
+  de: "Conan Exiles"
+
+description:
+  en: "Tutorials for the Conan Exiles game server."
+  de: "Anleitungen für den Conan Exiles Gameserver."

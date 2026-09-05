@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "The Bus"
+  de: "The Bus"
+
+description:
+  en: "Tutorials for the The Bus game server."
+  de: "Anleitungen für den The Bus Gameserver."

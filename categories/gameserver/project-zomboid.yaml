@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Project Zomboid"
+  de: "Project Zomboid"
+
+description:
+  en: "Tutorials for the Project Zomboid game server."
+  de: "Anleitungen für den Project Zomboid Gameserver."

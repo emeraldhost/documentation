@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Arma Reforger"
+  de: "Arma Reforger"
+
+description:
+  en: "Tutorials for the Arma Reforger game server."
+  de: "Anleitungen für den Arma Reforger Gameserver."

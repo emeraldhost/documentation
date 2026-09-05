@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Core Keeper"
+  de: "Core Keeper"
+
+description:
+  en: "Tutorials for the Core Keeper game server."
+  de: "Anleitungen für den Core Keeper Gameserver."

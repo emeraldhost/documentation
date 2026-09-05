@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Space Station 14"
+  de: "Space Station 14"
+
+description:
+  en: "Tutorials for the Space Station 14 game server."
+  de: "Anleitungen für den Space Station 14 Gameserver."

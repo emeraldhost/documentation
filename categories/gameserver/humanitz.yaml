@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "HumanitZ"
+  de: "HumanitZ"
+
+description:
+  en: "Tutorials for the HumanitZ game server."
+  de: "Anleitungen für den HumanitZ Gameserver."

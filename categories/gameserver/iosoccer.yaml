@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "IOSoccer"
+  de: "IOSoccer"
+
+description:
+  en: "Tutorials for the IOSoccer game server."
+  de: "Anleitungen für den IOSoccer Gameserver."

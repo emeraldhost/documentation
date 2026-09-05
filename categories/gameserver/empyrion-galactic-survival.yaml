@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Empyrion: Galactic Survival"
+  de: "Empyrion: Galactic Survival"
+
+description:
+  en: "Tutorials for the Empyrion: Galactic Survival game server."
+  de: "Anleitungen für den Empyrion: Galactic Survival Gameserver."

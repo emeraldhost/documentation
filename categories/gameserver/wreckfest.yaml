@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Wreckfest"
+  de: "Wreckfest"
+
+description:
+  en: "Tutorials for the Wreckfest game server."
+  de: "Anleitungen für den Wreckfest Gameserver."

@@ -1,0 +1,86 @@
+name: New tutorial proposal
+description: I'd like to write a tutorial about X
+title: "[Tutorial] "
+labels: ["tutorial", "new content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new tutorial! Fill out the fields below so we can
+        confirm scope, avoid duplicates, and assign a reviewer.
+
+        Auf Deutsch geht das genauso: Du kannst alle Felder unten deutsch ausfüllen.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Tutorial topic
+      description: One-line summary of what the tutorial will teach.
+      placeholder: "How to set up automatic backups for a Minecraft server"
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Target audience
+      description: Who is this for? What prior knowledge can we assume?
+      placeholder: |
+        - Customers running their first game server
+        - Assumes basic familiarity with the EmeraldHost dashboard
+    validations:
+      required: true
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: Outline
+      description: A rough bullet list of sections / steps you plan to cover.
+      placeholder: |
+        1. Prerequisites
+        2. Enabling backups in the dashboard
+        3. Configuring schedule and retention
+        4. Restoring from a backup
+        5. Troubleshooting
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language will the first version be written in?
+      options:
+        - English
+        - German
+        - Both (EN + DE)
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Proposed section / category
+      description: Where should this live? Use the folder path tutorials/<group>/[<section>/][<subcategory>/]<topic>/ if you know it.
+      placeholder: "tutorials/gameserver/minecraft/install-plugins"
+    validations:
+      required: true
+
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Prerequisites or related tutorials
+      description: List any existing pages this tutorial depends on, or that should be updated alongside it.
+      placeholder: "Links to existing docs that the reader should know first."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and tutorials to make sure this is not a duplicate
+          required: true
+        - label: I am willing to write a first draft (or will note below if I am only proposing the topic)
+          required: false

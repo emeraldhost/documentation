@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Counter-Strike: Global Offensive"
+  de: "Counter-Strike: Global Offensive"
+
+description:
+  en: "Tutorials for the Counter-Strike: Global Offensive game server."
+  de: "Anleitungen für den Counter-Strike: Global Offensive Gameserver."

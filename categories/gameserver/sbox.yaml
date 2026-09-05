@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "s&box"
+  de: "s&box"
+
+description:
+  en: "Tutorials for the s&box game server."
+  de: "Anleitungen für den s&box Gameserver."

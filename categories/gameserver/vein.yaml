@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "VEIN"
+  de: "VEIN"
+
+description:
+  en: "Tutorials for the VEIN game server."
+  de: "Anleitungen für den VEIN Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Valheim"
+  de: "Valheim"
+
+description:
+  en: "Tutorials for the Valheim game server."
+  de: "Anleitungen für den Valheim Gameserver."

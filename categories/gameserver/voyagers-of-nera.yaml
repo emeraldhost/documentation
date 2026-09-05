@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Voyagers of Nera"
+  de: "Voyagers of Nera"
+
+description:
+  en: "Tutorials for the Voyagers of Nera game server."
+  de: "Anleitungen für den Voyagers of Nera Gameserver."

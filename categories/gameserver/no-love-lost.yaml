@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "No Love Lost"
+  de: "No Love Lost"
+
+description:
+  en: "Tutorials for the No Love Lost game server."
+  de: "Anleitungen für den No Love Lost Gameserver."

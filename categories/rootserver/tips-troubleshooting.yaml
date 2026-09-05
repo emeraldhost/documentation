@@ -1,0 +1,11 @@
+sort: 4
+
+parent: "rootserver"
+
+name:
+  en: "Tips & Troubleshooting"
+  de: "Tipps & Fehlerbehebung"
+
+description:
+  en: "Tips and solutions for common rootserver problems."
+  de: "Tipps und Lösungen für häufige Rootserver-Probleme."

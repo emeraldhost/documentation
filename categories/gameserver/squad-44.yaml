@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Squad 44"
+  de: "Squad 44"
+
+description:
+  en: "Tutorials for the Squad 44 game server."
+  de: "Anleitungen für den Squad 44 Gameserver."

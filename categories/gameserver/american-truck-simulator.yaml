@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "American Truck Simulator"
+  de: "American Truck Simulator"
+
+description:
+  en: "Tutorials for the American Truck Simulator game server."
+  de: "Anleitungen für den American Truck Simulator Gameserver."

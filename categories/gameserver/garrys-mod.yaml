@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Garry's Mod"
+  de: "Garry's Mod"
+
+description:
+  en: "Tutorials for the Garry's Mod game server."
+  de: "Anleitungen für den Garry's Mod Gameserver."

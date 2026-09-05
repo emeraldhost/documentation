@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Don't Starve Together"
+  de: "Don't Starve Together"
+
+description:
+  en: "Tutorials for the Don't Starve Together game server."
+  de: "Anleitungen für den Don't Starve Together Gameserver."

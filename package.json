@@ -1,0 +1,27 @@
+{
+  "name": "emeraldhost-documentation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "EmeraldHost guides and category metadata, published on emeraldhost.de.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeraldhost/documentation.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "markdownlint-cli2 --config .markdownlint.jsonc \"tutorials/**/*.md\" \"categories/**/*.md\" \"**/*.md\" \"!node_modules\"",
+    "frontmatter": "node .github/scripts/validate-frontmatter.mjs",
+    "check-links": "node .github/scripts/check-links.mjs",
+    "check-languages": "node .github/scripts/check-languages.mjs",
+    "check": "npm run frontmatter && npm run lint && npm run check-links && npm run check-languages",
+    "validate": "npm run check"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "markdownlint-cli2": "^0.23.2"
+  }
+}

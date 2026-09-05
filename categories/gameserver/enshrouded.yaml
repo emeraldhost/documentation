@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Enshrouded"
+  de: "Enshrouded"
+
+description:
+  en: "Tutorials for the Enshrouded game server."
+  de: "Anleitungen für den Enshrouded Gameserver."

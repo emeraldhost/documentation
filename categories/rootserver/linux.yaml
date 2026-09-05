@@ -1,0 +1,11 @@
+sort: 3
+
+parent: "rootserver"
+
+name:
+  en: "Linux"
+  de: "Linux"
+
+description:
+  en: "Guides for administering your Linux rootserver from the command line."
+  de: "Anleitungen zur Verwaltung Deines Linux-Rootservers über die Kommandozeile."

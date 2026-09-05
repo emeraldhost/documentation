@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Fistful of Frags"
+  de: "Fistful of Frags"
+
+description:
+  en: "Tutorials for the Fistful of Frags game server."
+  de: "Anleitungen für den Fistful of Frags Gameserver."

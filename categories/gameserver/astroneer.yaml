@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Astroneer"
+  de: "Astroneer"
+
+description:
+  en: "Tutorials for the Astroneer game server."
+  de: "Anleitungen für den Astroneer Gameserver."

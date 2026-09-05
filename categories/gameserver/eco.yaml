@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Eco"
+  de: "Eco"
+
+description:
+  en: "Tutorials for the Eco game server."
+  de: "Anleitungen für den Eco Gameserver."

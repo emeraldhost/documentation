@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "The Front"
+  de: "The Front"
+
+description:
+  en: "Tutorials for the The Front game server."
+  de: "Anleitungen für den The Front Gameserver."

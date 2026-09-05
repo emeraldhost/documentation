@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Counter-Strike: Source"
+  de: "Counter-Strike: Source"
+
+description:
+  en: "Tutorials for the Counter-Strike: Source game server."
+  de: "Anleitungen für den Counter-Strike: Source Gameserver."

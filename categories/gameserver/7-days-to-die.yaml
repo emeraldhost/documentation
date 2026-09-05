@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "7 Days to Die"
+  de: "7 Days to Die"
+
+description:
+  en: "Tutorials for the 7 Days to Die game server."
+  de: "Anleitungen für den 7 Days to Die Gameserver."

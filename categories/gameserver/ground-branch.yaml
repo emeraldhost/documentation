@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Ground Branch"
+  de: "Ground Branch"
+
+description:
+  en: "Tutorials for the Ground Branch game server."
+  de: "Anleitungen für den Ground Branch Gameserver."

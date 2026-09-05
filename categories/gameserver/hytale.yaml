@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Hytale"
+  de: "Hytale"
+
+description:
+  en: "Tutorials for the Hytale game server."
+  de: "Anleitungen für den Hytale Gameserver."

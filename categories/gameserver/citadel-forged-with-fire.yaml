@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Citadel: Forged with Fire"
+  de: "Citadel: Forged with Fire"
+
+description:
+  en: "Tutorials for the Citadel: Forged with Fire game server."
+  de: "Anleitungen für den Citadel: Forged with Fire Gameserver."

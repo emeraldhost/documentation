@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "No One Survived"
+  de: "No One Survived"
+
+description:
+  en: "Tutorials for the No One Survived game server."
+  de: "Anleitungen für den No One Survived Gameserver."

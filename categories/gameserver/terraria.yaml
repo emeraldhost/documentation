@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Terraria"
+  de: "Terraria"
+
+description:
+  en: "Tutorials for the Terraria game server."
+  de: "Anleitungen für den Terraria Gameserver."

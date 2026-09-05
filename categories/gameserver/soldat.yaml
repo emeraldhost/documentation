@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Soldat"
+  de: "Soldat"
+
+description:
+  en: "Tutorials for the Soldat game server."
+  de: "Anleitungen für den Soldat Gameserver."

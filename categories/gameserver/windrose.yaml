@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Windrose"
+  de: "Windrose"
+
+description:
+  en: "Tutorials for the Windrose game server."
+  de: "Anleitungen für den Windrose Gameserver."

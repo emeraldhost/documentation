@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Terraria: tModLoader"
+  de: "Terraria: tModLoader"
+
+description:
+  en: "Tutorials for the Terraria: tModLoader game server."
+  de: "Anleitungen für den Terraria: tModLoader Gameserver."

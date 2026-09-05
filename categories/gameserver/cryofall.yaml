@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "CryoFall"
+  de: "CryoFall"
+
+description:
+  en: "Tutorials for the CryoFall game server."
+  de: "Anleitungen für den CryoFall Gameserver."

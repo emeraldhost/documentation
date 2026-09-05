@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Aloft"
+  de: "Aloft"
+
+description:
+  en: "Tutorials for the Aloft game server."
+  de: "Anleitungen für den Aloft Gameserver."

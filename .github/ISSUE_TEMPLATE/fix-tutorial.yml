@@ -1,0 +1,76 @@
+name: Fix or update an existing tutorial
+description: Something in tutorial X is wrong, outdated, or unclear
+title: "[Fix] "
+labels: ["documentation", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the docs accurate. Please point us at the page
+        and describe what is wrong so a maintainer or contributor can fix it.
+
+        Auf Deutsch geht das genauso: Du kannst alle Felder unten deutsch ausfüllen.
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL or path
+      description: Link to the live page on emeraldhost.de, or the repo path of the source file (e.g. `tutorials/<group>/[<section>/][<subcategory>/]<topic>/en.md`).
+      placeholder: "https://emeraldhost.de/de/anleitungen/gameserver/minecraft/install-plugins or tutorials/gameserver/minecraft/install-plugins/de.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the issue. Quote the exact wording if it helps.
+      placeholder: |
+        Step 3 tells the reader to click "Save", but the button is now labelled "Apply changes".
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How badly does this affect readers?
+      options:
+        - Typo or minor wording
+        - Outdated screenshot or UI label
+        - Broken link or cross-reference
+        - Incorrect technical instruction (steps no longer work)
+        - Security or data-loss risk
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix
+      description: If you already know the correct content, paste it here. Otherwise leave blank.
+      placeholder: "Rename the button reference from 'Save' to 'Apply changes' and update the screenshot."
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / context
+      description: Anything that helps reproduce or verify the issue (product, plan, browser, locale).
+      placeholder: |
+        - Product: Game server (Minecraft)
+        - Locale: de
+        - Browser: Firefox 127
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked that no existing issue covers this problem
+          required: true
+        - label: I am willing to open a PR with the fix (optional)
+          required: false

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Echoes of Elysium"
+  de: "Echoes of Elysium"
+
+description:
+  en: "Tutorials for the Echoes of Elysium game server."
+  de: "Anleitungen für den Echoes of Elysium Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "BeamMP"
+  de: "BeamMP"
+
+description:
+  en: "Tutorials for the BeamMP game server."
+  de: "Anleitungen für den BeamMP Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Minecraft PocketMine Edition"
+  de: "Minecraft PocketMine Edition"
+
+description:
+  en: "Tutorials for the Minecraft PocketMine Edition game server."
+  de: "Anleitungen für den Minecraft PocketMine Edition Gameserver."

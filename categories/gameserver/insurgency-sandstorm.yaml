@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Insurgency: Sandstorm"
+  de: "Insurgency: Sandstorm"
+
+description:
+  en: "Tutorials for the Insurgency: Sandstorm game server."
+  de: "Anleitungen für den Insurgency: Sandstorm Gameserver."

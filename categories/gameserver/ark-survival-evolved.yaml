@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "ARK Survival Evolved"
+  de: "ARK Survival Evolved"
+
+description:
+  en: "Tutorials for the ARK Survival Evolved game server."
+  de: "Anleitungen für den ARK Survival Evolved Gameserver."

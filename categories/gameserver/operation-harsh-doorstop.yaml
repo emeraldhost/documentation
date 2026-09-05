@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Operation: Harsh Doorstop"
+  de: "Operation: Harsh Doorstop"
+
+description:
+  en: "Tutorials for the Operation: Harsh Doorstop game server."
+  de: "Anleitungen für den Operation: Harsh Doorstop Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Romestead"
+  de: "Romestead"
+
+description:
+  en: "Tutorials for the Romestead game server."
+  de: "Anleitungen für den Romestead Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Colony Survival"
+  de: "Colony Survival"
+
+description:
+  en: "Tutorials for the Colony Survival game server."
+  de: "Anleitungen für den Colony Survival Gameserver."

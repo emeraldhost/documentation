@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Myth of Empires"
+  de: "Myth of Empires"
+
+description:
+  en: "Tutorials for the Myth of Empires game server."
+  de: "Anleitungen für den Myth of Empires Gameserver."

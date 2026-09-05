@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Abiotic Factor"
+  de: "Abiotic Factor"
+
+description:
+  en: "Tutorials for the Abiotic Factor game server."
+  de: "Anleitungen für den Abiotic Factor Gameserver."

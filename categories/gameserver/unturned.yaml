@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Unturned"
+  de: "Unturned"
+
+description:
+  en: "Tutorials for the Unturned game server."
+  de: "Anleitungen für den Unturned Gameserver."

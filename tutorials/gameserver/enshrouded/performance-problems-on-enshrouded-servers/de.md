@@ -1,0 +1,47 @@
+---
+slug: "performance-probleme-auf-enshrouded-servern"
+language: "de"
+title: "Performance-Probleme auf Enshrouded Servern"
+description: "Performance-Probleme auf Enshrouded Servern beheben"
+tags: []
+date: "2024-01-27"
+visibility: "public"
+updated: "2026-08-13"
+cta: "gameserver"
+product_keys: ["enshrouded"]
+author: "EmeraldHost Team"
+author_link: "https://emeraldhost.de"
+author_img: "emeraldhost-team"
+author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste aus Deinem Server herausholst."
+available_languages: ["de", "en"]
+short_title: "Performance-Probleme auf Enshrouded Servern"
+sort: 4
+related: ["gameserver/enshrouded/join-server", "gameserver/enshrouded/kick-ban-players", "gameserver/enshrouded/read-server-log", "gameserver/enshrouded/reset-world"]
+---
+
+> [!CAUTION]
+> **Wichtiger Hinweis**
+>
+> Die Enshrouded Serversoftware ist aktuell leider schlecht optimiert. Dieses Problem betrifft viele Hosting-Anbieter gleichermaßen.
+
+## Welche Probleme können auftreten?
+
+- Server-Lags und Verzögerungen
+- Ruckelndes Gameplay
+- Verbindungsabbrüche
+- Hohe Ladezeiten
+
+## Warum treten diese Probleme auf?
+
+Die aktuelle [Enshrouded](https://emeraldhost.de/de/enshrouded-server-mieten?utm_source=documentation&utm_medium=marketing&utm_campaign=performance-probleme-auf-enshrouded-servern) Serversoftware ist leider nicht ausreichend optimiert. Wir erfüllen bereits die empfohlenen Serveranforderungen – können jedoch nicht gegen eine unperformante Serversoftware vorgehen.
+
+Wir stehen gemeinsam mit anderen Hosting-Anbietern im direkten Austausch mit dem [Enshrouded](https://emeraldhost.de/de/enshrouded-server-mieten?utm_source=documentation&utm_medium=marketing&utm_campaign=performance-probleme-auf-enshrouded-servern) Entwicklerteam, um eine nachhaltige Verbesserung zu erreichen. Bislang liegt uns jedoch noch keine Lösung vor.
+
+## Was kann ich tun?
+
+Wenn Du von Performance-Problemen betroffen bist, melde Dich gerne bei uns per [Support-Ticket](https://emeraldhost.de/de/support). Wir können Deinen Server **kostenlos** auf ein leistungsstärkeres Hostsystem verschieben.
+
+> [!WARNING]
+> **Hinweis**
+>
+> Wir können leider nicht garantieren, dass die Probleme dadurch langfristig behoben werden.

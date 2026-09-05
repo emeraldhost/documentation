@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "The Lord of the Rings: Return to Moria"
+  de: "The Lord of the Rings: Return to Moria"
+
+description:
+  en: "Tutorials for the The Lord of the Rings: Return to Moria game server."
+  de: "Anleitungen für den The Lord of the Rings: Return to Moria Gameserver."

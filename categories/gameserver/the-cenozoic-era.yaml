@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "The Cenozoic Era"
+  de: "The Cenozoic Era"
+
+description:
+  en: "Tutorials for the The Cenozoic Era game server."
+  de: "Anleitungen für den The Cenozoic Era Gameserver."

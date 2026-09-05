@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Terraria: tShock"
+  de: "Terraria: tShock"
+
+description:
+  en: "Tutorials for the Terraria: tShock game server."
+  de: "Anleitungen für den Terraria: tShock Gameserver."

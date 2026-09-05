@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "GTA San Andreas"
+  de: "GTA San Andreas"
+
+description:
+  en: "Tutorials for the GTA San Andreas game server."
+  de: "Anleitungen für den GTA San Andreas Gameserver."

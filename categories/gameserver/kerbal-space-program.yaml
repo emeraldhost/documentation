@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Kerbal Space Program"
+  de: "Kerbal Space Program"
+
+description:
+  en: "Tutorials for the Kerbal Space Program game server."
+  de: "Anleitungen für den Kerbal Space Program Gameserver."

@@ -1,0 +1,11 @@
+sort: 5
+
+parent: "rootserver"
+
+name:
+  en: "Windows"
+  de: "Windows"
+
+description:
+  en: "Guides for administering your Windows rootserver."
+  de: "Anleitungen zur Verwaltung Deines Windows-Rootservers."

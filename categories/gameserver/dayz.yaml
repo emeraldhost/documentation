@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "DayZ"
+  de: "DayZ"
+
+description:
+  en: "Tutorials for the DayZ game server."
+  de: "Anleitungen für den DayZ Gameserver."

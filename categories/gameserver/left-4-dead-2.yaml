@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Left 4 Dead 2"
+  de: "Left 4 Dead 2"
+
+description:
+  en: "Tutorials for the Left 4 Dead 2 game server."
+  de: "Anleitungen für den Left 4 Dead 2 Gameserver."

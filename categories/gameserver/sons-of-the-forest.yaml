@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Sons Of The Forest"
+  de: "Sons Of The Forest"
+
+description:
+  en: "Tutorials for the Sons Of The Forest game server."
+  de: "Anleitungen für den Sons Of The Forest Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Renown"
+  de: "Renown"
+
+description:
+  en: "Tutorials for the Renown game server."
+  de: "Anleitungen für den Renown Gameserver."

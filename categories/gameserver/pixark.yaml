@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "PixARK"
+  de: "PixARK"
+
+description:
+  en: "Tutorials for the PixARK game server."
+  de: "Anleitungen für den PixARK Gameserver."

@@ -1,0 +1,70 @@
+{
+    // markdownlint-cli2 config — see https://github.com/DavidAnson/markdownlint
+    "default": true,
+
+    // MD013: line length — disabled (prose wraps naturally, code blocks vary)
+    "MD013": false,
+
+    // MD033: inline HTML - disabled (kbd, mark, details, sub/sup are in use)
+    "MD033": false,
+
+    // MD025: single H1 — enforced; our H1 comes from frontmatter `title`,
+    // so the body must not contain any H1
+    "MD025": {
+        "level": 1,
+        "front_matter_title": ""
+    },
+
+    // MD001: heading levels increment by one (no h2 -> h4 jumps)
+    "MD001": true,
+
+    // MD040: fenced code blocks must declare a language
+    "MD040": true,
+
+    // MD041: first-line-heading — disabled. Templates and PR/issue templates
+    // legitimately start with H2 because the title comes from frontmatter.
+    "MD041": false,
+
+    // MD026: no-trailing-punctuation — disabled. Tutorial step titles like
+    // "Step 2: Continue ..." are legitimate.
+    "MD026": false,
+
+    // MD031: blanks-around-fences — keep enabled for body content but auto-fix
+    // friendly. Most violations are formatter artefacts.
+    "MD031": true,
+
+    // MD024: no-duplicate-heading — disabled. Tutorial sections legitimately
+    // reuse headings like "Voraussetzungen" or "Prerequisites" across tabs.
+    "MD024": false,
+
+    // MD036: no-emphasis-as-heading — disabled. Bold lines are used as soft
+    // section breaks inside a step.
+    "MD036": false,
+
+    // MD045: no-alt-text — disabled. Alt text needs an author who knows the
+    // screenshot, so it is checked in review rather than by the linter.
+    "MD045": false,
+
+    // MD028: no-blanks-blockquote — disabled. Two GitHub alerts in a row are
+    // two separate blockquotes and CommonMark needs the blank line between
+    // them, otherwise they merge into one.
+    "MD028": false,
+
+    // MD010: no-hard-tabs — kept for prose, disabled inside code blocks, where
+    // tab-separated config samples (server.cfg, admins.cfg, …) are content.
+    "MD010": {
+        "code_blocks": false
+    },
+
+    // MD029: ol-prefix — disabled. A callout between steps splits one numbered
+    // list into two, and the second half has to keep its visible numbers;
+    // new tutorials should still number 1..n.
+    "MD029": false,
+
+    // MD051: link-fragments — disabled. In-page anchors are checked in review.
+    "MD051": false,
+
+    // MD060: table-column-style — disabled. Pipe alignment in tables is
+    // cosmetic and we do not enforce one style.
+    "MD060": false
+}

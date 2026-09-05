@@ -1,0 +1,9 @@
+parent: "domains"
+
+name:
+  en: "DNS Records"
+  de: "DNS-Einträge"
+
+description:
+  en: "Guides for creating and managing DNS records for your domain."
+  de: "Anleitungen zum Anlegen und Verwalten von DNS-Einträgen für Deine Domain."

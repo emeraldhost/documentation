@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Minecraft Bedrock Edition"
+  de: "Minecraft Bedrock Edition"
+
+description:
+  en: "Tutorials for the Minecraft Bedrock Edition game server."
+  de: "Anleitungen für den Minecraft Bedrock Edition Gameserver."

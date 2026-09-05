@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "RuneScape: Dragonwilds"
+  de: "RuneScape: Dragonwilds"
+
+description:
+  en: "Tutorials for the RuneScape: Dragonwilds game server."
+  de: "Anleitungen für den RuneScape: Dragonwilds Gameserver."

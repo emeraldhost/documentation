@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Icarus"
+  de: "Icarus"
+
+description:
+  en: "Tutorials for the Icarus game server."
+  de: "Anleitungen für den Icarus Gameserver."

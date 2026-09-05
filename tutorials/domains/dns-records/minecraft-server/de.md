@@ -1,0 +1,106 @@
+---
+slug: "minecraft-server"
+language: "de"
+title: "So verknüpfst Du Deine Domain mit einem Minecraft Server"
+description: "Domain mit einem Minecraft Server verknüpfen"
+tags: []
+date: "2026-04-02"
+visibility: "public"
+updated: "2026-04-09"
+cta: "domain"
+author: "EmeraldHost Team"
+author_link: "https://emeraldhost.de"
+author_img: "emeraldhost-team"
+author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste aus Deinem Server herausholst."
+available_languages: ["de", "en"]
+short_title: "Minecraft Server"
+sort: 2
+related: ["domains/dns-records/fivem-server", "domains/dns-records/teamspeak-server"]
+---
+
+Du kannst Deinen Minecraft Server über eine eigene Domain erreichbar machen, sodass Spieler sich z.B. über `play.deinedomain.de` oder `deinedomain.de` verbinden können – statt über eine IP-Adresse.
+
+## Voraussetzungen
+
+- Eine Domain bei EmeraldHost
+- Die IP-Adresse und den Port Deines Minecraft Servers (findest Du in der **Verwaltung** Deines Servers)
+
+## Mit Subdomain verbinden (z.B. play.deinedomain.de)
+
+1. **DNS-Einstellungen öffnen**\
+   Öffne die Verwaltung Deiner Domain und klicke auf **DNS Einstellungen**.
+
+2. **A-Eintrag erstellen**\
+   Erstelle einen neuen Eintrag mit Typ **A**:
+
+   | Feld | Wert |
+   |------|------|
+   | Typ | `A` |
+   | Name | `play` |
+   | Ziel | Die IP-Adresse Deines Servers |
+
+3. **SRV-Eintrag erstellen**\
+   Erstelle einen neuen Eintrag mit Typ **SRV**, damit Minecraft den richtigen Port findet:
+
+   **Name:**
+
+   | Feld | Wert |
+   |------|------|
+   | Service Name | `_minecraft` |
+   | Protokoll | `TCP` |
+   | Name | `play` |
+
+   **Ziel:**
+
+   | Feld | Wert |
+   |------|------|
+   | Priorität | `0` |
+   | Gewicht | `5` |
+   | Port | Der Port Deines Servers |
+   | Ziel | `play.deinedomain.de` |
+
+4. **Verbindung testen**\
+   Warte einige Minuten, bis die DNS-Änderungen aktiv sind, und verbinde Dich im Spiel mit `play.deinedomain.de`.
+
+## Ohne Subdomain verbinden (z.B. deinedomain.de)
+
+1. **DNS-Einstellungen öffnen**\
+   Öffne die Verwaltung Deiner Domain und klicke auf **DNS Einstellungen**.
+
+2. **A-Eintrag erstellen**\
+   Erstelle einen neuen Eintrag mit Typ **A**:
+
+   | Feld | Wert |
+   |------|------|
+   | Typ | `A` |
+   | Name | `@` |
+   | Ziel | Die IP-Adresse Deines Servers |
+
+3. **SRV-Eintrag erstellen**\
+   Erstelle einen neuen Eintrag mit Typ **SRV**:
+
+   **Name:**
+
+   | Feld | Wert |
+   |------|------|
+   | Service Name | `_minecraft` |
+   | Protokoll | `TCP` |
+   | Name | leer lassen |
+
+   **Ziel:**
+
+   | Feld | Wert |
+   |------|------|
+   | Priorität | `0` |
+   | Gewicht | `5` |
+   | Port | Der Port Deines Servers |
+   | Ziel | `deinedomain.de` |
+
+4. **Verbindung testen**\
+   Warte einige Minuten, bis die DNS-Änderungen aktiv sind, und verbinde Dich im Spiel mit `deinedomain.de`.
+
+> [!NOTE]
+> DNS-Änderungen können bis zu 24 Stunden dauern, bis sie weltweit aktiv sind. In der Regel sind sie aber innerhalb weniger Minuten verfügbar.
+
+> [!TIP]
+> Falls Dein Server den Standard-Port `25565` verwendet, reicht der A-Eintrag allein aus. Der SRV-Eintrag wird nur benötigt, wenn Dein Server einen anderen Port verwendet.

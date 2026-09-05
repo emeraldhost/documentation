@@ -1,0 +1,59 @@
+name: Outdated tutorials review
+
+# Once a month, sweep every tutorial whose last content change (`updated:`,
+# falling back to `date:`) is older than a year and open a review issue listing
+# them. Authors get a structured to-do table with direct links to their
+# tutorial and a @mention when their frontmatter exposes a GitHub author_link.
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"   # 1st of each month, 06:00 UTC
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/outdated-tutorials.yml
+      - .github/scripts/outdated-tutorials.sh
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/outdated-tutorials.yml
+      - .github/scripts/outdated-tutorials.sh
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+  YQ_VERSION: v4.44.3
+
+jobs:
+  review:
+    name: Review run
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install yq
+        run: |
+          sudo curl -fsSL -o /usr/local/bin/yq \
+            https://github.com/mikefarah/yq/releases/download/${YQ_VERSION}/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Build review report
+        run: |
+          chmod +x .github/scripts/outdated-tutorials.sh
+          .github/scripts/outdated-tutorials.sh > review.md
+          cat review.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open review issue
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Idempotent: the label has to exist before an issue can carry it.
+          gh label create maintenance --description "Recurring upkeep" --color ededed 2>/dev/null || true
+          gh issue create \
+            --title "Tutorial review: $(date +'%B %Y')" \
+            --body-file review.md \
+            --label maintenance

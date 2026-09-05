@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "V Rising"
+  de: "V Rising"
+
+description:
+  en: "Tutorials for the V Rising game server."
+  de: "Anleitungen für den V Rising Gameserver."

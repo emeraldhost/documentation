@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Rust"
+  de: "Rust"
+
+description:
+  en: "Tutorials for the Rust game server."
+  de: "Anleitungen für den Rust Gameserver."

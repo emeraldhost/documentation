@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Factorio"
+  de: "Factorio"
+
+description:
+  en: "Tutorials for the Factorio game server."
+  de: "Anleitungen für den Factorio Gameserver."

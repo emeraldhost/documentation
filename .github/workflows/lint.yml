@@ -1,0 +1,58 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+env:
+  # Opt all third-party JS actions into Node.js 24. Required while some actions
+  # (e.g. markdownlint-cli2-action v20) still declare runs.using: node20 in their
+  # action.yml even after their wrapping repo bumps the major version.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    name: Markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Run markdownlint-cli2
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          config: .markdownlint.jsonc
+          globs: |
+            tutorials/**/*.md
+            categories/**/*.md
+            **/*.md
+            !node_modules
+
+  frontmatter:
+    name: Frontmatter schema
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - name: Install js-yaml
+        run: npm install --no-save js-yaml@4
+
+      - name: Validate frontmatter
+        run: node .github/scripts/validate-frontmatter.mjs
+
+      - name: Check internal links
+        run: node .github/scripts/check-links.mjs
+
+      - name: Check language coverage
+        run: node .github/scripts/check-languages.mjs

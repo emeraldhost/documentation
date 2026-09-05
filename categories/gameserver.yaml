@@ -1,0 +1,9 @@
+sort: 1
+
+name:
+  en: "Gameserver"
+  de: "Gameserver"
+
+description:
+  en: "Tutorials for gameserver hosting and configuration."
+  de: "Anleitungen für Gameserver-Hosting und -Konfiguration."

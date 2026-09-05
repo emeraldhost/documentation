@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Minecraft Java Edition"
+  de: "Minecraft Java Edition"
+
+description:
+  en: "Tutorials for the Minecraft Java Edition game server."
+  de: "Anleitungen für den Minecraft Java Edition Gameserver."

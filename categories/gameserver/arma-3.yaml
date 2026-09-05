@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Arma 3"
+  de: "Arma 3"
+
+description:
+  en: "Tutorials for the Arma 3 game server."
+  de: "Anleitungen für den Arma 3 Gameserver."

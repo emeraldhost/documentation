@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Black Mesa"
+  de: "Black Mesa"
+
+description:
+  en: "Tutorials for the Black Mesa game server."
+  de: "Anleitungen für den Black Mesa Gameserver."

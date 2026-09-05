@@ -1,0 +1,9 @@
+sort: 2
+
+name:
+  en: "Rootserver"
+  de: "Rootserver"
+
+description:
+  en: "Tutorials for rootserver setup and administration."
+  de: "Anleitungen für Rootserver-Einrichtung und -Administration."

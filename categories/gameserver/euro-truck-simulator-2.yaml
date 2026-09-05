@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Euro Truck Simulator 2"
+  de: "Euro Truck Simulator 2"
+
+description:
+  en: "Tutorials for the Euro Truck Simulator 2 game server."
+  de: "Anleitungen für den Euro Truck Simulator 2 Gameserver."

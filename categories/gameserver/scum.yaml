@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "SCUM"
+  de: "SCUM"
+
+description:
+  en: "Tutorials for the SCUM game server."
+  de: "Anleitungen für den SCUM Gameserver."

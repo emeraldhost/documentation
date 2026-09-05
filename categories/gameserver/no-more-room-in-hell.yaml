@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "No More Room in Hell"
+  de: "No More Room in Hell"
+
+description:
+  en: "Tutorials for the No More Room in Hell game server."
+  de: "Anleitungen für den No More Room in Hell Gameserver."

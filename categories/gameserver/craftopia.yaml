@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Craftopia"
+  de: "Craftopia"
+
+description:
+  en: "Tutorials for the Craftopia game server."
+  de: "Anleitungen für den Craftopia Gameserver."

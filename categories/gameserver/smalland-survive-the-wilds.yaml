@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Smalland: Survive the Wilds"
+  de: "Smalland: Survive the Wilds"
+
+description:
+  en: "Tutorials for the Smalland: Survive the Wilds game server."
+  de: "Anleitungen für den Smalland: Survive the Wilds Gameserver."

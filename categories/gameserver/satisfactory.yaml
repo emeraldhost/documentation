@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Satisfactory"
+  de: "Satisfactory"
+
+description:
+  en: "Tutorials for the Satisfactory game server."
+  de: "Anleitungen für den Satisfactory Gameserver."

@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Frozen Flame"
+  de: "Frozen Flame"
+
+description:
+  en: "Tutorials for the Frozen Flame game server."
+  de: "Anleitungen für den Frozen Flame Gameserver."

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product or account question
+    url: https://emeraldhost.de/en/support
+    about: Billing, servers and anything tied to your account belongs with our support team, not in a public issue.
+  - name: Frage zu Deinem Produkt oder Deinem Konto
+    url: https://emeraldhost.de/de/support
+    about: Rechnungen, Server und alles rund um Dein Konto gehören zum Support und nicht in ein öffentliches Issue.
+  - name: Community Discord
+    url: https://discord.emeraldhost.de/
+    about: Questions, ideas or just a chat with other EmeraldHost users and our team.

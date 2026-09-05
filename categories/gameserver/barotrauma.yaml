@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Barotrauma"
+  de: "Barotrauma"
+
+description:
+  en: "Tutorials for the Barotrauma game server."
+  de: "Anleitungen für den Barotrauma Gameserver."

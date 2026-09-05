@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Longvinter"
+  de: "Longvinter"
+
+description:
+  en: "Tutorials for the Longvinter game server."
+  de: "Anleitungen für den Longvinter Gameserver."

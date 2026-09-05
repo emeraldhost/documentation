@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "FOUNDRY"
+  de: "FOUNDRY"
+
+description:
+  en: "Tutorials for the FOUNDRY game server."
+  de: "Anleitungen für den FOUNDRY Gameserver."

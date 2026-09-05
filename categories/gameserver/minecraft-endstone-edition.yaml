@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Minecraft Endstone Edition"
+  de: "Minecraft Endstone Edition"
+
+description:
+  en: "Tutorials for the Minecraft Endstone Edition game server."
+  de: "Anleitungen für den Minecraft Endstone Edition Gameserver."

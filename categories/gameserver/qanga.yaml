@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "QANGA"
+  de: "QANGA"
+
+description:
+  en: "Tutorials for the QANGA game server."
+  de: "Anleitungen für den QANGA Gameserver."

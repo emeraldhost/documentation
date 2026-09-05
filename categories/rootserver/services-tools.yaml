@@ -1,0 +1,11 @@
+sort: 1
+
+parent: "rootserver"
+
+name:
+  en: "Services & Tools"
+  de: "Dienste & Tools"
+
+description:
+  en: "Guides for installing and operating services and tools on your rootserver."
+  de: "Anleitungen zur Installation und zum Betrieb von Diensten und Tools auf Deinem Rootserver."

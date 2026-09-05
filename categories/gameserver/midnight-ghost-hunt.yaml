@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Midnight Ghost Hunt"
+  de: "Midnight Ghost Hunt"
+
+description:
+  en: "Tutorials for the Midnight Ghost Hunt game server."
+  de: "Anleitungen für den Midnight Ghost Hunt Gameserver."

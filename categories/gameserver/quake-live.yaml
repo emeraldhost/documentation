@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Quake Live"
+  de: "Quake Live"
+
+description:
+  en: "Tutorials for the Quake Live game server."
+  de: "Anleitungen für den Quake Live Gameserver."

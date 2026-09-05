@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "StarRupture"
+  de: "StarRupture"
+
+description:
+  en: "Tutorials for the StarRupture game server."
+  de: "Anleitungen für den StarRupture Gameserver."

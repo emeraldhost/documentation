@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "RAGE:MP"
+  de: "RAGE:MP"
+
+description:
+  en: "Tutorials for the RAGE:MP game server."
+  de: "Anleitungen für den RAGE:MP Gameserver."

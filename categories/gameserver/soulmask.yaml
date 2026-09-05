@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Soulmask"
+  de: "Soulmask"
+
+description:
+  en: "Tutorials for the Soulmask game server."
+  de: "Anleitungen für den Soulmask Gameserver."
