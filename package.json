@@ -21,7 +21,7 @@
     "validate": "npm run check"
   },
   "devDependencies": {
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.3.1",
     "markdownlint-cli2": "^0.23.2"
   }
 }
