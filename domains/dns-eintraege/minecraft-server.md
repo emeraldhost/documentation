@@ -85,6 +85,10 @@ Du kannst deinen Minecraft Server über eine eigene Domain erreichbar machen, so
 4. <b>Verbindung testen</b><br>
    Warte einige Minuten, bis die DNS-Änderungen aktiv sind, und verbinde dich im Spiel mit `deinedomain.de`.
 
+## Öffentliche Adresse prüfen
+
+Teste die neue Adresse nach der DNS-Aktualisierung in Minecraft. Zusätzlich kannst du mit dem [Serverstatus-Checker von ServerBuddy](https://serverbuddy.net/tools/minecraft-server-status) prüfen, ob der öffentliche Endpunkt auf eine Minecraft-Statusabfrage antwortet. Das Tool folgt SRV-Einträgen der Java Edition und fragt das endgültige Ziel sowie den Port ab. So erkennst du, ob die DNS-Änderung noch nicht überall aktiv ist, der Port nicht erreichbar ist oder der Server keine gültige Minecraft-Antwort liefert.
+
 :::: info Hinweis
 DNS-Änderungen können bis zu 24 Stunden dauern, bis sie weltweit aktiv sind. In der Regel sind sie aber innerhalb weniger Minuten verfügbar.
 ::::
