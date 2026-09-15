@@ -36,3 +36,6 @@ You can kick and ban players using the in-game admin menu. The admin password is
 
 > [!NOTE]
 > You need the admin password to access the server management options.
+
+> [!TIP]
+> How to lift a ban again and which rights owners and admins have is explained in the guide [Unban Players](/tutorials/gameserver/runescape-dragonwilds/unban-players).

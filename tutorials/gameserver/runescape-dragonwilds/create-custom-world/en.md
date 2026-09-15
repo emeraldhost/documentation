@@ -54,7 +54,7 @@ By default, the server automatically creates a world with standard settings. You
    ```
 
 4. **Set world name**\
-   Open the **Settings** in the dashboard and enter the filename of your savegame (without `.sav`) in the **SaveGame** field.
+   Open the **Settings** in the dashboard and enter the filename of your savegame (without `.sav`) in the **Server Name** field.
 
 5. **Start the server**\
    Start your server. The custom world will now be loaded.

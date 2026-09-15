@@ -54,7 +54,7 @@ Standardmäßig erstellt der Server automatisch eine Welt mit Standard-Einstellu
    ```
 
 4. **Welt-Namen eintragen**\
-   Öffne die **Einstellungen** in der Verwaltung und trage den Dateinamen Deines Savegames (ohne `.sav`) im Feld **SaveGame** ein.
+   Öffne die **Einstellungen** in der Verwaltung und trage den Dateinamen Deines Savegames (ohne `.sav`) im Feld **Server Name** ein.
 
 5. **Server starten**\
    Starte Deinen Server. Die custom Welt wird nun geladen.

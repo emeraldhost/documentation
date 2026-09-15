@@ -36,3 +36,6 @@ Du kannst Spieler über das Ingame-Admin-Menü kicken und bannen. Dafür wird da
 
 > [!NOTE]
 > Du benötigst das Admin-Passwort, um auf die Server-Management-Optionen zugreifen zu können.
+
+> [!TIP]
+> Wie Du einen Bann wieder aufhebst und welche Rechte Owner und Admins haben, erfährst Du in der Anleitung [Spieler entbannen](/tutorials/gameserver/runescape-dragonwilds/unban-players).

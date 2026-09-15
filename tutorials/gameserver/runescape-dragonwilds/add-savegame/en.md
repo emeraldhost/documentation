@@ -49,7 +49,7 @@ The world file has the `.sav` extension.
    ```
 
 4. **Set world name**\
-   Open the **Settings** in the dashboard and enter the filename of your savegame (without `.sav`) in the **SaveGame** field.
+   Open the **Settings** in the dashboard and enter the filename of your savegame (without `.sav`) in the **Server Name** field.
 
 5. **Start the server**\
    Start your server.

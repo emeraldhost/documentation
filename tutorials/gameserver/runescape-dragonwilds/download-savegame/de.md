@@ -45,7 +45,7 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 > [!TIP]
 > **Die richtige Datei finden**
 >
-> Liegen mehrere `.sav`-Dateien im Verzeichnis, findest Du den Namen der aktiven Welt in den **Einstellungen** in der Verwaltung im Feld **SaveGame** – die passende Datei heißt genauso, ergänzt um die Endung `.sav`.
+> Liegen mehrere `.sav`-Dateien im Verzeichnis, findest Du den Namen der aktiven Welt in den **Einstellungen** in der Verwaltung im Feld **Server Name** – die passende Datei heißt genauso, ergänzt um die Endung `.sav`.
 
 > [!TIP]
 > **Spielstand wieder einspielen**
