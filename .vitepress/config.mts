@@ -1135,13 +1135,16 @@ export default defineConfig({
                 items: [
                   { text: 'Admin Passwort setzen', link: '/gameserver/runescape-dragonwilds/admin-passwort-setzen' },
                   { text: 'Backup erstellen', link: '/gameserver/runescape-dragonwilds/backup-erstellen' },
+                  { text: 'Crossplay einschränken', link: '/gameserver/runescape-dragonwilds/crossplay-einschraenken' },
                   { text: 'Custom Welt erstellen', link: '/gameserver/runescape-dragonwilds/custom-welt-erstellen' },
                   { text: 'Owner ID setzen', link: '/gameserver/runescape-dragonwilds/owner-id-setzen' },
                   { text: 'Savegame herunterladen', link: '/gameserver/runescape-dragonwilds/savegame-herunterladen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/runescape-dragonwilds/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/runescape-dragonwilds/server-beitreten' },
                   { text: 'Server Passwort setzen', link: '/gameserver/runescape-dragonwilds/server-passwort-setzen' },
-                  { text: 'Spieler kicken & bannen', link: '/gameserver/runescape-dragonwilds/spieler-kicken-bannen' }
+                  { text: 'Spieler entbannen', link: '/gameserver/runescape-dragonwilds/spieler-entbannen' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/runescape-dragonwilds/spieler-kicken-bannen' },
+                  { text: 'Welt zurücksetzen', link: '/gameserver/runescape-dragonwilds/welt-zuruecksetzen' }
                 ]
               },
               {
@@ -2853,11 +2856,14 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/runescape-dragonwilds/create-backup' },
                   { text: 'Create Custom World', link: '/en/gameserver/runescape-dragonwilds/create-custom-world' },
                   { text: 'Download Savegame', link: '/en/gameserver/runescape-dragonwilds/download-savegame' },
+                  { text: 'Reset World', link: '/en/gameserver/runescape-dragonwilds/reset-world' },
+                  { text: 'Restrict Crossplay', link: '/en/gameserver/runescape-dragonwilds/restrict-crossplay' },
                   { text: 'Set Admin Password', link: '/en/gameserver/runescape-dragonwilds/set-admin-password' },
                   { text: 'Join Server', link: '/en/gameserver/runescape-dragonwilds/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/runescape-dragonwilds/kick-ban-players' },
                   { text: 'Set Owner ID', link: '/en/gameserver/runescape-dragonwilds/set-owner-id' },
-                  { text: 'Set Server Password', link: '/en/gameserver/runescape-dragonwilds/set-server-password' }
+                  { text: 'Set Server Password', link: '/en/gameserver/runescape-dragonwilds/set-server-password' },
+                  { text: 'Unban Players', link: '/en/gameserver/runescape-dragonwilds/unban-players' },
                 ]
               },
               {

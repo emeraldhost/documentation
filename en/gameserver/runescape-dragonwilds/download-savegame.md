@@ -30,7 +30,7 @@ Stop your server before downloading the files. While the server is running it sa
    Start your server again.
 
 :::: tip Find the right file
-If there are several `.sav` files in the directory, you can find the name of the active world in the **Settings** in the dashboard in the **SaveGame** field — the matching file has exactly that name plus the `.sav` extension.
+If there are several `.sav` files in the directory, you can find the name of the active world in the **Settings** in the dashboard in the **Server Name** field — the matching file has exactly that name plus the `.sav` extension.
 ::::
 
 :::: tip Restore the savegame

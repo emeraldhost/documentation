@@ -23,3 +23,7 @@ You can kick and ban players using the in-game admin menu. The admin password is
 :::: info Note
 You need the admin password to access the server management options.
 ::::
+
+:::: tip Tip
+To learn how to lift a ban and which permissions owners and admins have, see the guide [Unban players](unban-players.md).
+::::

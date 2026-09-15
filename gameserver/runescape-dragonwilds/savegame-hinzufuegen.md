@@ -36,7 +36,7 @@ Die Welt-Datei hat die Endung `.sav`.
    ```
 
 4. <b>Welt-Namen eintragen</b><br>
-   Öffne die **Einstellungen** in der Verwaltung und trage den Dateinamen deines Savegames (ohne `.sav`) im Feld **SaveGame** ein.
+   Öffne die **Einstellungen** in der Verwaltung und trage den Dateinamen deines Savegames (ohne `.sav`) im Feld **Server Name** ein.
 
 5. <b>Server starten</b><br>
    Starte deinen Server.

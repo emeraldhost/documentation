@@ -30,7 +30,7 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    Starte deinen Server wieder.
 
 :::: tip Die richtige Datei finden
-Liegen mehrere `.sav`-Dateien im Verzeichnis, findest du den Namen der aktiven Welt in den **Einstellungen** in der Verwaltung im Feld **SaveGame** — die passende Datei heißt genauso, ergänzt um die Endung `.sav`.
+Liegen mehrere `.sav`-Dateien im Verzeichnis, findest du den Namen der aktiven Welt in den **Einstellungen** in der Verwaltung im Feld **Server Name** — die passende Datei heißt genauso, ergänzt um die Endung `.sav`.
 ::::
 
 :::: tip Spielstand wieder einspielen

@@ -23,3 +23,7 @@ Du kannst Spieler über das Ingame-Admin-Menü kicken und bannen. Dafür wird da
 :::: info Hinweis
 Du benötigst das Admin-Passwort, um auf die Server-Management-Optionen zugreifen zu können.
 ::::
+
+:::: tip Tipp
+Wie du einen Bann wieder aufhebst und welche Rechte Owner und Admins haben, erfährst du in der Anleitung [Spieler entbannen](spieler-entbannen.md).
+::::

@@ -8,4 +8,4 @@ Die Spieler sammeln Ressourcen, bauen Unterkünfte, craften Waffen und stellen s
 
 Das Spiel kombiniert die bekannten RuneScape-Skills mit Survival-Mechaniken, darunter wilde, transformative Magie, ein umfangreiches Bausystem, herausfordernde Kämpfe und Dungeons zum Erkunden. Die handgestaltete Spielwelt ist durchzogen von magischer Energie und bietet abwechslungsreiche Regionen.
 
-RuneScape: Dragonwilds ist auf PC über Steam verfügbar.
+RuneScape: Dragonwilds ist auf PC (Steam, Epic Games Store und Jagex Launcher) sowie für PlayStation 5, Xbox Series X|S und Nintendo Switch 2 verfügbar – mit Crossplay zwischen allen Plattformen.
