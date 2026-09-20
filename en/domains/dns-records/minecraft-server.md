@@ -85,6 +85,10 @@ You can make your Minecraft server reachable via your own domain, so players can
 4. <b>Test connection</b><br>
    Wait a few minutes for the DNS changes to take effect, then connect in-game using `yourdomain.com`.
 
+## Verify the Public Address
+
+After DNS has updated, test the new address in Minecraft. You can also use an independent Minecraft protocol check such as [ServerBuddy's server status checker](https://serverbuddy.net/tools/minecraft-server-status). It follows Java Edition SRV records and queries the final target and port. This helps you tell ongoing DNS propagation from an unreachable port or an invalid Minecraft response.
+
 :::: info Note
 DNS changes can take up to 24 hours to propagate worldwide. However, they are usually available within a few minutes.
 ::::
