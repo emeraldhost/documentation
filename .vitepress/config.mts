@@ -1535,6 +1535,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/valheim/admin-hinzufuegen' },
+                  { text: 'Automatisches Backup wiederherstellen', link: '/gameserver/valheim/automatisches-backup-wiederherstellen' },
                   { text: 'Backup erstellen', link: '/gameserver/valheim/backup-erstellen' },
                   { text: 'BepInEx installieren', link: '/gameserver/valheim/bepinex-installieren' },
                   { text: 'Branch wechseln', link: '/gameserver/valheim/branch-wechseln' },
@@ -1547,7 +1548,10 @@ export default defineConfig({
                   { text: 'Server Name ändern', link: '/gameserver/valheim/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/valheim/server-passwort-setzen' },
                   { text: 'Serverliste aktivieren', link: '/gameserver/valheim/serverliste-aktivieren' },
-                  { text: 'Spieler kicken & bannen', link: '/gameserver/valheim/spieler-kicken-bannen' }
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/valheim/spieler-kicken-bannen' },
+                  { text: 'Welt zurücksetzen', link: '/gameserver/valheim/welt-zuruecksetzen' },
+                  { text: 'Welt-Modifikatoren ändern', link: '/gameserver/valheim/welt-modifikatoren-aendern' },
+                  { text: 'Whitelist aktivieren', link: '/gameserver/valheim/whitelist-aktivieren' }
                 ]
               },
               {
@@ -3254,7 +3258,9 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/valheim/add-admin' },
+                  { text: 'Change World Modifiers', link: '/en/gameserver/valheim/change-world-modifiers' },
                   { text: 'Download Savegame', link: '/en/gameserver/valheim/download-savegame' },
+                  { text: 'Enable Whitelist', link: '/en/gameserver/valheim/enable-whitelist' },
                   { text: 'Install BepInEx', link: '/en/gameserver/valheim/install-bepinex' },
                   { text: 'Add Mods', link: '/en/gameserver/valheim/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/valheim/add-savegame' },
@@ -3266,6 +3272,8 @@ export default defineConfig({
                   { text: 'Enable Server List', link: '/en/gameserver/valheim/enable-server-list' },
                   { text: 'Join Server', link: '/en/gameserver/valheim/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/valheim/kick-ban-players' },
+                  { text: 'Reset World', link: '/en/gameserver/valheim/reset-world' },
+                  { text: 'Restore Automatic Backup', link: '/en/gameserver/valheim/restore-automatic-backup' },
                   { text: 'Set Server Password', link: '/en/gameserver/valheim/set-server-password' }
                 ]
               },

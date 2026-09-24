@@ -23,14 +23,14 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    /.config/unity3d/IronGate/Valheim/worlds_local/
    ```
 
-4. <b>Dateien herunterladen</b><br>
-   Lade die beiden Dateien `<WeltName>.fwl` (Welt-Metadaten) und `<WeltName>.db` (Weltdaten) auf deinen PC herunter. Beide Dateien gehören zusammen und müssen immer gemeinsam gesichert werden.
+4. <b>Weltordner herunterladen</b><br>
+   Lade den kompletten Ordner `<WeltName>` auf deinen PC herunter. Seit Valheim 1.0 ist jede Welt ein eigener Ordner, dessen Dateien als Satz zusammengehören. Lade deshalb immer den ganzen Ordner herunter und nicht nur einzelne Dateien daraus.
 
 5. <b>Server starten</b><br>
    Starte deinen Server wieder.
 
 :::: tip Tipp
-Welche Dateien zu deiner Welt gehören, erkennst du am Feld **Welt Name** in den **Einstellungen** der Verwaltung. Trägt es z.B. `MyWorld` ein, benötigst du die Dateien `MyWorld.fwl` und `MyWorld.db`.
+Welcher Ordner zu deiner Welt gehört, erkennst du am Feld **Welt Name** in den **Einstellungen** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst du den Ordner `MeineWelt`. Ordner mit `_backup_` im Namen sind Sicherungen und nicht der aktuelle Stand.
 ::::
 
 :::: tip Spielstand wieder einspielen
@@ -38,5 +38,5 @@ Möchtest du den Spielstand später wieder auf einen Server übertragen, folge d
 ::::
 
 :::: info Regelmäßige Sicherungen
-Für automatische bzw. regelmäßige Sicherungen kannst du auch die Backup-Funktion nutzen: [Backup erstellen](backup-erstellen.md).
+Für automatische bzw. regelmäßige Sicherungen kannst du auch die Backup-Funktion nutzen: [Backup erstellen](backup-erstellen.md). Wie du eines der automatischen Backups zurückspielst, die Valheim selbst auf deinem Server anlegt, erfährst du unter [Automatisches Backup wiederherstellen](automatisches-backup-wiederherstellen.md).
 ::::

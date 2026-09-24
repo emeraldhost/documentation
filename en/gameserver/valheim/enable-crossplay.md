@@ -4,7 +4,7 @@ description: Enable or disable crossplay on a Valheim server
 
 # How to Enable or Disable Crossplay on Your Valheim Server
 
-With crossplay, players from different platforms (Steam, Xbox) can play together.
+With crossplay, players from different platforms (PC, Mac, Xbox One, Xbox Series X|S, PlayStation 5, Nintendo Switch 2) can play together.
 
 1. <b>Open dashboard</b><br>
    Open the dashboard of your server.
