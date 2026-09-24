@@ -19,7 +19,7 @@ sort: 9
 related: ["gameserver/core-keeper/create-backup", "gameserver/core-keeper/download-savegame", "gameserver/core-keeper/enable-seasonal-events", "gameserver/core-keeper/set-server-password"]
 ---
 
-Du kannst Deinem Core Keeper Server auf zwei Wegen beitreten: direkt über die **IP-Adresse und den Game Port** oder über die **Game ID**. Wir empfehlen die Verbindung über IP und Port — die Game ID führt erfahrungsgemäß häufig zu Verbindungsproblemen.
+Du kannst Deinem Core Keeper Server auf zwei Wegen beitreten: direkt über die **IP-Adresse und den Game Port** oder über die **Game ID**. Wir empfehlen die Verbindung über IP und Port – die Game ID führt erfahrungsgemäß häufig zu Verbindungsproblemen.
 
 ## Verbindungsdaten finden
 

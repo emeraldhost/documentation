@@ -6,6 +6,7 @@ description: "Backup Einstellungen auf einem Valheim Server ändern"
 tags: []
 date: "2026-04-10"
 visibility: "public"
+updated: "2026-09-24"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -29,12 +30,15 @@ Du kannst einstellen, wie oft und wie viele Backups der Server erstellt.
 3. **Backup-Einstellungen anpassen**\
    Passe die folgenden Felder an:
 
-   | Feld | Beschreibung |
-   |------|-------------|
-   | **Backup Interval** | Zeit in Sekunden zwischen Backups |
-   | **Backup Count** | Anzahl der aufbewahrten Backups |
-   | **Backup Shorttime** | Intervall für kurzfristige Backups (in Sekunden) |
-   | **Backup Longtime** | Intervall für langfristige Backups (in Sekunden) |
+   | Feld | Beschreibung | Standard |
+   |------|-------------|----------|
+   | **Backup Interval** | Wie oft der Server die Welt speichert (in Sekunden). Trotz des Namens ist das nicht der Abstand zwischen den Backups. | `1800` (30 Minuten) |
+   | **Backup Count** | Anzahl der aufbewahrten automatischen Backups. Das erste Backup folgt dem Abstand aus **Backup Shorttime**, alle weiteren dem Abstand aus **Backup Longtime**. | `4` |
+   | **Backup Shorttime** | Abstand zwischen den ersten automatischen Backups (in Sekunden) | `7200` (2 Stunden) |
+   | **Backup Longtime** | Abstand zwischen den folgenden automatischen Backups (in Sekunden) | `43200` (12 Stunden) |
 
 4. **Server neu starten**\
    Speichere die Einstellungen und starte Deinen Server neu.
+
+> [!NOTE]
+> Die automatischen Backups legt der Server als eigene Ordner im Verzeichnis `/.config/unity3d/IronGate/Valheim/worlds_local/` direkt neben Deiner Welt ab. Wie Du eines davon zurückspielst, erfährst Du in [Automatisches Backup wiederherstellen](/tutorials/gameserver/valheim/restore-automatic-backup).

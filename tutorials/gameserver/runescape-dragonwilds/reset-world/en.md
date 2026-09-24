@@ -20,7 +20,7 @@ related: ["gameserver/runescape-dragonwilds/create-backup", "gameserver/runescap
 The dashboard has no button to reset the world. On startup, the server always loads the most recent `.sav` file from the `RSDragonwilds/Saved/SaveGames` folder. If it finds none, it automatically creates a new standard world. So you get a fresh world by emptying that folder.
 
 > [!IMPORTANT]
-> Resetting removes your current world for good: all buildings and placed objects and with them your entire progress in this world. There is no undo. So always create a backup **first** — without one there is no way back to your old state.
+> Resetting removes your current world for good: all buildings and placed objects and with them your entire progress in this world. There is no undo. So always create a backup **first** – without one there is no way back to your old state.
 
 ## Reset the world
 
@@ -28,7 +28,7 @@ The dashboard has no button to reset the world. On startup, the server always lo
    Back up your current world before you delete anything: [Create backup](/tutorials/gameserver/runescape-dragonwilds/create-backup). You can also download the `.sav` file to your PC: [Download savegame](/tutorials/gameserver/runescape-dragonwilds/download-savegame).
 
 2. **Stop the server**\
-   Stop your server via the dashboard. A running server keeps writing to its save file — never delete the files while it is running.
+   Stop your server via the dashboard. A running server keeps writing to its save file – never delete the files while it is running.
 
 3. **Connect via SFTP**\
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection) and open the following directory:
@@ -38,7 +38,7 @@ The dashboard has no button to reset the world. On startup, the server always lo
    ```
 
 4. **Delete the saves**\
-   Delete all files in this directory. Keep the `SaveGames` folder itself — only delete its contents.
+   Delete all files in this directory. Keep the `SaveGames` folder itself – only delete its contents.
 
 5. **Set the world name**\
    Optional: Open the **Settings** in the dashboard and enter the name the new world should get in the **Server Name** field. If you leave the field unchanged, the new world gets the name that is currently entered there.
@@ -47,7 +47,7 @@ The dashboard has no button to reset the world. On startup, the server always lo
    Start your server via the dashboard. While booting up, it creates a new standard world with that name.
 
 > [!WARNING]
-> Only delete the contents of the `SaveGames` folder. The file `DedicatedServer.ini` in `RSDragonwilds/Saved/Config/LinuxServer/` holds your server configuration — including the Owner ID, server password and admin password. Leave it untouched.
+> Only delete the contents of the `SaveGames` folder. The file `DedicatedServer.ini` in `RSDragonwilds/Saved/Config/LinuxServer/` holds your server configuration – including the Owner ID, server password and admin password. Leave it untouched.
 
 ## What is gone and what stays
 
@@ -64,7 +64,7 @@ The dashboard has no button to reset the world. On startup, the server always lo
 
 ## Load a different world
 
-If several `.sav` files are in the `SaveGames` folder, the server always loads the **most recent** one — the **Server Name** field alone is not enough to switch between existing worlds. The world you want has to be the only one in the folder.
+If several `.sav` files are in the `SaveGames` folder, the server always loads the **most recent** one – the **Server Name** field alone is not enough to switch between existing worlds. The world you want has to be the only one in the folder.
 
 1. **Stop the server**\
    Stop your server via the dashboard.

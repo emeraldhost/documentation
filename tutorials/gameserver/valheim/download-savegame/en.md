@@ -6,6 +6,7 @@ description: "Download a savegame from a Valheim server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-09-24"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -38,14 +39,14 @@ You can download your server's savegame to your PC at any time – for example a
    /.config/unity3d/IronGate/Valheim/worlds_local/
    ```
 
-4. **Download the files**\
-   Download both files `<WorldName>.fwl` (world metadata) and `<WorldName>.db` (world data) to your PC. The two files belong together and must always be saved as a pair.
+4. **Download the world folder**\
+   Download the complete `<WorldName>` folder to your PC. Since Valheim 1.0, every world is a folder of its own whose files belong together as a set. Therefore always download the whole folder and not just individual files from it.
 
 5. **Start the server**\
    Start your server again.
 
 > [!TIP]
-> You can tell which files belong to your world from the **World Name** field in the **Settings** of the dashboard. If it contains `MyWorld`, for example, you need the files `MyWorld.fwl` and `MyWorld.db`.
+> You can tell which folder belongs to your world from the **World Name** field in the **Settings** of the dashboard. If it contains `MyWorld`, for example, you need the folder `MyWorld`. Folders with `_backup_` in their name are backups, not the current state.
 
 > [!TIP]
 > **Restoring the savegame**
@@ -55,4 +56,4 @@ You can download your server's savegame to your PC at any time – for example a
 > [!NOTE]
 > **Regular backups**
 >
-> For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/valheim/create-backup).
+> For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/valheim/create-backup). To learn how to restore one of the automatic backups that Valheim itself creates on your server, see [Restore automatic backup](/tutorials/gameserver/valheim/restore-automatic-backup).

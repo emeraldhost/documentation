@@ -20,7 +20,7 @@ related: ["gameserver/runescape-dragonwilds/create-backup", "gameserver/runescap
 In der Verwaltung gibt es keinen Knopf zum Zurücksetzen der Welt. Beim Start lädt der Server immer die neueste `.sav`-Datei aus dem Ordner `RSDragonwilds/Saved/SaveGames`. Findet er dort keine, legt er automatisch eine neue Standard-Welt an. Eine frische Welt bekommst Du also, indem Du diesen Ordner leerst.
 
 > [!IMPORTANT]
-> Beim Zurücksetzen ist Deine bisherige Welt unwiederbringlich weg: alle Gebäude und platzierten Objekte und damit der gesamte Fortschritt in dieser Welt. Es gibt keine Rückgängig-Funktion. Erstelle deshalb **zuerst** ein Backup — ohne Sicherung kommst Du an Deinen alten Stand nie wieder heran.
+> Beim Zurücksetzen ist Deine bisherige Welt unwiederbringlich weg: alle Gebäude und platzierten Objekte und damit der gesamte Fortschritt in dieser Welt. Es gibt keine Rückgängig-Funktion. Erstelle deshalb **zuerst** ein Backup – ohne Sicherung kommst Du an Deinen alten Stand nie wieder heran.
 
 ## Welt zurücksetzen
 
@@ -28,7 +28,7 @@ In der Verwaltung gibt es keinen Knopf zum Zurücksetzen der Welt. Beim Start l�
    Sichere Deine aktuelle Welt, bevor Du irgendetwas löschst: [Backup erstellen](/tutorials/gameserver/runescape-dragonwilds/create-backup). Zusätzlich kannst Du die `.sav`-Datei auf Deinen PC herunterladen: [Savegame herunterladen](/tutorials/gameserver/runescape-dragonwilds/download-savegame).
 
 2. **Server stoppen**\
-   Stoppe Deinen Server über die Verwaltung. Ein laufender Server schreibt weiter in seine Speicherdatei — lösche die Dateien deshalb niemals im laufenden Betrieb.
+   Stoppe Deinen Server über die Verwaltung. Ein laufender Server schreibt weiter in seine Speicherdatei – lösche die Dateien deshalb niemals im laufenden Betrieb.
 
 3. **Per SFTP verbinden**\
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server und öffne folgendes Verzeichnis:
@@ -38,7 +38,7 @@ In der Verwaltung gibt es keinen Knopf zum Zurücksetzen der Welt. Beim Start l�
    ```
 
 4. **Spielstände löschen**\
-   Lösche alle Dateien in diesem Verzeichnis. Den Ordner `SaveGames` selbst lässt Du stehen — lösche nur seinen Inhalt.
+   Lösche alle Dateien in diesem Verzeichnis. Den Ordner `SaveGames` selbst lässt Du stehen – lösche nur seinen Inhalt.
 
 5. **Welt-Namen festlegen**\
    Optional: Öffne die **Einstellungen** in der Verwaltung und trage im Feld **Server Name** den Namen ein, den die neue Welt bekommen soll. Lässt Du das Feld unverändert, bekommt die neue Welt den Namen, der dort aktuell eingetragen ist.
@@ -47,7 +47,7 @@ In der Verwaltung gibt es keinen Knopf zum Zurücksetzen der Welt. Beim Start l�
    Starte Deinen Server über die Verwaltung. Beim Hochfahren legt er eine neue Standard-Welt mit diesem Namen an.
 
 > [!WARNING]
-> Lösche wirklich nur den Inhalt des Ordners `SaveGames`. Die Datei `DedicatedServer.ini` unter `RSDragonwilds/Saved/Config/LinuxServer/` enthält Deine Serverkonfiguration — darunter Owner ID, Server-Passwort und Admin-Passwort. Lass sie unangetastet.
+> Lösche wirklich nur den Inhalt des Ordners `SaveGames`. Die Datei `DedicatedServer.ini` unter `RSDragonwilds/Saved/Config/LinuxServer/` enthält Deine Serverkonfiguration – darunter Owner ID, Server-Passwort und Admin-Passwort. Lass sie unangetastet.
 
 ## Was weg ist und was bleibt
 
@@ -64,7 +64,7 @@ In der Verwaltung gibt es keinen Knopf zum Zurücksetzen der Welt. Beim Start l�
 
 ## Andere Welt laden
 
-Liegen mehrere `.sav`-Dateien im Ordner `SaveGames`, lädt der Server immer die **neueste** davon — das Feld **Server Name** allein reicht nicht, um zwischen vorhandenen Welten zu wechseln. Die gewünschte Welt muss allein im Ordner liegen.
+Liegen mehrere `.sav`-Dateien im Ordner `SaveGames`, lädt der Server immer die **neueste** davon – das Feld **Server Name** allein reicht nicht, um zwischen vorhandenen Welten zu wechseln. Die gewünschte Welt muss allein im Ordner liegen.
 
 1. **Server stoppen**\
    Stoppe Deinen Server über die Verwaltung.

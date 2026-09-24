@@ -6,6 +6,7 @@ description: "Savegame von einem Valheim Server herunterladen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-09-24"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -36,14 +37,14 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
    /.config/unity3d/IronGate/Valheim/worlds_local/
    ```
 
-4. **Dateien herunterladen**\
-   Lade die beiden Dateien `<WeltName>.fwl` (Welt-Metadaten) und `<WeltName>.db` (Weltdaten) auf Deinen PC herunter. Beide Dateien gehören zusammen und müssen immer gemeinsam gesichert werden.
+4. **Weltordner herunterladen**\
+   Lade den kompletten Ordner `<WeltName>` auf Deinen PC herunter. Seit Valheim 1.0 ist jede Welt ein eigener Ordner, dessen Dateien als Satz zusammengehören. Lade deshalb immer den ganzen Ordner herunter und nicht nur einzelne Dateien daraus.
 
 5. **Server starten**\
    Starte Deinen Server wieder.
 
 > [!TIP]
-> Welche Dateien zu Deiner Welt gehören, erkennst Du am Feld **Welt Name** in den **Einstellungen** der Verwaltung. Trägt es z.B. `MyWorld` ein, benötigst Du die Dateien `MyWorld.fwl` und `MyWorld.db`.
+> Welcher Ordner zu Deiner Welt gehört, erkennst Du am Feld **Welt Name** in den **Einstellungen** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst Du den Ordner `MeineWelt`. Ordner mit `_backup_` im Namen sind Sicherungen und nicht der aktuelle Stand.
 
 > [!TIP]
 > **Spielstand wieder einspielen**
@@ -53,4 +54,4 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 > [!NOTE]
 > **Regelmäßige Sicherungen**
 >
-> Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/valheim/create-backup).
+> Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/valheim/create-backup). Wie Du eines der automatischen Backups zurückspielst, die Valheim selbst auf Deinem Server anlegt, erfährst Du unter [Automatisches Backup wiederherstellen](/tutorials/gameserver/valheim/restore-automatic-backup).

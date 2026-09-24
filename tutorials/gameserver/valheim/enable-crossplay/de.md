@@ -6,6 +6,7 @@ description: "Crossplay auf einem Valheim Server aktivieren oder deaktivieren"
 tags: []
 date: "2026-04-10"
 visibility: "public"
+updated: "2026-09-24"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -18,7 +19,7 @@ sort: 9
 related: ["gameserver/valheim/change-server-name", "gameserver/valheim/create-backup", "gameserver/valheim/enable-server-list", "gameserver/valheim/join-server"]
 ---
 
-Mit Crossplay können Spieler von verschiedenen Plattformen (Steam, Xbox) gemeinsam spielen.
+Mit Crossplay können Spieler von verschiedenen Plattformen (PC, Mac, Xbox One, Xbox Series X|S, PlayStation 5, Nintendo Switch 2) gemeinsam spielen.
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
