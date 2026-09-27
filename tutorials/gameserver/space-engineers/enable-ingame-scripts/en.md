@@ -6,6 +6,7 @@ description: "Allow in-game scripts on a Space Engineers server"
 tags: []
 date: "2026-07-08"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["space-engineers"]
 author: "EmeraldHost Team"
@@ -33,7 +34,7 @@ This setting allows the execution of in-game scripts – the C# scripts in **Pro
    Save the setting and restart your server for the change to take effect.
 
 > [!NOTE]
-> In-game scripts require [experimental mode](/tutorials/gameserver/space-engineers/enable-experimental-mode) to be enabled – turn it on as well so the scripts run.
+> If **In-Game Scripts** is set to `true`, the server automatically turns on [experimental mode](/tutorials/gameserver/space-engineers/enable-experimental-mode) when loading the world – even if it is set to `false` in the dashboard. So you do not need to enable it as well. As long as in-game scripts are allowed, however, you cannot turn it off either.
 
 > [!WARNING]
 > **Caution**

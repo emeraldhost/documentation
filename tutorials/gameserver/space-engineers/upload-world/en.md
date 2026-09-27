@@ -6,6 +6,7 @@ description: "Upload an existing world to a Space Engineers server"
 tags: []
 date: "2026-07-08"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["space-engineers"]
 author: "EmeraldHost Team"
@@ -21,7 +22,7 @@ related: ["gameserver/space-engineers/enable-remote-api", "gameserver/space-engi
 You can transfer a locally created or existing world to your server and continue playing there. A Space Engineers world is a **folder** that contains, among others, the files `Sandbox.sbc` and `Sandbox_config.sbc`.
 
 > [!NOTE]
-> The world name on your server is fixed to **World** and cannot be changed (visible in the **Settings**). Your world is therefore always loaded from the `Saves/World/` folder – you upload the **contents** of your world into exactly this folder.
+> The world name on your server is fixed to **World** and cannot be changed (visible in the **Settings**). Your world is therefore always loaded from the `/config/Saves/World/` folder – you upload the **contents** of your world into exactly this folder.
 
 ## Find the world folder
 
@@ -47,15 +48,21 @@ Each world is its own folder (named after the world). You need the **contents** 
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection), or use the file browser.
 
 3. **Open the world folder**\
-   Go to the `Saves/World/` folder on the server.
+   Go to the `/config/Saves/World/` folder on the server.
 
-4. **Upload the world data**\
-   Upload the **contents** of your local world folder directly into `Saves/World/`, overwriting the existing files. Upload the files directly into the folder – **not** as another subfolder.
+4. **Delete the old world files**\
+   Create a [backup](/tutorials/gameserver/create-backup) first if you want to keep the current world. Then delete all files located directly in `/config/Saves/World/`, or empty the folder completely.
 
-5. **Start the server**\
+   > [!IMPORTANT]
+   > Do not simply upload your world over the old files. If a `SANDBOX_0_0_0_.sbsB5` is present in the folder, the server loads this file instead of `SANDBOX_0_0_0_.sbs`. If your world does not include its own `.sbsB5`, the server would otherwise load the ships, stations and other objects from the old world's `.sbsB5`.
+
+5. **Upload the world data**\
+   Upload the **contents** of your local world folder directly into `/config/Saves/World/` – **not** as another subfolder.
+
+6. **Start the server**\
    Start your server. The server console should show "Loading world …" and then "Game ready".
 
 > [!WARNING]
 > **Caution**
 >
-> Existing files in the `Saves/World/` folder will be overwritten. Create a [backup](/tutorials/gameserver/create-backup) first if you want to keep the current world. Also, do not store your own backups inside the folder – the server removes unrecognized files when it saves.
+> Do not store your own backups inside the `/config/Saves/World/` folder – the server removes unrecognized files when it saves.

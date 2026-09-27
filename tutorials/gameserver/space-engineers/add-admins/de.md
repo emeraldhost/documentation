@@ -6,6 +6,7 @@ description: "Admins auf einem Space Engineers Server hinzufügen"
 tags: []
 date: "2026-07-08"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["space-engineers"]
 author: "EmeraldHost Team"
@@ -36,7 +37,7 @@ Du benötigst die [SteamID64](/tutorials/gameserver/steamid64-find-out) jedes Sp
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server oder nutze den Datei-Browser.
 
 3. **Konfiguration öffnen**\
-   Öffne die Datei `SpaceEngineers-Dedicated.cfg`.
+   Öffne die Datei `/config/SpaceEngineers-Dedicated.cfg`.
 
 4. **Admins eintragen**\
    Suche den Abschnitt `<Administrators>` (bei einem leeren Server steht dort `<Administrators />`) und trage pro Admin eine Zeile mit der SteamID64 ein:

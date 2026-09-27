@@ -6,6 +6,7 @@ description: "Set up automatic backups on a Space Engineers server"
 tags: []
 date: "2026-07-08"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["space-engineers"]
 author: "EmeraldHost Team"
@@ -18,7 +19,7 @@ sort: 7
 related: ["gameserver/space-engineers/change-server-description", "gameserver/space-engineers/change-server-name", "gameserver/space-engineers/download-world", "gameserver/space-engineers/enable-experimental-mode"]
 ---
 
-Your server can automatically save the state of the world at regular intervals. Here is how to enable or disable automatic backups and set the interval.
+Your server automatically saves the world at regular intervals and creates a backup each time. Here is how to set how often this happens.
 
 1. **Open dashboard**\
    Open the dashboard of your server.
@@ -26,14 +27,21 @@ Your server can automatically save the state of the world at regular intervals. 
 2. **Open settings**\
    Navigate to the **Settings**.
 
-3. **Enable automatic backups**\
-   Set the **Automatic Backup** option to `true` to enable it, or to `false` to disable it.
+3. **Set the interval**\
+   Enter the desired interval in minutes in the **Automatic Backup Interval** field – this is how often the server saves the world (default: `5`). After every successful save, the server creates a backup in the `/config/Saves/World/Backup/` folder.
 
-4. **Set the interval**\
-   Enter the desired interval in minutes in the **Automatic Backup Interval** field – this is how often the server saves the world (default: `5`).
-
-5. **Restart the server**\
+4. **Restart the server**\
    Save the settings and restart your server for the changes to take effect.
+
+> [!WARNING]
+> **Caution**
+>
+> With the value `0`, the server no longer saves the world automatically and therefore no longer creates automatic backups either. If the server crashes, everything that happened since the last save is lost.
+
+> [!NOTE]
+> The **Automatic Backup** option does **not** turn off automatic saving – even with `false`, the server keeps saving at the set interval. It sets the `EnableSaving` value, which Keen calls "Enable Saving from Menu". This value only controls whether saving via the menu is possible in a self-hosted game. Leave the option at its default value `true`.
+
+To learn how to restore your world from one of these backups and how many backups your server keeps, see [Restore an Automatic Backup](/tutorials/gameserver/space-engineers/restore-automatic-backup).
 
 > [!TIP]
 > You can also create a manual backup at any time via the [backup function](/tutorials/gameserver/create-backup) in the dashboard.

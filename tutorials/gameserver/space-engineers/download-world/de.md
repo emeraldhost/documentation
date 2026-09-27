@@ -6,6 +6,7 @@ description: "Welt von einem Space Engineers Server herunterladen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["space-engineers"]
 author: "EmeraldHost Team"
@@ -33,7 +34,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Wechsle auf dem Server in folgenden Ordner:
 
    ```text
-   Saves/World/
+   /config/Saves/World/
    ```
 
 4. **Weltdaten herunterladen**\
@@ -43,7 +44,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> Der Weltname ist auf Deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar in den **Einstellungen**). Deine Welt liegt daher immer im Ordner `Saves/World/` – es gibt keinen weiteren Ordner, in dem Du suchen müsstest.
+> Der Weltname ist auf Deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar in den **Einstellungen**). Deine Welt liegt daher immer im Ordner `/config/Saves/World/` – es gibt keinen weiteren Ordner, in dem Du suchen müsstest.
 
 > [!TIP]
 > **Welt wieder einspielen**

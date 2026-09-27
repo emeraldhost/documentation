@@ -6,6 +6,7 @@ description: "Spieler auf einem Space Engineers Server kicken und bannen"
 tags: []
 date: "2026-07-08"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["space-engineers"]
 author: "EmeraldHost Team"
@@ -48,7 +49,7 @@ Du kannst Spieler auch dauerhaft über die Ban-Liste sperren.
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server oder nutze den Datei-Browser.
 
 3. **Konfiguration öffnen**\
-   Öffne die Datei `SpaceEngineers-Dedicated.cfg`.
+   Öffne die Datei `/config/SpaceEngineers-Dedicated.cfg`.
 
 4. **Spieler bannen**\
    Suche den Abschnitt `<Banned>` und trage pro Spieler die SteamID64 ein:

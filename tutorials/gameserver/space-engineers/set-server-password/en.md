@@ -6,6 +6,7 @@ description: "Set a password on a Space Engineers server"
 tags: []
 date: "2026-07-08"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["space-engineers"]
 author: "EmeraldHost Team"
@@ -47,7 +48,7 @@ Use the official **Space Engineers Dedicated Server** tool (free in your Steam l
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection), or use the file browser.
 
 3. **Open the config**\
-   Open the file `SpaceEngineers-Dedicated.cfg`.
+   Open the file `/config/SpaceEngineers-Dedicated.cfg`.
 
 4. **Enter the values**\
    Enter the copied values:
