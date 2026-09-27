@@ -1321,6 +1321,9 @@ export default defineConfig({
                 items: [
                   { text: 'Admins hinzufügen', link: '/gameserver/space-engineers/admins-hinzufuegen' },
                   { text: 'Automatische Backups aktivieren', link: '/gameserver/space-engineers/automatische-backups-aktivieren' },
+                  { text: 'Automatisches Backup wiederherstellen', link: '/gameserver/space-engineers/automatisches-backup-wiederherstellen' },
+                  { text: 'Block- und PCU-Limits ändern', link: '/gameserver/space-engineers/block-limits-aendern' },
+                  { text: 'Crossplay aktivieren', link: '/gameserver/space-engineers/crossplay-aktivieren' },
                   { text: 'Experimental Modus aktivieren', link: '/gameserver/space-engineers/experimental-modus-aktivieren' },
                   { text: 'Game Mode ändern', link: '/gameserver/space-engineers/game-mode-aendern' },
                   { text: 'Ingame Skripte aktivieren', link: '/gameserver/space-engineers/ingame-skripte-aktivieren' },
@@ -1332,8 +1335,10 @@ export default defineConfig({
                   { text: 'Server Name ändern', link: '/gameserver/space-engineers/server-name-aendern' },
                   { text: 'Server Passwort setzen', link: '/gameserver/space-engineers/server-passwort-setzen' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/space-engineers/spieler-kicken-bannen' },
+                  { text: 'Trash Removal einrichten', link: '/gameserver/space-engineers/trash-removal-einrichten' },
                   { text: 'Welt herunterladen', link: '/gameserver/space-engineers/welt-herunterladen' },
-                  { text: 'Welt hochladen', link: '/gameserver/space-engineers/welt-hochladen' }
+                  { text: 'Welt hochladen', link: '/gameserver/space-engineers/welt-hochladen' },
+                  { text: 'Welt-Einstellungen ändern', link: '/gameserver/space-engineers/welt-einstellungen-aendern' }
                 ]
               },
               {
@@ -3044,17 +3049,22 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admins', link: '/en/gameserver/space-engineers/add-admins' },
                   { text: 'Add Mods', link: '/en/gameserver/space-engineers/add-mods' },
+                  { text: 'Change Block and PCU Limits', link: '/en/gameserver/space-engineers/change-block-limits' },
                   { text: 'Change Game Mode', link: '/en/gameserver/space-engineers/change-game-mode' },
                   { text: 'Change Max Players', link: '/en/gameserver/space-engineers/change-max-players' },
                   { text: 'Change Server Description', link: '/en/gameserver/space-engineers/change-server-description' },
                   { text: 'Change Server Name', link: '/en/gameserver/space-engineers/change-server-name' },
+                  { text: 'Change World Settings', link: '/en/gameserver/space-engineers/change-world-settings' },
                   { text: 'Configure Automatic Backups', link: '/en/gameserver/space-engineers/configure-automatic-backups' },
+                  { text: 'Configure Trash Removal', link: '/en/gameserver/space-engineers/configure-trash-removal' },
                   { text: 'Download World', link: '/en/gameserver/space-engineers/download-world' },
+                  { text: 'Enable Crossplay', link: '/en/gameserver/space-engineers/enable-crossplay' },
                   { text: 'Enable Experimental Mode', link: '/en/gameserver/space-engineers/enable-experimental-mode' },
                   { text: 'Enable In-Game Scripts', link: '/en/gameserver/space-engineers/enable-ingame-scripts' },
                   { text: 'Enable Remote API', link: '/en/gameserver/space-engineers/enable-remote-api' },
                   { text: 'Join Server', link: '/en/gameserver/space-engineers/join-server' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/space-engineers/kick-ban-players' },
+                  { text: 'Restore Automatic Backup', link: '/en/gameserver/space-engineers/restore-automatic-backup' },
                   { text: 'Set Server Password', link: '/en/gameserver/space-engineers/set-server-password' },
                   { text: 'Upload World', link: '/en/gameserver/space-engineers/upload-world' }
                 ]

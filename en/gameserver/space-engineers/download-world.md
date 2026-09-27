@@ -20,7 +20,7 @@ Stop your server before downloading the files. While the server is running it sa
    Go to the following folder on the server:
 
    ```
-   Saves/World/
+   /config/Saves/World/
    ```
 
 4. <b>Download the world data</b><br>
@@ -30,7 +30,7 @@ Stop your server before downloading the files. While the server is running it sa
    Start your server again.
 
 :::: info Note
-The world name on your server is fixed to **World** and cannot be changed (visible in the **Settings**). Your world is therefore always located in the `Saves/World/` folder — there is no other folder you would have to look in.
+The world name on your server is fixed to **World** and cannot be changed (visible in the **Settings**). Your world is therefore always located in the `/config/Saves/World/` folder — there is no other folder you would have to look in.
 ::::
 
 :::: tip Restore the world

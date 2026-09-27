@@ -19,7 +19,7 @@ Mit dieser Einstellung erlaubst du das Ausführen von Ingame-Skripten — den C#
    Speichere die Einstellung und starte deinen Server neu, damit die Änderung übernommen wird.
 
 :::: info Hinweis
-Ingame Skripte benötigen den aktivierten [Experimental Modus](experimental-modus-aktivieren.md) — aktiviere ihn zusätzlich, damit die Skripte ausgeführt werden.
+Steht **Ingame Skripte** auf `true`, schaltet der Server beim Laden der Welt automatisch den [Experimental Modus](experimental-modus-aktivieren.md) ein — auch wenn er in der Verwaltung auf `false` steht. Du musst ihn also nicht zusätzlich aktivieren. Solange Ingame Skripte erlaubt sind, kannst du ihn aber auch nicht abschalten.
 ::::
 
 :::: warning Achtung

@@ -20,7 +20,7 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    Wechsle auf dem Server in folgenden Ordner:
 
    ```
-   Saves/World/
+   /config/Saves/World/
    ```
 
 4. <b>Weltdaten herunterladen</b><br>
@@ -30,7 +30,7 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    Starte deinen Server wieder.
 
 :::: info Hinweis
-Der Weltname ist auf deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar in den **Einstellungen**). Deine Welt liegt daher immer im Ordner `Saves/World/` — es gibt keinen weiteren Ordner, in dem du suchen müsstest.
+Der Weltname ist auf deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar in den **Einstellungen**). Deine Welt liegt daher immer im Ordner `/config/Saves/World/` — es gibt keinen weiteren Ordner, in dem du suchen müsstest.
 ::::
 
 :::: tip Welt wieder einspielen

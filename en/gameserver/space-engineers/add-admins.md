@@ -23,7 +23,7 @@ Stop your server before editing the config file. A running server overwrites you
    Connect to your server via [SFTP](../establish-sftp-connection.md), or use the file browser.
 
 3. <b>Open the config</b><br>
-   Open the file `SpaceEngineers-Dedicated.cfg`.
+   Open the file `/config/SpaceEngineers-Dedicated.cfg`.
 
 4. <b>Add the admins</b><br>
    Find the `<Administrators>` section (an empty server shows `<Administrators />`) and add one line per admin with the SteamID64:

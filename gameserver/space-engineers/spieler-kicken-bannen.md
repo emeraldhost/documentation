@@ -36,7 +36,7 @@ Stoppe deinen Server, bevor du die Konfigurationsdatei bearbeitest.
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server oder nutze den Datei-Browser.
 
 3. <b>Konfiguration öffnen</b><br>
-   Öffne die Datei `SpaceEngineers-Dedicated.cfg`.
+   Öffne die Datei `/config/SpaceEngineers-Dedicated.cfg`.
 
 4. <b>Spieler bannen</b><br>
    Suche den Abschnitt `<Banned>` und trage pro Spieler die SteamID64 ein:

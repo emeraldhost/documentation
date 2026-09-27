@@ -23,7 +23,7 @@ Stoppe deinen Server, bevor du die Konfigurationsdatei bearbeitest. Ein laufende
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server oder nutze den Datei-Browser.
 
 3. <b>Konfiguration öffnen</b><br>
-   Öffne die Datei `SpaceEngineers-Dedicated.cfg`.
+   Öffne die Datei `/config/SpaceEngineers-Dedicated.cfg`.
 
 4. <b>Admins eintragen</b><br>
    Suche den Abschnitt `<Administrators>` (bei einem leeren Server steht dort `<Administrators />`) und trage pro Admin eine Zeile mit der SteamID64 ein:

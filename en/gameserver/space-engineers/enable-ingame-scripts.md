@@ -19,7 +19,7 @@ This setting allows the execution of in-game scripts — the C# scripts in **Pro
    Save the setting and restart your server for the change to take effect.
 
 :::: info Note
-In-game scripts require [experimental mode](enable-experimental-mode.md) to be enabled — turn it on as well so the scripts run.
+If **In-Game Scripts** is set to `true`, the server automatically turns on [experimental mode](enable-experimental-mode.md) when loading the world — even if it is set to `false` in the dashboard. So you do not need to enable it as well. As long as in-game scripts are allowed, however, you cannot turn it off either.
 ::::
 
 :::: warning Caution
