@@ -83,7 +83,7 @@ To stabilize your server, we recommend the **Nitrado PerformanceSaver** plugin. 
 
 The plugin can be downloaded here: [Performance Saver on CurseForge](https://www.curseforge.com/hytale/mods/nitrado-performancesaver)
 
-### Installation
+### Installing the Performance Plugin
 
 1. <b>Stop the Server</b><br>
    Stop your server via the dashboard.
@@ -115,7 +115,7 @@ The Spark Plugin is a performance profiler that allows you to analyze lag causes
 
 The plugin can be downloaded here: [Spark on CurseForge](https://www.curseforge.com/hytale/mods/spark)
 
-### Installation
+### Installing Spark
 
 1. <b>Stop the Server</b><br>
    Stop your server via the dashboard.

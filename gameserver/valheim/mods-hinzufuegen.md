@@ -26,6 +26,15 @@ Stoppe deinen Server bevor du Mods hinzufügst. Nach einem Spielupdate können M
    /BepInEx/plugins/
    ```
 
+   :::: tip Beispiel
+   ```
+   /BepInEx/plugins/
+   ├── ValheimPlus.dll
+   ├── EpicLoot.dll
+   └── BetterArchery.dll
+   ```
+   ::::
+
 5. <b>Server starten</b><br>
    Starte deinen Server.
 
