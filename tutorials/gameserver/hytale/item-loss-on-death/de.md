@@ -6,7 +6,7 @@ description: "Item-Verlust beim Tod auf einem Hytale Server konfigurieren"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -21,10 +21,10 @@ related: ["gameserver/hytale/improve-performance", "gameserver/hytale/add-mods",
 
 Du kannst einstellen, ob und wie viele Items Spieler beim Tod verlieren. Diese Einstellung wird pro Welt konfiguriert.
 
-> [!TIP]
-> **Hinweis**
->
-> Stoppe Deinen Server bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+Standardmäßig nutzt jede Welt die Spielregeln `Default` (Einstellung `"GameplayConfig": "Default"`). Damit lassen Spieler beim Tod 50 % jedes Item-Stapels an der Todesstelle fallen, mindestens aber ein Item. Das gilt nur für Items, die beim Tod fallen gelassen werden können, zum Beispiel Zutaten, Erze und Nahrung. Waffen, Rüstungen, Werkzeuge und Blöcke wie Stein oder Holz bleiben im Inventar. Zusätzlich sinkt die Haltbarkeit der Items um 10 %.
+
+> [!NOTE]
+> Stoppe Deinen Server, bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 
 ## So konfigurierst Du den Item-Verlust
 
@@ -54,6 +54,8 @@ Du kannst einstellen, ob und wie viele Items Spieler beim Tod verlieren. Diese E
    }
    ```
 
+   Da danach weitere Einstellungen folgen, muss die Zeile `"GameplayConfig": "Default",` mit einem Komma enden, und auch hinter der letzten schließenden Klammer `}` des `Death` Blocks muss ein Komma stehen.
+
    > [!TIP]
    > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Konfiguration nicht mehr laden kann.
 
@@ -61,15 +63,16 @@ Du kannst einstellen, ob und wie viele Items Spieler beim Tod verlieren. Diese E
    Starte Deinen Server, damit die Änderungen übernommen werden.
 
 > [!WARNING]
-> Der `Death` Block existiert standardmäßig nicht in der config.json und muss manuell hinzugefügt werden.
+> Der `Death` Block existiert standardmäßig nicht in der config.json und muss manuell hinzugefügt werden. Sobald er vorhanden ist, ersetzt er die Tod-Einstellungen der Spielregeln vollständig. Gib deshalb immer alle Einstellungen an, wie in den Beispielen unten.
 
 ## Verfügbare Einstellungen
 
 | Einstellung | Beschreibung |
 | ----------- | ------------ |
-| `ItemsLossMode` | `"None"` = Items behalten, `"All"` = alle Items verlieren, `"Configured"` = Prozentsatz verwenden |
-| `ItemsAmountLossPercentage` | Prozentsatz der Items die verloren gehen (0.0-100.0) |
-| `ItemsDurabilityLossPercentage` | Prozentsatz der Haltbarkeit die verloren geht (0.0-100.0) |
+| `RespawnController` | Wo Spieler nach dem Tod wieder erscheinen: `"HomeOrSpawnPoint"` = eigener Respawnpunkt des Spielers, sonst Spawnpunkt der Welt (Standard), `"WorldSpawnPoint"` = immer am Spawnpunkt der Welt |
+| `ItemsLossMode` | `"None"` = Items behalten, `"All"` = alle Items fallen lassen, `"Configured"` = Prozentsatz aus `ItemsAmountLossPercentage` verwenden |
+| `ItemsAmountLossPercentage` | Prozentsatz jedes Item-Stapels, der beim Tod fallen gelassen wird (0.0-100.0). Ab einem Wert über `0.0` fällt pro Stapel mindestens ein Item. Gilt nur bei `"Configured"` und nur für Items, die beim Tod fallen gelassen werden können (z.B. Zutaten, Erze, Nahrung) |
+| `ItemsDurabilityLossPercentage` | Prozentsatz der Haltbarkeit, die Items beim Tod verlieren (0.0-100.0). Gilt in jedem Modus |
 
 ## Beispiele
 
@@ -112,7 +115,8 @@ Du kannst einstellen, ob und wie viele Items Spieler beim Tod verlieren. Diese E
 }
 ```
 
+> [!NOTE]
+> Bei `ItemsLossMode: "None"` oder `"All"` wird `ItemsAmountLossPercentage` ignoriert. Nutze `"Configured"`, um den Prozentsatz zu verwenden. `ItemsDurabilityLossPercentage` gilt dagegen in jedem Modus. Soll die Haltbarkeit beim Tod unverändert bleiben, setze den Wert auf `0.0`.
+
 > [!TIP]
-> **Hinweis**
->
-> Bei `ItemsLossMode: "None"` oder `"All"` werden die Prozentsatz-Einstellungen ignoriert. Nutze `"Configured"` um die Prozentsätze zu verwenden.
+> Spieler im Kreativmodus verlieren beim Tod weder Items noch Haltbarkeit. Möchtest Du zu den Standardwerten zurückkehren, entferne den `Death` Block wieder aus der config.json.

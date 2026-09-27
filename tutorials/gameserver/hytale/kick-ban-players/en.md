@@ -6,6 +6,7 @@ description: "Kick and ban players on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -18,9 +19,11 @@ sort: 20
 related: ["gameserver/hytale/item-loss-on-death", "gameserver/hytale/join-server", "gameserver/hytale/pause-game-time", "gameserver/hytale/set-password"]
 ---
 
+Enter the following commands in the console of your dashboard. Admins can also use them in-game, with a leading `/`. You can find out how to grant admin rights under [Add Admin](/tutorials/gameserver/hytale/add-admin).
+
 ## How to Kick a Player
 
-1. **Open Server Management**\
+1. **Open dashboard**\
    Open the dashboard of your Hytale server.
 
 2. **Enter the Command**\
@@ -30,13 +33,21 @@ related: ["gameserver/hytale/item-loss-on-death", "gameserver/hytale/join-server
    kick <playername>
    ```
 
+The player must be online for this. They are disconnected from the server but can rejoin right away.
+
 ## How to Ban a Player
 
 ```text
-ban <playername>
+ban <playername> <reason>
 ```
 
-The player will be banned and automatically kicked from the server.
+You can also leave out the reason. Instead of the name, the player's UUID works as well, and the player does not have to be online. The ban is permanent. If the player is currently online, they are disconnected from the server immediately.
+
+Example:
+
+```text
+ban Player123 Griefing at spawn
+```
 
 ## How to Unban a Player
 
@@ -44,15 +55,15 @@ The player will be banned and automatically kicked from the server.
 unban <playername>
 ```
 
+Here, too, you can use the UUID instead of the name.
+
 ## All Commands
 
 | Command | Description |
 | ------- | ----------- |
 | `kick <player>` | Kick player from server |
-| `ban <player>` | Ban player |
+| `ban <player> [reason]` | Ban player permanently, optionally with a reason |
 | `unban <player>` | Unban player |
 
-> [!TIP]
-> **Note**
->
-> Administrators (OPs) must have their rights removed before they can be banned.
+> [!NOTE]
+> The server stores banned players in the `bans.json` file in the main directory. You can ban admins (OPs) directly as well, without removing their rights first.

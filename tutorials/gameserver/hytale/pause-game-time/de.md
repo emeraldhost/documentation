@@ -6,7 +6,7 @@ description: "Spielzeit auf einem Hytale Server pausieren"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -21,10 +21,8 @@ related: ["gameserver/hytale/join-server", "gameserver/hytale/kick-ban-players",
 
 Du kannst die Spielzeit anhalten, damit sich die Tageszeit nicht mehr ändert. Das ist nützlich für Bau-Server, Events oder Screenshots bei perfektem Licht.
 
-> [!TIP]
-> **Hinweis**
->
-> Stoppe Deinen Server bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+> [!NOTE]
+> Stoppe Deinen Server, bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 
 ## So pausierst Du die Spielzeit per Konfiguration
 
@@ -51,13 +49,15 @@ Du kannst die Spielzeit anhalten, damit sich die Tageszeit nicht mehr ändert. D
    - `false` - Spielzeit läuft normal (Standard)
 
 4. **Zeit festlegen (optional)**\
-   Du kannst auch die aktuelle Zeit setzen, bevor Du pausierst:
+   Du kannst auch die aktuelle Zeit setzen, bevor Du pausierst. `GameTime` ist ein Zeitstempel, die Uhrzeit steht hinter dem `T`:
 
    ```json
-   "GameTime": 12.0
+   "GameTime": "0001-01-01T12:00:00Z"
    ```
 
-   (12.0 = Mittag)
+   (`12:00:00` = Mittag)
+
+   Das Datum vor dem `T` kann bei Dir anders lauten. Übernimm Dein vorhandenes Datum und ändere nur die Uhrzeit.
 
    > [!TIP]
    > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Konfiguration nicht mehr laden kann.
@@ -69,27 +69,46 @@ Du kannst die Spielzeit anhalten, damit sich die Tageszeit nicht mehr ändert. D
 
 ```json
 "IsGameTimePaused": true,
-"GameTime": 12.0
+"GameTime": "0001-01-01T12:00:00Z"
 ```
 
 ## Beispiel: Dauerhaft Nacht
 
 ```json
 "IsGameTimePaused": true,
-"GameTime": 0.0
+"GameTime": "0001-01-01T00:00:00Z"
 ```
+
+## So pausierst Du die Spielzeit per Befehl
+
+Per Befehl pausierst Du die Zeit im laufenden Betrieb, ohne den Server zu stoppen. Gib dazu in der Konsole Deiner Verwaltung ein:
+
+```text
+time pause --world default
+```
+
+Ersetze `default` durch den Namen Deiner Welt. Der Server antwortet mit `Time cycle paused in "default" at ...`. Der Befehl schaltet um: Gibst Du ihn erneut ein, läuft die Zeit weiter (`Time cycle resumed ...`).
+
+Wenn Du den Zustand fest setzen möchtest, statt umzuschalten, verwende:
+
+```text
+world settings timepaused set true --world default
+```
+
+Mit `false` statt `true` läuft die Zeit wieder weiter. Im Spiel verwendest Du als Admin `/time pause` ohne `--world`, dann gilt der Befehl für die Welt, in der Du Dich befindest.
+
+> [!NOTE]
+> Während die Spielzeit pausiert ist, können Spieler nicht schlafen. Das Spiel meldet dann `Sleeping is disabled because game time is paused in this world!`.
 
 ## Zeit per Befehl ändern
 
 Auch bei pausierter Zeit kannst Du die Uhrzeit per Befehl ändern:
 
 ```text
-time noon
+time noon --world default
 ```
 
-> [!TIP]
-> **Hinweis**
->
-> In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst Du den `/` (z.B. `/time noon`).
+> [!NOTE]
+> In der Konsole werden Befehle ohne `/` eingegeben und brauchen die Option `--world`, sonst antwortet der Server mit `Sender must be a player or provide the --world option!`. Im Spiel mit Admin-Rechten benötigst Du den `/` und kannst `--world` weglassen (z.B. `/time noon`).
 
 Für weitere Zeit-Befehle siehe [Tageszeit ändern](/tutorials/gameserver/hytale/change-time).

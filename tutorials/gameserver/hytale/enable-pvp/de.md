@@ -6,7 +6,7 @@ description: "PvP auf einem Hytale Server aktivieren oder deaktivieren"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,12 +19,10 @@ sort: 14
 related: ["gameserver/hytale/download-world", "gameserver/hytale/enable-fall-damage", "gameserver/hytale/enable-whitelist", "gameserver/hytale/improve-performance"]
 ---
 
-PvP (Player versus Player) ermöglicht es Spielern, gegeneinander zu kämpfen. Diese Einstellung wird pro Welt konfiguriert.
+PvP (Player versus Player) ermöglicht es Spielern, gegeneinander zu kämpfen. Diese Einstellung wird pro Welt konfiguriert und ist standardmäßig deaktiviert.
 
-> [!TIP]
-> **Hinweis**
->
-> Stoppe Deinen Server bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+> [!NOTE]
+> Stoppe Deinen Server, bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 
 ## So aktivierst oder deaktivierst Du PvP per Konfiguration
 
@@ -48,7 +46,7 @@ PvP (Player versus Player) ermöglicht es Spielern, gegeneinander zu kämpfen. D
    ```
 
    - `true` - PvP aktiviert
-   - `false` - PvP deaktiviert
+   - `false` - PvP deaktiviert (Standard)
 
    > [!TIP]
    > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Konfiguration nicht mehr laden kann.
@@ -58,19 +56,34 @@ PvP (Player versus Player) ermöglicht es Spielern, gegeneinander zu kämpfen. D
 
 ## So aktivierst Du PvP per Befehl
 
-Admins können PvP auch direkt im Spiel aktivieren oder deaktivieren:
+Per Befehl schaltest Du PvP im laufenden Betrieb um. Die Änderung gilt sofort und wird in der Welt-Konfiguration gespeichert, ein Neustart ist nicht nötig.
+
+1. **Verwaltung öffnen**\
+   Öffne die Verwaltung Deines Hytale-Servers.
+
+2. **Befehl eingeben**\
+   Gib folgenden Befehl in die Konsole ein:
+
+   ```text
+   world config pvp true --world default
+   ```
+
+   Ersetze `default` durch den Namen Deiner Welt. Um PvP zu deaktivieren, verwende `false`:
+
+   ```text
+   world config pvp false --world default
+   ```
+
+   Die Konsole antwortet derzeit in beiden Fällen mit `PvP disabled for default`, auch wenn Du PvP aktivierst. Die Einstellung wird trotzdem richtig gespeichert. Den tatsächlichen Stand zeigt Dir `world settings pvp --world default` an, z.B. `PvP in world "default" is currently true`.
+
+Admins können PvP auch direkt im Spiel umschalten. Ohne `--world` gilt der Befehl für die Welt, in der Du Dich gerade befindest:
 
 ```text
 /world config pvp true
 ```
 
-Um PvP zu deaktivieren:
-
-```text
-/world config pvp false
-```
+> [!NOTE]
+> In der Konsole werden Befehle ohne `/` eingegeben und brauchen die Option `--world`, sonst antwortet der Server mit `Sender must be a player or provide the --world option!`. Im Spiel benötigst Du den `/` und Admin-Rechte, siehe [Admin hinzufügen](/tutorials/gameserver/hytale/add-admin).
 
 > [!TIP]
-> **Hinweis**
->
-> Der Befehl erfordert Admin-Rechte und wirkt sich nur auf die aktuelle Welt aus.
+> Alternativ funktioniert auch `world settings pvp set true --world default`. Dieser Befehl meldet den neuen Wert korrekt zurück, z.B. `PvP in world "default" set to "true" (was "false")`.

@@ -6,7 +6,7 @@ description: "Disable NPCs on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -21,9 +21,7 @@ related: ["gameserver/hytale/create-backup", "gameserver/hytale/create-new-world
 
 You can disable NPC spawning (creatures, monsters, animals) per world. This is useful for pure building servers or PvP arenas.
 
-> [!TIP]
-> **Note**
->
+> [!NOTE]
 > Stop your server before making changes to configuration files, otherwise they will be overwritten by the server.
 
 ## How to Disable NPCs via Configuration
@@ -58,24 +56,47 @@ You can disable NPC spawning (creatures, monsters, animals) per world. This is u
 
 ## How to Disable NPCs via Command
 
-Admins can also control NPC spawning in-game:
+With a command, you can toggle NPC spawning while the server is running. The change is saved directly in the world configuration.
+
+1. **Open the Dashboard**\
+   Open the dashboard of your Hytale server.
+
+2. **Enter the Command**\
+   Enter the following command in the console:
+
+   ```text
+   spawning disable --world default
+   ```
+
+   Replace `default` with the name of your world. The server confirms with `Spawning disabled for world "default"`. To enable spawning again, use:
+
+   ```text
+   spawning enable --world default
+   ```
+
+Admins can also control NPC spawning in-game. Without `--world`, the command applies to the world you are currently in:
 
 ```text
-/spawning
+/spawning disable
 ```
 
-Use `/spawning -help` for available options.
+Alternatively, `world settings spawningnpc set false --world default` also works. Use `spawning --help` to show all subcommands.
 
-> [!TIP]
-> **Note**
->
-> Console commands are entered without `/`. In-game with admin rights, you need the `/`.
+> [!NOTE]
+> Console commands are entered without `/` and need the `--world` option, otherwise the server replies with `Sender must be a player or provide the --world option!`. In-game with admin rights, you need the `/`.
 
 ## Remove Already Spawned NPCs
 
-To remove all NPCs in an area, you can use the kill command or reload the world.
+Disabling only affects future spawning. Already existing NPCs will remain. To remove the NPCs of a world, enter in the console:
+
+```text
+npc clean --world default --confirm
+```
+
+The `--confirm` flag is required, without it the server does not run the command. In-game, the command is `/npc clean --confirm`.
+
+> [!WARNING]
+> `npc clean` removes all NPCs that are currently loaded in the world, including peaceful animals. NPCs in areas that are not currently loaded are not affected. This step cannot be undone.
 
 > [!TIP]
-> **Note**
->
-> Disabling NPCs only affects future spawning. Already existing NPCs will remain.
+> If you want to keep the NPCs but make them stand still, freeze them instead: `world settings freezeallnpcs set true --world default`. Use `false` to undo this. The setting is saved in the world configuration as `IsAllNPCFrozen`.

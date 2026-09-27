@@ -6,6 +6,7 @@ description: "Download a world from a Hytale server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -21,8 +22,6 @@ related: ["gameserver/hytale/create-new-world", "gameserver/hytale/disable-npcs"
 You can download your server's world to your PC at any time, for example as an extra backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running, it saves regularly, otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -48,7 +47,7 @@ You can download your server's world to your PC at any time, for example as an e
    Start your server again.
 
 > [!TIP]
-> You can see which world is currently loaded in the `config.json` in the root directory of your server. In the `Defaults` block, the `World` value contains the name of the world folder.
+> Your server can have several worlds loaded at the same time. You can see which of them is the default world in the `config.json` in the root directory of your server: In the `Defaults` block, the `World` value contains the name of the world folder. The console command `world list` shows all loaded worlds.
 
 > [!TIP]
 > **Restoring the world**

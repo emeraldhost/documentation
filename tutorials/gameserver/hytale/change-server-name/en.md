@@ -6,7 +6,7 @@ description: "Change server name on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,9 +19,7 @@ sort: 6
 related: ["gameserver/hytale/change-max-view-radius", "gameserver/hytale/change-motd", "gameserver/hytale/change-time", "gameserver/hytale/change-weather"]
 ---
 
-> [!TIP]
-> **Note**
->
+> [!NOTE]
 > Stop your server before making changes to configuration files, otherwise they will be overwritten by the server.
 
 ## How to Change the Server Name
@@ -33,10 +31,10 @@ related: ["gameserver/hytale/change-max-view-radius", "gameserver/hytale/change-
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection) and open the `config.json` file in the root directory.
 
 3. **Change the Name**\
-   Find the `Name` setting and change the value:
+   Find the `ServerName` setting and change the value. By default it is set to `Hytale Server`:
 
    ```json
-   "Name": "My Hytale Server"
+   "ServerName": "My Hytale Server"
    ```
 
    > [!TIP]
@@ -45,4 +43,7 @@ related: ["gameserver/hytale/change-max-view-radius", "gameserver/hytale/change-
 4. **Start the Server**\
    Start your server for the changes to take effect.
 
-The new server name will be displayed in the server list.
+Your server sends the new name to players who join it.
+
+> [!NOTE]
+> In the saved server list, each player sees the name they chose themselves when adding the server (see [Join server](/tutorials/gameserver/hytale/join-server)). In **Server Discovery**, Hytale shows the name from your server profile in the Hytale account.

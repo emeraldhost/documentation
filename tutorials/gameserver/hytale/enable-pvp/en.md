@@ -6,7 +6,7 @@ description: "Enable or disable PvP on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,11 +19,9 @@ sort: 14
 related: ["gameserver/hytale/download-world", "gameserver/hytale/enable-fall-damage", "gameserver/hytale/enable-whitelist", "gameserver/hytale/improve-performance"]
 ---
 
-PvP (Player versus Player) allows players to fight against each other. This setting is configured per world.
+PvP (Player versus Player) allows players to fight against each other. This setting is configured per world and is disabled by default.
 
-> [!TIP]
-> **Note**
->
+> [!NOTE]
 > Stop your server before making changes to configuration files, otherwise they will be overwritten by the server.
 
 ## How to Enable or Disable PvP via Configuration
@@ -48,7 +46,7 @@ PvP (Player versus Player) allows players to fight against each other. This sett
    ```
 
    - `true` - PvP enabled
-   - `false` - PvP disabled
+   - `false` - PvP disabled (default)
 
    > [!TIP]
    > Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to stop the server from loading the world configuration.
@@ -58,19 +56,34 @@ PvP (Player versus Player) allows players to fight against each other. This sett
 
 ## How to Enable PvP via Command
 
-Admins can also enable or disable PvP directly in-game:
+With a command, you can toggle PvP while the server is running. The change takes effect immediately and is saved in the world configuration, so no restart is needed.
+
+1. **Open the Dashboard**\
+   Open the dashboard of your Hytale server.
+
+2. **Enter the Command**\
+   Enter the following command in the console:
+
+   ```text
+   world config pvp true --world default
+   ```
+
+   Replace `default` with the name of your world. To disable PvP, use `false`:
+
+   ```text
+   world config pvp false --world default
+   ```
+
+   The console currently replies with `PvP disabled for default` in both cases, even when you enable PvP. The setting is still saved correctly. To see the actual state, use `world settings pvp --world default`, e.g., `PvP in world "default" is currently true`.
+
+Admins can also toggle PvP directly in-game. Without `--world`, the command applies to the world you are currently in:
 
 ```text
 /world config pvp true
 ```
 
-To disable PvP:
-
-```text
-/world config pvp false
-```
+> [!NOTE]
+> Console commands are entered without `/` and need the `--world` option, otherwise the server replies with `Sender must be a player or provide the --world option!`. In-game, you need the `/` and admin rights, see [Add Admin](/tutorials/gameserver/hytale/add-admin).
 
 > [!TIP]
-> **Note**
->
-> The command requires admin rights and only affects the current world.
+> Alternatively, `world settings pvp set true --world default` also works. This command reports the new value correctly, e.g., `PvP in world "default" set to "true" (was "false")`.

@@ -6,6 +6,7 @@ description: "Enable whitelist on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -22,7 +23,7 @@ With the whitelist, you can control who can join your server. Only players on th
 
 ## How to Enable the Whitelist
 
-1. **Open Server Management**\
+1. **Open dashboard**\
    Open the dashboard of your Hytale server.
 
 2. **Enable the Whitelist**\
@@ -32,11 +33,15 @@ With the whitelist, you can control who can join your server. Only players on th
    whitelist enable
    ```
 
+The server saves this setting in `config.json` right away (`"RequireJoinPermission": true`). So the whitelist stays active after a restart.
+
 ## How to Add Players
 
 ```text
 whitelist add <playername>
 ```
+
+Instead of the name, you can also use the player's UUID. The player does not have to be online for this.
 
 ## How to Remove Players
 
@@ -56,7 +61,9 @@ whitelist remove <playername>
 | `whitelist status` | Show whitelist status |
 | `whitelist clear` | Clear the whitelist |
 
-> [!TIP]
-> **Note**
->
-> Administrators (OPs) can always join, even when the whitelist is active.
+## Where Does Hytale Store the Whitelist?
+
+Since Update 6, there is no separate `whitelist.json` anymore. Instead, every player on the whitelist receives the permission `hytale.server.join`, which the server stores in `permissions.json` in the main directory. If you still have an old `whitelist.json`, the server takes it over automatically on startup and renames it to `whitelist.json.migrated`.
+
+> [!NOTE]
+> Administrators (OPs) can always join, even when the whitelist is active. Their group `hytale:Admin` has all permissions, including `hytale.server.join`. This applies to every group that has this permission: its members can join despite the whitelist, even if you remove them with `whitelist remove`. In that case, the server tells you with the message "... can still join, because a group or a wildcard grants them the permission!".

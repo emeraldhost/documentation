@@ -6,6 +6,7 @@ description: "Whitelist auf einem Hytale Server aktivieren"
 tags: []
 date: "2026-01-15"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -32,11 +33,15 @@ Mit der Whitelist kannst Du kontrollieren, wer Deinem Server beitreten darf. Nur
    whitelist enable
    ```
 
+Der Server speichert die Einstellung sofort in der `config.json` (`"RequireJoinPermission": true`). Die Whitelist bleibt also auch nach einem Neustart aktiv.
+
 ## So fügst Du Spieler hinzu
 
 ```text
 whitelist add <Spielername>
 ```
+
+Statt des Namens kannst Du auch die UUID des Spielers angeben. Der Spieler muss dafür nicht online sein.
 
 ## So entfernst Du Spieler
 
@@ -56,7 +61,9 @@ whitelist remove <Spielername>
 | `whitelist status` | Status der Whitelist anzeigen |
 | `whitelist clear` | Whitelist leeren |
 
-> [!TIP]
-> **Hinweis**
->
-> Administratoren (OPs) können immer beitreten, auch wenn die Whitelist aktiv ist.
+## Wo speichert Hytale die Whitelist?
+
+Eine eigene `whitelist.json` gibt es seit Update 6 nicht mehr. Stattdessen erhält jeder Spieler auf der Whitelist die Berechtigung `hytale.server.join`, die der Server in der `permissions.json` im Hauptverzeichnis speichert. Hast Du noch eine alte `whitelist.json`, übernimmt der Server sie beim Start automatisch und benennt sie in `whitelist.json.migrated` um.
+
+> [!NOTE]
+> Administratoren (OPs) können immer beitreten, auch wenn die Whitelist aktiv ist. Ihre Gruppe `hytale:Admin` hat alle Berechtigungen und damit auch `hytale.server.join`. Das gilt für jede Gruppe, die diese Berechtigung besitzt: Ihre Mitglieder kommen trotz Whitelist auf den Server, auch wenn Du sie mit `whitelist remove` entfernst. Der Server weist Dich in diesem Fall mit der Meldung „... can still join, because a group or a wildcard grants them the permission!“ darauf hin.

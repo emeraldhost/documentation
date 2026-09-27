@@ -6,7 +6,7 @@ description: "NPCs auf einem Hytale Server deaktivieren"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -21,10 +21,8 @@ related: ["gameserver/hytale/create-backup", "gameserver/hytale/create-new-world
 
 Du kannst das Spawnen von NPCs (Kreaturen, Monster, Tiere) pro Welt deaktivieren. Das ist nützlich für reine Bau-Server oder PvP-Arenen.
 
-> [!TIP]
-> **Hinweis**
->
-> Stoppe Deinen Server bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+> [!NOTE]
+> Stoppe Deinen Server, bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 
 ## So deaktivierst Du NPCs per Konfiguration
 
@@ -58,24 +56,47 @@ Du kannst das Spawnen von NPCs (Kreaturen, Monster, Tiere) pro Welt deaktivieren
 
 ## So deaktivierst Du NPCs per Befehl
 
-Admins können das NPC-Spawning auch im Spiel kontrollieren:
+Per Befehl schaltest Du das NPC-Spawning im laufenden Betrieb um. Die Änderung wird direkt in der Welt-Konfiguration gespeichert.
+
+1. **Verwaltung öffnen**\
+   Öffne die Verwaltung Deines Hytale-Servers.
+
+2. **Befehl eingeben**\
+   Gib folgenden Befehl in die Konsole ein:
+
+   ```text
+   spawning disable --world default
+   ```
+
+   Ersetze `default` durch den Namen Deiner Welt. Der Server bestätigt mit `Spawning disabled for world "default"`. Um das Spawning wieder zu aktivieren, verwende:
+
+   ```text
+   spawning enable --world default
+   ```
+
+Admins können das NPC-Spawning auch im Spiel steuern. Ohne `--world` gilt der Befehl für die Welt, in der Du Dich gerade befindest:
 
 ```text
-/spawning
+/spawning disable
 ```
 
-Nutze `/spawning -help` für verfügbare Optionen.
+Alternativ funktioniert auch `world settings spawningnpc set false --world default`. Mit `spawning --help` zeigst Du alle Unterbefehle an.
 
-> [!TIP]
-> **Hinweis**
->
-> In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst Du den `/`.
+> [!NOTE]
+> In der Konsole werden Befehle ohne `/` eingegeben und brauchen die Option `--world`, sonst antwortet der Server mit `Sender must be a player or provide the --world option!`. Im Spiel mit Admin-Rechten benötigst Du den `/`.
 
 ## Bereits gespawnte NPCs entfernen
 
-Um alle NPCs in einem Bereich zu entfernen, kannst Du den Kill-Befehl verwenden oder die Welt neu laden.
+Das Deaktivieren betrifft nur zukünftiges Spawning. Bereits existierende NPCs bleiben bestehen. Um die NPCs einer Welt zu entfernen, gib in der Konsole ein:
+
+```text
+npc clean --world default --confirm
+```
+
+Der Zusatz `--confirm` ist Pflicht, ohne ihn führt der Server den Befehl nicht aus. Im Spiel lautet der Befehl `/npc clean --confirm`.
+
+> [!WARNING]
+> `npc clean` entfernt alle NPCs, die in der Welt gerade geladen sind, also auch friedliche Tiere. NPCs in Bereichen, die gerade nicht geladen sind, erfasst der Befehl nicht. Dieser Schritt lässt sich nicht rückgängig machen.
 
 > [!TIP]
-> **Hinweis**
->
-> Das Deaktivieren von NPCs betrifft nur zukünftiges Spawning. Bereits existierende NPCs bleiben bestehen.
+> Möchtest Du die NPCs behalten, aber stillstehen lassen, friere sie stattdessen ein: `world settings freezeallnpcs set true --world default`. Mit `false` hebst Du das wieder auf. Die Einstellung wird in der Welt-Konfiguration als `IsAllNPCFrozen` gespeichert.

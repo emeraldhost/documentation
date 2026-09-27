@@ -6,6 +6,7 @@ description: "Welt von einem Hytale Server herunterladen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -46,7 +47,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen, zum Bei
    Starte Deinen Server wieder.
 
 > [!TIP]
-> Welche Welt aktuell geladen wird, siehst Du in der `config.json` im Hauptverzeichnis Deines Servers. Im `Defaults` Block gibt der Wert `World` den Namen des Welt-Ordners an.
+> Auf Deinem Server können mehrere Welten gleichzeitig geladen sein. Welche davon die Standardwelt ist, siehst Du in der `config.json` im Hauptverzeichnis Deines Servers: Im `Defaults` Block gibt der Wert `World` den Namen des Welt-Ordners an. Alle geladenen Welten zeigt Dir der Konsolenbefehl `world list`.
 
 > [!TIP]
 > **Welt wieder einspielen**

@@ -6,6 +6,7 @@ description: "Gamemode auf einem Hytale Server ändern"
 tags: []
 date: "2026-01-15"
 visibility: "public"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -40,10 +41,8 @@ related: ["gameserver/hytale/add-admin", "gameserver/hytale/change-max-players",
    gamemode <adventure/creative> <Spielername>
    ```
 
-> [!TIP]
-> **Hinweis**
->
-> Der Spieler muss online auf dem Server sein.
+> [!NOTE]
+> Der Spieler muss online auf dem Server sein. Statt `adventure` und `creative` kannst Du auch die Kurzformen `a` und `c` verwenden, statt `gamemode` auch `gm` (z.B. `gm c Spielername`).
 
 4. **Im Spiel**\
    Der Befehl kann auch von Admins direkt im Spiel verwendet werden:
@@ -52,11 +51,11 @@ related: ["gameserver/hytale/add-admin", "gameserver/hytale/change-max-players",
    /gamemode <adventure/creative> <Spielername>
    ```
 
+   Lässt Du den Spielernamen weg, änderst Du Deinen eigenen Gamemode (z.B. `/gamemode creative`).
+
 ## So änderst Du den Standard-Gamemode
 
-> [!TIP]
-> **Hinweis**
->
+> [!NOTE]
 > Diese Methode ändert den Gamemode nur für neue Spieler. Bestehende Spieler müssen per Befehl geändert werden.
 
 1. **Server stoppen**\
@@ -66,17 +65,19 @@ related: ["gameserver/hytale/add-admin", "gameserver/hytale/change-max-players",
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server und öffne die Datei `config.json` im Hauptverzeichnis.
 
 3. **Gamemode ändern**\
-   Suche nach `GameMode` und ändere den Wert auf `Creative` oder `Adventure`.
+   Suche im Abschnitt `Defaults` nach `GameMode` und ändere den Wert auf `Creative` oder `Adventure`:
+
+   ```json
+   "GameMode": "Creative",
+   ```
 
 4. **Server starten**\
    Starte Deinen Server.
 
 ## So änderst Du den Standard-Gamemode für hochgeladene Welten
 
-> [!TIP]
-> **Hinweis**
->
-> Diese Methode ändert den Gamemode nur für neue Spieler. Bestehende Spieler müssen per Befehl geändert werden.
+> [!NOTE]
+> Diese Methode ändert den Gamemode nur für neue Spieler. Bestehende Spieler müssen per Befehl geändert werden. Ist in der Welt ein Gamemode eingetragen, hat er Vorrang vor dem Standard-Gamemode aus der `config.json` im Hauptverzeichnis.
 
 1. **Server stoppen**\
    Stoppe Deinen Server über die Verwaltung.
@@ -88,11 +89,23 @@ related: ["gameserver/hytale/add-admin", "gameserver/hytale/change-max-players",
    /universe/worlds/default/
    ```
 
+   Ersetze `default` durch den Namen Deiner Welt, falls sie anders heißt.
+
 3. **config.json öffnen**\
    Öffne die Datei `config.json` in diesem Ordner.
 
 4. **Gamemode ändern**\
-   Suche nach `GameMode` und ändere den Wert auf `Creative` oder `Adventure`.
+   Suche nach `GameMode` und ändere den Wert auf `Creative` oder `Adventure`. Neue Welten enthalten diesen Eintrag standardmäßig nicht. Füge ihn in diesem Fall in einer neuen Zeile hinzu, z.B. direkt über `"IsSpawningNPC"`:
+
+   ```json
+   "GameMode": "Creative",
+   ```
+
+   > [!TIP]
+   > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Konfiguration nicht mehr laden kann.
 
 5. **Server starten**\
    Starte Deinen Server.
+
+> [!TIP]
+> Alternativ kannst Du den Gamemode einer Welt bei laufendem Server per Konsole festlegen, z.B. `world settings gamemode set creative --world default`. Mit `world settings gamemode reset --world default` setzt Du ihn wieder zurück.

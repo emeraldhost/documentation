@@ -6,7 +6,7 @@ description: "Maximale Spieleranzahl auf einem Hytale Server ändern"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,12 +19,29 @@ sort: 6
 related: ["gameserver/hytale/add-admin", "gameserver/hytale/change-gamemode", "gameserver/hytale/change-max-view-radius", "gameserver/hytale/change-motd"]
 ---
 
-> [!TIP]
-> **Hinweis**
->
-> Stoppe Deinen Server bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+Die maximale Spieleranzahl kannst Du per Befehl in der Konsole oder direkt in der `config.json` ändern. Standardmäßig sind `100` Spieler erlaubt.
 
-## So änderst Du die maximale Spieleranzahl
+## So änderst Du die maximale Spieleranzahl per Befehl
+
+1. **Verwaltung öffnen**\
+   Öffne die Verwaltung Deines Hytale-Servers.
+
+2. **Befehl eingeben**\
+   Gib folgenden Befehl in die Konsole ein:
+
+   ```text
+   maxplayers --amount=20
+   ```
+
+Die neue Spieleranzahl gilt sofort und wird automatisch in der `config.json` gespeichert. Ein Neustart ist nicht nötig. Mit `maxplayers` ohne Zusatz zeigst Du den aktuellen Wert an.
+
+> [!NOTE]
+> In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst Du den `/` (z.B. `/maxplayers --amount=20`). Die Angabe `--amount=` ist Pflicht, `maxplayers 20` funktioniert nicht.
+
+## So änderst Du die maximale Spieleranzahl in der config.json
+
+> [!NOTE]
+> Stoppe Deinen Server, bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 
 1. **Server stoppen**\
    Stoppe Deinen Server über die Verwaltung.

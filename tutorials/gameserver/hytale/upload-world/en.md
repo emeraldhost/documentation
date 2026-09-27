@@ -6,7 +6,7 @@ description: "Upload singleplayer world to a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -36,21 +36,22 @@ You can transfer your singleplayer world to your server and continue playing wit
 
 ### Method 2: Manually
 
-You can find your Hytale save files here:
+You can find your Hytale saves here:
 
 | Operating System | Path |
 | ---------------- | ---- |
-| Windows | `%appdata%\Hytale\Saves` |
-| Linux | `$XDG_DATA_HOME/Hytale/Saves` |
-| macOS | `~/Application Support/Hytale/Saves` |
+| Windows | `%appdata%\Hytale\UserData\Saves` |
+| Linux | `$XDG_DATA_HOME/Hytale/UserData/Saves` |
+| macOS | `~/Library/Application Support/Hytale/UserData/Saves` |
 
-Navigate to `universe/worlds/` within your save to find the world folders.
+Every save has its own folder there. Navigate to `universe/worlds/` within your save to find the world folders.
+
+> [!NOTE]
+> If you play the pre-release version of Hytale, your saves are not stored under `UserData` but in the `data/pre-release/` folder inside the Hytale folder. Such a world may not open on a server on the `release` patchline. You set your server's patchline in the **dashboard** under **Settings** in the **Hytale Patchline** field.
 
 ## How to Upload the World
 
-> [!TIP]
-> **Note**
->
+> [!NOTE]
 > Stop your server before uploading files, otherwise they will be overwritten by the server.
 
 1. **Stop the Server**\
@@ -66,23 +67,28 @@ Navigate to `universe/worlds/` within your save to find the world folders.
    /universe/worlds/
    ```
 
+   The name of the folder becomes the name of the world.
+
 4. **Start the Server**\
-   Start your server.
+   Start your server. On startup, it automatically loads all worlds from `/universe/worlds/`, including your uploaded world.
 
-## How to Activate the World
+> [!WARNING]
+> If the server already has a folder with the same name (the server's default world is called `default`), rename your world folder before uploading. Otherwise you overwrite the files of the existing world.
 
-After uploading, you need to load the world and set it as default.
+## How to Set the World as Default
+
+To make players end up in your uploaded world when joining, you need to set it as the default world.
 
 ### Via Console
 
-1. **Load the World**\
-   Enter the following command in the console:
+1. **Check the World**\
+   Enter the following command in the console to show all loaded worlds:
 
    ```text
-   world load <worldname>
+   world list
    ```
 
-   Replace `<worldname>` with the name of the uploaded folder.
+   Your uploaded world should appear here with the name of its folder.
 
 2. **Set as Default**\
    To make players automatically spawn in this world when joining:
@@ -91,10 +97,10 @@ After uploading, you need to load the world and set it as default.
    world setdefault <worldname>
    ```
 
-> [!TIP]
-> **Note**
->
-> Console commands are entered without `/`. In-game with admin rights, you need the `/` (e.g., `/world load <worldname>`).
+   Replace `<worldname>` with the name of the uploaded folder.
+
+> [!NOTE]
+> Console commands are entered without `/`. In-game with admin rights, you need the `/` (e.g., `/world setdefault <worldname>`).
 
 ### Via Configuration
 
@@ -107,7 +113,7 @@ You can also set the default world manually in the server configuration:
    Open the `config.json` in the root directory of your server.
 
 3. **Change Default World**\
-   Find the `Defaults` block and change the `World` value:
+   Find the `Defaults` block and change the `World` value. Leave the other entries in the block unchanged:
 
    ```json
    "Defaults": {
@@ -122,12 +128,15 @@ You can also set the default world manually in the server configuration:
 4. **Start the Server**\
    Start your server.
 
+> [!NOTE]
+> Players who have been on the server before keep joining in the world they were last in. The default world applies to new players and to players whose last world is no longer loaded. With admin rights, you can switch to another world in-game with `/tp world <worldname>`.
+
 ## Transfer Player Data
 
 If you also want to transfer your player progress (inventory, position, etc.):
 
-1. Copy the contents of the `players/` folder from your singleplayer save.
-2. Upload it to the `/universe/players/` folder on the server.
+1. Copy the contents of the `universe/players/` folder from your singleplayer save.
+2. Upload it to the `/universe/players/` folder on the server while the server is stopped.
 
 > [!WARNING]
 > Only upload the world folders, not the entire `universe/` folder - otherwise existing server worlds will be overwritten.

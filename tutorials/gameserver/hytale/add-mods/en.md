@@ -6,7 +6,7 @@ description: "Install mods on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-03-07"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,13 +19,11 @@ sort: 17
 related: ["gameserver/hytale/enable-whitelist", "gameserver/hytale/improve-performance", "gameserver/hytale/item-loss-on-death", "gameserver/hytale/join-server"]
 ---
 
-> [!TIP]
-> **Note**
->
+> [!NOTE]
 > Stop your server before installing mods, otherwise they will not load correctly.
 
 > [!TIP]
-> You can download mods for Hytale from [CurseForge](https://www.curseforge.com/hytale).
+> You can download mods for Hytale from [CurseForge](https://www.curseforge.com/hytale). Make sure the mod supports the Hytale version of your server. On CurseForge, you can see this under **Game Versions** (e.g. `0.6`). The console shows your server's version on startup (e.g. `Version: 0.6.8`).
 
 ## How to Install Mods
 
@@ -52,5 +50,24 @@ related: ["gameserver/hytale/enable-whitelist", "gameserver/hytale/improve-perfo
 3. **Start the Server**\
    Start your server.
 
+## How to Install Early Plugins
+
+Early plugins are special plugins that modify the server's code as early as startup. Hytale does not officially support them and warns that they can cause stability issues. Only install an early plugin if a mod explicitly requires it.
+
+1. **Stop the Server**\
+   Stop your server via the dashboard.
+
+2. **Enable Early Plugins**\
+   Navigate to the **Settings** in the dashboard and set the **Enable Early Plugins** field to `1`. Without this setting, the server does not start on its own as soon as early plugins are present, but asks for an additional confirmation.
+
+3. **Upload the Early Plugin**\
+   Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection) and upload the `.jar` file to the `earlyplugins/` folder in the root directory. If the folder does not exist yet, create it.
+
+4. **Start the Server**\
+   Start your server. If the early plugin was loaded, the console shows the warning `This is unsupported and may cause stability issues.` on startup.
+
+> [!TIP]
+> To remove an early plugin, delete the file from the `earlyplugins/` folder. Once there are no more early plugins in it, you can set **Enable Early Plugins** back to `0`.
+
 > [!WARNING]
-> Hytale is in Early Access. Mods may cause stability issues. Create a backup of your server before installation.
+> Hytale is in Early Access. Mods may cause stability issues. After major Hytale updates, older mods may stop working until their author updates them, and can even prevent your server from starting. Create a [backup](/tutorials/gameserver/hytale/create-backup) of your server before installation.

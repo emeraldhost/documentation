@@ -6,7 +6,7 @@ description: "Fallschaden auf einem Hytale Server aktivieren oder deaktivieren"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,12 +19,10 @@ sort: 3
 related: ["gameserver/hytale/disable-npcs", "gameserver/hytale/download-world", "gameserver/hytale/enable-pvp", "gameserver/hytale/enable-whitelist"]
 ---
 
-Fallschaden bestimmt, ob Spieler beim Fallen aus großer Höhe Schaden nehmen. Diese Einstellung wird pro Welt konfiguriert.
+Fallschaden bestimmt, ob Spieler und NPCs beim Fallen aus großer Höhe Schaden nehmen. Diese Einstellung wird pro Welt in der Welt-Konfiguration festgelegt.
 
-> [!TIP]
-> **Hinweis**
->
-> Stoppe Deinen Server bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+> [!NOTE]
+> Stoppe Deinen Server, bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 
 ## So aktivierst oder deaktivierst Du Fallschaden per Konfiguration
 
@@ -38,7 +36,7 @@ Fallschaden bestimmt, ob Spieler beim Fallen aus großer Höhe Schaden nehmen. D
    /universe/worlds/<weltname>/config.json
    ```
 
-   Ersetze `<weltname>` durch den Namen Deiner Welt (z.B. `default`).
+   Ersetze `<weltname>` durch den Namen Deiner Welt (z.B. `default`). Jede Welt hat ihre eigene `config.json`. Hast Du mehrere Welten, passt Du die Einstellung in jeder Welt einzeln an.
 
 3. **Fallschaden-Einstellung ändern**\
    Suche nach der Einstellung `IsFallDamageEnabled` und ändere den Wert:
@@ -56,21 +54,8 @@ Fallschaden bestimmt, ob Spieler beim Fallen aus großer Höhe Schaden nehmen. D
 4. **Server starten**\
    Starte Deinen Server, damit die Änderungen übernommen werden.
 
-## So aktivierst Du Fallschaden per Befehl
-
-Admins können Fallschaden auch direkt im Spiel aktivieren oder deaktivieren:
-
-```text
-/world config falldamage true
-```
-
-Um Fallschaden zu deaktivieren:
-
-```text
-/world config falldamage false
-```
+> [!NOTE]
+> Für den Fallschaden gibt es keinen Befehl, weder unter `/world config` noch unter `/world settings`. Du kannst ihn nur über die Welt-Konfiguration ändern.
 
 > [!TIP]
-> **Hinweis**
->
 > Fallschaden zu deaktivieren ist besonders nützlich für Bau-Server oder kreative Welten, in denen Spieler ohne Risiko bauen können.

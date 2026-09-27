@@ -6,7 +6,7 @@ description: "Passwort auf einem Hytale Server setzen"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,10 +19,8 @@ sort: 12
 related: ["gameserver/hytale/kick-ban-players", "gameserver/hytale/pause-game-time", "gameserver/hytale/set-spawn-point", "gameserver/hytale/upload-world"]
 ---
 
-> [!TIP]
-> **Hinweis**
->
-> Stoppe Deinen Server bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+> [!NOTE]
+> Stoppe Deinen Server, bevor Du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 
 ## So setzt Du ein Passwort
 
@@ -45,7 +43,7 @@ related: ["gameserver/hytale/kick-ban-players", "gameserver/hytale/pause-game-ti
 4. **Server starten**\
    Starte Deinen Server, damit die Änderungen übernommen werden.
 
-Spieler müssen nun das Passwort eingeben, um dem Server beizutreten.
+Spieler müssen nun das Passwort eingeben, um dem Server beizutreten. Hytale fragt beim Beitreten automatisch danach. Das Passwort gilt für alle Spieler, auch für Admins.
 
 ## So entfernst Du das Passwort
 
@@ -55,7 +53,5 @@ Um das Passwort zu entfernen, setze den Wert auf leer:
 "Password": ""
 ```
 
-> [!TIP]
-> **Hinweis**
->
-> Ein Passwort ist eine einfache Alternative zur Whitelist. Du kannst das Passwort an Freunde weitergeben, ohne jeden einzeln zur Whitelist hinzufügen zu müssen.
+> [!NOTE]
+> Ein Passwort ist eine einfache Alternative zur [Whitelist](/tutorials/gameserver/hytale/enable-whitelist). Du kannst das Passwort an Freunde weitergeben, ohne jeden einzeln zur Whitelist hinzufügen zu müssen.

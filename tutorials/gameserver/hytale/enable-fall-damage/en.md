@@ -6,7 +6,7 @@ description: "Enable or disable fall damage on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,11 +19,9 @@ sort: 13
 related: ["gameserver/hytale/disable-npcs", "gameserver/hytale/download-world", "gameserver/hytale/enable-pvp", "gameserver/hytale/enable-whitelist"]
 ---
 
-Fall damage determines whether players take damage when falling from great heights. This setting is configured per world.
+Fall damage determines whether players and NPCs take damage when falling from great heights. This setting is configured per world in the world configuration.
 
-> [!TIP]
-> **Note**
->
+> [!NOTE]
 > Stop your server before making changes to configuration files, otherwise they will be overwritten by the server.
 
 ## How to Enable or Disable Fall Damage via Configuration
@@ -38,7 +36,7 @@ Fall damage determines whether players take damage when falling from great heigh
    /universe/worlds/<worldname>/config.json
    ```
 
-   Replace `<worldname>` with the name of your world (e.g., `default`).
+   Replace `<worldname>` with the name of your world (e.g., `default`). Each world has its own `config.json`. If you have several worlds, change the setting in each world separately.
 
 3. **Change the Fall Damage Setting**\
    Find the `IsFallDamageEnabled` setting and change the value:
@@ -56,21 +54,8 @@ Fall damage determines whether players take damage when falling from great heigh
 4. **Start the Server**\
    Start your server for the changes to take effect.
 
-## How to Enable Fall Damage via Command
-
-Admins can also enable or disable fall damage directly in-game:
-
-```text
-/world config falldamage true
-```
-
-To disable fall damage:
-
-```text
-/world config falldamage false
-```
+> [!NOTE]
+> There is no command for fall damage, neither under `/world config` nor under `/world settings`. You can only change it in the world configuration.
 
 > [!TIP]
-> **Note**
->
 > Disabling fall damage is especially useful for building servers or creative worlds where players can build without risk.

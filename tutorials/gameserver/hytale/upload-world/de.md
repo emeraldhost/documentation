@@ -6,7 +6,7 @@ description: "Singleplayer-Welt auf einen Hytale Server hochladen"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -36,21 +36,22 @@ Du kannst Deine Singleplayer-Welt auf Deinen Server übertragen und mit Freunden
 
 ### Methode 2: Manuell
 
-Die Hytale-Speicherdateien findest Du hier:
+Die Hytale-Spielstände findest Du hier:
 
 | Betriebssystem | Pfad |
 | -------------- | ---- |
-| Windows | `%appdata%\Hytale\Saves` |
-| Linux | `$XDG_DATA_HOME/Hytale/Saves` |
-| macOS | `~/Application Support/Hytale/Saves` |
+| Windows | `%appdata%\Hytale\UserData\Saves` |
+| Linux | `$XDG_DATA_HOME/Hytale/UserData/Saves` |
+| macOS | `~/Library/Application Support/Hytale/UserData/Saves` |
 
-Navigiere innerhalb Deines Spielstands zu `universe/worlds/` um die Welt-Ordner zu finden.
+Jeder Spielstand hat dort einen eigenen Ordner. Navigiere innerhalb Deines Spielstands zu `universe/worlds/`, um die Welt-Ordner zu finden.
+
+> [!NOTE]
+> Spielst Du auf der Pre-Release-Version von Hytale, liegen Deine Spielstände nicht unter `UserData`, sondern im Ordner `data/pre-release/` innerhalb des Hytale-Ordners. Eine solche Welt lässt sich auf einem Server mit der Patchline `release` unter Umständen nicht öffnen. Die Patchline Deines Servers stellst Du in der **Verwaltung** unter **Einstellungen** im Feld **Hytale Patchline** ein.
 
 ## So lädst Du die Welt hoch
 
-> [!TIP]
-> **Hinweis**
->
+> [!NOTE]
 > Stoppe Deinen Server bevor Du Dateien hochlädst, da diese sonst vom Server überschrieben werden.
 
 1. **Server stoppen**\
@@ -66,23 +67,28 @@ Navigiere innerhalb Deines Spielstands zu `universe/worlds/` um die Welt-Ordner 
    /universe/worlds/
    ```
 
+   Der Name des Ordners ist später der Name der Welt.
+
 4. **Server starten**\
-   Starte Deinen Server.
+   Starte Deinen Server. Er lädt beim Start automatisch alle Welten aus `/universe/worlds/`, also auch Deine hochgeladene Welt.
 
-## So aktivierst Du die Welt
+> [!WARNING]
+> Gibt es auf dem Server bereits einen Ordner mit demselben Namen (die Standardwelt des Servers heißt `default`), benenne Deinen Welt-Ordner vor dem Hochladen um. Sonst überschreibst Du die Dateien der bestehenden Welt.
 
-Nach dem Hochladen musst Du die Welt laden und als Standard setzen.
+## So setzt Du die Welt als Standard
+
+Damit Spieler beim Beitreten in Deiner hochgeladenen Welt landen, musst Du sie als Standardwelt festlegen.
 
 ### Per Konsole
 
-1. **Welt laden**\
-   Gib folgenden Befehl in die Konsole ein:
+1. **Welt prüfen**\
+   Gib folgenden Befehl in die Konsole ein, um alle geladenen Welten anzuzeigen:
 
    ```text
-   world load <weltname>
+   world list
    ```
 
-   Ersetze `<weltname>` durch den Namen des hochgeladenen Ordners.
+   Deine hochgeladene Welt sollte hier mit dem Namen ihres Ordners erscheinen.
 
 2. **Als Standard setzen**\
    Damit Spieler beim Beitreten automatisch in dieser Welt spawnen:
@@ -91,10 +97,10 @@ Nach dem Hochladen musst Du die Welt laden und als Standard setzen.
    world setdefault <weltname>
    ```
 
-> [!TIP]
-> **Hinweis**
->
-> In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst Du den `/` (z.B. `/world load <weltname>`).
+   Ersetze `<weltname>` durch den Namen des hochgeladenen Ordners.
+
+> [!NOTE]
+> In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst Du den `/` (z.B. `/world setdefault <weltname>`).
 
 ### Per Konfiguration
 
@@ -107,7 +113,7 @@ Du kannst die Standard-Welt auch manuell in der Server-Konfiguration setzen:
    Öffne die `config.json` im Hauptverzeichnis Deines Servers.
 
 3. **Standard-Welt ändern**\
-   Suche nach dem `Defaults` Block und ändere den `World` Wert:
+   Suche nach dem `Defaults` Block und ändere den `World` Wert. Die übrigen Einträge im Block lässt Du unverändert:
 
    ```json
    "Defaults": {
@@ -122,12 +128,15 @@ Du kannst die Standard-Welt auch manuell in der Server-Konfiguration setzen:
 4. **Server starten**\
    Starte Deinen Server.
 
+> [!NOTE]
+> Spieler, die schon einmal auf dem Server waren, betreten ihn weiterhin in der Welt, in der sie sich zuletzt aufgehalten haben. Die Standardwelt gilt für neue Spieler und für Spieler, deren letzte Welt nicht mehr geladen ist. Mit Admin-Rechten wechselst Du im Spiel mit `/tp world <weltname>` in eine andere Welt.
+
 ## Spielerdaten übertragen
 
 Wenn Du auch Deinen Spielerfortschritt übertragen möchtest (Inventar, Position, etc.):
 
-1. Kopiere den Inhalt des `players/` Ordners aus Deinem Singleplayer-Spielstand.
-2. Lade ihn auf dem Server in den Ordner `/universe/players/` hoch.
+1. Kopiere den Inhalt des Ordners `universe/players/` aus Deinem Singleplayer-Spielstand.
+2. Lade ihn bei gestopptem Server in den Ordner `/universe/players/` hoch.
 
 > [!WARNING]
 > Lade nur die Welt-Ordner hoch, nicht den gesamten `universe/` Ordner - sonst werden bestehende Server-Welten überschrieben.

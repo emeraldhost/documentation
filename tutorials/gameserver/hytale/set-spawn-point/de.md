@@ -6,7 +6,7 @@ description: "Spawn-Punkt auf einem Hytale Server setzen"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -19,84 +19,107 @@ sort: 17
 related: ["gameserver/hytale/pause-game-time", "gameserver/hytale/set-password", "gameserver/hytale/upload-world", "gameserver/hytale/change-world-seed"]
 ---
 
-Der Spawn-Punkt bestimmt, wo neue Spieler oder Spieler nach dem Tod erscheinen.
+Der Spawn-Punkt bestimmt, wo neue Spieler oder Spieler nach dem Tod erscheinen. Jede Welt auf Deinem Server hat ihren eigenen Spawn-Punkt.
 
 ## Zum Spawn teleportieren
 
-Um zum aktuellen Spawn-Punkt zu teleportieren:
+Im Spiel teleportierst Du Dich mit Admin-Rechten zum Spawn-Punkt der Welt, in der Du Dich gerade befindest:
 
 ```text
-spawn
+/spawn
+```
+
+Über die Konsole Deiner Verwaltung kannst Du einen Spieler, der gerade online ist, zum Spawn teleportieren:
+
+```text
+spawn <Spielername>
+```
+
+> [!NOTE]
+> In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst Du den `/` (z.B. `/spawn`).
+
+## So setzt Du den Spawn-Punkt im Spiel
+
+1. **Position einnehmen**\
+   Stelle Dich im Spiel an die Stelle, an der der Spawn-Punkt liegen soll, und schau in die Richtung, in die Spieler nach dem Spawnen blicken sollen.
+
+2. **Befehl eingeben**\
+   Gib mit Admin-Rechten folgenden Befehl ein:
+
+   ```text
+   /spawn set
+   ```
+
+   Der Spawn-Punkt der aktuellen Welt wird auf Deine Position gesetzt. Zur Bestätigung erscheint die Meldung „Set spawn to: ...“.
+
+## So setzt Du den Spawn-Punkt über die Konsole
+
+In der Konsole gibst Du die Welt und die Koordinaten mit an:
+
+```text
+spawn set --world <weltname> --position <x> <y> <z>
+```
+
+Beispiel für die Standardwelt `default`:
+
+```text
+spawn set --world default --position 10 120 10
 ```
 
 > [!TIP]
-> **Hinweis**
->
-> In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst Du den `/` (z.B. `/spawn`).
+> Der Server speichert den neuen Spawn-Punkt sofort in der `config.json` der Welt unter `/universe/worlds/<weltname>/`. Ein Neustart ist nicht nötig.
 
-## Spawn-Punkt setzen
+## So setzt Du den Spawn-Punkt zurück
 
-> [!WARNING]
-> **Hinweis**
->
-> Hytale hat standardmäßig keinen `/setspawn` Befehl. Du kannst den Spawn-Punkt mit dem **HyCommands Mod** setzen.
+Um den ursprünglichen Spawn-Punkt wiederherzustellen, den die Welt bei ihrer Erstellung hatte, gib im Spiel ein:
 
-## So installierst Du den HyCommands Mod
+```text
+/spawn set default
+```
 
-Der HyCommands Mod von NightBeamStudio ist ein umfangreiches Server-Utility für Hytale. Er fügt nützliche Befehle wie `/setspawn`, `/sethome`, `/home` und `/warp` hinzu.
+In der Konsole gibst Du zusätzlich die Welt an:
 
-### Download
+```text
+spawn set default --world <weltname>
+```
 
-Der Mod kann hier heruntergeladen werden: [HyCommands auf CurseForge](https://www.curseforge.com/hytale/mods/hycommands)
+## Respawn-Verhalten konfigurieren
 
-### Installation
+Wo Spieler nach dem Tod wieder erscheinen, kannst Du in der Welt-Konfiguration anpassen:
 
 1. **Server stoppen**\
    Stoppe Deinen Server über die Verwaltung.
 
-2. **Mod herunterladen**\
-   Lade die .jar Datei des HyCommands Mods von CurseForge herunter.
+2. **Welt-Konfiguration öffnen**\
+   Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server und öffne die Datei `/universe/worlds/<weltname>/config.json`.
 
-3. **Mod hochladen**\
-   Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server und lade die .jar Datei in den `mods/` Ordner hoch.
+3. **Death Block einfügen**\
+   Standardmäßig enthält die Datei keinen `Death` Block. Suche nach der Zeile `"GameplayConfig": "Default",` und füge darunter den `Death` Block hinzu. Da danach weitere Einstellungen folgen, muss hinter der letzten schließenden Klammer `}` des `Death` Blocks ein Komma stehen:
+
+   ```json
+   "Death": {
+     "RespawnController": {
+       "Type": "WorldSpawnPoint"
+     },
+     "ItemsLossMode": "Configured",
+     "ItemsAmountLossPercentage": 50.0,
+     "ItemsDurabilityLossPercentage": 10.0
+   }
+   ```
 
 4. **Server starten**\
    Starte Deinen Server.
 
-### Spawn-Punkt setzen (mit HyCommands)
-
-Mit HyCommands kannst Du im Spiel als Admin:
-
-```text
-/setspawn
-```
-
-Der Spawn-Punkt wird auf Deine aktuelle Position gesetzt.
-
-## Respawn-Verhalten konfigurieren
-
-Du kannst das Respawn-Verhalten nach dem Tod in der Welt-Konfiguration anpassen:
-
-1. Öffne `/universe/worlds/<weltname>/config.json`
-2. Im `Death` Block findest Du `RespawnController`:
-
-```json
-"Death": {
-  "RespawnController": {
-    "Type": "HomeOrSpawnPoint"
-  }
-}
-```
-
 **Verfügbare Respawn-Typen:**
 
-- `HomeOrSpawnPoint` - Respawn am Home oder Spawn-Punkt
-- `SpawnPoint` - Nur am Spawn-Punkt
+- `HomeOrSpawnPoint` - Respawn am eigenen Respawn-Punkt des Spielers, sonst am Spawn-Punkt der Welt (Standard)
+- `WorldSpawnPoint` - Respawn immer am Spawn-Punkt der Welt
+
+> [!WARNING]
+> Ein `Death` Block in der Welt-Konfiguration ersetzt die gesamten Tod-Einstellungen dieser Welt. Fehlen darin die Angaben zum Item-Verlust, verlieren Spieler beim Tod keine Items mehr. Die Werte im Beispiel entsprechen dem Standard von Hytale. Mehr dazu erfährst Du unter [Item-Verlust beim Tod](/tutorials/gameserver/hytale/item-loss-on-death).
 
 > [!TIP]
 > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Welt-Konfiguration nicht mehr laden kann.
 
-> [!TIP]
-> **Hinweis**
->
-> Für weitere Spawn-Optionen siehe auch [Neue Welt erstellen](/tutorials/gameserver/hytale/create-new-world) - neue Welten haben ihren eigenen Spawn-Punkt.
+> [!NOTE]
+> Wie Du weitere Welten mit eigenem Spawn-Punkt erstellst, erfährst Du unter [Neue Welt erstellen](/tutorials/gameserver/hytale/create-new-world).

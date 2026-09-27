@@ -6,7 +6,7 @@ description: "Change MOTD on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-09-27"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -21,9 +21,7 @@ related: ["gameserver/hytale/change-max-players", "gameserver/hytale/change-max-
 
 The MOTD (Message of the Day) is a short message displayed to players when they join.
 
-> [!TIP]
-> **Note**
->
+> [!NOTE]
 > Stop your server before making changes to configuration files, otherwise they will be overwritten by the server.
 
 ## How to Change the MOTD
@@ -47,4 +45,7 @@ The MOTD (Message of the Day) is a short message displayed to players when they 
 4. **Start the Server**\
    Start your server for the changes to take effect.
 
-The new MOTD will be displayed to players in the server list and when joining.
+Your server sends the new MOTD to players who join it. By default, the value is empty (`"MOTD": ""`).
+
+> [!NOTE]
+> **Server Discovery** does not show the MOTD but the description from your server profile in the Hytale account.
