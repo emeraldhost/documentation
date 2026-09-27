@@ -6,7 +6,7 @@ description: Download a world from a Hytale server
 
 You can download your server's world to your PC at any time, for example as an extra backup, to archive it, or to move it to another server.
 
-:::: warning Caution
+:::: warning Warning
 Stop your server before downloading the files. While the server is running, it saves regularly, otherwise you would download an incomplete or corrupted save.
 ::::
 
@@ -33,7 +33,7 @@ Stop your server before downloading the files. While the server is running, it s
    Start your server again.
 
 :::: tip Tip
-You can see which world is currently loaded in the `config.json` in the root directory of your server. In the `Defaults` block, the `World` value contains the name of the world folder.
+Your server can have several worlds loaded at the same time. You can see which of them is the default world in the `config.json` in the root directory of your server: In the `Defaults` block, the `World` value contains the name of the world folder. The console command `world list` shows all loaded worlds.
 ::::
 
 :::: tip Restoring the world

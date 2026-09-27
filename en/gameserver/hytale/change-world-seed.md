@@ -6,35 +6,47 @@ description: Change World Seed on a Hytale server
 
 The world seed determines how the world is generated. Using the same seed will always produce the same world - identical landscapes, mountains, and structures at the same coordinates.
 
-:::: tip Note
+:::: info Note
 Stop your server before making changes to configuration files, otherwise they will be overwritten by the server.
+::::
+
+## How to Show the Current Seed
+
+Enter the following command in the console of your dashboard:
+```
+world config seed --world <worldname>
+```
+The console responds with something like `Seed: 1790539101340`. The world the server creates on its first start is called `default`.
+
+:::: info Note
+There is no command to change the seed. You change the seed in the world configuration as described below.
 ::::
 
 ## How to Change the World Seed
 
 1. <b>Stop the Server</b><br>
-   Stop your server via the management panel.
+   Stop your server via the dashboard.
 
 2. <b>Open the World Configuration</b><br>
-   Connect to your server via [SFTP](../establish-sftp-connection.md) and navigate to the folder `universe/worlds/<worldname>/`. Open the `config.json` file.
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and navigate to the folder `/universe/worlds/<worldname>/` (for the default world `/universe/worlds/default/`). Open the `config.json` file.
 
 3. <b>Adjust the Seed</b><br>
    Find the `Seed` setting and change the value:
    ```json
    "Seed": 123456789
    ```
-   You can use any number as a seed.
+   You can use any whole number as a seed.
 
    :::: tip Tip
    Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing — a single missing or extra comma is enough to stop the server from loading the world configuration.
    ::::
 
 4. <b>Delete World Data</b><br>
-   Delete the `chunks` folder in the same directory (`universe/worlds/<worldname>/chunks`) so the world is regenerated with the new seed.
+   Delete the `chunks` folder in the same directory (`/universe/worlds/<worldname>/chunks/`) so the world is regenerated with the new seed.
 
 5. <b>Start the Server</b><br>
    Start your server to regenerate the world.
 
 :::: warning Warning
-Deleting the `chunks` folder will permanently remove all builds and progress in this world. Create a [backup](./create-backup.md) first!
+Deleting the `chunks` folder will permanently remove all builds and progress in this world. Create a [backup](create-backup.md) first!
 ::::

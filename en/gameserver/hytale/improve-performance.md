@@ -8,7 +8,7 @@ description: Improve performance on a Hytale server
 
 The performance of a Hytale server can be influenced by various factors, including the number of players, the size of the loaded world, and the server configuration. In this article, we'll show you how to optimize the performance of your Hytale server.
 
-:::: tip Note
+:::: info Note
 Stop your server before making changes to configuration files, otherwise they will be overwritten by the server.
 ::::
 
@@ -17,7 +17,7 @@ Stop your server before making changes to configuration files, otherwise they wi
 If you don't want to install a plugin, you can also improve server performance by adjusting the configuration file. The most important setting for this is **MaxViewRadius**. The view radius determines how many chunks are loaded around a player. A smaller value significantly reduces server load.
 
 1. <b>Stop the server</b><br>
-   Stop your server via the management panel.
+   Stop your server via the dashboard.
 
 2. <b>Open the configuration file</b><br>
    Connect to your server via [SFTP](../establish-sftp-connection.md) and open the `config.json` file in the root directory.
@@ -30,20 +30,24 @@ If you don't want to install a plugin, you can also improve server performance b
 
    | Value | Recommendation |
    | ----- | -------------- |
-   | 32 | Default - high server load |
-   | 16 | Recommended - good balance |
-   | 10 | Low - best performance |
-   | 8 | Minimal - for weaker servers |
+   | 32 | Default and maximum - high server load |
+   | 16 | Good balance between visibility and performance |
+   | 12 | Recommended by Hytale for performance and gameplay (384 blocks) |
+   | 10 | Low - for servers with many players or limited RAM |
 
 5. <b>Start the server</b><br>
    Start your server for the changes to take effect.
 
+:::: tip Tip
+You can also change the value without a restart via the console in the dashboard, e.g. with `maxviewradius 12`. Learn more in [Change Max View Radius](change-max-view-radius.md).
+::::
+
 ## How to Adjust Startup Parameters on a Hytale Server
 
-Via the management panel, you can add additional startup parameters in the settings. This allows you to add custom Garbage Collector parameters to further optimize the server.
+Via the dashboard, you can add additional startup parameters in the settings. This allows you to add custom Garbage Collector parameters to further optimize the server.
 
-1. <b>Open the Management Panel</b><br>
-   Open the management panel of your server.
+1. <b>Open the Dashboard</b><br>
+   Open the dashboard of your server.
 
 2. <b>Open Settings</b><br>
    Navigate to **Settings**.
@@ -71,59 +75,27 @@ The following parameters are already configured by default:
 The default values are already optimal for most servers. Only change these if you know what you're doing.
 ::::
 
-## Recommended Performance Plugins for Hytale Servers
+## Recommended Performance Plugin for Hytale Servers
 
-To stabilize your server, we recommend the following plugins:
+To stabilize your server, we recommend the **Nitrado PerformanceSaver** plugin. It is also recommended in Hytale's official server manual.
 
-| Plugin | Description |
-|--------|-------------|
-| Server Optimizer | Dynamic performance adjustments, NPC AI optimization |
-| Hyfixes | Bug fixes, crash prevention, RAM optimization |
-| Performance Saver | TPS limiting, dynamic view radius adjustment |
+### Download
 
-### Downloads
-
-- [Server Optimizer on CurseForge](https://www.curseforge.com/hytale/mods/server-optimizer)
-- [Hyfixes on CurseForge](https://www.curseforge.com/hytale/mods/hyfixes)
-- [Performance Saver on CurseForge](https://www.curseforge.com/hytale/mods/nitrado-performancesaver)
+The plugin can be downloaded here: [Performance Saver on CurseForge](https://www.curseforge.com/hytale/mods/nitrado-performancesaver)
 
 ### Installation
 
 1. <b>Stop the Server</b><br>
-   Stop your server via the management panel.
+   Stop your server via the dashboard.
 
-2. <b>Download the Plugins</b><br>
-   Download the .jar files of the desired plugins from CurseForge.
+2. <b>Download the Plugin</b><br>
+   Download the .jar file of the plugin from CurseForge.
 
-3. <b>Upload the Plugins</b><br>
-   Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the .jar files to the `mods/` folder.
+3. <b>Upload the Plugin</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and upload the .jar file to the `mods/` folder.
 
 4. <b>Start the Server</b><br>
    Start your server.
-
-
-### Server Optimizer
-
-The Server Optimizer Plugin provides the following benefits:
-
-- **View Distance Management** - Lowers view distance on low TPS or high RAM usage
-- **Per-Player Simulation Range** - Reduces simulation range per player during TPS drops
-- **NPC AI Optimization** - Adjusts NPC tick rates based on distance and visibility
-- **Self-Healing Config** - Missing settings are automatically added
-- **Profiling** - Creates detailed performance reports
-
-### Hyfixes
-
-The Hyfixes Plugin provides the following benefits:
-
-- **Crash Prevention** - Fixes server crashes from null references and iterator errors
-- **Timeout Fixes** - Prevents player kicks during network lag in interactions
-- **RAM Optimization** - Improved chunk cleanup (up to 77% RAM reduction)
-- **Interaction Chain Fixes** - Removes corrupted interaction chains before crashes
-
-:::: warning Note
-Hyfixes consists of two files: `hyfixes.jar` goes in the `mods/` folder, `hyfixes-early.jar` goes in the `earlyplugins/` folder.
-::::
 
 ### Performance Saver
 
@@ -132,6 +104,8 @@ The Performance Saver Plugin provides the following benefits:
 - **TPS Limiting** - Intelligently limits ticks per second (20 TPS with players, 5 TPS without)
 - **Dynamic View Radius Adjustment** - Automatically reduces view distance under high load
 - **Automatic Garbage Collection** - Triggers memory cleanup on chunk unloads
+
+After the first start, you can find the plugin's settings in the `mods/Nitrado_PerformanceSaver/config.json` file.
 
 ## How to Install the Spark Plugin on a Hytale Server
 
@@ -144,7 +118,7 @@ The plugin can be downloaded here: [Spark on CurseForge](https://www.curseforge.
 ### Installation
 
 1. <b>Stop the Server</b><br>
-   Stop your server via the management panel.
+   Stop your server via the dashboard.
 
 2. <b>Download the Plugin</b><br>
    Download the .jar file of the Spark Plugin from CurseForge.
@@ -157,7 +131,7 @@ The plugin can be downloaded here: [Spark on CurseForge](https://www.curseforge.
 
 ### Using Spark
 
-With Spark, you can use the following commands in-game as admin:
+With Spark, you can use the following commands in-game as admin. In the console of the dashboard, enter them without the `/`:
 
 | Command | Description |
 | ------- | ----------- |

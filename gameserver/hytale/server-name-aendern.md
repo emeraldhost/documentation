@@ -4,8 +4,8 @@ description: Server-Name auf einem Hytale Server ändern
 
 # So änderst du den Server-Namen auf einem Hytale Server
 
-:::: tip Hinweis
-Stoppe deinen Server bevor du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
+:::: info Hinweis
+Stoppe deinen Server, bevor du Änderungen an Konfigurationsdateien vornimmst, da diese sonst vom Server überschrieben werden.
 ::::
 
 ## So änderst du den Server-Namen
@@ -17,9 +17,9 @@ Stoppe deinen Server bevor du Änderungen an Konfigurationsdateien vornimmst, da
    Verbinde dich per [SFTP](../sftp-verbindung-herstellen.md) mit deinem Server und öffne die Datei `config.json` im Hauptverzeichnis.
 
 3. <b>Name ändern</b><br>
-   Suche nach der Einstellung `Name` und ändere den Wert:
+   Suche nach der Einstellung `ServerName` und ändere den Wert. Standardmäßig steht dort `Hytale Server`:
    ```json
-   "Name": "Mein Hytale Server"
+   "ServerName": "Mein Hytale Server"
    ```
 
    :::: tip Tipp
@@ -29,4 +29,8 @@ Stoppe deinen Server bevor du Änderungen an Konfigurationsdateien vornimmst, da
 4. <b>Server starten</b><br>
    Starte deinen Server, damit die Änderungen übernommen werden.
 
-Der neue Server-Name wird in der Serverliste angezeigt.
+Dein Server übermittelt den neuen Namen an Spieler, die ihm beitreten.
+
+:::: info Hinweis
+In der gespeicherten Server-Liste steht der Name, den jeder Spieler beim Hinzufügen des Servers selbst vergibt (siehe [Server beitreten](server-beitreten.md)). In der **Server Discovery** zeigt Hytale den Namen aus deinem Server-Profil im Hytale-Account an.
+::::

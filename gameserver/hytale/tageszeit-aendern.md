@@ -14,38 +14,40 @@ Du kannst die Tageszeit auf deinem Server per Befehl ändern oder komplett pausi
 2. <b>Befehl eingeben</b><br>
    Gib folgenden Befehl in die Konsole ein:
    ```
-   time <wert>
+   time <wert> --world <weltname>
    ```
+   Ersetze `<weltname>` durch den Namen deiner Welt (z.B. `default`).
 
 **Beispiele:**
 ```
-time morning
-time noon
-time evening
-time 12
+time dawn --world default
+time noon --world default
+time dusk --world default
+time set 18 --world default
 ```
 
-:::: tip Hinweis
-In der Konsole werden Befehle ohne `/` eingegeben. Im Spiel mit Admin-Rechten benötigst du den `/` (z.B. `/time noon`).
+:::: info Hinweis
+In der Konsole werden Befehle ohne `/` eingegeben und brauchen die Angabe `--world`, sonst meldet der Server `Sender must be a player or provide the --world option!`. Im Spiel mit Admin-Rechten benötigst du den `/` und kannst `--world` weglassen, dann gilt der Befehl für die Welt, in der du dich befindest (z.B. `/time noon`).
 ::::
 
 ## Verfügbare Zeit-Werte
 
-| Wert | Beschreibung |
-| ---- | ------------ |
-| `morning` | Morgen |
-| `noon` | Mittag |
-| `evening` | Abend |
-| `0-24` | Numerischer Wert (0 = Mitternacht, 12 = Mittag) |
+| Wert | Alternativ | Beschreibung |
+| ---- | ---------- | ------------ |
+| `dawn` | `morning`, `day` | Morgendämmerung |
+| `midday` | `noon` | Mittag |
+| `dusk` | `night` | Abenddämmerung |
+| `midnight` | - | Mitternacht |
+| `0-24` | `set 0-24` | Uhrzeit als Zahl (0 = Mitternacht, 12 = Mittag), z.B. `time 18` oder `time set 18` |
 
 ## Aktuelle Zeit anzeigen
 
 Um die aktuelle Weltzeit anzuzeigen:
 
 ```
-time
+time --world default
 ```
 
 ## Spielzeit pausieren
 
-Um die Zeit komplett anzuhalten (z.B. für Bau-Server), siehe [Spielzeit pausieren](spielzeit-pausieren.md).
+Mit `time pause --world default` hältst du die Zeit an. Gibst du den Befehl erneut ein, läuft sie weiter. Der Zustand wird in der Konfiguration der Welt gespeichert und bleibt auch nach einem Neustart erhalten. Weitere Möglichkeiten, z.B. eine feste Uhrzeit für Bau-Server, findest du unter [Spielzeit pausieren](spielzeit-pausieren.md).

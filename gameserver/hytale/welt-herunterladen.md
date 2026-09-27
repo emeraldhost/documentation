@@ -33,7 +33,7 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    Starte deinen Server wieder.
 
 :::: tip Tipp
-Welche Welt aktuell geladen wird, siehst du in der `config.json` im Hauptverzeichnis deines Servers. Im `Defaults` Block gibt der Wert `World` den Namen des Welt-Ordners an.
+Auf deinem Server können mehrere Welten gleichzeitig geladen sein. Welche davon die Standardwelt ist, siehst du in der `config.json` im Hauptverzeichnis deines Servers: Im `Defaults` Block gibt der Wert `World` den Namen des Welt-Ordners an. Alle geladenen Welten zeigt dir der Konsolenbefehl `world list`.
 ::::
 
 :::: tip Welt wieder einspielen

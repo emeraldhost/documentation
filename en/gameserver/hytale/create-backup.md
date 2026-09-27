@@ -24,3 +24,93 @@ Lock important backups (e.g. before major changes) so they cannot be overwritten
 :::: info Info
 Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
 ::::
+
+## How to Enable the Automatic Backups of the Hytale Server
+
+In addition to the backups in the dashboard, the Hytale server itself can create backups of your worlds at regular intervals.
+
+1. <b>Open dashboard</b><br>
+   Open the dashboard of your server.
+
+2. <b>Open settings</b><br>
+   Navigate to the **Settings**.
+
+3. <b>Configure automatic backups</b><br>
+   Adjust the following fields:
+
+   | Field | Description | Default |
+   |-------|-------------|---------|
+   | **Enable Auto Server Backup** | `1` turns automatic backups on, `0` turns them off | `0` |
+   | **Backup Folder** | Folder in the root directory where the server stores the backups | `backups` |
+   | **Backup Interval** | Time between two backups in minutes | `30` |
+
+4. <b>Restart the server</b><br>
+   Save the settings and restart your server. The server creates the first automatic backup once it has been running for the time set in the **Backup Interval** field.
+
+You can find the backups via [SFTP](../establish-sftp-connection.md) in the `/backups/` folder, or in the folder you entered in the **Backup Folder** field. Each backup is a ZIP file named after the time it was created: the server created `2026-09-27_18-30-00.zip` on 27.09.2026 at 18:30:00. The time is based on the server's system time and may therefore differ from your local time.
+
+:::: warning Warning
+The automatic backups only contain the `universe` folder with your worlds and the player data. The `config.json`, the `permissions.json`, the `bans.json` and your mods are not included. Back these up with the [backup feature](../create-backup.md) of the dashboard.
+::::
+
+Before the server creates a new backup, it cleans up the backup folder: by default, it keeps the 5 newest backups and adds the new one. Of the older backups, it moves at most one every 12 hours to the `archive` subfolder, which keeps up to 5 backups by default. It deletes all others. The backups take up storage space on your server.
+
+:::: tip Tip
+While the feature is enabled, you can also trigger a backup at any time via the console in the dashboard:
+```
+backup
+```
+Without automatic backups enabled, the server replies with `The server must be started with --backup-dir to use this command!`.
+::::
+
+### How to Change the Number of Backups Kept
+
+1. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
+
+2. <b>Open the configuration file</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md) and open the `config.json` file in the root directory.
+
+3. <b>Set the number</b><br>
+   Enter the desired values in the `Backup` block. `MaxCount` sets how many of the newest backups the server keeps in the backup folder when cleaning up (the new backup is added to them), `ArchiveMaxCount` how many backups it keeps in the `archive` subfolder. Both values must be at least `1`:
+   ```json
+   "Backup": {
+     "MaxCount": 10,
+     "ArchiveMaxCount": 5
+   }
+   ```
+
+   :::: tip Tip
+   Check the file after editing with a JSON formatter such as [JSONLint](https://jsonlint.com/) — a single missing or extra comma is enough to prevent the server from loading the config.json.
+   ::::
+
+4. <b>Start the server</b><br>
+   Start your server for the changes to take effect.
+
+## How to Restore an Automatic Backup
+
+:::: warning Warning
+Restoring resets all worlds and player data to the state of the backup. Everything that has happened since then will be lost.
+::::
+
+1. <b>Stop the server</b><br>
+   Stop your server via the dashboard.
+
+2. <b>Back up the current state</b><br>
+   Create a [backup](../create-backup.md) via the dashboard so you can restore the current state if needed.
+
+3. <b>Download the backup</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md), download the desired ZIP file from the `/backups/` folder (or `/backups/archive/`) and extract it on your PC. Among other things, it contains the folders `worlds` and `resources`.
+
+4. <b>Rename the current state</b><br>
+   Rename the `universe` folder in the root directory, for example to `universe_old`.
+
+5. <b>Upload the backup</b><br>
+   Create a new, empty `universe` folder in the root directory and upload the extracted contents of the ZIP file into it. Afterwards, the folder `/universe/worlds/` must exist.
+
+6. <b>Start the server</b><br>
+   Start your server and check in-game whether the desired state has been loaded.
+
+:::: tip Tip
+If you no longer need the old state, you can delete the `universe_old` folder. The server does not load it.
+::::
