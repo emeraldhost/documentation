@@ -6,6 +6,7 @@ description: "Join a Garry's Mod server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-01"
 cta: "gameserver"
 product_keys: ["garrys-mod"]
 author: "EmeraldHost Team"
@@ -94,4 +95,4 @@ related: ["gameserver/garrys-mod/add-admin", "gameserver/garrys-mod/add-mods", "
 > [!NOTE]
 > **Server not showing up in the public server list?**
 >
-> Since May 2020, Garry's Mod servers without a Steam Game Server Login Token (GSLT) receive a severe penalty in the server list ranking. You can create a token at [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) using app ID `4000`. Then enter it in the **dashboard** of your server under **Settings** in the **Steam Account Token** field and restart the server. The server then starts with the parameter `+sv_setsteamaccount <Token>`. Every server needs its own token. Connecting directly via IP and port works without a token as well.
+> Since May 2020, Garry's Mod servers without a Steam Game Server Login Token (GSLT) receive a severe penalty in the server list ranking. You can create a token at [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) using app ID `4000`. Then enter it in the **dashboard** of your server under **Settings** in the **Steam Account Token** field and restart the server. The server then starts with the parameter `+sv_setsteamaccount <Token>`. Every server needs its own token. A step-by-step guide is available under [Set GSL Token](/tutorials/gameserver/garrys-mod/set-gsl-token). Connecting directly via IP and port works without a token as well.

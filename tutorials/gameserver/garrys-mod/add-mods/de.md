@@ -6,6 +6,7 @@ description: "Mods und Addons auf einem Garry's Mod Server hinzufügen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-01"
 cta: "gameserver"
 product_keys: ["garrys-mod"]
 author: "EmeraldHost Team"
@@ -90,7 +91,7 @@ Addons, die nicht aus dem Workshop stammen (sogenannte Legacy-Addons), lädst Du
 
 ## Gamemode installieren
 
-Gamemodes werden nicht im `addons`-Ordner abgelegt, sondern in einem eigenen Verzeichnis.
+Gamemodes werden nicht im `addons`-Ordner abgelegt, sondern in einem eigenen Verzeichnis. Eine ausführliche Anleitung mit Ordnernamen, passenden Maps und typischen Fehlern findest Du unter [Gamemode ändern](/tutorials/gameserver/garrys-mod/change-gamemode).
 
 1. **Gamemode hochladen**\
    Lade den Gamemode-Ordner per [SFTP](/tutorials/gameserver/establish-sftp-connection) in folgendes Verzeichnis hoch:
@@ -128,7 +129,7 @@ Spieler laden die Workshop-Addons Deines Servers **nicht automatisch** herunter.
    Speichere die Datei und starte Deinen Server neu.
 
 > [!NOTE]
-> Inhalte, die nicht aus dem Steam Workshop stammen (z.B. eigene Modelle oder Sounds), werden darüber nicht verteilt. Dafür benötigst Du FastDL über die ConVar `sv_downloadurl` in der Datei `/garrysmod/cfg/server.cfg`.
+> Inhalte, die nicht aus dem Steam Workshop stammen (z.B. eigene Modelle oder Sounds), werden darüber nicht verteilt. Dafür benötigst Du FastDL, siehe [FastDL einrichten](/tutorials/gameserver/garrys-mod/set-up-fastdl).
 
 ## Fremdspiel-Inhalte einbinden
 

@@ -6,6 +6,7 @@ description: "Add mods and addons to a Garry's Mod server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-01"
 cta: "gameserver"
 product_keys: ["garrys-mod"]
 author: "EmeraldHost Team"
@@ -94,7 +95,7 @@ Addons that do not come from the Workshop (so-called legacy addons) are uploaded
 
 ## Install a gamemode
 
-Gamemodes are not placed in the `addons` folder but in their own directory.
+Gamemodes are not placed in the `addons` folder but in their own directory. A detailed guide with folder names, matching maps and common mistakes is available under [Change Gamemode](/tutorials/gameserver/garrys-mod/change-gamemode).
 
 1. **Upload the gamemode**\
    Upload the gamemode folder via [SFTP](/tutorials/gameserver/establish-sftp-connection) to the following directory:
@@ -132,7 +133,7 @@ Players do **not** automatically download the Workshop addons of your server. On
    Save the file and restart your server.
 
 > [!NOTE]
-> Content that does not come from the Steam Workshop (e.g. custom models or sounds) is not distributed this way. For that you need FastDL via the ConVar `sv_downloadurl` in the file `/garrysmod/cfg/server.cfg`.
+> Content that does not come from the Steam Workshop (e.g. custom models or sounds) is not distributed this way. For that you need FastDL, see [Set Up FastDL](/tutorials/gameserver/garrys-mod/set-up-fastdl).
 
 ## Mount content from other games
 
