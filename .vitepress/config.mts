@@ -582,9 +582,20 @@ export default defineConfig({
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/garrys-mod/admin-hinzufuegen' },
                   { text: 'Backup erstellen', link: '/gameserver/garrys-mod/backup-erstellen' },
+                  { text: 'DarkRP installieren', link: '/gameserver/garrys-mod/darkrp-installieren' },
+                  { text: 'FastDL einrichten', link: '/gameserver/garrys-mod/fastdl-einrichten' },
+                  { text: 'Gamemode ändern', link: '/gameserver/garrys-mod/gamemode-aendern' },
+                  { text: 'GSL Token setzen', link: '/gameserver/garrys-mod/gsl-token-setzen' },
+                  { text: 'Ladebildschirm einrichten', link: '/gameserver/garrys-mod/ladebildschirm-einrichten' },
+                  { text: 'Lua Refresh aktivieren', link: '/gameserver/garrys-mod/lua-refresh-aktivieren' },
+                  { text: 'Map ändern', link: '/gameserver/garrys-mod/map-aendern' },
                   { text: 'Mods hinzufügen', link: '/gameserver/garrys-mod/mods-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/garrys-mod/server-beitreten' },
-                  { text: 'Spieler kicken & bannen', link: '/gameserver/garrys-mod/spieler-kicken-bannen' }
+                  { text: 'Server konfigurieren', link: '/gameserver/garrys-mod/server-konfigurieren' },
+                  { text: 'Spieler kicken & bannen', link: '/gameserver/garrys-mod/spieler-kicken-bannen' },
+                  { text: 'Star Wars RP Server einrichten', link: '/gameserver/garrys-mod/star-wars-rp-server-einrichten' },
+                  { text: 'Tickrate ändern', link: '/gameserver/garrys-mod/tickrate-aendern' },
+                  { text: 'TTT einrichten', link: '/gameserver/garrys-mod/ttt-einrichten' }
                 ]
               },
               {
@@ -2313,9 +2324,20 @@ export default defineConfig({
                 items: [
                   { text: 'Add Admin', link: '/en/gameserver/garrys-mod/add-admin' },
                   { text: 'Add Mods', link: '/en/gameserver/garrys-mod/add-mods' },
+                  { text: 'Change Gamemode', link: '/en/gameserver/garrys-mod/change-gamemode' },
+                  { text: 'Change Map', link: '/en/gameserver/garrys-mod/change-map' },
+                  { text: 'Change Tickrate', link: '/en/gameserver/garrys-mod/change-tickrate' },
+                  { text: 'Configure Server', link: '/en/gameserver/garrys-mod/configure-server' },
                   { text: 'Create Backup', link: '/en/gameserver/garrys-mod/create-backup' },
+                  { text: 'Enable Lua Refresh', link: '/en/gameserver/garrys-mod/enable-lua-refresh' },
+                  { text: 'Install DarkRP', link: '/en/gameserver/garrys-mod/install-darkrp' },
                   { text: 'Join Server', link: '/en/gameserver/garrys-mod/join-server' },
-                  { text: 'Kick & Ban Players', link: '/en/gameserver/garrys-mod/kick-ban-players' }
+                  { text: 'Kick & Ban Players', link: '/en/gameserver/garrys-mod/kick-ban-players' },
+                  { text: 'Set GSL Token', link: '/en/gameserver/garrys-mod/set-gsl-token' },
+                  { text: 'Set Up FastDL', link: '/en/gameserver/garrys-mod/set-up-fastdl' },
+                  { text: 'Set Up Loading Screen', link: '/en/gameserver/garrys-mod/set-up-loading-screen' },
+                  { text: 'Set Up Star Wars RP Server', link: '/en/gameserver/garrys-mod/set-up-star-wars-rp-server' },
+                  { text: 'Set Up TTT', link: '/en/gameserver/garrys-mod/set-up-ttt' }
                 ]
               },
               {

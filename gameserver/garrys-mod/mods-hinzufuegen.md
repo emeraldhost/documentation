@@ -79,7 +79,7 @@ Der Server läuft unter Linux und Dateipfade sind dort **groß- und kleinschreib
 
 ## Gamemode installieren
 
-Gamemodes werden nicht im `addons`-Ordner abgelegt, sondern in einem eigenen Verzeichnis.
+Gamemodes werden nicht im `addons`-Ordner abgelegt, sondern in einem eigenen Verzeichnis. Eine ausführliche Anleitung mit Ordnernamen, passenden Maps und typischen Fehlern findest du unter [Gamemode ändern](gamemode-aendern.md).
 
 1. <b>Gamemode hochladen</b><br>
    Lade den Gamemode-Ordner per [SFTP](../sftp-verbindung-herstellen.md) in folgendes Verzeichnis hoch:
@@ -117,7 +117,7 @@ Spieler laden die Workshop-Addons deines Servers **nicht automatisch** herunter.
    Speichere die Datei und starte deinen Server neu.
 
 :::: info Hinweis
-Inhalte, die nicht aus dem Steam Workshop stammen (z.B. eigene Modelle oder Sounds), werden darüber nicht verteilt. Dafür benötigst du FastDL über die ConVar `sv_downloadurl` in der Datei `/garrysmod/cfg/server.cfg`.
+Inhalte, die nicht aus dem Steam Workshop stammen (z.B. eigene Modelle oder Sounds), werden darüber nicht verteilt. Dafür benötigst du FastDL, siehe [FastDL einrichten](fastdl-einrichten.md).
 ::::
 
 ## Fremdspiel-Inhalte einbinden

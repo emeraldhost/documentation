@@ -79,7 +79,7 @@ The server runs on Linux and file paths there are **case-sensitive**. `My-Addon`
 
 ## Install a gamemode
 
-Gamemodes are not placed in the `addons` folder but in their own directory.
+Gamemodes are not placed in the `addons` folder but in their own directory. A detailed guide with folder names, matching maps and common mistakes is available under [Change Gamemode](change-gamemode.md).
 
 1. <b>Upload the gamemode</b><br>
    Upload the gamemode folder via [SFTP](../establish-sftp-connection.md) to the following directory:
@@ -117,7 +117,7 @@ Players do **not** automatically download the Workshop addons of your server. On
    Save the file and restart your server.
 
 :::: info Note
-Content that does not come from the Steam Workshop (e.g. custom models or sounds) is not distributed this way. For that you need FastDL via the ConVar `sv_downloadurl` in the file `/garrysmod/cfg/server.cfg`.
+Content that does not come from the Steam Workshop (e.g. custom models or sounds) is not distributed this way. For that you need FastDL, see [Set Up FastDL](set-up-fastdl.md).
 ::::
 
 ## Mount content from other games
