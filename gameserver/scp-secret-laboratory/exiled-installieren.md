@@ -88,7 +88,9 @@ Die EXILED-Version muss zur Spielversion deines Servers passen. Nach einem Spiel
 
 ## EXILED aktualisieren
 
-Lade die neue `Exiled.tar.gz` herunter und wiederhole die Schritte unter [EXILED hochladen](#exiled-hochladen). Überschreibe dabei die vorhandenen Dateien. Deine Plugins und Konfigurationen in `/.config/EXILED/Plugins/` und `/.config/EXILED/Configs/` bleiben erhalten, solange du den Ordner `EXILED` auf dem Server nicht vorher löschst.
+Standardmäßig prüft EXILED bei jedem Serverstart selbst, ob es eine neue Version gibt, und installiert sie automatisch. Ist deine Version aktuell, steht in der Konsole `No new versions found, you're using the most recent version of Exiled!`.
+
+Möchtest du EXILED von Hand aktualisieren, lade die neue `Exiled.tar.gz` herunter und wiederhole die Schritte unter [EXILED hochladen](#exiled-hochladen). Überschreibe dabei die vorhandenen Dateien. Deine Plugins und Konfigurationen in `/.config/EXILED/Plugins/` und `/.config/EXILED/Configs/` bleiben erhalten, solange du den Ordner `EXILED` auf dem Server nicht vorher löschst.
 
 ## Plugins installieren
 
