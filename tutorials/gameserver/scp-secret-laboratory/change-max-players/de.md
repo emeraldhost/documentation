@@ -17,6 +17,7 @@ short_title: "Maximale Spieler ändern"
 sort: 19
 related: ["gameserver/scp-secret-laboratory/set-up-reserved-slots", "gameserver/scp-secret-laboratory/edit-config-files", "gameserver/scp-secret-laboratory/change-server-name", "gameserver/scp-secret-laboratory/adjust-round-flow"]
 ---
+
 Wie viele Spieler gleichzeitig auf Deinem Server spielen können, legst Du mit der Option `max_players` in der Datei `config_gameplay.txt` fest. Der Standardwert ist `20`. Die Grundlagen zum Bearbeiten der Konfigurationsdateien findest Du in der Anleitung [Konfigurationsdateien bearbeiten](/tutorials/gameserver/scp-secret-laboratory/edit-config-files).
 
 > [!WARNING]
@@ -26,7 +27,6 @@ Wie viele Spieler gleichzeitig auf Deinem Server spielen können, legst Du mit d
 
 Bevor Du den Wert änderst, beachte diese Grenzen:
 
-- **Gebuchtes Paket**: Stelle `max_players` höchstens auf so viele Slots, wie Du in Deinem Paket gebucht hast. Brauchst Du mehr Slots, wende Dich an unseren [Support](https://emeraldhost.de/de/support).
 - **Verifizierte Server höchstens 60**: Verifizierte Server dürfen im Normalfall maximal 60 Slots haben – Server mit mehr als 60 Slots werden von der Serverliste entfernt. Mehr dazu in der Anleitung [Server verifizieren lassen](/tutorials/gameserver/scp-secret-laboratory/get-server-verified).
 - **Reservierte Slots**: Spieler mit reserviertem Slot können auch einem vollen Server beitreten – die Spieleranzahl kann dann über `max_players` liegen. Mehr dazu im Abschnitt [Zusammenspiel mit reservierten Slots](#zusammenspiel-mit-reservierten-slots).
 
