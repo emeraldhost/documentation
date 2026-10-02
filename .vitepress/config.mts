@@ -1199,6 +1199,7 @@ export default defineConfig({
                 items: [
                   { text: 'Backup erstellen', link: '/gameserver/scp-secret-laboratory/backup-erstellen' },
                   { text: 'Config-Dateien bearbeiten', link: '/gameserver/scp-secret-laboratory/config-dateien-bearbeiten' },
+                  { text: 'EXILED installieren', link: '/gameserver/scp-secret-laboratory/exiled-installieren' },
                   { text: 'EXILED Plugins installieren', link: '/gameserver/scp-secret-laboratory/exiled-plugins-installieren' },
                   { text: 'Friendly Fire konfigurieren', link: '/gameserver/scp-secret-laboratory/friendly-fire-konfigurieren' },
                   { text: 'Gameplay-Einstellungen anpassen', link: '/gameserver/scp-secret-laboratory/gameplay-einstellungen-anpassen' },
@@ -2942,6 +2943,7 @@ export default defineConfig({
                   { text: 'Create Backup', link: '/en/gameserver/scp-secret-laboratory/create-backup' },
                   { text: 'Edit Config Files', link: '/en/gameserver/scp-secret-laboratory/edit-config-files' },
                   { text: 'Get Server Verified', link: '/en/gameserver/scp-secret-laboratory/get-server-verified' },
+                  { text: 'Install EXILED', link: '/en/gameserver/scp-secret-laboratory/install-exiled' },
                   { text: 'Install EXILED Plugins', link: '/en/gameserver/scp-secret-laboratory/install-exiled-plugins' },
                   { text: 'Install LabAPI Plugins', link: '/en/gameserver/scp-secret-laboratory/install-labapi-plugins' },
                   { text: 'Join Server', link: '/en/gameserver/scp-secret-laboratory/join-server' },
