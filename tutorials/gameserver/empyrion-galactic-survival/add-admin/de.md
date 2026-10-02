@@ -6,6 +6,7 @@ description: "Admin auf einem Empyrion: Galactic Survival Server hinzufügen"
 tags: []
 date: "2026-04-15"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["empyrion-galactic-survival"]
 author: "EmeraldHost Team"
@@ -40,7 +41,7 @@ Admins werden auf Empyrion-Servern in der Datei `adminconfig.yaml` im `Saves`-Or
 
    ```yaml
    Elevated:
-     - Id: 76561198012345678
+     - Id: 76561198000000001
        Permission: 9
    ```
 

@@ -6,7 +6,7 @@ description: "Assign ranks on a SCP: Secret Laboratory server"
 tags: []
 date: "2026-04-15"
 visibility: "public"
-updated: "2026-08-24"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["scp-secret-laboratory"]
 author: "EmeraldHost Team"
@@ -47,7 +47,7 @@ Using the `config_remoteadmin.txt` file you can grant players admin, moderator o
 
    ```text
    Members:
-   - '76561198012345678@steam: owner'
+   - '76561198000000001@steam: owner'
    ```
 
    Replace the SteamID64 with your player's ID and set the desired rank (e.g. `owner`, `admin`, `moderator`). You can find your [SteamID64](/tutorials/gameserver/steamid64-find-out) using the linked guide.
@@ -67,4 +67,4 @@ Using the `config_remoteadmin.txt` file you can grant players admin, moderator o
 > The file `config_remoteadmin.txt` is picky about formatting. Make sure the indentation, quotes and dashes of each entry are correct, otherwise the server will fail to load the file properly.
 
 > [!NOTE]
-> Changes to the rank configuration only take effect after a server restart – there is no hot-reload.
+> The most reliable way to apply changes to the rank configuration is a server restart. To learn how to reload the file without a restart, see the guide [Create Custom Ranks](/tutorials/gameserver/scp-secret-laboratory/create-custom-ranks).

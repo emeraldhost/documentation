@@ -6,6 +6,7 @@ description: "Reservierte Slots auf einem SCP: Secret Laboratory Server einricht
 tags: []
 date: "2026-08-24"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["scp-secret-laboratory"]
 author: "EmeraldHost Team"
@@ -57,7 +58,7 @@ Mit reservierten Slots kommen Spieler, die Du in eine Liste eingetragen hast –
    Trage jede ID in eine eigene Zeile ein. Steam-Spieler trägst Du im Format `SteamID64@steam` ein, Discord-Nutzer im Format `DiscordID@discord` – dasselbe Format wie beim [Whitelist einrichten](/tutorials/gameserver/scp-secret-laboratory/set-up-whitelist):
 
    ```text
-   76561198012345678@steam
+   76561198000000001@steam
    123456789012345678@discord
    ```
 

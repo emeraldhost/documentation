@@ -6,7 +6,7 @@ description: "Ränge auf einem SCP: Secret Laboratory Server vergeben"
 tags: []
 date: "2026-04-15"
 visibility: "public"
-updated: "2026-08-24"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["scp-secret-laboratory"]
 author: "EmeraldHost Team"
@@ -47,7 +47,7 @@ related: ["gameserver/scp-secret-laboratory/adjust-gameplay-settings", "gameserv
 
    ```text
    Members:
-   - '76561198012345678@steam: owner'
+   - '76561198000000001@steam: owner'
    ```
 
    Ersetze die SteamID64 durch die Deines Spielers und setze den passenden Rang (z.B. `owner`, `admin`, `moderator`). Deine [SteamID64](/tutorials/gameserver/steamid64-find-out) kannst Du über die verlinkte Anleitung herausfinden.
@@ -67,4 +67,4 @@ related: ["gameserver/scp-secret-laboratory/adjust-gameplay-settings", "gameserv
 > Die Datei `config_remoteadmin.txt` reagiert empfindlich auf falsche Formatierung. Achte auf die korrekte Einrückung, Anführungszeichen und Bindestriche bei jedem Eintrag, sonst lädt der Server die Datei nicht korrekt.
 
 > [!NOTE]
-> Änderungen an der Rang-Konfiguration werden erst nach einem Neustart des Servers übernommen – es gibt kein Hot-Reload.
+> Änderungen an der Rang-Konfiguration übernimmst Du am zuverlässigsten mit einem Neustart des Servers. Wie Du die Datei auch ohne Neustart neu lädst, erfährst Du in der Anleitung [Eigene Ränge erstellen](/tutorials/gameserver/scp-secret-laboratory/create-custom-ranks).

@@ -6,6 +6,7 @@ description: "Kick and ban players on a SCP: Secret Laboratory server"
 tags: []
 date: "2026-08-24"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["scp-secret-laboratory"]
 author: "EmeraldHost Team"
@@ -60,8 +61,8 @@ The duration is a number in minutes. You can also set the unit explicitly with t
 ```text
 kick Peter Insults in voice chat
 ban Peter 1h Insults in voice chat
-ban @76561198012345678 30d Cheating
-offlineban 76561198012345678 0 Permanent removal
+ban @76561198000000001 30d Cheating
+offlineban 76561198000000001 0 Permanent removal
 ```
 
 > [!TIP]

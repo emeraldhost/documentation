@@ -6,6 +6,7 @@ description: "Set up reserved slots on a SCP: Secret Laboratory server"
 tags: []
 date: "2026-08-24"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["scp-secret-laboratory"]
 author: "EmeraldHost Team"
@@ -57,7 +58,7 @@ With reserved slots, players you have added to a list – for example your team 
    Add each ID on its own line. Steam players are added in the format `SteamID64@steam`, Discord users in the format `DiscordID@discord` – the same format used when [setting up a whitelist](/tutorials/gameserver/scp-secret-laboratory/set-up-whitelist):
 
    ```text
-   76561198012345678@steam
+   76561198000000001@steam
    123456789012345678@discord
    ```
 

@@ -6,6 +6,7 @@ description: "Whitelist auf einem SCP: Secret Laboratory Server einrichten"
 tags: []
 date: "2026-08-24"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["scp-secret-laboratory"]
 author: "EmeraldHost Team"
@@ -58,7 +59,7 @@ Mit einer Whitelist können nur noch Spieler beitreten, die Du ausdrücklich ein
 
    ```text
    # Max
-   76561198012345678@steam
+   76561198000000001@steam
    # Moritz
    123456789012345678@discord
    ```

@@ -6,6 +6,7 @@ description: "Spieler auf einem SCP: Secret Laboratory Server kicken und bannen"
 tags: []
 date: "2026-08-24"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["scp-secret-laboratory"]
 author: "EmeraldHost Team"
@@ -60,8 +61,8 @@ Die Dauer gibst Du als Zahl in Minuten an. Mit den Suffixen `m` (Minuten), `h` (
 ```text
 kick Peter Beleidigungen im Voice-Chat
 ban Peter 1h Beleidigungen im Voice-Chat
-ban @76561198012345678 30d Cheating
-offlineban 76561198012345678 0 Permanenter Ausschluss
+ban @76561198000000001 30d Cheating
+offlineban 76561198000000001 0 Permanenter Ausschluss
 ```
 
 > [!TIP]
