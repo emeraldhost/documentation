@@ -148,13 +148,23 @@ export default defineConfig({
                 items: [
                   { text: 'Admin hinzufügen', link: '/gameserver/arma-reforger/admin-hinzufuegen' },
                   { text: 'Admin werden', link: '/gameserver/arma-reforger/admin-werden' },
+                  { text: 'Automatische Updates steuern', link: '/gameserver/arma-reforger/automatische-updates-steuern' },
                   { text: 'Backup erstellen', link: '/gameserver/arma-reforger/backup-erstellen' },
+                  { text: 'Crossplay nutzen', link: '/gameserver/arma-reforger/crossplay-aktivieren' },
+                  { text: 'Game Master einrichten', link: '/gameserver/arma-reforger/game-master-einrichten' },
+                  { text: 'KI deaktivieren', link: '/gameserver/arma-reforger/ki-deaktivieren' },
                   { text: 'Mods hinzufügen', link: '/gameserver/arma-reforger/mods-hinzufuegen' },
+                  { text: 'Performance verbessern', link: '/gameserver/arma-reforger/performance-verbessern' },
+                  { text: 'Probleme beheben', link: '/gameserver/arma-reforger/server-probleme-beheben' },
+                  { text: 'RCON verwenden', link: '/gameserver/arma-reforger/rcon-verwenden' },
                   { text: 'Savegame herunterladen', link: '/gameserver/arma-reforger/savegame-herunterladen' },
                   { text: 'Savegame hinzufügen', link: '/gameserver/arma-reforger/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/arma-reforger/server-beitreten' },
+                  { text: 'Server konfigurieren', link: '/gameserver/arma-reforger/server-konfigurieren' },
+                  { text: 'Server-Log auslesen', link: '/gameserver/arma-reforger/server-log-auslesen' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/arma-reforger/spieler-kicken-bannen' },
-                  { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' }
+                  { text: 'Szenario ändern', link: '/gameserver/arma-reforger/szenario-aendern' },
+                  { text: 'Szenario-Einstellungen ändern', link: '/gameserver/arma-reforger/szenario-einstellungen-aendern' }
                 ]
               },
               {
@@ -1893,11 +1903,21 @@ export default defineConfig({
                   { text: 'Add Mods', link: '/en/gameserver/arma-reforger/add-mods' },
                   { text: 'Add Savegame', link: '/en/gameserver/arma-reforger/add-savegame' },
                   { text: 'Become Admin', link: '/en/gameserver/arma-reforger/become-admin' },
+                  { text: 'Change Scenario Settings', link: '/en/gameserver/arma-reforger/change-scenario-settings' },
+                  { text: 'Configure Server', link: '/en/gameserver/arma-reforger/configure-server' },
+                  { text: 'Control Automatic Updates', link: '/en/gameserver/arma-reforger/control-automatic-updates' },
+                  { text: 'Disable AI', link: '/en/gameserver/arma-reforger/disable-ai' },
                   { text: 'Download Savegame', link: '/en/gameserver/arma-reforger/download-savegame' },
+                  { text: 'Use Crossplay', link: '/en/gameserver/arma-reforger/enable-crossplay' },
+                  { text: 'Improve Performance', link: '/en/gameserver/arma-reforger/improve-performance' },
                   { text: 'Kick & Ban Players', link: '/en/gameserver/arma-reforger/kick-ban-players' },
                   { text: 'Change Scenario', link: '/en/gameserver/arma-reforger/change-scenario' },
                   { text: 'Create Backup', link: '/en/gameserver/arma-reforger/create-backup' },
-                  { text: 'Join Server', link: '/en/gameserver/arma-reforger/join-server' }
+                  { text: 'Join Server', link: '/en/gameserver/arma-reforger/join-server' },
+                  { text: 'Read Server Log', link: '/en/gameserver/arma-reforger/read-server-log' },
+                  { text: 'Set Up Game Master', link: '/en/gameserver/arma-reforger/set-up-game-master' },
+                  { text: 'Troubleshoot Problems', link: '/en/gameserver/arma-reforger/troubleshoot-server' },
+                  { text: 'Use RCON', link: '/en/gameserver/arma-reforger/use-rcon' }
                 ]
               },
               {
