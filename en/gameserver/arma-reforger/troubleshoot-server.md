@@ -15,7 +15,7 @@ Create a [backup](../create-backup.md) before every change to your server. This 
 Almost every problem leaves traces in the server output. Before you change anything, take a look at it:
 
 - **Console**: In the dashboard you can see the server output live. The last lines before a crash or abort are usually the important ones.
-- **Log files**: The complete logs are located in the `profile` folder in the root directory of your server. How to find and read them is shown in [Read Server Log](read-server-log.md).
+- **Log files**: The complete logs are located on your server in the folder `/profile/profile/logs/`. How to find and read them is shown in [Read Server Log](read-server-log.md).
 
 :::: tip Tip
 When you create a support ticket, attach the relevant log file right away – this helps the team help you much faster.

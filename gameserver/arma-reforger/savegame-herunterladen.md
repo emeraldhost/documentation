@@ -20,7 +20,7 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    Wechsle in folgendes Verzeichnis:
 
    ```
-   /profile/.save/
+   /profile/profile/.save/
    ```
 
    :::: info Hinweis

@@ -31,7 +31,11 @@ Arma Reforger stores its logs in the profile folder of the server. On every serv
    Connect to your server via [SFTP](../establish-sftp-connection.md).
 
 2. <b>Open the logs folder</b><br>
-   In the root directory, open the `profile` folder and inside it the `logs` subfolder.
+   In the root directory, open the `profile` folder, inside it the subfolder of the same name `profile` and there the `logs` folder:
+
+   ```
+   /profile/profile/logs/
+   ```
 
 3. <b>Select the right start</b><br>
    Open the subfolder of the server start you are interested in. You can recognize the newest start by the most recent date and latest time in the folder name.

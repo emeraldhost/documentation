@@ -15,7 +15,7 @@ Erstelle vor jeder Änderung an deinem Server ein [Backup](../backup-erstellen.m
 Fast jedes Problem hinterlässt Spuren in der Ausgabe des Servers. Bevor du etwas änderst, wirf deshalb einen Blick hinein:
 
 - **Konsole**: In der Verwaltung siehst du die Ausgabe des Servers live. Die letzten Zeilen vor einem Absturz oder Abbruch sind meist die entscheidenden.
-- **Log-Dateien**: Die vollständigen Logs liegen im Ordner `profile` im Hauptverzeichnis deines Servers. Wie du sie findest und liest, zeigt dir [Server-Log auslesen](server-log-auslesen.md).
+- **Log-Dateien**: Die vollständigen Logs liegen auf deinem Server im Ordner `/profile/profile/logs/`. Wie du sie findest und liest, zeigt dir [Server-Log auslesen](server-log-auslesen.md).
 
 :::: tip Tipp
 Wenn du ein Support-Ticket erstellst, schicke die passende Log-Datei direkt mit – so kann dir das Team deutlich schneller helfen.

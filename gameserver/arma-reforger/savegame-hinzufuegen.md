@@ -22,7 +22,7 @@ Stoppe deinen Server bevor du Dateien hochlädst, da diese sonst vom Server übe
    Lade deinen Save-Ordner in folgendes Verzeichnis auf dem Server hoch:
 
    ```
-   /profile/.save/
+   /profile/profile/.save/
    ```
 
    :::: info Hinweis

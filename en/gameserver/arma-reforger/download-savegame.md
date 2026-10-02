@@ -20,7 +20,7 @@ Stop your server before downloading the files. While the server is running it sa
    Navigate to the following directory:
 
    ```
-   /profile/.save/
+   /profile/profile/.save/
    ```
 
    :::: info Note
