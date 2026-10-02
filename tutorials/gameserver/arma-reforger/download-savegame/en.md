@@ -6,6 +6,7 @@ description: "Download the savegame from an Arma Reforger server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["arma-reforger"]
 author: "EmeraldHost Team"
@@ -35,8 +36,11 @@ You can download your server's savegame to your PC at any time – for example a
    Navigate to the following directory:
 
    ```text
-   /config/profile/save/
+   /profile/profile/.save/
    ```
+
+   > [!NOTE]
+   > The `.save` folder starts with a dot and is therefore hidden. If you cannot see it in your SFTP client, enable the display of hidden files there.
 
 4. **Download the files**\
    Download the complete save folder including all files it contains to your PC.

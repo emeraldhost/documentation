@@ -6,6 +6,7 @@ description: "Savegame von einem Arma Reforger Server herunterladen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["arma-reforger"]
 author: "EmeraldHost Team"
@@ -33,8 +34,11 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen â€
    Wechsle in folgendes Verzeichnis:
 
    ```text
-   /config/profile/save/
+   /profile/profile/.save/
    ```
+
+   > [!NOTE]
+   > Der Ordner `.save` beginnt mit einem Punkt und ist deshalb versteckt. Siehst Du ihn in Deinem SFTP-Programm nicht, aktiviere dort die Anzeige versteckter Dateien.
 
 4. **Dateien herunterladen**\
    Lade den kompletten Save-Ordner mit allen enthaltenen Dateien auf Deinen PC herunter.

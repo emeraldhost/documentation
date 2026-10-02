@@ -6,7 +6,7 @@ description: "Become an admin on an Arma Reforger server"
 tags: []
 date: "2026-02-22"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["arma-reforger"]
 author: "EmeraldHost Team"
@@ -23,14 +23,17 @@ There are two ways to get admin rights on your Arma Reforger server: via an admi
 
 ## Set Admin Password
 
-1. **Open dashboard**\
-   Open your dashboard and select your Arma Reforger server.
+1. **Open the dashboard**\
+   Open your server's dashboard.
 
-2. **Set password**\
-   Navigate to the settings and enter your desired password under `Admin Password`.
+2. **Open the settings**\
+   Navigate to the **Settings**.
 
-3. **Restart server**\
-   Save the settings and restart the server.
+3. **Set the password**\
+   Enter your desired password in the **Admin Password** field.
+
+4. **Restart the server**\
+   Save the setting and restart your server.
 
 > [!WARNING]
 > **Important**

@@ -6,6 +6,7 @@ description: "Follow the server log of an Arma Reforger server in the console an
 tags: []
 date: "2026-10-02"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["arma-reforger"]
 author: "EmeraldHost Team"
@@ -17,6 +18,7 @@ short_title: "Read Server Log"
 sort: 15
 related: ["gameserver/arma-reforger/troubleshoot-server", "gameserver/arma-reforger/improve-performance", "gameserver/arma-reforger/configure-server", "gameserver/arma-reforger/add-mods"]
 ---
+
 The server log records what your Arma Reforger server does: the startup, the loading of mods and the scenario, and errors during operation. When something goes wrong it is the first place to look – and exactly what our support team needs from you.
 
 There are two ways to access the log: live in the console of the dashboard, or as files via SFTP.
@@ -43,7 +45,11 @@ Arma Reforger stores its logs in the profile folder of the server. On every serv
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection).
 
 2. **Open the logs folder**\
-   In the root directory, open the `profile` folder and inside it the `logs` subfolder.
+   In the root directory, open the `profile` folder, inside it the subfolder of the same name `profile` and there the `logs` folder:
+
+   ```text
+   /profile/profile/logs/
+   ```
 
 3. **Select the right start**\
    Open the subfolder of the server start you are interested in. You can recognize the newest start by the most recent date and latest time in the folder name.

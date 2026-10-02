@@ -6,6 +6,7 @@ description: "Savegame auf einen Arma Reforger Server hochladen"
 tags: []
 date: "2026-04-11"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["arma-reforger"]
 author: "EmeraldHost Team"
@@ -35,8 +36,11 @@ Du kannst ein Savegame auf Deinen Server übertragen, um einen bestehenden Spiel
    Lade Deinen Save-Ordner in folgendes Verzeichnis auf dem Server hoch:
 
    ```text
-   /config/profile/save/
+   /profile/profile/.save/
    ```
+
+   > [!NOTE]
+   > Der Ordner `.save` beginnt mit einem Punkt und ist deshalb versteckt. Siehst Du ihn in Deinem SFTP-Programm nicht, aktiviere dort die Anzeige versteckter Dateien.
 
 > [!WARNING]
 > Bestehende Dateien im Zielverzeichnis werden überschrieben. Erstelle vorher ein Backup, falls Du den aktuellen Spielstand behalten möchtest.

@@ -6,6 +6,7 @@ description: "Upload a savegame to an Arma Reforger server"
 tags: []
 date: "2026-04-11"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["arma-reforger"]
 author: "EmeraldHost Team"
@@ -35,8 +36,11 @@ You can transfer a savegame to your server to continue an existing game state.
    Upload your save folder to the following directory on the server:
 
    ```text
-   /config/profile/save/
+   /profile/profile/.save/
    ```
+
+   > [!NOTE]
+   > The `.save` folder starts with a dot and is therefore hidden. If you cannot see it in your SFTP client, enable the display of hidden files there.
 
 > [!WARNING]
 > Uploading files will overwrite any existing savegame on the server.

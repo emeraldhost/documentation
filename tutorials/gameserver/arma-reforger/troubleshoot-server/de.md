@@ -6,6 +6,7 @@ description: "Häufige Probleme auf einem Arma Reforger Server finden und behebe
 tags: []
 date: "2026-10-02"
 visibility: "public"
+updated: "2026-10-02"
 cta: "gameserver"
 product_keys: ["arma-reforger"]
 author: "EmeraldHost Team"
@@ -17,6 +18,7 @@ short_title: "Probleme beheben"
 sort: 13
 related: ["gameserver/arma-reforger/read-server-log", "gameserver/arma-reforger/add-mods", "gameserver/arma-reforger/enable-crossplay", "gameserver/arma-reforger/control-automatic-updates"]
 ---
+
 Startet Dein Arma Reforger Server nicht, taucht er nicht im Server-Browser auf oder können Spieler nicht beitreten, steckt meist eine von wenigen typischen Ursachen dahinter. Diese Anleitung zeigt Dir die häufigsten Probleme, ihre Ursache und die passende Lösung.
 
 > [!IMPORTANT]
@@ -27,7 +29,7 @@ Startet Dein Arma Reforger Server nicht, taucht er nicht im Server-Browser auf o
 Fast jedes Problem hinterlässt Spuren in der Ausgabe des Servers. Bevor Du etwas änderst, wirf deshalb einen Blick hinein:
 
 - **Konsole**: In der Verwaltung siehst Du die Ausgabe des Servers live. Die letzten Zeilen vor einem Absturz oder Abbruch sind meist die entscheidenden.
-- **Log-Dateien**: Die vollständigen Logs liegen im Ordner `profile` im Hauptverzeichnis Deines Servers. Wie Du sie findest und liest, zeigt Dir [Server-Log auslesen](/tutorials/gameserver/arma-reforger/read-server-log).
+- **Log-Dateien**: Die vollständigen Logs liegen auf Deinem Server im Ordner `/profile/profile/logs/`. Wie Du sie findest und liest, zeigt Dir [Server-Log auslesen](/tutorials/gameserver/arma-reforger/read-server-log).
 
 > [!TIP]
 > Wenn Du ein Support-Ticket erstellst, schicke die passende Log-Datei direkt mit – so kann Dir das Team deutlich schneller helfen.
