@@ -45,7 +45,7 @@ Der Pfad zu den Konfigurationsdateien enthält den Game Port deines Servers: `/.
 
    ```
    # Max
-   76561198801452050@steam
+   76561198000000001@steam
    # Moritz
    123456789012345678@discord
    ```

@@ -33,7 +33,7 @@ Der Pfad zur Konfigurationsdatei enthält den Game Port deines Servers: `/.confi
 
    ```
    Members:
-   - '76561198801452050@steam: owner'
+   - '76561198000000001@steam: owner'
    ```
 
    Ersetze die SteamID64 durch die deines Spielers und setze den passenden Rang (z.B. `owner`, `admin`, `moderator`). Deine [SteamID64](../steamid64-herausfinden.md) kannst du über die verlinkte Anleitung herausfinden.
@@ -54,5 +54,5 @@ Die Datei `config_remoteadmin.txt` reagiert empfindlich auf falsche Formatierung
 ::::
 
 :::: info Hinweis
-Änderungen an der Rang-Konfiguration werden erst nach einem Neustart des Servers übernommen — es gibt kein Hot-Reload.
+Änderungen an der Rang-Konfiguration übernimmst du am zuverlässigsten mit einem Neustart des Servers. Wie du die Datei auch ohne Neustart neu lädst, erfährst du in der Anleitung [Eigene Ränge erstellen](eigene-raenge-erstellen.md).
 ::::

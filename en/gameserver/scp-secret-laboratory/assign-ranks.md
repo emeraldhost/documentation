@@ -33,7 +33,7 @@ The path to the configuration file contains the Game Port of your server: `/.con
 
    ```
    Members:
-   - '76561198801452050@steam: owner'
+   - '76561198000000001@steam: owner'
    ```
 
    Replace the SteamID64 with your player's ID and set the desired rank (e.g. `owner`, `admin`, `moderator`). You can find your [SteamID64](../steamid64-find-out.md) using the linked guide.
@@ -54,5 +54,5 @@ The file `config_remoteadmin.txt` is picky about formatting. Make sure the inden
 ::::
 
 :::: info Note
-Changes to the rank configuration only take effect after a server restart — there is no hot-reload.
+The most reliable way to apply changes to the rank configuration is a server restart. To learn how to reload the file without a restart, see the guide [Create Custom Ranks](create-custom-ranks.md).
 ::::

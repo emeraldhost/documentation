@@ -47,8 +47,8 @@ Die Dauer gibst du als Zahl in Minuten an. Mit den Suffixen `m` (Minuten), `h` (
 ```
 kick Peter Beleidigungen im Voice-Chat
 ban Peter 1h Beleidigungen im Voice-Chat
-ban @76561198801452050 30d Cheating
-offlineban 76561198801452050 0 Permanenter Ausschluss
+ban @76561198000000001 30d Cheating
+offlineban 76561198000000001 0 Permanenter Ausschluss
 ```
 
 :::: tip Tipp

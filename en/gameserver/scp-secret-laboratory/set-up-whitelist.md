@@ -45,7 +45,7 @@ The path to the configuration files contains the game port of your server: `/.co
 
    ```
    # Max
-   76561198801452050@steam
+   76561198000000001@steam
    # Moritz
    123456789012345678@discord
    ```

@@ -26,7 +26,7 @@ Admins werden auf Empyrion-Servern in der Datei `adminconfig.yaml` im `Saves`-Or
 
    ```yaml
    Elevated:
-     - Id: 76561198801452050
+     - Id: 76561198000000001
        Permission: 9
    ```
 

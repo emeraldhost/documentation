@@ -47,8 +47,8 @@ The duration is a number in minutes. You can also set the unit explicitly with t
 ```
 kick Peter Insults in voice chat
 ban Peter 1h Insults in voice chat
-ban @76561198801452050 30d Cheating
-offlineban 76561198801452050 0 Permanent removal
+ban @76561198000000001 30d Cheating
+offlineban 76561198000000001 0 Permanent removal
 ```
 
 :::: tip Tip

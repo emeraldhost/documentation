@@ -44,7 +44,7 @@ The path to the configuration files contains the game port of your server: `/.co
    Add each ID on its own line. Steam players are added in the format `SteamID64@steam`, Discord users in the format `DiscordID@discord` — the same format used when [setting up a whitelist](set-up-whitelist.md):
 
    ```
-   76561198801452050@steam
+   76561198000000001@steam
    123456789012345678@discord
    ```
 

@@ -44,7 +44,7 @@ Der Pfad zu den Konfigurationsdateien enthält den Game Port deines Servers: `/.
    Trage jede ID in eine eigene Zeile ein. Steam-Spieler trägst du im Format `SteamID64@steam` ein, Discord-Nutzer im Format `DiscordID@discord` — dasselbe Format wie beim [Whitelist einrichten](whitelist-einrichten.md):
 
    ```
-   76561198801452050@steam
+   76561198000000001@steam
    123456789012345678@discord
    ```
 
