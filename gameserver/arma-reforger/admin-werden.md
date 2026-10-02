@@ -8,14 +8,17 @@ Es gibt zwei Möglichkeiten, Admin-Rechte auf deinem Arma Reforger Server zu erh
 
 ## Admin-Passwort festlegen
 
-1. <b>Dashboard öffnen</b><br>
-   Öffne dein Dashboard und wähle deinen Arma Reforger Server aus.
+1. <b>Verwaltung öffnen</b><br>
+   Öffne die Verwaltung deines Servers.
 
-2. <b>Passwort setzen</b><br>
-   Navigiere zu den Einstellungen und trage unter `Admin Passwort` dein gewünschtes Passwort ein.
+2. <b>Einstellungen öffnen</b><br>
+   Navigiere zu den **Einstellungen**.
 
-3. <b>Server neustarten</b><br>
-   Speichere die Einstellungen und starte den Server neu.
+3. <b>Passwort setzen</b><br>
+   Trage im Feld **Admin Passwort** dein gewünschtes Passwort ein.
+
+4. <b>Server neu starten</b><br>
+   Speichere die Einstellung und starte deinen Server neu.
 
 :::: warning Wichtig
 Das Admin-Passwort muss mindestens 3 Zeichen lang sein und darf keine Leerzeichen enthalten.

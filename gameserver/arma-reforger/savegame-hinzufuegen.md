@@ -22,8 +22,12 @@ Stoppe deinen Server bevor du Dateien hochlädst, da diese sonst vom Server übe
    Lade deinen Save-Ordner in folgendes Verzeichnis auf dem Server hoch:
 
    ```
-   /config/profile/save/
+   /profile/.save/
    ```
+
+   :::: info Hinweis
+   Der Ordner `.save` beginnt mit einem Punkt und ist deshalb versteckt. Siehst du ihn in deinem SFTP-Programm nicht, aktiviere dort die Anzeige versteckter Dateien.
+   ::::
 
 :::: warning Achtung
 Bestehende Dateien im Zielverzeichnis werden überschrieben. Erstelle vorher ein Backup, falls du den aktuellen Spielstand behalten möchtest.

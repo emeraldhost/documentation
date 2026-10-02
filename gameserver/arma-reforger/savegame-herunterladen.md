@@ -20,8 +20,12 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
    Wechsle in folgendes Verzeichnis:
 
    ```
-   /config/profile/save/
+   /profile/.save/
    ```
+
+   :::: info Hinweis
+   Der Ordner `.save` beginnt mit einem Punkt und ist deshalb versteckt. Siehst du ihn in deinem SFTP-Programm nicht, aktiviere dort die Anzeige versteckter Dateien.
+   ::::
 
 4. <b>Dateien herunterladen</b><br>
    Lade den kompletten Save-Ordner mit allen enthaltenen Dateien auf deinen PC herunter.

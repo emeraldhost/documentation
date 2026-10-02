@@ -20,8 +20,12 @@ Stop your server before downloading the files. While the server is running it sa
    Navigate to the following directory:
 
    ```
-   /config/profile/save/
+   /profile/.save/
    ```
+
+   :::: info Note
+   The `.save` folder starts with a dot and is therefore hidden. If you cannot see it in your SFTP client, enable the display of hidden files there.
+   ::::
 
 4. <b>Download the files</b><br>
    Download the complete save folder including all files it contains to your PC.

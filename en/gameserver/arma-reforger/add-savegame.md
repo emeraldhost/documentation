@@ -22,8 +22,12 @@ Stop your server before uploading files, otherwise they will be overwritten by t
    Upload your save folder to the following directory on the server:
 
    ```
-   /config/profile/save/
+   /profile/.save/
    ```
+
+   :::: info Note
+   The `.save` folder starts with a dot and is therefore hidden. If you cannot see it in your SFTP client, enable the display of hidden files there.
+   ::::
 
 :::: warning Warning
 Uploading files will overwrite any existing savegame on the server.
