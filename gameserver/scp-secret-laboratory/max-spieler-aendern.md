@@ -14,7 +14,6 @@ Der Pfad zu den Konfigurationsdateien enthält den Game Port deines Servers: `/.
 
 Bevor du den Wert änderst, beachte diese Grenzen:
 
-- **Gebuchtes Paket**: Stelle `max_players` höchstens auf so viele Slots, wie du in deinem Paket gebucht hast. Brauchst du mehr Slots, wende dich an unseren [Support](https://emeraldhost.de/de/support).
 - **Verifizierte Server höchstens 60**: Verifizierte Server dürfen im Normalfall maximal 60 Slots haben – Server mit mehr als 60 Slots werden von der Serverliste entfernt. Mehr dazu in der Anleitung [Server verifizieren lassen](server-verifizieren-lassen.md).
 - **Reservierte Slots**: Spieler mit reserviertem Slot können auch einem vollen Server beitreten – die Spieleranzahl kann dann über `max_players` liegen. Mehr dazu im Abschnitt [Zusammenspiel mit reservierten Slots](#zusammenspiel-mit-reservierten-slots).
 
