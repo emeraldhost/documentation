@@ -128,7 +128,7 @@ FriendlyFireDetectorImmunity, FriendlyFireDetectorTempDisable,
 ServerLogLiveFeed, ExecuteAs, Vanish
 ```
 
-If one of these lines is missing from your file, add it in the same format, e.g. ` - Vanish: [owner]`.
+If one of these lines is missing from your file, add it in the same format, e.g. `- Vanish: [owner]`.
 
 An overview of some important permissions:
 

@@ -128,7 +128,7 @@ FriendlyFireDetectorImmunity, FriendlyFireDetectorTempDisable,
 ServerLogLiveFeed, ExecuteAs, Vanish
 ```
 
-Fehlt eine dieser Zeilen in deiner Datei, ergänze sie im selben Format, z.B. ` - Vanish: [owner]`.
+Fehlt eine dieser Zeilen in deiner Datei, ergänze sie im selben Format, z.B. `- Vanish: [owner]`.
 
 Einige wichtige Berechtigungen im Überblick:
 
