@@ -1,35 +1,33 @@
 ---
-description: Ticketchance auf einem The Bus Server ändern
+description: Ticketchance auf einem The Bus Server per Befehl ändern
 ---
 
 # So änderst du die Ticketchance auf einem The Bus Server
 
-Du kannst die Wahrscheinlichkeit, dass Fahrgäste ein Ticket kaufen, per Befehl anpassen.
+Mit der Ticketchance legst du fest, wie wahrscheinlich Fahrgäste auf deinem Server ein Ticket kaufen. Du änderst sie per Befehl im Ingame-Chat. Der Befehl wurde mit Update 3.2 eingeführt.
 
-## So änderst du die Ticketchance
+:::: info Hinweis
+Dieser Befehl erfordert Owner- oder Admin-Rechte. Wie du einen Admin hinzufügst, erfährst du unter [Admin hinzufügen](admin-hinzufuegen.md). Die Konsole in der Verwaltung zeigt auf unseren Servern nur die Ausgabe des Servers an und nimmt keine Befehle entgegen.
+::::
 
-Gib folgenden Befehl im Ingame-Chat ein:
+## So setzt du die Ticketchance
 
-```
-/tickets <wert>
-```
+1. <b>Ingame-Chat öffnen</b><br>
+   [Verbinde dich mit deinem Server](server-beitreten.md) und öffne den Ingame-Chat.
 
-Der Wert ist ein Prozentwert zwischen `0` und `100`.
+2. <b>Ticketchance setzen</b><br>
+   Gib folgenden Befehl ein und ersetze `<wert>` durch einen Wert von `0` bis `100`:
 
-**Beispiele:**
+   ```
+   /tickets <wert>
+   ```
 
-```
-/tickets 0
-/tickets 50
-/tickets 100
-```
+   Zum Beispiel:
 
-| Wert | Beschreibung |
-|------|-------------|
-| `0` | Keine Fahrgäste kaufen Tickets |
-| `50` | 50% der Fahrgäste kaufen Tickets |
-| `100` | Alle Fahrgäste kaufen Tickets |
+   ```
+   /tickets 50
+   ```
 
 :::: tip Tipp
-Dieser Befehl erfordert Owner- oder Admin-Rechte.
+Der Befehl heißt `/tickets`, nicht `/ticketchance`. Mit `/commands` lässt du dir alle verfügbaren Befehle anzeigen.
 ::::

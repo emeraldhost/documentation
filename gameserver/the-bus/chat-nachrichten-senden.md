@@ -1,43 +1,54 @@
 ---
-description: Chat-Nachrichten auf einem The Bus Server senden
+description: Chat-Nachrichten und private Nachrichten auf einem The Bus Server senden
 ---
 
 # So sendest du Chat-Nachrichten auf einem The Bus Server
 
-Als Admin kannst du Nachrichten im Chat senden oder private Nachrichten an einzelne Spieler verschicken.
+Über den Ingame-Chat von The Bus schreibst du mit den anderen Spielern auf deinem Server. Mit Befehlen sendest du außerdem Server-Nachrichten an alle Spieler oder private Nachrichten an einzelne Spieler.
 
-## Nachricht im Chat senden
+:::: info Hinweis
+Nachrichten und Befehle gibst du ausschließlich im Ingame-Chat ein. Die Konsole in der Verwaltung zeigt auf unseren Servern nur die Ausgabe des Servers an und nimmt keine Eingaben entgegen – Nachrichten lassen sich daher nicht aus der Verwaltung heraus senden.
+::::
 
-Gib einen der folgenden Befehle im Ingame-Chat ein:
+:::: tip Tipp
+Für die Befehle in dieser Anleitung brauchst du Owner- oder Admin-Rechte. Wie du Ränge vergibst, erfährst du unter [Admin hinzufügen](admin-hinzufuegen.md).
+::::
+
+## So sendest du eine Nachricht an alle Spieler
+
+Gib einen der folgenden Befehle im Ingame-Chat ein und ersetze `<nachricht>` durch deinen Text:
 
 ```
 /say <nachricht>
 ```
 
-oder:
+oder
 
 ```
 /send <nachricht>
 ```
 
-Beide Befehle senden eine Nachricht an alle Spieler auf dem Server.
+Beide Befehle senden die Nachricht in den Chat.
 
-## Private Nachricht senden
+## So sendest du eine private Nachricht
 
 ```
-/whisper <spielername> <nachricht>
+/whisper <spieler> <nachricht>
 ```
 
-Die Nachricht ist nur für den angegebenen Spieler sichtbar.
+Ersetze `<spieler>` durch den Namen des Spielers. Die Nachricht erhält nur dieser Spieler. Die Namen aller Spieler auf dem Server zeigt dir `/list` an.
 
-## Alle Befehle
+## Befehlsübersicht
 
 | Befehl | Beschreibung |
 |--------|-------------|
-| `/say <nachricht>` | Nachricht an alle senden |
-| `/send <nachricht>` | Nachricht an alle senden |
-| `/whisper <spieler> <nachricht>` | Private Nachricht senden |
+| `/say <nachricht>` | Nachricht in den Chat senden |
+| `/send <nachricht>` | Nachricht in den Chat senden |
+| `/whisper <spieler> <nachricht>` | Private Nachricht an einen Spieler senden |
+| `/list` | Alle Spieler anzeigen |
 
-:::: tip Tipp
-Diese Befehle erfordern Owner- oder Admin-Rechte.
-::::
+Mit `/commands` lässt du dir alle verfügbaren Befehle anzeigen.
+
+## Hervorhebung im Chat
+
+Seit Update 3.2 (Early Access) werden Admins und Moderatoren im Chat hervorgehoben. So erkennen die Spieler auf deinem Server Nachrichten von Admins und Moderatoren direkt.

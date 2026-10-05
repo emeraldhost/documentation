@@ -1464,6 +1464,7 @@ export default defineConfig({
                   { text: 'Bus spawnen', link: '/gameserver/the-bus/bus-spawnen' },
                   { text: 'Chat-Nachrichten senden', link: '/gameserver/the-bus/chat-nachrichten-senden' },
                   { text: 'DLC aktivieren', link: '/gameserver/the-bus/dlc-aktivieren' },
+                  { text: 'DLC-Karte hinzufügen', link: '/gameserver/the-bus/dlc-karte-hinzufuegen' },
                   { text: 'Fahrplan ändern', link: '/gameserver/the-bus/fahrplan-aendern' },
                   { text: 'Flotte ändern', link: '/gameserver/the-bus/flotte-aendern' },
                   { text: 'KI-Busse aktivieren', link: '/gameserver/the-bus/ki-busse-aktivieren' },
@@ -1473,6 +1474,8 @@ export default defineConfig({
                   { text: 'Savegame hinzufügen', link: '/gameserver/the-bus/savegame-hinzufuegen' },
                   { text: 'Server beitreten', link: '/gameserver/the-bus/server-beitreten' },
                   { text: 'Server konfigurieren', link: '/gameserver/the-bus/server-konfigurieren' },
+                  { text: 'Server-Probleme beheben', link: '/gameserver/the-bus/server-probleme-beheben' },
+                  { text: 'Serverbeschreibung ändern', link: '/gameserver/the-bus/server-beschreibung-aendern' },
                   { text: 'Spieler kicken & bannen', link: '/gameserver/the-bus/spieler-kicken-bannen' },
                   { text: 'Tageszeit ändern', link: '/gameserver/the-bus/tageszeit-aendern' },
                   { text: 'Teleportieren', link: '/gameserver/the-bus/teleportieren' },
@@ -3221,9 +3224,11 @@ export default defineConfig({
                 items: [
                   { text: 'Activate DLC', link: '/en/gameserver/the-bus/activate-dlc' },
                   { text: 'Add Admin', link: '/en/gameserver/the-bus/add-admin' },
+                  { text: 'Add DLC Map', link: '/en/gameserver/the-bus/add-dlc-map' },
                   { text: 'Change Fleet', link: '/en/gameserver/the-bus/change-fleet' },
                   { text: 'Change Map', link: '/en/gameserver/the-bus/change-map' },
                   { text: 'Change Operating Plan', link: '/en/gameserver/the-bus/change-operating-plan' },
+                  { text: 'Change Server Description', link: '/en/gameserver/the-bus/change-server-description' },
                   { text: 'Change Ticket Chance', link: '/en/gameserver/the-bus/change-ticket-chance' },
                   { text: 'Change Time', link: '/en/gameserver/the-bus/change-time' },
                   { text: 'Change Traffic', link: '/en/gameserver/the-bus/change-traffic' },
@@ -3238,7 +3243,8 @@ export default defineConfig({
                   { text: 'Kick & Ban Players', link: '/en/gameserver/the-bus/kick-ban-players' },
                   { text: 'Send Chat Messages', link: '/en/gameserver/the-bus/send-chat-messages' },
                   { text: 'Spawn Bus', link: '/en/gameserver/the-bus/spawn-bus' },
-                  { text: 'Teleport', link: '/en/gameserver/the-bus/teleport' }
+                  { text: 'Teleport', link: '/en/gameserver/the-bus/teleport' },
+                  { text: 'Troubleshoot Server', link: '/en/gameserver/the-bus/troubleshoot-server' }
                 ]
               },
               {

@@ -1,43 +1,51 @@
 ---
-description: Teleportieren und Schnellreise auf einem The Bus Server
+description: Spieler auf einem The Bus Server per Befehl teleportieren
 ---
 
-# So teleportierst du dich auf einem The Bus Server
+# So teleportierst du Spieler auf einem The Bus Server
 
-Du kannst dich auf deinem Server per Befehl zu bestimmten Koordinaten teleportieren oder die Schnellreise aktivieren.
+Du kannst Spieler auf deinem Server per **Befehl** im Ingame-Chat zu bestimmten Koordinaten teleportieren.
+
+:::: info Hinweis
+Diese Befehle erfordern Owner- oder Admin-Rechte – siehe [Admin hinzufügen](admin-hinzufuegen.md). Gib sie im Ingame-Chat ein. Die Konsole in der Verwaltung zeigt auf unseren Servern nur die Ausgabe des Servers an und nimmt keine Befehle entgegen.
+::::
 
 ## So teleportierst du einen Spieler
 
-Gib folgenden Befehl im Ingame-Chat ein:
+1. <b>Ingame-Chat öffnen</b><br>
+   [Verbinde dich mit deinem Server](server-beitreten.md) und öffne den Ingame-Chat.
+
+2. <b>Spielernamen ermitteln</b><br>
+   Mit folgendem Befehl zeigst du alle Spieler auf dem Server an:
+
+   ```
+   /list
+   ```
+
+3. <b>Spieler teleportieren</b><br>
+   Gib folgenden Befehl ein und ersetze `<spieler>` durch den Namen des Spielers sowie `<x>`, `<y>` und `<z>` durch die Zielkoordinaten:
+
+   ```
+   /tp <spieler> <x> <y> <z>
+   ```
+
+## So teleportierst du einen Spieler richtungsbezogen
+
+Mit `/tpd` teleportierst du einen Spieler richtungsbezogen (in der Befehlsliste des Servers „teleport player directional“):
 
 ```
-/tp <spielername> <x> <y> <z>
+/tpd <spieler> <x> <y> <z>
 ```
 
-## So teleportierst du einen Spieler mit Blickrichtung
+:::: tip Tipp
+Wie der Server die Werte bei `/tpd` genau auswertet, ist nicht offiziell dokumentiert. Probiere den Befehl zuerst mit kleinen Werten aus. Mit `/commands` lässt du dir alle verfügbaren Befehle anzeigen.
+::::
 
-```
-/tpd <spielername> <x> <y> <z>
-```
-
-Der Spieler wird zu den angegebenen Koordinaten teleportiert und blickt in die angegebene Richtung.
-
-## So aktivierst du die Schnellreise
-
-```
-/fastTravel
-```
-
-Mit der Schnellreise können Spieler sich schnell zu bestimmten Haltestellen auf der Karte bewegen.
-
-## Alle Befehle
+## Befehlsübersicht
 
 | Befehl | Beschreibung |
 |--------|-------------|
-| `/tp <spieler> <x> <y> <z>` | Spieler zu Koordinaten teleportieren |
-| `/tpd <spieler> <x> <y> <z>` | Spieler mit Blickrichtung teleportieren |
-| `/fastTravel` | Schnellreise aktivieren/deaktivieren |
+| `/tp <spieler> <x> <y> <z>` | Spieler zu den Koordinaten teleportieren |
+| `/tpd <spieler> <x> <y> <z>` | Spieler richtungsbezogen teleportieren |
 
-:::: tip Tipp
-Diese Befehle erfordern Owner- oder Admin-Rechte.
-::::
+Weitere Befehle findest du unter [Server konfigurieren](server-konfigurieren.md).

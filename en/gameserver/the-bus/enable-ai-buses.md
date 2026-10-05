@@ -1,21 +1,27 @@
 ---
-description: Enable or disable AI buses on a The Bus server
+description: Enable or disable AI buses on a The Bus server by command
 ---
 
 # How to Enable AI Buses on a The Bus Server
 
-You can enable or disable AI-controlled buses on your server by command.
+With a command in the in-game chat, you enable or disable the AI-controlled buses on your server. The command was introduced with Update 3.2.
 
-## How to enable or disable AI buses
+## How to Turn AI Buses On or Off
 
-Enter the following command in the in-game chat:
+1. <b>Join the server</b><br>
+   Join your server with a player who has Owner or Admin permissions. To learn how to assign ranks, see [Add Admin](add-admin.md).
 
-```
-/aiBus
-```
+2. <b>Enter the command</b><br>
+   Enter the following command in the in-game chat:
 
-The command toggles AI buses on or off.
+   ```
+   /aiBus
+   ```
 
-:::: tip Tip
-This command requires Owner or Admin permissions.
+   :::: tip Tip
+   Whether the command expects an additional value is not officially documented. Use `/commands` to show all available commands.
+   ::::
+
+:::: warning Warning
+The console in the dashboard only shows the server output and does not accept commands. Always enter the command in the in-game chat.
 ::::

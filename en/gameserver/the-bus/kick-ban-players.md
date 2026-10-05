@@ -4,7 +4,17 @@ description: Kick and ban players on a The Bus server
 
 # How to Kick and Ban Players on a The Bus Server
 
-## Show player list
+You enter all commands in this guide in the **in-game chat**. You need an appropriate rank for this (e.g. Owner or Admin). To learn how to assign ranks, see [Add Admin](add-admin.md).
+
+:::: tip Tip
+Use `/commands` in the in-game chat to show all available commands.
+::::
+
+:::: info Note
+On our servers, the console in the dashboard only shows the server output and does not accept commands.
+::::
+
+## How to show the player list
 
 To show all players on the server, enter the following command:
 
@@ -18,7 +28,7 @@ To show all players on the server, enter the following command:
 /kick <playername>
 ```
 
-The player will be immediately removed from the server.
+This removes the player from the server.
 
 ## How to ban a player
 
@@ -26,26 +36,19 @@ The player will be immediately removed from the server.
 /ban <playername>
 ```
 
-The player will be permanently banned and automatically kicked from the server.
+This bans the player permanently.
 
 ## How to temporarily ban a player
 
-```
-/tempban <playername> <minutes>
-```
-
-**Examples:**
+Since Update 3.2 EA, you can also ban players for a limited time:
 
 ```
-/tempban PlayerName 60
-/tempban PlayerName 1440
+/tempban <playername> <duration>
 ```
 
-| Duration | Minutes |
-|----------|---------|
-| 1 hour | `60` |
-| 24 hours | `1440` |
-| 7 days | `10080` |
+:::: info Note
+The unit in which `/tempban` expects the duration is not officially documented. Use `/commands` to show all available commands.
+::::
 
 ## How to unban a player
 
@@ -53,24 +56,36 @@ The player will be permanently banned and automatically kicked from the server.
 /unban <playername>
 ```
 
-Alternatively, you can open the file `TheBus/Saved/PlayerData.json` via [SFTP](../establish-sftp-connection.md) and set the value `"banned"` to `false`:
+## How to unban a player via SFTP
 
-```json
-{
-    "name": "PlayerName",
-    "uniqueId": "|0002xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "perms": "User",
-    "banned": false,
-    "unbanDate": "0001.01.01-00.00.00",
-    "adminPasswordUsed": ""
-}
-```
+Alternatively, you can lift a ban directly in the player data file.
 
-Restart the server afterwards.
+1. <b>Stop the server</b><br>
+   Stop your server in the dashboard.
 
-:::: tip Tip
-Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the player data unreadable for the server.
-::::
+2. <b>Connect via SFTP</b><br>
+   Connect to your server via [SFTP](../establish-sftp-connection.md).
+
+3. <b>Open the file</b><br>
+   Open the file `/TheBus/Saved/PlayerData.json`.
+
+4. <b>Lift the ban</b><br>
+   Find the entry of the player you want to unban and set the value of `"banned"` to `false`, for example:
+
+   ```json
+   {
+       "name": "Player123",
+       "banned": false,
+       ...
+   }
+   ```
+
+   :::: tip Tip
+   Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the player data unreadable for the server.
+   ::::
+
+5. <b>Start the server</b><br>
+   Save the file and start your server again.
 
 ## How to mute a player
 
@@ -78,7 +93,7 @@ Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) afte
 /mute <playername>
 ```
 
-The player will no longer be able to send messages in chat.
+This mutes the player for the entire server.
 
 ## How to unmute a player
 
@@ -86,18 +101,15 @@ The player will no longer be able to send messages in chat.
 /unmute <playername>
 ```
 
-## All commands
+## Command overview
 
 | Command | Description |
 |---------|-------------|
 | `/list` | Show all players |
-| `/kick <player>` | Kick player from server |
-| `/ban <player>` | Permanently ban player |
-| `/tempban <player> <minutes>` | Temporarily ban player |
-| `/unban <player>` | Unban player |
-| `/mute <player>` | Mute player |
-| `/unmute <player>` | Unmute player |
-
-:::: tip Tip
-These commands require Owner or Admin permissions.
-::::
+| `/kick <playername>` | Kick player from server |
+| `/ban <playername>` | Permanently ban player |
+| `/tempban <playername> <duration>` | Temporarily ban player |
+| `/unban <playername>` | Unban player |
+| `/mute <playername>` | Mute player for the entire server |
+| `/unmute <playername>` | Unmute player for the entire server |
+| `/commands` | Show available commands |

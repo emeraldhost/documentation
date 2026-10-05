@@ -1,10 +1,14 @@
 ---
-description: Bus an einer Haltestelle auf einem The Bus Server spawnen
+description: Bus an einer Haltestelle auf einem The Bus Server spawnen und ungesteuerte Busse entfernen
 ---
 
 # So spawnst du einen Bus auf einem The Bus Server
 
-Du kannst per Befehl einen Bus an einer Haltestelle spawnen oder ungesteuerte Busse von der Karte entfernen.
+Du kannst per Befehl im Ingame-Chat einen Bus an einer Haltestelle spawnen oder ungesteuerte Busse von der Karte entfernen.
+
+:::: info Hinweis
+Diese Befehle erfordern Owner- oder Admin-Rechte – siehe [Admin hinzufügen](admin-hinzufuegen.md). Gib sie im Ingame-Chat ein. Die Konsole in der Verwaltung zeigt auf unseren Servern nur die Ausgabe des Servers an und nimmt keine Befehle entgegen.
+::::
 
 ## So spawnst du einen Bus
 
@@ -14,33 +18,25 @@ Gib folgenden Befehl im Ingame-Chat ein:
 /spawnBus
 ```
 
-Der Bus wird automatisch an einer Haltestelle platziert. Der Befehl kann mehrfach ausgeführt werden, um weitere Busse zu spawnen.
+Der Server spawnt daraufhin einen Bus an einer Haltestelle.
 
-:::: info Hinweis
-Welcher Bus gespawnt wird, hängt von der aktuell eingestellten Flotte ab. Die Flotte kannst du mit `/fleet` ändern.
+:::: tip Tipp
+Welche Busse auf deinem Server zur Verfügung stehen, legt die Flotte fest. Wie du sie änderst, erfährst du unter [Flotte ändern](flotte-aendern.md).
 ::::
 
-## Ungesteuerte Busse entfernen
+## So entfernst du ungesteuerte Busse
 
-Um alle Busse zu entfernen, die gerade **nicht von einem Spieler gesteuert** werden:
+Stehen zu viele ungenutzte Busse auf der Karte, entfernst du alle Busse, die gerade **von keinem Spieler gesteuert** werden, mit folgendem Befehl:
 
 ```
 /clearBusses
 ```
 
-Das betrifft z.B. über `/spawnBus` erstellte Busse, die kein Spieler eingestiegen ist, oder Busse, die von Spielern verlassen wurden.
-
-:::: tip Tipp
-Nutze `/clearBusses`, wenn zu viele ungenutzte Busse auf der Karte stehen und die Übersicht oder Performance leidet.
-::::
-
-## Alle Befehle
+## Befehlsübersicht
 
 | Befehl | Beschreibung |
 |--------|-------------|
 | `/spawnBus` | Bus an einer Haltestelle spawnen |
-| `/clearBusses` | Alle ungesteuerten Busse entfernen |
+| `/clearBusses` | Alle ungesteuerten Busse von der Karte entfernen |
 
-:::: tip Tipp
-Diese Befehle erfordern Owner- oder Admin-Rechte.
-::::
+Mit `/commands` lässt du dir im Ingame-Chat alle verfügbaren Befehle anzeigen.

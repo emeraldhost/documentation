@@ -1,35 +1,31 @@
 ---
-description: Verkehr auf einem The Bus Server einstellen
+description: Verkehrsdichte auf einem The Bus Server per Befehl einstellen
 ---
 
 # So stellst du den Verkehr auf einem The Bus Server ein
 
-Du kannst die Verkehrsdichte auf deinem Server per Befehl anpassen.
+Du kannst die Verkehrsdichte auf deinem Server per Befehl im Ingame-Chat anpassen. Der Befehl wurde mit Update 3.2 eingeführt.
 
-## So änderst du den Verkehr
+:::: info Hinweis
+Dieser Befehl erfordert Owner- oder Admin-Rechte. Wie du einen Admin hinzufügst, erfährst du unter [Admin hinzufügen](admin-hinzufuegen.md). Die Konsole in der Verwaltung zeigt auf unseren Servern nur die Ausgabe des Servers an und nimmt keine Befehle entgegen.
+::::
 
-Gib folgenden Befehl im Ingame-Chat ein:
+## So änderst du die Verkehrsdichte
 
-```
-/traffic <wert>
-```
+1. <b>Ingame-Chat öffnen</b><br>
+   [Verbinde dich mit deinem Server](server-beitreten.md) und öffne den Ingame-Chat.
 
-Der Wert liegt zwischen `0` und `100`.
+2. <b>Verkehrsdichte setzen</b><br>
+   Gib folgenden Befehl ein und ersetze `<wert>` durch die gewünschte Verkehrsdichte:
 
-**Beispiele:**
+   ```
+   /traffic <wert>
+   ```
 
-```
-/traffic 0
-/traffic 50
-/traffic 100
-```
-
-| Wert | Beschreibung |
-|------|-------------|
-| `0` | Kein Verkehr |
-| `50` | Mittlerer Verkehr |
-| `100` | Maximaler Verkehr |
+   :::: tip Tipp
+   Welche Werte `/traffic` genau erwartet, ist nicht offiziell dokumentiert. Mit `/commands` lässt du dir alle verfügbaren Befehle anzeigen.
+   ::::
 
 :::: tip Tipp
-Dieser Befehl erfordert Owner- oder Admin-Rechte.
+Weniger Verkehr entlastet deinen Server. Läuft er nicht wie erwartet, findest du Lösungsansätze unter [Server-Probleme beheben](server-probleme-beheben.md).
 ::::

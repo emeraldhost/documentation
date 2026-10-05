@@ -4,10 +4,10 @@ description: Savegame von einem The Bus Server herunterladen
 
 # So lädst du das Savegame deines The Bus Servers herunter
 
-Du kannst das Savegame deines Servers jederzeit auf deinen PC herunterladen – zum Beispiel als zusätzliche Sicherung, zum Archivieren eines Spielstands oder um ihn auf einen anderen Server zu übertragen.
+Du kannst das Savegame deines Servers jederzeit auf deinen PC herunterladen – z.B. als zusätzliche Sicherung, zum Archivieren eines Spielstands oder um ihn auf einen anderen Server zu übertragen.
 
 :::: warning Achtung
-Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server läuft, speichert er regelmäßig — du würdest sonst einen unvollständigen oder beschädigten Spielstand herunterladen.
+Stoppe deinen Server, bevor du die Dateien herunterlädst. So stellst du sicher, dass während des Herunterladens keine Dateien verändert werden und dein Spielstand vollständig ist.
 ::::
 
 1. <b>Server stoppen</b><br>
@@ -29,10 +29,10 @@ Stoppe deinen Server, bevor du die Dateien herunterlädst. Während der Server l
 5. <b>Server starten</b><br>
    Starte deinen Server wieder.
 
-:::: tip Spielstand wieder einspielen
-Möchtest du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](savegame-hinzufuegen.md).
+:::: info Hinweis
+Savegames sind zwischen größeren Spielversionen nicht unbedingt kompatibel – ältere Spielstände aus dem Early Access funktionieren z.B. seit dem Release der Version 1.0 unter Umständen nicht mehr. Lade dein Savegame deshalb vor größeren Updates herunter.
 ::::
 
-:::: info Regelmäßige Sicherungen
-Für automatische bzw. regelmäßige Sicherungen kannst du auch die Backup-Funktion nutzen: [Backup erstellen](backup-erstellen.md).
+:::: tip Tipp
+Möchtest du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](savegame-hinzufuegen.md). Für regelmäßige Sicherungen kannst du auch die Backup-Funktion nutzen: [Backup erstellen](backup-erstellen.md).
 ::::
