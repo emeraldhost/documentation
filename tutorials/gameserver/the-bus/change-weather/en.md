@@ -6,6 +6,7 @@ description: "Change weather on a The Bus server"
 tags: []
 date: "2026-02-24"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -18,23 +19,22 @@ sort: 9
 related: ["gameserver/the-bus/change-time", "gameserver/the-bus/change-traffic", "gameserver/the-bus/configure-server", "gameserver/the-bus/create-backup"]
 ---
 
-You can change the weather on your server via the **admin menu** or by **command**.
+You can change the weather on your server by **command** in the in-game chat.
 
-## Change weather via admin menu
+1. **Open the in-game chat**\
+   [Join your server](/tutorials/gameserver/the-bus/join-server) and open the in-game chat. You need Owner or Admin permissions – to learn how to set an admin, see [Add Admin](/tutorials/gameserver/the-bus/add-admin).
 
-1. **Open admin menu**\
-   Open the pause menu and select the **Admin Menu**. You need Owner or Admin permissions.
+2. **Enter the command**\
+   Enter the following command and replace `<weather>` with the desired weather:
 
-2. **Select weather**\
-   Choose the desired weather from the available options.
-
-## Change weather by command
-
-Enter the following command in the in-game chat:
-
-```text
-/weather <weather>
-```
+   ```text
+   /weather <weather>
+   ```
 
 > [!TIP]
-> This command requires Owner or Admin permissions.
+> Which values `/weather` expects exactly is not officially documented. Use `/commands` to list all available commands.
+
+> [!NOTE]
+> Commands only work in the in-game chat. The console in the dashboard only shows the server log and does not accept commands.
+
+To change the time of day and the date, see [Change Time](/tutorials/gameserver/the-bus/change-time).

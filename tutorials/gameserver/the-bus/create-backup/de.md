@@ -6,6 +6,7 @@ description: "Backup eines The Bus Servers erstellen"
 tags: []
 date: "2026-04-14"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -23,8 +24,8 @@ Ein regelmäßiges Backup Deines The Bus Servers schützt Dich vor Datenverlust 
 ## Wann solltest Du ein Backup erstellen?
 
 - Vor Updates der Server-Version
-- Vor dem Installieren oder Entfernen von Mods, Plugins oder Add-ons
-- Vor größeren Änderungen an der Welt oder Konfiguration
+- Vor dem Installieren oder Entfernen von Mods oder DLC-Karten
+- Vor größeren Änderungen an Map, Savegame, Fahrplan oder Konfiguration
 - In regelmäßigen Abständen, damit Du jederzeit einen sicheren Stand hast
 
 ## Backup erstellen

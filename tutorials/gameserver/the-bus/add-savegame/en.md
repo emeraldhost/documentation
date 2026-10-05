@@ -6,6 +6,7 @@ description: "Upload a savegame to a The Bus server"
 tags: []
 date: "2026-04-11"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -21,7 +22,10 @@ related: ["gameserver/the-bus/enable-ai-buses", "gameserver/the-bus/add-mods", "
 You can transfer a savegame to your server and continue playing there.
 
 > [!WARNING]
-> Uploading will overwrite the existing savegame on the server. Create a backup beforehand if you want to keep the current savegame.
+> If a file with the same name already exists in the target folder, it will be overwritten during the upload. Create a [backup](/tutorials/gameserver/the-bus/create-backup) beforehand if you want to keep the existing savegame.
+
+> [!NOTE]
+> Savegames from older game versions (e.g. from Early Access) are not necessarily compatible with the current version. After starting, also check that the server is running the map you played the savegame on – you can find out how to switch the map under [Change Map](/tutorials/gameserver/the-bus/change-map).
 
 1. **Stop the server**\
    Stop your server via the dashboard.
@@ -30,11 +34,11 @@ You can transfer a savegame to your server and continue playing there.
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection).
 
 3. **Upload savegame**\
-   Upload your save files to the following directory on the server:
+   Upload the complete contents of your saved `SaveGames` folder to the following directory on the server, e.g. from the guide [Download Savegame](/tutorials/gameserver/the-bus/download-savegame):
 
    ```text
    /TheBus/Saved/SaveGames/
    ```
 
 4. **Start the server**\
-   Start your server. Your savegame will now be loaded.
+   Start your server, join it and check whether your previous progress has been loaded.

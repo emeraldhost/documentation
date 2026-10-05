@@ -6,6 +6,7 @@ description: "Savegame von einem The Bus Server herunterladen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -18,10 +19,10 @@ sort: 11
 related: ["gameserver/the-bus/configure-server", "gameserver/the-bus/create-backup", "gameserver/the-bus/enable-ai-buses", "gameserver/the-bus/add-mods"]
 ---
 
-Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – zum Beispiel als zusätzliche Sicherung, zum Archivieren eines Spielstands oder um ihn auf einen anderen Server zu übertragen.
+Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – z.B. als zusätzliche Sicherung, zum Archivieren eines Spielstands oder um ihn auf einen anderen Server zu übertragen.
 
 > [!WARNING]
-> Stoppe Deinen Server, bevor Du die Dateien herunterlädst. Während der Server läuft, speichert er regelmäßig – Du würdest sonst einen unvollständigen oder beschädigten Spielstand herunterladen.
+> Stoppe Deinen Server, bevor Du die Dateien herunterlädst. So stellst Du sicher, dass während des Herunterladens keine Dateien verändert werden und Dein Spielstand vollständig ist.
 
 1. **Server stoppen**\
    Stoppe Deinen Server über die Verwaltung.
@@ -42,12 +43,8 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 5. **Server starten**\
    Starte Deinen Server wieder.
 
-> [!TIP]
-> **Spielstand wieder einspielen**
->
-> Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/the-bus/add-savegame).
-
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
-> Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/the-bus/create-backup).
+> Savegames sind zwischen größeren Spielversionen nicht unbedingt kompatibel – ältere Spielstände aus dem Early Access funktionieren z.B. seit dem Release der Version 1.0 unter Umständen nicht mehr. Lade Dein Savegame deshalb vor größeren Updates herunter.
+
+> [!TIP]
+> Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/the-bus/add-savegame). Für regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/the-bus/create-backup).

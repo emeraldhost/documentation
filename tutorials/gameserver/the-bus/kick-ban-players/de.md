@@ -6,7 +6,7 @@ description: "Spieler auf einem The Bus Server kicken und bannen"
 tags: []
 date: "2026-02-24"
 visibility: "public"
-updated: "2026-08-29"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -19,7 +19,15 @@ sort: 15
 related: ["gameserver/the-bus/add-savegame", "gameserver/the-bus/join-server", "gameserver/the-bus/send-chat-messages", "gameserver/the-bus/spawn-bus"]
 ---
 
-## Spielerliste anzeigen
+Alle Befehle in dieser Anleitung gibst Du im **Ingame-Chat** ein. Du benötigst dafür einen entsprechenden Rang (z.B. Owner oder Admin). Wie Du Ränge vergibst, erfährst Du unter [Admin hinzufügen](/tutorials/gameserver/the-bus/add-admin).
+
+> [!TIP]
+> Mit `/commands` lässt Du Dir im Ingame-Chat alle verfügbaren Befehle anzeigen.
+
+> [!NOTE]
+> Die Konsole in der Verwaltung zeigt auf unseren Servern nur die Ausgabe des Servers an und nimmt keine Befehle entgegen.
+
+## So zeigst Du die Spielerliste an
 
 Um alle Spieler auf dem Server anzuzeigen, gib folgenden Befehl ein:
 
@@ -33,7 +41,7 @@ Um alle Spieler auf dem Server anzuzeigen, gib folgenden Befehl ein:
 /kick <spielername>
 ```
 
-Der Spieler wird sofort vom Server entfernt.
+Damit entfernst Du den Spieler vom Server.
 
 ## So bannst Du einen Spieler
 
@@ -41,26 +49,18 @@ Der Spieler wird sofort vom Server entfernt.
 /ban <spielername>
 ```
 
-Der Spieler wird permanent gebannt und automatisch vom Server gekickt.
+Damit bannst Du den Spieler dauerhaft.
 
 ## So bannst Du einen Spieler temporär
 
-```text
-/tempban <spielername> <minuten>
-```
-
-**Beispiele:**
+Seit Update 3.2 EA kannst Du Spieler auch zeitlich begrenzt bannen:
 
 ```text
-/tempban SpielerName 60
-/tempban SpielerName 1440
+/tempban <spielername> <dauer>
 ```
 
-| Dauer | Minuten |
-|-------|---------|
-| 1 Stunde | `60` |
-| 24 Stunden | `1440` |
-| 7 Tage | `10080` |
+> [!NOTE]
+> In welcher Einheit `/tempban` die Dauer erwartet, ist nicht offiziell dokumentiert. Mit `/commands` lässt Du Dir alle verfügbaren Befehle anzeigen.
 
 ## So entbannst Du einen Spieler
 
@@ -68,23 +68,35 @@ Der Spieler wird permanent gebannt und automatisch vom Server gekickt.
 /unban <spielername>
 ```
 
-Alternativ kannst Du die Datei `TheBus/Saved/PlayerData.json` per [SFTP](/tutorials/gameserver/establish-sftp-connection) öffnen und den Wert `"banned"` auf `false` setzen:
+## So entbannst Du einen Spieler per SFTP
 
-```json
-{
-    "name": "SpielerName",
-    "uniqueId": "|0002xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "perms": "User",
-    "banned": false,
-    "unbanDate": "0001.01.01-00.00.00",
-    "adminPasswordUsed": ""
-}
-```
+Alternativ kannst Du einen Bann auch direkt in der Spielerdatei aufheben.
 
-Starte den Server anschließend neu.
+1. **Server stoppen**\
+   Stoppe Deinen Server über die Verwaltung.
 
-> [!TIP]
-> Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Spielerdaten nicht mehr einlesen kann.
+2. **Per SFTP verbinden**\
+   Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server.
+
+3. **Datei öffnen**\
+   Öffne die Datei `/TheBus/Saved/PlayerData.json`.
+
+4. **Bann aufheben**\
+   Suche den Eintrag des gewünschten Spielers und setze den Wert von `"banned"` auf `false`, zum Beispiel:
+
+   ```json
+   {
+       "name": "Spieler123",
+       "banned": false,
+       ...
+   }
+   ```
+
+   > [!TIP]
+   > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Spielerdaten nicht mehr einlesen kann.
+
+5. **Server starten**\
+   Speichere die Datei und starte Deinen Server wieder.
 
 ## So mutest Du einen Spieler
 
@@ -92,7 +104,7 @@ Starte den Server anschließend neu.
 /mute <spielername>
 ```
 
-Der Spieler kann keine Nachrichten mehr im Chat senden.
+Damit schaltest Du den Spieler für den gesamten Server stumm.
 
 ## So entmutest Du einen Spieler
 
@@ -100,17 +112,15 @@ Der Spieler kann keine Nachrichten mehr im Chat senden.
 /unmute <spielername>
 ```
 
-## Alle Befehle
+## Befehlsübersicht
 
 | Befehl | Beschreibung |
 |--------|-------------|
 | `/list` | Alle Spieler anzeigen |
-| `/kick <spieler>` | Spieler vom Server kicken |
-| `/ban <spieler>` | Spieler permanent bannen |
-| `/tempban <spieler> <minuten>` | Spieler temporär bannen |
-| `/unban <spieler>` | Spieler entbannen |
-| `/mute <spieler>` | Spieler stummschalten |
-| `/unmute <spieler>` | Stummschaltung aufheben |
-
-> [!TIP]
-> Diese Befehle erfordern Owner- oder Admin-Rechte.
+| `/kick <spielername>` | Spieler vom Server kicken |
+| `/ban <spielername>` | Spieler dauerhaft bannen |
+| `/tempban <spielername> <dauer>` | Spieler temporär bannen |
+| `/unban <spielername>` | Spieler entbannen |
+| `/mute <spielername>` | Spieler serverweit stummschalten |
+| `/unmute <spielername>` | Serverweite Stummschaltung aufheben |
+| `/commands` | Verfügbare Befehle anzeigen |

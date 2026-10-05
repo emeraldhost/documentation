@@ -2,10 +2,11 @@
 slug: "change-time"
 language: "en"
 title: "How to Change Time and Date on a The Bus Server"
-description: "Change time and date on a The Bus server"
+description: "Change time and date on a The Bus server or use the real time"
 tags: []
 date: "2026-02-24"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -18,36 +19,55 @@ sort: 7
 related: ["gameserver/the-bus/change-operating-plan", "gameserver/the-bus/change-ticket-chance", "gameserver/the-bus/change-traffic", "gameserver/the-bus/change-weather"]
 ---
 
-You can change the time of day and date on your server using commands.
+You can change the time of day and the date on your server using a **command** in the in-game chat, or let the server use the current real time.
 
-## How to change the time
+> [!NOTE]
+> These commands require Owner or Admin permissions. You can find out how to add an admin in [Add Admin](/tutorials/gameserver/the-bus/add-admin). On our servers, the console in the dashboard only shows the server output and does not accept commands.
 
-Enter the following command in the console or in-game chat:
+## How to Change the Time of Day
 
-```text
-/time <hour>
-```
+1. **Open the in-game chat**\
+   [Join your server](/tutorials/gameserver/the-bus/join-server) and open the in-game chat.
 
-**Examples:**
+2. **Enter the command**\
+   Enter the following command and replace `<time>` with the time you want:
 
-```text
-/time 6
-/time 12
-/time 20
-```
+   ```text
+   /time <time>
+   ```
 
-| Value | Description |
-|-------|-------------|
-| `6` | Morning |
-| `12` | Noon |
-| `18` | Evening |
-| `0` | Midnight |
+## How to Change the Date
 
-## How to change the date
+1. **Open the in-game chat**\
+   [Join your server](/tutorials/gameserver/the-bus/join-server) and open the in-game chat.
 
-```text
-/date <date>
-```
+2. **Enter the command**\
+   Enter the following command and replace `<date>` with the date you want:
+
+   ```text
+   /date <date>
+   ```
 
 > [!TIP]
-> These commands can be entered via the console in the dashboard or directly in the in-game chat.
+> The format in which `/time` and `/date` expect their values is not officially documented. Use `/commands` to show all available commands.
+
+## How to Use the Current Real Time
+
+Since Update 3.2 EA, your server can use the current real time. You enable this option with the following command in the in-game chat:
+
+```text
+/useRealTime
+```
+
+> [!NOTE]
+> Whether the command expects an additional value is not officially documented. While real time is active, values you set with `/time` or `/date` may be replaced by the current time again.
+
+## Command Overview
+
+| Command | Description |
+|---------|-------------|
+| `/time <time>` | Set the current time |
+| `/date <date>` | Set the current date |
+| `/useRealTime` | Enable the real time (UseRealTime) |
+
+To change the weather, see [Change Weather](/tutorials/gameserver/the-bus/change-weather).

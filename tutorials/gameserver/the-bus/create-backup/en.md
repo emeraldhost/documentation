@@ -6,6 +6,7 @@ description: "Create a backup of a The Bus server"
 tags: []
 date: "2026-04-14"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -23,8 +24,8 @@ Regular backups of your The Bus server protect you from data loss – whether du
 ## When should you create a backup?
 
 - Before updating the server version
-- Before installing or removing mods, plugins or add-ons
-- Before major changes to the world or configuration
+- Before installing or removing mods or DLC maps
+- Before major changes to the map, savegame, operating plan or configuration
 - At regular intervals so you always have a safe state to return to
 
 ## Create a backup

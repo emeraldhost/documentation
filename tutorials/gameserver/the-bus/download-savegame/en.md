@@ -6,6 +6,7 @@ description: "Download a savegame from a The Bus server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -18,12 +19,10 @@ sort: 12
 related: ["gameserver/the-bus/configure-server", "gameserver/the-bus/create-backup", "gameserver/the-bus/enable-ai-buses", "gameserver/the-bus/add-mods"]
 ---
 
-You can download your server's savegame to your PC at any time – for example as an additional backup, to archive a save, or to move it to another server.
+You can download your server's savegame to your PC at any time – e.g. as an additional backup, to archive a savegame, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
-> Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
+> Stop your server before downloading the files. This ensures that no files are changed during the download and that your savegame is complete.
 
 1. **Stop the server**\
    Stop your server via the dashboard.
@@ -44,12 +43,8 @@ You can download your server's savegame to your PC at any time – for example a
 5. **Start the server**\
    Start your server again.
 
-> [!TIP]
-> **Restoring the savegame**
->
-> If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/the-bus/add-savegame).
-
 > [!NOTE]
-> **Regular backups**
->
-> For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/the-bus/create-backup).
+> Savegames are not necessarily compatible between major game versions – older savegames from Early Access, for example, may no longer work since the release of version 1.0. That's why you should download your savegame before major updates.
+
+> [!TIP]
+> If you want to transfer the savegame back to a server later, follow the guide [Add savegame](/tutorials/gameserver/the-bus/add-savegame). For regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/the-bus/create-backup).

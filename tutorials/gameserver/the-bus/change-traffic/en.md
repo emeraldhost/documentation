@@ -2,10 +2,11 @@
 slug: "change-traffic"
 language: "en"
 title: "How to Change Traffic on a The Bus Server"
-description: "Change traffic on a The Bus server"
+description: "Set the traffic density on a The Bus server by command"
 tags: []
 date: "2026-02-24"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -18,31 +19,25 @@ sort: 8
 related: ["gameserver/the-bus/change-ticket-chance", "gameserver/the-bus/change-time", "gameserver/the-bus/change-weather", "gameserver/the-bus/configure-server"]
 ---
 
-You can adjust the traffic density on your server using a command.
+You can adjust the traffic density on your server with a command in the in-game chat. The command was added in Update 3.2.
 
-## How to change traffic
+> [!NOTE]
+> This command requires Owner or Admin permissions. To learn how to add an admin, see [Add Admin](/tutorials/gameserver/the-bus/add-admin). On our servers, the console in the dashboard only shows the server output and does not accept commands.
 
-Enter the following command in the in-game chat:
+## How to Change the Traffic Density
 
-```text
-/traffic <value>
-```
+1. **Open the in-game chat**\
+   [Join your server](/tutorials/gameserver/the-bus/join-server) and open the in-game chat.
 
-The value ranges from `0` to `100`.
+2. **Set the traffic density**\
+   Enter the following command and replace `<value>` with the desired traffic density:
 
-**Examples:**
+   ```text
+   /traffic <value>
+   ```
 
-```text
-/traffic 0
-/traffic 50
-/traffic 100
-```
-
-| Value | Description |
-|-------|-------------|
-| `0` | No traffic |
-| `50` | Medium traffic |
-| `100` | Maximum traffic |
+   > [!TIP]
+   > Which values `/traffic` expects exactly is not officially documented. Use `/commands` to show all available commands.
 
 > [!TIP]
-> This command requires Owner or Admin permissions.
+> Less traffic reduces the load on your server. If it does not run as expected, you can find solutions under [Troubleshoot Server](/tutorials/gameserver/the-bus/troubleshoot-server).

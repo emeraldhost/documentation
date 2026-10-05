@@ -2,10 +2,11 @@
 slug: "send-chat-messages"
 language: "en"
 title: "How to Send Chat Messages on a The Bus Server"
-description: "Send chat messages on a The Bus server"
+description: "Send chat messages and private messages on a The Bus server"
 tags: []
 date: "2026-02-24"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -18,39 +19,49 @@ sort: 18
 related: ["gameserver/the-bus/join-server", "gameserver/the-bus/kick-ban-players", "gameserver/the-bus/spawn-bus", "gameserver/the-bus/teleport"]
 ---
 
-As an admin you can send messages in the chat or send private messages to individual players.
+You use the in-game chat of The Bus to write with the other players on your server. With commands, you can also send server messages to all players or private messages to individual players.
 
-## Send a chat message
+> [!NOTE]
+> Enter messages and commands only in the in-game chat. On our servers, the console in the dashboard only shows the server output and does not accept any input – so messages cannot be sent from the dashboard.
 
-Enter one of the following commands in the in-game chat:
+> [!TIP]
+> You need Owner or Admin permissions for the commands in this guide. To learn how to assign ranks, see [Add Admin](/tutorials/gameserver/the-bus/add-admin).
+
+## How to Send a Message to All Players
+
+Enter one of the following commands in the in-game chat and replace `<message>` with your text:
 
 ```text
 /say <message>
 ```
 
-or:
+or
 
 ```text
 /send <message>
 ```
 
-Both commands send a message to all players on the server.
+Both commands send the message to the chat.
 
-## Send a private message
+## How to Send a Private Message
 
 ```text
-/whisper <playername> <message>
+/whisper <player> <message>
 ```
 
-The message is only visible to the specified player.
+Replace `<player>` with the player's name. Only this player receives the message. `/list` shows you the names of all players on the server.
 
-## All commands
+## Command Overview
 
 | Command | Description |
 |---------|-------------|
-| `/say <message>` | Send message to all |
-| `/send <message>` | Send message to all |
-| `/whisper <player> <message>` | Send private message |
+| `/say <message>` | Send a message to the chat |
+| `/send <message>` | Send a message to the chat |
+| `/whisper <player> <message>` | Send a private message to a player |
+| `/list` | Show all players |
 
-> [!TIP]
-> These commands require Owner or Admin permissions.
+Use `/commands` to show all available commands.
+
+## Highlighting in the Chat
+
+Since Update 3.2 (Early Access), admins and moderators are highlighted in the chat. This way, the players on your server can recognize messages from admins and moderators right away.

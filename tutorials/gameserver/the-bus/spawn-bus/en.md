@@ -2,10 +2,11 @@
 slug: "spawn-bus"
 language: "en"
 title: "How to Spawn a Bus on a The Bus Server"
-description: "Spawn a bus at a stop on a The Bus server"
+description: "Spawn a bus at a stop on a The Bus server and remove uncontrolled buses"
 tags: []
 date: "2026-02-24"
 visibility: "public"
+updated: "2026-10-05"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"
@@ -18,9 +19,12 @@ sort: 19
 related: ["gameserver/the-bus/join-server", "gameserver/the-bus/kick-ban-players", "gameserver/the-bus/send-chat-messages", "gameserver/the-bus/teleport"]
 ---
 
-You can spawn a bus at a bus stop by command or remove uncontrolled buses from the map.
+You can use a command in the in-game chat to spawn a bus at a stop or to remove uncontrolled buses from the map.
 
-## How to spawn a bus
+> [!NOTE]
+> These commands require Owner or Admin permissions – see [Add Admin](/tutorials/gameserver/the-bus/add-admin). Enter them in the in-game chat. On our servers, the console in the dashboard only shows the server output and does not accept commands.
+
+## How to Spawn a Bus
 
 Enter the following command in the in-game chat:
 
@@ -28,30 +32,24 @@ Enter the following command in the in-game chat:
 /spawnBus
 ```
 
-The bus is automatically placed at a bus stop. The command can be used multiple times to spawn additional buses.
+The server then spawns a bus at a stop.
 
-> [!NOTE]
-> The bus model depends on the currently active fleet. You can change the fleet with `/fleet`.
+> [!TIP]
+> The fleet determines which buses are available on your server. To learn how to change it, see [Change Fleet](/tutorials/gameserver/the-bus/change-fleet).
 
-## Remove uncontrolled buses
+## How to Remove Uncontrolled Buses
 
-To remove all buses that are **not currently controlled by a player**:
+If there are too many unused buses on the map, use the following command to remove all buses that are currently **not controlled by a player**:
 
 ```text
 /clearBusses
 ```
 
-This includes buses spawned via `/spawnBus` that no player has entered, or buses that players have left.
-
-> [!TIP]
-> Use `/clearBusses` when too many unused buses are on the map and it affects visibility or performance.
-
-## All commands
+## Command Overview
 
 | Command | Description |
 |---------|-------------|
-| `/spawnBus` | Spawn a bus at a bus stop |
-| `/clearBusses` | Remove all uncontrolled buses |
+| `/spawnBus` | Spawn a bus at a stop |
+| `/clearBusses` | Remove all uncontrolled buses from the map |
 
-> [!TIP]
-> These commands require Owner or Admin permissions.
+Use `/commands` in the in-game chat to show all available commands.
