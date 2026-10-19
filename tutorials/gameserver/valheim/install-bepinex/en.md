@@ -2,10 +2,11 @@
 slug: "install-bepinex"
 language: "en"
 title: "How to Install BepInEx on Your Valheim Server"
-description: "Install BepInEx on a Valheim server"
+description: "Use BepInEx for mods on a Valheim server"
 tags: []
 date: "2026-04-10"
 visibility: "public"
+updated: "2026-10-19"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -18,33 +19,37 @@ sort: 3
 related: ["gameserver/valheim/add-admin", "gameserver/valheim/download-savegame", "gameserver/valheim/add-mods", "gameserver/valheim/add-savegame"]
 ---
 
-**BepInEx** is a mod framework required to use mods on your Valheim server.
+**BepInEx** is the mod framework for Valheim. Without BepInEx, your server does not load any mods.
 
-1. **Download BepInEx**\
-   Download **BepInExPack_Valheim** from [Thunderstore](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/). Click **Manual Download**.
+> [!IMPORTANT]
+> You cannot install BepInEx yourself on a regular Valheim server. Our servers run on Linux, where BepInEx only loads if the server is started with a special start command. If you simply upload the BepInEx files via SFTP, your server starts normally but ignores all mods. For mods you therefore need the **Valheim BepInEx** product.
 
-2. **Stop the server**\
-   Stop your server via the dashboard.
+## Valheim BepInEx Server
 
-3. **Connect via SFTP**\
-   Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection).
+With the [Valheim BepInEx](https://emeraldhost.de/en/valheim-bepinex-server-mieten?utm_source=documentation&utm_medium=marketing&utm_campaign=install-bepinex) product, everything is already set up:
 
-4. **Upload BepInEx**\
-   Extract the downloaded ZIP file and upload the **entire contents** to the root directory of your server. The following files and folders should be present afterwards:
+- When the server is installed, the current version of the [BepInExPack for Valheim](https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/) is installed automatically.
+- The server starts with BepInEx automatically. You don't need to set anything up.
+- The other settings in the dashboard, e.g. server name, world name, crossplay and backups, work the same as on the regular Valheim server.
+
+You then upload mods as `.dll` files to the `/BepInEx/plugins/` folder. To learn how, see [Add Mods](/tutorials/gameserver/valheim/add-mods).
+
+> [!TIP]
+> Do you already have a regular Valheim server and want to switch to Valheim BepInEx? First create a [backup](/tutorials/gameserver/valheim/create-backup) or download your world (see [Download Savegame](/tutorials/gameserver/valheim/download-savegame)) and contact us via a [support ticket](https://emeraldhost.de/en/support).
+
+## Check Whether BepInEx Is Loaded
+
+1. **Open the console**   Open the console in your server's dashboard and start the server.
+
+2. **Check the startup messages**   During startup, messages from BepInEx appear in the console. If BepInEx is loaded, it also creates the log file `/BepInEx/LogOutput.log`. It contains a line like this for every loaded mod:
 
    ```text
-   /
-   ├── BepInEx/
-   │   ├── config/
-   │   ├── plugins/
-   │   └── core/
-   ├── doorstop_config.ini
-   ├── winhttp.dll
-   └── ...
+   [Info   :   BepInEx] Loading [ExampleMod 1.0.0]
    ```
 
-5. **Start the server**\
-   Start your server. BepInEx will initialize automatically.
-
 > [!NOTE]
-> After installation, you can upload mods as `.dll` files to the `/BepInEx/plugins/` folder. See [Add Mods](/tutorials/gameserver/valheim/add-mods).
+> If the file `/BepInEx/LogOutput.log` is missing after a restart, BepInEx was not loaded. In that case, check whether your server is the Valheim BepInEx product.
+
+## Players on Consoles
+
+Players on Xbox, PlayStation and via Game Pass cannot install mods. If a mod requires players to have it installed as well, these players can no longer join your server. Mods that only run on the server are not affected.

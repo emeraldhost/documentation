@@ -6,7 +6,7 @@ description: "Add mods to a Valheim server"
 tags: []
 date: "2026-03-10"
 visibility: "public"
-updated: "2026-04-10"
+updated: "2026-10-19"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -19,7 +19,7 @@ sort: 4
 related: ["gameserver/valheim/download-savegame", "gameserver/valheim/install-bepinex", "gameserver/valheim/add-savegame", "gameserver/valheim/change-branch"]
 ---
 
-Valheim mods are based on the **BepInEx** framework. You need to install BepInEx first before you can add mods. See [Install BepInEx](/tutorials/gameserver/valheim/install-bepinex).
+Valheim mods are based on the **BepInEx** framework. You can only use mods on the **Valheim BepInEx** product, where BepInEx is already installed. A regular Valheim server does not load mods. Learn more under [Install BepInEx](/tutorials/gameserver/valheim/install-bepinex).
 
 > [!WARNING]
 > Stop your server before adding mods. After a game update, mods may be incompatible and cause crashes.
