@@ -38,19 +38,19 @@ Mods lädst Du anschließend als `.dll`-Dateien in den Ordner `/BepInEx/plugins/
 
 Hast Du bereits einen normalen Valheim Server, kannst Du ihn selbst auf Valheim BepInEx umstellen.
 
-1. **Backup erstellen**   Erstelle vorher ein [Backup](/tutorials/gameserver/valheim/create-backup) oder lade Deine Welt herunter (siehe [Savegame herunterladen](/tutorials/gameserver/valheim/download-savegame)).
+1. **Backup erstellen**: Erstelle vorher ein [Backup](/tutorials/gameserver/valheim/create-backup) oder lade Deine Welt herunter (siehe [Savegame herunterladen](/tutorials/gameserver/valheim/download-savegame)).
 
-2. **Instanzen öffnen**   Öffne die Verwaltung Deines Servers und klicke auf **Instanzen**.
+2. **Instanzen öffnen**: Öffne die Verwaltung Deines Servers und klicke auf **Instanzen**.
 
-3. **Valheim BepInEx auswählen**   Wechsle dort zu **Valheim BepInEx**.
+3. **Valheim BepInEx auswählen**: Wechsle dort zu **Valheim BepInEx**.
 
-4. **Server starten**   Starte Deinen Server und prüfe wie unten beschrieben, ob BepInEx geladen wird.
+4. **Server starten**: Starte Deinen Server und prüfe wie unten beschrieben, ob BepInEx geladen wird.
 
 ## Prüfen, ob BepInEx geladen wird
 
-1. **Konsole öffnen**   Öffne die Konsole in der Verwaltung Deines Servers und starte den Server.
+1. **Konsole öffnen**: Öffne die Konsole in der Verwaltung Deines Servers und starte den Server.
 
-2. **Startmeldungen prüfen**   Beim Start erscheinen in der Konsole Meldungen von BepInEx. Wird BepInEx geladen, legt es außerdem die Log-Datei `/BepInEx/LogOutput.log` an. Darin steht für jeden geladenen Mod eine Zeile wie:
+2. **Startmeldungen prüfen**: Beim Start erscheinen in der Konsole Meldungen von BepInEx. Wird BepInEx geladen, legt es außerdem die Log-Datei `/BepInEx/LogOutput.log` an. Darin steht für jeden geladenen Mod eine Zeile wie:
 
    ```text
    [Info   :   BepInEx] Loading [BeispielMod 1.0.0]

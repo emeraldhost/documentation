@@ -38,19 +38,19 @@ You then upload mods as `.dll` files to the `/BepInEx/plugins/` folder. To learn
 
 If you already have a regular Valheim server, you can switch it to Valheim BepInEx yourself.
 
-1. **Create a backup**   First create a [backup](/tutorials/gameserver/valheim/create-backup) or download your world (see [Download Savegame](/tutorials/gameserver/valheim/download-savegame)).
+1. **Create a backup**: First create a [backup](/tutorials/gameserver/valheim/create-backup) or download your world (see [Download Savegame](/tutorials/gameserver/valheim/download-savegame)).
 
-2. **Open Instances**   Open your server's dashboard and click on **Instanzen** (Instances).
+2. **Open Instances**: Open your server's dashboard and click on **Instanzen** (Instances).
 
-3. **Select Valheim BepInEx**   Switch to **Valheim BepInEx** there.
+3. **Select Valheim BepInEx**: Switch to **Valheim BepInEx** there.
 
-4. **Start the server**   Start your server and check whether BepInEx is loaded as described below.
+4. **Start the server**: Start your server and check whether BepInEx is loaded as described below.
 
 ## Check Whether BepInEx Is Loaded
 
-1. **Open the console**   Open the console in your server's dashboard and start the server.
+1. **Open the console**: Open the console in your server's dashboard and start the server.
 
-2. **Check the startup messages**   During startup, messages from BepInEx appear in the console. If BepInEx is loaded, it also creates the log file `/BepInEx/LogOutput.log`. It contains a line like this for every loaded mod:
+2. **Check the startup messages**: During startup, messages from BepInEx appear in the console. If BepInEx is loaded, it also creates the log file `/BepInEx/LogOutput.log`. It contains a line like this for every loaded mod:
 
    ```text
    [Info   :   BepInEx] Loading [ExampleMod 1.0.0]
