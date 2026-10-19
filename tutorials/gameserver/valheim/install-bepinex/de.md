@@ -34,8 +34,17 @@ Beim Produkt [Valheim BepInEx](https://emeraldhost.de/de/valheim-bepinex-server-
 
 Mods lädst Du anschließend als `.dll`-Dateien in den Ordner `/BepInEx/plugins/` hoch. Wie das geht, erfährst Du unter [Mods hinzufügen](/tutorials/gameserver/valheim/add-mods).
 
-> [!TIP]
-> Du hast bereits einen normalen Valheim Server und möchtest auf Valheim BepInEx wechseln? Erstelle vorher ein [Backup](/tutorials/gameserver/valheim/create-backup) bzw. lade Deine Welt herunter (siehe [Savegame herunterladen](/tutorials/gameserver/valheim/download-savegame)) und melde Dich per [Support-Ticket](https://emeraldhost.de/de/support) bei uns.
+## Von einem normalen Valheim Server wechseln
+
+Hast Du bereits einen normalen Valheim Server, kannst Du ihn selbst auf Valheim BepInEx umstellen.
+
+1. **Backup erstellen**   Erstelle vorher ein [Backup](/tutorials/gameserver/valheim/create-backup) oder lade Deine Welt herunter (siehe [Savegame herunterladen](/tutorials/gameserver/valheim/download-savegame)).
+
+2. **Instanzen öffnen**   Öffne die Verwaltung Deines Servers und klicke auf **Instanzen**.
+
+3. **Valheim BepInEx auswählen**   Wechsle dort zu **Valheim BepInEx**.
+
+4. **Server starten**   Starte Deinen Server und prüfe wie unten beschrieben, ob BepInEx geladen wird.
 
 ## Prüfen, ob BepInEx geladen wird
 
