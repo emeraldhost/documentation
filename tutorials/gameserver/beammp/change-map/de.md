@@ -21,8 +21,8 @@ related: ["gameserver/beammp/add-mods", "gameserver/beammp/add-savegame", "games
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Map auswählen**\
    Trage im Feld **Map** den gewünschten Wert ein:

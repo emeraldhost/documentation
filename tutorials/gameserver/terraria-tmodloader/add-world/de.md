@@ -38,7 +38,7 @@ related: ["gameserver/terraria-tmodloader/add-mods", "gameserver/terraria-tmodlo
    - Warte, bis die Welt auf den Server übertragen wurde.
 
 4. **Welt auswählen**\
-   Gehe zu den Einstellungen Deines Servers und wähle dort Deine neu hochgeladene Welt aus.
+   Wechsle in der Verwaltung Deines Servers zum **Config-Editor** und wähle dort Deine neu hochgeladene Welt aus.
 
 5. **Server neu starten**\
    Starte den Server neu und überprüfe, ob Deine Welt korrekt geladen wird.

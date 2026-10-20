@@ -60,7 +60,7 @@ A Necesse world is **a single `.zip` file** named after the world – for exampl
    Upload your `.zip` file into this directory. If a file with the same name already exists, rename your uploaded file or download the existing one first.
 
 5. **Enter the world name in the dashboard**\
-   Open the dashboard, go to the **settings** and enter the name of your world file in the **Save Name** field – **without** the `.zip` extension (e.g. `My_World` for `My_World.zip`).
+   Open the dashboard, navigate to the **Config Editor** and enter the name of your world file in the **Save Name** field – **without** the `.zip` extension (e.g. `My_World` for `My_World.zip`).
 
 6. **Start the server**\
    Save the settings and start your server. Your uploaded world is now loaded on startup.

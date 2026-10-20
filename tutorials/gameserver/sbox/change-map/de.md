@@ -34,8 +34,8 @@ Jede Map auf sbox.game hat eine Adresse nach dem Muster `sbox.game/<organisation
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen** beziehungsweise zu den Startparametern Deines Servers.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor** beziehungsweise zu den Startparametern Deines Servers.
 
 3. **Map eintragen**\
    Ergänze den Startparameter `+game` um den Package-Ident der Map. Der erste Wert ist immer der Gamemode, der zweite die Map:

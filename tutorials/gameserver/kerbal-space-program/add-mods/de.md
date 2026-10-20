@@ -109,7 +109,7 @@ Wie streng Dein Server prüft, steuert der Wert `modControl` in der Datei `/Conf
 Optional kann Dein Server den Spielern die passenden Mods bereitstellen, damit nicht jeder sie einzeln zusammensuchen muss.
 
 1. **Modus wählen**\
-   Öffne die **Verwaltung**, wechsle zu den **Einstellungen** und setze das Feld **Mod Pack Mode**:
+   Öffne die **Verwaltung**, wechsle zum **Config-Editor** und setze das Feld **Mod Pack Mode**:
 
    | Wert | Bedeutung |
    |------|-----------|

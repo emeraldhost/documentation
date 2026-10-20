@@ -58,19 +58,19 @@ If the server starts but a setting has no effect, the spelling is often the caus
    Save the file and start your server. Check in the console whether it now starts without errors.
 
 > [!NOTE]
-> Some values in `config.json` – e.g. server name, passwords, scenario ID, maximum number of players, visibility, third person and Battle-Eye – are overwritten by the dashboard with the values from the **Settings** on every server start. Always change these values in the dashboard, not in the file.
+> Some values in `config.json` – e.g. server name, passwords, scenario ID, maximum number of players, visibility, third person and Battle-Eye – are overwritten by the dashboard with the values from the **Config Editor** on every server start. Always change these values in the dashboard, not in the file.
 
 ## Server is not shown in the server browser
 
-**Cause:** In the settings, **Visible in Server Browser** is set to `false`. Also check in the console whether the start has finished before you look for the server in the list.
+**Cause:** In the Config Editor, **Visible in Server Browser** is set to `false`. Also check in the console whether the start has finished before you look for the server in the list.
 
 **Solution:**
 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable visibility**\
    Set the **Visible in Server Browser** field to `true`.
@@ -83,15 +83,15 @@ If the server starts but a setting has no effect, the spelling is often the caus
 
 ## Version mismatch when joining
 
-**Cause:** Players get a message about a mismatching version when joining, or the server stays on an old version although the game has already been updated. Usually **Auto Update** is set to `0` in the settings – then the server is not updated on start.
+**Cause:** Players get a message about a mismatching version when joining, or the server stays on an old version although the game has already been updated. Usually **Auto Update** is set to `0` in the Config Editor – then the server is not updated on start.
 
 **Solution:**
 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable Auto Update**\
    Set the **Auto Update** field to `1`.
@@ -183,7 +183,7 @@ How to add mods is shown in [Add Mods](/tutorials/gameserver/arma-reforger/add-m
 
 - Check in the [Arma Reforger Workshop](https://reforger.armaplatform.com/workshop) whether all mods of your server are available on your players' platform, and remove mods that are not.
 - If in doubt, briefly test without mods whether console players can join then. This shows you whether the mods are the cause.
-- Keep **Battle-Eye** enabled (`true`) in the settings. Without BattlEye, your server does not appear in the server browser on PlayStation 5.
+- Keep **Battle-Eye** enabled (`true`) in the Config Editor. Without BattlEye, your server does not appear in the server browser on PlayStation 5.
 
 You can find more about this in [Enable Crossplay](/tutorials/gameserver/arma-reforger/enable-crossplay).
 
@@ -196,8 +196,8 @@ You can find more about this in [Enable Crossplay](/tutorials/gameserver/arma-re
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust RCON password**\
    Enter a password with at least 3 characters and without spaces in the **RCON Password** field, e.g. `MyRconPassword123`.
@@ -216,8 +216,8 @@ How to connect with RCON afterwards is shown in [Use RCON](/tutorials/gameserver
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust admin password**\
    Enter a password without spaces in the **Admin Password** field, e.g. `MyAdminPassword123`.

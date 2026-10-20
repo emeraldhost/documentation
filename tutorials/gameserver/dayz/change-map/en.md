@@ -73,7 +73,7 @@ You can switch between the four official maps:
    Save the file and start your server.
 
 > [!IMPORTANT]
-> Nasdara is only available from version 1.30. If the **Auto Update** field under **Settings** in the dashboard is set to `1`, your server updates automatically on start. Check whether the `dayzOffline.nasdara` folder exists in the `/mpmissions/` folder. If it is missing, your server is not up to date yet.
+> Nasdara is only available from version 1.30. If the **Auto Update** field in the **Config Editor** in the dashboard is set to `1`, your server updates automatically on start. Check whether the `dayzOffline.nasdara` folder exists in the `/mpmissions/` folder. If it is missing, your server is not up to date yet.
 
 > [!NOTE]
 > On first startup with a new map, a new world is automatically generated. Your previous progress on the old map is preserved.

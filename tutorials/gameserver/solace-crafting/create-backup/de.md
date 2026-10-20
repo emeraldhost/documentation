@@ -45,4 +45,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Trägst Du bei `worldSaveToUse` einen Namen ein, zu dem kein Weltordner existiert, legt der Server beim Start eine neue Welt an. Dein bisheriger Fortschritt ist dann zwar nicht gelöscht, wird aber nicht mehr geladen. Ein aktuelles Backup ist in so einem Fall der schnellste Weg zurück.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

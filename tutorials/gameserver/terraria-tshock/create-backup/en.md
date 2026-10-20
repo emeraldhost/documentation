@@ -61,7 +61,7 @@ These backups are complete world files – you turn one back into a world by ren
    Download the existing `.wld` file from the main directory or rename it, in case you want to return to the current state.
 
 4. **Restore the backup**\
-   Copy the desired file from `/tshock/backups/` into the main directory of your server and name it exactly like the **World Name** field in the settings – for example `MyWorld.wld`. Remove the timestamp and the `.bak` extension in the process.
+   Copy the desired file from `/tshock/backups/` into the main directory of your server and name it exactly like the **World Name** field in the Config Editor – for example `MyWorld.wld`. Remove the timestamp and the `.bak` extension in the process.
 
 5. **Start the server**\
    Start your server. The restored state is now loaded.
@@ -76,4 +76,4 @@ These backups are complete world files – you turn one back into a world by ren
 > If you only want to save the world itself, you can also download the `.wld` file separately: [Download savegame](/tutorials/gameserver/terraria-tshock/download-savegame).
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

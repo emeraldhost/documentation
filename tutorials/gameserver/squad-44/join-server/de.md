@@ -23,7 +23,7 @@ Squad 44 bietet keinen direkten Verbindungsaufbau über die IP-Adresse – Du tr
 
 ## Voraussetzung
 
-Notiere Dir den **Servernamen** Deines Servers. Diesen kannst Du in der Verwaltung unter **Einstellungen** anpassen – siehe [Server Name ändern](/tutorials/gameserver/squad-44/change-server-name).
+Notiere Dir den **Servernamen** Deines Servers. Diesen kannst Du in der Verwaltung im **Config-Editor** anpassen – siehe [Server Name ändern](/tutorials/gameserver/squad-44/change-server-name).
 
 ## Server beitreten
 

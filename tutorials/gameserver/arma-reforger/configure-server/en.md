@@ -2,7 +2,7 @@
 slug: "configure-server"
 language: "en"
 title: "How to Configure Your Arma Reforger Server"
-description: "Configure an Arma Reforger server via the settings and the config.json"
+description: "Configure an Arma Reforger server via the Config Editor and the config.json"
 tags: []
 date: "2026-10-02"
 visibility: "public"
@@ -19,16 +19,16 @@ related: ["gameserver/arma-reforger/use-rcon", "gameserver/arma-reforger/improve
 ---
 You can find the settings of your Arma Reforger server in two places:
 
-- in the dashboard of your server under **Settings** – here you set the most important values such as the server name, passwords or the scenario
+- in the dashboard of your server in the **Config Editor** – here you set the most important values such as the server name, passwords or the scenario
 - in the `config.json` file in the root directory of your server – here you set everything else, e.g. admins, mods, view distances or voice chat
 
-## Settings in the dashboard
+## Settings in the Config Editor
 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust values**\
    Adjust the desired fields (see table below).
@@ -61,7 +61,7 @@ You can find the settings of your Arma Reforger server in two places:
 
 ## What the dashboard overwrites in the config.json
 
-On **every** server start, the dashboard writes the values from the **Settings** into the `config.json`.
+On **every** server start, the dashboard writes the values from the **Config Editor** into the `config.json`.
 
 > [!WARNING]
 > The following entries of the `config.json` are overwritten on every start. Changing them directly in the file has no effect:
@@ -74,14 +74,14 @@ On **every** server start, the dashboard writes the values from the **Settings**
 >
 > In addition, `game` → `crossPlatform` is always set to `true` and `game` → `gameProperties` → `fastValidation` is always set to `true`. Crossplay therefore cannot be turned off via `crossPlatform` – find out more under [Crossplay](/tutorials/gameserver/arma-reforger/enable-crossplay).
 >
-> You change the server name, server password, admin password, scenario ID, max players, visibility, third person, BattlEye and RCON password in the dashboard under **Settings**. Addresses and ports are set by EmeraldHost and cannot be changed.
+> You change the server name, server password, admin password, scenario ID, max players, visibility, third person, BattlEye and RCON password in the dashboard in the **Config Editor**. Addresses and ports are set by EmeraldHost and cannot be changed.
 
 > [!NOTE]
 > Bohemia Interactive recommends always keeping `fastValidation` set to `true` on public servers and limiting the server FPS. `fastValidation` is permanently enabled on your server, and **Max FPS** sets a limit of 120 FPS by default – so do not leave the field empty.
 
 ## Structure of the config.json
 
-After the installation, the `config.json` looks like this (shortened). The values in the sections the dashboard overwrites depend on your **Settings**:
+After the installation, the `config.json` looks like this (shortened). The values in the sections the dashboard overwrites depend on your entries in the **Config Editor**:
 
 ```json
 {

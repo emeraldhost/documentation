@@ -44,15 +44,15 @@ To download the full log:
 
 **Symptom:** Your server is running, but you cannot find it in the public server list in the game.
 
-**Cause:** If the **Serverliste** (server list) field in the settings is set to `0`, your server is hidden from the public server list.
+**Cause:** If the **Serverliste** (server list) field in the Config Editor is set to `0`, your server is hidden from the public server list.
 
 **Solution:**
 
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable the server list**\
    Set the **Serverliste** field to `1`.
@@ -70,7 +70,7 @@ To download the full log:
 **Cause:** Typical reasons are:
 
 - **Different versions**: After an update, the server and the game run different versions.
-- **Server password set**: If a password is entered in the **Server Passwort** (server password) field in the settings, players have to enter it when joining.
+- **Server password set**: If a password is entered in the **Server Passwort** (server password) field in the Config Editor, players have to enter it when joining.
 - **Missing DLC**: If your server runs a DLC map such as **Hamburg** (Hamburg City DLC) or a DLC is required for joining, all players need to own this DLC.
 - **Console instead of PC**: The Bus multiplayer is only available on PC. Players on PlayStation 5 or Xbox Series X|S cannot join a server.
 
@@ -79,8 +79,8 @@ To download the full log:
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Check Auto Update**\
    Check whether the **Auto Update** field is set to `1`. Only then is your server updated automatically on every start.
@@ -169,15 +169,15 @@ If you cannot find the cause, start your server without mods as a test. If it th
 
 **Symptom:** You changed the server name, passwords, max players or the visibility in the server list in the game or directly in `ServerSettings.cfg`, but after a restart the old values are back.
 
-**Cause:** On every start, the dashboard writes the values from **Settings** into the `/TheBus/Settings/ServerSettings.cfg` file. The keys `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` and `maxPlayerCount` are overwritten in the process.
+**Cause:** On every start, the dashboard writes the values from the **Config Editor** into the `/TheBus/Settings/ServerSettings.cfg` file. The keys `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` and `maxPlayerCount` are overwritten in the process.
 
 **Solution:**
 
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change the values**\
    Change the values in the **Server Name**, **Server Passwort**, **Admin Passwort**, **Maximale Spieler** or **Serverliste** fields.
@@ -199,8 +199,8 @@ If you cannot find the cause, start your server without mods as a test. If it th
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable Auto Update**\
    Set the **Auto Update** field to `1` so that your server is brought to the current version.

@@ -26,8 +26,8 @@ Mit dem Server Image hinterlegst Du ein Bild, das oberhalb Deiner Serverliste an
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server Image setzen**\
    Trage die gewünschte Bild-URL im Feld **Server Image** ein und speichere die Einstellung.

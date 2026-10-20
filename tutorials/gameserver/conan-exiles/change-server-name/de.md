@@ -21,8 +21,8 @@ related: ["gameserver/conan-exiles/change-max-players", "gameserver/conan-exiles
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server Name eintragen**\
    Trage den gewünschten Namen im Feld **Server Name** ein.

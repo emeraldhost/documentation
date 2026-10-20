@@ -21,8 +21,8 @@ related: ["gameserver/satisfactory/add-admin", "gameserver/satisfactory/add-save
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Spieleranzahl anpassen**\
    Trage die gewünschte Anzahl im Feld **Maximale Spieler** ein.

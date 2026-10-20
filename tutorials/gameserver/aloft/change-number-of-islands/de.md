@@ -22,8 +22,8 @@ related: ["gameserver/aloft/add-admin", "gameserver/aloft/add-savegame", "gamese
 1. **Dashboard öffnen**\
    Öffne Dein Dashboard und wähle Deinen Aloft Server aus.
 
-2. **Einstellungen öffnen**\
-   Gehe zu den Einstellungen.
+2. **Config-Editor öffnen**\
+   Gehe zum **Config-Editor**.
 
 3. **Inseln-Einstellung finden**\
    Scrolle nach unten zu „Anzahl der Inseln für eine neue Welt“.

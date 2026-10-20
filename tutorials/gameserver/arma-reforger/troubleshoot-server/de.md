@@ -58,19 +58,19 @@ Startet der Server zwar, aber eine Einstellung wirkt nicht, liegt es oft an der 
    Speichere die Datei und starte Deinen Server. Prüfe in der Konsole, ob er jetzt ohne Fehler startet.
 
 > [!NOTE]
-> Einige Werte der `config.json` – z.B. Servername, Passwörter, Szenario ID, maximale Spieleranzahl, Sichtbarkeit, Third Person und Battle-Eye – überschreibt die Verwaltung bei jedem Serverstart mit den Werten aus den **Einstellungen**. Änderungen an diesen Werten nimmst Du deshalb immer in der Verwaltung vor, nicht in der Datei.
+> Einige Werte der `config.json` – z.B. Servername, Passwörter, Szenario ID, maximale Spieleranzahl, Sichtbarkeit, Third Person und Battle-Eye – überschreibt die Verwaltung bei jedem Serverstart mit den Werten aus dem **Config-Editor**. Änderungen an diesen Werten nimmst Du deshalb immer in der Verwaltung vor, nicht in der Datei.
 
 ## Server wird im Server-Browser nicht angezeigt
 
-**Ursache:** In den Einstellungen ist **Sichtbar im Server-Browser** auf `false` gesetzt. Prüfe außerdem in der Konsole, ob der Start bereits abgeschlossen ist, bevor Du in der Serverliste suchst.
+**Ursache:** Im Config-Editor ist **Sichtbar im Server-Browser** auf `false` gesetzt. Prüfe außerdem in der Konsole, ob der Start bereits abgeschlossen ist, bevor Du in der Serverliste suchst.
 
 **Lösung:**
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Sichtbarkeit aktivieren**\
    Setze das Feld **Sichtbar im Server-Browser** auf `true`.
@@ -83,15 +83,15 @@ Startet der Server zwar, aber eine Einstellung wirkt nicht, liegt es oft an der 
 
 ## Versionskonflikt beim Beitreten
 
-**Ursache:** Spieler erhalten beim Beitreten eine Meldung über eine nicht passende Version oder der Server bleibt auf einer alten Version, obwohl das Spiel bereits aktualisiert wurde. Meist ist in den Einstellungen **Auto Update** auf `0` gesetzt – dann wird der Server beim Start nicht aktualisiert.
+**Ursache:** Spieler erhalten beim Beitreten eine Meldung über eine nicht passende Version oder der Server bleibt auf einer alten Version, obwohl das Spiel bereits aktualisiert wurde. Meist ist im Config-Editor **Auto Update** auf `0` gesetzt – dann wird der Server beim Start nicht aktualisiert.
 
 **Lösung:**
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Auto Update aktivieren**\
    Setze das Feld **Auto Update** auf `1`.
@@ -183,7 +183,7 @@ Wie Du Mods einträgst, zeigt [Mods hinzufügen](/tutorials/gameserver/arma-refo
 
 - Prüfe im [Arma Reforger Workshop](https://reforger.armaplatform.com/workshop), ob alle Mods Deines Servers auf der Plattform Deiner Spieler verfügbar sind, und entferne Mods, die das nicht sind.
 - Teste im Zweifel kurz ohne Mods, ob Konsolenspieler dann beitreten können. So siehst Du, ob die Mods die Ursache sind.
-- Lass **Battle-Eye** in den Einstellungen aktiviert (`true`). Ohne BattlEye wird Dein Server PlayStation-5-Spielern im Server-Browser nicht angezeigt.
+- Lass **Battle-Eye** im Config-Editor aktiviert (`true`). Ohne BattlEye wird Dein Server PlayStation-5-Spielern im Server-Browser nicht angezeigt.
 
 Mehr dazu findest Du in [Crossplay aktivieren](/tutorials/gameserver/arma-reforger/enable-crossplay).
 
@@ -196,8 +196,8 @@ Mehr dazu findest Du in [Crossplay aktivieren](/tutorials/gameserver/arma-reforg
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **RCON Passwort anpassen**\
    Trage im Feld **RCON Passwort** ein Passwort mit mindestens 3 Zeichen und ohne Leerzeichen ein, z.B. `MeinRconPasswort123`.
@@ -216,8 +216,8 @@ Wie Du Dich anschließend mit RCON verbindest, zeigt [RCON verwenden](/tutorials
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Admin Passwort anpassen**\
    Trage im Feld **Admin Passwort** ein Passwort ohne Leerzeichen ein, z.B. `MeinAdminPasswort123`.

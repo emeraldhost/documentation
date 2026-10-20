@@ -23,8 +23,8 @@ Demos sind Aufnahmen von Matches, die Du nachträglich anschauen oder zur Überp
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Demos aufzeichnen anpassen**\
    Setze das Feld **Demos aufzeichnen** auf den gewünschten Wert:

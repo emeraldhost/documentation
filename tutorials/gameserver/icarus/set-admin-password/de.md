@@ -23,8 +23,8 @@ Das Admin Passwort wird benötigt, um sich im Spiel als Administrator anzumelden
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Admin Passwort setzen**\
    Trage das gewünschte Admin Passwort im Feld **Admin Passwort** ein und speichere die Einstellung.

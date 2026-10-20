@@ -26,7 +26,7 @@ Nightingale has **no admin list with Steam or Epic IDs**. Instead there is a sin
 ## Set the admin password
 
 1. **Open the dashboard**\
-   Open the **dashboard** of your server and switch to the **Settings**.
+   Open the **dashboard** of your server and switch to the **Config Editor**.
 
 2. **Enter the admin password**\
    Enter the password you want in the **Admin Password** field.

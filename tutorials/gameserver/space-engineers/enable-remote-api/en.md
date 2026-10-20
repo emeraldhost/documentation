@@ -23,8 +23,8 @@ The Remote API (VRage Remote API) allows your server to be managed remotely thro
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable the Remote API**\
    Set the **Remote API** option to `true` to enable it, or to `false` to disable it.

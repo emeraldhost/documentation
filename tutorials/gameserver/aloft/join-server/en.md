@@ -62,8 +62,8 @@ related: ["gameserver/aloft/create-backup", "gameserver/aloft/download-savegame"
 1. **Open dashboard**\
    Open your dashboard and select your Aloft server.
 
-2. **Go to settings**\
-   Navigate to the settings page.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Find server list**\
    Scroll down to "Server list".

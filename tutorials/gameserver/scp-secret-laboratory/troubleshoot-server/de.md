@@ -23,7 +23,7 @@ Taucht Dein Server nicht in der Serverliste auf, können Spieler nach einem Upda
 > Erstelle vor jeder Änderung an Deinem Server ein [Backup](/tutorials/gameserver/scp-secret-laboratory/create-backup). So kannst Du jederzeit zum letzten funktionierenden Stand zurückkehren.
 
 > [!NOTE]
-> Bei SCP: Secret Laboratory stellst Du nichts in den Einstellungen der Verwaltung ein – die gesamte Konfiguration läuft über Dateien per SFTP. Wo die Dateien liegen, zeigt [Konfigurationsdateien bearbeiten](/tutorials/gameserver/scp-secret-laboratory/edit-config-files).
+> Bei SCP: Secret Laboratory stellst Du nichts im Config-Editor der Verwaltung ein – die gesamte Konfiguration läuft über Dateien per SFTP. Wo die Dateien liegen, zeigt [Konfigurationsdateien bearbeiten](/tutorials/gameserver/scp-secret-laboratory/edit-config-files).
 
 ## Zuerst die Konsole prüfen
 

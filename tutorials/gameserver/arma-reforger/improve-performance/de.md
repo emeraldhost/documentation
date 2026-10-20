@@ -20,7 +20,7 @@ related: ["gameserver/arma-reforger/disable-ai", "gameserver/arma-reforger/confi
 Die Performance Deines Arma Reforger Servers hängt vor allem von den Server-FPS, den Sichtweiten, der Anzahl der KI-Einheiten und den installierten Mods ab. In dieser Anleitung zeigen wir Dir, welche Einstellungen Du dafür in der Verwaltung und in der `config.json` anpassen kannst.
 
 > [!NOTE]
-> Einige Werte der `config.json` werden bei jedem Serverstart aus den **Einstellungen** der Verwaltung überschrieben. Die hier beschriebenen Einträge unter `gameProperties` und `operating` gehören nicht dazu und bleiben erhalten. Einen Überblick über alle Einträge findest Du unter [Server konfigurieren](/tutorials/gameserver/arma-reforger/configure-server).
+> Einige Werte der `config.json` werden bei jedem Serverstart aus dem **Config-Editor** der Verwaltung überschrieben. Die hier beschriebenen Einträge unter `gameProperties` und `operating` gehören nicht dazu und bleiben erhalten. Einen Überblick über alle Einträge findest Du unter [Server konfigurieren](/tutorials/gameserver/arma-reforger/configure-server).
 
 ## Server-FPS begrenzen
 
@@ -29,8 +29,8 @@ Die Server-FPS legen fest, wie oft Dein Server die Spielwelt pro Sekunde berechn
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Maximale FPS eintragen**\
    Trage im Feld **Maximale FPS** einen Wert zwischen `60` und `120` ein. Standardmäßig ist `120` eingestellt.
@@ -48,8 +48,8 @@ Mit dem Feld **[Advanced] Log FPS Interval** schreibt Dein Server in regelmäßi
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Intervall eintragen**\
    Trage im Feld **[Advanced] Log FPS Interval** ein, nach wie vielen Sekunden jeweils eine neue Zeile ausgegeben werden soll, z.B. `60` für einmal pro Minute. Mit `0` ist die Ausgabe deaktiviert.

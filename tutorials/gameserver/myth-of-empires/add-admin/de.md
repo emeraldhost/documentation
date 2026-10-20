@@ -29,7 +29,7 @@ Admins – im Spiel **GM-Accounts** genannt – werden auf einem Myth of Empires
 ## Admin eintragen
 
 1. **Verwaltung öffnen**\
-   Öffne die **Verwaltung** Deines Servers und wechsle zu den **Einstellungen**.
+   Öffne die **Verwaltung** Deines Servers und wechsle zum **Config-Editor**.
 
 2. **SteamID64 eintragen**\
    Trage Deine SteamID64 in das Feld für die Admin- beziehungsweise GM-Accounts ein. Bietet Deine Verwaltung nur ein Feld für zusätzliche Startparameter, ergänzt Du dort:
@@ -39,7 +39,7 @@ Admins – im Spiel **GM-Accounts** genannt – werden auf einem Myth of Empires
    ```
 
 3. **GM-Accounts aktivieren**\
-   Prüfe, ob in den Einstellungen zusätzlich ein Schalter für die GM-Accounts vorhanden ist (`bUseServerAdmin`). Ist er vorhanden, muss er aktiviert sein, sonst bleibt die Liste wirkungslos.
+   Prüfe, ob im **Config-Editor** zusätzlich ein Schalter für die GM-Accounts vorhanden ist (`bUseServerAdmin`). Ist er vorhanden, muss er aktiviert sein, sonst bleibt die Liste wirkungslos.
 
 4. **Server neu starten**\
    Speichere die Änderung und starte Deinen Server neu. Die Admin-Liste wird nur beim Serverstart eingelesen.

@@ -21,8 +21,8 @@ related: ["gameserver/counter-strike-2/add-mods", "gameserver/counter-strike-2/a
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select gamemode**\
    Select the desired game mode from the **Gamemode** dropdown.
@@ -41,4 +41,4 @@ related: ["gameserver/counter-strike-2/add-mods", "gameserver/counter-strike-2/a
 | `custom` | Custom game mode |
 
 > [!TIP]
-> You can change the default map via the **Map** field in the settings.
+> You can change the default map via the **Map** field in the **Config Editor**.

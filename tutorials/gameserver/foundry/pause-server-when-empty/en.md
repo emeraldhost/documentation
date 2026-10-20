@@ -23,8 +23,8 @@ With this setting, your server pauses as soon as no player is connected. This sa
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable the option**\
    Enable the **Pause Server When Empty** option and save the setting.

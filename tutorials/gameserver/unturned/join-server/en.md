@@ -75,7 +75,7 @@ Servers without a GSLT are considered "anonymous" and are **not** listed in the 
    Stop your server via the dashboard.
 
 3. **Store the token**\
-   If there is a field for the login token under **Settings** in the dashboard, enter it there. Otherwise connect via [SFTP](/tutorials/gameserver/establish-sftp-connection) and add the token as a command in `Commands.dat`:
+   If there is a field for the login token in the **Config Editor** in the dashboard, enter it there. Otherwise connect via [SFTP](/tutorials/gameserver/establish-sftp-connection) and add the token as a command in `Commands.dat`:
 
    ```text
    /Servers/<ServerID>/Server/Commands.dat

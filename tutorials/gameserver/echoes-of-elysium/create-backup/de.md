@@ -43,7 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 
 ## Serverseitige Sicherungen
 
-Echoes of Elysium bringt zusätzlich eine eigene Sicherungsfunktion mit. In der **Verwaltung** findest Du unter **Einstellungen** folgende Felder dafür:
+Echoes of Elysium bringt zusätzlich eine eigene Sicherungsfunktion mit. In der **Verwaltung** findest Du im **Config-Editor** folgende Felder dafür:
 
 | Feld | Bedeutung |
 |------|-----------|
@@ -61,4 +61,4 @@ Nach einer Änderung startest Du Deinen Server neu, damit die neuen Werte übern
 > **Aktiviere Auto Server Backup** ist standardmäßig deaktiviert. Möchtest Du die serverseitigen Sicherungen nutzen, musst Du das Feld erst auf `true` setzen.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

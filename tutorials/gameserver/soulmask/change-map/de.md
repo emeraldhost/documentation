@@ -26,8 +26,8 @@ Du kannst zwischen den verfügbaren Maps wechseln.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Map auswählen**\
    Ändere die Map-Einstellung auf den gewünschten Wert:

@@ -44,4 +44,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > QANGA nutzt für den Server keine Konfigurationsdateien – alle Servereinstellungen werden über die Startparameter in der **Verwaltung** gesetzt. Ein Backup sichert deshalb vor allem die Serverdateien und die Weltdaten. Notiere Dir Deine Einstellungen aus der Verwaltung zusätzlich separat, denn sie werden dort und nicht in den Serverdateien gespeichert.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

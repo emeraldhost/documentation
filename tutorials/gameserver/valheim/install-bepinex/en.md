@@ -6,7 +6,7 @@ description: "Use BepInEx for mods on a Valheim server"
 tags: []
 date: "2026-04-10"
 visibility: "public"
-updated: "2026-10-19"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -36,15 +36,26 @@ You then upload mods as `.dll` files to the `/BepInEx/plugins/` folder. To learn
 
 ## Switch from a Regular Valheim Server
 
-If you already have a regular Valheim server, you can switch it to Valheim BepInEx yourself.
+If you already have a regular Valheim server, you create an instance with Valheim BepInEx on it yourself. Your previous instance is kept, and you can switch between instances at any time.
 
-1. **Create a backup**: First create a [backup](/tutorials/gameserver/valheim/create-backup) or download your world (see [Download Savegame](/tutorials/gameserver/valheim/download-savegame)).
+1. **Back up your world**: Download your world so you can continue playing it in the new instance (see [Download Savegame](/tutorials/gameserver/valheim/download-savegame)).
 
-2. **Open Instances**: Open your server's dashboard and click on **Instanzen** (Instances).
+2. **Open instances**: Open your server's dashboard and click **Instanzen** (Instances) in the left sidebar.
 
-3. **Select Valheim BepInEx**: Switch to **Valheim BepInEx** there.
+3. **Create an instance**: Click **Instanz erstellen** (Create instance), search for "Valheim", select **Valheim BepInEx** and continue to the next step.
 
-4. **Start the server**: Start your server and check whether BepInEx is loaded as described below.
+4. **Configure the instance**: Enter a name for the instance under **Name** and set **Arbeitsspeicher** (RAM) and **Speicherplatz** (storage). At the bottom you see whether this changes your monthly price. Then continue to the next step.
+
+5. **Create it**: Check your selection in the **Übersicht** (Overview) and click **Erstellen** (Create). The instance is set up automatically, which can take a few minutes.
+
+6. **Activate the instance**: Switch to the new instance. To do so, click the **Instanz wechseln** (Switch instance) icon in the header or select **Instanz wechseln** in the **Aktionen** (Actions) dropdown (see [Use Instances](/tutorials/gameserver/use-instances)).
+
+7. **Upload your world**: Upload your saved world to the new instance (see [Add Savegame](/tutorials/gameserver/valheim/add-savegame)).
+
+8. **Start the server**: Start your server and check whether BepInEx is loaded as described below.
+
+> [!NOTE]
+> How many instances you can create is shown at the top of the **Instanzen** (Instances) page. If all slots are in use, you can add more via **Instanz-Plätze erweitern** (Expand instance slots).
 
 ## Check Whether BepInEx Is Loaded
 

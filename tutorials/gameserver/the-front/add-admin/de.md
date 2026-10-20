@@ -29,7 +29,7 @@ Admins werden auf einem The Front Server über ihre **SteamID64** eingetragen �
 ## Weg 1: Über die Verwaltung
 
 1. **Verwaltung öffnen**\
-   Öffne die **Verwaltung** Deines Servers und wechsle zu den **Einstellungen**.
+   Öffne die **Verwaltung** Deines Servers und wechsle zum **Config-Editor**.
 
 2. **Admin-IDs eintragen**\
    Trage Deine SteamID64 in das Feld für die Admin-Accounts ein. Bietet Deine Verwaltung nur ein Feld für zusätzliche Startparameter, ergänzt Du dort:

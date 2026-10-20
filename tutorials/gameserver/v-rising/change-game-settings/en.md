@@ -26,8 +26,8 @@ You can adjust the preset game settings via the dashboard. These determine the g
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select game settings**\
    Enter the desired value in the **Preset Game Settings** field:

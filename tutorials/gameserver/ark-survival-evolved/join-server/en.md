@@ -24,7 +24,7 @@ related: ["gameserver/ark-survival-evolved/add-savegame", "gameserver/ark-surviv
 > [!WARNING]
 > **Important**
 >
-> To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Settings** of your server in the dashboard. Use the **Query Port**, not the Game Port!
+> To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Config Editor** of your server in the dashboard. Use the **Query Port**, not the Game Port!
 
 ## Via Steam server browser
 

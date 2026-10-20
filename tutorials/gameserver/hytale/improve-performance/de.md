@@ -57,13 +57,13 @@ Wenn Du kein Plugin installieren möchtest, kannst Du die Server-Performance auc
 
 ## So passt Du die Startparameter auf einem Hytale Server an
 
-Über die Verwaltung kannst Du in den Einstellungen zusätzliche Startparameter hinterlegen. So kannst Du z.B. eigene Garbage Collector Parameter hinzufügen, um den Server weiter zu optimieren.
+Über die Verwaltung kannst Du im Config-Editor zusätzliche Startparameter hinterlegen. So kannst Du z.B. eigene Garbage Collector Parameter hinzufügen, um den Server weiter zu optimieren.
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Startparameter anpassen**\
    Füge im Feld **Zusätzliche Startparameter** Deine gewünschten Parameter hinzu.
@@ -158,7 +158,7 @@ Mit Spark kannst Du im Spiel als Admin folgende Befehle nutzen. In der Konsole d
 Ein täglicher Neustart Deines Servers kann Speicherlecks (RAM-Leaks) beheben und die Performance stabil halten.
 
 > [!NOTE]
-> Automatische Neustarts sowie Backups können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Neustarts und Backups selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).
 
 ## Feedback an das Hytale-Team
 

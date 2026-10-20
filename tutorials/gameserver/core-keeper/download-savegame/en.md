@@ -47,7 +47,7 @@ You can download your server's world to your PC at any time – for example as a
 > [!TIP]
 > **Finding the right world file**
 >
-> The number before `.world.gzip` is the **World Index**. You can tell which world your server currently loads from the World Index in the server settings: if it is set to `0`, then `0.world.gzip` is the active world; for `3` it is `3.world.gzip`.
+> The number before `.world.gzip` is the **World Index**. You can tell which world your server currently loads from the World Index in the **Config Editor**: if it is set to `0`, then `0.world.gzip` is the active world; for `3` it is `3.world.gzip`.
 
 > [!TIP]
 > If you want to continue playing the downloaded world locally in singleplayer, place the `.world.gzip` file on your PC in the following folder:

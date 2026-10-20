@@ -21,8 +21,8 @@ related: ["gameserver/beammp/change-max-cars", "gameserver/beammp/change-max-pla
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Beschreibung eintragen**\
    Trage die gewünschte Beschreibung im Feld **Server Beschreibung** ein.

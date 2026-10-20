@@ -26,8 +26,8 @@ Um Deinen BeamMP Server starten zu können, benötigst Du einen **Authentifizier
 2. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-3. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+3. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 4. **Schlüssel eintragen**\
    Trage den Schlüssel im Feld **Authentifizierungsschlüssel** ein.

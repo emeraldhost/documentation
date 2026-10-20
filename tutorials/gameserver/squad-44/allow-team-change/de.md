@@ -23,8 +23,8 @@ Du kannst festlegen, ob Spieler während eines Spiels das Team wechseln dürfen.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Teamwechsel erlauben anpassen**\
    Setze das Feld **Teamwechsel erlauben** auf den gewünschten Wert:

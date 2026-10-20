@@ -81,4 +81,4 @@ loadautosave
 > Auto-saves are no replacement for a backup: they sit on the same server and are overwritten automatically once the configured amount is reached.
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

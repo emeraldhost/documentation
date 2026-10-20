@@ -24,8 +24,8 @@ You can configure how often and how many backups the server creates.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust backup settings**\
    Adjust the following fields:

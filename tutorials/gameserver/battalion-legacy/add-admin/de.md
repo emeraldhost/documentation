@@ -26,7 +26,7 @@ BATTALION Legacy hat **keine Adminliste mit SteamIDs**. Stattdessen gibt es ein 
 ## Admin-Passwort setzen
 
 1. **Verwaltung öffnen**\
-   Öffne die **Verwaltung** Deines Servers und wechsle zu den **Einstellungen**.
+   Öffne die **Verwaltung** Deines Servers und wechsle zum **Config-Editor**.
 
 2. **Passwort eintragen**\
    Trage im Feld **Admin Passwort** Dein gewünschtes Passwort ein.

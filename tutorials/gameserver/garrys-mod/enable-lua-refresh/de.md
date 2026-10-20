@@ -24,8 +24,8 @@ Mit **Lua Refresh** (in Garry's Mod „Auto Refresh“ genannt) lädt Dein Serve
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Lua Refresh einschalten**\
    Aktiviere die Einstellung **Lua Refresh**.
@@ -52,8 +52,8 @@ Wir empfehlen, Lua Refresh nur einzuschalten, während Du an Deinen Addons arbei
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Lua Refresh ausschalten**\
    Deaktiviere die Einstellung **Lua Refresh**.

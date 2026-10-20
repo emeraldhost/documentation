@@ -21,8 +21,8 @@ related: ["gameserver/runescape-dragonwilds/create-custom-world", "gameserver/ru
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set admin password**\
    Enter the desired password in the **Admin Password** field.

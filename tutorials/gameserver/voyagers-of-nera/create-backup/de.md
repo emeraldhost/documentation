@@ -47,4 +47,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Sowohl Deine Welt als auch Deine Servereinstellungen liegen unter `/BoatGame/Saved/PersistedData/`. Ein Backup dieses Verzeichnisses enthält damit beides: den Ordner Deiner Welt und den Ordner `CustomConfig`.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

@@ -23,8 +23,8 @@ When enabled, only the first-person view is available on your server. Players ca
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust First Person Only**\
    Set the **First Person Only** field to the desired value:

@@ -51,7 +51,7 @@ Du kannst einen lokalen Spielstand auf Deinen Server übertragen, um mit einer b
    ```
 
 4. **Spielstandnamen setzen**\
-   Öffne die Verwaltung, navigiere zu den **Einstellungen** und trage im Feld **Save Name** den Dateinamen Deines Spielstands ein – **ohne** die Endung `.zip` (z.B. `Meine_Fabrik` für `Meine_Fabrik.zip`).
+   Öffne die Verwaltung, navigiere zum **Config-Editor** und trage im Feld **Save Name** den Dateinamen Deines Spielstands ein – **ohne** die Endung `.zip` (z.B. `Meine_Fabrik` für `Meine_Fabrik.zip`).
 
 5. **Server starten**\
    Speichere die Einstellungen und starte Deinen Server.

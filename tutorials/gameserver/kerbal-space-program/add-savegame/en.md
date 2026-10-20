@@ -93,7 +93,7 @@ A regular KSP save file (`persistent.sfs`) cannot be uploaded directly. The DMP 
 > Use the same player name on the server as during the conversion. If the name differs, the server finds no matching folder under `Universe/Scenarios/` and your converted progress is not assigned to you.
 
 > [!TIP]
-> If the game mode and difficulty do not match your uploaded savegame, set both in the **dashboard** under **settings** (**Game Mode** and **Game Difficulty**). Both values are written from the dashboard into the configuration on every server start – changing them directly in the file has no effect.
+> If the game mode and difficulty do not match your uploaded savegame, set both in the **dashboard** in the **Config Editor** (**Game Mode** and **Game Difficulty**). Both values are written from the dashboard into the configuration on every server start – changing them directly in the file has no effect.
 
 > [!NOTE]
 > Vessels from the converted savegame are stored as individual files in `Universe/Vessels/`. That way a single vessel can be removed without touching the whole savegame – stop the server for that as well.

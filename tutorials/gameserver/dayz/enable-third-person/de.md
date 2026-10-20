@@ -23,8 +23,8 @@ Du kannst die Third-Person-Ansicht über die Verwaltung aktivieren oder deaktivi
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Third Person umschalten**\
    Aktiviere oder deaktiviere die Option **Third Person deaktivieren**:

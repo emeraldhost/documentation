@@ -24,8 +24,8 @@ Game Master ist ein Spielmodus, in dem nichts vorgeplant ist. Ein Spieler übern
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Szenario ID eintragen**\
    Trage eine der folgenden Szenario IDs in das Feld **Szenario ID** ein:
@@ -51,7 +51,7 @@ Auf einem Game-Master-Server gelten folgende Regeln:
 - Die Rolle kann nicht weitergegeben werden, solange dieser Spieler verbunden ist.
 
 > [!WARNING]
-> Ist kein Game Master auf dem Server, erhält der erste Spieler, der beitritt, die Game-Master-Rolle – auch wenn Du als Admin eingetragen bist. Als eingetragener Admin hast Du aber jederzeit selbst Zugriff auf die Game-Master-Oberfläche. Möchtest Du verhindern, dass Fremde die Rolle übernehmen, tritt Deinem Server als Erster bei oder schütze ihn mit einem **Server Passwort** in den **Einstellungen**, solange Du nicht online bist.
+> Ist kein Game Master auf dem Server, erhält der erste Spieler, der beitritt, die Game-Master-Rolle – auch wenn Du als Admin eingetragen bist. Als eingetragener Admin hast Du aber jederzeit selbst Zugriff auf die Game-Master-Oberfläche. Möchtest Du verhindern, dass Fremde die Rolle übernehmen, tritt Deinem Server als Erster bei oder schütze ihn mit einem **Server Passwort** im **Config-Editor**, solange Du nicht online bist.
 
 ### Dich als Admin eintragen
 
@@ -85,7 +85,7 @@ Auf einem Game-Master-Server gelten folgende Regeln:
 
 ### Im Spiel als Admin anmelden
 
-Zusätzlich kannst Du Dich im Spiel als Server-Admin anmelden. Lege dafür in der Verwaltung unter **Einstellungen** ein **Admin Passwort** fest. Öffne im Spiel den Chat – in der Lobby mit `C`, im laufenden Spiel mit `Enter` – und gib folgenden Befehl ein:
+Zusätzlich kannst Du Dich im Spiel als Server-Admin anmelden. Lege dafür in der Verwaltung im **Config-Editor** ein **Admin Passwort** fest. Öffne im Spiel den Chat – in der Lobby mit `C`, im laufenden Spiel mit `Enter` – und gib folgenden Befehl ein:
 
 ```text
 #login DeinAdminPasswort

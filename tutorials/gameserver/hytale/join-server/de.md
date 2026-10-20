@@ -72,8 +72,8 @@ Um den Server für zukünftige Verbindungen zu speichern:
 > Kommt keine Verbindung zustande, prüfe der Reihe nach:
 >
 > - Läuft Dein Server? Er ist bereit, sobald in der Konsole der **Verwaltung** `Hytale Server Booted!` erscheint. Direkt nach einem Start oder einem Update kann das einen Moment dauern.
-> - Stimmen die Versionen überein? Dein Hytale-Client und Dein Server müssen exakt dieselbe Protokollversion nutzen. Nach einem Hytale-Update kannst Du erst wieder beitreten, wenn auch Dein Server aktualisiert ist. Ist in der **Verwaltung** unter **Einstellungen** das Feld **Auto Update** aktiv und steht das Feld **Hytale Version** auf `latest` (beides Standard), prüft Dein Server bei jedem Start, ob eine neue Version verfügbar ist. Ein Neustart reicht dann aus.
-> - Passt die Patchline? Spielst Du im Launcher die Pre-Release-Version, passt Dein Client in der Regel nicht zu einem Server auf der Patchline `release`. Die Patchline Deines Servers stellst Du in der **Verwaltung** unter **Einstellungen** im Feld **Hytale Patchline** ein (`release` oder `pre-release`).
+> - Stimmen die Versionen überein? Dein Hytale-Client und Dein Server müssen exakt dieselbe Protokollversion nutzen. Nach einem Hytale-Update kannst Du erst wieder beitreten, wenn auch Dein Server aktualisiert ist. Ist in der **Verwaltung** im **Config-Editor** das Feld **Auto Update** aktiv und steht das Feld **Hytale Version** auf `latest` (beides Standard), prüft Dein Server bei jedem Start, ob eine neue Version verfügbar ist. Ein Neustart reicht dann aus.
+> - Passt die Patchline? Spielst Du im Launcher die Pre-Release-Version, passt Dein Client in der Regel nicht zu einem Server auf der Patchline `release`. Die Patchline Deines Servers stellst Du in der **Verwaltung** im **Config-Editor** im Feld **Hytale Patchline** ein (`release` oder `pre-release`).
 > - Ist die [Whitelist](/tutorials/gameserver/hytale/enable-whitelist) aktiv? Dann können nur freigeschaltete Spieler beitreten.
 
 > [!IMPORTANT]

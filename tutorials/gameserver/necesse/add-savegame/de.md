@@ -60,7 +60,7 @@ Eine Necesse-Welt ist **eine einzige `.zip`-Datei**, die nach dem Weltnamen bena
    Lade Deine `.zip`-Datei in dieses Verzeichnis hoch. Ist dort bereits eine Datei mit demselben Namen vorhanden, benenne Deine hochgeladene Datei um oder lade die vorhandene vorher herunter.
 
 5. **Weltnamen in der Verwaltung eintragen**\
-   Öffne die Verwaltung, navigiere zu den **Einstellungen** und trage im Feld **Save Name** den Namen Deiner Welt-Datei ein – **ohne** die Endung `.zip` (z.B. `Meine_Welt` für `Meine_Welt.zip`).
+   Öffne die Verwaltung, navigiere zum **Config-Editor** und trage im Feld **Save Name** den Namen Deiner Welt-Datei ein – **ohne** die Endung `.zip` (z.B. `Meine_Welt` für `Meine_Welt.zip`).
 
 6. **Server starten**\
    Speichere die Einstellungen und starte Deinen Server. Beim Start wird jetzt Deine hochgeladene Welt geladen.

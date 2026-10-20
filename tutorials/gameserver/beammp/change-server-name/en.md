@@ -23,8 +23,8 @@ You can change the display name of your server that is shown in the server list.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change server name**\
    Enter the desired name and save the setting.

@@ -65,7 +65,7 @@ Du musst keinen Java-Code verstehen, um einen Crash-Report zu nutzen:
 
 ## Server-Software aktuell halten
 
-Ältere Server-Versionen enthalten bekannte Fehler, die teils gezielt von Spielern ausgelöst werden können. Halte Deine Server-Software deshalb aktuell – über die Felder **Version** und **Build ID** in den Einstellungen der Verwaltung. Die einzelnen Schritte findest Du in [Version ändern](/tutorials/gameserver/minecraft/change-version).
+Ältere Server-Versionen enthalten bekannte Fehler, die teils gezielt von Spielern ausgelöst werden können. Halte Deine Server-Software deshalb aktuell – über die Felder **Version** und **Build ID** im Config-Editor der Verwaltung. Die einzelnen Schritte findest Du in [Version ändern](/tutorials/gameserver/minecraft/change-version).
 
 > [!WARNING]
 > Update nicht blind: Nach einem großen Minecraft-Update brauchen Deine Plugins und Mods oft selbst ein Update – sonst stürzt der Server gerade **wegen** des Updates ab. Prüfe vorher auf den Download-Seiten, ob alle Plugins und Mods Deine Ziel-Version unterstützen, und erstelle ein [Backup](/tutorials/gameserver/minecraft/create-backup).

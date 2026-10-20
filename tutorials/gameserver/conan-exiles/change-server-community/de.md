@@ -23,8 +23,8 @@ Die Community wirkt sich darauf aus, wie Dein Server in der Serverliste gefilter
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Community auswählen**\
    Trage im Feld **Server Community** den gewünschten Wert ein:

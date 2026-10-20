@@ -48,8 +48,8 @@ Mit dem Branch `default_pre1_0` spielst Du Deine Welt mit der letzten Version vo
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Branch eintragen**\
    Trage den gewünschten Branch im Feld **Steam Beta Branch** ein.

@@ -45,7 +45,7 @@ To join your server, you need the [invite code](/tutorials/gameserver/windrose/s
    If the server has a password, enter it to join.
 
 > [!NOTE]
-> You can find your invite code in the dashboard under **Settings** or in the file `/R5/ServerDescription.json`. The code is case-sensitive – pay attention to correct capitalization when entering it.
+> You can find your invite code in the dashboard in the **Config Editor** or in the file `/R5/ServerDescription.json`. The code is case-sensitive – pay attention to correct capitalization when entering it.
 
 ## Via direct connection (IP address)
 

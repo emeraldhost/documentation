@@ -23,8 +23,8 @@ The server region affects how your server is filtered in the server list. Choose
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select region**\
    Enter the desired value in the **Server Region** field:

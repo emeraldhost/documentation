@@ -57,8 +57,8 @@ You can also find your server by its name in the public server list in the **Mul
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable the server list**\
    Set the **Server List** field to `1`. With `0`, your server is not shown in the public list.
@@ -70,4 +70,4 @@ You can also find your server by its name in the public server list in the **Mul
    Launch The Bus, open the **Multiplayer** menu and search for your server by its name. If a server password is set, enter it when joining.
 
 > [!NOTE]
-> You set the name of your server in the **Settings** in the **Server Name** field. You can find more information under [Configure Server](/tutorials/gameserver/the-bus/configure-server).
+> You set the name of your server in the **Config Editor** in the **Server Name** field. You can find more information under [Configure Server](/tutorials/gameserver/the-bus/configure-server).

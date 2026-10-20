@@ -6,7 +6,7 @@ description: "BepInEx für Mods auf einem Valheim Server nutzen"
 tags: []
 date: "2026-04-10"
 visibility: "public"
-updated: "2026-10-19"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["valheim"]
 author: "EmeraldHost Team"
@@ -36,15 +36,26 @@ Mods lädst Du anschließend als `.dll`-Dateien in den Ordner `/BepInEx/plugins/
 
 ## Von einem normalen Valheim Server wechseln
 
-Hast Du bereits einen normalen Valheim Server, kannst Du ihn selbst auf Valheim BepInEx umstellen.
+Hast Du bereits einen normalen Valheim Server, legst Du darauf selbst eine Instanz mit Valheim BepInEx an. Deine bisherige Instanz bleibt dabei erhalten, Du kannst jederzeit zwischen den Instanzen wechseln.
 
-1. **Backup erstellen**: Erstelle vorher ein [Backup](/tutorials/gameserver/valheim/create-backup) oder lade Deine Welt herunter (siehe [Savegame herunterladen](/tutorials/gameserver/valheim/download-savegame)).
+1. **Welt sichern**: Lade Deine Welt herunter, damit Du sie in der neuen Instanz weiterspielen kannst (siehe [Savegame herunterladen](/tutorials/gameserver/valheim/download-savegame)).
 
-2. **Instanzen öffnen**: Öffne die Verwaltung Deines Servers und klicke auf **Instanzen**.
+2. **Instanzen öffnen**: Öffne die Verwaltung Deines Servers und klicke in der linken Seitenleiste auf **Instanzen**.
 
-3. **Valheim BepInEx auswählen**: Wechsle dort zu **Valheim BepInEx**.
+3. **Instanz erstellen**: Klicke auf **Instanz erstellen**, suche nach „Valheim“, wähle **Valheim BepInEx** aus und gehe zum nächsten Schritt.
 
-4. **Server starten**: Starte Deinen Server und prüfe wie unten beschrieben, ob BepInEx geladen wird.
+4. **Instanz konfigurieren**: Gib unter **Name** einen Namen für die Instanz ein und lege **Arbeitsspeicher** und **Speicherplatz** fest. Unten siehst Du, ob sich Dein Monatspreis dadurch ändert. Gehe dann zum nächsten Schritt.
+
+5. **Instanz anlegen**: Prüfe in der **Übersicht** Deine Auswahl und klicke auf **Erstellen**. Die Instanz wird automatisch eingerichtet, das kann einige Minuten dauern.
+
+6. **Instanz aktivieren**: Wechsle auf die neue Instanz. Klicke dazu in der Kopfzeile auf das Symbol **Instanz wechseln** oder wähle im Dropdown **Aktionen** den Eintrag **Instanz wechseln** (siehe [Instanzen nutzen](/tutorials/gameserver/use-instances)).
+
+7. **Welt hochladen**: Lade Deine gesicherte Welt in die neue Instanz hoch (siehe [Savegame hinzufügen](/tutorials/gameserver/valheim/add-savegame)).
+
+8. **Server starten**: Starte Deinen Server und prüfe wie unten beschrieben, ob BepInEx geladen wird.
+
+> [!NOTE]
+> Wie viele Instanzen Du anlegen kannst, siehst Du oben auf der Seite **Instanzen**. Sind alle Plätze belegt, kannst Du sie über **Instanz-Plätze erweitern** aufstocken.
 
 ## Prüfen, ob BepInEx geladen wird
 

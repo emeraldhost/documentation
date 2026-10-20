@@ -47,7 +47,7 @@ You can find your Hytale saves here:
 Every save has its own folder there. Navigate to `universe/worlds/` within your save to find the world folders.
 
 > [!NOTE]
-> If you play the pre-release version of Hytale, your saves are not stored under `UserData` but in the `data/pre-release/` folder inside the Hytale folder. Such a world may not open on a server on the `release` patchline. You set your server's patchline in the **dashboard** under **Settings** in the **Hytale Patchline** field.
+> If you play the pre-release version of Hytale, your saves are not stored under `UserData` but in the `data/pre-release/` folder inside the Hytale folder. Such a world may not open on a server on the `release` patchline. You set your server's patchline in the **dashboard** in the **Config Editor** in the **Hytale Patchline** field.
 
 ## How to Upload the World
 

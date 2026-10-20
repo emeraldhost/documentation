@@ -63,7 +63,7 @@ Avorion bietet Dir zwei Wege auf Deinen Server: den Serverbrowser im Spiel oder 
 > Im Serverbrowser erscheint Dein Server nur, wenn er öffentlich gelistet ist. Gesteuert wird das in der **Verwaltung** über die Einstellung **Serverliste** (`true` = gelistet, `false` = nicht gelistet); intern entspricht das dem Startparameter `--listed` beziehungsweise dem Wert `isListed` in der `server.ini`. Findest Du Deinen Server dort nicht, nutze die Direktverbindung über **Join via IP**.
 
 > [!WARNING]
-> Nach einem Neustart oder einer Änderung an den Einstellungen dauert es einen Moment, bis der Server wieder erreichbar ist. Prüfe in der **Verwaltung**, ob der Server vollständig gestartet ist, bevor Du Dich verbindest.
+> Nach einem Neustart oder einer Änderung im **Config-Editor** dauert es einen Moment, bis der Server wieder erreichbar ist. Prüfe in der **Verwaltung**, ob der Server vollständig gestartet ist, bevor Du Dich verbindest.
 
 > [!TIP]
 > Ein Avorion-Server belegt neben dem Game Port zusätzlich einen Query Port sowie Ports für die Steam-Abfrage. Alle Werte werden Deinem Server in der **Verwaltung** zugewiesen. Trage zum Verbinden zuerst den **Game Port** ein – klappt die Verbindung damit nicht, versuche denselben Eintrag mit dem **Query Port**.

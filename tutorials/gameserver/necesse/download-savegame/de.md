@@ -48,7 +48,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > [!NOTE]
 > **Welche Datei ist die richtige?**
 >
-> Welche Welt Dein Server lädt, steht in der Verwaltung unter **Einstellungen** im Feld **Save Name**. Steht dort zum Beispiel `Meine_Welt`, ist `Meine_Welt.zip` Deine aktuelle Welt.
+> Welche Welt Dein Server lädt, steht in der Verwaltung im **Config-Editor** im Feld **Save Name**. Steht dort zum Beispiel `Meine_Welt`, ist `Meine_Welt.zip` Deine aktuelle Welt.
 
 > [!WARNING]
 > Entpacke die `.zip`-Datei nicht. Sowohl der Server als auch das Spiel erwarten die Welt als gepacktes Archiv.

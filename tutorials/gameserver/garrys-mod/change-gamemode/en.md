@@ -66,7 +66,7 @@ The easiest way to install a gamemode is through your server's Workshop collecti
    Find out the folder name of the gamemode as described in [Find the correct folder name](#find-the-correct-folder-name).
 
 3. **Enter the gamemode**\
-   Then enter the folder name as described in [Set the gamemode in the settings](#set-the-gamemode-in-the-settings).
+   Then enter the folder name as described in [Set the gamemode in the Config Editor](#set-the-gamemode-in-the-config-editor).
 
 > [!TIP]
 > If the gamemode's `.txt` file contains a Workshop ID – as with DarkRP, Prop Hunt: Enhanced or Murder –, players automatically download the gamemode when they join your server. The same applies to the current map if it is part of your server's collection.
@@ -104,15 +104,15 @@ You upload gamemodes that do not come from the Workshop (for example from GitHub
    > - **Its own `gamemodes/` folder:** If the download itself contains a `gamemodes/` folder, upload only the gamemode folder inside it.
 
 5. **Enter the gamemode**\
-   Enter the folder name as described in [Set the gamemode in the settings](#set-the-gamemode-in-the-settings).
+   Enter the folder name as described in [Set the gamemode in the Config Editor](#set-the-gamemode-in-the-config-editor).
 
-## Set the gamemode in the settings
+## Set the gamemode in the Config Editor
 
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the gamemode**\
    Enter the folder name of the gamemode in the **Gamemode** field, for example `terrortown`. The server then starts with the parameter:
@@ -131,7 +131,7 @@ You upload gamemodes that do not come from the Workshop (for example from GitHub
 > You can usually tell which maps match a gamemode by the prefix in the map name, for example `ttt_` for TTT, `rp_` for DarkRP or `ph_` for Prop Hunt. The gamemode will still start on a map that does not match, but such a map lacks things like the spawn and weapon points TTT needs.
 
 > [!TIP]
-> You can also switch the gamemode while the server is running. Enter `gamemode terrortown` in the console and then load a new map with `changelevel ttt_examplemap`. The switch only takes effect when the map loads. After a restart your server starts with the gamemode from the **Settings** again.
+> You can also switch the gamemode while the server is running. Enter `gamemode terrortown` in the console and then load a new map with `changelevel ttt_examplemap`. The switch only takes effect when the map loads. After a restart your server starts with the gamemode from the **Config Editor** again.
 
 ## Star Wars RP and DarkRP
 

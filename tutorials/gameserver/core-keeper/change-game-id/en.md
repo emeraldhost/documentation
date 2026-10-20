@@ -23,8 +23,8 @@ The Game ID is the unique identifier of your server. Players need it to join the
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter Game ID**\
    Enter the desired ID in the **Game ID** field.

@@ -75,7 +75,7 @@ Server ohne GSLT gelten als „anonym“ und werden in der öffentlichen Interne
    Stoppe Deinen Server über die Verwaltung.
 
 3. **Token hinterlegen**\
-   Gibt es in der Verwaltung unter **Einstellungen** ein Feld für das Login Token, trage es dort ein. Andernfalls verbindest Du Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) und trägst das Token als Befehl in der `Commands.dat` ein:
+   Gibt es in der Verwaltung im **Config-Editor** ein Feld für das Login Token, trage es dort ein. Andernfalls verbindest Du Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) und trägst das Token als Befehl in der `Commands.dat` ein:
 
    ```text
    /Servers/<ServerID>/Server/Commands.dat

@@ -21,8 +21,8 @@ related: ["gameserver/windrose/add-savegame", "gameserver/windrose/change-server
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust player count**\
    Enter the desired number in the **Max Players** field.

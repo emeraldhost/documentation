@@ -24,8 +24,8 @@ With crossplay, players from different platforms (PC, Mac, Xbox One, Xbox Series
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Configure crossplay**\
    Enter the desired value in the **Enable Crossplay** field:

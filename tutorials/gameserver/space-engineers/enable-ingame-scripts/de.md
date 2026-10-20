@@ -24,8 +24,8 @@ Mit dieser Einstellung erlaubst Du das Ausführen von Ingame-Skripten – den C#
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Ingame Skripte aktivieren**\
    Setze die Einstellung **Ingame Skripte** auf `true`, um sie zu erlauben, oder auf `false`, um sie zu verbieten.

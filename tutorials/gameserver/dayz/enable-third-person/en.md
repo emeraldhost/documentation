@@ -23,8 +23,8 @@ You can enable or disable the third-person view via the dashboard.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Toggle third person**\
    Enable or disable the **Disable Third Person** option:

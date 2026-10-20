@@ -21,8 +21,8 @@ related: ["gameserver/barotrauma/add-savegame", "gameserver/barotrauma/change-ga
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Spieleranzahl anpassen**\
    Trage die gewünschte Anzahl im Feld **Maximale Spieler** ein.

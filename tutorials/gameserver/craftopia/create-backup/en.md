@@ -49,4 +49,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > How often your server saves is controlled in the file `/ServerSetting.ini` in the `[Save]` section: `autoSaveSec` defines the interval in seconds (default `300`, meaning every five minutes) and `autoSavePerHour` additionally controls hourly saving. This automatic saving is no replacement for a backup though – it always overwrites the same save.
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

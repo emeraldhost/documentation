@@ -122,7 +122,7 @@ Clear, Partly Cloudy, Cloudy, Overcast, Foggy, Light Rain, Rain, Storm
 > [!WARNING]
 > **Caution**
 >
-> Some values in the `Game.ini` are overwritten from the settings in your **dashboard** on every server start. Change those values there instead of in the file – otherwise your changes are gone again after the next start.
+> Some values in the `Game.ini` are overwritten from the **Config Editor** in your **dashboard** on every server start. Change those values there instead of in the file – otherwise your changes are gone again after the next start.
 
 > [!NOTE]
 > The configuration folder is called `WindowsServer` on your Linux server as well. The Cenozoic Era only ships a Windows server binary, which runs on Linux servers through a compatibility layer. A folder named `LinuxServer` does not exist.

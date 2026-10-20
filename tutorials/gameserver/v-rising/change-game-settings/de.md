@@ -26,8 +26,8 @@ Du kannst die voreingestellten Spieleinstellungen über die Verwaltung anpassen.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Spieleinstellungen auswählen**\
    Trage im Feld **Voreingestellte Spieleinstellungen** den gewünschten Wert ein:

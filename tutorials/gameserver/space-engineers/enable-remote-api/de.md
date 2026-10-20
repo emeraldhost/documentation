@@ -23,8 +23,8 @@ Die Remote API (VRage Remote API) ermöglicht die Fernverwaltung Deines Servers 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Remote API aktivieren**\
    Setze die Einstellung **Remote API** auf `true`, um sie zu aktivieren, oder auf `false`, um sie zu deaktivieren.

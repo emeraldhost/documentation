@@ -63,7 +63,7 @@ On the first launch, the server has to authorize itself with mod.io once using a
 ## Step 4: Authorize the server once
 
 1. **Open dashboard**\
-   Open the dashboard and navigate to the **Settings**.
+   Open the dashboard and navigate to the **Config Editor**.
 
 2. **Enter the security code**\
    Enter the code you received by email in the **Security Code** field (replacing the default value `none`) and save the setting.

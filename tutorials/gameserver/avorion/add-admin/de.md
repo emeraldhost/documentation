@@ -26,7 +26,7 @@ Administratoren werden auf einem Avorion Server über die **SteamID64** festgele
 ## Über die Verwaltung
 
 1. **Verwaltung öffnen**\
-   Öffne die **Verwaltung** Deines Servers und wechsle zu den **Einstellungen**.
+   Öffne die **Verwaltung** Deines Servers und wechsle zum **Config-Editor**.
 
 2. **SteamID64 eintragen**\
    Trage im Feld **Admin ID** die SteamID64 der gewünschten Person ein. Das Feld nimmt eine einzelne SteamID64 auf und muss ausgefüllt sein, damit Dein Server startet.

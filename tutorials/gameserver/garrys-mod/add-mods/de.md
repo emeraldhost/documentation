@@ -45,8 +45,8 @@ Der Server kann genau **eine** Workshop Collection laden. Alle Addons, die Du au
 3. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-4. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+4. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 5. **Collection-ID eintragen**\
    Trage die Collection-ID im Feld **Workshop ID** ein. Der Server startet damit mit dem Parameter:
@@ -101,7 +101,7 @@ Gamemodes werden nicht im `addons`-Ordner abgelegt, sondern in einem eigenen Ver
    ```
 
 2. **Gamemode auswählen**\
-   Trage in den **Einstellungen** Deines Servers im Feld **Gamemode** den Ordnernamen des Gamemodes ein. Der Server startet damit mit dem Parameter `+gamemode <ordnername>`.
+   Trage im **Config-Editor** Deines Servers im Feld **Gamemode** den Ordnernamen des Gamemodes ein. Der Server startet damit mit dem Parameter `+gamemode <ordnername>`.
 
 3. **Server neu starten**\
    Speichere die Einstellung und starte Deinen Server neu.

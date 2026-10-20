@@ -72,8 +72,8 @@ To save the server for future connections:
 > If you cannot connect, check the following in order:
 >
 > - Is your server running? It is ready as soon as `Hytale Server Booted!` appears in the console of the **dashboard**. Right after a start or an update this can take a moment.
-> - Do the versions match? Your Hytale client and your server must use exactly the same protocol version. After a Hytale update you can only join again once your server has been updated as well. If the **Auto Update** field in the **dashboard** under **Settings** is enabled and the **Hytale Version** field is set to `latest` (both default), your server checks for a new version on every start. A restart is then enough.
-> - Does the patchline match? If you play the pre-release version in the launcher, your client usually does not match a server on the `release` patchline. You set your server's patchline in the **dashboard** under **Settings** in the **Hytale Patchline** field (`release` or `pre-release`).
+> - Do the versions match? Your Hytale client and your server must use exactly the same protocol version. After a Hytale update you can only join again once your server has been updated as well. If the **Auto Update** field in the **dashboard** in the **Config Editor** is enabled and the **Hytale Version** field is set to `latest` (both default), your server checks for a new version on every start. A restart is then enough.
+> - Does the patchline match? If you play the pre-release version in the launcher, your client usually does not match a server on the `release` patchline. You set your server's patchline in the **dashboard** in the **Config Editor** in the **Hytale Patchline** field (`release` or `pre-release`).
 > - Is the [whitelist](/tutorials/gameserver/hytale/enable-whitelist) active? Then only approved players can join.
 
 > [!IMPORTANT]

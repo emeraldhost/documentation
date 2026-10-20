@@ -72,7 +72,7 @@ Players with admin rights can appoint additional admins directly in-game:
 
 ## What Does the "Allow operators" Setting Do?
 
-In the **Settings** of your dashboard, you will find the **Allow operators** field. It is set to `1` by default and enables the `/op self` command. With it, any player can make themselves admin in-game. Running `/op self` again removes the rights.
+In the **Config Editor** of your dashboard, you will find the **Allow operators** field. It is set to `1` by default and enables the `/op self` command. With it, any player can make themselves admin in-game. Running `/op self` again removes the rights.
 
 > [!WARNING]
 > As long as **Allow operators** is set to `1`, any player who can join your server can give themselves admin rights with `/op self`. It is best to grant admin rights via the console and then set the field to `0`.
@@ -82,8 +82,8 @@ How to turn off `/op self`:
 1. **Open dashboard**\
    Open the dashboard of your Hytale server.
 
-2. **Open Settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Disable Allow operators**\
    Set the **Allow operators** field to `0`.

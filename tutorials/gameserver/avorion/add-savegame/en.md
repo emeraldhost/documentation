@@ -76,7 +76,7 @@ Always upload the folder **completely** – individual files taken from it do no
    > Use a folder name without spaces and special characters and keep it short. It is best to replace spaces with underscores, for example `My_Galaxy` – otherwise spaces in the folder name cause problems on startup.
 
 5. **Enter the galaxy name**\
-   Open the **dashboard**, switch to the **settings** and enter the folder name of your uploaded galaxy in the field for the galaxy name (**Galaxy Name**) – exactly as it is written, including capitalisation.
+   Open the **dashboard**, switch to the **Config Editor** and enter the folder name of your uploaded galaxy in the field for the galaxy name (**Galaxy Name**) – exactly as it is written, including capitalisation.
 
 6. **Start the server**\
    Save all changes and start your server. On startup your uploaded galaxy is now loaded.

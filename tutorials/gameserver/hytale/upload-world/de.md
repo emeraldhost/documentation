@@ -47,7 +47,7 @@ Die Hytale-Spielstände findest Du hier:
 Jeder Spielstand hat dort einen eigenen Ordner. Navigiere innerhalb Deines Spielstands zu `universe/worlds/`, um die Welt-Ordner zu finden.
 
 > [!NOTE]
-> Spielst Du auf der Pre-Release-Version von Hytale, liegen Deine Spielstände nicht unter `UserData`, sondern im Ordner `data/pre-release/` innerhalb des Hytale-Ordners. Eine solche Welt lässt sich auf einem Server mit der Patchline `release` unter Umständen nicht öffnen. Die Patchline Deines Servers stellst Du in der **Verwaltung** unter **Einstellungen** im Feld **Hytale Patchline** ein.
+> Spielst Du auf der Pre-Release-Version von Hytale, liegen Deine Spielstände nicht unter `UserData`, sondern im Ordner `data/pre-release/` innerhalb des Hytale-Ordners. Eine solche Welt lässt sich auf einem Server mit der Patchline `release` unter Umständen nicht öffnen. Die Patchline Deines Servers stellst Du in der **Verwaltung** im **Config-Editor** im Feld **Hytale Patchline** ein.
 
 ## So lädst Du die Welt hoch
 

@@ -23,8 +23,8 @@ Du kannst die Beschreibung Deines Servers anpassen, die Spielern in der Serverli
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server Beschreibung ändern**\
    Trage den gewünschten Text im Feld **Server Beschreibung** ein und speichere die Einstellung.

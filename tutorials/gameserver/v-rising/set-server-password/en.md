@@ -21,8 +21,8 @@ related: ["gameserver/v-rising/enable-server-list", "gameserver/v-rising/fix-eos
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set server password**\
    Enter the desired password in the **Server Password** field.

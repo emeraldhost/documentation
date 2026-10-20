@@ -70,7 +70,7 @@ Admins legst Du auf einem Abiotic Factor Server über die Datei `Admin.ini` fest
 Abiotic Factor unterstützt zusätzlich den Startparameter `-AdminPassword=<Passwort>`. Ist er gesetzt, kann sich ein Spieler im Spiel durch Eingabe dieses Passworts selbst Adminrechte geben – ganz ohne Eintrag in der `Admin.ini`.
 
 > [!NOTE]
-> Ob Deine Verwaltung ein Feld für das Admin-Passwort oder für zusätzliche Startparameter anbietet, siehst Du unter **Einstellungen**. Das Admin-Passwort ist unabhängig vom Server-Passwort – es sind zwei verschiedene Passwörter.
+> Ob Deine Verwaltung ein Feld für das Admin-Passwort oder für zusätzliche Startparameter anbietet, siehst Du im **Config-Editor**. Das Admin-Passwort ist unabhängig vom Server-Passwort – es sind zwei verschiedene Passwörter.
 
 > [!WARNING]
 > Jeder, der das Admin-Passwort kennt, kann sich damit Adminrechte auf Deinem Server verschaffen. Gib es nur an Personen weiter, denen Du vertraust, und verwende ein anderes Passwort als das Server-Passwort.

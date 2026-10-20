@@ -44,7 +44,7 @@ Diese Methode ist am einfachsten und empfohlen für die meisten Nutzer.
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server und lade die `.html` Datei als `modlist.html` hoch.
 
 7. **Modlist konfigurieren**\
-   Gehe in die **Einstellungen** über Deine Verwaltung und trage den Dateinamen bei **Modliste-Datei (Exportiert aus dem DayZ Launcher)** ein. Standardmäßig ist dort bereits `modlist.html` eingetragen.
+   Gehe in Deiner Verwaltung zum **Config-Editor** und trage den Dateinamen bei **Modliste-Datei (Exportiert aus dem DayZ Launcher)** ein. Standardmäßig ist dort bereits `modlist.html` eingetragen.
 
 8. **Server starten**\
    Starte Deinen Server.
@@ -83,7 +83,7 @@ Diese Methode bietet mehr Kontrolle und ist nötig für Server-Side-Only Mods.
    Öffne den Mod-Ordner und navigiere zum `Keys` Unterordner. Lade alle `.bikey` Dateien herunter und lade sie in den `/keys` Ordner Deines Servers hoch.
 
 9. **Mods aktivieren**\
-   Gehe in die **Einstellungen** über Deine Verwaltung und trage die Mod-Namen unter **Zusätzliche Mods** ein, getrennt durch Semikolon:
+   Gehe in Deiner Verwaltung zum **Config-Editor** und trage die Mod-Namen unter **Zusätzliche Mods** ein, getrennt durch Semikolon:
 
    ```text
    @CF;@ModName1;@ModName2

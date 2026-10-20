@@ -25,8 +25,8 @@ Mutators are special game rules that change how the game works – for example o
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter mutators**\
    Enter the desired mutator in the **Additional Parameters** field:

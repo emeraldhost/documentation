@@ -23,8 +23,8 @@ You can attach a note with additional information about your server. This helps 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set note**\
    Enter the desired information in the **Note** field and save the setting.

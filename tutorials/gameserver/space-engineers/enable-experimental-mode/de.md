@@ -24,8 +24,8 @@ Der Experimental Modus schaltet erweiterte und experimentelle Funktionen frei. F
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Experimental Modus aktivieren**\
    Setze die Einstellung **Experimental Modus** auf `true`, um ihn zu aktivieren, oder auf `false`, um ihn zu deaktivieren.
@@ -40,8 +40,8 @@ Der Experimental Modus schaltet erweiterte und experimentelle Funktionen frei. F
 
 Beim Laden der Welt prüft der Server Deine Einstellungen. Trifft einer der folgenden Punkte zu, schaltet er den Experimental Modus automatisch ein:
 
-- **Ingame Skripte** steht in den **Einstellungen** auf `true` (siehe [Ingame Skripte erlauben](/tutorials/gameserver/space-engineers/enable-ingame-scripts)).
-- **Maximale Spieler** steht in den **Einstellungen** auf mehr als `16`.
+- **Ingame Skripte** steht im **Config-Editor** auf `true` (siehe [Ingame Skripte erlauben](/tutorials/gameserver/space-engineers/enable-ingame-scripts)).
+- **Maximale Spieler** steht im **Config-Editor** auf mehr als `16`.
 - Eine Welt-Einstellung in `Sandbox_config.sbc` erzwingt ihn, zum Beispiel `SyncDistance` über `3000`, `TotalPCU` über `600000` oder `BlockLimitsEnabled` auf `NONE`. Die vollständige Liste findest Du unter [Erzwungener Experimental Modus](/tutorials/gameserver/space-engineers/change-world-settings#erzwungener-experimental-modus).
 
 > [!WARNING]

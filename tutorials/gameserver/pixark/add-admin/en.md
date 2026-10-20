@@ -65,7 +65,7 @@ Add the players to a text file on the server. They then receive their rights aut
 ## Set the admin password
 
 1. **Open the dashboard**\
-   Open the **dashboard** of your server and switch to the **Settings**.
+   Open the **dashboard** of your server and switch to the **Config Editor**.
 
 2. **Enter the password**\
    Enter your desired password in the field for the **admin password** (`ServerAdminPassword`).

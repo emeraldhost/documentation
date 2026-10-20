@@ -23,8 +23,8 @@ When the server list is enabled, your server is listed in the Steam server brows
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable server list**\
    Enable the **Serverliste** toggle and save the setting.

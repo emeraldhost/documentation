@@ -26,8 +26,8 @@ The server image is shown at the top of your server listing.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set server image**\
    Enter the desired image URL in the **Server Image** field and save the setting.

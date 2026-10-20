@@ -21,7 +21,7 @@ related: ["gameserver/insurgency-sandstorm/configure-player-voting", "gameserver
 Cheats provide testing and diagnostic commands – for example to give yourself weapons, enable infinite ammo or slow motion. They are useful for testing server settings but should **not** be enabled during normal gameplay, as some commands provide a gameplay advantage.
 
 1. **Open dashboard**\
-   Open the dashboard of your server and navigate to the **Settings**.
+   Open the dashboard of your server and navigate to the **Config Editor**.
 
 2. **Enter the parameter**\
    Enter the following parameter in the **Additional Parameters** field:

@@ -44,7 +44,7 @@ This method is the easiest and recommended for most users.
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection) and upload the `.html` file as `modlist.html`.
 
 7. **Configure modlist**\
-   Go to **Settings** in your dashboard and enter the filename under **Modlist File (Exported from DayZ Launcher)**. By default, `modlist.html` is already set.
+   Go to the **Config Editor** in your dashboard and enter the filename under **Modlist File (Exported from DayZ Launcher)**. By default, `modlist.html` is already set.
 
 8. **Start the server**\
    Start your server.
@@ -83,7 +83,7 @@ This method offers more control and is required for server-side only mods.
    Open the mod folder and navigate to the `Keys` subfolder. Download all `.bikey` files and upload them to the `/keys` folder on your server.
 
 9. **Activate mods**\
-   Go to **Settings** in your dashboard and enter the mod names under **Additional Mods**, separated by semicolons:
+   Go to the **Config Editor** in your dashboard and enter the mod names under **Additional Mods**, separated by semicolons:
 
    ```text
    @CF;@ModName1;@ModName2

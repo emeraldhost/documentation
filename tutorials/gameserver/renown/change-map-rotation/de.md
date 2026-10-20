@@ -23,8 +23,8 @@ Die Map Rotation legt fest, welche Maps während des Spiels in welcher Reihenfol
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Map Rotation anpassen**\
    Trage die gewünschten Maps im Feld **Map Rotation** ein und speichere die Einstellung.

@@ -24,8 +24,8 @@ Your server automatically saves the world at regular intervals and creates a bac
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set the interval**\
    Enter the desired interval in minutes in the **Automatic Backup Interval** field – this is how often the server saves the world (default: `5`). After every successful save, the server creates a backup in the `/config/Saves/World/Backup/` folder.

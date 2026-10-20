@@ -59,8 +59,8 @@ Damit Du einen Token erstellen kannst, muss Dein Steam-Konto folgende Bedingunge
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Token eintragen**\
    Füge den Token im Feld **Steam Account Token** ein. Das Feld erwartet genau 32 Zeichen aus Buchstaben und Ziffern. Der Server startet damit mit dem Parameter:

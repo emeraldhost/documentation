@@ -23,8 +23,8 @@ FOUNDRY saves the game state automatically at regular intervals. The interval ca
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set the interval**\
    Enter the desired value in seconds in the **Autosave Interval** field (e.g. `300` for 5 minutes).

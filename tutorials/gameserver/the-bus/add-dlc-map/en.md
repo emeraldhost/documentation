@@ -24,7 +24,7 @@ Since **Update 1.2**, Hamburg works properly on dedicated servers as well. This 
 ## Requirements
 
 - **All players own the DLC:** Every player who wants to play on the map must own the **Hamburg City** DLC on Steam. All players must own the same DLCs to use them together.
-- **Game and server are up to date:** Keep your game and your server up to date. To do so, set the **Auto Update** field to `1` under **Settings** in the dashboard, so your server updates automatically on every start.
+- **Game and server are up to date:** Keep your game and your server up to date. To do so, set the **Auto Update** field to `1` in the **Config Editor** in the dashboard, so your server updates automatically on every start.
 - **Admin permissions:** You need Owner or Admin permissions or your server's admin password, see [Add Admin](/tutorials/gameserver/the-bus/add-admin).
 
 > [!NOTE]

@@ -24,8 +24,8 @@ Dein Server speichert die Welt in regelmäßigen Abständen automatisch und legt
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Intervall festlegen**\
    Trage im Feld **Automatischer Backup Interval** das gewünschte Intervall in Minuten ein, in dem der Server die Welt speichert (Standard: `5`). Nach jedem erfolgreichen Speichern legt der Server ein Backup im Ordner `/config/Saves/World/Backup/` an.

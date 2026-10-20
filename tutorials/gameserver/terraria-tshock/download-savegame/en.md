@@ -49,7 +49,7 @@ You can download your server's world to your PC at any time – for example as a
 > [!TIP]
 > **Which file is the right one?**
 >
-> You can tell which world is loaded from the **World Name** field in the **Settings** of the dashboard. If it contains `MyWorld`, for example, you need the file `MyWorld.wld`.
+> You can tell which world is loaded from the **World Name** field in the **Config Editor** of the dashboard. If it contains `MyWorld`, for example, you need the file `MyWorld.wld`.
 
 ## Other data that belongs to your savegame
 

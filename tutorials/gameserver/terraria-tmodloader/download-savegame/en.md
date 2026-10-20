@@ -47,7 +47,7 @@ You can download your server's savegame to your PC at any time – for example a
 > [!TIP]
 > **Find the right files**
 >
-> If there are several worlds in the directory, you can identify the active world by the name selected in the **Settings** in the dashboard. The `.wld` and the `.twld` file of a world always share the same filename.
+> If there are several worlds in the directory, you can identify the active world by the name selected in the **Config Editor** in the dashboard. The `.wld` and the `.twld` file of a world always share the same filename.
 
 > [!TIP]
 > **Restore the savegame**

@@ -57,7 +57,7 @@ Factorio does not have a Steam server browser for rented servers. Instead, you c
 If your server is listed publicly, you can also find and join it via **Multiplayer** → **Browse public games**.
 
 > [!NOTE]
-> For your server to appear there, you need valid factorio.com credentials. Enter them in the dashboard under **Settings** in the fields **Server Benutzername** and **Server Token**. The token is safer than the password and can be retrieved from your profile on factorio.com.
+> For your server to appear there, you need valid factorio.com credentials. Enter them in the dashboard in the **Config Editor** in the fields **Server Benutzername** and **Server Token**. The token is safer than the password and can be retrieved from your profile on factorio.com.
 >
 > In addition, the visibility must be set to public in the file `data/server-settings.json`. You can edit the file via [SFTP](/tutorials/gameserver/establish-sftp-connection):
 >

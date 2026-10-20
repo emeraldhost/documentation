@@ -59,7 +59,7 @@ The Bus uses a rank system with four levels. You can assign ranks via `PlayerDat
 ## How to Open the Admin Menu with the Admin Password
 
 > [!WARNING]
-> The default admin password is `BitteAendereMich`. Change it in the dashboard under **Settings** in the **Admin Passwort** field, because anyone who knows the password can open the admin menu. You can find more details under [Configure server](/tutorials/gameserver/the-bus/configure-server).
+> The default admin password is `BitteAendereMich`. Change it in the dashboard in the **Config Editor** in the **Admin Passwort** field, because anyone who knows the password can open the admin menu. You can find more details under [Configure server](/tutorials/gameserver/the-bus/configure-server).
 
 1. **Open admin menu**\
    Open the pause menu in-game and select the admin menu.
@@ -102,4 +102,4 @@ As Owner, you see additional options in the admin menu (pause menu), e.g. for:
 - the fleet (see [Change fleet](/tutorials/gameserver/the-bus/change-fleet))
 
 > [!NOTE]
-> The dashboard resets the server name, server password, admin password, maximum player count and server list visibility to the values under **Settings** on every start. Change these values in the dashboard instead.
+> The dashboard resets the server name, server password, admin password, maximum player count and server list visibility to the values in the **Config Editor** on every start. Change these values in the dashboard instead.

@@ -29,8 +29,8 @@ With this method you can log in as admin in-game by entering the admin password.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set admin password**\
    Enter a secure password in the **Admin Password** field and save the change.

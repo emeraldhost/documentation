@@ -75,10 +75,10 @@ Die Direktverbindung funktioniert unabhängig vom Invite-Code und ist der zuverl
 Ist für Deinen Server ein Passwort gesetzt, brauchen Deine Mitspieler es sowohl beim Beitritt über den Invite-Code als auch bei der Direktverbindung.
 
 > [!WARNING]
-> Das Passwort unterscheidet zwischen Groß- und Kleinschreibung. Gib es Deinen Mitspielern deshalb genau so weiter, wie es in den Servereinstellungen hinterlegt ist.
+> Das Passwort unterscheidet zwischen Groß- und Kleinschreibung. Gib es Deinen Mitspielern deshalb genau so weiter, wie es im **Config-Editor** hinterlegt ist.
 
 > [!NOTE]
-> Der Eintrag `OptionalPassword` in der `MoriaServerConfig.ini` wird bei jedem Start automatisch aus den Servereinstellungen Deines Servers übernommen. Eine Änderung direkt in der Datei bleibt deshalb nicht bestehen.
+> Der Eintrag `OptionalPassword` in der `MoriaServerConfig.ini` wird bei jedem Start automatisch aus dem **Config-Editor** Deines Servers übernommen. Eine Änderung direkt in der Datei bleibt deshalb nicht bestehen.
 
 ## Crossplay und Spielerzahl
 

@@ -23,8 +23,8 @@ Die Serverregion wirkt sich darauf aus, wie Dein Server in der Serverliste gefil
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Region auswählen**\
    Trage im Feld **Server Region** den gewünschten Wert ein:

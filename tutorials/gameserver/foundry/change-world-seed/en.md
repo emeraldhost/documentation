@@ -18,13 +18,13 @@ sort: 5
 related: ["gameserver/foundry/change-server-name", "gameserver/foundry/change-world-name", "gameserver/foundry/create-backup", "gameserver/foundry/enable-server-list"]
 ---
 
-The world seed determines how a newly generated world looks. You can adjust the value in your server settings.
+The world seed determines how a newly generated world looks. You can adjust the value in the Config Editor of your server.
 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change seed**\
    Enter the desired value in the **World Seed** field and save the setting.

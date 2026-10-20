@@ -23,8 +23,8 @@ related: ["gameserver/insurgency-sandstorm/add-mods", "gameserver/insurgency-san
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Parameter eintragen**\
    Trage die gewünschten Parameter im Feld **Zusätzliche Parameter** ein und speichere die Einstellung.

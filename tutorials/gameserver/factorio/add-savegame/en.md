@@ -51,7 +51,7 @@ You can transfer a local save to your server to continue playing with an existin
    ```
 
 4. **Set the save name**\
-   Open the dashboard, navigate to the **Settings** and enter the file name of your save in the **Save Name** field – **without** the `.zip` extension (e.g. `My_Factory` for `My_Factory.zip`).
+   Open the dashboard, navigate to the **Config Editor** and enter the file name of your save in the **Save Name** field – **without** the `.zip` extension (e.g. `My_Factory` for `My_Factory.zip`).
 
 5. **Start the server**\
    Save the settings and start your server.

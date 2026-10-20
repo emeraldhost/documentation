@@ -23,8 +23,8 @@ Du kannst ein Admin Passwort festlegen, mit dem sich Spieler im Spiel als Admin 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Admin Passwort setzen**\
    Trage das gewünschte Admin Passwort ein und speichere die Einstellung.

@@ -17,11 +17,11 @@ short_title: "Change Tickrate"
 sort: 15
 related: ["gameserver/garrys-mod/configure-server", "gameserver/garrys-mod/enable-lua-refresh", "gameserver/garrys-mod/change-gamemode", "gameserver/garrys-mod/set-up-ttt"]
 ---
-The **tickrate** defines how often per second your server calculates and updates the game world – movement, physics and hits. A tickrate of 66, for example, means 66 updates per second. You set it in the settings of your server.
+The **tickrate** defines how often per second your server calculates and updates the game world – movement, physics and hits. A tickrate of 66, for example, means 66 updates per second. You set it in the Config Editor of your server.
 
 ## Which tickrate makes sense?
 
-According to the [Garry's Mod Wiki](https://wiki.facepunch.com/gmod/Command_Line_Parameters), the recommended range is between **30 and 128**, and the engine's default value is **66.6666**. On your server, the tickrate is set to **22** by default, and you can enter a maximum of **100** in the settings.
+According to the [Garry's Mod Wiki](https://wiki.facepunch.com/gmod/Command_Line_Parameters), the recommended range is between **30 and 128**, and the engine's default value is **66.6666**. On your server, the tickrate is set to **22** by default, and you can enter a maximum of **100** in the Config Editor.
 
 The default value of 22 is below the recommended range, so physics and hit registration feel less smooth. For most servers, **33** or **66** is the better choice. As a guideline:
 
@@ -38,8 +38,8 @@ The default value of 22 is below the recommended range, so physics and hit regis
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the tickrate**\
    Enter the desired value in the **Tickrate** field, e.g., `33`. The server then starts with the parameter:

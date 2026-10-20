@@ -23,8 +23,8 @@ You can enable or disable the crosshair via the dashboard.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Toggle crosshair**\
    Enable or disable the **Disable Crosshair** option:

@@ -24,8 +24,8 @@ Experimental mode unlocks advanced and experimental features. You do not need it
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable experimental mode**\
    Set the **Experimental Mode** option to `true` to enable it, or to `false` to disable it.
@@ -40,8 +40,8 @@ Experimental mode unlocks advanced and experimental features. You do not need it
 
 When loading the world, the server checks your settings. If one of the following applies, it turns experimental mode on automatically:
 
-- **In-Game Scripts** is set to `true` in the **Settings** (see [Allow In-Game Scripts](/tutorials/gameserver/space-engineers/enable-ingame-scripts)).
-- **Max Players** is set to more than `16` in the **Settings**.
+- **In-Game Scripts** is set to `true` in the **Config Editor** (see [Allow In-Game Scripts](/tutorials/gameserver/space-engineers/enable-ingame-scripts)).
+- **Max Players** is set to more than `16` in the **Config Editor**.
 - A world setting in `Sandbox_config.sbc` forces it, for example `SyncDistance` above `3000`, `TotalPCU` above `600000` or `BlockLimitsEnabled` set to `NONE`. You can find the complete list under [Forced experimental mode](/tutorials/gameserver/space-engineers/change-world-settings#forced-experimental-mode).
 
 > [!WARNING]

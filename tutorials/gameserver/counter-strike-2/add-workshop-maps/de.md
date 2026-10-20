@@ -54,7 +54,7 @@ Du kannst auch eine ganze Sammlung von Maps laden:
    Kopiere die Collection-ID aus der URL.
 
 3. **Startparameter setzen**\
-   Trage in der Verwaltung unter **Einstellungen** bei **Zusätzliche Startparameter** ein:
+   Trage in der Verwaltung im **Config-Editor** bei **Zusätzliche Startparameter** ein:
 
    ```text
    +host_workshop_collection COLLECTION_ID

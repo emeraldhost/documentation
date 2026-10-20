@@ -83,7 +83,7 @@ Eine Welt in Return to Moria ist eine einzelne Datei mit dem Präfix `MW_` und d
 Im Abschnitt `[World]` steht zusätzlich der Eintrag `Name`. Darüber lässt sich eine Welt zwar ebenfalls auswählen, für Deinen Server ist das aber nicht der richtige Weg.
 
 > [!WARNING]
-> Der Eintrag `Name` wird bei jedem Start automatisch aus den Servereinstellungen Deines Servers übernommen. Eine Änderung direkt in der `MoriaServerConfig.ini` bleibt deshalb nicht bestehen. Nutze zum Laden eines hochgeladenen Spielstands immer `OptionalWorldFilename`.
+> Der Eintrag `Name` wird bei jedem Start automatisch aus dem **Config-Editor** Deines Servers übernommen. Eine Änderung direkt in der `MoriaServerConfig.ini` bleibt deshalb nicht bestehen. Nutze zum Laden eines hochgeladenen Spielstands immer `OptionalWorldFilename`.
 
 > [!IMPORTANT]
 > Findet der Server unter dem eingetragenen Weltnamen keine Welt, legt er automatisch eine **neue** Welt mit den Werten aus dem Abschnitt `[World.Create]` an – also mit dem dort eingetragenen Spielmodus, Seed und Schwierigkeitsgrad. Dein hochgeladener Spielstand bleibt dann zwar auf der Platte liegen, wird aber nicht geladen.

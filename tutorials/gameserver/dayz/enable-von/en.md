@@ -23,8 +23,8 @@ With **Voice over Network (VoN)**, players can communicate with other players in
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Toggle VoN**\
    Enable or disable the **Disable VoN** option:

@@ -33,8 +33,8 @@ Der Game Stats Token wird benötigt, damit Dein Server in der Serverliste angeze
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Token eintragen**\
    Füge den Token im Feld **Game Stats Token** ein und speichere die Einstellung.

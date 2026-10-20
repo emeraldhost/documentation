@@ -89,7 +89,7 @@ On every start, your server writes the paths of the scenario files (`.conf`) it 
 
 ### Performance statistics
 
-If you set the **[Advanced] Log FPS Interval** field in the **Settings** to a value greater than 0, your server writes a line with performance values to the log at that interval (in seconds), e.g.:
+If you set the **[Advanced] Log FPS Interval** field in the **Config Editor** to a value greater than 0, your server writes a line with performance values to the log at that interval (in seconds), e.g.:
 
 ```text
 FPS: 60.0, frame time (avg: 16.7 ms, min: 9.3 ms, max: 23.7 ms), Mem: 3291106 kB, Player: 2, AI: 104, Veh: 0 (17), Proj (S: 12, M: 0, G: 0 | 12), RplItemsS: 410, RplItemsC0: 17068

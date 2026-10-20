@@ -20,7 +20,7 @@ related: ["gameserver/arma-reforger/disable-ai", "gameserver/arma-reforger/confi
 The performance of your Arma Reforger server depends mainly on the server FPS, the view distances, the number of AI units and the installed mods. In this guide, we'll show you which settings you can adjust for this in the dashboard and in `config.json`.
 
 > [!NOTE]
-> Some values in `config.json` are overwritten from the **Settings** of the dashboard on every server start. The entries under `gameProperties` and `operating` described here are not among them and are kept. You can find an overview of all entries under [Configure Server](/tutorials/gameserver/arma-reforger/configure-server).
+> Some values in `config.json` are overwritten from the **Config Editor** of the dashboard on every server start. The entries under `gameProperties` and `operating` described here are not among them and are kept. You can find an overview of all entries under [Configure Server](/tutorials/gameserver/arma-reforger/configure-server).
 
 ## Limit server FPS
 
@@ -29,8 +29,8 @@ The server FPS value determines how many times per second your server simulates 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter max FPS**\
    Enter a value between `60` and `120` in the **Max FPS** field. The default is `120`.
@@ -48,8 +48,8 @@ With the **[Advanced] Log FPS Interval** field, your server regularly writes a l
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter interval**\
    In the **[Advanced] Log FPS Interval** field, enter after how many seconds a new line should be written, e.g. `60` for once per minute. With `0`, the output is disabled.

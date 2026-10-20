@@ -65,7 +65,7 @@ Trage die Spieler in eine Textdatei auf dem Server ein. Sie erhalten ihre Rechte
 ## Admin-Passwort setzen
 
 1. **Verwaltung öffnen**\
-   Öffne die **Verwaltung** Deines Servers und wechsle zu den **Einstellungen**.
+   Öffne die **Verwaltung** Deines Servers und wechsle zum **Config-Editor**.
 
 2. **Passwort eintragen**\
    Trage im Feld für das **Admin-Passwort** (`ServerAdminPassword`) Dein gewünschtes Passwort ein.

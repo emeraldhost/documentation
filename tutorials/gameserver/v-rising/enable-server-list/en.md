@@ -23,8 +23,8 @@ You can configure whether your server is shown in the Steam and/or Epic Games se
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Configure server list**\
    Adjust the following fields:

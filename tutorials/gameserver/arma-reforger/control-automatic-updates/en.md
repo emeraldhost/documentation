@@ -31,8 +31,8 @@ Your Arma Reforger server can update itself to the latest version on every start
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the value**\
    Enter the desired value in the **Auto Update** field: `1` for automatic updates, `0` to turn them off.

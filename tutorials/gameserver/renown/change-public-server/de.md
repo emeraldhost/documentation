@@ -23,8 +23,8 @@ Mit dieser Einstellung legst Du fest, ob Dein Server in der öffentlichen Server
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Öffentlicher Server anpassen**\
    Setze das Feld **Öffentlicher Server** auf den gewünschten Wert:

@@ -34,8 +34,8 @@ With the **Shifting Sands** DLC you can set up a server cluster that allows play
 1. **Open dashboard**\
    Open the dashboard of your first server (base map).
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set Server ID**\
    Enter the following in the **[CROSS-MAP] SERVER ID** field:
@@ -68,8 +68,8 @@ With the **Shifting Sands** DLC you can set up a server cluster that allows play
 1. **Open dashboard**\
    Open the dashboard of your second server (Shifting Sands).
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set Server ID**\
    Enter the following in the **[CROSS-MAP] SERVER ID** field:

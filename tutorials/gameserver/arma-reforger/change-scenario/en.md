@@ -26,8 +26,8 @@ You can use both official and custom workshop scenarios on your server.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter scenario ID**\
    Enter the desired scenario ID in the **Scenario ID** field.
@@ -114,7 +114,7 @@ You can also use custom scenarios from the [Arma Reforger Workshop](https://refo
    > Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to prevent the server from starting.
 
 4. **Set scenario ID**\
-   Enter the scenario ID of the workshop scenario in the dashboard under **Settings** in the **Scenario ID** field.
+   Enter the scenario ID of the workshop scenario in the dashboard in the **Config Editor** in the **Scenario ID** field.
 
    > [!TIP]
    > **Example**

@@ -24,7 +24,7 @@ Seit **Update 1.2** funktioniert Hamburg auch auf dedizierten Servern zuverläss
 ## Voraussetzungen
 
 - **Alle Spieler besitzen das DLC:** Jeder Spieler, der auf der Karte spielen möchte, muss das DLC **Hamburg City** auf Steam besitzen. Alle Spieler müssen dieselben DLCs besitzen, um sie gemeinsam nutzen zu können.
-- **Spiel und Server sind aktuell:** Halte Dein Spiel und Deinen Server auf dem neuesten Stand. Setze dazu in der Verwaltung unter **Einstellungen** das Feld **Auto Update** auf `1`, dann aktualisiert sich Dein Server bei jedem Start automatisch.
+- **Spiel und Server sind aktuell:** Halte Dein Spiel und Deinen Server auf dem neuesten Stand. Setze dazu in der Verwaltung im **Config-Editor** das Feld **Auto Update** auf `1`, dann aktualisiert sich Dein Server bei jedem Start automatisch.
 - **Admin-Rechte:** Du benötigst Owner- oder Admin-Rechte oder das Admin-Passwort Deines Servers, siehe [Admin hinzufügen](/tutorials/gameserver/the-bus/add-admin).
 
 > [!NOTE]

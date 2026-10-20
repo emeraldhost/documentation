@@ -45,7 +45,7 @@ Um Deinem Server beizutreten, benötigst Du den [Invite Code](/tutorials/gameser
    Falls der Server ein Passwort hat, gib dieses ein, um beizutreten.
 
 > [!NOTE]
-> Deinen Invite Code findest Du in der Verwaltung unter **Einstellungen** oder in der Datei `/R5/ServerDescription.json`. Der Code unterscheidet zwischen Groß- und Kleinschreibung – achte beim Eingeben auf die korrekte Schreibweise.
+> Deinen Invite Code findest Du in der Verwaltung im **Config-Editor** oder in der Datei `/R5/ServerDescription.json`. Der Code unterscheidet zwischen Groß- und Kleinschreibung – achte beim Eingeben auf die korrekte Schreibweise.
 
 ## Über die Direktverbindung (IP-Adresse)
 

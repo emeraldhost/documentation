@@ -29,7 +29,7 @@ Admins on a The Front server are added by their **SteamID64** – a 17-digit num
 ## Option 1: Via the dashboard
 
 1. **Open the dashboard**\
-   Open the **dashboard** of your server and switch to the **settings**.
+   Open the **dashboard** of your server and switch to the **Config Editor**.
 
 2. **Enter the admin IDs**\
    Enter your SteamID64 into the field for the admin accounts. If your dashboard only offers a field for additional startup parameters, add the following there:

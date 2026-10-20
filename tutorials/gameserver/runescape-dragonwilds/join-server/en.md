@@ -22,7 +22,7 @@ related: ["gameserver/runescape-dragonwilds/download-savegame", "gameserver/rune
 You can join your server in two ways: by searching for the **world name** on the Worlds screen or directly via the **Direct** tab using the **IP address** of your server.
 
 > [!NOTE]
-> You can find the world name in the **Settings** of your server in the dashboard. The IP address and the Game Port are shown in the dashboard under the **Overview**.
+> You can find the world name in the **Config Editor** of your server in the dashboard. The IP address and the Game Port are shown in the dashboard under the **Overview**.
 
 ## Via world name
 

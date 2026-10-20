@@ -26,7 +26,7 @@ Administrators on an Avorion server are defined by their **SteamID64** – a 17-
 ## Via the dashboard
 
 1. **Open the dashboard**\
-   Open the **dashboard** of your server and switch to the **settings**.
+   Open the **dashboard** of your server and switch to the **Config Editor**.
 
 2. **Enter the SteamID64**\
    Enter the SteamID64 of the person you want in the **Admin ID** field. The field takes a single SteamID64 and has to be filled in for your server to start.

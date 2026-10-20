@@ -26,7 +26,7 @@ Nightingale kennt **keine Admin-Liste mit Steam- oder Epic-IDs**. Stattdessen gi
 ## Admin-Passwort setzen
 
 1. **Verwaltung öffnen**\
-   Öffne die **Verwaltung** Deines Servers und wechsle zu den **Einstellungen**.
+   Öffne die **Verwaltung** Deines Servers und wechsle zum **Config-Editor**.
 
 2. **Admin-Passwort eintragen**\
    Trage im Feld **Admin Passwort** Dein gewünschtes Passwort ein.

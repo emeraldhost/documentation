@@ -23,8 +23,8 @@ The community affects how your server is filtered in the server list. Choose a c
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select community**\
    Enter the desired value in the **Server Community** field:

@@ -37,8 +37,8 @@ Every gamemode on sbox.game has an address following the pattern `sbox.game/<org
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings** or to the startup parameters of your server.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor** or to the startup parameters of your server.
 
 3. **Enter the gamemode**\
    Enter the package ident of the desired gamemode after `+game`:

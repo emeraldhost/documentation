@@ -47,8 +47,8 @@ Mit einem Map Cycle wechselt Dein Server automatisch durch eine von Dir festgele
 
 ## Schritt 2: Map Cycle laden
 
-1. **Einstellungen öffnen**\
-   Öffne in der Verwaltung die **Einstellungen**.
+1. **Config-Editor öffnen**\
+   Öffne in der Verwaltung den **Config-Editor**.
 
 2. **Parameter anpassen**\
    Im Feld **Zusätzliche Parameter** ist standardmäßig `-Mods -Mapcycle=ppMapCycle` hinterlegt. Ändere den Wert von `-Mapcycle=` auf den Namen Deiner Datei (**ohne** `.txt`) und lass `-Mods` stehen – es darf nur **ein** `-Mapcycle=` aktiv sein:

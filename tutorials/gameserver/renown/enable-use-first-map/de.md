@@ -23,8 +23,8 @@ Wenn aktiviert, lädt Dein Server beim Start immer die erste Map aus der [Map Ro
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Use First Map anpassen**\
    Setze das Feld **Use First Map** auf den gewünschten Wert:

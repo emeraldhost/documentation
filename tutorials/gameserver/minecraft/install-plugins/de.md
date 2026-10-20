@@ -6,7 +6,7 @@ description: "Plugins auf einem Minecraft Java Edition Server installieren"
 tags: []
 date: "2026-02-04"
 visibility: "public"
-updated: "2026-08-20"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -24,7 +24,27 @@ Du kannst Plugins auf Deinem Server installieren, um neue Funktionen, Verwaltung
 > [!NOTE]
 > Plugins funktionieren nur mit Plugin-fähigen Server-Versionen wie **Spigot**, **Paper**, **Purpur** oder **Pufferfish**. Vanilla-Server unterstützen keine Plugins. Wenn Du stattdessen Mods (Forge, Fabric etc.) verwenden möchtest, findest Du hier die Anleitung: [Mods hinzufügen](/tutorials/gameserver/minecraft/install-mods).
 
-## Wo finde ich Plugins?
+## Plugins über das Dashboard installieren (empfohlen)
+
+Am einfachsten installierst Du Plugins direkt über das Dashboard. Auf der Seite **Plugins & Mods** suchst Du passende Erweiterungen und installierst sie direkt auf Deinem Server.
+
+1. **Seite öffnen**\
+   Öffne Deinen Server in der Verwaltung und klicke in der Seitenleiste auf **Plugins & Mods**.
+
+2. **Plugin suchen**\
+   Suche auf der Seite nach dem gewünschten Plugin.
+
+3. **Plugin installieren**\
+   Klicke beim gewünschten Plugin auf **Installieren**.
+
+4. **Server neu starten**\
+   Starte Deinen Server neu, damit das Plugin geladen wird.
+
+## Plugins manuell per SFTP installieren
+
+Wenn ein Plugin nicht im Dashboard zu finden ist, kannst Du es auch selbst hochladen.
+
+### Wo finde ich Plugins?
 
 Plugins findest Du auf folgenden Plattformen:
 
@@ -38,7 +58,7 @@ Plugins findest Du auf folgenden Plattformen:
 >
 > Lade Plugins nur von vertrauenswürdigen Quellen herunter. Plugins aus unbekannten Quellen können Schadcode enthalten.
 
-## Wie installiere ich Plugins?
+### Wie lade ich ein Plugin hoch?
 
 1. **Plugin herunterladen**\
    Lade das Plugin als `.jar` Datei herunter.

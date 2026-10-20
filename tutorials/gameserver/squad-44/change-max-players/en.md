@@ -23,8 +23,8 @@ You can adjust the maximum number of concurrent players as well as the number of
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust values**\
    Enter the desired values in the following fields:

@@ -66,7 +66,7 @@ Der Inhalt ist im JSON-Format aufgebaut:
 | `LoadSavedGame` | `"true"` lädt den vorhandenen Spielstand der eingetragenen Session |
 
 > [!WARNING]
-> Werden `SessionName`, `StartNewGame` oder `LoadSavedGame` in Deiner **Verwaltung** als Einstellungen angeboten, nimm die Änderungen ausschließlich dort vor. Die `DSSettings.txt` kann beim Serverstart aus diesen Feldern neu geschrieben werden – manuelle Änderungen in der Datei wären dann wieder überschrieben.
+> Werden `SessionName`, `StartNewGame` oder `LoadSavedGame` im **Config-Editor** Deiner **Verwaltung** angeboten, nimm die Änderungen ausschließlich dort vor. Die `DSSettings.txt` kann beim Serverstart aus diesen Feldern neu geschrieben werden – manuelle Änderungen in der Datei wären dann wieder überschrieben.
 
 ## Lokalen Spielstand finden
 

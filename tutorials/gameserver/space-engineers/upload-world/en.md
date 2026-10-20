@@ -22,7 +22,7 @@ related: ["gameserver/space-engineers/enable-remote-api", "gameserver/space-engi
 You can transfer a locally created or existing world to your server and continue playing there. A Space Engineers world is a **folder** that contains, among others, the files `Sandbox.sbc` and `Sandbox_config.sbc`.
 
 > [!NOTE]
-> The world name on your server is fixed to **World** and cannot be changed (visible in the **Settings**). Your world is therefore always loaded from the `/config/Saves/World/` folder – you upload the **contents** of your world into exactly this folder.
+> The world name on your server is fixed to **World** and cannot be changed (visible in the **Config Editor**). Your world is therefore always loaded from the `/config/Saves/World/` folder – you upload the **contents** of your world into exactly this folder.
 
 ## Find the world folder
 

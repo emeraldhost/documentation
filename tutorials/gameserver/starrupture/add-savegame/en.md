@@ -70,7 +70,7 @@ Its content uses JSON format:
 > [!WARNING]
 > **Caution**
 >
-> If `SessionName`, `StartNewGame` or `LoadSavedGame` are offered as settings in your **dashboard**, only change them there. The `DSSettings.txt` can be rewritten from those fields when the server starts – manual changes in the file would be overwritten again.
+> If `SessionName`, `StartNewGame` or `LoadSavedGame` are offered in the **Config Editor** of your **dashboard**, only change them there. The `DSSettings.txt` can be rewritten from those fields when the server starts – manual changes in the file would be overwritten again.
 
 ## Find your local savegame
 

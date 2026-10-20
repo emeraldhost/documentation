@@ -23,8 +23,8 @@ related: ["gameserver/astroneer/change-server-name", "gameserver/astroneer/creat
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server Owner Name eintragen**\
    Trage im Feld **Server Owner Name** den Steam-Anzeigenamen des Besitzers ein.

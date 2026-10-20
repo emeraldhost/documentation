@@ -63,7 +63,7 @@ Du kannst Deinem Server auf zwei Wegen beitreten: über den Serverbrowser im Spi
    Wähle im Hauptmenü **Join**. Du siehst nun die Liste der verfügbaren Server.
 
 3. **Server suchen**\
-   Suche in der Liste nach dem Namen Deines Servers. Das ist der Name, den Du in der **Verwaltung** unter **Einstellungen** gesetzt hast.
+   Suche in der Liste nach dem Namen Deines Servers. Das ist der Name, den Du in der **Verwaltung** im **Config-Editor** gesetzt hast.
 
 4. **Server beitreten**\
    Wähle Deinen Server aus und klicke auf **Start Game**.

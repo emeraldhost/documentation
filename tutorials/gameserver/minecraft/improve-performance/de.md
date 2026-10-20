@@ -121,7 +121,7 @@ Starte den Server nach jeder Änderung neu.
 
 Vanilla ist die mit Abstand langsamste Server-Software. **Paper** enthält hunderte Performance-Optimierungen und ist deshalb auf EmeraldHost-Servern standardmäßig vorinstalliert. **Purpur** baut auf Paper auf und bietet zusätzliche Konfigurationsmöglichkeiten.
 
-Läuft Dein Server noch mit Vanilla und benötigst Du keine Mods, ist der Wechsel zu Paper die wirksamste einzelne Maßnahme. Die Software wechselst Du über das Feld **Software** in den Einstellungen der Verwaltung – die einzelnen Schritte findest Du in [Version ändern](/tutorials/gameserver/minecraft/change-version).
+Läuft Dein Server noch mit Vanilla und benötigst Du keine Mods, ist der Wechsel zu Paper die wirksamste einzelne Maßnahme. Die Software wechselst Du über das Feld **Software** im Config-Editor der Verwaltung – die einzelnen Schritte findest Du in [Version ändern](/tutorials/gameserver/minecraft/change-version).
 
 ## Weitere Maßnahmen gegen Lag
 
@@ -141,4 +141,4 @@ Zeigt `/spark health` dauerhaft eine fast volle RAM-Auslastung, hilft auch die b
 Ein täglicher Neustart Deines Servers kann Speicherlecks (RAM-Leaks) beheben und die Performance stabil halten.
 
 > [!NOTE]
-> Automatische Neustarts sowie Backups können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Neustarts und Backups selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

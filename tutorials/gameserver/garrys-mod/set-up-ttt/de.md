@@ -40,8 +40,8 @@ TTT-Maps erkennst Du am Präfix `ttt_` im Namen. Die Standard-Map Deines Servers
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Gamemode eintragen**\
    Trage im Feld **Gamemode** folgenden Wert ein:
@@ -160,7 +160,7 @@ TTT wechselt die Map selbstständig. Am Ende jeder Runde prüft der Gamemode, ob
 Welche Map als Nächstes geladen wird, bestimmt die Map-Rotation des Servers. Eine eingebaute Map-Abstimmung hat TTT nicht. Möchtest Du selbst festlegen, welche Maps zur Auswahl stehen, und Deine Spieler über die nächste Map abstimmen lassen, nutzt Du ein Addon wie [MapVote](#map-abstimmung-mit-mapvote-einrichten).
 
 > [!NOTE]
-> Nach einem Neustart startet Dein Server immer wieder mit der Map aus dem Feld **Map** in den **Einstellungen**.
+> Nach einem Neustart startet Dein Server immer wieder mit der Map aus dem Feld **Map** im **Config-Editor**.
 
 ## Map-Abstimmung mit MapVote einrichten
 

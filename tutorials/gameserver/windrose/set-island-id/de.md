@@ -53,8 +53,8 @@ Die Island ID legt fest, welche Welt Dein Server beim Start lädt. Wenn keine Is
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Island ID setzen**\
    Trage die Island ID aus dem Welt-Ordner im Feld **Island ID** ein und speichere die Einstellung.
@@ -63,4 +63,4 @@ Die Island ID legt fest, welche Welt Dein Server beim Start lädt. Wenn keine Is
    Starte Deinen Server neu, damit die Änderung übernommen wird.
 
 > [!TIP]
-> Wenn Dein Server nach einem Update plötzlich eine neue, leere Welt lädt, ist meist die ursprüngliche Welt noch unter `/R5/Saved/SaveProfiles/Default/RocksDB_v2/<GameVersion>/Worlds/` vorhanden. Trage die Island ID dieser Welt in den Einstellungen ein, damit sie wieder korrekt geladen wird.
+> Wenn Dein Server nach einem Update plötzlich eine neue, leere Welt lädt, ist meist die ursprüngliche Welt noch unter `/R5/Saved/SaveProfiles/Default/RocksDB_v2/<GameVersion>/Worlds/` vorhanden. Trage die Island ID dieser Welt im Config-Editor ein, damit sie wieder korrekt geladen wird.

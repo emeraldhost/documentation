@@ -23,7 +23,7 @@ If your server does not show up in the server list, players can no longer join a
 > Create a [backup](/tutorials/gameserver/scp-secret-laboratory/create-backup) before every change to your server. This way you can always return to the last working state.
 
 > [!NOTE]
-> For SCP: Secret Laboratory, nothing is set in the settings of the dashboard – the entire configuration is done via files over SFTP. Where the files are located is shown in [Edit configuration files](/tutorials/gameserver/scp-secret-laboratory/edit-config-files).
+> For SCP: Secret Laboratory, nothing is set in the Config Editor of the dashboard – the entire configuration is done via files over SFTP. Where the files are located is shown in [Edit configuration files](/tutorials/gameserver/scp-secret-laboratory/edit-config-files).
 
 ## Check the console first
 

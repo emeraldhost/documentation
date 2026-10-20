@@ -51,7 +51,7 @@ Du kannst eine lokale Welt auf Deinen Server übertragen, um dort mit einer best
    ```
 
 4. **Weltnamen setzen**\
-   Öffne die Verwaltung, navigiere zu den **Einstellungen** und trage im Feld **World Name** den Dateinamen Deiner Welt ein – **ohne** die Endung `.wld` (z.B. `Meine_Welt` für `Meine_Welt.wld`).
+   Öffne die Verwaltung, navigiere zum **Config-Editor** und trage im Feld **World Name** den Dateinamen Deiner Welt ein – **ohne** die Endung `.wld` (z.B. `Meine_Welt` für `Meine_Welt.wld`).
 
 5. **Server starten**\
    Speichere die Einstellungen und starte Deinen Server.
@@ -60,7 +60,7 @@ Du kannst eine lokale Welt auf Deinen Server übertragen, um dort mit einer best
 > Der Weltname wird **exakt** so gesucht, wie Du ihn einträgst – Groß- und Kleinschreibung inklusive. Findet der Server im Ordner `/saves/Worlds/` keine passende `.wld`-Datei, erzeugt er beim Start automatisch eine **neue, leere Welt** mit diesem Namen. Heißt Deine Datei `MeineWelt.wld` und Du trägst `meinewelt` ein, landest Du also in einer frisch generierten Welt statt in Deiner hochgeladenen.
 
 > [!WARNING]
-> Bearbeite die Datei `serverconfig.txt` nicht von Hand, um die Welt zu wechseln. Die Werte `worldpath`, `worldname`, `world`, `difficulty`, `autocreate`, `port`, `maxplayers`, `motd`, `seed`, `password` und `npcstream` werden bei **jedem Serverstart** aus den Einstellungen in der Verwaltung neu geschrieben. Ändere stattdessen immer die passende Einstellung im Panel.
+> Bearbeite die Datei `serverconfig.txt` nicht von Hand, um die Welt zu wechseln. Die Werte `worldpath`, `worldname`, `world`, `difficulty`, `autocreate`, `port`, `maxplayers`, `motd`, `seed`, `password` und `npcstream` werden bei **jedem Serverstart** aus dem **Config-Editor** der Verwaltung neu geschrieben. Ändere stattdessen immer die passende Einstellung im Panel.
 
 > [!WARNING]
 > **Welt wechseln**

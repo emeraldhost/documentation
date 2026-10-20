@@ -44,7 +44,7 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> Welcher Ordner zu Deiner Welt gehört, erkennst Du am Feld **Welt Name** in den **Einstellungen** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst Du den Ordner `MeineWelt`. Ordner mit `_backup_` im Namen sind Sicherungen und nicht der aktuelle Stand.
+> Welcher Ordner zu Deiner Welt gehört, erkennst Du am Feld **Welt Name** im **Config-Editor** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst Du den Ordner `MeineWelt`. Ordner mit `_backup_` im Namen sind Sicherungen und nicht der aktuelle Stand.
 
 > [!TIP]
 > **Spielstand wieder einspielen**

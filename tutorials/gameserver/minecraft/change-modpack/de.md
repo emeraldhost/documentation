@@ -2,12 +2,11 @@
 slug: "modpack-aendern"
 language: "de"
 title: "So änderst Du das Modpack auf einem Minecraft Java Edition Server"
-description: "Modpack auf einem Minecraft Java Edition Server ändern"
+description: "Modpack auf einem Minecraft Java Edition Server über die Seite Modpacks installieren oder wechseln"
 tags: []
 date: "2023-10-16"
 visibility: "public"
-is_deprecated: true
-updated: "2026-08-20"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -17,39 +16,53 @@ author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste 
 available_languages: ["de", "en"]
 short_title: "Modpack ändern"
 sort: 5
-related: ["gameserver/minecraft/accept-minecraft-eula", "gameserver/minecraft/change-motd", "gameserver/minecraft/change-server-icon", "gameserver/minecraft/change-simulation-distance"]
+related: ["gameserver/minecraft/install-mods", "gameserver/minecraft/change-version", "gameserver/minecraft/create-backup", "gameserver/minecraft/join-server"]
 ---
 
 ## Modpacks
 
 Modpacks in Minecraft sind Sammlungen von Mods, Texturenpaketen und Konfigurationseinstellungen, die von der Minecraft-Community oder Moddern erstellt werden. Diese Modifikationen und Anpassungen ändern oder erweitern das Gameplay, die Grafik, die Spielmechanik und mehr. Modpacks werden in der Regel so zusammengestellt, dass sie gut miteinander funktionieren und ein stimmiges Spielerlebnis bieten.
 
-## Bereitgestelltes Modpack von EmeraldHost auswählen
+Im Dashboard findest Du dafür die Seite **Modpacks**. Dort stöberst Du in Modpacks von CurseForge und Modrinth, installierst sie mit einem Klick, wechselst zwischen Versionen oder deinstallierst sie wieder.
 
-1. **Serververwaltung öffnen**\
-    Um ein Modpack auszuwählen, besuche bitte die Verwaltungsseite Deines Minecraft-Servers auf EmeraldHost.
+> [!TIP]
+> Erstelle vor dem Wechsel des Modpacks ein Backup, damit Du zu Deinem bisherigen Stand zurückkehren kannst. Wie das geht, erfährst Du in [Backup erstellen](/tutorials/gameserver/create-backup).
 
-2. **Finde die Modpack-Einstellungen**\
-    Navigiere in der rechten Seitenleiste zum Reiter „Modpacks“ und wähle diesen aus.
+## Modpack installieren oder wechseln
 
-    ![Serververwaltung mit dem markierten Eintrag „Modpacks“ in der Seitenleiste](images/modpacks-tab-in-sidebar.png)
+1. **Seite „Modpacks“ öffnen**\
+   Öffne das Dashboard Deines Minecraft-Servers und klicke in der Seitenleiste unter **Verwaltung** auf **Modpacks**.
 
-3. **Neues Modpack auswählen**\
-    Oberhalb des Abschnitts „Installiertes Modpack“ findest Du Informationen zu Deinem aktuellen Modpack, das auf Deinem Minecraft-Server installiert ist.
+2. **Modpack suchen**\
+   Grenze die Auswahl mit den Filtern ein:
 
-    Unter „Verfügbare Modpacks“ hast Du eine breite Auswahl an Modpacks, die Du unkompliziert auf Deinen Minecraft-Server installieren kannst. Für unser Beispiel verwenden wir das Modpack „All the Mods 6“.
+   - **Suche**: Name des Modpacks
+   - **Quelle**: CurseForge oder Modrinth
+   - **Spielversion**: die gewünschte Minecraft-Version
+   - **Mod Loader**: z. B. NeoForge
+   - **Sortieren nach**: Reihenfolge der Ergebnisse
+   - **Kategorien**: Modpacks nach Thema filtern
 
-    Klicke auf das gewünschte Modpack, das Du installieren möchtest.
+   Auf jeder Karte siehst Du den Mod Loader und die Version des Modpacks.
 
-    ![Übersicht „Verfügbare Modpacks“ mit dem hervorgehobenen Modpack „All the Mods 6“](images/available-modpacks-list.png)
+3. **Details öffnen**\
+   Klicke beim gewünschten Modpack auf **Details anzeigen**. Es öffnet sich das Fenster **Modpack installieren**. Links siehst Du Informationen wie Downloads, das letzte Update und die Anzahl der Versionen.
 
-4. **Bestätige die Installation**\
-    In einem neuen Fenster wirst Du darauf hingewiesen, dass bei diesem Vorgang alle vorhandenen Dateien und Backups gelöscht werden. Bestätige diese Meldung, indem Du auf „Jetzt installieren“ klickst. Dein Minecraft-Server wird zurückgesetzt und das ausgewählte Modpack wird neu installiert. Die Fertigstellung des Vorgangs wird angezeigt, sobald Dein Minecraft-Server wieder online ist.
+4. **Version auswählen**\
+   Wähle rechts unter **Version auswählen** die gewünschte Version. Über den Reiter des Mod Loaders (z. B. NeoForge), das Suchfeld **Version suchen…** und den Filter (z. B. Release) findest Du die passende Version schneller. In der Liste siehst Du zu jeder Version den Namen, die Minecraft-Version, die Größe, das Datum und die Downloads.
 
-    ![Bestätigungsfenster „Modpack installieren“ mit dem Hinweis auf gelöschte Dateien und dem Button „Jetzt installieren“](images/confirm-modpack-installation.png)
+5. **Modpack installieren**\
+   Klicke auf **Installieren**.
 
-    > [!WARNING]
-    > Bitte beachte, dass bei diesem Vorgang alle bisherigen Dateien und Backups gelöscht werden.
+> [!NOTE]
+> Auf der Seite **Modpacks** kannst Du ein Modpack auch auf eine andere Version wechseln oder wieder deinstallieren.
 
-    > [!NOTE]
-    > Fehlt ein Modpack, kannst Du gerne die Empfehlung für dieses Modpack in unserem [Community Discord Server](https://discord.emeraldhost.de/) abgeben.
+## Modpack auch lokal installieren
+
+> [!IMPORTANT]
+> Du brauchst das Modpack auch lokal. Damit Du Dich verbinden kannst, installiere das Modpack zusätzlich im CurseForge-Launcher und verbinde Dich danach mit Deiner Server-IP.
+
+Jeder Spieler, der auf Deinen Server möchte, muss das Modpack in derselben Version installiert haben. Wie Du Dich danach verbindest, erfährst Du in [Server beitreten](/tutorials/gameserver/minecraft/join-server).
+
+> [!NOTE]
+> Fehlt ein Modpack, kannst Du gerne die Empfehlung für dieses Modpack in unserem [Community Discord Server](https://discord.emeraldhost.de/) abgeben.

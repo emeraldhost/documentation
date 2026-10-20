@@ -49,7 +49,7 @@ The world file is named e.g. `0.world.gzip`. The number before `.world.gzip` is 
    ```
 
 4. **Set World Index**\
-   Make sure the **World Index** in the server settings matches the number of your world file.
+   Make sure the **World Index** in the **Config Editor** matches the number of your world file.
 
    > [!TIP]
    > **Example**

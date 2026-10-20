@@ -17,18 +17,18 @@ short_title: "Change Map"
 sort: 7
 related: ["gameserver/garrys-mod/change-gamemode", "gameserver/garrys-mod/add-mods", "gameserver/garrys-mod/set-up-fastdl", "gameserver/garrys-mod/set-up-ttt"]
 ---
-You set the map your server starts with in your server's settings. By default it is `gm_flatgrass`. Besides the included maps `gm_flatgrass` and `gm_construct` you can use maps from the Steam Workshop or upload your own maps via SFTP.
+You set the map your server starts with in the Config Editor of your server. By default it is `gm_flatgrass`. Besides the included maps `gm_flatgrass` and `gm_construct` you can use maps from the Steam Workshop or upload your own maps via SFTP.
 
 > [!IMPORTANT]
 > Always enter the **file name of the `.bsp` file without the extension** as the map, not the title from the Steam Workshop. For the file `rp_downtown_v4c_v2.bsp` the map name is `rp_downtown_v4c_v2`.
 
-## Set the start map in the settings
+## Set the start map in the Config Editor
 
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the map**\
    Enter the name of the map in the **Map** field, for example `gm_construct`. The server then starts with the parameter:
@@ -73,7 +73,7 @@ The server downloads Workshop maps through your Workshop collection. A Workshop 
    Find out the `.bsp` name of the map (see the [next section](#find-the-bsp-name-of-a-workshop-map)).
 
 3. **Enter the map**\
-   Enter the `.bsp` name in the **Map** field in the **Settings**.
+   Enter the `.bsp` name in the **Map** field in the **Config Editor**.
 
 4. **Restart the server**\
    Save the setting and restart your server. The server downloads the collection on startup and then starts with the map.
@@ -121,7 +121,7 @@ Maps that do not come from the Workshop are uploaded to the server as a `.bsp` f
    Example: `/garrysmod/maps/gm_examplemap.bsp`
 
 4. **Enter the map**\
-   Enter the file name without `.bsp` in the **Map** field in the **Settings**, in this example `gm_examplemap`.
+   Enter the file name without `.bsp` in the **Map** field in the **Config Editor**, in this example `gm_examplemap`.
 
 5. **Start the server**\
    Save the setting and start your server.

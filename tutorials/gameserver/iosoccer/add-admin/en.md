@@ -140,7 +140,7 @@ If you do not want to install plugins, the **server console** in the dashboard r
 On top of that you can use RCON to run the same commands from outside. Your server receives the RCON password on every start, so you set it in the dashboard:
 
 1. **Open the dashboard**\
-   Open the **dashboard** of your server and switch to the **Settings**.
+   Open the **dashboard** of your server and switch to the **Config Editor**.
 
 2. **Enter the password**\
    Enter a long, unique password in the **RCON Password** field.

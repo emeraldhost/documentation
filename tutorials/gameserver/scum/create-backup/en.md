@@ -44,4 +44,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Stop your server before creating or restoring a backup. SCUM stores the entire world in a SQLite database that is written to while the server is running – a backup taken during operation can be incomplete.
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

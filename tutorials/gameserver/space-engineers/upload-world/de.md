@@ -22,7 +22,7 @@ related: ["gameserver/space-engineers/enable-remote-api", "gameserver/space-engi
 Du kannst eine lokal erstellte oder bestehende Welt auf Deinen Server übertragen und dort weiterspielen. Eine Space-Engineers-Welt ist ein **Ordner**, der unter anderem die Dateien `Sandbox.sbc` und `Sandbox_config.sbc` enthält.
 
 > [!NOTE]
-> Der Weltname ist auf Deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar in den **Einstellungen**). Deine Welt wird daher immer aus dem Ordner `/config/Saves/World/` geladen – Du lädst den **Inhalt** Deiner Welt in genau diesen Ordner.
+> Der Weltname ist auf Deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar im **Config-Editor**). Deine Welt wird daher immer aus dem Ordner `/config/Saves/World/` geladen – Du lädst den **Inhalt** Deiner Welt in genau diesen Ordner.
 
 ## Welt-Ordner finden
 

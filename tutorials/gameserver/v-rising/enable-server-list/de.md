@@ -23,8 +23,8 @@ Du kannst einstellen, ob Dein Server in der Steam- und/oder Epic Games-Serverlis
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Serverliste einstellen**\
    Passe die folgenden Felder an:

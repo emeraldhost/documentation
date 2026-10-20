@@ -53,8 +53,8 @@ The island ID determines which world your server loads on startup. If no island 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set island ID**\
    Enter the island ID from the world folder in the **Island ID** field and save the setting.
@@ -63,4 +63,4 @@ The island ID determines which world your server loads on startup. If no island 
    Restart your server for the change to take effect.
 
 > [!TIP]
-> If your server suddenly loads a new, empty world after an update, the original world is usually still saved under `/R5/Saved/SaveProfiles/Default/RocksDB_v2/<GameVersion>/Worlds/`. Enter that world's island ID in the settings to load it again.
+> If your server suddenly loads a new, empty world after an update, the original world is usually still saved under `/R5/Saved/SaveProfiles/Default/RocksDB_v2/<GameVersion>/Worlds/`. Enter that world's island ID in the Config Editor to load it again.

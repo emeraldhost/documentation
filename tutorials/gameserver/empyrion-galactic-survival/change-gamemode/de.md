@@ -23,8 +23,8 @@ Du kannst festlegen, in welchem Spielmodus Dein Server läuft.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Gamemode ändern**\
    Trage den gewünschten Wert im Feld **Gamemode** ein und speichere die Einstellung.

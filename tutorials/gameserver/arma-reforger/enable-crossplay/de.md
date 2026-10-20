@@ -49,8 +49,8 @@ Lass für Konsolenspieler BattlEye eingeschaltet. Ohne BattlEye wird Dein Server
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Battle-Eye prüfen**\
    Stelle sicher, dass im Feld **Battle-Eye** der Wert `true` eingetragen ist.
@@ -65,8 +65,8 @@ Konsolenspieler finden Deinen Server über die Suche im Server-Browser. Dafür m
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Sichtbarkeit prüfen**\
    Stelle sicher, dass im Feld **Sichtbar im Server-Browser** der Wert `true` eingetragen ist.

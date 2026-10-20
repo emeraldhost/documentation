@@ -44,15 +44,15 @@ So lädst Du das vollständige Log herunter:
 
 **Symptom:** Dein Server läuft, ist in der öffentlichen Serverliste im Spiel aber nicht zu finden.
 
-**Ursache:** Steht das Feld **Serverliste** in den Einstellungen auf `0`, wird Dein Server in der öffentlichen Serverliste ausgeblendet.
+**Ursache:** Steht das Feld **Serverliste** im Config-Editor auf `0`, wird Dein Server in der öffentlichen Serverliste ausgeblendet.
 
 **Lösung:**
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Serverliste aktivieren**\
    Setze das Feld **Serverliste** auf `1`.
@@ -70,7 +70,7 @@ So lädst Du das vollständige Log herunter:
 **Ursache:** Typische Gründe sind:
 
 - **Unterschiedliche Versionen**: Server und Spiel laufen nach einem Update auf unterschiedlichen Versionen.
-- **Server-Passwort gesetzt**: Ist in den Einstellungen ein **Server Passwort** eingetragen, müssen Spieler es beim Beitreten eingeben.
+- **Server-Passwort gesetzt**: Ist im Config-Editor ein **Server Passwort** eingetragen, müssen Spieler es beim Beitreten eingeben.
 - **Fehlendes DLC**: Läuft auf Deinem Server eine DLC-Karte wie **Hamburg** (DLC Hamburg City) oder ist ein DLC für das Beitreten vorausgesetzt, müssen alle Spieler dieses DLC besitzen.
 - **Konsole statt PC**: Der Multiplayer von The Bus ist nur auf dem PC verfügbar. Spieler auf PlayStation 5 oder Xbox Series X|S können keinem Server beitreten.
 
@@ -79,8 +79,8 @@ So lädst Du das vollständige Log herunter:
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Auto Update prüfen**\
    Prüfe, ob das Feld **Auto Update** auf `1` steht. Nur dann wird Dein Server bei jedem Start automatisch aktualisiert.
@@ -169,15 +169,15 @@ Findest Du die Ursache nicht, starte Deinen Server testweise ohne Mods. Läuft e
 
 **Symptom:** Du hast Servername, Passwörter, maximale Spieler oder die Sichtbarkeit in der Serverliste im Spiel oder direkt in der `ServerSettings.cfg` geändert, nach einem Neustart sind die alten Werte aber wieder da.
 
-**Ursache:** Bei jedem Start schreibt die Verwaltung die Werte aus den **Einstellungen** in die Datei `/TheBus/Settings/ServerSettings.cfg`. Die Schlüssel `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` und `maxPlayerCount` werden dabei überschrieben.
+**Ursache:** Bei jedem Start schreibt die Verwaltung die Werte aus dem **Config-Editor** in die Datei `/TheBus/Settings/ServerSettings.cfg`. Die Schlüssel `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` und `maxPlayerCount` werden dabei überschrieben.
 
 **Lösung:**
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Werte ändern**\
    Ändere die Werte in den Feldern **Server Name**, **Server Passwort**, **Admin Passwort**, **Maximale Spieler** oder **Serverliste**.
@@ -199,8 +199,8 @@ Findest Du die Ursache nicht, starte Deinen Server testweise ohne Mods. Läuft e
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Auto Update aktivieren**\
    Setze das Feld **Auto Update** auf `1`, damit Dein Server auf die aktuelle Version gebracht wird.

@@ -22,8 +22,8 @@ related: ["gameserver/aloft/add-admin", "gameserver/aloft/add-savegame", "gamese
 1. **Open dashboard**\
    Open your dashboard and select your Aloft server.
 
-2. **Go to settings**\
-   Navigate to the settings page.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Find private islands**\
    Scroll down to "Private Islands".

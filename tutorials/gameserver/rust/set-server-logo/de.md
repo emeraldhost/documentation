@@ -26,8 +26,8 @@ Mit dem Server Logo hinterlegst Du ein kreisförmiges Bild für die Rust+-App.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server Logo setzen**\
    Trage die gewünschte Bild-URL im Feld **Server Logo** ein und speichere die Einstellung.

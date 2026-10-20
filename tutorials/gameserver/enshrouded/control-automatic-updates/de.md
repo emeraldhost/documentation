@@ -33,8 +33,8 @@ Dein Enshrouded Server kann sich bei jedem Start selbst auf die aktuelle Version
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Wert eintragen**\
    Trage im Feld **Auto Update** den gewünschten Wert ein: `1` für automatische Updates, `0` um sie abzuschalten. Speichere die Einstellung.
@@ -66,8 +66,8 @@ Wenn Dein Server nach einem Update oder nach einem abgebrochenen Download nicht 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Validieren aktivieren**\
    Trage im Feld **Serverdateien validieren** den Wert `1` ein und setze **Auto Update** auf `1`. Speichere die Einstellungen.

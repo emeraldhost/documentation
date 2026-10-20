@@ -62,7 +62,7 @@ You can transfer a local save to your server to continue playing with an existin
    > Upload the folder directly into `worlds_local` and not into another subfolder, because the server only looks for worlds one folder level deep. Do not rename any files inside the folder and do not mix files from different saves. If the server does not find a complete set of files, it cannot load the world and deletes the incomplete files on startup.
 
 5. **Set world name**\
-   Open the dashboard, navigate to the **Settings** and enter the exact name of your world folder in the **World Name** field, in this example `MyWorld`. The field allows a maximum of 20 characters.
+   Open the dashboard, navigate to the **Config Editor** and enter the exact name of your world folder in the **World Name** field, in this example `MyWorld`. The field allows a maximum of 20 characters.
 
 6. **Start the server**\
    Save the settings and start your server.

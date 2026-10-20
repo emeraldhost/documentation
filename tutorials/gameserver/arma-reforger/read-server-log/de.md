@@ -89,7 +89,7 @@ Bei jedem Start schreibt Dein Server die Pfade der Szenario-Dateien (`.conf`), d
 
 ### Performance-Statistiken
 
-Setzt Du in den **Einstellungen** das Feld **[Advanced] Log FPS Interval** auf einen Wert größer als 0, schreibt Dein Server in diesem Abstand (in Sekunden) eine Zeile mit Performance-Werten ins Log, z.B.:
+Setzt Du im **Config-Editor** das Feld **[Advanced] Log FPS Interval** auf einen Wert größer als 0, schreibt Dein Server in diesem Abstand (in Sekunden) eine Zeile mit Performance-Werten ins Log, z.B.:
 
 ```text
 FPS: 60.0, frame time (avg: 16.7 ms, min: 9.3 ms, max: 23.7 ms), Mem: 3291106 kB, Player: 2, AI: 104, Veh: 0 (17), Proj (S: 12, M: 0, G: 0 | 12), RplItemsS: 410, RplItemsC0: 17068

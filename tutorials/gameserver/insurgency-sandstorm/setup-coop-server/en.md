@@ -23,7 +23,7 @@ In co-op mode (e.g. **Checkpoint**) you play together with other players against
 ## Step 1: Set the co-op scenario
 
 1. **Open dashboard**\
-   Open the dashboard of your server and navigate to the **Settings**.
+   Open the dashboard of your server and navigate to the **Config Editor**.
 
 2. **Set scenario and map**\
    In the **Scenario Name** field, enter a checkpoint scenario, e.g.:

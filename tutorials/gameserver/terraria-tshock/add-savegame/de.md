@@ -60,7 +60,7 @@ Du kannst eine bestehende Welt auf Deinen Server übertragen, um dort weiterzusp
    > Bei tShock liegt die Welt nicht in einem Unterordner, sondern direkt im Hauptverzeichnis – dort, wo auch der Ordner `tshock` liegt.
 
 4. **Weltnamen setzen**\
-   Öffne die Verwaltung, navigiere zu den **Einstellungen** und trage im Feld **World Name** den Dateinamen Deiner Welt ein – **ohne** die Endung `.wld` (z.B. `Meine_Welt` für `Meine_Welt.wld`).
+   Öffne die Verwaltung, navigiere zum **Config-Editor** und trage im Feld **World Name** den Dateinamen Deiner Welt ein – **ohne** die Endung `.wld` (z.B. `Meine_Welt` für `Meine_Welt.wld`).
 
 5. **Server starten**\
    Speichere die Einstellungen und starte Deinen Server. Beim Start wird jetzt Deine hochgeladene Welt geladen.

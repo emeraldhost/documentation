@@ -26,8 +26,8 @@ Mit dem Seed bestimmst Du, welche Welt auf Deinem Server generiert wird.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Seed anpassen**\
    Trage den gewünschten Wert im Feld **Welt Seed** ein und speichere die Einstellung.

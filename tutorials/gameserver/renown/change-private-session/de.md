@@ -23,8 +23,8 @@ Mit dieser Einstellung legst Du fest, ob Dein Server als private Sitzung läuft.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Private Sitzung anpassen**\
    Setze das Feld **Private Sitzung** auf den gewünschten Wert:

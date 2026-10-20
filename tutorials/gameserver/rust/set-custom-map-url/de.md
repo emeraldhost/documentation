@@ -26,8 +26,8 @@ Mit einer Custom Map URL kannst Du eine eigene Map auf Deinem Server verwenden.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Custom Map URL anpassen**\
    Trage den gewünschten Wert im Feld **Custom Map URL** ein und speichere die Einstellung.

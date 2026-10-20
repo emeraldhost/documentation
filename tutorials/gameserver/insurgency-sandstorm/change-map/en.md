@@ -23,8 +23,8 @@ The map determines which map is loaded when the server starts (e.g. `Ministry`, 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change the map**\
    Enter the name of the desired map in the **Map** field and save the setting.

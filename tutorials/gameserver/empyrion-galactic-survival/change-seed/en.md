@@ -23,8 +23,8 @@ You can adjust the seed that is used to generate the world.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change seed**\
    Enter the desired value in the **Seed** field and save the setting.

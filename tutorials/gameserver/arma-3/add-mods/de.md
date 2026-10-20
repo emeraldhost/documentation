@@ -58,7 +58,7 @@ Bei dieser Methode lädt Dein Server die Mods selbst aus dem Steam Workshop heru
    ```
 
 6. **Modliste eintragen**\
-   Öffne die **Einstellungen** in Deiner Verwaltung und trage den Dateinamen im Feld für die Modliste-Datei ein. Standardmäßig steht dort bereits `modlist.html`.
+   Öffne den **Config-Editor** in Deiner Verwaltung und trage den Dateinamen im Feld für die Modliste-Datei ein. Standardmäßig steht dort bereits `modlist.html`.
 
 7. **Server starten**\
    Starte Deinen Server. Beim Start werden die Mods aus der Liste heruntergeladen – je nach Umfang kann das einige Minuten dauern.
@@ -66,7 +66,7 @@ Bei dieser Methode lädt Dein Server die Mods selbst aus dem Steam Workshop heru
 > [!NOTE]
 > **Steam-Konto erforderlich**
 >
-> Für den automatischen Download aus dem Workshop benötigt Dein Server die Zugangsdaten eines Steam-Kontos, das Arma 3 besitzt. Anonyme Downloads sind für Workshop-Inhalte nicht möglich. Die Zugangsdaten hinterlegst Du in den **Einstellungen** Deiner Verwaltung.
+> Für den automatischen Download aus dem Workshop benötigt Dein Server die Zugangsdaten eines Steam-Kontos, das Arma 3 besitzt. Anonyme Downloads sind für Workshop-Inhalte nicht möglich. Die Zugangsdaten hinterlegst Du im **Config-Editor** Deiner Verwaltung.
 
 ## Methode 2: Workshop-IDs direkt eintragen
 
@@ -79,7 +79,7 @@ Statt einer Modliste kannst Du Mods auch einzeln über ihre Workshop-ID angeben.
    Stoppe Deinen Server über die Verwaltung.
 
 3. **IDs eintragen**\
-   Trage die IDs in den **Einstellungen** im Feld für die Mods ein – jeweils mit vorangestelltem `@` und durch Semikolon getrennt:
+   Trage die IDs im **Config-Editor** im Feld für die Mods ein – jeweils mit vorangestelltem `@` und durch Semikolon getrennt:
 
    ```text
    @450814997;@463939057;
@@ -130,7 +130,7 @@ Diese Methode brauchst Du für Mods, die nicht aus dem Workshop stammen.
    Öffne den Unterordner `keys` (bzw. `key`) des Mods und lade die enthaltene `.bikey`-Datei in den Ordner `/keys` Deines Servers hoch.
 
 8. **Mod aktivieren**\
-   Trage den Ordnernamen in den **Einstellungen** im Feld für die Mods ein – mehrere durch Semikolon getrennt:
+   Trage den Ordnernamen im **Config-Editor** im Feld für die Mods ein – mehrere durch Semikolon getrennt:
 
    ```text
    @cba_a3;@operation_trebuchet
@@ -166,8 +166,8 @@ Damit nur Spieler mit unveränderten Mod-Dateien auf Deinen Server kommen, prüf
 
 | Problem | Lösung |
 |---------|--------|
-| Server startet nicht | Prüfe, ob alle Mod-Ordner exakt so heißen, wie sie in den Einstellungen eingetragen sind – inklusive Kleinschreibung |
+| Server startet nicht | Prüfe, ob alle Mod-Ordner exakt so heißen, wie sie im Config-Editor eingetragen sind – inklusive Kleinschreibung |
 | Mod wird nicht geladen | Prüfe, ob der Ordner direkt im Hauptverzeichnis liegt und mit `@` beginnt |
 | Spieler werden beim Beitritt abgewiesen | Alle Client-Mods müssen bei den Spielern in derselben Version aktiv sein |
 | Signatur-Fehler | Prüfe, ob für jeden Mod die passende `.bikey`-Datei im Ordner `/keys` liegt |
-| Mods fehlen nach dem Start | Prüfe, ob ein Steam-Konto mit Arma-3-Lizenz in den Einstellungen hinterlegt ist |
+| Mods fehlen nach dem Start | Prüfe, ob ein Steam-Konto mit Arma-3-Lizenz im Config-Editor hinterlegt ist |

@@ -69,7 +69,7 @@ Ein Spielstand in Colony Survival ist **ein kompletter Ordner**, keine einzelne 
    > Existiert bereits ein Ordner mit demselben Namen, lösche ihn vorher oder benenne Deinen hochgeladenen Ordner um. Vermische niemals die Dateien zweier Welten in einem Ordner.
 
 6. **World Name eintragen**\
-   Öffne die **Verwaltung**, wechsle zu den **Einstellungen** und trage im Feld **World Name** exakt den Ordnernamen aus Schritt 5 ein.
+   Öffne die **Verwaltung**, wechsle zum **Config-Editor** und trage im Feld **World Name** exakt den Ordnernamen aus Schritt 5 ein.
 
 7. **Server starten**\
    Starte Deinen Server. Beim Start wird jetzt Deine hochgeladene Welt geladen.

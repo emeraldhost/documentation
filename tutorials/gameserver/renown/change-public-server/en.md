@@ -23,8 +23,8 @@ This setting determines whether your server is listed in the public server brows
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust Public Server**\
    Set the **Public Server** field to the desired value:

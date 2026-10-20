@@ -21,8 +21,8 @@ related: ["gameserver/beammp/change-server-description", "gameserver/beammp/chan
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter version**\
    Enter the desired version in the **BeamMP Server Version** field.

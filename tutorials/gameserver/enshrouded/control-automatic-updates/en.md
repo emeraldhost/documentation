@@ -33,8 +33,8 @@ Your Enshrouded server can update itself to the latest version on every start. T
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the value**\
    Enter the desired value in the **Auto Update** field: `1` for automatic updates, `0` to turn them off. Save the setting.
@@ -66,8 +66,8 @@ If your server no longer starts after an update or after an interrupted download
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable validation**\
    Enter the value `1` in the **Serverdateien validieren** field and set **Auto Update** to `1`. Save the settings.

@@ -23,8 +23,8 @@ Standardmäßig folgt Core Keeper dem echten Kalender für saisonale Events. Du 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Event auswählen**\
    Trage bei den **Zusätzlichen Startparametern** folgenden Wert ein:

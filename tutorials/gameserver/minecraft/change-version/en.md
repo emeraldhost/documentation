@@ -2,12 +2,11 @@
 slug: "change-version"
 language: "en"
 title: "How to Change the Version on a Minecraft Java Edition Server"
-description: "Change version on a Minecraft Java Edition server"
+description: "Change the Minecraft version, server platform and build of a Minecraft Java Edition server in the EmeraldHost dashboard"
 tags: []
 date: "2023-10-16"
 visibility: "public"
-is_deprecated: true
-updated: "2026-08-20"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -17,74 +16,67 @@ author_description: "The EmeraldHost team shares its knowledge so you get the mo
 available_languages: ["de", "en"]
 short_title: "Change Version"
 sort: 8
-related: ["gameserver/minecraft/change-spawn-protection", "gameserver/minecraft/change-difficulty", "gameserver/minecraft/change-view-distance", "gameserver/minecraft/change-world-border"]
+related: ["gameserver/minecraft/create-backup", "gameserver/minecraft/install-plugins", "gameserver/minecraft/install-mods", "gameserver/minecraft/fix-server-crashes"]
 ---
 
-## Version
+In Minecraft, a "version" refers to a specific release of the game, e.g. `1.21.1`. Each version brings changes to the gameplay, game mechanics and features. For players to be able to connect to your server, their game version has to match the server's version.
 
-In Minecraft, a "version" refers to a specific variant or edition of the game. Minecraft has released various versions over the years, which have brought changes to the gameplay as well as to the game mechanics, graphics and functions.
+In the EmeraldHost dashboard, you change the version with the **Version ändern** (Change version) wizard. There you choose not only the Minecraft version but also the server platform (e.g. Paper, Fabric or NeoForge) and the build.
 
-## Change version on a Minecraft server
+> [!WARNING]
+> Changing the version requires a server restart. Depending on the option you choose, all existing files are deleted. Make sure to create a backup first (see [Create a Backup](/tutorials/gameserver/create-backup)).
 
-1. **Open server administration**\
-    To select a version, please visit the administration page of your Minecraft server on EmeraldHost.
+## Open the wizard
 
-2. **Find the server settings**\
-    Navigate to the "Settings" tab in the right sidebar and select it.
+You can reach the **Version ändern** (Change version) wizard in your server's dashboard in three ways:
 
-    ![Server management with the "Settings" entry highlighted in the sidebar](images/settings-tab-in-sidebar.png)
+- via the **Version ändern** icon in the header row
+- via the **Aktionen** (Actions) dropdown → **Version ändern**
+- in **Übersicht** (Overview), in the **Server Informationen** (Server information) box, via the pencil icon next to **Version**
 
-3. **Select new version**\
-    ![Server settings with the "Docker Image" and "Minecraft Version" fields highlighted](images/docker-image-and-minecraft-version-fields.png)
+## Change the version
 
-    You can now enter the desired Minecraft version under "Minecraft version". The version should correspond to the official Minecraft versioning.
+1. **Choose the server platform**\
+   In the first step, **Server Plattform** (Server platform), select the server software, e.g. **Vanilla**, **Paper**, **Purpur**, **Spigot**, **Fabric**, **Forge**, **NeoForge**, **Quilt**, **Velocity** or **BungeeCord**. Some platforms such as **Waterfall** and **Quilt** are marked with a warning icon.
 
-    Example: `1.20` or `1.19` or `1.18` or `1.17` or `1.16`, ...
+   > [!NOTE]
+   > Plugins only run on plugin platforms such as Paper, Purpur or Spigot, and mods only run on mod loaders such as Fabric, Forge or NeoForge. If you switch platforms, your existing plugins or mods may no longer work.
 
-    Depending on the Minecraft version selected, a different Java version should be selected for the "Docker Image". Here is a list of Minecraft versions and the corresponding Docker images:
+2. **Choose the release channel**\
+   In the **Release-Kanal** (Release channel) step, choose between **Stable** (recommended) and **Snapshot** (experimental). **Stable** is the right choice for a regular server. Snapshots are test versions and may contain bugs.
 
-    | Minecraft Version | Docker Image |
-    | -------------------------- | ------------------ |
-    | 1.17 and higher | Java 16 or higher |
-    | 1.16.x (Nether Update) | Java 11 or higher |
-    | 1.15.x (Buzzy Bees) | Java 8 or higher |
-    | 1.14.x (Village & Pillage) | Java 8 or higher |
-    | 1.13.x | Java 8 or higher |
-    | 1.12.x | Java 8 |
-    | 1.11.x and older | Java 8 |
+3. **Choose the Minecraft version**\
+   In the **Minecraft Version** step, select the version you want from the dropdown.
 
-    Furthermore, the "Build Number" must be specified to match the Minecraft version previously entered. We install PaperSpigot on all Minecraft servers by default. If the server software has been changed, the corresponding build number should be determined from the website of the respective server software.
+4. **Choose the build**\
+   In the **Build** step, select the build of the server software. **Latest (Recommended)** is selected by default. You can usually keep this selection.
 
-    Here you can find all Minecraft versions and corresponding build numbers of PaperSpigot: <https://papermc.io/downloads/all>
+5. **Review and choose an option**\
+   In the **Überprüfung** (Review) step, you see a summary of your selection. Under **Reinstallations-Optionen** (Reinstallation options), you decide what happens to your data:
 
-    ![Build overview on the PaperMC website with the version list on the left and the highlighted build number](images/papermc-build-list.png)
+   - **Nur Version ändern** (Change version only): The version is changed without deleting any data. The server then restarts quickly.
+   - **Version ändern + Datenlöschung** (Change version + delete data): All existing files are deleted and the server is completely reinstalled.
 
-    You can select the desired Minecraft version on the left-hand side, and for each version you will find all the corresponding builds in the middle. For EmeraldHost you have to enter the build number without the "#".
+   > [!IMPORTANT]
+   > With **Version ändern + Datenlöschung**, you lose all files on the server, including your worlds, plugins, mods and configurations. Back up everything you want to keep beforehand.
 
-    Here is a list of build numbers that correspond to the respective Minecraft versions:
+6. **Apply the changes**\
+   Click **Änderungen anwenden** (Apply changes). As the wizard indicates, this requires a server restart.
 
-    | Minecraft Version | Paper Build |
-    | ----------------- | ----------- |
-    | 1.20 | 17 |
-    | 1.19 | 81 |
-    | 1.18 | 66 |
-    | 1.17 | 79 |
-    | 1.16.1 | 138 |
-    | 1.15 | 21 |
-    | 1.14 | 17 |
-    | 1.13 | 173 |
-    | 1.12 | 1169 |
-    | 1.11.2 | 1106 |
-    | 1.10.2 | 918 |
-    | 1.8.8 | 445 |
+> [!TIP]
+> The wizard shows the hint **Backup empfohlen** (Backup recommended). A backup is especially important if you switch back to an older version: worlds that have already been loaded with a newer version often can no longer be opened correctly with an older one.
 
-4. **Reinstall server**\
-    Return to the overview page of your Minecraft server. Click on the three dots at the top right and select "Reinstall". Your Minecraft server will be reset once and reinstalled with the Minecraft version you selected.
+## Java version
 
-    ![Opened menu behind the three dots with the "Reinstall" entry highlighted](images/reinstall-menu-entry.png)
+Each Minecraft version requires a matching Java version. You can see which Java version your server uses in the **Config-Editor** (Config editor) under **Java-Version** (Java version).
 
-    A new window will open in which you must confirm the new installation. Confirm this process by clicking on "Yes, reinstall server".
+| Minecraft Version        | Required Java Version |
+| ------------------------ | --------------------- |
+| 1.20.5 and higher        | Java 21 or higher     |
+| 1.18 to 1.20.4           | Java 17 or higher     |
+| 1.17.x                   | Java 16 or higher     |
+| 1.13 to 1.16.5           | Java 8 or higher      |
+| 1.12.x and older         | Java 8                |
 
-    ![Confirmation dialog "Reinstall server" with the "Yes, reinstall server" button](images/confirm-server-reinstall.png)
-
-    The completion of the process will be displayed as soon as your Minecraft server is online again.
+> [!NOTE]
+> Newer Minecraft versions may require an even newer Java version. If your server does not start after changing the version, check the **Konsole** (Console) for an error about the wrong Java version.

@@ -28,8 +28,8 @@ The invite code is required by players to find your server in-game. You can set 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set invite code**\
    Enter the desired code in the **Invite Code** field and save the setting.

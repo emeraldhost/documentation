@@ -26,7 +26,7 @@ You choose which scenario runs on your server in the dashboard. You can find out
 The `missionHeader` is located in `config.json` in the root directory of your server, inside `"game"` → `"gameProperties"`. All values you enter there replace the corresponding values from the scenario's header. Values you do not enter are still taken from the scenario.
 
 > [!NOTE]
-> On every server start, the dashboard overwrites the fields from the **Settings** (e.g., Server Name, Scenario ID or Battle-Eye) as well as some fixed values such as `fastValidation`. It leaves the `missionHeader` unchanged, so your entries are kept after a restart. You can find an overview of all entries in `config.json` in the guide [Configure Server](/tutorials/gameserver/arma-reforger/configure-server).
+> On every server start, the dashboard overwrites the fields from the **Config Editor** (e.g., Server Name, Scenario ID or Battle-Eye) as well as some fixed values such as `fastValidation`. It leaves the `missionHeader` unchanged, so your entries are kept after a restart. You can find an overview of all entries in `config.json` in the guide [Configure Server](/tutorials/gameserver/arma-reforger/configure-server).
 
 > [!WARNING]
 > An entry only takes effect if the scenario or game mode supports it. The Conflict settings further below, for example, only work in Conflict scenarios.

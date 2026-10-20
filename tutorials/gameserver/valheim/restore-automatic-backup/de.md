@@ -27,7 +27,7 @@ Die Welten und ihre automatischen Backups liegen auf Deinem Server unter:
 /.config/unity3d/IronGate/Valheim/worlds_local/
 ```
 
-Seit Valheim 1.0 ist jede Welt ein eigener Ordner. Der Ordner Deiner Welt heißt so wie das Feld **Welt Name** in den **Einstellungen** der Verwaltung (Standard: `Dedicated`).
+Seit Valheim 1.0 ist jede Welt ein eigener Ordner. Der Ordner Deiner Welt heißt so wie das Feld **Welt Name** im **Config-Editor** der Verwaltung (Standard: `Dedicated`).
 
 Jedes automatische Backup ist ein weiterer Ordner im selben Verzeichnis. Sein Name folgt dem Muster `<WeltName>_backup_auto-JJJJMMTT-HHMMSS`. Den Ordner `MeineWelt_backup_auto-20260115-183000` hat Dein Server also am 15.01.2026 um 18:30:00 Uhr angelegt. Er enthält den zuletzt gespeicherten Stand der Welt `MeineWelt` vor diesem Zeitpunkt. Die Uhrzeit richtet sich nach der Systemzeit des Servers und kann deshalb von Deiner Ortszeit abweichen.
 

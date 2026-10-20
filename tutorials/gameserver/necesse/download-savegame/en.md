@@ -50,7 +50,7 @@ You can download the world of your server to your PC at any time – for example
 > [!NOTE]
 > **Which file is the right one?**
 >
-> The world your server loads is shown in the dashboard under **settings** in the **Save Name** field. If it says `My_World`, for example, then `My_World.zip` is your current world.
+> The world your server loads is shown in the dashboard in the **Config Editor** in the **Save Name** field. If it says `My_World`, for example, then `My_World.zip` is your current world.
 
 > [!WARNING]
 > **Caution**

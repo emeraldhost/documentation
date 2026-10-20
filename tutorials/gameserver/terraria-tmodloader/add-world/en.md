@@ -38,7 +38,7 @@ related: ["gameserver/terraria-tmodloader/add-mods", "gameserver/terraria-tmodlo
    Wait until the world has been transferred to the server.
 
 4. **Select Uploaded World**\
-   Go to the settings of your server and select your newly uploaded world.
+   Go to the **Config Editor** in your server's dashboard and select your newly uploaded world.
 
 5. **Restart Server**\
    Restart the server and check that your world is loading correctly.

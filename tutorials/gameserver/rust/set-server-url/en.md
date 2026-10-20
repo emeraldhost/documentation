@@ -26,8 +26,8 @@ The server URL lets you link to your website, which is shown to players in-game.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set server URL**\
    Enter the desired value in the **Server URL** field and save the setting.

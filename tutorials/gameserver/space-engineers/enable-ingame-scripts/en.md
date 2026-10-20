@@ -24,8 +24,8 @@ This setting allows the execution of in-game scripts – the C# scripts in **Pro
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable in-game scripts**\
    Set the **In-Game Scripts** option to `true` to allow them, or to `false` to disallow them.

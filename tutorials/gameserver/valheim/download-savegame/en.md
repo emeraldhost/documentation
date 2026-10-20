@@ -46,7 +46,7 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> You can tell which folder belongs to your world from the **World Name** field in the **Settings** of the dashboard. If it contains `MyWorld`, for example, you need the folder `MyWorld`. Folders with `_backup_` in their name are backups, not the current state.
+> You can tell which folder belongs to your world from the **World Name** field in the **Config Editor** of the dashboard. If it contains `MyWorld`, for example, you need the folder `MyWorld`. Folders with `_backup_` in their name are backups, not the current state.
 
 > [!TIP]
 > **Restoring the savegame**

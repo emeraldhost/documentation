@@ -26,7 +26,7 @@ Welches Szenario auf Deinem Server läuft, legst Du in der Verwaltung fest. Wie 
 Der `missionHeader` steht in der `config.json` im Hauptverzeichnis Deines Servers innerhalb von `"game"` → `"gameProperties"`. Alle Werte, die Du dort einträgst, ersetzen die entsprechenden Werte aus dem Header des Szenarios. Werte, die Du nicht einträgst, übernimmt der Server weiterhin aus dem Szenario.
 
 > [!NOTE]
-> Die Verwaltung überschreibt bei jedem Serverstart die Felder aus den **Einstellungen** (z.B. Server Name, Szenario ID oder Battle-Eye) sowie einige feste Werte wie `fastValidation`. Den `missionHeader` lässt sie unverändert, Deine Einträge bleiben also auch nach einem Neustart erhalten. Einen Überblick über alle Einträge der `config.json` findest Du in der Anleitung [Server konfigurieren](/tutorials/gameserver/arma-reforger/configure-server).
+> Die Verwaltung überschreibt bei jedem Serverstart die Felder aus dem **Config-Editor** (z.B. Server Name, Szenario ID oder Battle-Eye) sowie einige feste Werte wie `fastValidation`. Den `missionHeader` lässt sie unverändert, Deine Einträge bleiben also auch nach einem Neustart erhalten. Einen Überblick über alle Einträge der `config.json` findest Du in der Anleitung [Server konfigurieren](/tutorials/gameserver/arma-reforger/configure-server).
 
 > [!WARNING]
 > Ein Eintrag wirkt nur, wenn das Szenario bzw. der Spielmodus ihn unterstützt. Die Conflict-Einstellungen weiter unten funktionieren z.B. nur in Conflict-Szenarien.
@@ -158,7 +158,7 @@ Diese Einträge funktionieren nur in Conflict-Szenarien. Bei den Zahlenwerten be
 
 ## Speichern und automatische Spielstände
 
-Wie oft der Server den Spielstand automatisch speichert, legst Du mit dem Eintrag `"persistence"` fest. Er steht ebenfalls innerhalb von `"gameProperties"`, aber außerhalb des `missionHeader`. Gehe dabei wie unter [So trägst Du den missionHeader ein](#so-tragst-Du-den-missionheader-ein) beschrieben vor: Server stoppen, `config.json` per SFTP bearbeiten, Server starten.
+Wie oft der Server den Spielstand automatisch speichert, legst Du mit dem Eintrag `"persistence"` fest. Er steht ebenfalls innerhalb von `"gameProperties"`, aber außerhalb des `missionHeader`. Gehe dabei wie unter [So trägst Du den missionHeader ein](#so-tragst-du-den-missionheader-ein) beschrieben vor: Server stoppen, `config.json` per SFTP bearbeiten, Server starten.
 
 ```json
 "gameProperties": {

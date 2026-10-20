@@ -58,7 +58,7 @@ Early Plugins sind besondere Plugins, die den Code des Servers schon beim Start 
    Stoppe Deinen Server über die Verwaltung.
 
 2. **Early Plugins aktivieren**\
-   Navigiere in der Verwaltung zu den **Einstellungen** und setze das Feld **Aktiviere Early Plugins** auf `1`. Ohne diese Einstellung startet der Server nicht von selbst, sobald Early Plugins vorhanden sind, sondern verlangt eine zusätzliche Bestätigung.
+   Navigiere in der Verwaltung zum **Config-Editor** und setze das Feld **Aktiviere Early Plugins** auf `1`. Ohne diese Einstellung startet der Server nicht von selbst, sobald Early Plugins vorhanden sind, sondern verlangt eine zusätzliche Bestätigung.
 
 3. **Early Plugin hochladen**\
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server und lade die `.jar` Datei in den Ordner `earlyplugins/` im Hauptverzeichnis hoch. Gibt es den Ordner noch nicht, lege ihn an.

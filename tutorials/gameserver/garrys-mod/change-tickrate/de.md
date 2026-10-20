@@ -17,11 +17,11 @@ short_title: "Tickrate ändern"
 sort: 15
 related: ["gameserver/garrys-mod/configure-server", "gameserver/garrys-mod/enable-lua-refresh", "gameserver/garrys-mod/change-gamemode", "gameserver/garrys-mod/set-up-ttt"]
 ---
-Die **Tickrate** legt fest, wie oft Dein Server pro Sekunde die Spielwelt berechnet und aktualisiert – also Bewegungen, Physik und Treffer. Eine Tickrate von 66 bedeutet zum Beispiel 66 Aktualisierungen pro Sekunde. Du stellst sie in den Einstellungen Deines Servers ein.
+Die **Tickrate** legt fest, wie oft Dein Server pro Sekunde die Spielwelt berechnet und aktualisiert – also Bewegungen, Physik und Treffer. Eine Tickrate von 66 bedeutet zum Beispiel 66 Aktualisierungen pro Sekunde. Du stellst sie im Config-Editor Deines Servers ein.
 
 ## Welche Tickrate ist sinnvoll?
 
-Laut dem [Garry's Mod Wiki](https://wiki.facepunch.com/gmod/Command_Line_Parameters) liegt der empfohlene Bereich zwischen **30 und 128**, der Standardwert der Engine ist **66.6666**. Auf Deinem Server ist standardmäßig eine Tickrate von **22** eingestellt, in den Einstellungen kannst Du maximal **100** eintragen.
+Laut dem [Garry's Mod Wiki](https://wiki.facepunch.com/gmod/Command_Line_Parameters) liegt der empfohlene Bereich zwischen **30 und 128**, der Standardwert der Engine ist **66.6666**. Auf Deinem Server ist standardmäßig eine Tickrate von **22** eingestellt, im Config-Editor kannst Du maximal **100** eintragen.
 
 Der Standardwert von 22 liegt unter dem empfohlenen Bereich – Physik und Trefferabfrage wirken dadurch weniger flüssig. Für die meisten Server ist **33** oder **66** die bessere Wahl. Als Richtwert:
 
@@ -38,8 +38,8 @@ Der Standardwert von 22 liegt unter dem empfohlenen Bereich – Physik und Treff
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Tickrate eintragen**\
    Trage im Feld **Tickrate** den gewünschten Wert ein, z.B. `33`. Der Server startet damit mit dem Parameter:

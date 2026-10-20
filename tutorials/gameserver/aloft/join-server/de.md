@@ -64,8 +64,8 @@ Du kannst Deinem Aloft-Server über den Raum-Code oder die öffentliche Server L
 1. **Dashboard öffnen**\
    Öffne Dein Dashboard und wähle Deinen Aloft Server aus.
 
-2. **Einstellungen öffnen**\
-   Gehe zu den Einstellungen.
+2. **Config-Editor öffnen**\
+   Gehe zum **Config-Editor**.
 
 3. **Server Liste finden**\
    Scrolle nach unten zu „Server Liste“.

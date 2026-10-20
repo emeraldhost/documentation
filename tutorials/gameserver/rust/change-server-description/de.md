@@ -23,8 +23,8 @@ Die Server Beschreibung wird angezeigt, wenn Spieler Deinen Server im Server-Bro
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server Beschreibung anpassen**\
    Trage den gewünschten Wert im Feld **Server Beschreibung** ein und speichere die Einstellung.

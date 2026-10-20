@@ -37,8 +37,8 @@ Jeder Gamemode auf sbox.game hat eine Adresse nach dem Muster `sbox.game/<organi
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen** beziehungsweise zu den Startparametern Deines Servers.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor** beziehungsweise zu den Startparametern Deines Servers.
 
 3. **Gamemode eintragen**\
    Trage den Package-Ident des gewünschten Gamemodes hinter `+game` ein:

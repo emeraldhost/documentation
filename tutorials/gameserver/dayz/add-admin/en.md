@@ -25,8 +25,8 @@ You can log in as admin on your server by setting an admin password in the dashb
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set admin password**\
    Enter your desired password in the **Admin Password** field.

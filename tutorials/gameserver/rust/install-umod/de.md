@@ -32,8 +32,8 @@ uMod (ehemals Oxide) ist das meistverwendete Mod-Framework für Rust und bietet 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **uMod aktivieren**\
    Setze das Feld **uMod** auf aktiviert.

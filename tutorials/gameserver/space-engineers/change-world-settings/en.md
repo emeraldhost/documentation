@@ -27,7 +27,7 @@ Many settings of your world are not available as a field in the dashboard – fo
 ## Change these values in the dashboard
 
 > [!WARNING]
-> Some values are also stored in `Sandbox_config.sbc`, but the dashboard overwrites them on every start with the values from the **Settings**. Therefore, only change them there:
+> Some values are also stored in `Sandbox_config.sbc`, but the dashboard overwrites them on every start with the values from the **Config Editor**. Therefore, only change them there:
 >
 > | Key in the file | Dashboard field | Guide |
 > | --- | --- | --- |

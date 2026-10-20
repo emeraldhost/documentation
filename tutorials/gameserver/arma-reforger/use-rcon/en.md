@@ -26,8 +26,8 @@ RCON only starts when an RCON password is set.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter RCON password**\
    Enter a password in the **RCON Password** field.
@@ -52,7 +52,7 @@ You need three pieces of information to connect:
   You can find the RCON port in the dashboard in the **port overview**. The port is assigned by us and cannot be changed.
 
 - <b>Password</b><br>
-  The password from the **RCON Password** field in the **Settings**.
+  The password from the **RCON Password** field in the **Config Editor**.
 
 > [!NOTE]
 > The RCON address, port and password are written from the dashboard into `config.json` on every server start. If you change `address`, `port` or `password` in the `"rcon"` section directly in the file, these values are overwritten on the next start. Therefore, always change the password in the dashboard.

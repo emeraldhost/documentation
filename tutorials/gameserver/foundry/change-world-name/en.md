@@ -23,8 +23,8 @@ The world name determines which world folder is loaded on the server.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change world name**\
    Enter the desired name in the **World Name** field and save the setting.

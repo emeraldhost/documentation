@@ -52,4 +52,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > s&box kennt kein serverseitiges Savegame. Ob und was auf Deinem Server dauerhaft gespeichert wird, entscheidet allein der Gamemode. Läuft auf Deinem Server ein Gamemode ohne eigene Speicherfunktion, enthält ein Backup nur Deine Konfiguration.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

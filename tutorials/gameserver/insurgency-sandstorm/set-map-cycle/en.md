@@ -47,8 +47,8 @@ With a map cycle your server automatically rotates through a list of scenarios (
 
 ## Step 2: Load the map cycle
 
-1. **Open settings**\
-   Open the **Settings** in the dashboard.
+1. **Open the Config Editor**\
+   Open the **Config Editor** in the dashboard.
 
 2. **Adjust the parameter**\
    The **Additional Parameters** field defaults to `-Mods -Mapcycle=ppMapCycle`. Change the `-Mapcycle=` value to the name of your file (**without** `.txt`) and keep `-Mods` – only **one** `-Mapcycle=` may be active:

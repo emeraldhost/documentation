@@ -30,7 +30,7 @@ Bei diesem Weg bleibt Deine bisherige Welt unverändert auf dem Server und Du ka
    Stoppe Deinen Server über die Verwaltung.
 
 2. **Neuen Welt-Namen eintragen**\
-   Navigiere in der Verwaltung zu den **Einstellungen**. Notiere Dir den bisherigen Eintrag im Feld **Welt Name** (standardmäßig `Dedicated`) und trage dort einen neuen Namen ein, den noch keine Welt auf Deinem Server trägt (z.B. `MeineWelt2`). Der Name darf höchstens 20 Zeichen lang sein. Ein Name, der sich von einer vorhandenen Welt nur in der Groß- und Kleinschreibung unterscheidet, zählt dabei nicht als neuer Name.
+   Navigiere in der Verwaltung zum **Config-Editor**. Notiere Dir den bisherigen Eintrag im Feld **Welt Name** (standardmäßig `Dedicated`) und trage dort einen neuen Namen ein, den noch keine Welt auf Deinem Server trägt (z.B. `MeineWelt2`). Der Name darf höchstens 20 Zeichen lang sein. Ein Name, der sich von einer vorhandenen Welt nur in der Groß- und Kleinschreibung unterscheidet, zählt dabei nicht als neuer Name.
 
 3. **Server starten**\
    Speichere die Einstellungen und starte Deinen Server. Findet der Server keine Welt mit dem eingetragenen Namen, erstellt er automatisch eine neue Welt.

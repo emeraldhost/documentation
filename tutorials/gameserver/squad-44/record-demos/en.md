@@ -23,8 +23,8 @@ Demos are recordings of matches that you can review later or use to investigate 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust Record Demos**\
    Set the **Record Demos** field to the desired value:

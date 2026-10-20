@@ -24,8 +24,8 @@ With **Lua Refresh** (called "Auto Refresh" in Garry's Mod) your server automati
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Turn on Lua Refresh**\
    Enable the **Lua Refresh** setting.
@@ -52,8 +52,8 @@ We recommend turning on Lua Refresh only while you are working on your addons. A
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Turn off Lua Refresh**\
    Disable the **Lua Refresh** setting.

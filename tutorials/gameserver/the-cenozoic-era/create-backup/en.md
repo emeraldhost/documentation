@@ -56,4 +56,4 @@ Among other things, this is where the `Game.ini` with your server settings is st
 > Additionally save your `Game.ini` manually to your PC before making major changes to it. That way you can revert a single setting without having to restore a complete backup.
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

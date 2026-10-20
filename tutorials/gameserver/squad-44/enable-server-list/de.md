@@ -23,8 +23,8 @@ Diese Einstellung legt fest, ob Dein Server im öffentlichen Custom Browser ange
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Serverliste anpassen**\
    Setze das Feld **Serverliste** auf den gewünschten Wert:

@@ -23,8 +23,8 @@ related: ["gameserver/conan-exiles/add-mods", "gameserver/conan-exiles/add-saveg
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Admin Passwort setzen**\
    Trage das gewünschte Passwort im Feld **Admin Passwort** ein.

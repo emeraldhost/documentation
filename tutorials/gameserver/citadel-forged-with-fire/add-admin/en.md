@@ -26,7 +26,7 @@ Citadel Forged with Fire does **not** work with an admin list of SteamIDs but wi
 ## Set the admin password
 
 1. **Open the dashboard**\
-   Open the **dashboard** of your server and switch to the **settings**.
+   Open the **dashboard** of your server and switch to the **Config Editor**.
 
 2. **Enter the password**\
    Enter your desired password in the field for the **admin password**.

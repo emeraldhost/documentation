@@ -26,8 +26,8 @@ Es gibt zwei Möglichkeiten, Admin-Rechte auf Deinem Arma Reforger Server zu erh
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Passwort setzen**\
    Trage im Feld **Admin Passwort** Dein gewünschtes Passwort ein.

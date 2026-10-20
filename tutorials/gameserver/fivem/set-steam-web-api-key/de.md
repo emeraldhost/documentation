@@ -44,8 +44,8 @@ Der Key ist optional. Ohne ihn läuft Dein Server ganz normal, Deine Spieler erh
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Key eintragen**\
    Trage den kopierten Key im Feld **Steam Web API Key** ein.

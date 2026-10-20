@@ -59,7 +59,7 @@ The Bus verwendet ein Rang-System mit vier Stufen. Du kannst Ränge über die `P
 ## So öffnest Du das Admin-Menü mit dem Admin-Passwort
 
 > [!WARNING]
-> Das Standard-Admin-Passwort lautet `BitteAendereMich`. Ändere es in der Verwaltung unter **Einstellungen** im Feld **Admin Passwort**, denn jeder, der das Passwort kennt, kann das Admin-Menü öffnen. Mehr dazu findest Du unter [Server konfigurieren](/tutorials/gameserver/the-bus/configure-server).
+> Das Standard-Admin-Passwort lautet `BitteAendereMich`. Ändere es in der Verwaltung im **Config-Editor** im Feld **Admin Passwort**, denn jeder, der das Passwort kennt, kann das Admin-Menü öffnen. Mehr dazu findest Du unter [Server konfigurieren](/tutorials/gameserver/the-bus/configure-server).
 
 1. **Admin-Menü öffnen**\
    Öffne im Spiel das Pausenmenü und wähle das Admin-Menü.
@@ -102,4 +102,4 @@ Als Owner siehst Du im Admin-Menü (Pausenmenü) zusätzliche Optionen, z.B. fü
 - die Flotte (siehe [Flotte ändern](/tutorials/gameserver/the-bus/change-fleet))
 
 > [!NOTE]
-> Servername, Server-Passwort, Admin-Passwort, maximale Spieleranzahl und die Sichtbarkeit in der Serverliste setzt die Verwaltung bei jedem Start auf die Werte unter **Einstellungen** zurück. Ändere diese Werte deshalb in der Verwaltung.
+> Servername, Server-Passwort, Admin-Passwort, maximale Spieleranzahl und die Sichtbarkeit in der Serverliste setzt die Verwaltung bei jedem Start auf die Werte im **Config-Editor** zurück. Ändere diese Werte deshalb in der Verwaltung.

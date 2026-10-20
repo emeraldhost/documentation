@@ -29,8 +29,8 @@ The world size determines how large the generated world on your server is.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change world size**\
    Enter the desired value in the **World Size** field and save the setting.

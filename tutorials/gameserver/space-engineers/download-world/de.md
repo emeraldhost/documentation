@@ -44,7 +44,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> Der Weltname ist auf Deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar in den **Einstellungen**). Deine Welt liegt daher immer im Ordner `/config/Saves/World/` – es gibt keinen weiteren Ordner, in dem Du suchen müsstest.
+> Der Weltname ist auf Deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar im **Config-Editor**). Deine Welt liegt daher immer im Ordner `/config/Saves/World/` – es gibt keinen weiteren Ordner, in dem Du suchen müsstest.
 
 > [!TIP]
 > **Welt wieder einspielen**

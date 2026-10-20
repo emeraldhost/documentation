@@ -28,7 +28,7 @@ Auf einem FiveM Server gibt es zwei voneinander unabhängige Rechtesysteme:
 
 ## Weg 1: Admin in txAdmin anlegen
 
-txAdmin ist in FXServer bereits enthalten. Damit es startet, muss in der Verwaltung Deines Servers unter **Einstellungen** das Feld **txAdmin** auf `1` stehen.
+txAdmin ist in FXServer bereits enthalten. Damit es startet, muss in der Verwaltung Deines Servers im **Config-Editor** das Feld **txAdmin** auf `1` stehen.
 
 Der erste Admin (der **Master Admin**) entsteht bei der Ersteinrichtung von txAdmin und wird dabei mit einem Cfx.re Account verknüpft – der Ablauf steht unter [txAdmin aktivieren](/tutorials/gameserver/fivem/enable-txadmin). Alle weiteren Admins legst Du danach im **Admin Manager** an.
 
@@ -148,7 +148,7 @@ Es gibt zwei Wege, an den Identifier eines Spielers zu kommen:
 > Läuft Dein Server mit txAdmin, gibst Du Befehle wie `status` in der **Live Console** der txAdmin Web-Oberfläche ein. Ohne txAdmin nutzt Du die Konsole in der Verwaltung Deines Servers.
 
 > [!NOTE]
-> Der `steam:` Identifier wird nur zurückgegeben, wenn ein **Steam Web API Key** hinterlegt ist. Das Feld dafür findest Du in der Verwaltung Deines Servers unter **Einstellungen**.
+> Der `steam:` Identifier wird nur zurückgegeben, wenn ein **Steam Web API Key** hinterlegt ist. Das Feld dafür findest Du in der Verwaltung Deines Servers im **Config-Editor**.
 
 ### Admin in der server.cfg eintragen
 

@@ -21,7 +21,7 @@ related: ["gameserver/the-bus/change-traffic", "gameserver/the-bus/change-weathe
 
 You can configure your The Bus server via the **dashboard**, the **in-game admin menu** and the `ServerSettings.cfg` file.
 
-## Settings in the Dashboard
+## Settings in the Config Editor
 
 In the dashboard you can adjust the following options:
 
@@ -37,8 +37,8 @@ In the dashboard you can adjust the following options:
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change the value**\
    Adjust the desired field.
@@ -47,7 +47,7 @@ In the dashboard you can adjust the following options:
    Save the setting and restart your server.
 
 > [!NOTE]
-> On every start, the dashboard writes these values into the file `/TheBus/Settings/ServerSettings.cfg` (keys `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` and `maxPlayerCount`). Changes to these values that you make in-game or directly in the file are reset on the next restart. So always change these settings under **Settings** in the dashboard.
+> On every start, the dashboard writes these values into the file `/TheBus/Settings/ServerSettings.cfg` (keys `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` and `maxPlayerCount`). Changes to these values that you make in-game or directly in the file are reset on the next restart. So always change these settings in the **Config Editor** in the dashboard.
 
 > [!WARNING]
 > Change the default admin password `BitteAendereMich` right away. Anyone who knows the admin password gets access to the admin menu and therefore to the server settings.

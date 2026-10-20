@@ -27,7 +27,7 @@ Viele Einstellungen Deiner Welt gibt es nicht als Feld in der Verwaltung – zum
 ## Diese Werte änderst Du in der Verwaltung
 
 > [!WARNING]
-> Einige Werte stehen zwar ebenfalls in `Sandbox_config.sbc`, die Verwaltung überschreibt sie aber bei jedem Start mit den Werten aus den **Einstellungen**. Ändere sie deshalb nur dort:
+> Einige Werte stehen zwar ebenfalls in `Sandbox_config.sbc`, die Verwaltung überschreibt sie aber bei jedem Start mit den Werten aus dem **Config-Editor**. Ändere sie deshalb nur dort:
 >
 > | Schlüssel in der Datei | Feld in der Verwaltung | Anleitung |
 > | --- | --- | --- |

@@ -21,8 +21,8 @@ related: ["gameserver/conan-exiles/create-backup", "gameserver/conan-exiles/down
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Configure BattlEye**\
    Enter the desired value in the **BattlEye** field:

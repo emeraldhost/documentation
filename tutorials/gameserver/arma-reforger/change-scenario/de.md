@@ -26,8 +26,8 @@ Du kannst sowohl offizielle als auch benutzerdefinierte Workshop-Szenarien auf D
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Szenario ID eintragen**\
    Trage die gewünschte Szenario ID in das Feld **Szenario ID** ein.
@@ -114,7 +114,7 @@ Du kannst auch benutzerdefinierte Szenarien aus dem [Arma Reforger Workshop](htt
    > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server nicht startet.
 
 4. **Szenario ID setzen**\
-   Trage die Szenario ID des Workshop-Szenarios in der Verwaltung unter **Einstellungen** im Feld **Szenario ID** ein.
+   Trage die Szenario ID des Workshop-Szenarios in der Verwaltung im **Config-Editor** im Feld **Szenario ID** ein.
 
    > [!TIP]
    > **Beispiel**

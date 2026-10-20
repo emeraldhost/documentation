@@ -45,7 +45,7 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 > [!TIP]
 > **Die richtigen Dateien finden**
 >
-> Liegen mehrere Welten im Verzeichnis, erkennst Du die aktive Welt an dem Namen, der in den **Einstellungen** in der Verwaltung ausgewählt ist. Die `.wld` und die `.twld` Datei einer Welt tragen immer denselben Dateinamen.
+> Liegen mehrere Welten im Verzeichnis, erkennst Du die aktive Welt an dem Namen, der im **Config-Editor** in der Verwaltung ausgewählt ist. Die `.wld` und die `.twld` Datei einer Welt tragen immer denselben Dateinamen.
 
 > [!TIP]
 > **Spielstand wieder einspielen**

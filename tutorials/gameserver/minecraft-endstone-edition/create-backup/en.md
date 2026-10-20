@@ -46,4 +46,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Besides the `worlds` folder, your backup should include the configuration and list files in the main folder of your server, in particular `server.properties`, `endstone.toml`, `permissions.json`, `allowlist.json`, `banned-players.json` and `banned-ips.json` as well as the `plugins` folder.
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

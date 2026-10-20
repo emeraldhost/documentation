@@ -21,8 +21,8 @@ related: ["gameserver/soulmask/change-max-players", "gameserver/soulmask/change-
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter game mode**\
    Enter the desired mode in the **Game Mode** field:

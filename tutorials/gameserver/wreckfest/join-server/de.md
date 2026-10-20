@@ -24,7 +24,7 @@ related: ["gameserver/wreckfest/change-server-name", "gameserver/wreckfest/chang
 > [!WARNING]
 > **Wichtig**
 >
-> Für die Verbindung benötigst Du die **IP-Adresse** und den **Query Port** Deines Servers. Den Query Port findest Du in den **Einstellungen** Deines Servers in der Verwaltung. Verwende **nicht** den Game Port, sondern den Query Port!
+> Für die Verbindung benötigst Du die **IP-Adresse** und den **Query Port** Deines Servers. Den Query Port findest Du im **Config-Editor** Deines Servers in der Verwaltung. Verwende **nicht** den Game Port, sondern den Query Port!
 
 ## Über den Server-Browser
 

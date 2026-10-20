@@ -21,7 +21,7 @@ related: ["gameserver/the-bus/change-traffic", "gameserver/the-bus/change-weathe
 
 Deinen The Bus Server kannst Du über die **Verwaltung**, das **Admin-Menü im Spiel** und die Datei `ServerSettings.cfg` anpassen.
 
-## Einstellungen in der Verwaltung
+## Einstellungen im Config-Editor
 
 In der Verwaltung kannst Du folgende Optionen anpassen:
 
@@ -37,8 +37,8 @@ In der Verwaltung kannst Du folgende Optionen anpassen:
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Wert ändern**\
    Passe das gewünschte Feld an.
@@ -47,7 +47,7 @@ In der Verwaltung kannst Du folgende Optionen anpassen:
    Speichere die Einstellung und starte Deinen Server neu.
 
 > [!NOTE]
-> Bei jedem Start schreibt die Verwaltung diese Werte in die Datei `/TheBus/Settings/ServerSettings.cfg` (Schlüssel `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` und `maxPlayerCount`). Änderungen an diesen Werten, die Du im Spiel oder direkt in der Datei vornimmst, werden beim nächsten Neustart wieder zurückgesetzt. Ändere diese Einstellungen deshalb immer unter **Einstellungen** in der Verwaltung.
+> Bei jedem Start schreibt die Verwaltung diese Werte in die Datei `/TheBus/Settings/ServerSettings.cfg` (Schlüssel `serverName`, `serverPassword`, `adminPassword`, `listServerAsPublic` und `maxPlayerCount`). Änderungen an diesen Werten, die Du im Spiel oder direkt in der Datei vornimmst, werden beim nächsten Neustart wieder zurückgesetzt. Ändere diese Einstellungen deshalb immer im **Config-Editor** in der Verwaltung.
 
 > [!WARNING]
 > Ändere das Standard-Admin-Passwort `BitteAendereMich` sofort. Wer das Admin-Passwort kennt, erhält Zugriff auf das Admin-Menü und damit auf die Servereinstellungen.

@@ -109,7 +109,7 @@ How strictly your server checks is controlled by the value `modControl` in the f
 Optionally your server can provide the matching mods to your players so nobody has to collect them one by one.
 
 1. **Choose the mode**\
-   Open the **dashboard**, go to the **settings** and set the field **Mod Pack Mode**:
+   Open the **dashboard**, switch to the **Config Editor** and set the field **Mod Pack Mode**:
 
    | Value | Meaning |
    |-------|---------|

@@ -21,8 +21,8 @@ related: ["gameserver/v-rising/change-game-settings", "gameserver/v-rising/chang
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Beschreibung eintragen**\
    Trage die gewünschte Beschreibung im Feld **Server Beschreibung** ein.

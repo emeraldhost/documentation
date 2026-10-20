@@ -23,8 +23,8 @@ Du kannst die Anzahl der gleichzeitig erlaubten Spieler sowie die Anzahl der res
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Werte anpassen**\
    Trage die gewünschten Werte in die folgenden Felder ein:

@@ -23,8 +23,8 @@ The welcome message is shown to players when they join the server. It's useful f
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change welcome message**\
    Enter the desired text in the **Welcome Message** field and save the setting.

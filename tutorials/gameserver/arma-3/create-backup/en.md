@@ -57,4 +57,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the progress of a persistent mission, you can also download the savegame file separately: [Download Savegame](/tutorials/gameserver/arma-3/download-savegame).
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

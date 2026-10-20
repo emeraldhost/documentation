@@ -80,4 +80,4 @@ Colony Survival ships its own backup command that you can run in the in-game cha
 > If you only want to save the world itself, you can also download the world folder directly: [Download savegame](/tutorials/gameserver/colony-survival/download-savegame).
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

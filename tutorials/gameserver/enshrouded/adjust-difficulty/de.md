@@ -25,8 +25,8 @@ Enshrouded bietet fünf vordefinierte Schwierigkeitsgrade sowie die Möglichkeit
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Schwierigkeit auswählen**\
    Trage im Feld **Game Settings Preset** den gewünschten Wert ein:

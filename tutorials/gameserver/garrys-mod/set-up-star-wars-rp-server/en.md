@@ -137,8 +137,8 @@ You can find more on this under [Add mods](/tutorials/gameserver/garrys-mod/add-
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the gamemode**\
    Enter `starwarsrp` in the **Gamemode** field. If you did not create your own gamemode name, enter `darkrp`.

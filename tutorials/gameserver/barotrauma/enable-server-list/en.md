@@ -21,8 +21,8 @@ related: ["gameserver/barotrauma/create-backup", "gameserver/barotrauma/download
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Configure server list**\
    Enter the desired value in the **Server List** field:

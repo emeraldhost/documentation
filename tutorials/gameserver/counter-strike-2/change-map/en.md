@@ -23,8 +23,8 @@ related: ["gameserver/counter-strike-2/add-workshop-maps", "gameserver/counter-s
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select map**\
    Select the desired map from the **Map** dropdown.

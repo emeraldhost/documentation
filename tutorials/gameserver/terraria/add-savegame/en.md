@@ -51,7 +51,7 @@ You can transfer a local world to your server to continue playing with an existi
    ```
 
 4. **Set the world name**\
-   Open the dashboard, navigate to the **Settings** and enter the file name of your world in the **World Name** field – **without** the `.wld` extension (e.g. `My_World` for `My_World.wld`).
+   Open the dashboard, navigate to the **Config Editor** and enter the file name of your world in the **World Name** field – **without** the `.wld` extension (e.g. `My_World` for `My_World.wld`).
 
 5. **Start the server**\
    Save the settings and start your server.
@@ -60,7 +60,7 @@ You can transfer a local world to your server to continue playing with an existi
 > The world name is matched **exactly** as you enter it, including upper and lower case. If the server does not find a matching `.wld` file in `/saves/Worlds/`, it automatically generates a **new, empty world** with that name on startup. So if your file is named `MyWorld.wld` and you enter `myworld`, you end up in a freshly generated world instead of your uploaded one.
 
 > [!WARNING]
-> Do not edit the file `serverconfig.txt` by hand to switch worlds. The values `worldpath`, `worldname`, `world`, `difficulty`, `autocreate`, `port`, `maxplayers`, `motd`, `seed`, `password` and `npcstream` are rewritten from the dashboard settings on **every server start**. Always change the matching setting in the panel instead.
+> Do not edit the file `serverconfig.txt` by hand to switch worlds. The values `worldpath`, `worldname`, `world`, `difficulty`, `autocreate`, `port`, `maxplayers`, `motd`, `seed`, `password` and `npcstream` are rewritten from the **Config Editor** in the dashboard on **every server start**. Always change the matching setting in the panel instead.
 
 > [!WARNING]
 > **Switching worlds**

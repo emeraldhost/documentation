@@ -21,7 +21,7 @@ related: ["gameserver/insurgency-sandstorm/configure-player-voting", "gameserver
 Cheats stellen Test- und Diagnosebefehle bereit – z.B. um sich Waffen zu geben, unendliche Munition oder Zeitlupe zu aktivieren. Sie eignen sich zum Testen von Server-Einstellungen, sollten im normalen Spielbetrieb aber **nicht** aktiviert sein, da einige Befehle einen Spielvorteil verschaffen.
 
 1. **Verwaltung öffnen**\
-   Öffne die Verwaltung Deines Servers und navigiere zu den **Einstellungen**.
+   Öffne die Verwaltung Deines Servers und navigiere zum **Config-Editor**.
 
 2. **Parameter eintragen**\
    Trage im Feld **Zusätzliche Parameter** den folgenden Parameter ein:

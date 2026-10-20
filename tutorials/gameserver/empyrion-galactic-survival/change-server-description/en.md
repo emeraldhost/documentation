@@ -23,8 +23,8 @@ You can customize your server's description that is shown to players in the serv
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change server description**\
    Enter the desired text in the **Server Description** field and save the setting.

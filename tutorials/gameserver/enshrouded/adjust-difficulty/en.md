@@ -25,8 +25,8 @@ Enshrouded offers five predefined difficulty presets as well as a **Custom** mod
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select difficulty**\
    Enter the desired value in the **Game Settings Preset** field:

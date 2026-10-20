@@ -23,8 +23,8 @@ FOUNDRY speichert den Spielstand in regelmäßigen Abständen automatisch. Das I
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Intervall festlegen**\
    Trage im Feld **Automatischer Speicher Interval** den gewünschten Wert in Sekunden ein (z.B. `300` für 5 Minuten).

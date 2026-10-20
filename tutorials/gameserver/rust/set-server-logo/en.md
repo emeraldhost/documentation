@@ -26,8 +26,8 @@ The server logo is a circular image shown in the Rust+ app.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set server logo**\
    Enter the desired image URL in the **Server Logo** field and save the setting.

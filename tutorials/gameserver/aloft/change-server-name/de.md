@@ -25,8 +25,8 @@ related: ["gameserver/aloft/add-savegame", "gameserver/aloft/change-number-of-is
 1. **Dashboard öffnen**\
    Öffne Dein Dashboard und wähle Deinen Aloft Server aus.
 
-2. **Einstellungen öffnen**\
-   Gehe zu den Einstellungen.
+2. **Config-Editor öffnen**\
+   Gehe zum **Config-Editor**.
 
 3. **Server Name finden**\
    Scrolle nach unten zu „Server Name“.

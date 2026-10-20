@@ -35,7 +35,7 @@ Du kannst die Galaxie Deines Servers jederzeit auf Deinen PC herunterladen – z
    > [!NOTE]
    > **Welche Galaxie ist die richtige?**
    >
-   > Den Namen Deiner aktuellen Galaxie findest Du in der **Verwaltung** unter den **Einstellungen** im Feld für den Galaxie-Namen (**Galaxy Name**). Der Ordner heißt exakt so.
+   > Den Namen Deiner aktuellen Galaxie findest Du in der **Verwaltung** im **Config-Editor** im Feld für den Galaxie-Namen (**Galaxy Name**). Der Ordner heißt exakt so.
 
 4. **Ordner herunterladen**\
    Lade den **kompletten** Galaxie-Ordner mit allen enthaltenen Dateien und Unterordnern auf Deinen PC herunter.

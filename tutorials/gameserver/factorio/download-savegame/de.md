@@ -45,7 +45,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > [!TIP]
 > **Welche Datei ist die richtige?**
 >
-> Welcher Spielstand geladen wird, erkennst Du am Feld **Save Name** in den **Einstellungen** der Verwaltung. Steht dort z.B. `gamesave`, benötigst Du die Datei `gamesave.zip`.
+> Welcher Spielstand geladen wird, erkennst Du am Feld **Save Name** im **Config-Editor** der Verwaltung. Steht dort z.B. `gamesave`, benötigst Du die Datei `gamesave.zip`.
 
 > [!NOTE]
 > **Autosaves**

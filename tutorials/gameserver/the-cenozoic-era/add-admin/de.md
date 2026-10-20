@@ -120,7 +120,7 @@ Clear, Partly Cloudy, Cloudy, Overcast, Foggy, Light Rain, Rain, Storm
 | `-2` | Einfrieren wieder aufheben |
 
 > [!WARNING]
-> Einige Werte in der `Game.ini` werden bei jedem Serverstart aus den Einstellungen Deiner **Verwaltung** überschrieben. Passe solche Werte deshalb dort an und nicht in der Datei – sonst sind Deine Änderungen nach dem nächsten Start wieder verschwunden.
+> Einige Werte in der `Game.ini` werden bei jedem Serverstart aus dem **Config-Editor** Deiner **Verwaltung** überschrieben. Passe solche Werte deshalb dort an und nicht in der Datei – sonst sind Deine Änderungen nach dem nächsten Start wieder verschwunden.
 
 > [!NOTE]
 > Der Konfigurationsordner heißt auch auf Deinem Linux-Server `WindowsServer`. The Cenozoic Era stellt nur ein Windows-Serverprogramm bereit, das auf Linux-Servern über eine Kompatibilitätsschicht läuft. Einen Ordner namens `LinuxServer` gibt es nicht.

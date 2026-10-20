@@ -28,8 +28,8 @@ The Owner ID is your Epic Games ID and is required for your server to start.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter Owner ID**\
    Enter your Player ID in the **Owner ID** field.

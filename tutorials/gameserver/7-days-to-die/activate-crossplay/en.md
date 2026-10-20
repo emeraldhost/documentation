@@ -24,8 +24,8 @@ You can enable crossplay so that Xbox and PlayStation players can join your serv
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change settings**\
    Set the following values:

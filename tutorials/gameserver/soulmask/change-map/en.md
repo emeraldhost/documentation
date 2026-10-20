@@ -26,8 +26,8 @@ You can switch between the available maps.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select map**\
    Change the map setting to the desired value:

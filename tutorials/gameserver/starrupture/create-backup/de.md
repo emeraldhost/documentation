@@ -45,4 +45,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Steht in Deiner `DSSettings.txt` der Wert `StartNewGame` auf `"true"`, erzeugt der Server bei jedem Start eine neue Welt und überschreibt den vorhandenen Spielstand. Prüfe diesen Wert, bevor Du ein wiederhergestelltes Backup startest – siehe [Savegame hinzufügen](/tutorials/gameserver/starrupture/add-savegame).
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

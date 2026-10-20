@@ -52,8 +52,8 @@ Einige Clients – insbesondere unter Linux oder auf dem Steam Deck, gelegentlic
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Verschlüsselung deaktivieren**\
    Aktiviere den Schalter **Deaktiviere Encryption**.

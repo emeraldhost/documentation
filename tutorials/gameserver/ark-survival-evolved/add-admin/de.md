@@ -29,8 +29,8 @@ Mit dieser Methode kannst Du Dich im Spiel als Admin anmelden, indem Du das Admi
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Admin Passwort setzen**\
    Trage ein sicheres Passwort im Feld **Admin Passwort** ein und speichere die Änderung.

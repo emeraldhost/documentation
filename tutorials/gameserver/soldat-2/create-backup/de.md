@@ -60,4 +60,4 @@ Möchtest Du nur die wichtigsten Dateien sichern, lade sie Dir per [SFTP](/tutor
 > Ein Backup sichert nur die Dateien auf Deinem Server. Eigene Karten, Modifier und Skripte gibst Du Deinen Mitspielern am besten zusätzlich direkt weiter – siehe [Mods hinzufügen](/tutorials/gameserver/soldat-2/add-mods). Bewahre diese Dateien deshalb an einem Ort auf, von dem aus Du sie jederzeit weitergeben kannst.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

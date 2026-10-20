@@ -21,8 +21,8 @@ related: ["gameserver/core-keeper/change-world-index", "gameserver/core-keeper/c
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Welt Seed eintragen**\
    Trage den gewünschten Seed im Feld **Welt Seed** ein.

@@ -23,8 +23,8 @@ You can set whether your server is publicly listed in the server list.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enable server list**\
    Enable the **Server List** toggle and save the setting.

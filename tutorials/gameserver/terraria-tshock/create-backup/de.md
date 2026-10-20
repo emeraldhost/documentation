@@ -59,7 +59,7 @@ Diese Sicherungen sind vollwertige Weltdateien – Du machst daraus wieder eine 
    Lade die vorhandene `.wld`-Datei aus dem Hauptverzeichnis herunter oder benenne sie um, falls Du zum aktuellen Stand zurückkehren möchtest.
 
 4. **Sicherung wiederherstellen**\
-   Kopiere die gewünschte Datei aus `/tshock/backups/` in das Hauptverzeichnis Deines Servers und benenne sie exakt so, wie das Feld **World Name** in den Einstellungen lautet – also z.B. `MeineWelt.wld`. Entferne dabei den Zeitstempel und die Endung `.bak`.
+   Kopiere die gewünschte Datei aus `/tshock/backups/` in das Hauptverzeichnis Deines Servers und benenne sie exakt so, wie das Feld **World Name** im Config-Editor lautet – also z.B. `MeineWelt.wld`. Entferne dabei den Zeitstempel und die Endung `.bak`.
 
 5. **Server starten**\
    Starte Deinen Server. Der wiederhergestellte Stand wird jetzt geladen.
@@ -74,4 +74,4 @@ Diese Sicherungen sind vollwertige Weltdateien – Du machst daraus wieder eine 
 > Möchtest Du nur die Welt sichern, kannst Du die `.wld`-Datei auch einzeln herunterladen: [Savegame herunterladen](/tutorials/gameserver/terraria-tshock/download-savegame).
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

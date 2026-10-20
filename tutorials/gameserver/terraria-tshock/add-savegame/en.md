@@ -60,7 +60,7 @@ You can transfer an existing world to your server to continue playing there. tSh
    > With tShock the world is not stored in a subfolder but directly in the main directory – the same place where the `tshock` folder is located.
 
 4. **Set the world name**\
-   Open the dashboard, navigate to the **Settings** and enter the file name of your world in the **World Name** field – **without** the `.wld` extension (e.g. `My_World` for `My_World.wld`).
+   Open the dashboard, navigate to the **Config Editor** and enter the file name of your world in the **World Name** field – **without** the `.wld` extension (e.g. `My_World` for `My_World.wld`).
 
 5. **Start the server**\
    Save the settings and start your server. Your uploaded world is now loaded on startup.

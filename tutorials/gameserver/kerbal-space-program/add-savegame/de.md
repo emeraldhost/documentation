@@ -93,7 +93,7 @@ Eine normale KSP-Speicherdatei (`persistent.sfs`) lässt sich nicht direkt hochl
 > Verwende auf dem Server denselben Spielernamen wie beim Umwandeln. Weicht der Name ab, findet der Server unter `Universe/Scenarios/` keinen passenden Ordner und Dein umgewandelter Fortschritt wird Dir nicht zugeordnet.
 
 > [!TIP]
-> Passen Spielmodus und Schwierigkeit nicht zu Deinem hochgeladenen Spielstand, stellst Du beides in der **Verwaltung** unter **Einstellungen** ein (**Game Mode** und **Game Difficulty**). Beide Werte werden bei jedem Serverstart aus der Verwaltung in die Konfiguration geschrieben – eine Änderung direkt in der Datei bleibt wirkungslos.
+> Passen Spielmodus und Schwierigkeit nicht zu Deinem hochgeladenen Spielstand, stellst Du beides in der **Verwaltung** im **Config-Editor** ein (**Game Mode** und **Game Difficulty**). Beide Werte werden bei jedem Serverstart aus der Verwaltung in die Konfiguration geschrieben – eine Änderung direkt in der Datei bleibt wirkungslos.
 
 > [!NOTE]
 > Schiffe aus dem umgewandelten Spielstand liegen als einzelne Dateien in `Universe/Vessels/`. Ein einzelnes Schiff lässt sich dadurch gezielt entfernen, ohne den ganzen Spielstand anzufassen – stoppe den Server auch dafür.

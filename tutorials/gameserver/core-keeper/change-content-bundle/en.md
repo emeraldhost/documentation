@@ -23,8 +23,8 @@ With content bundles you can enable additional content on your server.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter content bundle**\
    Enter the desired bundle name in the **Content Bundle** field. To enable multiple bundles, separate the names with commas without spaces.

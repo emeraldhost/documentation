@@ -57,8 +57,8 @@ Deinen Server kannst Du auch über seinen Namen in der öffentlichen Serverliste
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Serverliste aktivieren**\
    Setze das Feld **Serverliste** auf `1`. Mit `0` wird Dein Server nicht in der öffentlichen Liste angezeigt.
@@ -70,4 +70,4 @@ Deinen Server kannst Du auch über seinen Namen in der öffentlichen Serverliste
    Starte The Bus, öffne das **Multiplayer**-Menü und suche Deinen Server anhand seines Namens. Ist ein Server-Passwort gesetzt, gibst Du es beim Beitreten ein.
 
 > [!NOTE]
-> Den Namen Deines Servers legst Du in den **Einstellungen** im Feld **Server Name** fest. Mehr dazu findest Du unter [Server konfigurieren](/tutorials/gameserver/the-bus/configure-server).
+> Den Namen Deines Servers legst Du im **Config-Editor** im Feld **Server Name** fest. Mehr dazu findest Du unter [Server konfigurieren](/tutorials/gameserver/the-bus/configure-server).

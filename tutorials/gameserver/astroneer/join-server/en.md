@@ -52,8 +52,8 @@ Some clients – in particular on Linux or Steam Deck, but occasionally also on 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Disable encryption**\
    Enable the **Disable Encryption** toggle.

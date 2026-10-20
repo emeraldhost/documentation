@@ -77,10 +77,10 @@ If a password is set for your server, your friends need it both when joining wit
 > [!WARNING]
 > **Caution**
 >
-> The password is case-sensitive. Pass it on to your friends exactly as it is stored in your server settings.
+> The password is case-sensitive. Pass it on to your friends exactly as it is stored in the **Config Editor**.
 
 > [!NOTE]
-> The `OptionalPassword` entry in `MoriaServerConfig.ini` is applied automatically from your server settings on every start. Changing it directly in the file therefore does not persist.
+> The `OptionalPassword` entry in `MoriaServerConfig.ini` is applied automatically from the **Config Editor** of your server on every start. Changing it directly in the file therefore does not persist.
 
 ## Crossplay and player count
 

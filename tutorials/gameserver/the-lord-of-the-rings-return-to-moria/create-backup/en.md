@@ -47,4 +47,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Always stop your server through the **dashboard**. Only then does the server save the current state and shut down cleanly. A forced shutdown can cost progress and make the next start take several minutes because the old online session is still hanging.
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

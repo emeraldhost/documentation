@@ -28,8 +28,8 @@ related: ["gameserver/aloft/activate-private-islands", "gameserver/aloft/add-sav
 1. **Open dashboard**\
    Open your dashboard and select your Aloft server.
 
-2. **Go to settings**\
-   Navigate to the settings page.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Find admin field**\
    Scroll down to "Admins".

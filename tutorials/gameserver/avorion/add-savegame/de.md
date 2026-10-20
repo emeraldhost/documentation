@@ -76,7 +76,7 @@ Lade den Ordner deshalb immer **vollständig** hoch – einzelne Dateien daraus 
    > Verwende einen Ordnernamen ohne Leerzeichen und Sonderzeichen und halte ihn kurz. Ersetze Leerzeichen am besten durch Unterstriche, zum Beispiel `Meine_Galaxie` – Leerzeichen im Ordnernamen führen sonst zu Problemen beim Start.
 
 5. **Galaxie-Namen eintragen**\
-   Öffne die **Verwaltung**, wechsle zu den **Einstellungen** und trage im Feld für den Galaxie-Namen (**Galaxy Name**) exakt den Ordnernamen Deiner hochgeladenen Galaxie ein – inklusive Groß- und Kleinschreibung.
+   Öffne die **Verwaltung**, wechsle zum **Config-Editor** und trage im Feld für den Galaxie-Namen (**Galaxy Name**) exakt den Ordnernamen Deiner hochgeladenen Galaxie ein – inklusive Groß- und Kleinschreibung.
 
 6. **Server starten**\
    Speichere alle Änderungen und starte Deinen Server. Beim Start wird jetzt Deine hochgeladene Galaxie geladen.

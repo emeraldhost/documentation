@@ -23,8 +23,8 @@ Wenn die Serverliste aktiviert ist, wird Dein Server im Steam Server-Browser gel
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Serverliste aktivieren**\
    Aktiviere die Option **Serverliste** und speichere die Einstellung.

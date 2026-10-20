@@ -99,8 +99,8 @@ The darkrpmodification addon is the place for all your customizations. It does n
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the gamemode**\
    Enter the following value in the **Gamemode** field:

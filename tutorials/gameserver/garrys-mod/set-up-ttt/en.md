@@ -40,8 +40,8 @@ You can recognize TTT maps by the `ttt_` prefix in their name. Your server's def
 1. **Open the dashboard**\
    Open the dashboard of your server.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter the gamemode**\
    Enter the following value in the **Gamemode** field:
@@ -160,7 +160,7 @@ TTT changes the map by itself. At the end of every round the gamemode checks whe
 Which map is loaded next is determined by the server's map rotation. TTT has no built-in map vote. If you want to decide yourself which maps are up for selection and let your players vote on the next map, use an addon such as [MapVote](#set-up-a-map-vote-with-mapvote).
 
 > [!NOTE]
-> After a restart your server always starts again with the map from the **Map** field in the **Settings**.
+> After a restart your server always starts again with the map from the **Map** field in the **Config Editor**.
 
 ## Set up a map vote with MapVote
 

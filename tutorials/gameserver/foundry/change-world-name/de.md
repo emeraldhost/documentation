@@ -23,8 +23,8 @@ Der Welt Name legt fest, welcher Welt-Ordner auf dem Server geladen wird.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Welt Name ändern**\
    Trage im Feld **Welt Name** den gewünschten Namen ein und speichere die Einstellung.

@@ -76,7 +76,7 @@ The Forest has **no world name**, it uses five fixed **save slots** (`1` to `5`)
    ```
 
 6. **Set Init Type to Continue**\
-   Open the **dashboard**, switch to the **Settings** and change the **Init Type** field from `New` to `Continue`.
+   Open the **dashboard**, switch to the **Config Editor** and change the **Init Type** field from `New` to `Continue`.
 
 7. **Start the server**\
    Save all changes and start your server. On startup it now loads your uploaded savegame.
@@ -90,7 +90,7 @@ The Forest has **no world name**, it uses five fixed **save slots** (`1` to `5`)
 > [!CAUTION]
 > **Do not forget the Steam Account Token**
 >
-> Without a valid Steam Game Server Login Token (GSLT) your server runs anonymously – player data and savegames may then not be stored correctly. Create a token with **App ID 242760** at [steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers) and enter it in the dashboard under **Settings** in the **Steam Account Token** field.
+> Without a valid Steam Game Server Login Token (GSLT) your server runs anonymously – player data and savegames may then not be stored correctly. Create a token with **App ID 242760** at [steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers) and enter it in the dashboard in the **Config Editor** in the **Steam Account Token** field.
 
 > [!NOTE]
 > The server saves automatically. How often is controlled by the `serverAutoSaveInterval` value in `config.cfg` – the value is given in minutes, and values below `15` are not possible.

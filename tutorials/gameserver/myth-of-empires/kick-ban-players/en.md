@@ -104,4 +104,4 @@ RCON is a remote administration connection to your server that lets you issue co
 > A ban lasts until you remove it again. There is no option to specify a ban duration.
 
 > [!TIP]
-> Your server can additionally be set to automatically block VAC-banned players. Whether your dashboard offers an option for this is shown under **Settings** – the corresponding startup parameter is `-EnableVACBan=1`.
+> Your server can additionally be set to automatically block VAC-banned players. Whether your dashboard offers an option for this is shown in the **Config Editor** – the corresponding startup parameter is `-EnableVACBan=1`.

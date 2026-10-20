@@ -41,7 +41,7 @@ In der Verwaltung gibt es keinen Knopf zum Zurücksetzen der Welt. Beim Start l�
    Lösche alle Dateien in diesem Verzeichnis. Den Ordner `SaveGames` selbst lässt Du stehen – lösche nur seinen Inhalt.
 
 5. **Welt-Namen festlegen**\
-   Optional: Öffne die **Einstellungen** in der Verwaltung und trage im Feld **Server Name** den Namen ein, den die neue Welt bekommen soll. Lässt Du das Feld unverändert, bekommt die neue Welt den Namen, der dort aktuell eingetragen ist.
+   Optional: Öffne den **Config-Editor** in der Verwaltung und trage im Feld **Server Name** den Namen ein, den die neue Welt bekommen soll. Lässt Du das Feld unverändert, bekommt die neue Welt den Namen, der dort aktuell eingetragen ist.
 
 6. **Server starten**\
    Starte Deinen Server über die Verwaltung. Beim Hochfahren legt er eine neue Standard-Welt mit diesem Namen an.
@@ -76,7 +76,7 @@ Liegen mehrere `.sav`-Dateien im Ordner `SaveGames`, lädt der Server immer die 
    Lade alle `.sav`-Dateien, die nicht geladen werden sollen, auf Deinen PC herunter und lösche sie anschließend aus dem Ordner. Am Ende liegt nur noch die `.sav`-Datei der gewünschten Welt darin.
 
 4. **Welt-Namen eintragen**\
-   Öffne die **Einstellungen** in der Verwaltung und trage im Feld **Server Name** den Dateinamen dieser Welt ohne die Endung `.sav` ein. So stimmt der Welt-Name in der Verwaltung mit der geladenen Welt überein.
+   Öffne den **Config-Editor** in der Verwaltung und trage im Feld **Server Name** den Dateinamen dieser Welt ohne die Endung `.sav` ein. So stimmt der Welt-Name in der Verwaltung mit der geladenen Welt überein.
 
 5. **Server starten**\
    Starte Deinen Server. Er lädt nun die verbliebene Welt.

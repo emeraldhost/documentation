@@ -21,8 +21,8 @@ related: ["gameserver/barotrauma/add-mods", "gameserver/barotrauma/add-savegame"
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Select game mode**\
    Enter the desired value in the **Gamemode** field:

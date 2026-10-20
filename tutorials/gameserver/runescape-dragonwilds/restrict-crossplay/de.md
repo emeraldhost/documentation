@@ -20,7 +20,7 @@ related: ["gameserver/runescape-dragonwilds/join-server", "gameserver/runescape-
 Seit dem 1.0-Update ist Dein Server automatisch ein Crossplay-Server. Spieler auf PC, PlayStation 5, Xbox Series X|S und Nintendo Switch 2 können gemeinsam [beitreten](/tutorials/gameserver/runescape-dragonwilds/join-server), ohne dass Du in der Verwaltung etwas einstellen musst. Möchtest Du Deinen Server auf eine einzelne Plattform beschränken, kannst Du das optional per SFTP in der Konfigurationsdatei festlegen.
 
 > [!NOTE]
-> Für Crossplay gibt es kein Feld in den Einstellungen der Verwaltung. Die Einschränkung erfolgt ausschließlich über die Datei `DedicatedServer.ini`. Soll nur ein bestimmter Spielerkreis beitreten dürfen, kannst Du zusätzlich ein [Server Passwort](/tutorials/gameserver/runescape-dragonwilds/set-server-password) setzen.
+> Für Crossplay gibt es kein Feld im Config-Editor der Verwaltung. Die Einschränkung erfolgt ausschließlich über die Datei `DedicatedServer.ini`. Soll nur ein bestimmter Spielerkreis beitreten dürfen, kannst Du zusätzlich ein [Server Passwort](/tutorials/gameserver/runescape-dragonwilds/set-server-password) setzen.
 
 ## Mögliche Werte
 
@@ -67,7 +67,7 @@ Die Einstellung `PlatformPolicy` legt fest, welche Plattform Deinem Server beitr
    Speichere die Datei und starte Deinen Server.
 
 > [!NOTE]
-> Die Verwaltung schreibt beim Start nur die Werte aus den Einstellungen (Owner ID, Namen und Passwörter) in die Datei. Deine `PlatformPolicy`-Zeile bleibt dabei erhalten.
+> Die Verwaltung schreibt beim Start nur die Werte aus dem Config-Editor (Owner ID, Namen und Passwörter) in die Datei. Deine `PlatformPolicy`-Zeile bleibt dabei erhalten.
 
 ## Einstellung überprüfen
 

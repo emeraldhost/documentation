@@ -26,8 +26,8 @@ There are two ways to get admin rights on your Arma Reforger server: via an admi
 1. **Open the dashboard**\
    Open your server's dashboard.
 
-2. **Open the settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set the password**\
    Enter your desired password in the **Admin Password** field.

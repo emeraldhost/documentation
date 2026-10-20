@@ -58,7 +58,7 @@ With this method your server downloads the mods from the Steam Workshop itself. 
    ```
 
 6. **Enter the mod list**\
-   Open the **settings** in your dashboard and enter the file name in the field for the mod list file. By default it already says `modlist.html`.
+   Open the **Config Editor** in your dashboard and enter the file name in the field for the mod list file. By default it already says `modlist.html`.
 
 7. **Start the server**\
    Start your server. The mods from the list are downloaded on startup – depending on their size this can take a few minutes.
@@ -66,7 +66,7 @@ With this method your server downloads the mods from the Steam Workshop itself. 
 > [!NOTE]
 > **Steam account required**
 >
-> For the automatic Workshop download your server needs the credentials of a Steam account that owns Arma 3. Anonymous downloads are not possible for Workshop content. You store the credentials in the **settings** of your dashboard.
+> For the automatic Workshop download your server needs the credentials of a Steam account that owns Arma 3. Anonymous downloads are not possible for Workshop content. You store the credentials in the **Config Editor** of your dashboard.
 
 ## Method 2: Enter Workshop IDs directly
 
@@ -79,7 +79,7 @@ Instead of a mod list you can also specify mods individually by their Workshop I
    Stop your server via the dashboard.
 
 3. **Enter the IDs**\
-   Enter the IDs in the **settings** in the field for the mods – each with a leading `@` and separated by semicolons:
+   Enter the IDs in the **Config Editor** in the field for the mods – each with a leading `@` and separated by semicolons:
 
    ```text
    @450814997;@463939057;
@@ -132,7 +132,7 @@ You need this method for mods that do not come from the Workshop.
    Open the `keys` (or `key`) subfolder of the mod and upload the `.bikey` file it contains into the `/keys` folder of your server.
 
 8. **Enable the mod**\
-   Enter the folder name in the **settings** in the field for the mods – separate multiple entries with semicolons:
+   Enter the folder name in the **Config Editor** in the field for the mods – separate multiple entries with semicolons:
 
    ```text
    @cba_a3;@operation_trebuchet
@@ -168,8 +168,8 @@ To make sure only players with unmodified mod files can join your server, Arma 3
 
 | Problem | Solution |
 |---------|----------|
-| Server does not start | Check that all mod folders are named exactly as entered in the settings – including lowercase spelling |
+| Server does not start | Check that all mod folders are named exactly as entered in the Config Editor – including lowercase spelling |
 | Mod is not loaded | Check that the folder sits directly in the main directory and starts with `@` |
 | Players are rejected when joining | All client mods have to be active on the players' side in the same version |
 | Signature error | Check that the matching `.bikey` file of every mod is in the `/keys` folder |
-| Mods missing after startup | Check that a Steam account owning Arma 3 is stored in the settings |
+| Mods missing after startup | Check that a Steam account owning Arma 3 is stored in the Config Editor |

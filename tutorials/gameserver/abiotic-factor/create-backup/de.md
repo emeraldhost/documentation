@@ -47,4 +47,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Der eigentliche Spielstand liegt im Weltordner unter `/AbioticFactor/Saved/SaveGames/Server/Worlds/`. Dort liegen auch die Sandbox-Einstellungen (`SandboxSettings.ini`) Deiner Welt. Deine Adminliste (`Admin.ini`) liegt eine Ebene darüber unter `/AbioticFactor/Saved/SaveGames/Server/` – ein Backup über die Verwaltung sichert alle diese Dateien gemeinsam.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

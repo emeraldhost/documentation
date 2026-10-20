@@ -81,7 +81,7 @@ Return to Moria hat **kein Admin- oder Rollensystem**: Es gibt keine Adminliste,
 > [!TIP]
 > **Server auf einen festen Kreis begrenzen**
 >
-> Die Rechtedatei sperrt einzelne Spieler aus. Möchtest Du Deinen Server umgekehrt nur bestimmten Leuten zugänglich machen, setze in den Servereinstellungen ein Serverpasswort und gib es nur an diese Spieler weiter – siehe [Server beitreten](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/join-server).
+> Die Rechtedatei sperrt einzelne Spieler aus. Möchtest Du Deinen Server umgekehrt nur bestimmten Leuten zugänglich machen, setze im **Config-Editor** ein Serverpasswort und gib es nur an diese Spieler weiter – siehe [Server beitreten](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/join-server).
 
 ## Weitere Rechtestufen
 

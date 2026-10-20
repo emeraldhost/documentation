@@ -23,8 +23,8 @@ related: ["gameserver/project-zomboid/add-mods", "gameserver/project-zomboid/add
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Admin-Daten eintragen**\
    Trage den gewünschten **Admin-Benutzernamen** und das **Admin-Passwort** in den entsprechenden Feldern ein.

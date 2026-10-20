@@ -29,8 +29,8 @@ The map setting determines which world Rust uses on your server.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change map**\
    Enter the desired value in the **Map** field and save the setting.

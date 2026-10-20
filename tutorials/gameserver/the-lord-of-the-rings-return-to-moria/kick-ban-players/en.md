@@ -85,7 +85,7 @@ Return to Moria has **no admin or role system**: there is no admin list, no admi
 > [!TIP]
 > **Limit the server to a fixed group**
 >
-> The permissions file locks out individual players. If you instead want to restrict access to specific people, set a server password in your server settings and share it only with those players – see [Join Server](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/join-server).
+> The permissions file locks out individual players. If you instead want to restrict access to specific people, set a server password in the **Config Editor** and share it only with those players – see [Join Server](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/join-server).
 
 ## Additional permission levels
 

@@ -69,7 +69,7 @@ A save in Colony Survival is **a complete folder**, not a single file. Every wor
    > If a folder with the same name already exists, delete it beforehand or rename your uploaded folder. Never mix the files of two worlds in one folder.
 
 6. **Enter the World Name**\
-   Open the **dashboard**, go to the **settings** and enter exactly the folder name from step 5 into the **World Name** field.
+   Open the **dashboard**, go to the **Config Editor** and enter exactly the folder name from step 5 into the **World Name** field.
 
 7. **Start the server**\
    Start your server. Your uploaded world is now loaded on startup.

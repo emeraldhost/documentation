@@ -26,7 +26,7 @@ The Forest kennt **keine Admin-Liste mit SteamIDs**. Stattdessen gibt es ein ein
 ## Admin-Passwort setzen
 
 1. **Verwaltung öffnen**\
-   Öffne die **Verwaltung** Deines Servers und wechsle zu den **Einstellungen**.
+   Öffne die **Verwaltung** Deines Servers und wechsle zum **Config-Editor**.
 
 2. **Admin-Passwort eintragen**\
    Trage im Feld **Admin Password** Dein gewünschtes Passwort ein.

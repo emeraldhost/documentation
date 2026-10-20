@@ -45,4 +45,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Zum Backup gehören neben dem Ordner `worlds` auch Deine Konfigurations- und Listendateien im Hauptordner Deines Servers, insbesondere `server.properties`, `pocketmine.yml`, `ops.txt`, `white-list.txt`, `banned-players.txt` und `banned-ips.txt` sowie die Ordner `plugins`, `plugin_data` und `resource_packs`.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

@@ -23,8 +23,8 @@ You can prevent players from changing teams once they have joined a side.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust Prevent Team Change**\
    Set the **Prevent Team Change** field to the desired value:

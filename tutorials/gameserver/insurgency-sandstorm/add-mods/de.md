@@ -63,7 +63,7 @@ Beim ersten Start muss sich der Server einmalig mit einem **Sicherheitscode** be
 ## Schritt 4: Server einmalig autorisieren
 
 1. **Verwaltung öffnen**\
-   Öffne die Verwaltung und navigiere zu den **Einstellungen**.
+   Öffne die Verwaltung und navigiere zum **Config-Editor**.
 
 2. **Sicherheitscode eintragen**\
    Trage im Feld **Security Code** den per E-Mail erhaltenen Code ein (ersetze den Standardwert `none`) und speichere die Einstellung.

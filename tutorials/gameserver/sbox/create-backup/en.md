@@ -52,4 +52,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > s&box has no server-side savegame concept. Whether anything is stored permanently on your server, and what, is decided solely by the gamemode. If your server runs a gamemode without its own save feature, a backup only contains your configuration.
 
 > [!NOTE]
-> Automatic backups as well as restarts can be requested free of charge via a support ticket. The "Scheduled Tasks" feature is currently in development and will be released this year.
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

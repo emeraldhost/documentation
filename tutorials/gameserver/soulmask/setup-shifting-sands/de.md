@@ -34,8 +34,8 @@ Mit dem **Shifting Sands** DLC kannst Du einen Server-Cluster einrichten, der es
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines ersten Servers (Basis-Map).
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server ID setzen**\
    Trage im Feld **[CROSS-MAP] SERVER ID** ein:
@@ -68,8 +68,8 @@ Mit dem **Shifting Sands** DLC kannst Du einen Server-Cluster einrichten, der es
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines zweiten Servers (Shifting Sands).
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server ID setzen**\
    Trage im Feld **[CROSS-MAP] SERVER ID** ein:

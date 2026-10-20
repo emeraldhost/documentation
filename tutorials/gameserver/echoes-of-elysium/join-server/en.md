@@ -63,7 +63,7 @@ There are two ways onto your server: through the in-game server browser or direc
    Select **Join** in the main menu. You now see the list of available servers.
 
 3. **Search for your server**\
-   Look for the name of your server in the list. This is the name you set in the **dashboard** under **Settings**.
+   Look for the name of your server in the list. This is the name you set in the **dashboard** in the **Config Editor**.
 
 4. **Join the server**\
    Select your server and click on **Start Game**.

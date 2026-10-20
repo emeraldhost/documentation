@@ -30,7 +30,7 @@ With this method, your previous world stays on the server unchanged and you can 
    Stop your server via the dashboard.
 
 2. **Enter a new world name**\
-   Navigate to the **Settings** in the dashboard. Note down the current entry in the **World Name** field (`Dedicated` by default) and enter a new name there that no world on your server uses yet (e.g. `MyWorld2`). The name can be at most 20 characters long. A name that only differs from an existing world in upper and lower case does not count as a new name.
+   Navigate to the **Config Editor** in the dashboard. Note down the current entry in the **World Name** field (`Dedicated` by default) and enter a new name there that no world on your server uses yet (e.g. `MyWorld2`). The name can be at most 20 characters long. A name that only differs from an existing world in upper and lower case does not count as a new name.
 
 3. **Start the server**\
    Save the settings and start your server. If the server does not find a world with the entered name, it automatically creates a new world.

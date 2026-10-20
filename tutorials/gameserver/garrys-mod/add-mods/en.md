@@ -49,8 +49,8 @@ The server can load exactly **one** Workshop collection. All addons you want to 
 3. **Open the dashboard**\
    Open the dashboard of your server.
 
-4. **Open the settings**\
-   Navigate to the **Settings**.
+4. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 5. **Enter the collection ID**\
    Enter the collection ID in the **Workshop ID** field. The server then starts with the parameter:
@@ -105,7 +105,7 @@ Gamemodes are not placed in the `addons` folder but in their own directory. A de
    ```
 
 2. **Select the gamemode**\
-   Enter the folder name of the gamemode in the **Gamemode** field in the **Settings** of your server. The server then starts with the parameter `+gamemode <foldername>`.
+   Enter the folder name of the gamemode in the **Gamemode** field in the **Config Editor** of your server. The server then starts with the parameter `+gamemode <foldername>`.
 
 3. **Restart the server**\
    Save the setting and restart your server.

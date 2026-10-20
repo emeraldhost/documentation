@@ -21,8 +21,8 @@ related: ["gameserver/core-keeper/change-server-name", "gameserver/core-keeper/c
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Welt Modus eintragen**\
    Trage im Feld **Welt Mode** den gewünschten Wert ein:

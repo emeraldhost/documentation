@@ -23,8 +23,8 @@ Die Willkommensnachricht wird Spielern beim Beitritt zum Server angezeigt. Sie e
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Willkommensnachricht ändern**\
    Trage den gewünschten Text im Feld **Willkommensnachricht** ein und speichere die Einstellung.

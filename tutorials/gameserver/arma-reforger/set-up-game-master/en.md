@@ -24,8 +24,8 @@ Game Master is a game mode where nothing is planned in advance. One player takes
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter scenario ID**\
    Enter one of the following scenario IDs in the **Scenario ID** field:
@@ -51,7 +51,7 @@ The following rules apply on a Game Master server:
 - The role cannot be transferred while that player is connected.
 
 > [!WARNING]
-> If no Game Master is present, the first player to join gets the Game Master role – even if you are listed as admin. As a listed admin, however, you always have access to the Game Master interface yourself. To prevent strangers from taking the role, join your server first or protect it with a **Server Password** in the **Settings** while you are not online.
+> If no Game Master is present, the first player to join gets the Game Master role – even if you are listed as admin. As a listed admin, however, you always have access to the Game Master interface yourself. To prevent strangers from taking the role, join your server first or protect it with a **Server Password** in the **Config Editor** while you are not online.
 
 ### Add yourself as admin
 
@@ -85,7 +85,7 @@ The following rules apply on a Game Master server:
 
 ### Log in as admin in-game
 
-You can also log in as server admin in-game. To do this, set an **Admin Password** in the dashboard under **Settings**. In the game, open the chat – with `C` in the lobby, with `Enter` in-game – and enter the following command:
+You can also log in as server admin in-game. To do this, set an **Admin Password** in the dashboard in the **Config Editor**. In the game, open the chat – with `C` in the lobby, with `Enter` in-game – and enter the following command:
 
 ```text
 #login YourAdminPassword

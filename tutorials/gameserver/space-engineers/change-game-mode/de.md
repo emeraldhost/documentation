@@ -26,8 +26,8 @@ Der Game Mode legt fest, in welchem Spielmodus Dein Server läuft.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Game Mode ändern**\
    Wähle im Feld **Game Mode** den gewünschten Wert (`Survival` oder `Creative`) und speichere die Einstellung.

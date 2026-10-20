@@ -52,4 +52,4 @@ Darin liegen die `Game.ini` mit Deinen Servereinstellungen und die `Engine.ini`.
 > Zusätzlich zur Konfiguration legt Dein Server unter `/Mordhau/Saved/Logs/` seine Logdateien ab. Sie sind für ein Backup nicht nötig, helfen aber bei der Fehlersuche.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

@@ -26,8 +26,8 @@ You can configure how often the server saves the game state. There are two inter
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust intervals**\
    Adjust the values in the following fields (in seconds):

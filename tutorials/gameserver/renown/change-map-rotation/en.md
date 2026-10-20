@@ -23,8 +23,8 @@ The map rotation defines which maps are rotated during gameplay and in which ord
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust map rotation**\
    Enter the desired maps in the **Map Rotation** field and save the setting.

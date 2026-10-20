@@ -17,18 +17,18 @@ short_title: "Map ändern"
 sort: 7
 related: ["gameserver/garrys-mod/change-gamemode", "gameserver/garrys-mod/add-mods", "gameserver/garrys-mod/set-up-fastdl", "gameserver/garrys-mod/set-up-ttt"]
 ---
-Mit welcher Map Dein Server startet, legst Du in den Einstellungen Deines Servers fest. Standardmäßig ist das `gm_flatgrass`. Neben den mitgelieferten Maps `gm_flatgrass` und `gm_construct` kannst Du Maps aus dem Steam Workshop nutzen oder eigene Maps per SFTP hochladen.
+Mit welcher Map Dein Server startet, legst Du im Config-Editor Deines Servers fest. Standardmäßig ist das `gm_flatgrass`. Neben den mitgelieferten Maps `gm_flatgrass` und `gm_construct` kannst Du Maps aus dem Steam Workshop nutzen oder eigene Maps per SFTP hochladen.
 
 > [!IMPORTANT]
 > Als Map trägst Du immer den **Dateinamen der `.bsp`-Datei ohne Endung** ein, nicht den Titel aus dem Steam Workshop. Für die Datei `rp_downtown_v4c_v2.bsp` lautet der Map-Name also `rp_downtown_v4c_v2`.
 
-## Start-Map in den Einstellungen festlegen
+## Start-Map im Config-Editor festlegen
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Map eintragen**\
    Trage im Feld **Map** den Namen der Map ein, zum Beispiel `gm_construct`. Der Server startet damit mit dem Parameter:
@@ -73,7 +73,7 @@ Workshop-Maps lädt der Server über Deine Workshop Collection herunter. Eine Wo
    Ermittle den `.bsp`-Namen der Map (siehe [nächster Abschnitt](#bsp-namen-einer-workshop-map-herausfinden)).
 
 3. **Map eintragen**\
-   Trage den `.bsp`-Namen in den **Einstellungen** im Feld **Map** ein.
+   Trage den `.bsp`-Namen im **Config-Editor** im Feld **Map** ein.
 
 4. **Server neu starten**\
    Speichere die Einstellung und starte Deinen Server neu. Der Server lädt die Collection beim Start herunter und startet anschließend mit der Map.
@@ -121,7 +121,7 @@ Maps, die nicht aus dem Workshop stammen, lädst Du als `.bsp`-Datei auf den Ser
    Beispiel: `/garrysmod/maps/gm_beispielmap.bsp`
 
 4. **Map eintragen**\
-   Trage den Dateinamen ohne `.bsp` in den **Einstellungen** im Feld **Map** ein, im Beispiel also `gm_beispielmap`.
+   Trage den Dateinamen ohne `.bsp` im **Config-Editor** im Feld **Map** ein, im Beispiel also `gm_beispielmap`.
 
 5. **Server starten**\
    Speichere die Einstellung und starte Deinen Server.

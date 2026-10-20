@@ -18,7 +18,7 @@ sort: 5
 related: ["gameserver/fivem/join-server", "gameserver/fivem/kick-ban-players", "gameserver/fivem/set-port", "gameserver/fivem/set-steam-web-api-key"]
 ---
 
-Um Deinen FiveM Server korrekt starten zu können, musst Du einen **Lizenz Key** in den Einstellungen hinterlegen. Ohne diesen Key wird Dein Server nicht starten.
+Um Deinen FiveM Server korrekt starten zu können, musst Du einen **Lizenz Key** im Config-Editor hinterlegen. Ohne diesen Key wird Dein Server nicht starten.
 
 ## Lizenz Key erstellen
 
@@ -39,8 +39,8 @@ Um Deinen FiveM Server korrekt starten zu können, musst Du einen **Lizenz Key**
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Lizenz Key eintragen**\
    Trage den generierten Key im Feld **Lizenz Key** ein.

@@ -23,8 +23,8 @@ Mit **Voice over Network (VoN)** können Spieler im Spiel über ihr Mikrofon mit
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **VoN umschalten**\
    Aktiviere oder deaktiviere die Option **VoN deaktivieren**:

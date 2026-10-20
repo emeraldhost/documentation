@@ -26,8 +26,8 @@ To start your BeamMP server, you need an **authentication key**.
 2. **Open dashboard**\
    Open the dashboard of your server.
 
-3. **Open settings**\
-   Navigate to the **Settings**.
+3. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 4. **Enter key**\
    Enter the key in the **Authentication Key** field.

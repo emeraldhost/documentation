@@ -30,8 +30,8 @@ related: ["gameserver/fivem/add-resources", "gameserver/fivem/create-backup", "g
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Switch txAdmin on**\
    Enter the value `1` in the **txAdmin** field.
@@ -111,7 +111,7 @@ After that txAdmin is ready to use and guides you through setting up your server
 
 ## What the dashboard overwrites
 
-Some lines of the `server.cfg` in the main directory are rewritten from your dashboard settings on **every** server start:
+Some lines of the `server.cfg` in the main directory are rewritten from the **Config Editor** in your dashboard on **every** server start:
 
 ```text
 endpoint_add_tcp
@@ -123,7 +123,7 @@ sv_maxclients
 ```
 
 > [!WARNING]
-> If you edit these lines by hand or in the txAdmin CFG Editor, they are gone again after the next start. Maintain them in the **Settings** of your dashboard instead. All other lines of your `server.cfg` stay untouched.
+> If you edit these lines by hand or in the txAdmin CFG Editor, they are gone again after the next start. Maintain them in the **Config Editor** of your dashboard instead. All other lines of your `server.cfg` stay untouched.
 
 ## Lost access to txAdmin
 

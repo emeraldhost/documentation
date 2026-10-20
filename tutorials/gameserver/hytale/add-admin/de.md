@@ -72,7 +72,7 @@ Spieler mit Admin-Rechten können direkt im Spiel weitere Admins ernennen:
 
 ## Was bewirkt die Einstellung „Allow operators“?
 
-In den **Einstellungen** Deiner Verwaltung findest Du das Feld **Allow operators**. Es steht standardmäßig auf `1` und schaltet den Befehl `/op self` frei. Damit kann sich jeder Spieler im Spiel selbst zum Admin machen. Ein weiteres `/op self` entzieht die Rechte wieder.
+Im **Config-Editor** Deiner Verwaltung findest Du das Feld **Allow operators**. Es steht standardmäßig auf `1` und schaltet den Befehl `/op self` frei. Damit kann sich jeder Spieler im Spiel selbst zum Admin machen. Ein weiteres `/op self` entzieht die Rechte wieder.
 
 > [!WARNING]
 > Solange **Allow operators** auf `1` steht, kann sich jeder Spieler, der Deinem Server beitreten kann, mit `/op self` Admin-Rechte geben. Vergib Admin-Rechte deshalb am besten über die Konsole und setze das Feld danach auf `0`.
@@ -82,8 +82,8 @@ So schaltest Du `/op self` ab:
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Hytale-Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Allow operators deaktivieren**\
    Setze das Feld **Allow operators** auf `0`.

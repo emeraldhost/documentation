@@ -23,8 +23,8 @@ You can adjust the speed of in-game time and the brightness of nights via the da
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust time multiplier**\
    Enter the desired value in the **Time Multiplier** field (range: `0` - `24`).

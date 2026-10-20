@@ -70,7 +70,7 @@ On an Abiotic Factor server you define admins in the `Admin.ini` file. What you 
 Abiotic Factor also supports the start parameter `-AdminPassword=<password>`. If it is set, a player can grant themselves admin rights in-game by entering that password – without any entry in `Admin.ini`.
 
 > [!NOTE]
-> Whether your dashboard offers a field for the admin password or for additional start parameters can be seen under **Settings**. The admin password is independent of the server password – these are two different passwords.
+> Whether your dashboard offers a field for the admin password or for additional start parameters can be seen in the **Config Editor**. The admin password is independent of the server password – these are two different passwords.
 
 > [!WARNING]
 > Everyone who knows the admin password can gain admin rights on your server. Only share it with people you trust and use a different password than your server password.

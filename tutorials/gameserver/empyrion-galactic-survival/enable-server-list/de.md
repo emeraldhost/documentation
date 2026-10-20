@@ -23,8 +23,8 @@ Du kannst festlegen, ob Dein Server öffentlich in der Serverliste angezeigt wir
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Serverliste aktivieren**\
    Aktiviere den Schalter bei **Serverliste** und speichere die Einstellung.

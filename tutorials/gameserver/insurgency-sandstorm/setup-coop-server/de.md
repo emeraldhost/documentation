@@ -23,7 +23,7 @@ Im Co-Op-Modus (z.B. **Checkpoint**) spielst Du gemeinsam mit anderen Spielern g
 ## Schritt 1: Koop-Szenario festlegen
 
 1. **Verwaltung öffnen**\
-   Öffne die Verwaltung Deines Servers und navigiere zu den **Einstellungen**.
+   Öffne die Verwaltung Deines Servers und navigiere zum **Config-Editor**.
 
 2. **Szenario und Map setzen**\
    Trage im Feld **Szenario Name** ein Checkpoint-Szenario ein, z.B.:

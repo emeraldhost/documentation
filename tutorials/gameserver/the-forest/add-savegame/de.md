@@ -76,7 +76,7 @@ The Forest kennt **keinen Weltnamen**, sondern fünf feste **Save-Slots** (`1` b
    ```
 
 6. **Init Type auf Continue stellen**\
-   Öffne die **Verwaltung**, wechsle zu den **Einstellungen** und setze das Feld **Init Type** von `New` auf `Continue`.
+   Öffne die **Verwaltung**, wechsle zum **Config-Editor** und setze das Feld **Init Type** von `New` auf `Continue`.
 
 7. **Server starten**\
    Speichere alle Änderungen und starte Deinen Server. Beim Start wird jetzt Dein hochgeladener Spielstand geladen.
@@ -90,7 +90,7 @@ The Forest kennt **keinen Weltnamen**, sondern fünf feste **Save-Slots** (`1` b
 > [!CAUTION]
 > **Steam Account Token nicht vergessen**
 >
-> Ohne gültiges Steam Game Server Login Token (GSLT) läuft Dein Server anonym – dann kann es passieren, dass Spielerdaten und Spielstände nicht korrekt gespeichert werden. Erstelle Dir unter [steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers) ein Token mit der **App ID 242760** und trage es in der Verwaltung unter **Einstellungen** im Feld **Steam Account Token** ein.
+> Ohne gültiges Steam Game Server Login Token (GSLT) läuft Dein Server anonym – dann kann es passieren, dass Spielerdaten und Spielstände nicht korrekt gespeichert werden. Erstelle Dir unter [steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers) ein Token mit der **App ID 242760** und trage es in der Verwaltung im **Config-Editor** im Feld **Steam Account Token** ein.
 
 > [!NOTE]
 > Der Server speichert automatisch. Wie oft, steuert der Wert `serverAutoSaveInterval` in der `config.cfg` – die Angabe erfolgt in Minuten, kleinere Werte als `15` sind nicht möglich.

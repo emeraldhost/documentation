@@ -29,8 +29,8 @@ Mit dem Autosave-Intervall legst Du fest, wie oft Dein Server automatisch gespei
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Autosave-Intervall anpassen**\
    Trage den gewünschten Wert in Sekunden im Feld **Automatisch Speichern** ein und speichere die Einstellung.

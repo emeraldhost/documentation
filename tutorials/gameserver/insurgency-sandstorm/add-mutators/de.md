@@ -25,8 +25,8 @@ Mutatoren sind spezielle Spielregeln, die das Gameplay verändern – zum Beispi
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Mutatoren eintragen**\
    Trage im Feld **Zusätzliche Parameter** den gewünschten Mutator ein:

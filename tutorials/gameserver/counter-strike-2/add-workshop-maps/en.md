@@ -54,7 +54,7 @@ You can also load an entire collection of maps:
    Copy the collection ID from the URL.
 
 3. **Set startup parameters**\
-   In the dashboard under **Settings**, enter the following in **Additional Startup Parameters**:
+   In the dashboard in the **Config Editor**, enter the following in **Additional Startup Parameters**:
 
    ```text
    +host_workshop_collection COLLECTION_ID

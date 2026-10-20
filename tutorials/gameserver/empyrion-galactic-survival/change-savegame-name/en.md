@@ -23,8 +23,8 @@ You can set which save is loaded by your server.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change savegame name**\
    Enter the desired value in the **Save Game** field and save the setting.

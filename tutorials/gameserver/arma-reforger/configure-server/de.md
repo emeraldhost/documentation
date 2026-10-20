@@ -2,7 +2,7 @@
 slug: "server-konfigurieren"
 language: "de"
 title: "So konfigurierst Du Deinen Arma Reforger Server"
-description: "Arma Reforger Server über die Einstellungen und die config.json konfigurieren"
+description: "Arma Reforger Server über den Config-Editor und die config.json konfigurieren"
 tags: []
 date: "2026-10-02"
 visibility: "public"
@@ -19,16 +19,16 @@ related: ["gameserver/arma-reforger/use-rcon", "gameserver/arma-reforger/improve
 ---
 Die Einstellungen Deines Arma Reforger Servers findest Du an zwei Stellen:
 
-- in der Verwaltung Deines Servers unter **Einstellungen** – hier legst Du die wichtigsten Werte wie Servername, Passwörter oder das Szenario fest
+- in der Verwaltung Deines Servers im **Config-Editor** – hier legst Du die wichtigsten Werte wie Servername, Passwörter oder das Szenario fest
 - in der Datei `config.json` im Hauptverzeichnis Deines Servers – hier stellst Du alles Weitere ein, z.B. Admins, Mods, Sichtweiten oder den Voice-Chat
 
-## Einstellungen in der Verwaltung
+## Einstellungen im Config-Editor
 
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Werte anpassen**\
    Passe die gewünschten Felder an (siehe Tabelle unten).
@@ -61,7 +61,7 @@ Die Einstellungen Deines Arma Reforger Servers findest Du an zwei Stellen:
 
 ## Was die Verwaltung in der config.json überschreibt
 
-Bei **jedem** Serverstart schreibt die Verwaltung die Werte aus den **Einstellungen** in die `config.json`.
+Bei **jedem** Serverstart schreibt die Verwaltung die Werte aus dem **Config-Editor** in die `config.json`.
 
 > [!WARNING]
 > Folgende Einträge der `config.json` werden bei jedem Start überschrieben. Änderst Du sie direkt in der Datei, hat das keine Wirkung:
@@ -74,14 +74,14 @@ Bei **jedem** Serverstart schreibt die Verwaltung die Werte aus den **Einstellun
 >
 > Außerdem wird `game` → `crossPlatform` immer auf `true` und `game` → `gameProperties` → `fastValidation` immer auf `true` gesetzt. Crossplay lässt sich über `crossPlatform` deshalb nicht abschalten – mehr dazu unter [Crossplay](/tutorials/gameserver/arma-reforger/enable-crossplay).
 >
-> Servername, Server-Passwort, Admin-Passwort, Szenario ID, maximale Spieleranzahl, Sichtbarkeit, Third Person, BattlEye und RCON-Passwort änderst Du in der Verwaltung unter **Einstellungen**. Adressen und Ports legt EmeraldHost fest, sie lassen sich nicht ändern.
+> Servername, Server-Passwort, Admin-Passwort, Szenario ID, maximale Spieleranzahl, Sichtbarkeit, Third Person, BattlEye und RCON-Passwort änderst Du in der Verwaltung im **Config-Editor**. Adressen und Ports legt EmeraldHost fest, sie lassen sich nicht ändern.
 
 > [!NOTE]
 > Bohemia Interactive empfiehlt für öffentliche Server, `fastValidation` immer auf `true` zu lassen und die Server-FPS zu begrenzen. `fastValidation` ist auf Deinem Server fest aktiviert, und über **Maximale FPS** ist standardmäßig eine Begrenzung von 120 FPS gesetzt – lass das Feld deshalb nicht leer.
 
 ## Aufbau der config.json
 
-Nach der Installation sieht die `config.json` gekürzt so aus. Die Werte in den Bereichen, die die Verwaltung überschreibt, hängen von Deinen **Einstellungen** ab:
+Nach der Installation sieht die `config.json` gekürzt so aus. Die Werte in den Bereichen, die die Verwaltung überschreibt, hängen von Deinen Einträgen im **Config-Editor** ab:
 
 ```json
 {

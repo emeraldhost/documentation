@@ -37,7 +37,7 @@ You can download the galaxy of your server to your PC at any time – for exampl
    > [!NOTE]
    > **Which galaxy is the right one?**
    >
-   > You can find the name of your current galaxy in the **dashboard** under the **settings** in the field for the galaxy name (**Galaxy Name**). The folder is named exactly like that.
+   > You can find the name of your current galaxy in the **dashboard** in the **Config Editor** in the field for the galaxy name (**Galaxy Name**). The folder is named exactly like that.
 
 4. **Download the folder**\
    Download the **complete** galaxy folder with all its files and subfolders to your PC.

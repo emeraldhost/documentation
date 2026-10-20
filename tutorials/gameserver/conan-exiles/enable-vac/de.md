@@ -21,8 +21,8 @@ related: ["gameserver/conan-exiles/enable-battleye", "gameserver/conan-exiles/en
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **VAC einstellen**\
    Trage im Feld **VAC** den gewünschten Wert ein:

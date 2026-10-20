@@ -23,8 +23,8 @@ The server owner determines which Steam account receives administrator rights on
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter Server Owner Name**\
    Enter the Steam display name of the owner in the **Server Owner Name** field.

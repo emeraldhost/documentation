@@ -23,8 +23,8 @@ Du kannst festlegen, welcher Spielstand von Deinem Server geladen wird.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Savegame-Namen ändern**\
    Trage den gewünschten Wert im Feld **Save Game** ein und speichere die Einstellung.

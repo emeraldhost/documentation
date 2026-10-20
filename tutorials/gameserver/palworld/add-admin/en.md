@@ -25,8 +25,8 @@ You can grant admin rights to yourself and other players using an Admin Password
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Set Admin Password**\
    Enter the desired Admin Password and save the setting.

@@ -33,8 +33,8 @@ Der GSL Token (Game Server Login Token) wird benötigt, damit Dein Server in der
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Token eintragen**\
    Füge den Token im Feld **GSL Token** ein und speichere die Einstellung.

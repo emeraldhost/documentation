@@ -23,8 +23,8 @@ This setting determines whether your server is shown in the public Custom Browse
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust Server List**\
    Set the **Server List** field to the desired value:

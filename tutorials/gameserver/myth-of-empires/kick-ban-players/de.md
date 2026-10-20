@@ -104,4 +104,4 @@ RCON ist eine Fernwartungsverbindung zu Deinem Server, über die Du Befehle abse
 > Ein Bann gilt so lange, bis Du ihn wieder aufhebst. Eine Angabe einer Bann-Dauer ist nicht vorgesehen.
 
 > [!TIP]
-> Zusätzlich lässt sich Dein Server so einstellen, dass er VAC-gebannte Spieler automatisch aussperrt. Ob Deine Verwaltung dafür eine Option anbietet, siehst Du unter **Einstellungen** – der zugehörige Startparameter lautet `-EnableVACBan=1`.
+> Zusätzlich lässt sich Dein Server so einstellen, dass er VAC-gebannte Spieler automatisch aussperrt. Ob Deine Verwaltung dafür eine Option anbietet, siehst Du im **Config-Editor** – der zugehörige Startparameter lautet `-EnableVACBan=1`.

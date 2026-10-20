@@ -46,7 +46,7 @@ You can download your server's world to your PC at any time – for example as a
    Start your server again.
 
 > [!NOTE]
-> The world name on your server is fixed to **World** and cannot be changed (visible in the **Settings**). Your world is therefore always located in the `/config/Saves/World/` folder – there is no other folder you would have to look in.
+> The world name on your server is fixed to **World** and cannot be changed (visible in the **Config Editor**). Your world is therefore always located in the `/config/Saves/World/` folder – there is no other folder you would have to look in.
 
 > [!TIP]
 > **Restore the world**

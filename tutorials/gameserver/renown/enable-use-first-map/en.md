@@ -23,8 +23,8 @@ When enabled, your server always loads the first map from the [Map Rotation](/tu
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust Use First Map**\
    Set the **Use First Map** field to the desired value:

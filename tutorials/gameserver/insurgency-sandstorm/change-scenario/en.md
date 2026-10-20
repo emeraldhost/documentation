@@ -23,8 +23,8 @@ The scenario determines the game mode and faction for the selected [map](/tutori
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change the scenario**\
    Enter the desired scenario in the **Scenario Name** field and save the setting.

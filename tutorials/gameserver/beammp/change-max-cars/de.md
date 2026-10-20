@@ -23,8 +23,8 @@ Du kannst einstellen, wie viele Autos jeder Spieler gleichzeitig spawnen darf.
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Max Autos einstellen**\
    Trage die gewünschte Anzahl im Feld **Maximale Autos** ein.

@@ -45,7 +45,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > [!TIP]
 > **Die richtige Welt-Datei finden**
 >
-> Die Zahl vor `.world.gzip` ist der **World Index**. Welche Welt Dein Server aktuell lädt, erkennst Du am World Index in den Server-Einstellungen: Steht dieser auf `0`, ist `0.world.gzip` die aktive Welt, bei `3` entsprechend `3.world.gzip`.
+> Die Zahl vor `.world.gzip` ist der **World Index**. Welche Welt Dein Server aktuell lädt, erkennst Du am World Index im **Config-Editor**: Steht dieser auf `0`, ist `0.world.gzip` die aktive Welt, bei `3` entsprechend `3.world.gzip`.
 
 > [!TIP]
 > Möchtest Du die heruntergeladene Welt lokal im Einzelspieler weiterspielen, legst Du die `.world.gzip`-Datei auf Deinem PC in folgendem Ordner ab:

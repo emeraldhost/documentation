@@ -41,7 +41,7 @@ The dashboard has no button to reset the world. On startup, the server always lo
    Delete all files in this directory. Keep the `SaveGames` folder itself – only delete its contents.
 
 5. **Set the world name**\
-   Optional: Open the **Settings** in the dashboard and enter the name the new world should get in the **Server Name** field. If you leave the field unchanged, the new world gets the name that is currently entered there.
+   Optional: Open the **Config Editor** in the dashboard and enter the name the new world should get in the **Server Name** field. If you leave the field unchanged, the new world gets the name that is currently entered there.
 
 6. **Start the server**\
    Start your server via the dashboard. While booting up, it creates a new standard world with that name.
@@ -76,7 +76,7 @@ If several `.sav` files are in the `SaveGames` folder, the server always loads t
    Download every `.sav` file that should not be loaded to your PC and then delete it from the folder. In the end, only the `.sav` file of the world you want remains.
 
 4. **Set the world name**\
-   Open the **Settings** in the dashboard and enter the filename of this world without the `.sav` extension in the **Server Name** field. This keeps the world name in the dashboard in line with the world that is loaded.
+   Open the **Config Editor** in the dashboard and enter the filename of this world without the `.sav` extension in the **Server Name** field. This keeps the world name in the dashboard in line with the world that is loaded.
 
 5. **Start the server**\
    Start your server. It now loads the remaining world.

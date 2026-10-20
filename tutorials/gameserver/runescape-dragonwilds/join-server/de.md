@@ -22,7 +22,7 @@ related: ["gameserver/runescape-dragonwilds/download-savegame", "gameserver/rune
 Du kannst Deinem Server auf zwei Wegen beitreten: über die Suche nach dem **Welt-Namen** im Welten-Bildschirm oder direkt über den Tab **Direkt** mit der **IP-Adresse** Deines Servers.
 
 > [!NOTE]
-> Den Welt-Namen findest Du in den **Einstellungen** Deines Servers in der Verwaltung. Die IP-Adresse und den Game Port findest Du in der Verwaltung unter der **Übersicht**.
+> Den Welt-Namen findest Du im **Config-Editor** Deines Servers in der Verwaltung. Die IP-Adresse und den Game Port findest Du in der Verwaltung unter der **Übersicht**.
 
 ## Über den Welt-Namen
 

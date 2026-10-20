@@ -21,8 +21,8 @@ related: ["gameserver/project-zomboid/download-savegame", "gameserver/project-zo
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Server Passwort setzen**\
    Trage das gewünschte Passwort im Feld **Server Passwort** ein.

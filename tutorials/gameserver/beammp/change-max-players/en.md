@@ -21,8 +21,8 @@ related: ["gameserver/beammp/change-map", "gameserver/beammp/change-max-cars", "
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust player count**\
    Enter the desired number in the **Maximum Players** field.

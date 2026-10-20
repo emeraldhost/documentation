@@ -29,8 +29,8 @@ The autosave interval determines how often your server automatically saves.
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change autosave interval**\
    Enter the desired value in seconds in the **Autosave** field and save the setting.

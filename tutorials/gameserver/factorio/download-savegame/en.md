@@ -47,7 +47,7 @@ You can download your server's save to your PC at any time – for example as an
 > [!TIP]
 > **Which file is the right one?**
 >
-> You can tell which save is loaded from the **Save Name** field in the **Settings** of the dashboard. If it contains `gamesave`, for example, you need the file `gamesave.zip`.
+> You can tell which save is loaded from the **Save Name** field in the **Config Editor** of the dashboard. If it contains `gamesave`, for example, you need the file `gamesave.zip`.
 
 > [!NOTE]
 > **Autosaves**

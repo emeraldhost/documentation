@@ -47,7 +47,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > [!TIP]
 > **Welche Datei ist die richtige?**
 >
-> Welche Welt geladen wird, erkennst Du am Feld **World Name** in den **Einstellungen** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst Du die Datei `MeineWelt.wld`.
+> Welche Welt geladen wird, erkennst Du am Feld **World Name** im **Config-Editor** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst Du die Datei `MeineWelt.wld`.
 
 ## Weitere Daten, die zum Spielstand gehören
 

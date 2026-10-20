@@ -23,8 +23,8 @@ The world index determines which world is loaded. It must match the number of yo
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Enter world index**\
    Enter the desired number in the **World Index** field.

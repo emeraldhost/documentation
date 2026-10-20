@@ -23,8 +23,8 @@ The server description is shown when players click on your server in the server 
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Change server description**\
    Enter the desired value in the **Server Description** field and save the setting.

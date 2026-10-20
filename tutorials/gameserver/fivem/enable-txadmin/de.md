@@ -30,8 +30,8 @@ related: ["gameserver/fivem/add-resources", "gameserver/fivem/create-backup", "g
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **txAdmin einschalten**\
    Trage im Feld **txAdmin** den Wert `1` ein.
@@ -111,7 +111,7 @@ Danach ist txAdmin einsatzbereit und führt Dich durch die Einrichtung Deines Se
 
 ## Was die Verwaltung überschreibt
 
-Einige Zeilen der `server.cfg` im Hauptverzeichnis werden bei **jedem** Serverstart aus den Einstellungen Deiner Verwaltung neu geschrieben:
+Einige Zeilen der `server.cfg` im Hauptverzeichnis werden bei **jedem** Serverstart aus dem **Config-Editor** Deiner Verwaltung neu geschrieben:
 
 ```text
 endpoint_add_tcp
@@ -123,7 +123,7 @@ sv_maxclients
 ```
 
 > [!WARNING]
-> Bearbeitest Du diese Zeilen von Hand oder im CFG Editor von txAdmin, sind sie beim nächsten Start wieder weg. Pflege sie stattdessen in den **Einstellungen** Deiner Verwaltung. Alle übrigen Zeilen Deiner `server.cfg` bleiben unangetastet.
+> Bearbeitest Du diese Zeilen von Hand oder im CFG Editor von txAdmin, sind sie beim nächsten Start wieder weg. Pflege sie stattdessen im **Config-Editor** Deiner Verwaltung. Alle übrigen Zeilen Deiner `server.cfg` bleiben unangetastet.
 
 ## Zugang zu txAdmin verloren
 

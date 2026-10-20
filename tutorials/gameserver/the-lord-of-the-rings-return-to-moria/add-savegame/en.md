@@ -85,7 +85,7 @@ The `[World]` section also contains a `Name` entry. A world can be selected thro
 > [!WARNING]
 > **Caution**
 >
-> The `Name` entry is applied automatically from your server settings on every start. Changing it directly in `MoriaServerConfig.ini` therefore does not persist. Always use `OptionalWorldFilename` to load an uploaded savegame.
+> The `Name` entry is applied automatically from the **Config Editor** of your server on every start. Changing it directly in `MoriaServerConfig.ini` therefore does not persist. Always use `OptionalWorldFilename` to load an uploaded savegame.
 
 > [!IMPORTANT]
 > If the server does not find a world with the configured world name, it automatically creates a **new** world using the values from the `[World.Create]` section – with the game mode, seed and difficulty configured there. Your uploaded savegame stays on the disk but is not loaded.

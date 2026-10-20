@@ -49,7 +49,7 @@ Die Welt-Datei heißt z.B. `0.world.gzip`. Die Zahl vor `.world.gzip` ist der **
    ```
 
 4. **World Index anpassen**\
-   Stelle sicher, dass der **World Index** in den Server-Einstellungen mit der Zahl Deiner Welt-Datei übereinstimmt.
+   Stelle sicher, dass der **World Index** im **Config-Editor** mit der Zahl Deiner Welt-Datei übereinstimmt.
 
    > [!TIP]
    > **Beispiel**

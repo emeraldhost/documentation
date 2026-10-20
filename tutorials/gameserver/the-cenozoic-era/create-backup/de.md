@@ -54,4 +54,4 @@ Dort liegt unter anderem die `Game.ini` mit Deinen Servereinstellungen. Im Ordne
 > Sichere Deine `Game.ini` zusätzlich manuell auf Deinem PC, bevor Du größere Änderungen daran vornimmst. So kannst Du eine einzelne Einstellung zurücksetzen, ohne ein komplettes Backup wiederherstellen zu müssen.
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

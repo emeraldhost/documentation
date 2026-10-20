@@ -23,8 +23,8 @@ Du kannst verhindern, dass Spieler das Team wechseln, sobald sie sich einem Team
 1. **Verwaltung öffnen**\
    Öffne die Verwaltung Deines Servers.
 
-2. **Einstellungen öffnen**\
-   Navigiere zu den **Einstellungen**.
+2. **Config-Editor öffnen**\
+   Navigiere zum **Config-Editor**.
 
 3. **Teamwechsel verhindern anpassen**\
    Setze das Feld **Teamwechsel verhindern** auf den gewünschten Wert:

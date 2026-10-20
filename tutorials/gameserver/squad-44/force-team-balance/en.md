@@ -23,8 +23,8 @@ With this setting the server automatically ensures that both teams are filled ev
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Adjust Force Team Balance**\
    Set the **Force Team Balance** field to the desired value:

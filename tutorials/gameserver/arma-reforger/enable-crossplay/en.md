@@ -49,8 +49,8 @@ For console players, keep BattlEye switched on. Without BattlEye, your server do
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Check Battle-Eye**\
    Make sure the **Battle-Eye** field is set to `true`.
@@ -65,8 +65,8 @@ Console players find your server using the search in the server browser. For thi
 1. **Open dashboard**\
    Open the dashboard of your server.
 
-2. **Open settings**\
-   Navigate to the **Settings**.
+2. **Open the Config Editor**\
+   Navigate to the **Config Editor**.
 
 3. **Check visibility**\
    Make sure the **Visible in Server Browser** field is set to `true`.

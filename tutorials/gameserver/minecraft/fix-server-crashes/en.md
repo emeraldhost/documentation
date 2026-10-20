@@ -65,7 +65,7 @@ You don't need to understand Java code to make use of a crash report:
 
 ## Keeping the Server Software Up to Date
 
-Older server versions contain known bugs, some of which can be triggered deliberately by players. Therefore, keep your server software up to date – via the **Version** and **Build ID** fields in the settings of the dashboard. You can find the individual steps in [Change Version](/tutorials/gameserver/minecraft/change-version).
+Older server versions contain known bugs, some of which can be triggered deliberately by players. Therefore, keep your server software up to date – via the **Version** and **Build ID** fields in the Config Editor of the dashboard. You can find the individual steps in [Change Version](/tutorials/gameserver/minecraft/change-version).
 
 > [!WARNING]
 > Don't update blindly: after a major Minecraft update, your plugins and mods often need an update themselves – otherwise the server crashes precisely **because** of the update. Check the download pages beforehand to make sure all plugins and mods support your target version, and create a [backup](/tutorials/gameserver/minecraft/create-backup).

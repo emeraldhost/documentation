@@ -29,7 +29,7 @@ Admins – called **GM accounts** in the game – are added to a Myth of Empires
 ## Add an admin
 
 1. **Open the dashboard**\
-   Open the **dashboard** of your server and switch to the **settings**.
+   Open the **dashboard** of your server and switch to the **Config Editor**.
 
 2. **Enter the SteamID64**\
    Enter your SteamID64 into the field for the admin or GM accounts. If your dashboard only offers a field for additional startup parameters, add the following there:
@@ -39,7 +39,7 @@ Admins – called **GM accounts** in the game – are added to a Myth of Empires
    ```
 
 3. **Enable the GM accounts**\
-   Check whether the settings additionally offer a switch for the GM accounts (`bUseServerAdmin`). If it is there, it has to be enabled, otherwise the list has no effect.
+   Check whether the **Config Editor** additionally offers a switch for the GM accounts (`bUseServerAdmin`). If it is there, it has to be enabled, otherwise the list has no effect.
 
 4. **Restart the server**\
    Save the change and restart your server. The admin list is only read on server start.

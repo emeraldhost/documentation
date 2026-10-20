@@ -47,4 +47,4 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Möchtest Du nicht auf die nächste automatische Speicherung warten, kannst Du als eingeloggter Admin im Chat den Befehl `/admin_autosave` ausführen. Der Server schreibt damit die Charakterdaten aller aktuell verbundenen Spieler sofort weg. Stoppe Deinen Server anschließend trotzdem, bevor Du das Backup erstellst. Wie Du Adminrechte erhältst, steht unter [Admin hinzufügen](/tutorials/gameserver/citadel-forged-with-fire/add-admin).
 
 > [!NOTE]
-> Automatische Backups sowie Neustarts können kostenlos über ein Support-Ticket angefragt werden. Die Funktion „Geplante Aufgaben“ befindet sich aktuell in Entwicklung und wird dieses Jahr veröffentlicht.
+> Seit EmeraldHost 2.0 kannst Du automatische Backups und Neustarts selbst in der Verwaltung unter **Geplante Aufgaben** einrichten, siehe [Geplante Aufgaben einrichten](/tutorials/gameserver/set-up-scheduled-tasks).

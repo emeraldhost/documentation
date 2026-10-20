@@ -62,7 +62,7 @@ Du kannst einen lokalen Spielstand auf Deinen Server übertragen, um mit einer b
    > Lade den Ordner direkt in `worlds_local` hoch und nicht in einen weiteren Unterordner, denn der Server sucht Welten nur eine Ordnerebene tief. Benenne keine Dateien im Ordner um und mische keine Dateien aus verschiedenen Ständen. Findet der Server keinen vollständigen Satz an Dateien, kann er die Welt nicht laden und löscht die unvollständigen Dateien beim Start.
 
 5. **Welt-Namen setzen**\
-   Öffne die Verwaltung, navigiere zu den **Einstellungen** und trage im Feld **Welt Name** exakt den Namen Deines Weltordners ein, im Beispiel also `MeineWelt`. Das Feld erlaubt höchstens 20 Zeichen.
+   Öffne die Verwaltung, navigiere zum **Config-Editor** und trage im Feld **Welt Name** exakt den Namen Deines Weltordners ein, im Beispiel also `MeineWelt`. Das Feld erlaubt höchstens 20 Zeichen.
 
 6. **Server starten**\
    Speichere die Einstellungen und starte Deinen Server.

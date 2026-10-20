@@ -23,7 +23,7 @@ Squad 44 does not offer a direct connection via IP address – you always join y
 
 ## Prerequisite
 
-Note down the **server name** of your server. You can change it via the dashboard under **Settings** – see [Change Server Name](/tutorials/gameserver/squad-44/change-server-name).
+Note down the **server name** of your server. You can change it via the dashboard in the **Config Editor** – see [Change Server Name](/tutorials/gameserver/squad-44/change-server-name).
 
 ## Join the server
 
