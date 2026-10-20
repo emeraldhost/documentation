@@ -6,6 +6,7 @@ description: "Backup eines Soldat 2 Servers erstellen"
 tags: []
 date: "2026-07-31"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["soldat-2"]
 author: "EmeraldHost Team"

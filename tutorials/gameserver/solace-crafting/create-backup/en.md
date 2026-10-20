@@ -6,6 +6,7 @@ description: "Create a backup of a Solace Crafting server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["solace-crafting"]
 author: "EmeraldHost Team"
@@ -47,4 +48,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you set `worldSaveToUse` to a name for which no world folder exists, the server creates a new world on startup. Your previous progress is not deleted, but it is no longer loaded. A recent backup is the quickest way back in such a case.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

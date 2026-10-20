@@ -19,7 +19,7 @@ sort: 27
 related: ["gameserver/minecraft/delete-world", "gameserver/minecraft/create-backup", "gameserver/minecraft/join-server", "gameserver/minecraft/link-java-with-bedrock"]
 ---
 
-The easiest way to upload a world is the **Welten** (Worlds) page in your dashboard. For very large worlds over 2 GB, use SFTP instead.
+The easiest way to upload a world is the **Worlds** page in your dashboard. For very large worlds over 2 GB, use SFTP instead.
 
 ## Prepare the world
 
@@ -27,28 +27,47 @@ A Minecraft world is a folder that contains a `level.dat` file. Only folders wit
 
 You can find singleplayer worlds on your PC in the `.minecraft/saves` folder. Each subfolder there is a separate world.
 
-## Upload the world via the Welten page
+## Upload the world via the Worlds page
 
 1. **Pack the world**\
    On your PC, pack the world folder with the `level.dat` as `.zip` or `.tar.gz`. A single file may be at most 2 GB.
 
-2. **Open Welten**\
-   Open your server in the dashboard and select **Welten** (Worlds) in the sidebar. It lists all worlds on your server.
+2. **Open Worlds**\
+   Open your server in the dashboard and select **Worlds** in the sidebar. It lists all worlds on your server.
 
 3. **Start the upload**\
-   Click **Hochladen** (Upload). The **Welt hochladen** (Upload world) dialog opens. Existing worlds are kept until you decide otherwise.
+   Click **Upload**. The **Upload world** dialog opens. Existing worlds are kept until you decide otherwise.
 
 4. **Select the file**\
-   Click **Datei auswählen** (Select file), choose your archive and confirm with **Hochladen** (Upload).
+   Click **Choose file** or drop the file into the dialog, then confirm with **Upload**.
 
-5. **Set the world as default**\
-   Which world the server loads is set in `server.properties` under `level-name`. On the **Welten** page, click **Im Config-Editor ansehen** (View in Config-Editor). There, set the value of the setting with the key `level-name` to the name of the uploaded world, e.g. `NewWorld`.
+5. **Set the world as standard**\
+   Which world the server loads is set in `server.properties` under `level-name`. On the **Worlds** page, click **Show in the config editor**. There, set the value of the setting with the key `level-name` to the name of the uploaded world, e.g. `NewWorld`.
 
 6. **Restart the server**\
    Save the change and restart the server. The server then loads the new world.
 
 > [!NOTE]
 > The Nether and the End belong to the world. They are renamed, downloaded and deleted together with it.
+
+## Rename the uploaded world
+
+If your uploaded world has an unwanted name, you can rename it on the **Worlds** page.
+
+1. **Choose Rename**\
+   Open the menu (…) in the row of the world and choose **Rename**. The **Rename world** dialog opens.
+
+2. **Enter a new name**\
+   Enter the name under **New name**. Letters, digits, `.`, `_` and `-` are allowed, with a maximum of 32 characters.
+
+3. **Start the server afterwards**\
+   Leave **Start the server again afterwards** enabled. The server is stopped briefly for the rename and started again afterwards.
+
+4. **Rename the world**\
+   Click **Stop, rename and start**. The server is stopped, the world is renamed and the server is started again.
+
+> [!TIP]
+> If you rename your standard world, the new name is also written as `level-name` into `server.properties`, so the server keeps loading it.
 
 ## Alternative: upload the world via SFTP
 

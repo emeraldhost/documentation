@@ -6,7 +6,7 @@ description: "Backup eines Minecraft Java Edition Servers erstellen"
 tags: []
 date: "2026-04-14"
 visibility: "public"
-updated: "2026-08-20"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"

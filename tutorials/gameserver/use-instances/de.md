@@ -6,6 +6,7 @@ description: "Mehrere Spiel-Instanzen auf einem Gameserver anlegen, umbenennen u
 tags: []
 date: "2026-10-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
@@ -51,10 +52,10 @@ In der Tabelle siehst Du alle Instanzen mit **Name**, **Produkt**, **Größe**, 
 
 Welche Instanz aktiv ist, zeigt auf der Seite **Instanzen** die Spalte **Status** (**Aktiv**). Um eine andere Instanz zu nutzen, wechselst Du auf sie:
 
-- Klicke in der Kopfzeile Deines Servers auf das Symbol **Instanz wechseln**, oder
+- Klicke in der Kopfzeile Deines Servers auf das Symbol **Instanz wechseln** oder
 - öffne das Dropdown **Aktionen** und wähle **Instanz wechseln**.
 
-Welche Instanz gerade aktiv ist, siehst Du in der **Übersicht** im Kasten **Aktuelle Instanz**. Über **Alle Instanzen anzeigen** gelangst Du direkt zur Seite **Instanzen**.
+Beides bringt Dich zur Seite **Instanzen**, auf der Du die gewünschte Instanz auswählst. Welche Instanz gerade aktiv ist, siehst Du in der **Übersicht** im Kasten **Aktuelle Instanz**. Über **Alle Instanzen anzeigen** gelangst Du direkt zur Seite **Instanzen**.
 
 > [!TIP]
 > Erstelle vor einem Wechsel ein Backup, damit Du im Zweifel auf einen früheren Stand zurückgreifen kannst. Wie das geht, erfährst Du unter [Backup erstellen](/tutorials/gameserver/create-backup).

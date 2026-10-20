@@ -6,6 +6,7 @@ description: "Create a backup of a QANGA server"
 tags: []
 date: "2026-07-31"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["qanga"]
 author: "EmeraldHost Team"
@@ -46,4 +47,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > QANGA does not use configuration files for the server – all server settings are set through the startup parameters in the **dashboard**. A backup therefore mainly secures the server files and the world data. Write down your settings from the dashboard separately, since they are stored there and not inside the server files.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

@@ -6,6 +6,7 @@ description: "Backup eines Minecraft Bedrock Servers erstellen"
 tags: []
 date: "2026-04-14"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft-bedrock"]
 author: "EmeraldHost Team"

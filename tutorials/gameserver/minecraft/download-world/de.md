@@ -6,6 +6,7 @@ description: "Welt von einem Minecraft Java Edition Server herunterladen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -21,7 +22,25 @@ related: ["gameserver/minecraft/disable-nether", "gameserver/minecraft/disable-l
 Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen, zum Beispiel als zusätzliche Sicherung, zum Archivieren oder um sie auf einen anderen Server zu übertragen.
 
 > [!WARNING]
-> Stoppe Deinen Server, bevor Du die Dateien herunterlädst. Während der Server läuft, speichert er regelmäßig, Du würdest sonst einen unvollständigen oder beschädigten Spielstand herunterladen.
+> **Achtung**
+>
+> Stoppe Deinen Server, bevor Du die Welt herunterlädst. Während der Server läuft, speichert er regelmäßig, Du könntest sonst einen unvollständigen oder beschädigten Spielstand herunterladen.
+
+## Welt über die Seite Welten herunterladen
+
+1. **Server stoppen**\
+   Stoppe Deinen Minecraft Java Edition Server über die Verwaltung.
+
+2. **Welten öffnen**\
+   Wähle in der Seitenleiste **Welten**. Dort siehst Du alle Welten auf Deinem Server.
+
+3. **Welt herunterladen**\
+   Öffne das Menü (…) in der Zeile der Welt und wähle **Herunterladen**. Der Download startet in Deinem Browser.
+
+> [!NOTE]
+> Nether und Ende gehören zu ihrer Welt und werden mit ihr heruntergeladen.
+
+## Alternative: Welt per SFTP herunterladen
 
 1. **Server stoppen**\
    Stoppe Deinen Minecraft Java Edition Server über die Verwaltung.
@@ -39,7 +58,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen, zum Bei
    Starte Deinen Server wieder.
 
 > [!TIP]
-> Welche Welt aktuell geladen wird, siehst Du in der Datei `server.properties` im Hauptordner Deines Servers. Der Eintrag `level-name=` gibt den Namen des Welt-Ordners an:
+> Welche Welt aktuell geladen wird, siehst Du in der Datei `server.properties` im Hauptordner Deines Servers oder auf der Seite **Welten**. Der Eintrag `level-name=` gibt den Namen des Welt-Ordners an:
 >
 > ```text
 > level-name=world

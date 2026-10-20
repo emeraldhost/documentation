@@ -6,6 +6,7 @@ description: "Backup eines Squad 44 Servers erstellen"
 tags: []
 date: "2026-04-28"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["squad-44"]
 author: "EmeraldHost Team"

@@ -6,6 +6,7 @@ description: "Backup eines Project Zomboid Servers erstellen"
 tags: []
 date: "2026-04-14"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["project-zomboid"]
 author: "EmeraldHost Team"

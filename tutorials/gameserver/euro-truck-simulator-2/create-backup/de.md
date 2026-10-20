@@ -6,6 +6,7 @@ description: "Backup eines Euro Truck Simulator 2 Servers erstellen"
 tags: []
 date: "2026-04-14"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["euro-truck-simulator-2"]
 author: "EmeraldHost Team"

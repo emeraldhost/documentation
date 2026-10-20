@@ -6,6 +6,7 @@ description: "Backup eines Icarus Servers erstellen"
 tags: []
 date: "2026-04-15"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["icarus"]
 author: "EmeraldHost Team"

@@ -2,10 +2,11 @@
 slug: "manage-players"
 language: "en"
 title: "How to Manage Players on Your Minecraft Java Edition Server"
-description: "Manage the allowlist, operators, bans and game mode of your Minecraft players directly in the dashboard"
+description: "Manage the allowlist, operators, bans, game mode, inventory and statistics of your Minecraft players directly in the dashboard"
 tags: []
 date: "2026-10-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -18,28 +19,28 @@ sort: 39
 related: ["gameserver/minecraft/grant-op-rights", "gameserver/minecraft/enable-whitelist", "gameserver/minecraft/kick-ban-players", "gameserver/minecraft/change-gamemode"]
 ---
 
-On the **Spieler** (Players) page of your Minecraft server's dashboard you see who is playing right now, who has been on your server before and who has which permissions. You manage the allowlist, operators and bans in one place – no commands needed.
+On the **Players** page of your Minecraft server's dashboard you see who is playing right now, who has been on your server before and who has which permissions. You manage the allowlist, operators and bans in one place – no commands needed.
 
 > [!NOTE]
-> Changes take effect immediately: every change is sent as a command to your server's **Konsole** (Console). There you will then see e.g. "Made <name> a server operator".
+> Changes take effect immediately: every change is sent as a command to your server's **Console**. There you will then see e.g. "Made <name> a server operator".
 
 ## Open the Players Page
 
-Open your server's dashboard and click **Spieler** (Players) in the left sidebar.
+Open your server's dashboard and click **Players** in the left sidebar.
 
 At the top of the page you find four cards:
 
-- **Gerade online** (Online now) – how many players are playing right now, e.g. "1 von 20 Plätzen" (1 of 20 slots)
-- **Allowlist** – how many players are on the list, with the **Allowlist aktiv** (Allowlist active) switch
-- **Operatoren** (Operators) – how many players are operators and how many of them are online right now
-- **Gebannt** (Banned) – how many players are banned
+- **Online now** – how many players are playing right now, e.g. "1 of 20 slots"
+- **Allowlist** – how many players are on the list, with the **Allowlist on** switch
+- **Operators** – how many players are operators and how many of them are online right now
+- **Banned** – how many players are banned
 
 ## Turn the Allowlist On and Off
 
-The allowlist (formerly "whitelist") defines who may join your server. While it is off, the card shows "Jeder kann beitreten" (Anyone can join).
+The allowlist (formerly "whitelist") defines who may join your server. While it is off, the card shows "Everyone can join".
 
 1. **Turn on the allowlist**\
-   On the **Allowlist** card, turn on the **Allowlist aktiv** (Allowlist active) switch.
+   On the **Allowlist** card, turn on the **Allowlist on** switch.
 
 2. **Add players**\
    Add every player who should still be able to join – see [Add players](#add-players).
@@ -49,16 +50,16 @@ The allowlist (formerly "whitelist") defines who may join your server. While it 
 
 ## Search the Player List
 
-Below the cards you find the tabs **Online**, **Allowlist**, **Operatoren** (Operators), **Gebannt** (Banned) and **Alle bekannten Spieler** (All known players), each with the number of players. Use the **Name oder UUID** (Name or UUID) search field to find a specific player.
+Below the cards you find the tabs **Online**, **Allowlist**, **Operators**, **Banned** and **All known players**, each with the number of players. Use the search field to find a specific player by name or UUID.
 
 The table shows for each player:
 
 | Column | Content |
 |--------|---------|
-| **Spieler** (Player) | Name and shortened UUID |
-| **Rechte** (Permissions) | e.g. **Operator 4** |
+| **Player** | Name and shortened UUID |
+| **Rights** | e.g. **Operator 4** |
 | **Online** | since when the player has been online |
-| **Zuerst gesehen** (First seen) | when the player first joined your server |
+| **First seen** | when the player first joined your server |
 
 Your server continuously reports to the dashboard who is online.
 
@@ -67,85 +68,124 @@ Your server continuously reports to the dashboard who is online.
 The **…** menu at the end of a row gives you these actions, depending on the player:
 
 - **Details** – opens the [player's detail page](#player-detail-page)
-- **Nachricht senden** (Send message)
-- **Kicken** (Kick)
-- **Op entziehen** (Remove op) and **Op-Level ändern** (Change op level)
-- **Zur Allowlist hinzufügen** (Add to allowlist)
-- **Bannen** (Ban)
+- **Send message**
+- **Kick**
+- **Remove op** and **Change op level**
+- **Add to Allowlist**
+- **Ban**
 
 ## Add Players {#add-players}
 
-With **Spieler hinzufügen** (Add player) you can add a player even if they have never been on your server.
+With **Add player** you can add a player even if they have never been on your server.
 
 1. **Open the dialog**\
-   Click **Spieler hinzufügen** (Add player) at the top right.
+   Click **Add player** at the top right.
 
 2. **Enter the name**\
-   In the **Minecraft-Name** (Minecraft name) field, enter the name your fellow player uses in Minecraft. 3 to 16 characters made of letters, numbers and `_` are allowed. The UUID is looked up at Mojang automatically and saved, so the entry stays correct even after a name change.
+   In the **Minecraft name** field, enter the name your fellow player uses in Minecraft. 3 to 16 characters made of letters, numbers and `_` are allowed. The UUID is looked up at Mojang automatically and saved, so the entry stays correct even after a name change.
 
 3. **Choose the target**\
-   Under **Wohin?** (Where to?), choose what should happen to the player:
+   Under **Where to?**, choose what should happen to the player:
 
    | Option | Effect | Button |
    |--------|--------|--------|
-   | **Allowlist** | Counts as soon as you turn on the allowlist. | **Zur Allowlist hinzufügen** (Add to allowlist) |
-   | **Operator** | Gets level 4 and may use all commands in the game. | **Op geben** (Give op) |
-   | **Bannen** (Ban) | Can no longer join the server, not even via the allowlist. | **Bannen** (Ban) |
+   | **Allowlist** | Counts as soon as you turn on the allowlist. | **Add to Allowlist** |
+   | **Operator** | Gets level 4 and may use every command in the game. | **Make op** |
+   | **Ban** | Can no longer join the server, not even through the allowlist. | **Ban** |
 
 4. **Confirm**\
-   Click the matching button. When banning, you can first enter a reason of up to 120 characters in the **Grund (Optional)** (Reason, optional) field. The player sees it when trying to join.
+   Click the matching button. When banning, you can first enter a reason of up to 120 characters in the **Reason (Optional)** field. The player sees it when trying to join.
 
 ## Send a Message to Everyone
 
 1. **Open the dialog**\
-   Click **Nachricht an alle** (Message to everyone) at the top. The dialog shows how many players are online right now and will see the message in the chat.
+   Click **Message everyone** at the top. The dialog shows how many players are online right now and will see the message in the chat.
 
 2. **Write the message**\
-   Enter your text in the **Nachricht** (Message) field, e.g. "Restart in 5 minutes, find yourselves a safe spot." The message may be up to 200 characters long. Below it you see a preview of how it appears in the chat:
+   Enter your text in the message field, e.g. "Restart in 5 minutes, find yourselves a safe spot." The message may be up to 200 characters long. Below it you see a preview of how it appears in the chat:
 
    ```text
    [Server] Your message
    ```
 
 3. **Send**\
-   Click **Senden** (Send).
+   Send the message with the button below the field.
 
 > [!TIP]
 > You don't have to announce restarts by hand: with [scheduled tasks](/tutorials/gameserver/set-up-scheduled-tasks) you can have restarts run automatically.
 
 ## Player Detail Page {#player-detail-page}
 
-If you click a player in the list (or **Details** in the **…** menu), their detail page opens. At the top you see the name, badges such as **Online** or **Op-Level 4** and the **Kicken** (Kick) and **Bannen** (Ban) buttons. **Spieler** (Players) takes you back to the overview.
+If you click a player in the list (or **Details** in the **…** menu), their detail page opens. At the top you see the name, badges such as **Online** or **Op level 4** and the **Kick** and **Ban** buttons. The back link takes you to the **Players** overview.
 
-While the player is online, permissions, game mode and kicking take effect immediately. Inventory, position and statistics, on the other hand, show the last save.
+While the player is online, permissions, game mode and kicking take effect immediately. Inventory, position and statistics, on the other hand, show the last save – the info box tells you how many minutes ago that was.
 
-### Save Data
+> [!NOTE]
+> Minecraft only creates the player's save file once the player has played for the first time and the server has saved. Until then the detail page shows no inventory, position or statistics yet.
 
-Here you see the player's inventory and position. Minecraft only creates the file once the player has played for the first time and the server has saved – until then this section shows "Noch kein Speicherstand" (No save data yet).
+### Inventory
+
+The **Inventory** section shows the player's items like in the game: armor, offhand, inventory and hotbar. Using the **Inventory** and **Ender chest** tabs you switch between the normal inventory and the ender chest.
+
+Next to it you see:
+
+- **Used … of 41 slots** – how many inventory slots are filled
+- **In hand** – the item the player is currently holding
+- **Armor** – how many of the 4 armor pieces the player is wearing
+- **Life**, **Hunger** and **Experience** – health, food bar and experience level
+
+With the **Heal**, **Feed**, **Starve** and **Kill** buttons you refill the player's health or food bar, empty the food bar or kill the player.
+
+The values come from the `world/players/data/<UUID>.dat` file. Below it you see when it was last saved.
+
+### Position and Spawn Point
+
+In the right column, **Position** shows the player's coordinates (x, y, z) and the dimension they are in.
+
+The **Spawn point** box shows:
+
+- **Spawn point** – where the player respawns, e.g. **World spawn**
+- **Last death** – the dimension and coordinates of the last death
+
+With **Teleport to the spawn point** you send the player back to their spawn point.
 
 ### Game Mode
 
-In the right column you find the player's UUID (to copy), when they were first and last seen, and the **Spielmodus** (Game mode). Choose **Überleben** (Survival), **Kreativ** (Creative), **Abenteuer** (Adventure) or **Zuschauer** (Spectator). The change takes effect immediately via the console.
+In the right column you also find the player's UUID (to copy), when they were first and last seen, their play time and the **Game mode**. Choose **Survival**, **Creative**, **Adventure** or **Spectator**. The change takes effect immediately through the console.
+
+> [!NOTE]
+> The mode shown is the state of the last save. If the game mode has changed in the game since then, the dashboard only shows it after the next save.
 
 > [!TIP]
 > You set the default game mode for all new players under [Change the game mode](/tutorials/gameserver/minecraft/change-gamemode).
 
 ### Permissions and Access
 
-In the **Rechte und Zugang** (Permissions and access) box you control with switches:
+In the **Permissions and access** box you control with switches:
 
-- **Auf der Allowlist** (On the allowlist) – the player may join while the allowlist is active
+- **On the Allowlist** – the player may join while the allowlist is on
 - **Operator** – the player may use commands in the game, depending on the level
 
-Under **Operator-Level** (Operator level) you choose a level from 1 to 4. Level 4 allows all commands, including `/stop` and `/save-all`. You can find what each level means under [Grant OP rights](/tutorials/gameserver/minecraft/grant-op-rights#op-level).
+Under **Operator level** you choose a level from 1 to 4. Level 4 allows every command, `/stop` and `/save-all` too. You can find what each level means under [Grant OP rights](/tutorials/gameserver/minecraft/grant-op-rights#op-level).
 
 > [!IMPORTANT]
 > The operator level is stored in the `ops.json` file and can only be changed while the server is stopped. If the server is running, Minecraft overwrites the change again.
 
 ### History
 
-Under **Verlauf** (History) you see who on your team changed what for this player, e.g. "Nachricht gesendet" (Message sent) or "Zum Operator gemacht" (Made operator).
+Under **History** you see what your team changed for this player, e.g. "Message sent" or "Made operator".
 
 ### Statistics
 
-Under **Statistiken** (Statistics) you see what Minecraft tracks for the player across all play sessions. The values come from the `world/players/stats/<UUID>.json` file.
+Under **Statistics** you see what Minecraft counts for the player across all play sessions:
+
+| Value | Meaning |
+|-------|---------|
+| **Play time** | how long the player has played on your server in total |
+| **Deaths** | how often the player has died, including when the last death was |
+| **Players defeated** | how many other players they have defeated, with a ratio |
+| **Blocks mined** | how many blocks the player has mined |
+| **Distance** | how far the player has traveled, including the share covered sprinting |
+| **Most mined** | which blocks the player has mined most often |
+
+The values come from the `world/players/stats/<UUID>.json` file.

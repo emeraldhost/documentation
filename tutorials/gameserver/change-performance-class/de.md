@@ -6,6 +6,7 @@ description: "Deinen Gameserver auf einen schnelleren Prozessor umstellen: Klass
 tags: []
 date: "2026-10-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
@@ -14,10 +15,10 @@ author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste 
 available_languages: ["de", "en"]
 short_title: "Performance-Klasse wechseln"
 sort: 12
-related: ["gameserver/view-metrics", "gameserver/renew-server", "gameserver/change-resources", "gameserver/set-up-scheduled-tasks"]
+related: ["gameserver/view-metrics", "gameserver/renew-server", "gameserver/change-resources", "gameserver/set-up-scheduled-tasks", "gameserver/change-subdomain"]
 ---
 
-Die **Klasse** legt fest, auf welchem Prozessor Dein Server läuft. Braucht Dein Server mehr Tempo, hilft ein schnellerer Prozessor oft mehr als zusätzlicher RAM. Deine Ressourcen wie Arbeitsspeicher und Speicherplatz bleiben beim Klassenwechsel gleich.
+Die **Klasse** legt fest, auf welchem Prozessor Dein Server läuft. Braucht Dein Server mehr Tempo, hilft ein schnellerer Prozessor oft mehr als zusätzlicher RAM. Deine Ressourcen wie Arbeitsspeicher und Speicherplatz bleiben beim Klassenwechsel gleich, Deine **Serveradresse ändert sich aber**.
 
 ## Die Klassen im Vergleich
 
@@ -37,9 +38,29 @@ Den Dialog **Klasse wechseln** erreichst Du in der Verwaltung Deines Servers auf
 
 - in der linken Seitenleiste über **Performance**
 - über das Dropdown **Aktionen** → **Klasse wechseln**
-- in der **Übersicht** über den Link **Mehr Leistung?** neben Deiner aktuellen Klasse
+- in der **Übersicht** über den Link **Mehr Leistung?** neben Deiner aktuellen Klasse (öffnet zuerst eine Übersicht des Wechsels)
 - im Dialog **Ressourcen ändern** über den Button **Zur Performance-Klasse**
 - auf der Seite **Metriken** über den Link **Klassen vergleichen**
+
+## Was sich beim Wechsel ändert
+
+Klickst Du in der **Übersicht** auf **Mehr Leistung?**, öffnet sich eine kurze Übersicht des Wechsels „Standard → Performance – eine Klasse höher“. Dort siehst Du unter **Ändert sich** und **Was bleibt gleich**, was sich durch den Wechsel ändert:
+
+| Ändert sich | Was bleibt gleich |
+| ----------- | ----------------- |
+| **Prozessor** (AMD EPYC 7443 / 7543P → AMD Ryzen 9 7950X3D / 9950X) | RAM (z.B. 4 GB) |
+| **Tempo** (bis zu 4,0 GHz → bis zu 5,7 GHz) | Speicherplatz (z.B. 20 GB) |
+| **Monatspreis** | Alle Dateien, Welten und Backups |
+| **Serveradresse** – „danach neu“ | |
+| **Umzug** – „Server kurz offline“ | |
+
+Hat Dein Server noch keine 14 Tage Laufzeit, steht dort außerdem der Hinweis „Für Performance braucht Dein Server noch mindestens 14 Tage Laufzeit. Verlängere ihn zuerst.“ mit dem Button **Server verlängern**.
+
+> [!IMPORTANT]
+> Für den Wechsel wird Dein Server umgezogen. Während des Umzugs ist er kurz offline, und danach hat er eine **neue Serveradresse**. Gib Deinen Spielern nach dem Wechsel die neue IP-Adresse aus der **Übersicht**, sonst können sie sich nicht mehr verbinden.
+
+> [!TIP]
+> Statt der IP-Adresse kannst Du Deinen Spielern auch die Subdomain Deines Servers geben. Wie Du sie kopierst und änderst, erfährst Du unter [Subdomain ändern](/tutorials/gameserver/change-subdomain).
 
 ## Performance-Klasse wechseln
 
@@ -50,7 +71,10 @@ Den Dialog **Klasse wechseln** erreichst Du in der Verwaltung Deines Servers auf
    Im Schritt **Bezahlung** bezahlst Du den Betrag, der unten unter **Zu zahlen** steht. Das ist ein anteiliger Betrag, nicht der volle Monatspreis.
 
 3. **Übersicht**\
-   Im Schritt **Übersicht** siehst Du die Zusammenfassung Deines Wechsels.
+   Im Schritt **Übersicht** siehst Du die Zusammenfassung Deines Wechsels. Danach wird Dein Server umgezogen und ist dabei kurz offline.
+
+4. **Neue Adresse teilen**\
+   Sobald Dein Server wieder läuft, findest Du die neue IP-Adresse in der **Übersicht**. Teile sie mit Deinen Spielern.
 
 > [!NOTE]
 > Die Preise hängen von Deinem Server ab. Den genauen Betrag siehst Du direkt im Dialog, bevor Du bezahlst.
@@ -66,4 +90,4 @@ Für einen schnelleren Prozessor braucht Dein Server noch mindestens 14 Tage Lau
    Öffne danach erneut **Klasse wechseln** und führe den Wechsel wie oben beschrieben durch.
 
 > [!IMPORTANT]
-> Der Klassenwechsel ändert nur den Prozessor. Brauchst Du mehr Arbeitsspeicher oder Speicherplatz, passt Du diese über **Ressourcen ändern** an. Wie das geht, erfährst Du unter [Ressourcen ändern](/tutorials/gameserver/change-resources).
+> Der Klassenwechsel ändert den Prozessor und die Serveradresse, nicht aber Deine Ressourcen. Brauchst Du mehr Arbeitsspeicher oder Speicherplatz, passt Du diese über **Ressourcen ändern** an. Wie das geht, erfährst Du unter [Ressourcen ändern](/tutorials/gameserver/change-resources).

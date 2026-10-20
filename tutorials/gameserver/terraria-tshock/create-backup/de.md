@@ -6,6 +6,7 @@ description: "Backup eines Terraria tShock Servers erstellen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["terraria-tshock"]
 author: "EmeraldHost Team"

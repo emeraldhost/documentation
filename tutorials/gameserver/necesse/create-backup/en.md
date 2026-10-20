@@ -6,6 +6,7 @@ description: "Create a backup of a Necesse server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["necesse"]
 author: "EmeraldHost Team"
@@ -49,4 +50,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Always stop your server via the **dashboard** or with the `/stop` command in the console. That way Necesse writes the world to disk completely beforehand.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

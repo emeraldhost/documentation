@@ -6,6 +6,7 @@ description: "Backup eines The Cenozoic Era Servers erstellen"
 tags: []
 date: "2026-07-31"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["the-cenozoic-era"]
 author: "EmeraldHost Team"

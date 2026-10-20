@@ -22,45 +22,73 @@ related: ["gameserver/minecraft/upload-world", "gameserver/minecraft/change-worl
 > [!CAUTION]
 > **Attention**
 >
-> If you delete the world, it cannot be restored. Create a [backup](/tutorials/gameserver/create-backup) beforehand in case you need the world again later.
+> If you delete or reset the world, it cannot be restored. Create a [backup](/tutorials/gameserver/create-backup) beforehand in case you need the world again later.
 
-The **Welten** (Worlds) page in your dashboard lists all worlds on your server. There you can create a new world and delete old ones.
+The **Worlds** page in your dashboard lists all worlds on your server. Via the menu (…) in the row of a world you can choose **Rename**, **Download**, **Reset** and **Delete**. There you can also create a new world.
+
+## Reset the world
+
+If you want to start over with a fresh world under the same name, reset the world. It is deleted and Minecraft creates a new world with the seed from `server.properties` on the next start.
+
+1. **Open Worlds**\
+   Open your server in the dashboard and select **Worlds** in the sidebar.
+
+2. **Choose Reset**\
+   Open the menu (…) in the row of the world and choose **Reset**. The **Reset world** dialog opens. It shows a summary of the world that is deleted and its size.
+
+3. **Create a backup first**\
+   Leave **Create a backup first** enabled. Your whole server is then saved before the world is reset.
+
+4. **Start the server afterwards**\
+   Leave **Start the server again afterwards** enabled if the server should start right after the reset.
+
+5. **Reset the world**\
+   Click **Stop, reset and start**. The server is stopped, a backup is created if the backup switch is on, then the world is deleted and the server is started again. Minecraft then creates the new world and loads it.
+
+> [!WARNING]
+> Everything in this world is lost – buildings, inventories and the progress of all players. Without a backup it cannot be brought back.
+
+> [!TIP]
+> Want a different world with a new seed? Change the seed first, see [Change the world seed](/tutorials/gameserver/minecraft/change-world-seed), and then reset the world.
 
 ## Create a new world
 
-If you simply want to start over with a fresh world, create a new world first. The old world is kept until you delete it.
+If you want to keep the old world, create a new world instead. The old world is kept until you delete it.
 
-1. **Open Welten**\
-   Open your server in the dashboard and select **Welten** (Worlds) in the sidebar.
+1. **Open Worlds**\
+   Select **Worlds** in the sidebar.
 
 2. **Start a new world**\
-   Click **Neue Welt** (New world). The **Neue Welt anlegen** (Create new world) dialog opens. Minecraft generates the world itself on startup, you only give it a name.
+   Click **New world**. The **Create new world** dialog opens. Minecraft creates the world itself on start, you only give it a name.
 
 3. **Enter a name**\
-   Enter a name under **Name**. Letters, digits, `.`, `_` and `-` are allowed, with a maximum of 32 characters. The name becomes the folder name of the world.
+   Enter a name under **Name**. Letters, digits, `_` and `-` are allowed, with a maximum of 32 characters. The name becomes the folder name of the world.
 
 4. **Set a seed (optional)**\
-   Enter a seed under **Seed** if you want to generate a specific world. It is written as `level-seed` into `server.properties`. You can find more options via **Weitere Optionen im Config-Editor** (More options in the Config-Editor).
+   Enter a seed under **Seed** if you want to generate a specific world. It is written as `level-seed` into `server.properties`. You can find more options via **More options in the config editor**.
 
-5. **Set as default**\
-   Enable **Danach als Standard festlegen** (Set as default afterwards). The server then generates the new world on the next start and loads it from then on.
+5. **Set as standard**\
+   Enable **Set as standard afterwards**. The server is then stopped, the new world is set as standard and the server is started again. Minecraft creates the world on that start.
 
 6. **Create the world**\
-   Click **Welt anlegen** (Create world) and restart your server.
+   Confirm the dialog. The new world then appears on the **Worlds** page.
 
-## Delete a world via the Welten page
+## Delete a world via the Worlds page
 
-1. **Open Welten**\
-   Select **Welten** (Worlds) in the sidebar.
+1. **Open Worlds**\
+   Select **Worlds** in the sidebar.
 
-2. **Delete the world**\
-   In the row of the world you want to remove, choose the delete option and confirm.
+2. **Choose Delete**\
+   Open the menu (…) in the row of the world you want to remove and choose **Delete**.
+
+3. **Confirm**\
+   Confirm the deletion.
+
+> [!IMPORTANT]
+> You cannot delete your standard world, the world the server currently loads. **Delete** is disabled for it until you set another world as standard, for example with **Set as standard afterwards** when creating a new world. To start over with the standard world, use **Reset** instead.
 
 > [!NOTE]
-> The Nether and the End belong to the world and are deleted together with it.
-
-> [!TIP]
-> Which world the server currently loads is set in `server.properties` under `level-name`. Only delete worlds the server no longer uses, or set a new world as default first.
+> The Nether and the End belong to their world and are deleted together with it.
 
 ## Alternative: delete the world via SFTP
 

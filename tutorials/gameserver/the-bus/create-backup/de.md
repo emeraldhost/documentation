@@ -6,7 +6,7 @@ description: "Backup eines The Bus Servers erstellen"
 tags: []
 date: "2026-04-14"
 visibility: "public"
-updated: "2026-10-05"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["the-bus"]
 author: "EmeraldHost Team"

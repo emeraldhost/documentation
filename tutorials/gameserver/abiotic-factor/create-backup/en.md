@@ -6,6 +6,7 @@ description: "Create a backup of an Abiotic Factor server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["abiotic-factor"]
 author: "EmeraldHost Team"
@@ -49,4 +50,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > The savegame itself lives in the world folder under `/AbioticFactor/Saved/SaveGames/Server/Worlds/`. The sandbox settings (`SandboxSettings.ini`) of your world are stored there as well. Your admin list (`Admin.ini`) sits one level above it under `/AbioticFactor/Saved/SaveGames/Server/` – a backup created through the dashboard saves all of these files together.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

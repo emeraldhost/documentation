@@ -21,14 +21,14 @@ related: ["gameserver/use-file-browser", "gameserver/create-backup", "gameserver
 1. **Open dashboard**\
    Open your dashboard and select your server.
 
-2. **Open the file browser**\
-   In your server's dashboard, go to the **Datei-Browser** (File browser, page **Dateimanager**).
+2. **Open the File Manager**\
+   In your server's dashboard, click **File Manager** in the left sidebar.
 
 3. **Read the credentials**\
-   At the very top you find four cards with your SFTP credentials: **FTP Server**, **FTP Port** (e.g. `2022`), **FTP Benutzername** (FTP username) and **FTP Passwort** (FTP password).
+   At the very top you find four cards with your SFTP credentials: **FTP Server**, **FTP Port** (e.g. `2022`), **FTP Username** and **FTP Password**.
 
 4. **Show the password**\
-   The password is hidden. Click the eye icon in the **FTP Passwort** card to show it. With the green icon in the top right of the card you can set a new password if needed.
+   The password is hidden. Click the eye icon in the **FTP Password** card to show it. With the green icon in the top right of the card you can set a new password if needed.
 
 5. **Open SFTP program**\
    Open an SFTP program of your choice, for example [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/index.php).
@@ -37,8 +37,8 @@ related: ["gameserver/use-file-browser", "gameserver/create-backup", "gameserver
    Enter the credentials there:
 
    - **Server:** The address from the **FTP Server** card.
-   - **User name:** The value from the **FTP Benutzername** card.
-   - **Password:** The value from the **FTP Passwort** card.
+   - **User name:** The value from the **FTP Username** card.
+   - **Password:** The value from the **FTP Password** card.
    - **Port:** The value from the **FTP Port** card, e.g. `2022`.
 
    If the address already contains a port after the `:`, enter only the part before it as the server.
@@ -47,4 +47,4 @@ related: ["gameserver/use-file-browser", "gameserver/create-backup", "gameserver
    Now you can access, edit, delete or upload new files to your server.
 
 > [!TIP]
-> For smaller changes you don't need an SFTP program: in the [file browser](/tutorials/gameserver/use-file-browser) you can also edit and upload files directly in the dashboard.
+> For smaller changes you don't need an SFTP program: in the [File Manager](/tutorials/gameserver/use-file-browser) you can also edit and upload files directly in the dashboard.

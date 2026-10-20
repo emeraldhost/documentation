@@ -6,6 +6,7 @@ description: "Create a backup of a The Forest server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["the-forest"]
 author: "EmeraldHost Team"
@@ -47,4 +48,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > The chat command `/restart` is **not** a way to restart your server: according to the official command list it deletes the save data. Always use the **dashboard** to restart.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

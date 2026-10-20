@@ -6,6 +6,7 @@ description: "Create a backup of a Mindustry server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["mindustry"]
 author: "EmeraldHost Team"
@@ -81,4 +82,4 @@ loadautosave
 > Auto-saves are no replacement for a backup: they sit on the same server and are overwritten automatically once the configured amount is reached.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

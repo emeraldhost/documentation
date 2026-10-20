@@ -6,6 +6,7 @@ description: "Create a backup of a Minecraft PocketMine Edition server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft-pocketmine"]
 author: "EmeraldHost Team"
@@ -47,4 +48,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Besides the `worlds` folder, a complete backup also includes your configuration and list files in the main folder of your server, in particular `server.properties`, `pocketmine.yml`, `ops.txt`, `white-list.txt`, `banned-players.txt` and `banned-ips.txt` as well as the `plugins`, `plugin_data` and `resource_packs` folders.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

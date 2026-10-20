@@ -35,7 +35,7 @@ The easiest way to install plugins is directly in the dashboard. On the **Plugin
    Search the page for the plugin you want.
 
 3. **Install the plugin**\
-   Click **Installieren** (Install) on the plugin you want.
+   Click the install button on the plugin you want.
 
 4. **Restart the server**\
    Restart your server so the plugin is loaded.

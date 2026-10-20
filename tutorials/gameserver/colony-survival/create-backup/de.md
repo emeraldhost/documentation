@@ -6,6 +6,7 @@ description: "Backup eines Colony Survival Servers erstellen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["colony-survival"]
 author: "EmeraldHost Team"

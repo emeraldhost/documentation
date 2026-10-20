@@ -6,7 +6,7 @@ description: "Backup eines Hytale Servers erstellen"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-09-27"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"

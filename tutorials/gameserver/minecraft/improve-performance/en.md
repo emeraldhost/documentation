@@ -6,6 +6,7 @@ description: "Improve performance on a Minecraft Java Edition server"
 tags: []
 date: "2026-08-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -141,4 +142,4 @@ If `/spark health` permanently shows nearly full RAM usage, even the best optimi
 A daily restart of your server can fix memory leaks (RAM leaks) and keep performance stable.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic restarts and backups yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic restarts and backups yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

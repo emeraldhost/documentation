@@ -21,23 +21,23 @@ Every game server at EmeraldHost automatically gets its own subdomain in the for
 
 ## Copy the Subdomain
 
-Your current subdomain is shown in your server's dashboard directly below the server name. Click it to copy it to your clipboard. You will then see the message "Subdomain erfolgreich kopiert" (Subdomain copied successfully).
+Your current subdomain is shown in your server's dashboard directly below the server name. Click it to copy it to your clipboard. A message then confirms that the subdomain was copied.
 
-You can also find the subdomain on the **Übersicht** (Overview) page in the **Server Informationen** (Server information) box, in the **Subdomain** row.
+You can also find the subdomain on the **Overview** page in the **Server Information** box, in the **Subdomain** row.
 
 ## Change the Subdomain
 
 1. **Open the overview**\
-   Open your server's dashboard and click **Übersicht** (Overview) in the left sidebar.
+   Open your server's dashboard and click **Overview** in the left sidebar.
 
 2. **Edit the subdomain**\
-   In the **Server Informationen** (Server information) box, click the pencil icon in the **Subdomain** row. The **Subdomain verwalten** (Manage subdomain) dialog opens.
+   In the **Server Information** box, click the pencil icon in the **Subdomain** row. The **Manage Subdomain** dialog opens.
 
 3. **Choose a subdomain**\
-   Enter the name you want in the **Subdomain-Name** (Subdomain name) field. If the name is still available, you will see the message "Diese Subdomain ist verfügbar!" (This subdomain is available!).
+   In the **Choose subdomain** step, enter the name you want in the subdomain name field. If the name is still available, a message tells you so.
 
 4. **Select a domain**\
-   Under **Domain auswählen** (Select domain), choose the domain your name is attached to. The following are available:
+   Next to the name, choose the domain your name is attached to. The following are available:
 
    - `emerald.game`
    - `emerald-mc.de`
@@ -45,17 +45,17 @@ You can also find the subdomain on the **Übersicht** (Overview) page in the **S
    - `mygameservers.eu`
    - `mysmp.eu`
 
-   Under **So könnte Deine Subdomain aussehen** (This is what your subdomain could look like), you can see a preview of the finished address. Then click **Weiter** (Next).
+   Below that, the dialog shows a preview of the finished address. Then click **Next**.
 
 5. **Confirm the change**\
-   Check your new subdomain in the dialog's **Übersicht** (Overview) step and confirm the change.
+   Check your new subdomain in the dialog's **Overview** step and confirm the change.
 
 > [!TIP]
 > After the change, share the new address with your players so they can keep connecting.
 
 ## Delete the Subdomain
 
-If you no longer want to use the subdomain, click the trash icon in the **Subdomain** row of the **Server Informationen** (Server information) box on the **Übersicht** (Overview) page. After that, your server can no longer be reached via this subdomain – your players then connect using the IP address.
+If you no longer want to use the subdomain, click the trash icon in the **Subdomain** row of the **Server Information** box on the **Overview** page. After that, your server can no longer be reached via this subdomain – your players then connect using the IP address.
 
 ## Connect with the Subdomain
 

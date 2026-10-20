@@ -6,6 +6,7 @@ description: "Create a backup of a Minecraft Endstone Edition server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
@@ -46,4 +47,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Besides the `worlds` folder, your backup should include the configuration and list files in the main folder of your server, in particular `server.properties`, `endstone.toml`, `permissions.json`, `allowlist.json`, `banned-players.json` and `banned-ips.json` as well as the `plugins` folder.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

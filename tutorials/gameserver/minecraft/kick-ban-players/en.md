@@ -23,18 +23,18 @@ You can kick or ban players directly in the dashboard. Alternatively, as an oper
 
 ## Kick and ban players in the dashboard (recommended)
 
-On the **Spieler** (Players) page of your server's dashboard you kick and ban players without commands. Every change is sent to the console as a command immediately.
+On the **Players** page of your server's dashboard you kick and ban players without commands. Every change is sent to the console as a command immediately.
 
 1. **Open the players page**\
-   Open your server's dashboard and click **Spieler** (Players) in the left sidebar.
+   Open your server's dashboard and click **Players** in the left sidebar.
 
 2. **Kick or ban a player**\
-   In the player list, open the **…** menu at the end of the row and choose **Kicken** (Kick) or **Bannen** (Ban). You also find both buttons at the top of the player's detail page.
+   In the player list, open the **…** menu at the end of the row and choose **Kick** or **Ban**. You also find both buttons at the top of the player's detail page.
 
 3. **Ban a player in advance (optional)**\
-   You can also ban players who have never been on your server: click **Spieler hinzufügen** (Add player), enter the **Minecraft-Name** (Minecraft name), choose **Bannen** (Ban) under **Wohin?** (Where to?) and, if needed, enter a reason of up to 120 characters in the **Grund (Optional)** (Reason, optional) field. The player sees it when trying to join. Then click **Bannen** (Ban).
+   You can also ban players who have never been on your server: click **Add player**, enter the **Minecraft name**, choose **Ban** under **Where to?** and, if needed, enter a reason of up to 120 characters in the **Reason (Optional)** field. The player sees it when trying to join. Then click **Ban**.
 
-Banned players can no longer join the server, not even via the allowlist. The **Gebannt** (Banned) tab lists all banned players. You can find more about the page under [Manage players](/tutorials/gameserver/minecraft/manage-players).
+Banned players can no longer join the server, not even via the allowlist. The **Banned** tab lists all banned players. You can find more about the page under [Manage players](/tutorials/gameserver/minecraft/manage-players).
 
 ## Kick and ban players by command
 

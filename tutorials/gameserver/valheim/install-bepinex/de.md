@@ -48,7 +48,7 @@ Hast Du bereits einen normalen Valheim Server, legst Du darauf selbst eine Insta
 
 5. **Instanz anlegen**: Prüfe in der **Übersicht** Deine Auswahl und klicke auf **Erstellen**. Die Instanz wird automatisch eingerichtet, das kann einige Minuten dauern.
 
-6. **Instanz aktivieren**: Wechsle auf die neue Instanz. Klicke dazu in der Kopfzeile auf das Symbol **Instanz wechseln** oder wähle im Dropdown **Aktionen** den Eintrag **Instanz wechseln** (siehe [Instanzen nutzen](/tutorials/gameserver/use-instances)).
+6. **Instanz aktivieren**: Wechsle auf die neue Instanz. Klicke dazu in der Kopfzeile auf das Symbol **Instanz wechseln** oder wähle im Dropdown **Aktionen** den Eintrag **Instanz wechseln**. Auf der Seite **Instanzen**, die sich dann öffnet, wechselst Du über das Menü (**…**) der neuen Instanz auf sie (siehe [Instanzen nutzen](/tutorials/gameserver/use-instances)).
 
 7. **Welt hochladen**: Lade Deine gesicherte Welt in die neue Instanz hoch (siehe [Savegame hinzufügen](/tutorials/gameserver/valheim/add-savegame)).
 

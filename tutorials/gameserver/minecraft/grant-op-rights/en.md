@@ -21,16 +21,16 @@ related: ["gameserver/minecraft/manage-players", "gameserver/minecraft/enable-wh
 
 ## Assign OP rights in the dashboard (recommended)
 
-The easiest way to assign OP rights is the **Spieler** (Players) page of your server's dashboard. You don't need OP rights in the game yourself for this.
+The easiest way to assign OP rights is the **Players** page of your server's dashboard. You don't need OP rights in the game yourself for this.
 
 1. **Open the players page**\
-   Open your server's dashboard and click **Spieler** (Players) in the left sidebar.
+   Open your server's dashboard and click **Players** in the left sidebar.
 
 2. **Make the player an operator**\
-   Click **Spieler hinzufügen** (Add player), enter the **Minecraft-Name** (Minecraft name), choose **Operator** under **Wohin?** (Where to?) and click **Op geben** (Give op). The player gets level 4.
+   Click **Add player**, enter the **Minecraft name**, choose **Operator** under **Where to?** and click **Make op**. The player gets level 4.
 
 3. **Adjust the level (optional)**\
-   Open the player's detail page and choose a level from 1 to 4 under **Operator-Level** (Operator level) in the **Rechte und Zugang** (Permissions and access) box. In the **…** menu of the player list you can also use **Op-Level ändern** (Change op level) or **Op entziehen** (Remove op).
+   Open the player's detail page and choose a level from 1 to 4 under **Operator level** in the **Permissions and access** box. In the **…** menu of the player list you can also use **Change op level** or **Remove op**.
 
 > [!IMPORTANT]
 > The operator level is stored in the `ops.json` file and can only be changed while the server is stopped. If the server is running, Minecraft overwrites the change again.

@@ -6,6 +6,7 @@ description: "Create a backup of a Terraria tShock server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["terraria-tshock"]
 author: "EmeraldHost Team"
@@ -76,4 +77,4 @@ These backups are complete world files – you turn one back into a world by ren
 > If you only want to save the world itself, you can also download the `.wld` file separately: [Download savegame](/tutorials/gameserver/terraria-tshock/download-savegame).
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

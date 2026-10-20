@@ -6,6 +6,7 @@ description: "Backup eines Romestead Servers erstellen"
 tags: []
 date: "2026-07-31"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"

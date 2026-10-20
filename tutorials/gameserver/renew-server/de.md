@@ -6,6 +6,7 @@ description: "Gameserver manuell verlängern oder die automatische Verlängerung
 tags: []
 date: "2026-10-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
@@ -58,7 +59,7 @@ Ab 90 Tagen erhältst Du einen Rabatt, der mit der Laufzeit steigt:
 Mit der automatischen Verlängerung wird Dein Server kurz vor Ablauf automatisch verlängert. Dafür hinterlegst Du eine Zahlungsmethode, die sicher bei unserem Zahlungsdienstleister gespeichert und kurz vor Ablauf belastet wird.
 
 1. **Automatische Verlängerung öffnen**\
-   Öffne die **Übersicht** Deines Servers. In der Box **Automatische Verlängerung** steht der Status **Inaktiv**, solange Dein Server nicht automatisch verlängert wird. Öffne über diese Box den Dialog **Automatische Verlängerung**.
+   Öffne die **Übersicht** Deines Servers. Solange Dein Server nicht automatisch verlängert wird, steht in der Box **Automatische Verlängerung** „Dein Server wird nicht automatisch verlängert“ mit dem Status **Inaktiv**. Öffne über diese Box den Dialog **Automatische Verlängerung**.
 
 2. **Zahlungsmethode wählen**\
    Wähle im Schritt **Zahlungsmethode**, womit Dein Server automatisch verlängert werden soll. Zur Auswahl stehen **PayPal**, **Kreditkarte**, **Pay by Bank** und **EPS**.

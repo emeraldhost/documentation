@@ -6,6 +6,7 @@ description: "Create a backup of a Citadel Forged with Fire server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["citadel-forged-with-fire"]
 author: "EmeraldHost Team"
@@ -49,4 +50,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you do not want to wait for the next automatic save, you can run the chat command `/admin_autosave` as a logged-in admin. The server then immediately writes the character data of all currently connected players. Stop your server afterwards anyway before you create the backup. See [Add Admin](/tutorials/gameserver/citadel-forged-with-fire/add-admin) for how to get admin rights.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

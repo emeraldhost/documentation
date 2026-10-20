@@ -6,6 +6,7 @@ description: "Create a backup of a Soldat server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["soldat"]
 author: "EmeraldHost Team"
@@ -73,4 +74,4 @@ OpenSoldat:
 > Stop your server before creating or restoring a backup. That way no file is being written to while the backup runs – the server writes `banned.txt` and the log files during operation.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

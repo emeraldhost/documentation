@@ -6,6 +6,7 @@ description: "Move your game server to a faster processor: the classes compared,
 tags: []
 date: "2026-10-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
@@ -14,10 +15,10 @@ author_description: "The EmeraldHost team shares its knowledge so you get the mo
 available_languages: ["de", "en"]
 short_title: "Change Performance Class"
 sort: 12
-related: ["gameserver/view-metrics", "gameserver/renew-server", "gameserver/change-resources", "gameserver/set-up-scheduled-tasks"]
+related: ["gameserver/view-metrics", "gameserver/renew-server", "gameserver/change-resources", "gameserver/set-up-scheduled-tasks", "gameserver/change-subdomain"]
 ---
 
-The **Klasse** (Class) determines which processor your server runs on. If your server needs more speed, a faster processor often helps more than additional RAM. Your resources such as RAM and storage stay the same when you change the class.
+The **Class** determines which processor your server runs on. If your server needs more speed, a faster processor often helps more than additional RAM. Your resources such as RAM and storage stay the same when you change the class, but your **server address changes**.
 
 ## The Classes Compared
 
@@ -26,44 +27,67 @@ The **Klasse** (Class) determines which processor your server runs on. If your s
 | **Standard** | Solid performance for most servers | AMD EPYC 7443 / 7543P | up to 4.0 GHz | NVMe SSD |
 | **Performance** | Maximum performance for demanding servers | AMD Ryzen 9 7950X3D / 9950X | up to 5.7 GHz | NVMe SSD |
 
-You can see which class your server currently runs in in the **Übersicht** (Overview) under **Klasse** (Class), e.g. "Klasse: Standard".
+You can see which class your server currently runs in on the **Overview** page under **Server Information** → **Class**, e.g. "Standard".
 
 > [!TIP]
 > The CPU usage shows whether your server really needs more computing power. To learn how to check it, see [View Metrics](/tutorials/gameserver/view-metrics).
 
-## Open Change Class
+## Open Switch Class
 
-You can reach the **Klasse wechseln** (Change class) dialog in your server's dashboard in several ways:
+You can reach the **Switch class** dialog in your server's dashboard in several ways:
 
 - in the left sidebar via **Performance**
-- via the **Aktionen** (Actions) dropdown → **Klasse wechseln** (Change class)
-- in the **Übersicht** (Overview) via the **Mehr Leistung?** (More performance?) link next to your current class
-- in the **Ressourcen ändern** (Change resources) dialog via the **Zur Performance-Klasse** (To the performance class) button
-- on the **Metriken** (Metrics) page via the **Klassen vergleichen** (Compare classes) link
+- via the **Actions** dropdown → **Switch class**
+- on the **Overview** page via the **More performance?** link next to your current class (opens an overview of the change first)
+- in the **Change Resources** dialog via the **Switch to Performance** button
+- on the **Metrics** page via the **Compare classes** link
+
+## What Changes With the Switch
+
+If you click **More performance?** on the **Overview** page, a short overview of the change "Standard → Performance – one class up" opens. Under **Changes** and **What stays the same** it shows what the switch changes:
+
+| Changes | What stays the same |
+| ------- | ------------------- |
+| **Processor** (AMD EPYC 7443 / 7543P → AMD Ryzen 9 7950X3D / 9950X) | RAM (e.g. 4 GB) |
+| **Speed** (up to 4.0 GHz → up to 5.7 GHz) | Storage (e.g. 20 GB) |
+| **Monthly price** | All files, worlds and backups |
+| **Server address** – "new afterwards" | |
+| **Move** – "server briefly offline" | |
+
+If your server has less than 14 days left, it also shows the notice "For Performance, your server needs at least 14 days left. Renew it first." with the **Renew server** button.
+
+> [!IMPORTANT]
+> For the switch, your server is moved. It is briefly offline during the move and has a **new server address** afterwards. After the switch, give your players the new **IP Address** from the **Overview** page, otherwise they can no longer connect.
+
+> [!TIP]
+> Instead of the IP address, you can also give your players your server's subdomain. To learn how to copy and change it, see [Change Subdomain](/tutorials/gameserver/change-subdomain).
 
 ## Change the Performance Class
 
 1. **Choose a class**\
-   Open the **Klasse wechseln** (Change class) dialog. In the **Klasse wählen** (Choose class) step, choose how fast the processor your server runs on should be. Your current class is marked **Aktuell** (Current), the **Performance** class is marked **Empfohlen** (Recommended). You also see your **Aktueller Monatspreis** (Current monthly price) and the **Neuer Monatspreis** (New monthly price).
+   Open the **Switch class** dialog. In the first step, choose how fast the processor your server runs on should be. Your current class and the recommended **Performance** class are marked. You also see your current and your new monthly price.
 
 2. **Payment**\
-   In the **Bezahlung** (Payment) step, you pay the amount shown at the bottom under **Zu zahlen** (To pay). This is a prorated amount, not the full monthly price.
+   In the payment step, you pay the amount due shown at the bottom. This is a prorated amount, not the full monthly price.
 
 3. **Overview**\
-   In the **Übersicht** (Overview) step, you see the summary of your change.
+   In the last step, you see the summary of your change. Your server is then moved and is briefly offline during the move.
+
+4. **Share the new address**\
+   As soon as your server is running again, you find the new **IP Address** on the **Overview** page. Share it with your players.
 
 > [!NOTE]
 > Prices depend on your server. You see the exact amount directly in the dialog before you pay.
 
 ## Minimum Runtime of 14 Days
 
-For a faster processor, your server needs at least 14 days of remaining runtime. If the remaining runtime is shorter, the dialog shows the notice **Bitte erst verlängern** (Please renew first) together with the current remaining runtime, e.g. "Aktuell hat er noch 4 Tage 1 Std. Laufzeit." (It currently has 4 days 1 hr. of runtime left).
+For a faster processor, your server needs at least 14 days of remaining runtime. If the remaining runtime is shorter, you see a notice that your server needs at least 14 days left and that you should renew it first, together with the current remaining runtime.
 
 1. **Renew the server**\
-   Click **Server verlängern** (Renew server) in the notice and renew your server, e.g. by 30 days. Longer runtimes such as 90, 180, 365 or 730 days are cheaper (up to -20 %). To learn more, see [Renew Server](/tutorials/gameserver/renew-server).
+   Click **Renew server** in the notice and renew your server, e.g. by 30 days. Longer runtimes such as 90, 180, 365 or 730 days are cheaper (up to -20 %). To learn more, see [Renew Server](/tutorials/gameserver/renew-server).
 
 2. **Change the class**\
-   Then open **Klasse wechseln** (Change class) again and complete the change as described above.
+   Then open **Switch class** again and complete the change as described above.
 
 > [!IMPORTANT]
-> Changing the class only changes the processor. If you need more RAM or storage, adjust it via **Ressourcen ändern** (Change resources). To learn how, see [Change Resources](/tutorials/gameserver/change-resources).
+> Changing the class changes the processor and the server address, but not your resources. If you need more RAM or storage, adjust it via **Change Resources**. To learn how, see [Change Resources](/tutorials/gameserver/change-resources).

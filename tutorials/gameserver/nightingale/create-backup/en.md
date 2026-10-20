@@ -6,6 +6,7 @@ description: "Create a backup of a Nightingale server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["nightingale"]
 author: "EmeraldHost Team"
@@ -57,4 +58,4 @@ You can find the exact process for creating, managing and restoring a backup in 
 > This copy sits on the same server and is overwritten regularly. It is therefore **no** replacement for a proper backup, but it is a useful lifeline as long as it is still recent.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

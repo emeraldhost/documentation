@@ -6,6 +6,7 @@ description: "Create a backup of a No One Survived server"
 tags: []
 date: "2026-07-31"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["no-one-survived"]
 author: "EmeraldHost Team"
@@ -47,4 +48,4 @@ You can find the exact steps for creating, managing and restoring a backup in th
 > The actual savegames are stored as `.sav` files under `/WRSH/Saved/SaveGames/WorldSaves/`, the server's intermediate saves under `/WRSH/Saved/SaveGames/AutoSave/`. Your server settings are stored in the file `/WRSH/Saved/Config/WindowsServer/Game.ini` – a backup via the dashboard secures all of these files together.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

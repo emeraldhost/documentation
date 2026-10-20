@@ -6,7 +6,7 @@ description: "Improve performance on a Hytale server"
 tags: []
 date: "2026-01-15"
 visibility: "public"
-updated: "2026-09-27"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["hytale"]
 author: "EmeraldHost Team"
@@ -158,7 +158,7 @@ With Spark, you can use the following commands in-game as admin. In the console 
 A daily restart of your server can fix memory leaks (RAM leaks) and keep performance stable.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic restarts and backups yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic restarts and backups yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
 
 ## Feedback to the Hytale Team
 

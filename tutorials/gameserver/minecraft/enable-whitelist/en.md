@@ -26,16 +26,16 @@ A whitelist is a feature in Minecraft that allows server administrators to creat
 
 ## Enable the whitelist in the dashboard (recommended)
 
-The easiest way to enable the whitelist is the **Spieler** (Players) page of your server's dashboard. Every change is sent to the console as a command immediately.
+The easiest way to enable the whitelist is the **Players** page of your server's dashboard. Every change is sent to the console as a command immediately.
 
 1. **Open the players page**\
-   Open your server's dashboard and click **Spieler** (Players) in the left sidebar.
+   Open your server's dashboard and click **Players** in the left sidebar.
 
 2. **Add players**\
-   Click **Spieler hinzufügen** (Add player), enter the **Minecraft-Name** (Minecraft name), choose **Allowlist** under **Wohin?** (Where to?) and click **Zur Allowlist hinzufügen** (Add to allowlist). It is best to add yourself first. Players who have been on your server before can also be added via **Zur Allowlist hinzufügen** in the **…** menu of the player list.
+   Click **Add player**, enter the **Minecraft name**, choose **Allowlist** under **Where to?** and confirm with the button below it. It is best to add yourself first. Players who have been on your server before can also be added via **Add to Allowlist** in the **…** menu of the player list.
 
 3. **Turn on the allowlist**\
-   On the **Allowlist** card, turn on the **Allowlist aktiv** (Allowlist active) switch. From now on, only players on the list can join.
+   On the **Allowlist** card, turn on the **Allowlist on** switch. From now on, only players on the list can join.
 
 To learn how to remove players again and what else the page can do, see [Manage players](/tutorials/gameserver/minecraft/manage-players).
 

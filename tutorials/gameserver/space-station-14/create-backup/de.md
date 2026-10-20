@@ -6,6 +6,7 @@ description: "Backup eines Space Station 14 Servers erstellen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["space-station-14"]
 author: "EmeraldHost Team"

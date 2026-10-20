@@ -6,6 +6,7 @@ description: "Backup eines Astroneer Servers erstellen"
 tags: []
 date: "2026-04-15"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["astroneer"]
 author: "EmeraldHost Team"

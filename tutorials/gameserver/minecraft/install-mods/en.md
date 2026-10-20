@@ -32,13 +32,13 @@ The easiest way to install mods is directly in the dashboard. On the **Plugins &
    Open your server in the dashboard and click **Plugins & Mods** in the sidebar. On a NeoForge server, for example, the page is called **Mods**.
 
 2. **Search for a mod**\
-   Enter the name, ID or link of the mod in the **Suche** (Search) field. Use **Quelle** (Source) to choose between **Modrinth** and **CurseForge**.
+   Enter the name, ID or link of the mod in the search field. Use the source filter to choose between **Modrinth** and **CurseForge**.
 
 3. **Filter the results**\
-   Sort the results via **Sortieren nach** (Sort by) by **Beliebtheit** (Popularity), **Downloads**, **Kürzlich aktualisiert** (Recently updated) or **Name**, and narrow them down further with **Kategorien** (Categories). Each card shows the name, last update, downloads, author and description. The button with the external link opens the mod's page.
+   Sort the results, e.g. by popularity, downloads, recent updates or name, and narrow them down further with the category filter. Each card shows the name, last update, downloads, author and description. The button with the external link opens the mod's page.
 
 4. **Install the mod**\
-   Click **Installieren** (Install) on the mod you want. The mod is installed directly on your server together with all required dependencies.
+   Click the install button on the mod you want. The mod is installed directly on your server together with all required dependencies.
 
 5. **Restart the server**\
    Restart your server so the mod is loaded.

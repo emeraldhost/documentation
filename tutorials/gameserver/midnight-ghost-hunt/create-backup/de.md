@@ -6,6 +6,7 @@ description: "Backup eines Midnight Ghost Hunt Servers erstellen"
 tags: []
 date: "2026-07-31"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["midnight-ghost-hunt"]
 author: "EmeraldHost Team"

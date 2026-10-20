@@ -6,6 +6,7 @@ description: "Backup eines Wreckfest Servers erstellen"
 tags: []
 date: "2026-06-01"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["wreckfest"]
 author: "EmeraldHost Team"

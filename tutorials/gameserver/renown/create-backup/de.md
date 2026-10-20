@@ -6,6 +6,7 @@ description: "Backup eines Renown Servers erstellen"
 tags: []
 date: "2026-05-14"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["renown"]
 author: "EmeraldHost Team"

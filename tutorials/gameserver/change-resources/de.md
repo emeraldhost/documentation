@@ -6,6 +6,7 @@ description: "Arbeitsspeicher und Speicherplatz anpassen, Backup-, Datenbank- un
 tags: []
 date: "2026-10-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
@@ -86,7 +87,7 @@ Zusätzliche CPU-Kerne sind nicht Teil von **Ressourcen ändern**, sondern ein A
    Öffne das Dropdown **Aktionen** und wähle **Addons verwalten**. Du landest im Schritt **Addons auswählen**.
 
 2. **CPU-Kerne wählen**\
-   Wähle beim Addon **Zusätzliche CPU-Leistung** mit **–** und **+** aus, wie viele zusätzliche Kerne Du möchtest, z.B. **+1 Kern** oder **+2 Kerne**. Der Aufpreis wird Dir direkt angezeigt.
+   Wähle beim Addon **Zusätzliche CPU-Leistung** mit **–** und **+** aus, wie viele zusätzliche Kerne Du möchtest, z.B. **+1 Kern** oder **+2 Kerne**. Solange Du keinen Kern gewählt hast, steht dort „Nichts ausgewählt“. Der Aufpreis wird Dir direkt angezeigt.
 
 3. **Preis prüfen**\
    Unten im Dialog siehst Du unter **Zu zahlen** den anteiligen Betrag für die restliche Laufzeit und den neuen **Monatspreis**. Klicke anschließend auf **Weiter**.

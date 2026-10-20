@@ -6,6 +6,7 @@ description: "Backup eines The Lord of the Rings Return to Moria Servers erstell
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["the-lord-of-the-rings-return-to-moria"]
 author: "EmeraldHost Team"

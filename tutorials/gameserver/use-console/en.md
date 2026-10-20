@@ -17,24 +17,24 @@ sort: 16
 related: ["gameserver/set-up-scheduled-tasks", "gameserver/use-config-editor", "gameserver/view-metrics", "gameserver/establish-sftp-connection"]
 ---
 
-In the **Konsole** (Console) of your server's dashboard you see live what your server outputs, and you can send commands directly to it. This lets you check whether your server starts cleanly, find error messages or run admin commands without being in the game yourself.
+In the **Console** of your server's dashboard you see live what your server outputs, and you can send commands directly to it. This lets you check whether your server starts cleanly, find error messages or run admin commands without being in the game yourself.
 
 ## Open the Live Console
 
-Open your server's dashboard and switch to the **Konsole** (Console). There you find the **Live Konsole** (Live console) box with your server's current output.
+Open your server's dashboard and click **Console** in the left sidebar. There you find the **Live Console** box with your server's current output.
 
-You also see the **Live Konsole** (Live console) in your server's **Übersicht** (Overview). You can enter commands directly there as well.
+You also see the **Live Console** in your server's **Overview**. You can enter commands directly there as well.
 
 > [!TIP]
-> Use the icon at the top right of the **Live Konsole** (Live console) box to open the console in a separate window. This way you keep an eye on the output while you continue working in the dashboard.
+> Use the icon at the top right of the **Live Console** box to open the console in a separate window. This way you keep an eye on the output while you continue working in the dashboard.
 
 ## Send a Command
 
 1. **Enter the command**\
-   Click the **Befehl eingeben…** (Enter command…) input field of the **Live Konsole** (Live console) and type your command.
+   Click the **Enter a command…** input field of the **Live Console** and type your command.
 
 2. **Enter it without a slash**\
-   Enter the command without a `/` at the beginning – just the command itself. If you hover over the "/" to the left of the input field, you see the hint **Befehle ohne Slash (/) eingeben – nur der Befehl** (Enter commands without a slash (/) – just the command).
+   Enter the command without a `/` at the beginning – just the command itself. If you hover over the "/" to the left of the input field, a hint reminds you of this.
 
 3. **Send it**\
    Click the send button on the right. The command is sent to your server and the response appears in the console.
@@ -50,7 +50,7 @@ say The server restarts in 5 minutes
 
 ## Dashboard Actions in the Console
 
-Some areas of the dashboard send your changes to the console as a command, e.g. the **Spieler** (Players) page for Minecraft. If you make a player an operator there, you see a message like this in the console:
+Some areas of the dashboard send your changes to the console as a command, e.g. the **Players** page for Minecraft. If you make a player an operator there, you see a message like this in the console:
 
 ```text
 System chat: Made <Name> a server operator
@@ -59,4 +59,4 @@ System chat: Made <Name> a server operator
 This lets you check in the console whether an action has reached your server. To learn more about operators, see [Minecraft Grant OP Rights](/tutorials/gameserver/minecraft/grant-op-rights).
 
 > [!TIP]
-> You don't have to enter commands that should run regularly by hand every time. With the **Befehl senden** (Send command) action you can run them automatically – to learn more, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> You don't have to enter commands that should run regularly by hand every time. Under **Schedules**, the **Send command** action runs them automatically – to learn more, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

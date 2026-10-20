@@ -6,6 +6,7 @@ description: "Backup eines No More Room in Hell Servers erstellen"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["no-more-room-in-hell"]
 author: "EmeraldHost Team"

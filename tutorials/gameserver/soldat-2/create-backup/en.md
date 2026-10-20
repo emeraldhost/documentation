@@ -6,6 +6,7 @@ description: "Create a backup of a Soldat 2 server"
 tags: []
 date: "2026-07-31"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["soldat-2"]
 author: "EmeraldHost Team"
@@ -60,4 +61,4 @@ If you only want to save the most important files, download them via [SFTP](/tut
 > A backup only secures the files on your server. Custom maps, modifiers and scripts are best handed to your players directly as well – see [Add Mods](/tutorials/gameserver/soldat-2/add-mods). Keep those files somewhere you can hand them out from at any time.
 
 > [!NOTE]
-> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Scheduled Tasks**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).
+> Since EmeraldHost 2.0, you can set up automatic backups and restarts yourself in the dashboard under **Schedules**, see [Set Up Scheduled Tasks](/tutorials/gameserver/set-up-scheduled-tasks).

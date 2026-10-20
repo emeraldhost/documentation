@@ -31,28 +31,28 @@ In the dashboard you use the **Modpacks** page for this. There you browse modpac
 ## Install or Switch a Modpack
 
 1. **Open the "Modpacks" page**\
-   Open your Minecraft server's dashboard and click **Modpacks** in the sidebar under **Verwaltung** (Management).
+   Open your Minecraft server's dashboard and click **Modpacks** in the **Management** section of the sidebar.
 
 2. **Search for a modpack**\
    Narrow down the selection with the filters:
 
-   - **Suche** (Search): name of the modpack
-   - **Quelle** (Source): CurseForge or Modrinth
-   - **Spielversion** (Game version): the Minecraft version you want
-   - **Mod Loader**: e.g. NeoForge
-   - **Sortieren nach** (Sort by): order of the results
-   - **Kategorien** (Categories): filter modpacks by topic
+   - Search: name of the modpack
+   - Source: CurseForge or Modrinth
+   - Game version: the Minecraft version you want
+   - Mod loader: e.g. NeoForge
+   - Sorting: order of the results
+   - Categories: filter modpacks by topic
 
    Each card shows the mod loader and the version of the modpack.
 
 3. **Open the details**\
-   Click **Details anzeigen** (Show details) on the modpack you want. The **Modpack installieren** (Install modpack) window opens. On the left you see information such as downloads, the last update and the number of versions.
+   Open the details of the modpack you want. The installation window for the modpack opens. On the left you see information such as downloads, the last update and the number of versions.
 
 4. **Select a version**\
-   On the right under **Version auswählen** (Select version), choose the version you want. The mod loader tab (e.g. NeoForge), the **Version suchen…** (Search version…) field and the filter (e.g. Release) help you find the right version faster. For each version the list shows the name, the Minecraft version, the size, the date and the downloads.
+   On the right, choose the version you want from the version list. The mod loader tab (e.g. NeoForge), the version search field and the filter (e.g. Release) help you find the right version faster. For each version the list shows the name, the Minecraft version, the size, the date and the downloads.
 
 5. **Install the modpack**\
-   Click **Installieren** (Install).
+   Click the install button.
 
 > [!NOTE]
 > On the **Modpacks** page you can also switch a modpack to another version or uninstall it again.

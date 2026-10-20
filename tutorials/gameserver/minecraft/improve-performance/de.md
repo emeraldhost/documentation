@@ -6,6 +6,7 @@ description: "Performance auf einem Minecraft Java Edition Server verbessern"
 tags: []
 date: "2026-08-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"

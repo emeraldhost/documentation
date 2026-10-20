@@ -6,6 +6,7 @@ description: "Download a world from a Minecraft Java Edition server"
 tags: []
 date: "2026-07-30"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -23,7 +24,23 @@ You can download your server's world to your PC at any time, for example as an e
 > [!WARNING]
 > **Caution**
 >
-> Stop your server before downloading the files. While the server is running, it saves regularly, otherwise you would download an incomplete or corrupted save.
+> Stop your server before downloading the world. While the server is running, it saves regularly, otherwise you could download an incomplete or corrupted save.
+
+## Download the world via the Worlds page
+
+1. **Stop the server**\
+   Stop your Minecraft Java Edition server via the dashboard.
+
+2. **Open Worlds**\
+   Select **Worlds** in the sidebar. It lists all worlds on your server.
+
+3. **Download the world**\
+   Open the menu (…) in the row of the world and choose **Download**. The download starts in your browser.
+
+> [!NOTE]
+> The Nether and the End belong to their world and are downloaded together with it.
+
+## Alternative: download the world via SFTP
 
 1. **Stop the server**\
    Stop your Minecraft Java Edition server via the dashboard.
@@ -41,7 +58,7 @@ You can download your server's world to your PC at any time, for example as an e
    Start your server again.
 
 > [!TIP]
-> You can see which world is currently loaded in the `server.properties` file in the main folder of your server. The `level-name=` entry contains the name of the world folder:
+> You can see which world is currently loaded in the `server.properties` file in the main folder of your server, or on the **Worlds** page. The `level-name=` entry contains the name of the world folder:
 >
 > ```text
 > level-name=world

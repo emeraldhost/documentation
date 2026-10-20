@@ -39,7 +39,7 @@ Einzelspieler-Welten findest Du auf Deinem PC im Ordner `.minecraft/saves`. Jede
    Klicke auf **Hochladen**. Es öffnet sich der Dialog **Welt hochladen**. Vorhandene Welten bleiben dabei erhalten, bis Du etwas anderes entscheidest.
 
 4. **Datei auswählen**\
-   Klicke auf **Datei auswählen**, wähle Dein Archiv aus und bestätige mit **Hochladen**.
+   Klicke auf **Datei auswählen** oder ziehe die Datei in den Dialog und bestätige mit **Hochladen**.
 
 5. **Welt als Standard festlegen**\
    Welche Welt der Server lädt, steht in der `server.properties` unter `level-name`. Klicke auf der Seite **Welten** auf **Im Config-Editor ansehen**. Setze dort den Wert der Einstellung mit dem Schlüssel `level-name` auf den Namen der hochgeladenen Welt, z. B. `NeueWelt`.
@@ -49,6 +49,25 @@ Einzelspieler-Welten findest Du auf Deinem PC im Ordner `.minecraft/saves`. Jede
 
 > [!NOTE]
 > Nether und Ende gehören zur Welt. Sie werden mit ihr umbenannt, heruntergeladen und gelöscht.
+
+## Hochgeladene Welt umbenennen
+
+Hat Deine hochgeladene Welt einen unpassenden Namen, kannst Du sie auf der Seite **Welten** umbenennen.
+
+1. **Umbenennen wählen**\
+   Öffne das Menü (…) in der Zeile der Welt und wähle **Umbenennen**. Es öffnet sich der Dialog **Welt umbenennen**.
+
+2. **Neuen Namen eintragen**\
+   Gib den Namen unter **Neuer Name** ein. Erlaubt sind Buchstaben, Ziffern, `.`, `_` und `-` mit höchstens 32 Zeichen.
+
+3. **Server danach starten**\
+   Lass **Server danach wieder starten** aktiviert. Der Server wird für das Umbenennen kurz gestoppt und danach wieder gestartet.
+
+4. **Welt umbenennen**\
+   Klicke auf **Stoppen, umbenennen und starten**. Der Server wird gestoppt, die Welt umbenannt und der Server wieder gestartet.
+
+> [!TIP]
+> Benennst Du Deine Standardwelt um, wird der neue Name zusätzlich als `level-name` in die `server.properties` geschrieben, damit der Server sie weiterhin lädt.
 
 ## Alternative: Welt per SFTP hochladen
 

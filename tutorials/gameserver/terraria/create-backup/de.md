@@ -6,7 +6,7 @@ description: "Backup eines Terraria Servers erstellen"
 tags: []
 date: "2026-04-14"
 visibility: "public"
-updated: "2026-07-30"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["terraria"]
 author: "EmeraldHost Team"

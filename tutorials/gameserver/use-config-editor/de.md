@@ -5,6 +5,7 @@ title: "So nutzt Du den Config-Editor für Deinen Gameserver"
 description: "Servereinstellungen im Config-Editor ändern – mit einfachem Modus, Expertenmodus, Suche und Rohdateien"
 tags: []
 date: "2026-10-20"
+updated: "2026-10-20"
 visibility: "public"
 cta: "gameserver"
 author: "EmeraldHost Team"
@@ -56,6 +57,7 @@ Links unter **Einstellungen** sind die Einstellungen in Kategorien sortiert. Bei
 - **Netzwerk und Leistung**
 - **Server-Software** (nur im Expertenmodus)
 - **Java-Version**
+- **Weitere Einstellungen**
 
 Bei anderen Spielen siehst Du andere Kategorien.
 

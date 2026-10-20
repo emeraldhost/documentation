@@ -2,10 +2,11 @@
 slug: "spieler-verwalten"
 language: "de"
 title: "So verwaltest Du Spieler auf Deinem Minecraft Java Edition Server"
-description: "Allowlist, Operatoren, Banns und Spielmodus Deiner Minecraft-Spieler direkt im Dashboard verwalten"
+description: "Allowlist, Operatoren, Banns, Spielmodus, Inventar und Statistiken Deiner Minecraft-Spieler direkt im Dashboard verwalten"
 tags: []
 date: "2026-10-20"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -117,15 +118,43 @@ Wer online ist, meldet Dein Server laufend an das Dashboard.
 
 Klickst Du in der Liste auf einen Spieler (oder im Menü **…** auf **Details**), öffnet sich seine Detailseite. Oben siehst Du den Namen, Badges wie **Online** oder **Op-Level 4** und die Buttons **Kicken** und **Bannen**. Über **Spieler** kommst Du zurück zur Übersicht.
 
-Ist der Spieler online, wirken Rechte, Spielmodus und Kicken sofort. Inventar, Position und Statistiken zeigen dagegen den letzten Speicherstand.
+Ist der Spieler online, wirken Rechte, Spielmodus und Kicken sofort. Inventar, Position und Statistiken zeigen dagegen den letzten Speicherstand – wie lange der zurückliegt, siehst Du im Hinweis oben auf der Seite, z.B. „vor 2 Minuten“.
 
-### Speicherstand
+> [!NOTE]
+> Minecraft legt den Speicherstand des Spielers erst an, sobald er das erste Mal gespielt und der Server gespeichert hat. Bis dahin steht auf der Detailseite „Noch kein Speicherstand“.
 
-Hier siehst Du Inventar und Position des Spielers. Minecraft legt die Datei erst an, sobald der Spieler das erste Mal gespielt und der Server gespeichert hat – vorher steht hier „Noch kein Speicherstand“.
+### Inventar
+
+Im Bereich **Inventar** siehst Du die Gegenstände des Spielers so wie im Spiel: Rüstung, Zweithand, Inventar und Schnellleiste. Über die Tabs **Inventar** und **Endertruhe** wechselst Du zwischen dem normalen Inventar und der Endertruhe.
+
+Daneben siehst Du:
+
+- **Belegt … von 41 Plätzen** – wie viele Inventarplätze belegt sind
+- **In der Hand** – der Gegenstand, den der Spieler gerade hält
+- **Rüstung** – wie viele der 4 Rüstungsteile der Spieler trägt
+- **Leben**, **Hunger** und **Erfahrung** – Gesundheit, Hungerleiste und Erfahrungslevel
+
+Mit den Buttons **Heilen**, **Sättigen**, **Aushungern** und **Töten** füllst Du Leben oder Hungerleiste des Spielers auf, leerst die Hungerleiste oder tötest den Spieler.
+
+Die Werte stammen aus der Datei `world/players/data/<UUID>.dat`. Darunter siehst Du unter **Gespeichert vor …**, wann sie zuletzt gespeichert wurde.
+
+### Position und Spawnpunkt
+
+In der rechten Spalte zeigt **Position** die Koordinaten des Spielers (x, y, z) und die Dimension, in der er sich befindet.
+
+Im Bereich **Spawnpunkt** siehst Du:
+
+- **Spawnpunkt** – wo der Spieler wieder erscheint, z.B. **Weltspawn**
+- **Letzter Tod** – Dimension und Koordinaten des letzten Todes, z.B. „Oberwelt bei …“
+
+Mit **Zum Spawnpunkt teleportieren** schickst Du den Spieler zurück zu seinem Spawnpunkt.
 
 ### Spielmodus
 
-In der rechten Spalte findest Du die UUID des Spielers (zum Kopieren), wann er zuerst und zuletzt gesehen wurde, und den **Spielmodus**. Wähle dort **Überleben**, **Kreativ**, **Abenteuer** oder **Zuschauer**. Die Änderung wirkt sofort per Konsole.
+In der rechten Spalte findest Du außerdem die UUID des Spielers (zum Kopieren), wann er zuerst und zuletzt gesehen wurde, seine Spielzeit und den **Spielmodus**. Wähle dort **Überleben**, **Kreativ**, **Abenteuer** oder **Zuschauer**. Die Änderung wirkt sofort per Konsole.
+
+> [!NOTE]
+> „Der angezeigte Modus ist der Stand vom letzten Speichern.“ Hat sich der Spielmodus seitdem im Spiel geändert, zeigt das Dashboard das erst nach dem nächsten Speichern an.
 
 > [!TIP]
 > Den Standard-Spielmodus für alle neuen Spieler stellst Du unter [Spielmodus ändern](/tutorials/gameserver/minecraft/change-gamemode) ein.
@@ -148,4 +177,15 @@ Unter **Verlauf** siehst Du, wer aus Deinem Team was bei diesem Spieler geänder
 
 ### Statistiken
 
-Unter **Statistiken** siehst Du, was Minecraft für den Spieler über alle Spielsitzungen mitzählt. Die Werte stammen aus der Datei `world/players/stats/<UUID>.json`.
+Unter **Statistiken** siehst Du, was Minecraft für den Spieler über alle Spielsitzungen mitzählt:
+
+| Wert | Bedeutung |
+|------|-----------|
+| **Spielzeit** | wie lange der Spieler insgesamt auf Deinem Server gespielt hat |
+| **Tode** | wie oft der Spieler gestorben ist, inklusive wo zuletzt, z.B. „Zuletzt in der Oberwelt“ |
+| **Spieler besiegt** | wie viele andere Spieler er besiegt hat, mit dem **Verhältnis** |
+| **Blöcke abgebaut** | wie viele Blöcke der Spieler abgebaut hat |
+| **Strecke** | wie weit sich der Spieler bewegt hat, inklusive des Anteils, den er gesprintet ist |
+| **Am meisten abgebaut** | welche Blöcke der Spieler am häufigsten abgebaut hat |
+
+Die Werte stammen aus der Datei `world/players/stats/<UUID>.json`.

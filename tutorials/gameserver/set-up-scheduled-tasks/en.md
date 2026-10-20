@@ -17,10 +17,10 @@ sort: 6
 related: ["gameserver/create-backup", "gameserver/establish-sftp-connection", "gameserver/create-database", "gameserver/steamid64-find-out"]
 ---
 
-Since EmeraldHost 2.0, you can create **scheduled tasks** in your server's dashboard. This lets your server do things automatically, e.g. regular restarts, backups or console commands. You decide how often and at what time a task runs, and you can pause, change or start it manually at any time.
+Since EmeraldHost 2.0, you can create scheduled tasks under **Schedules** in your server's dashboard. This lets your server do things automatically, e.g. regular restarts, backups or console commands. You decide how often and at what time a task runs, and you can pause, change or start it manually at any time.
 
 > [!NOTE]
-> You can create up to 20 scheduled tasks per server. How many you can still create is shown at the top of the **Scheduled Tasks** page.
+> You can create up to 20 schedules per server. How many you can still create is shown at the top of the **Schedules** page.
 
 ## Available Actions
 
@@ -34,22 +34,22 @@ Since EmeraldHost 2.0, you can create **scheduled tasks** in your server's dashb
 
 ## Create a Scheduled Task
 
-1. **Open Scheduled Tasks**\
-   Open your server's dashboard and click **Scheduled Tasks** in the left sidebar.
+1. **Open Schedules**\
+   Open your server's dashboard and click **Schedules** in the left sidebar.
 
 2. **Create a schedule**\
    Click **Create schedule**.
 
 3. **Choose the action**\
-   Under **Action**, choose what should happen automatically. The **Name** is suggested from the action and schedule, but you can change it.
+   In the **Action** step, choose what should happen automatically. The **Name** is suggested from the action and the schedule, but you can change it.
 
-   For **Send command**, enter the command in the **Command** field just as you would type it in the console – without a `/` at the beginning.
+   For **Send command**, enter the command in the **Command** field just as you would in the console – without a `/` at the start.
 
-4. **Only when the server is running**\
-   If **Only when the server is running** is enabled, the task is skipped while your server is turned off. Then click **Next**.
+4. **Only while the server is running**\
+   If **Only while the server is running** is enabled, this run is skipped while your server is off. Then click **Next**.
 
 5. **Set the schedule**\
-   Define when and how often the task should run. You can choose **Minutes**, **Hours**, **Weekly** and **Monthly**. Depending on your choice, you set e.g. every how many hours and at which minute the task runs, or at what time, and on which days (**Daily**, **Weekdays**, **Weekend** or individual weekdays). With **Only within a time window** you limit the task to a specific period. Then click **Next**.
+   In the **Schedule** step, define when and how often the task should run. You can choose **Minutes**, **Hours**, **Weekly** and **Monthly**. Depending on your choice, you set e.g. every how many hours and at which minute the task runs, or at what time, and on which days (**Daily**, **Weekdays**, **Weekend** or individual weekdays). With **Only within a time window** you limit the task to a specific period. Then click **Next**.
 
    > [!NOTE]
    > All times are in your time zone, e.g. Europe/Berlin.
@@ -58,7 +58,7 @@ Since EmeraldHost 2.0, you can create **scheduled tasks** in your server's dashb
    In the **Overview**, check the action, the schedule and the next runs, and click **Save schedule**. The task is active immediately after saving.
 
 > [!TIP]
-> Under **Templates** you find ready-made tasks, e.g. a daily restart at 4 AM, a daily backup at 3 AM or a backup every 6 hours. This lets you create common tasks with just a few clicks.
+> Under **Presets** you find ready-made schedules, e.g. **Daily Restart at 4 AM**, **Daily Backup at 3 AM** or **Backup every 6 hours**. This lets you create common tasks with just a few clicks.
 
 ## Automatic Backups
 
@@ -83,4 +83,4 @@ With two tasks, you announce a restart in the game beforehand:
 
 ## Manage Tasks
 
-On the **Scheduled Tasks** page you see all schedules you have created. There you can pause, reactivate, change or manually start each task.
+On the **Schedules** page you see all schedules you have created. There you can pause, reactivate, change or manually start each task.

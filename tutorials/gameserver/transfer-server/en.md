@@ -17,40 +17,40 @@ sort: 14
 related: ["gameserver/change-subdomain", "gameserver/use-instances", "gameserver/create-backup", "gameserver/set-up-scheduled-tasks"]
 ---
 
-With **Server übertragen** (Transfer server) you move your server to another team or hand it over to another user. This is useful, for example, if a fellow player should manage the server themselves from now on.
+With **Transfer Server** you move your server to another team or hand it over to another user. This is useful, for example, if a fellow player should manage the server themselves from now on.
 
 ## Open Transfer Server
 
 1. **Open actions**\
-   Open your server's dashboard and click the **Aktionen** (Actions) dropdown.
+   Open your server's dashboard and click the **Actions** dropdown.
 
-2. **Select Transfer server**\
-   Select **Server übertragen** (Transfer server). The dialog offers two tabs: **Team wechseln** (Change team) and **Nutzer übertragen** (Transfer to user).
+2. **Select Transfer Server**\
+   Select **Transfer Server**. The dialog offers two tabs: **Change Team** and **Transfer to User**.
 
 ## Move to Another Team
 
-1. **Open Change team**\
-   Select the **Team wechseln** (Change team) tab in the dialog.
+1. **Open Change Team**\
+   Select the **Change Team** tab in the dialog.
 
 2. **Select the target team**\
-   Choose one of your teams as the new target.
+   Select one of your teams as the new destination.
 
 3. **Move the server**\
-   Click **Jetzt verschieben** (Move now). The move takes effect immediately.
+   Click **Move now**. The move takes effect immediately.
 
 > [!NOTE]
-> If you don't own any other teams, you see the notice "Du besitzt keine weiteren Teams, in die dieser Server verschoben werden könnte." (You don't own any other teams this server could be moved to.) In this case, use the **Nutzer übertragen** (Transfer to user) tab.
+> If you don't own any other teams, you see the notice "You don't own any other teams to move this server to." In this case, use the **Transfer to User** tab.
 
 ## Transfer to Another User
 
-1. **Open Transfer to user**\
-   Select the **Nutzer übertragen** (Transfer to user) tab in the dialog.
+1. **Open Transfer to User**\
+   Select the **Transfer to User** tab in the dialog.
 
 2. **Enter the recipient**\
-   In the **Empfänger** (Recipient) field, enter the username or e-mail address of the new owner.
+   In the recipient field, enter the username or e-mail address of the new owner.
 
 3. **Send the request**\
-   Click **Anfrage senden** (Send request). The recipient receives a request and has 7 days to accept it.
+   Send the request. The recipient receives a request and has 7 days to accept it.
 
 > [!IMPORTANT]
 > Check the recipient carefully before sending the request. Once they accept it, the server belongs to them.
@@ -62,14 +62,14 @@ With **Server übertragen** (Transfer server) you move your server to another te
 
 The display name is the name of your server in the dashboard. The server name players see in-game does not change.
 
-1. **Select Change display name**\
-   Open the **Aktionen** (Actions) dropdown and select **Anzeigename ändern** (Change display name).
+1. **Select Change Display Name**\
+   Open the **Actions** dropdown and select **Change Display Name**.
 
 2. **Enter the new name**\
-   Enter the new name in the **Anzeigename** (Display name) field.
+   Enter the new name in the **Display Name** field.
 
 3. **Save**\
-   Click **Speichern** (Save).
+   Click **Save**.
 
 > [!TIP]
 > If you want to change the address players use to reach your server, see [Change Subdomain](/tutorials/gameserver/change-subdomain).
