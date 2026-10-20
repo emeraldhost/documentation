@@ -6,7 +6,7 @@ description: "Grant OP rights on a Minecraft Java Edition server"
 tags: []
 date: "2023-10-15"
 visibility: "public"
-updated: "2026-08-20"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -16,8 +16,26 @@ author_description: "The EmeraldHost team shares its knowledge so you get the mo
 available_languages: ["de", "en"]
 short_title: "Grant OP Rights"
 sort: 20
-related: ["gameserver/minecraft/enable-whitelist", "gameserver/minecraft/fix-server-crashes", "gameserver/minecraft/improve-performance", "gameserver/minecraft/increase-slots"]
+related: ["gameserver/minecraft/manage-players", "gameserver/minecraft/enable-whitelist", "gameserver/minecraft/kick-ban-players", "gameserver/minecraft/fix-server-crashes"]
 ---
+
+## Assign OP rights in the dashboard (recommended)
+
+The easiest way to assign OP rights is the **Spieler** (Players) page of your server's dashboard. You don't need OP rights in the game yourself for this.
+
+1. **Open the players page**\
+   Open your server's dashboard and click **Spieler** (Players) in the left sidebar.
+
+2. **Make the player an operator**\
+   Click **Spieler hinzufügen** (Add player), enter the **Minecraft-Name** (Minecraft name), choose **Operator** under **Wohin?** (Where to?) and click **Op geben** (Give op). The player gets level 4.
+
+3. **Adjust the level (optional)**\
+   Open the player's detail page and choose a level from 1 to 4 under **Operator-Level** (Operator level) in the **Rechte und Zugang** (Permissions and access) box. In the **…** menu of the player list you can also use **Op-Level ändern** (Change op level) or **Op entziehen** (Remove op).
+
+> [!IMPORTANT]
+> The operator level is stored in the `ops.json` file and can only be changed while the server is stopped. If the server is running, Minecraft overwrites the change again.
+
+You can find all features of the page under [Manage players](/tutorials/gameserver/minecraft/manage-players). Alternatively, you can still assign OP rights by command or via the `ops.json` file.
 
 ## Assign OP rights via the in-game chat
 
@@ -99,7 +117,7 @@ related: ["gameserver/minecraft/enable-whitelist", "gameserver/minecraft/fix-ser
 > }
 > ```
 
-### OP Levels
+### OP Levels {#op-level}
 
 | Level | Description |
 |-------|-------------|

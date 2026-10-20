@@ -6,7 +6,7 @@ description: "OP-Rechte auf einem Minecraft Java Edition Server vergeben"
 tags: []
 date: "2023-10-15"
 visibility: "public"
-updated: "2026-08-20"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -16,8 +16,26 @@ author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste 
 available_languages: ["de", "en"]
 short_title: "OP-Rechte vergeben"
 sort: 9
-related: ["gameserver/minecraft/enable-whitelist", "gameserver/minecraft/fix-server-crashes", "gameserver/minecraft/improve-performance", "gameserver/minecraft/increase-slots"]
+related: ["gameserver/minecraft/manage-players", "gameserver/minecraft/enable-whitelist", "gameserver/minecraft/kick-ban-players", "gameserver/minecraft/fix-server-crashes"]
 ---
+
+## OP-Rechte im Dashboard vergeben (empfohlen)
+
+Am einfachsten vergibst Du OP-Rechte auf der Seite **Spieler** in der Verwaltung Deines Servers. Dafür brauchst Du selbst keine OP-Rechte im Spiel.
+
+1. **Spieler-Seite öffnen**\
+   Öffne die Verwaltung Deines Servers und klicke in der linken Seitenleiste auf **Spieler**.
+
+2. **Spieler zum Operator machen**\
+   Klicke auf **Spieler hinzufügen**, gib den **Minecraft-Name** ein, wähle unter **Wohin?** die Option **Operator** und klicke auf **Op geben**. Der Spieler bekommt Level 4.
+
+3. **Level anpassen (optional)**\
+   Öffne die Detailseite des Spielers und wähle in der Box **Rechte und Zugang** unter **Operator-Level** eine Stufe von 1 bis 4. Über das Menü **…** in der Spielerliste kannst Du außerdem **Op-Level ändern** oder **Op entziehen**.
+
+> [!IMPORTANT]
+> Das Operator-Level steht in der Datei `ops.json` und lässt sich nur bei gestopptem Server ändern. Läuft der Server, überschreibt Minecraft die Änderung wieder.
+
+Alle Funktionen der Seite findest Du unter [Spieler verwalten](/tutorials/gameserver/minecraft/manage-players). Alternativ kannst Du OP-Rechte weiterhin per Befehl oder über die Datei `ops.json` vergeben.
 
 ## OP-Rechte über den Ingame-Chat vergeben
 
@@ -99,7 +117,7 @@ related: ["gameserver/minecraft/enable-whitelist", "gameserver/minecraft/fix-ser
 > }
 > ```
 
-### OP-Level
+### OP-Level {#op-level}
 
 | Level | Beschreibung |
 |-------|--------------|

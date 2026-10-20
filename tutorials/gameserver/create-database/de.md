@@ -15,7 +15,7 @@ author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste 
 available_languages: ["de", "en"]
 short_title: "Datenbank erstellen"
 sort: 2
-related: ["gameserver/establish-sftp-connection", "gameserver/create-backup", "gameserver/set-up-scheduled-tasks", "gameserver/steamid64-find-out"]
+related: ["gameserver/establish-sftp-connection", "gameserver/create-backup", "gameserver/set-up-scheduled-tasks", "gameserver/change-resources"]
 ---
 
 Du kannst für Deinen Gameserver eigene MySQL-Datenbanken anlegen, zum Beispiel für Plugins, Mods oder Web-Oberflächen. Die Zugangsdaten wie Host, Port und Benutzer kopierst Du direkt aus der Verwaltung, und über phpMyAdmin verwaltest Du Deine Datenbank bequem im Browser.
@@ -40,8 +40,10 @@ Du kannst für Deinen Gameserver eigene MySQL-Datenbanken anlegen, zum Beispiel 
 6. **Erstellen**\
    Klicke auf **Datenbank erstellen**. Die neue Datenbank erscheint anschließend in der Tabelle.
 
+Vor den Namen Deiner Datenbank wird automatisch ein Präfix der Form `s<Nummer>_` gesetzt. Aus `Test` wird so z.B. `s51018_Test`.
+
 > [!NOTE]
-> Wie viele Datenbanken Du noch anlegen kannst, zeigt Dir das Badge oben auf der Seite, z.B. „noch 3 von 3 Datenbanken möglich“. Brauchst Du mehr, kannst Du über **Datenbank-Plätze erweitern** weitere Plätze hinzubuchen.
+> Wie viele Datenbanken Du noch anlegen kannst, zeigt Dir das Badge oben auf der Seite, z.B. „noch 3 von 3 Datenbanken möglich“. Brauchst Du mehr, kannst Du weitere Plätze hinzubuchen – wie das geht, liest Du weiter unten unter „Datenbank-Plätze erweitern“.
 
 ## Zugangsdaten verwenden
 
@@ -49,27 +51,62 @@ In der Tabelle auf der Seite **Datenbanken** siehst Du zu jeder Datenbank diese 
 
 | Spalte | Bedeutung |
 | --- | --- |
-| **Datenbankname** | Name der Datenbank |
-| **Benutzername** | Benutzer für die Anmeldung an der Datenbank |
-| **Passwort** | Passwort des Datenbank-Benutzers |
-| **Datenbank-Host** | Adresse des Datenbankservers |
+| **Datenbankname** | Name der Datenbank mit Präfix `s<Nummer>_` (z.B. `s51018_Test`), darunter die ID der Datenbank |
+| **Benutzername** | Benutzer für die Anmeldung an der Datenbank (z.B. `u51018_…`) |
+| **Passwort** | Passwort des Datenbank-Benutzers – verdeckt, über das Augen-Symbol blendest Du es ein |
+| **Datenbank-Host** | Adresse des Datenbankservers inklusive Port, z.B. `db1.cgn1.emeraldhost.de:3306` |
 | **Fernzugriff** | Erlaubte IP-Adressen (z.B. `%`) |
-| **phpMyAdmin** | Öffnet phpMyAdmin im Browser |
+| **phpMyAdmin** | Button **phpMyAdmin**, öffnet phpMyAdmin im Browser |
 
-Die Zugangsdaten kannst Du direkt aus der Tabelle kopieren und in die Konfiguration Deines Plugins oder Deiner Mod eintragen. Verwende den Port, den die Verwaltung anzeigt (MySQL-Standard ist `3306`).
-
-Auf der Seite **Datenbanken** kannst Du das Passwort einer Datenbank außerdem jederzeit rotieren, also durch ein neues ersetzen.
-
-> [!WARNING]
-> Nachdem Du das Passwort rotiert hast, musst Du es überall aktualisieren, wo die Datenbank verwendet wird. Sonst können sich Deine Plugins oder Mods nicht mehr verbinden.
+Die Zugangsdaten trägst Du in die Konfiguration Deines Plugins oder Deiner Mod ein. Der **Datenbank-Host** enthält Host und Port, getrennt durch einen Doppelpunkt. Verlangt Deine Konfiguration beides in getrennten Feldern, trägst Du z.B. `db1.cgn1.emeraldhost.de` als Host und `3306` als Port ein.
 
 > [!NOTE]
-> Viele Java-basierte Anwendungen, zum Beispiel Minecraft-Plugins, erwarten die Verbindungsdaten als JDBC-URL. Diese setzt sich aus Host, Port und Datenbankname zusammen, z.B. `jdbc:mysql://<Host>:<Port>/<Datenbankname>`. Benutzername und Passwort trägst Du in der Regel in eigene Felder ein.
+> Viele Java-basierte Anwendungen, zum Beispiel Minecraft-Plugins, erwarten die Verbindungsdaten als JDBC-URL. Diese setzt sich aus Host, Port und Datenbankname zusammen, z.B. `jdbc:mysql://db1.cgn1.emeraldhost.de:3306/s51018_Test`. Benutzername und Passwort trägst Du in der Regel in eigene Felder ein.
+
+## Datenbank verwalten
+
+Über das Menü (**…**) am Ende einer Tabellenzeile stehen Dir diese Aktionen zur Verfügung:
+
+- **Verbindung kopieren** – kopiert die Verbindungsdaten der Datenbank, damit Du sie direkt in Deine Konfiguration einfügen kannst.
+- **Passwort ändern** – generiert ein neues Passwort für die Datenbank.
+- **Löschen** – entfernt die Datenbank.
+
+> [!WARNING]
+> Mit **Löschen** entfernst Du die Datenbank samt Inhalt. Exportiere wichtige Daten vorher über phpMyAdmin.
+
+### Passwort ändern
+
+1. **Menü öffnen**\
+   Klicke in der Zeile Deiner Datenbank auf das Menü (**…**) und wähle **Passwort ändern**.
+
+2. **Bestätigen**\
+   Im Dialog **Passwort ändern** steht der Hinweis „Dies generiert ein neues Passwort. Das alte Passwort funktioniert nicht mehr.“ Klicke auf **Passwort ändern**, um das neue Passwort zu erzeugen, oder auf **Abbrechen**, um nichts zu ändern.
+
+3. **Neues Passwort übernehmen**\
+   Blende das neue Passwort in der Spalte **Passwort** über das Augen-Symbol ein und trage es überall ein, wo die Datenbank verwendet wird.
+
+> [!WARNING]
+> Nach dem Ändern funktioniert das alte Passwort nicht mehr. Aktualisiere es deshalb in allen Plugins, Mods und Tools, die auf die Datenbank zugreifen – sonst können sie sich nicht mehr verbinden.
+
+## Datenbank-Plätze erweitern
+
+Standardmäßig sind 3 Datenbanken inklusive. Reichen sie nicht aus, buchst Du weitere Plätze hinzu:
+
+1. **Erweitern starten**\
+   Klicke auf der Seite **Datenbanken** auf **Datenbank-Plätze erweitern**. Es öffnet sich der Dialog **Ressourcen ändern**.
+
+2. **Anzahl wählen**\
+   Stelle im Schritt **Konfiguration** mit dem Regler **Datenbanken** die gewünschte Anzahl ein. Zur Auswahl stehen die Stufen 3, 4, 5, 10, 15 und 20 – 3 sind inklusive, weitere Stufen sind kostenpflichtig. Unten im Dialog siehst Du die Preisänderung und unter **Monatlicher Preis** den neuen Monatspreis.
+
+3. **Prüfen und abschließen**\
+   Wechsle zum Schritt **Übersicht**, prüfe Deine Auswahl und schließe die Änderung ab.
+
+Mehr zum Dialog **Ressourcen ändern** findest Du unter [Ressourcen ändern](/tutorials/gameserver/change-resources).
 
 ## phpMyAdmin öffnen
 
 1. **phpMyAdmin aufrufen**\
-   Klicke in der Zeile Deiner Datenbank in der Spalte **phpMyAdmin** auf den Eintrag. phpMyAdmin öffnet sich direkt im Browser.
+   Klicke in der Zeile Deiner Datenbank auf den Button **phpMyAdmin**. phpMyAdmin öffnet sich direkt im Browser.
 
 2. **Datenbank verwalten**\
    In phpMyAdmin kannst Du Tabellen ansehen und bearbeiten, SQL-Befehle ausführen sowie Daten importieren und exportieren. Falls phpMyAdmin nach Zugangsdaten fragt, verwende den **Benutzernamen** und das **Passwort** aus der Tabelle.

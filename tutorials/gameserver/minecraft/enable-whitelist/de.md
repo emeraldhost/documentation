@@ -6,7 +6,7 @@ description: "Whitelist auf einem Minecraft Java Edition Server aktivieren"
 tags: []
 date: "2023-10-15"
 visibility: "public"
-updated: "2026-08-20"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -16,17 +16,32 @@ author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste 
 available_languages: ["de", "en"]
 short_title: "Whitelist aktivieren"
 sort: 26
-related: ["gameserver/minecraft/disable-locator-bar", "gameserver/minecraft/download-world", "gameserver/minecraft/fix-server-crashes", "gameserver/minecraft/grant-op-rights"]
+related: ["gameserver/minecraft/manage-players", "gameserver/minecraft/grant-op-rights", "gameserver/minecraft/kick-ban-players", "gameserver/minecraft/fix-server-crashes"]
 ---
 
 Eine Whitelist ist eine Funktion in Minecraft, die es Serveradministratoren ermöglicht, eine Liste von Spielern zu erstellen, die den Server betreten dürfen, während andere Spieler abgewiesen werden. Es dient dazu, unerwünschte Spieler fernzuhalten und diejenigen zuzulassen, die vom Serverbetreiber genehmigt wurden.
 
-## Voraussetzungen
+> [!NOTE]
+> Im Dashboard heißt die Whitelist „Allowlist“. Gemeint ist dieselbe Funktion.
 
-- Zugriff auf die Server-Konsole oder den In-Game Chat
-- Name des Spielers, den Du zur Whitelist hinzufügen möchtest.
+## Whitelist im Dashboard aktivieren (empfohlen)
 
-## Um die Whitelist zu aktivieren, folge diesen Schritten
+Am einfachsten aktivierst Du die Whitelist auf der Seite **Spieler** in der Verwaltung Deines Servers. Jede Änderung wird sofort als Befehl an die Konsole geschickt.
+
+1. **Spieler-Seite öffnen**\
+   Öffne die Verwaltung Deines Servers und klicke in der linken Seitenleiste auf **Spieler**.
+
+2. **Spieler eintragen**\
+   Klicke auf **Spieler hinzufügen**, gib den **Minecraft-Name** ein, wähle unter **Wohin?** die Option **Allowlist** und klicke auf **Zur Allowlist hinzufügen**. Trage am besten zuerst Dich selbst ein. Spieler, die schon einmal auf Deinem Server waren, kannst Du auch über das Menü **…** in der Spielerliste mit **Zur Allowlist hinzufügen** eintragen.
+
+3. **Allowlist einschalten**\
+   Aktiviere auf der Karte **Allowlist** den Schalter **Allowlist aktiv**. Ab jetzt dürfen nur noch eingetragene Spieler beitreten.
+
+Wie Du Spieler wieder entfernst und was die Seite sonst noch kann, erfährst Du unter [Spieler verwalten](/tutorials/gameserver/minecraft/manage-players).
+
+## Whitelist per Befehl aktivieren
+
+Alternativ kannst Du die Whitelist per Befehl aktivieren. Dafür brauchst Du Zugriff auf die Server-Konsole oder [OP-Rechte](/tutorials/gameserver/minecraft/grant-op-rights) im In-Game Chat sowie den Namen des Spielers, den Du zur Whitelist hinzufügen möchtest.
 
 1. **Konsole oder Chat öffnen**\
    Öffne die Server-Konsole, wenn Du direkten Zugang hast, oder den In-Game Chat, wenn Du über das Spiel verbunden bist.
@@ -49,3 +64,6 @@ Eine Whitelist ist eine Funktion in Minecraft, die es Serveradministratoren erm�
 
 4. **Befehl bestätigen**\
    Drücke „Enter“ oder klicke auf die Schaltfläche, um den Befehl auszuführen.
+
+> [!TIP]
+> In der Server-Konsole gibst Du die Befehle ohne `/` ein, z.B. `whitelist on`.

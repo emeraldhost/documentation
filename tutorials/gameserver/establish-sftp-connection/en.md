@@ -6,7 +6,7 @@ description: "Step-by-step instructions on how to establish an SFTP connection w
 tags: []
 date: "2025-06-24"
 visibility: "public"
-updated: "2026-03-19"
+updated: "2026-10-20"
 cta: "gameserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
@@ -15,31 +15,36 @@ author_description: "The EmeraldHost team shares its knowledge so you get the mo
 available_languages: ["de", "en"]
 short_title: "Establish SFTP Connection"
 sort: 1
-related: ["gameserver/create-database", "gameserver/create-backup", "gameserver/epicgamesid-find-out", "gameserver/steamid64-find-out"]
+related: ["gameserver/use-file-browser", "gameserver/create-backup", "gameserver/create-database", "gameserver/steamid64-find-out"]
 ---
 
 1. **Open dashboard**\
    Open your dashboard and select your server.
 
-2. **Go to overview**\
-   Go to the "Overview" section.
+2. **Open the file browser**\
+   In your server's dashboard, go to the **Datei-Browser** (File browser, page **Dateimanager**).
 
-3. **Show access data**\
-   Click on "Show access data" on the right under "SFTP".
+3. **Read the credentials**\
+   At the very top you find four cards with your SFTP credentials: **FTP Server**, **FTP Port** (e.g. `2022`), **FTP Benutzername** (FTP username) and **FTP Passwort** (FTP password).
 
-4. **Copy access data**\
-   A modal with your SFTP access data appears.
+4. **Show the password**\
+   The password is hidden. Click the eye icon in the **FTP Passwort** card to show it. With the green icon in the top right of the card you can set a new password if needed.
 
 5. **Open SFTP program**\
    Open an SFTP program of your choice, for example [FileZilla](https://filezilla-project.org/) or [WinSCP](https://winscp.net/index.php).
 
 6. **Enter access data**\
-   Insert the displayed access data there:
+   Enter the credentials there:
 
-   - **Server:** The displayed server address.
-   - **User name:** Your user name.
-   - **Password:** Your password.
-   - **Port:** The port is set automatically. If not, you will find it after the server address, after the `:` (e.g. `sftp://example.emeraldhost.de:2022`).
+   - **Server:** The address from the **FTP Server** card.
+   - **User name:** The value from the **FTP Benutzername** card.
+   - **Password:** The value from the **FTP Passwort** card.
+   - **Port:** The value from the **FTP Port** card, e.g. `2022`.
+
+   If the address already contains a port after the `:`, enter only the part before it as the server.
 
 7. **Manage files**\
    Now you can access, edit, delete or upload new files to your server.
+
+> [!TIP]
+> For smaller changes you don't need an SFTP program: in the [file browser](/tutorials/gameserver/use-file-browser) you can also edit and upload files directly in the dashboard.

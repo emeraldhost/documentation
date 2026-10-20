@@ -6,6 +6,7 @@ description: "Kick and ban players on a Minecraft Java Edition server"
 tags: []
 date: "2026-04-11"
 visibility: "public"
+updated: "2026-10-20"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -15,15 +16,32 @@ author_description: "The EmeraldHost team shares its knowledge so you get the mo
 available_languages: ["de", "en"]
 short_title: "Kick & Ban Players"
 sort: 26
-related: ["gameserver/minecraft/install-plugins", "gameserver/minecraft/join-server", "gameserver/minecraft/upload-world", "gameserver/minecraft/use-tp-command"]
+related: ["gameserver/minecraft/manage-players", "gameserver/minecraft/grant-op-rights", "gameserver/minecraft/enable-whitelist", "gameserver/minecraft/use-tp-command"]
 ---
 
-As an operator you can kick or permanently ban players using commands. The commands work both in the in-game chat and in the server console (without `/`).
+You can kick or ban players directly in the dashboard. Alternatively, as an operator you can do this by command in the in-game chat or in the server console (without `/`).
+
+## Kick and ban players in the dashboard (recommended)
+
+On the **Spieler** (Players) page of your server's dashboard you kick and ban players without commands. Every change is sent to the console as a command immediately.
+
+1. **Open the players page**\
+   Open your server's dashboard and click **Spieler** (Players) in the left sidebar.
+
+2. **Kick or ban a player**\
+   In the player list, open the **…** menu at the end of the row and choose **Kicken** (Kick) or **Bannen** (Ban). You also find both buttons at the top of the player's detail page.
+
+3. **Ban a player in advance (optional)**\
+   You can also ban players who have never been on your server: click **Spieler hinzufügen** (Add player), enter the **Minecraft-Name** (Minecraft name), choose **Bannen** (Ban) under **Wohin?** (Where to?) and, if needed, enter a reason of up to 120 characters in the **Grund (Optional)** (Reason, optional) field. The player sees it when trying to join. Then click **Bannen** (Ban).
+
+Banned players can no longer join the server, not even via the allowlist. The **Gebannt** (Banned) tab lists all banned players. You can find more about the page under [Manage players](/tutorials/gameserver/minecraft/manage-players).
+
+## Kick and ban players by command
 
 > [!NOTE]
 > You need OP rights to use these commands. See [Grant OP rights](/tutorials/gameserver/minecraft/grant-op-rights).
 
-## Kick a player
+### Kick a player
 
 ```text
 /kick <name> [reason]
@@ -31,7 +49,7 @@ As an operator you can kick or permanently ban players using commands. The comma
 
 The player is removed from the server but can rejoin.
 
-## Ban a player
+### Ban a player
 
 ```text
 /ban <name> [reason]
@@ -39,7 +57,7 @@ The player is removed from the server but can rejoin.
 
 The player is permanently banned from the server.
 
-## Ban a player by IP
+### Ban a player by IP
 
 ```text
 /ban-ip <ip>
@@ -47,7 +65,7 @@ The player is permanently banned from the server.
 
 The specified IP address is permanently banned from the server.
 
-## Unban a player
+### Unban a player
 
 ```text
 /pardon <name>
@@ -55,7 +73,7 @@ The specified IP address is permanently banned from the server.
 
 The player's ban is lifted.
 
-## Unban an IP
+### Unban an IP
 
 ```text
 /pardon-ip <ip>
@@ -66,7 +84,7 @@ The IP ban is lifted.
 > [!TIP]
 > In the server console, commands are entered without `/`, e.g. `kick playername`.
 
-## All commands
+### All commands
 
 | Command | Description |
 |---------|-------------|
