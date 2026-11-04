@@ -6,7 +6,7 @@ description: "Overview of guides for installing and configuring various applicat
 tags: []
 date: "2023-10-15"
 visibility: "public"
-updated: "2025-06-11"
+updated: "2026-11-04"
 cta: "rootserver"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"

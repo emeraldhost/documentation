@@ -6,7 +6,7 @@ description: "As gamers, we want to fully focus on our games without having to w
 tags: []
 date: "2023-10-15"
 visibility: "public"
-updated: "2025-05-22"
+updated: "2026-11-04"
 author: "EmeraldHost Team"
 author_link: "https://emeraldhost.de"
 author_img: "emeraldhost-team"
