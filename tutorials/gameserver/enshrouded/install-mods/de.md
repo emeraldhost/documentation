@@ -71,6 +71,26 @@ Enshrouded bietet offiziell noch keine Mod-Unterstützung. Mit dem **Enshrouded 
        └── mod.json
    ```
 
+   **Beispiel 1 – eine Mod:** Du hast die Datei `MoreStackSize.zip` heruntergeladen. Nach dem Entpacken lädst Du den Ordner `MoreStackSize` hoch:
+
+   ```text
+   mods/
+   └── MoreStackSize/
+       └── mod.json
+   ```
+
+   **Beispiel 2 – mehrere Mods:** Nutzt Du zusätzlich die Mod `FasterCrafting`, liegt sie als eigener Ordner direkt daneben:
+
+   ```text
+   mods/
+   ├── FasterCrafting/
+   │   └── mod.json
+   └── MoreStackSize/
+       └── mod.json
+   ```
+
+   Die Namen in den Beispielen sind nur Platzhalter, bei Dir stehen dort die Ordnernamen Deiner Mods.
+
    Liegt die `mod.json` direkt in `mods` oder einen Ordner zu tief, wird die Mod nicht geladen.
 
 5. **Server starten**\
