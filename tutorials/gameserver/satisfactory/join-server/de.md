@@ -15,7 +15,7 @@ author_description: "Das EmeraldHost-Team teilt sein Wissen, damit Du das Beste 
 available_languages: ["de", "en"]
 short_title: "Server beitreten"
 sort: 7
-related: ["gameserver/satisfactory/create-backup", "gameserver/satisfactory/download-savegame", "gameserver/satisfactory/set-admin-password", "gameserver/satisfactory/set-server-password"]
+related: ["gameserver/satisfactory/add-admin", "gameserver/satisfactory/create-backup", "gameserver/satisfactory/download-savegame", "gameserver/satisfactory/set-admin-password"]
 ---
 
 Satisfactory hat keinen öffentlichen Serverbrowser. Deinen dedizierten Server trägst Du im Spiel einmalig über den **Server Manager** ein und verbindest Dich anschließend von dort aus.

@@ -15,7 +15,7 @@ author_description: "The EmeraldHost team shares its knowledge so you get the mo
 available_languages: ["de", "en"]
 short_title: "Join Server"
 sort: 7
-related: ["gameserver/satisfactory/create-backup", "gameserver/satisfactory/download-savegame", "gameserver/satisfactory/set-admin-password", "gameserver/satisfactory/set-server-password"]
+related: ["gameserver/satisfactory/add-admin", "gameserver/satisfactory/create-backup", "gameserver/satisfactory/download-savegame", "gameserver/satisfactory/set-admin-password"]
 ---
 
 Satisfactory does not have a public server browser. You add your dedicated server once via the in-game **Server Manager** and connect from there afterwards.

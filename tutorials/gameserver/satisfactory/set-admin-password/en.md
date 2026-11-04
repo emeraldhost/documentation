@@ -16,7 +16,7 @@ author_description: "The EmeraldHost team shares its knowledge so you get the mo
 available_languages: ["de", "en"]
 short_title: "Set Admin Password"
 sort: 8
-related: ["gameserver/satisfactory/create-backup", "gameserver/satisfactory/download-savegame", "gameserver/satisfactory/join-server", "gameserver/satisfactory/set-server-password"]
+related: ["gameserver/satisfactory/add-admin", "gameserver/satisfactory/create-backup", "gameserver/satisfactory/download-savegame", "gameserver/satisfactory/join-server"]
 ---
 
 You need the admin password to log in as an administrator in-game. You define it in the **Server Manager** – it is not stored in any configuration file you could edit via SFTP.
