@@ -6,7 +6,7 @@ description: "Resources auf einem FiveM Server installieren und in der server.cf
 tags: []
 date: "2026-08-07"
 visibility: "public"
-updated: "2026-10-27"
+updated: "2026-11-04"
 cta: "gameserver"
 product_keys: ["fivem"]
 author: "EmeraldHost Team"
@@ -68,9 +68,6 @@ Resources werden aus einem Ordner namens `resources/` im Server-Datenverzeichnis
    - Öffne die `fxmanifest.lua` und prüfe, dass die Skript-Einträge (`client_scripts`, `server_scripts`, `shared_scripts`) und `files` nur Dateien nennen, die Du von dieser Resource erwartest.
    - Durchsuche die Lua-Dateien nach `PerformHttpRequest` in Verbindung mit `load` oder `loadstring`. Code, der Text herunterlädt und ausführt, kann auf Deinem Server beliebige Befehle ausführen.
    - Achte auf lange, unlesbare Zeichenketten (escapte Bytes, Base64 oder lange `string.char`-Listen) und auf Code, der nach sehr vielen Leerzeichen weit rechts in einer Zeile steht.
-
-   > [!TIP]
-   > Der kostenlose [FiveM Backdoor Scanner](https://rpscripts.net/tools/fivem-backdoor-scanner/) von RPScripts prüft ein ZIP-Archiv oder einen Ordner auf diese Muster. Der Scan läuft in Deinem Browser, Deine Dateien werden nicht hochgeladen. Ein unauffälliges Ergebnis ist keine Garantie: Escrow-verschlüsselte Dateien kann der Scanner nicht prüfen.
 
 6. **Per SFTP verbinden**\
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server.
