@@ -63,23 +63,7 @@ Enshrouded bietet offiziell noch keine Mod-Unterstützung. Mit dem **Enshrouded 
    Öffne im Hauptverzeichnis Deines Servers den Ordner `mods`.
 
 4. **Mod hochladen**\
-   Lade den kompletten Mod-Ordner in den Ordner `mods` hoch. Am Ende muss die Struktur so aussehen:
-
-   ```text
-   mods/
-   └── <Mod-Name>/
-       └── mod.json
-   ```
-
-   **Beispiel 1 – eine Mod:** Du hast die Datei `MoreStackSize.zip` heruntergeladen. Nach dem Entpacken lädst Du den Ordner `MoreStackSize` hoch:
-
-   ```text
-   mods/
-   └── MoreStackSize/
-       └── mod.json
-   ```
-
-   **Beispiel 2 – mehrere Mods:** Nutzt Du zusätzlich die Mod `FasterCrafting`, liegt sie als eigener Ordner direkt daneben:
+   Lade den kompletten Mod-Ordner in den Ordner `mods` hoch. Jede Mod bekommt ihren eigenen Ordner mit einer `mod.json`. Mit den Beispiel-Mods `FasterCrafting` und `MoreStackSize` sieht das so aus:
 
    ```text
    mods/
@@ -88,8 +72,6 @@ Enshrouded bietet offiziell noch keine Mod-Unterstützung. Mit dem **Enshrouded 
    └── MoreStackSize/
        └── mod.json
    ```
-
-   Die Namen in den Beispielen sind nur Platzhalter, bei Dir stehen dort die Ordnernamen Deiner Mods.
 
    Liegt die `mod.json` direkt in `mods` oder einen Ordner zu tief, wird die Mod nicht geladen.
 

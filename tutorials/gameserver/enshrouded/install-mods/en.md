@@ -63,23 +63,7 @@ Enshrouded does not offer official mod support yet. With the **Enshrouded Mod Lo
    Open the `mods` folder in the main directory of your server.
 
 4. **Upload the mod**\
-   Upload the complete mod folder to the `mods` folder. In the end, the structure must look like this:
-
-   ```text
-   mods/
-   └── <mod-name>/
-       └── mod.json
-   ```
-
-   **Example 1 – one mod:** You downloaded the file `MoreStackSize.zip`. After extracting it, you upload the `MoreStackSize` folder:
-
-   ```text
-   mods/
-   └── MoreStackSize/
-       └── mod.json
-   ```
-
-   **Example 2 – several mods:** If you also use the `FasterCrafting` mod, it sits as its own folder right next to it:
+   Upload the complete mod folder to the `mods` folder. Each mod gets its own folder with a `mod.json`. With the example mods `FasterCrafting` and `MoreStackSize`, it looks like this:
 
    ```text
    mods/
@@ -88,8 +72,6 @@ Enshrouded does not offer official mod support yet. With the **Enshrouded Mod Lo
    └── MoreStackSize/
        └── mod.json
    ```
-
-   The names in the examples are only placeholders; in your case they are the folder names of your mods.
 
    If `mod.json` sits directly in `mods` or one folder too deep, the mod is not loaded.
 
