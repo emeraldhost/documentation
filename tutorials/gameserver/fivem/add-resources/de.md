@@ -6,6 +6,7 @@ description: "Resources auf einem FiveM Server installieren und in der server.cf
 tags: []
 date: "2026-08-07"
 visibility: "public"
+updated: "2026-11-04"
 cta: "gameserver"
 product_keys: ["fivem"]
 author: "EmeraldHost Team"
@@ -61,10 +62,17 @@ Resources werden aus einem Ordner namens `resources/` im Server-Datenverzeichnis
    > [!WARNING]
    > Deine Server laufen unter Linux, deshalb wird zwischen Groß- und Kleinschreibung unterschieden. Der Name in der `ensure`-Zeile muss exakt dem Ordnernamen entsprechen.
 
-5. **Per SFTP verbinden**\
+5. **Dateien vor dem Hochladen prüfen**\
+   Sieh Dir den entpackten Ordner an, bevor er auf Deinen Server kommt, vor allem wenn die Resource nicht direkt von ihrem Autor stammt:
+
+   - Öffne die `fxmanifest.lua` und prüfe, dass die Skript-Einträge (`client_scripts`, `server_scripts`, `shared_scripts`) und `files` nur Dateien nennen, die Du von dieser Resource erwartest.
+   - Durchsuche die Lua-Dateien nach `PerformHttpRequest` in Verbindung mit `load` oder `loadstring`. Code, der Text herunterlädt und ausführt, kann auf Deinem Server beliebige Befehle ausführen.
+   - Achte auf lange, unlesbare Zeichenketten (escapte Bytes, Base64 oder lange `string.char`-Listen) und auf Code, der nach sehr vielen Leerzeichen weit rechts in einer Zeile steht.
+
+6. **Per SFTP verbinden**\
    Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server.
 
-6. **Ordner hochladen**\
+7. **Ordner hochladen**\
    Lade den Ordner der Resource in Dein `resources`-Verzeichnis hoch.
 
 ## Kategorien mit eckigen Klammern

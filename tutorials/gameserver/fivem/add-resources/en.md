@@ -6,6 +6,7 @@ description: "Install resources on a FiveM server and start them in the server.c
 tags: []
 date: "2026-08-07"
 visibility: "public"
+updated: "2026-11-04"
 cta: "gameserver"
 product_keys: ["fivem"]
 author: "EmeraldHost Team"
@@ -61,10 +62,17 @@ Resources are loaded from a folder called `resources/` in the server data direct
    > [!WARNING]
    > Your servers run on Linux, so names are case sensitive. The name in the `ensure` line has to match the folder name exactly.
 
-5. **Connect via SFTP**\
+5. **Check the files before you upload them**\
+   Look through the extracted folder before it goes onto your server, especially if the resource does not come directly from its author:
+
+   - Open the `fxmanifest.lua` and check that the script entries (`client_scripts`, `server_scripts`, `shared_scripts`) and `files` only list files you expect from this resource.
+   - Search the Lua files for `PerformHttpRequest` combined with `load` or `loadstring`. Code that downloads text and runs it can execute anything on your server.
+   - Look out for long unreadable strings (escaped bytes, base64 or long `string.char` lists) and for code pushed far to the right after a long run of spaces.
+
+6. **Connect via SFTP**\
    Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection).
 
-6. **Upload the folder**\
+7. **Upload the folder**\
    Upload the resource folder into your `resources` directory.
 
 ## Categories with square brackets
