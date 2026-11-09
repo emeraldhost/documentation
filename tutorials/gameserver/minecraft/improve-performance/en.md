@@ -6,7 +6,7 @@ description: "Improve performance on a Minecraft Java Edition server"
 tags: []
 date: "2026-08-20"
 visibility: "public"
-updated: "2026-10-20"
+updated: "2026-11-09"
 cta: "gameserver"
 product_keys: ["minecraft"]
 author: "EmeraldHost Team"
@@ -35,6 +35,9 @@ This guide is about server lag – and about how to find and fix its cause.
 
 [spark](https://spark.lucko.me/) is a free performance profiler for Minecraft servers. It shows you the current TPS, the server's load and, most importantly, **what exactly** is consuming the tick time – instead of guessing, you see the cause in black and white.
 
+> [!TIP]
+> A detailed guide to spark on all platforms – including lag spikes, report views and typical problem patterns – can be found in [Setup spark](/tutorials/gameserver/minecraft/setup-spark).
+
 > [!NOTE]
 > **spark is already included in Paper**
 >
@@ -42,10 +45,10 @@ This guide is about server lag – and about how to find and fix its cause.
 
 ### Installing spark
 
-For older versions or other server software, download spark from [spark.lucko.me](https://spark.lucko.me/download) (alternatively via [Modrinth](https://modrinth.com/plugin/spark) or [Hangar](https://hangar.papermc.io/lucko/spark)):
+For older versions or other server software, download spark from [spark.lucko.me](https://spark.lucko.me/download) (mod versions alternatively via [Modrinth](https://modrinth.com/mod/spark)):
 
 1. **Download the matching version**\
-   Choose **Bukkit** if your server runs Paper, Purpur or Spigot, or **Forge**, **NeoForge** or **Fabric** for modded servers.
+   Choose **Bukkit** if your server runs Paper, Purpur or Spigot, or **Forge**, **NeoForge** or **Fabric** for modded servers. On Fabric, spark also requires the [Fabric API](https://modrinth.com/mod/fabric-api).
 
 2. **Upload the file**\
    On plugin servers, upload the `.jar` file to the `plugins` folder (see [Install Plugins](/tutorials/gameserver/minecraft/install-plugins)); on modded servers, upload it to the `mods` folder (see [Install Mods](/tutorials/gameserver/minecraft/install-mods)).
@@ -64,7 +67,6 @@ You can run the commands in-game (with [OP rights](/tutorials/gameserver/minecra
 | ------- | ----------- |
 | `/spark tps` | Shows the current TPS and CPU usage |
 | `/spark health` | Shows a health report with TPS, CPU, RAM and disk usage |
-| `/spark health --upload` | Uploads the health report to the spark viewer as a link |
 | `/spark profiler start` | Starts the profiler |
 | `/spark profiler stop` | Stops the profiler and creates the report link |
 
