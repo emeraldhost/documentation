@@ -46,8 +46,6 @@ Simple Voice Chat ermöglicht Proximity Voice Chat auf Deinem Minecraft Server �
    Wähle einen freien Port aus und notiere ihn Dir.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende **nicht** den Standard-Port Deines Servers! Simple Voice Chat benötigt einen separaten Port.
 
 ## Schritt 3: Config-Datei anpassen

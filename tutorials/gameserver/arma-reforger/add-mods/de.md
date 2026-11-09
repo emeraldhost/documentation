@@ -99,8 +99,6 @@ Es gibt zwei Möglichkeiten, die benötigten Mod-Daten (`modId`, `name`, `versio
    Speichere die Änderungen und starte den Server neu.
 
 > [!WARNING]
-> **Wichtig**
->
 > Die `config.json` muss gültiges JSON sein. Ein fehlendes Komma oder eine falsche Klammer kann dazu führen, dass der Server nicht startet. Nutze im Zweifelsfall einen [JSON-Validator](https://jsonlint.com/), um die Datei zu prüfen.
 
 ## Mod-Preset aus dem Spiel exportieren

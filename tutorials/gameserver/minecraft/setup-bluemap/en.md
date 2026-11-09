@@ -43,8 +43,6 @@ BlueMap creates a 3D web map of your Minecraft server that you can view in a bro
    Choose an available port and note it down.
 
 > [!WARNING]
-> **Important**
->
 > Do **not** use your server's default port! BlueMap requires a separate port.
 
 ## Step 3: Configure the Config File

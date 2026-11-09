@@ -20,8 +20,7 @@ related: ["rootserver/windows/connect-to-windows-server", "rootserver/windows/op
 Fährt Dein Windows Server plötzlich etwa jede Stunde von selbst herunter oder siehst Du auf dem Desktop den Hinweis **Windows License is expired**, ist meist die Evaluationslizenz abgelaufen. Diese Anleitung zeigt Dir, wie Du die Lizenz prüfst und verlängerst.
 
 > [!NOTE]
-> **Windows Server bei EmeraldHost**
->
+> **Windows Server bei EmeraldHost**\
 > Unsere Windows-Server-Betriebssysteme werden mit der **180-Tage-Evaluationslizenz** von Microsoft bereitgestellt. Nach 180 Tagen läuft die Lizenz ab und muss verlängert oder durch eine eigene Lizenz ersetzt werden.
 >
 > Wir bieten selbst **keine Windows-Lizenzen** an. Eine eigene Lizenz erwirbst Du direkt bei Microsoft oder einem Microsoft-Händler.

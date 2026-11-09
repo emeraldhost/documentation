@@ -113,8 +113,7 @@ Ab diesem Moment ist der Spielername fest mit Deinem Schlüsselpaar verbunden. N
 | `Server is full` | Die maximale Spielerzahl des Servers ist erreicht |
 
 > [!NOTE]
-> **Welche Ports nutzt DarkMultiPlayer?**
->
+> **Welche Ports nutzt DarkMultiPlayer?**\
 > Ein DMP-Server belegt genau einen Port: den **Game Port** über TCP. Darüber laufen der Verbindungsaufbau und sämtliche Spieldaten. Einen separaten Query Port gibt es nicht. Welcher Game Port für Deinen Server gilt, siehst Du in der **Verwaltung**.
 
 > [!TIP]

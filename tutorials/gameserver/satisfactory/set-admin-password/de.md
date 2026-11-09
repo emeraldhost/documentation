@@ -58,8 +58,7 @@ Ist für Deinen Server noch kein Admin Passwort hinterlegt, gilt er als **nicht 
 > Teile das Admin Passwort nur mit vertrauenswürdigen Spielern. Jeder, der es kennt, hat volle Kontrolle über Deinen Server. Mehr dazu unter [Admin hinzufügen](/tutorials/gameserver/satisfactory/add-admin).
 
 > [!CAUTION]
-> **Admin Passwort vergessen**
->
+> **Admin Passwort vergessen**\
 > Kennst Du das Admin Passwort nicht mehr, kannst Du den Server zurücksetzen:
 >
 > 1. Stoppe den Server über die Verwaltung.

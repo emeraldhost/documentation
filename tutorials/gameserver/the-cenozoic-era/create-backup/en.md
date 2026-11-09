@@ -33,8 +33,6 @@ Regular backups of your The Cenozoic Era server protect you from data loss – w
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. If the server keeps running, files that are currently being written may end up in the backup – which can leave it incomplete.
 
 > [!TIP]

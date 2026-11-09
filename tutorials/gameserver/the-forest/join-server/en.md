@@ -98,6 +98,5 @@ If a password is set for your server, a lock icon is shown in the server list. Y
 > You can see the values that apply to your server in the **dashboard**.
 
 > [!WARNING]
-> **Server not found**
->
+> **Server not found**\
 > If your server does not show up in the server browser, add it to your Steam favorites using the query port. Through the favorites you find it regardless of whether it appears in the public list.

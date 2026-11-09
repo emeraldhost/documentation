@@ -33,6 +33,4 @@ You can adjust the seed that is used to generate the world.
    Restart your server for the change to take effect.
 
 > [!WARNING]
-> **Important**
->
 > Changing the seed on an existing save will not regenerate the world. To use a new seed, you need to create a new save.

@@ -64,8 +64,7 @@ Du kannst Deinem Server auf zwei Wegen beitreten: über die Suche nach dem **Wel
    Wähle Deinen Charakter aus oder erstelle einen neuen und klicke auf **Spielen**, um Dich mit dem Server zu verbinden.
 
 > [!TIP]
-> **Fehlerbehebung**
->
+> **Fehlerbehebung**\
 > Falls Dein Server über den Welt-Namen nicht gefunden wird:
 >
 > - Stelle sicher, dass die [Owner ID](/tutorials/gameserver/runescape-dragonwilds/set-owner-id) hinterlegt ist

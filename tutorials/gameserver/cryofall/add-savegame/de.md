@@ -107,11 +107,9 @@ Möchtest Du komplett neu starten, löschst Du einfach den Spielstand – Dein S
 > Beim Zurücksetzen gehen auch alle Charaktere, Basen und Fortschritte Deiner Spieler verloren. Kündige einen Wipe deshalb rechtzeitig an.
 
 > [!NOTE]
-> **Einzelspieler-Welten**
->
+> **Einzelspieler-Welten**\
 > Für Welten, die Du lokal in Deinem Spiel gestartet hast, liegt uns kein dokumentierter Weg vor, sie auf einen Server zu übertragen. Arbeite deshalb mit Spielständen, die von einem Server stammen.
 
 > [!WARNING]
-> **Änderungen aus der Verwaltung**
->
+> **Änderungen aus der Verwaltung**\
 > Servername, Beschreibung, Serverliste, maximale Spielerzahl, Speicherintervall und Anzahl der Speicherstände werden bei jedem Start aus der **Verwaltung** in die Datei `SettingsServer.xml` geschrieben. Änderst Du diese Werte in der Datei, gehen sie beim nächsten Start verloren – stelle sie ausschließlich in der Verwaltung ein.

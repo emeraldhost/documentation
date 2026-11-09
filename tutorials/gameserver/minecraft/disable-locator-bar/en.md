@@ -40,8 +40,6 @@ You can run the command either directly in the in-game chat or via the server co
 > In the server console, all commands are entered **without** `/`.
 
 > [!WARNING]
-> **Caution**
->
 > Pay attention to the capitalization: the game rule is `locatorBar` (camelCase), **not** `locatorbar` or `locator_bar`. With the wrong spelling the command fails silently.
 
 ## Re-enable the Locator Bar

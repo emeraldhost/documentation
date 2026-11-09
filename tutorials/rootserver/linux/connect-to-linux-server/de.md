@@ -19,8 +19,7 @@ sort: 1
 Auf einen Linux Server verbindest Du Dich über **SSH** (Secure Shell). Damit erhältst Du Zugriff auf die Kommandozeile Deines Servers.
 
 > [!TIP]
-> **Windows Server?**
->
+> **Windows Server?**\
 > Wenn Du Dich stattdessen mit einem Windows Server verbinden möchtest, folge der Anleitung [Mit einem Windows Server verbinden](/tutorials/rootserver/windows/connect-to-windows-server).
 
 ## Voraussetzungen
@@ -51,8 +50,7 @@ Auf allen modernen Systemen ist ein SSH-Client bereits integriert. Öffne unter 
    Gib Dein Passwort ein und bestätige mit `Enter`.
 
    > [!TIP]
-   > **Passwort**
-   >
+   > **Passwort**\
    > Das Passwort findest Du in Deiner **Verwaltung**.
 
    > [!NOTE]
@@ -72,8 +70,7 @@ Alternativ kannst Du unter Windows den grafischen SSH-Client **PuTTY** verwenden
    Gib als Benutzernamen `root` ein und anschließend Dein Passwort.
 
    > [!TIP]
-   > **Passwort**
-   >
+   > **Passwort**\
    > Das Passwort findest Du in Deiner **Verwaltung**.
 
 > [!WARNING]

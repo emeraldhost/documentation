@@ -48,8 +48,6 @@ ban <PlayerName>
 The player is removed from the server and added to the file `banlist.txt`.
 
 > [!WARNING]
-> **Caution**
->
 > `ban` only works for players who are **currently connected** to the server. Terraria bans the IP address of the active connection – if the player is offline, the server does not know it. Kick or ban the player while they are online. Because the ban is tied to the IP address, the player can rejoin from a different IP address.
 
 ## Unban a player

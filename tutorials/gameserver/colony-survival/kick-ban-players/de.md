@@ -21,8 +21,7 @@ related: ["gameserver/colony-survival/add-savegame", "gameserver/colony-survival
 Störende Spieler sperrst Du in Colony Survival über die **Blacklist** Deines Servers aus. Zusätzlich kannst Du Deinen Server mit einer **Whitelist** von vornherein nur für bestimmte Spieler öffnen. Beides steuerst Du direkt im Chat im Spiel.
 
 > [!CAUTION]
-> **Colony Survival kennt keinen Kick**
->
+> **Colony Survival kennt keinen Kick**\
 > Es gibt **keinen Befehl, um einen Spieler nur kurzzeitig vom Server zu werfen**. Der `Kick`-Knopf im Spiel gehört zur Verwaltung einer Kolonie und entfernt lediglich einen Mitbesitzer aus dieser Kolonie – der Spieler bleibt dabei auf dem Server. Wer den Server verlassen soll, muss über die Blacklist gesperrt werden.
 
 > [!NOTE]

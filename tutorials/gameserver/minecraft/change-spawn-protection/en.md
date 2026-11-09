@@ -47,6 +47,4 @@ spawn-protection=16
 | `16` | Default setting (16 block radius) |
 
 > [!TIP]
-> **Note**
->
 > A value of `0` is recommended if you use plugins like WorldGuard for area protection.

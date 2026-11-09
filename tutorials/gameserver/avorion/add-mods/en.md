@@ -80,8 +80,7 @@ Avorion comes with its own mod system. You do not have to upload the mods yourse
 | `modLocation` | Alternative location for the mods folder. If the value stays empty, your server uses the default folder `mods`. |
 
 > [!WARNING]
-> **Leave forceEnabling at false**
->
+> **Leave forceEnabling at false**\
 > The developers of Avorion explicitly recommend leaving `forceEnabling` turned off: the option is aimed primarily at mod developers and can lead to broken or corrupted savegames.
 
 ## Do players have to do anything?

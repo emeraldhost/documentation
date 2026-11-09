@@ -21,8 +21,6 @@ related: ["gameserver/abiotic-factor/add-savegame", "gameserver/abiotic-factor/c
 You can download your server's savegame to your PC at any time – for example as an additional backup or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. The server writes to the world files while it is running – if you download during that, the savegame can be incomplete.
 
 1. **Stop the server**\
@@ -45,18 +43,14 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!WARNING]
-> **Caution**
->
 > A savegame is always the complete world folder. Always download it in full – individual files from it do not make a usable savegame.
 
 > [!NOTE]
-> **Which folder is the right one?**
->
+> **Which folder is the right one?**\
 > If several world folders exist side by side, the active one is the folder loaded through your server's world name – by default `Cascade`. When in doubt the file timestamps help: the most recently modified folder is the active savegame.
 
 > [!TIP]
-> **Back up the settings as well**
->
+> **Back up the settings as well**\
 > The gameplay and sandbox settings of your world are stored in the `SandboxSettings.ini` file inside the world folder – so it is downloaded together with that folder. The start parameter `-SandboxIniPath=` can place the file somewhere else, for example directly under `/AbioticFactor/Saved/`.
 >
 > Your admin list sits outside the world folder and has to be saved separately:
@@ -66,11 +60,9 @@ You can download your server's savegame to your PC at any time – for example a
 > ```
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to move the savegame back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/abiotic-factor/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/abiotic-factor/create-backup).

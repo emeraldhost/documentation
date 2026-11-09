@@ -21,8 +21,6 @@ related: ["gameserver/conan-exiles/change-server-region", "gameserver/conan-exil
 You can download your server's savegame to your PC at any time – for example as an extra backup, to archive it, or to move it to another server. The savegame consists of the `game.db` file.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly, so you would end up downloading an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -48,11 +46,9 @@ You can download your server's savegame to your PC at any time – for example a
 > The full path to the savegame file on the server is `/ConanSandbox/Saved/game.db`. If you want to continue playing the downloaded savegame locally, place the `game.db` on your PC in the Conan Exiles installation directory under `ConanSandbox/Saved/`.
 
 > [!TIP]
-> **Restoring the save later**
->
+> **Restoring the save later**\
 > If you want to transfer the save back to a server later on, follow the guide [Add savegame](/tutorials/gameserver/conan-exiles/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/conan-exiles/create-backup).

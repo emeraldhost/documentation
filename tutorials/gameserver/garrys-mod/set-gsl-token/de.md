@@ -43,8 +43,7 @@ Damit Du einen Token erstellen kannst, muss Dein Steam-Konto folgende Bedingunge
    Erstelle den Token und kopiere ihn. Er erscheint anschließend in der Liste Deiner Game Server Accounts.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > So ähnlich sieht ein Token aus (Beispielwert, nicht verwendbar):
    >
    > ```text

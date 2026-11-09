@@ -41,8 +41,7 @@ Die Verifizierung betrifft **alle Domains** – unabhängig von:
 Du musst die hinterlegte E-Mail-Adresse **einmalig** bestätigen – nicht bei jeder Verlängerung.
 
 > [!NOTE]
-> **Mehrere Domains?**
->
+> **Mehrere Domains?**\
 > Die Bestätigung gilt für **alle Deine Domains**, bei denen diese E-Mail-Adresse als Inhaberkontakt hinterlegt ist. Du musst sie also nur einmal durchführen und nicht für jede Domain einzeln wiederholen.
 >
 > Behalte die **Fristen** trotzdem im Blick: Sie können sich je nach Domain unterscheiden. Bestätige deshalb möglichst früh, damit keine Deiner Domains in ihre Frist läuft.
@@ -93,13 +92,11 @@ Weil solche E-Mails oft für Phishing gehalten werden, hier die wichtigsten Merk
 - **Es hängt keine Datei an**, die Du öffnen sollst.
 
 > [!CAUTION]
-> **Vorsicht bei Phishing**
->
+> **Vorsicht bei Phishing**\
 > Wirst Du in einer angeblichen Verifizierungs-E-Mail nach **Zahlungsdaten**, **Passwörtern** oder einer **sofortigen Zahlung** gefragt, handelt es sich nicht um unsere E-Mail. Klicke in diesem Fall keine Links an und melde Dich bei unserem Support.
 
 > [!NOTE]
-> **Unsicher?**
->
+> **Unsicher?**\
 > Klicke im Zweifel nichts an und wende Dich an unseren [Support](https://emeraldhost.de/de/support). Wir prüfen für Dich, ob für Deine Domain tatsächlich eine Verifizierung offen ist.
 
 ## Was passiert, wenn ich die Frist verpasse?
@@ -118,8 +115,7 @@ So bekommst Du die Domain wieder online:
    Nach erfolgreicher Bestätigung wird die Domain automatisch wieder aktiviert. Du musst nichts weiter tun.
 
 > [!NOTE]
-> **Domain noch nicht erreichbar?**
->
+> **Domain noch nicht erreichbar?**\
 > Nach der Reaktivierung kann es bis zu **24 Stunden** dauern, bis Deine Domain wieder überall erreichbar ist. Grund dafür ist die Zwischenspeicherung von DNS-Daten (DNS-Caching) bei Internetanbietern weltweit. In der Regel geht es deutlich schneller.
 
 ## Support kontaktieren

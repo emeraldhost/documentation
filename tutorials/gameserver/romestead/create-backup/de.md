@@ -33,8 +33,7 @@ Ein regelmäßiges Backup Deines Romestead Servers schützt Dich vor Datenverlus
 Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups findest Du im allgemeinen Guide: [Backup erstellen](/tutorials/gameserver/create-backup).
 
 > [!TIP]
-> **Vorher speichern**
->
+> **Vorher speichern**\
 > Führe vor dem Backup in der **Konsole** Deines Servers den Befehl `save` aus. Der Server schreibt den aktuellen Stand damit vollständig auf die Festplatte, und Dein Backup enthält wirklich alles.
 >
 > ```text

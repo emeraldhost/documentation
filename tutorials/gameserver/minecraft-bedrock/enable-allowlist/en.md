@@ -61,8 +61,6 @@ An allowlist is a feature in Minecraft that allows server administrators to crea
 You can add players via the **server console** in the dashboard, or as a player with [OP rights](/tutorials/gameserver/minecraft-bedrock/grant-op-rights) directly in the **in-game chat**.
 
 > [!WARNING]
-> **Caution**
->
 > In the server console, commands are entered **without** `/`; in the in-game chat **with** `/`.
 
 1. **Open the console or chat**\

@@ -41,8 +41,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the `SaveGames` folder separately: [Download savegame](/tutorials/gameserver/frozen-flame/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Frozen Flame writes to the save while running – a backup taken during operation can be incomplete. Run the command `Admin_SaveAll` via RCON beforehand so the current state is written to disk: [Add Admin](/tutorials/gameserver/frozen-flame/add-admin).
 
 > [!NOTE]

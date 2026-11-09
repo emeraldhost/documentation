@@ -50,16 +50,13 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Den richtigen Ordner finden**
->
+> **Den richtigen Ordner finden**\
 > Der Ordner `Level01_Main` entspricht der Standard-Map Cloud Mist Forest. Läuft Dein Server mit einer anderen Map, liegt die `world.db` in dem Ordner, der dem Wert der Map-Einstellung in der Verwaltung entspricht (z.B. `DLC_Level01_Main` für Shifting Sands).
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/soulmask/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/soulmask/create-backup).

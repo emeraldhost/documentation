@@ -22,8 +22,6 @@ related: ["gameserver/minecraft-bedrock/change-view-distance", "gameserver/minec
 Der World-Seed legt fest, wie die Welt generiert wird. Er wirkt sich **nur auf neu generierte Welten** aus – Du musst Deine bestehende Welt daher vorher löschen.
 
 > [!CAUTION]
-> **Achtung**
->
 > Deine aktuelle Welt geht dabei unwiderruflich verloren. Erstelle vorher ein [Backup](/tutorials/gameserver/minecraft-bedrock/create-backup), falls Du sie später noch benötigst.
 
 1. **Server stoppen**\

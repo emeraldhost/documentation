@@ -39,21 +39,17 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Den richtigen Ordner finden**
->
+> **Den richtigen Ordner finden**\
 > Standardmäßig liegt der Spielstand im Ordner `savegame`. Falls Du den Standardordner in den Server-Einstellungen geändert hast, wechsle stattdessen in den von Dir gewählten Ordner für die Speicherungen.
 
 > [!TIP]
-> **Welt lokal weiterspielen**
->
+> **Welt lokal weiterspielen**\
 > Möchtest Du die heruntergeladene Welt im Einzelspieler weiterspielen, benenne die Dateien wieder auf die Namen Deiner lokalen Welt um (also `3ad85aea` in z.B. `3bd85c7d` und `3ad85aea_info` in `3bd85c7d_info`) und lege sie im Steam `userdata` Ordner ab: `C:\Program Files (x86)\Steam\userdata\[DeineSteamID]\1203620\remote`. Ersetze `[DeineSteamID]` mit Deiner SteamID64.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/enshrouded/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/enshrouded/create-backup).

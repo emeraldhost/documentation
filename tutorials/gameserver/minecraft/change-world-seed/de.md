@@ -22,8 +22,6 @@ related: ["gameserver/minecraft/change-view-distance", "gameserver/minecraft/cha
 Der World-Seed legt fest, wie die Welt generiert wird. Er wirkt sich **nur auf neu generierte Welten** aus – Du musst Deine bestehende Welt daher vorher löschen.
 
 > [!CAUTION]
-> **Achtung**
->
 > Deine aktuelle Welt geht dabei unwiderruflich verloren. Erstelle vorher ein [Backup](/tutorials/gameserver/minecraft/create-backup), falls Du sie später noch benötigst.
 
 1. **Server stoppen**\
@@ -45,8 +43,7 @@ Der World-Seed legt fest, wie die Welt generiert wird. Er wirkt sich **nur auf n
    Lösche im Hauptverzeichnis den Ordner `world`. Ohne diesen Schritt lädt der Server einfach Deine alte Welt weiter und der neue Seed bleibt wirkungslos.
 
    > [!NOTE]
-   > **Paper, Spigot & Purpur**
-   >
+   > **Paper, Spigot & Purpur**\
    > Auf diesen Servern liegen Nether und End in eigenen Ordnern. Lösche zusätzlich `world_nether` und `world_the_end`, damit auch diese Dimensionen neu generiert werden.
 
 5. **Server starten**\

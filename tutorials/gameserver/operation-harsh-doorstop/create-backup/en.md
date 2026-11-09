@@ -22,8 +22,7 @@ related: ["gameserver/operation-harsh-doorstop/add-admin", "gameserver/operation
 Regular backups of your Operation Harsh Doorstop server protect you from data loss – whether due to a failed update, a broken configuration or an accidentally deleted admin list.
 
 > [!NOTE]
-> **No savegame, but still worth backing up**
->
+> **No savegame, but still worth backing up**\
 > Operation Harsh Doorstop does not store a world state: every round starts from scratch and there is no savegame. What is worth backing up are your configuration files under `/HarshDoorstop/Saved/Config/LinuxServer/` (for example `Admins.cfg`, `Bans.cfg`, `MapCycle.cfg` and `Game.ini`) as well as uploaded mods under `/HarshDoorstop/Mods`.
 
 ## When should you create a backup?
@@ -42,13 +41,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. The server writes its configuration files on shutdown – a backup taken during operation can contain an outdated state.
 
 > [!TIP]
-> **Back up individual files**
->
+> **Back up individual files**\
 > You can also simply download your configuration files to your PC via [SFTP](/tutorials/gameserver/establish-sftp-connection). For a handful of small `.cfg` files that is the quickest way.
 
 > [!NOTE]

@@ -58,8 +58,7 @@ Das ist der schnellste Weg, weil Du dafür weder einen Setup-Code noch ein beste
    Du hast jetzt Adminrechte und kannst alle Befehle Deiner Gruppe nutzen.
 
    > [!WARNING]
-   > **Setup-Code abschalten**
-   >
+   > **Setup-Code abschalten**\
    > Hat tShock beim Start einen Setup-Code ausgegeben, bleibt dieser bis zum nächsten Serverstart gültig – auch dann, wenn Du Deinen Account über die Konsole angelegt hast. Gib deshalb nach der Anmeldung einmal `/setup` im Ingame-Chat ein. Damit wird das Setup-System sofort abgeschaltet und der Code gelöscht.
 
 ## Admin über den Setup-Code anlegen
@@ -127,8 +126,7 @@ Alle Befehle funktionieren im Ingame-Chat (mit `/`) und in der Serverkonsole (oh
 > Passwörter müssen standardmäßig mindestens vier Zeichen lang sein. Diesen Wert steuert `MinimumPasswordLength` in der Datei `/tshock/config.json`.
 
 > [!TIP]
-> **Automatische Anmeldung**
->
+> **Automatische Anmeldung**\
 > Nach der ersten Anmeldung merkt sich tShock die Geräte-Kennung Deines Clients und meldet Dich künftig automatisch an, sobald Du dem Server beitrittst. Steuern lässt sich das über den Wert `DisableUUIDLogin` in der Datei `/tshock/config.json`.
 
 ## Gruppen und Rechte

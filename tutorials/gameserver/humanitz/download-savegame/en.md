@@ -21,13 +21,10 @@ related: ["gameserver/humanitz/add-savegame", "gameserver/humanitz/create-backup
 You can download your server's savegame to your PC at any time – for example as an additional backup or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. HumanitZ saves automatically while running – if you download during that, the savegame can be incomplete.
 
 > [!NOTE]
-> **Project folder**
->
+> **Project folder**\
 > All paths in this guide start with the project folder `HumanitZServer`. If your server still runs a version older than HumanitZ 1.0, that folder is called `TSSGame` instead. Check via SFTP which of the two folders exists on your server and adjust the paths accordingly.
 
 1. **Stop the server**\
@@ -57,18 +54,14 @@ You can download your server's savegame to your PC at any time – for example a
 | `Save_ClanData.sav` | The clan and group data of your server |
 
 > [!WARNING]
-> **Caution**
->
 > Always download the complete `Default` folder. If `Save_ClanData.sav` is missing, the clan data is lost when you restore the savegame.
 
 > [!NOTE]
-> **Which name is the right one?**
->
+> **Which name is the right one?**\
 > The name of your savegame file is defined by the `SaveName` value in the `[Host Settings]` section of the file `/HumanitZServer/GameServerSettings.ini`. If it says `SaveName="DedicatedSaveMP"`, then `Save_DedicatedSaveMP.sav` is your current savegame.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following files in addition:
 >
 > ```text
@@ -80,11 +73,9 @@ You can download your server's savegame to your PC at any time – for example a
 > The two text files only exist if you have set up bans or a whitelist.
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to move the savegame back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/humanitz/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/humanitz/create-backup).

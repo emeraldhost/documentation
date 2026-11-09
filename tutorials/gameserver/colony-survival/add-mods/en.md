@@ -22,8 +22,6 @@ related: ["gameserver/colony-survival/add-admin", "gameserver/colony-survival/ad
 Mods in Colony Survival always consist of their own folder containing a `modInfo.json` file. On your server you upload those folders via SFTP and then enable the mods for your world.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before adding, changing or removing mods. Also create a [backup](/tutorials/gameserver/colony-survival/create-backup) beforehand – after a game update mods can become incompatible and prevent the world from loading.
 
 ## Download the mod

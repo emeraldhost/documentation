@@ -24,8 +24,7 @@ Der komplette Spielstand eines Echoes of Elysium Servers liegt in einem einzigen
 > Es gibt **keinen Weltnamen**, den Du irgendwo eintragen müsstest. Welche Welt geladen wird, ergibt sich ausschließlich aus dem Inhalt des Verzeichnisses `world`. Ein Weltwechsel bedeutet also immer: den Inhalt dieses Verzeichnisses austauschen.
 
 > [!TIP]
-> **Woher bekommst Du einen Spielstand?**
->
+> **Woher bekommst Du einen Spielstand?**\
 > Diese Anleitung ist für Welten gedacht, die von einem Echoes of Elysium Server stammen – zum Beispiel beim Umzug auf einen anderen Server oder beim Zurückspielen einer eigenen Sicherung. Wie Du den Spielstand von einem Server herunterlädst, liest Du unter [Savegame herunterladen](/tutorials/gameserver/echoes-of-elysium/download-savegame).
 
 ## Savegame hochladen
@@ -62,11 +61,9 @@ Der komplette Spielstand eines Echoes of Elysium Servers liegt in einem einzigen
    Starte Deinen Server. Beim Start wird jetzt Dein hochgeladener Spielstand geladen.
 
 > [!CAUTION]
-> **Verzeichnis nicht umbenennen**
->
+> **Verzeichnis nicht umbenennen**\
 > Behalte den Namen `world` bei. Bei jedem Start werden die Werte aus den Feldern der **Verwaltung** in die Serverkonfiguration `config.json` geschrieben – darunter auch das Weltverzeichnis. Trägst Du dort von Hand einen anderen Ordner ein, geht diese Änderung beim nächsten Start wieder verloren.
 
 > [!TIP]
-> **Welten parallel aufbewahren**
->
+> **Welten parallel aufbewahren**\
 > Möchtest Du zwischen mehreren Welten wechseln, lade die jeweils andere Welt vorher auf Deinen PC herunter. Zusätzliche Ordner neben `world` auf dem Server werden vom Spiel nicht geladen.

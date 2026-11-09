@@ -67,8 +67,6 @@ For `users.txt` you need the SteamID in the format `STEAM_0:x:xxxxxxx` – **not
    Save the file and start your server.
 
 > [!WARNING]
-> **Caution**
->
 > The file is only read when the server starts. A map change is not enough – the server has to be fully restarted for the changes to take effect.
 
 > [!NOTE]

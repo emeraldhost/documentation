@@ -71,11 +71,9 @@ If a password is set for your server, Necesse asks for it when connecting. Enter
 > A Necesse server uses only a single port, the **Game Port** (UDP). There is no separate **Query Port** – which is why you enter exactly the Game Port shown in your dashboard.
 
 > [!WARNING]
-> **Server not reachable**
->
+> **Server not reachable**\
 > First check in the dashboard whether your server is actually running. Then make sure the IP address and the Game Port were copied exactly – a typo in the port is the most common reason for a failed connection.
 
 > [!WARNING]
-> **Check the version**
->
+> **Check the version**\
 > Client and server must run the same game version. After updating your game, connecting can fail until your server is on the same version as well.

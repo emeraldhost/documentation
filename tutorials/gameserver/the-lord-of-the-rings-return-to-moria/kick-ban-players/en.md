@@ -68,13 +68,9 @@ Return to Moria has **no admin or role system**: there is no admin list, no admi
    Save the file and start your server. The player can join again.
 
 > [!WARNING]
-> **Caution**
->
 > The list is overwritten by the server as soon as somebody is blocked in-game. Only edit the file while the server is stopped – otherwise your changes are lost.
 
 > [!WARNING]
-> **Caution**
->
 > Changes to the file only take effect after a server restart. A player who is already connected stays online until then.
 
 ## What Return to Moria does not offer
@@ -83,8 +79,7 @@ Return to Moria has **no admin or role system**: there is no admin list, no admi
 > Return to Moria has no **temporary bans** and no **ban reasons**, no bans via a Steam or Epic ID and no ban list in the dashboard. A block stays in place until you remove the line from the permissions file again.
 
 > [!TIP]
-> **Limit the server to a fixed group**
->
+> **Limit the server to a fixed group**\
 > The permissions file locks out individual players. If you instead want to restrict access to specific people, set a server password in the **Config Editor** and share it only with those players – see [Join Server](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/join-server).
 
 ## Additional permission levels
@@ -159,6 +154,4 @@ You can display a freely written set of rules to your players when they join.
    Save the file and start your server.
 
 > [!WARNING]
-> **Caution**
->
 > The rules text may be **1024 characters** long at most.

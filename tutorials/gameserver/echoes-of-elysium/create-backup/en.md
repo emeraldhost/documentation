@@ -34,8 +34,6 @@ Regular backups of your Echoes of Elysium server protect you from data loss – 
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. While running, the server regularly writes to the world data – a backup taken during operation can be incomplete.
 
 > [!TIP]

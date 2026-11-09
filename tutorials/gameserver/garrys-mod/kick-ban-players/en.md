@@ -108,8 +108,6 @@ banip <minutes> <IP address>
 > ```
 
 > [!WARNING]
-> **Caution**
->
 > Avoid editing the ban lists by hand while the server is running – `writeid` and `writeip` overwrite the files completely with the current state from memory.
 
 ## Unban a player

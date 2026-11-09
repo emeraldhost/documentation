@@ -45,16 +45,14 @@ Ein Spielstand ist bei Voyagers of Nera immer ein **kompletter Ordner**, der nac
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Welcher Ordner ist der richtige?**
->
+> **Welcher Ordner ist der richtige?**\
 > Neben Deinem Spielstand liegt im selben Verzeichnis der Ordner `CustomConfig`. Darin stehen Deine Servereinstellungen, es ist **kein** Spielstand. Der Ordner mit der zufälligen Zeichenfolge ist Deine Welt.
 
 > [!WARNING]
 > Ein Spielstand ist immer der komplette Ordner. Lade ihn stets vollständig herunter – einzelne Dateien daraus ergeben keinen nutzbaren Spielstand.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgenden Ordner herunter:
 >
 > ```text
@@ -62,11 +60,9 @@ Ein Spielstand ist bei Voyagers of Nera immer ein **kompletter Ordner**, der nac
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/voyagers-of-nera/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/voyagers-of-nera/create-backup).

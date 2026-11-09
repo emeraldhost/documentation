@@ -63,8 +63,7 @@ Der Spieler wird aus der laufenden Sitzung entfernt, kann aber jederzeit wieder 
 Ohne Angabe einer Dauer gilt der Bann dauerhaft. Kurzform: `/ban`
 
 > [!TIP]
-> **Zeitlich begrenzte Banns**
->
+> **Zeitlich begrenzte Banns**\
 > Die Dauer gibst Du im Format `1m`, `1h`, `1d` oder `1w` an – also Minuten, Stunden, Tage oder Wochen:
 >
 > ```text
@@ -72,8 +71,7 @@ Ohne Angabe einer Dauer gilt der Bann dauerhaft. Kurzform: `/ban`
 > ```
 
 > [!NOTE]
-> **Bannliste anzeigen**
->
+> **Bannliste anzeigen**\
 > Gibst Du `/manage ban` ohne weitere Angaben ein, zeigt Dir der Server die Liste der gebannten Spieler.
 
 ## Bann aufheben
@@ -141,14 +139,12 @@ Banns und Stummschaltungen kannst Du auch ohne laufendes Spiel direkt in der Kon
    Speichere die Datei und starte Deinen Server.
 
 > [!NOTE]
-> **Entbannen über die Datei**
->
+> **Entbannen über die Datei**\
 > Um einen Bann aufzuheben, entfernst Du die ID aus `$values` – inklusive des zugehörigen Kommas. Achte darauf, dass die Datei gültiges JSON bleibt (prüfe sie im Zweifel mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/)), und starte den Server anschließend neu.
 
 > [!WARNING]
 > Auch hier gilt: Benutzernamen funktionieren nicht, es muss eine SLG-ID oder SteamID64 eingetragen werden. Wie Du sie ermittelst, steht unter [Admin hinzufügen](/tutorials/gameserver/eco/add-admin).
 
 > [!NOTE]
-> **Whitelist**
->
+> **Whitelist**\
 > `Users.eco` enthält zusätzlich eine `WhiteList`. Sie ist laut offizieller Dokumentation **keine Zugangssperre**: Benutzer auf der Whitelist müssen lediglich kein Server-Passwort eingeben, um sich zu verbinden. Zum Aussperren einzelner Spieler nutzt Du die `BlackList`.

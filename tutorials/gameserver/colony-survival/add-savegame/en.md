@@ -82,8 +82,7 @@ A save in Colony Survival is **a complete folder**, not a single file. Every wor
 Switching worlds works most reliably when both of them come from a dedicated server – for example when moving to another host. Download the complete world folder there and then follow the steps above.
 
 > [!WARNING]
-> **Do not forget the mods**
->
+> **Do not forget the mods**\
 > The file `worldconfig.json` stores which mods are enabled for this world. If those mods are missing on the new server, the world can fail to load properly. Upload the matching mods as well: [Add Mods](/tutorials/gameserver/colony-survival/add-mods).
 
 ## Find your local savegame
@@ -101,6 +100,5 @@ If Steam Cloud synchronisation is enabled, your worlds are stored here instead:
 ```
 
 > [!CAUTION]
-> **Single player worlds**
->
+> **Single player worlds**\
 > Only transfer worlds you have already used in multiplayer. A pure single player world is marked as such in the game and has to be converted in the client first – whether a dedicated server loads it without that conversion is not documented. Always work with copies only.

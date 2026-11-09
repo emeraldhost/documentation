@@ -46,8 +46,6 @@ This is the quickest way and works while the server is running.
    ```
 
    > [!WARNING]
-   > **Caution**
-   >
    > `opAdd` only knows players who have already joined your server at least once. If your server is brand new, connect to it once first – or add yourself directly in the configuration file.
 
 3. **Check the result**\
@@ -124,8 +122,7 @@ Moderators can manage players – kick, ban and mute them – but do not have fu
 | `/moderatorRemove <playerName>` | Revoke moderator rights |
 
 > [!NOTE]
-> **Long form of the commands**
->
+> **Long form of the commands**\
 > Every one of these commands also has a written-out variant, for example `/admin.operator.add` instead of `/opAdd`. Both do the same thing.
 
 ## What operators can do on top
@@ -133,8 +130,7 @@ Moderators can manage players – kick, ban and mute them – but do not have fu
 As an operator you can open the in-game menu (`Esc` key) and use the **Edit** button to adjust things like the description, the welcome message and the game rates of your server without editing any files.
 
 > [!WARNING]
-> **Settings managed by the dashboard**
->
+> **Settings managed by the dashboard**\
 > Server name, description, server list, maximum players, autosave interval and the number of saved states are written from the **dashboard** into `SettingsServer.xml` on every start. If you change these values in the file or in the game they are lost on the next start – only change them in the dashboard.
 
 > [!TIP]

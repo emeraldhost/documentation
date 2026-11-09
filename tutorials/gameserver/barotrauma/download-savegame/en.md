@@ -21,8 +21,6 @@ related: ["gameserver/barotrauma/change-server-name", "gameserver/barotrauma/cre
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted savegame.
 
 1. **Stop the server**\
@@ -48,11 +46,9 @@ You can download your server's savegame to your PC at any time – for example a
 > The file name of the `.save` file matches the campaign name you see when selecting the savegame in the game. If there are several `.save` files in the folder, this is how you find the right one.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the savegame back to a server later, follow the guide [Add savegame](/tutorials/gameserver/barotrauma/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/barotrauma/create-backup).

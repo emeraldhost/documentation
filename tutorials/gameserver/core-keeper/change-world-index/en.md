@@ -33,6 +33,5 @@ The world index determines which world is loaded. It must match the number of yo
    Save the setting and restart your server.
 
 > [!TIP]
-> **Example**
->
+> **Example**\
 > If your world file is named `3.world.gzip`, the world index must be `3`.

@@ -56,8 +56,7 @@ A direct connection is the most reliable way onto your server.
    ```
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > If the dashboard shows the IP `123.45.67.89` and the Game Port `28015`, the command is:
    >
    > ```text
@@ -97,8 +96,7 @@ Storing your server in Steam lets you find it again at any time.
 > For your server to appear in the public list it has to be running and reachable – and depending on the configuration it needs a valid login token (see below). A direct connection through the console works regardless.
 
 > [!NOTE]
-> **Server does not show up in the public server list?**
->
+> **Server does not show up in the public server list?**\
 > Without a valid Steam Game Server Login Token (GSLT) a Source server may not be listed in the public server list. You can create a token at [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) using the App ID of Black Mesa. Afterwards enter the token in the **dashboard** of your server in the **GSL Token** field and restart the server. Every server needs its own token. A direct connection via IP and Game Port works without a token as well.
 
 > [!TIP]

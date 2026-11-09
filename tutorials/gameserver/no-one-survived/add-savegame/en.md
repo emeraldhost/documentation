@@ -78,8 +78,7 @@ The savegames on your own PC are stored in the same folder structure as on the s
    ```
 
    > [!NOTE]
-   > **Alternatively in the configuration file**
-   >
+   > **Alternatively in the configuration file**\
    > If you cannot find a matching field in the dashboard, the value is stored in the following file:
    >
    > ```text
@@ -100,19 +99,16 @@ The savegames on your own PC are stored in the same folder structure as on the s
 > The save name has to match the file name exactly – only the part before the first underscore, without `.sav` and with correct capitalisation. If it does not match, your server starts with a **new, empty world**. Your uploaded savegame is not lost in that case, it is simply not loaded: correct the name and start the server again.
 
 > [!WARNING]
-> **No special characters**
->
+> **No special characters**\
 > Do not use special characters in the save name. Letters and numbers are allowed – spaces and special characters can cause the savegame not to be found.
 
 > [!WARNING]
 > If you enter the save name manually in `Game.ini`, that value gets overwritten from the dashboard fields on the next server start. That is why you should primarily use the dashboard and check after a start whether the desired value is still set.
 
 > [!NOTE]
-> **Automatic saves by the server**
->
+> **Automatic saves by the server**\
 > Next to `WorldSaves`, the server stores its own intermediate saves in the folder `/WRSH/Saved/SaveGames/AutoSave/`. If you want to use one of them, download it and load it back in following the same guide.
 
 > [!WARNING]
-> **Check after updates**
->
+> **Check after updates**\
 > A server update or a validation of the game files can reset the configuration to default values. Check the save name afterwards before you make the server available again – otherwise an empty world is created.

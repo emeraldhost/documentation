@@ -46,8 +46,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Der Ordner `SaveGames` enthält den gesamten Spielstand – unter anderem Zelte, Kisten samt Inhalt und den Fortschritt der Spieler. Die einzelnen `.sav`-Dateien gehören zusammen, sichere sie deshalb immer gemeinsam.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen und Admins sichern, lade zusätzlich folgende Datei herunter:
 >
 > ```text
@@ -58,11 +57,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Spielstände von Longvinter können mehrere Gigabyte groß werden. Nutze für den Download einen SFTP-Client wie FileZilla oder WinSCP – über den Dateimanager im Browser brechen große Übertragungen leichter ab.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/longvinter/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/longvinter/create-backup).

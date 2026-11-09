@@ -121,6 +121,5 @@ Damit darf der Spieler wieder beitreten.
 > Banns und Whitelist liegen zusammen mit allen Einstellungen in der Binärdatei `config/settings.bin`. Verwalte sie ausschließlich über die Konsolenbefehle – öffnest Du die Datei in einem Texteditor, zerstörst Du sie.
 
 > [!TIP]
-> **Server nur für bestimmte Spieler öffnen**
->
+> **Server nur für bestimmte Spieler öffnen**\
 > Statt einzelne Spieler zu sperren, kannst Du Deinen Server auch komplett schließen und nur ausgewählte Spieler freischalten. Wie das geht, steht unter [Admin hinzufügen](/tutorials/gameserver/mindustry/add-admin) im Abschnitt zur Whitelist.

@@ -32,8 +32,7 @@ No One Survived has **no admin list** and no way to grant rights via Steam IDs. 
    Open the **dashboard** of your server and enter your desired password in the field for the admin password.
 
    > [!NOTE]
-   > **Alternatively in the configuration file**
-   >
+   > **Alternatively in the configuration file**\
    > If you cannot find a matching field in the dashboard, the value is stored in the following file:
    >
    > ```text
@@ -56,8 +55,7 @@ No One Survived has **no admin list** and no way to grant rights via Steam IDs. 
 > The admin password is **not** the server password. All players need the server password to join, the admin password grants admin rights. Use two different passwords.
 
 > [!CAUTION]
-> **Change the default password**
->
+> **Change the default password**\
 > If a preset admin password is still stored in the dashboard, make sure to change it. A known default password means that any player can gain admin rights on your server.
 
 ## Open the admin panel in the game
@@ -75,15 +73,13 @@ No One Survived has **no admin list** and no way to grant rights via Steam IDs. 
    If the panel opens with the tabs for items, the game world and the blacklist, the server recognised you as an admin. If nothing happens, the password was not applied – check the entry in the dashboard and restart the server.
 
 > [!NOTE]
-> **Close the panel**
->
+> **Close the panel**\
 > You close the panel again with the same key combination `Alt` + `Shift` + `O`.
 
 ## What can an admin do?
 
 > [!NOTE]
-> **Functions of the admin panel**
->
+> **Functions of the admin panel**\
 > The admin panel is operated with buttons, not with typed commands. Among other things you find there:
 >
 > - **Spawn items** – clothing, food, materials, tools, weapons and vehicles
@@ -94,6 +90,5 @@ No One Survived has **no admin list** and no way to grant rights via Steam IDs. 
 > Which tabs and buttons exactly are available can change with game updates.
 
 > [!WARNING]
-> **No chat or console commands**
->
+> **No chat or console commands**\
 > There are **no** documented admin commands in the chat, no server console and no RCON for No One Survived. Commonly circulated commands such as `AdminLogin`, `Kick <player>` or configuration values such as `AdminSteamIDs` do not appear in the official documentation – you grant admin rights exclusively through the admin password and the in-game admin panel.

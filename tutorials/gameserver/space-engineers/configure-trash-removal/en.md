@@ -138,8 +138,7 @@ The entries are listed one below the other in `Sandbox_config.sbc`. In the prein
 The game provides for values from `2` to `100`. If you enter more than `100`, the server automatically turns on [Experimental Mode](/tutorials/gameserver/space-engineers/enable-experimental-mode) when loading the world – even if it is set to `false` in the dashboard (see [Forced experimental mode](/tutorials/gameserver/space-engineers/change-world-settings#forced-experimental-mode)).
 
 > [!NOTE]
-> **Crossplay servers**
->
+> **Crossplay servers**\
 > If [crossplay](/tutorials/gameserver/space-engineers/enable-crossplay) is active on your server, the server applies fixed limits when loading the world: `MaxFloatingObjects` at most `50`, `BlockCountThreshold` at least `50` and `PlayerDistanceThreshold` at most `250`. It automatically corrects values outside these limits.
 
 ### Revert modified voxels (optional)

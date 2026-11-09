@@ -102,8 +102,7 @@ Deine Einzelspieler-Spielstände liegen auf Deinem PC im Datenverzeichnis von Mi
 | macOS | `~/Library/Application Support/Mindustry/saves/` |
 
 > [!WARNING]
-> **Steam-Version**
->
+> **Steam-Version**\
 > Die Steam-Version legt ihr Datenverzeichnis **im Spielordner** ab. Die Spielstände findest Du dort unter `saves/saves/` innerhalb Deines Mindustry-Installationsordners und nicht in den oben genannten Pfaden.
 
 > [!IMPORTANT]

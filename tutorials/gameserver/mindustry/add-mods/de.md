@@ -29,8 +29,7 @@ Mindustry unterscheidet zwei Arten von Erweiterungen, die beide in denselben Ord
 > Stoppe Deinen Server, bevor Du Mods hinzufügst, aktualisierst oder entfernst. Erstelle vorher außerdem ein [Backup](/tutorials/gameserver/mindustry/create-backup) – Mods können Deine Karte dauerhaft verändern.
 
 > [!NOTE]
-> **Kein automatischer Download**
->
+> **Kein automatischer Download**\
 > Dein Server lädt Mods **nicht** selbst herunter, und er verteilt sie auch nicht an die Spieler. Du lädst jede Datei manuell hoch, und jeder Spieler installiert die Mods bei sich selbst.
 
 ## Mod-Datei besorgen
@@ -119,8 +118,7 @@ Plugins sind Java-Erweiterungen, die nur auf Servern laufen. Sie bringen typisch
 > Entfernst Du einen Mod, der Blöcke, Einheiten oder Items zu Deiner Karte hinzugefügt hat, verschwinden dessen Inhalte aus dem Spielstand. Spiele im Zweifel ein [Backup](/tutorials/gameserver/mindustry/create-backup) zurück, statt den Mod einfach zu löschen.
 
 > [!WARNING]
-> **Mod wird nicht geladen**
->
+> **Mod wird nicht geladen**\
 > Taucht Dein Mod nach dem Neustart nicht in der Ausgabe von `mods` auf, prüfe Ablageort und Schreibweise: Die Datei muss direkt in `/config/mods/` liegen und auf `.jar` oder `.zip` enden – oder als Ordner eine Meta-Datei enthalten.
 
 > [!NOTE]

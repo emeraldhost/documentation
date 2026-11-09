@@ -57,8 +57,6 @@ This method offers more control and is required for server-side only mods.
    Open Steam, select DayZ from your library and go to the **Workshop** tab. Subscribe to your desired mod.
 
 > [!WARNING]
-> **Note**
->
 > Some mods have dependencies that must be installed first.
 
 2. **Launch DayZ**\
@@ -90,8 +88,6 @@ This method offers more control and is required for server-side only mods.
    ```
 
 > [!TIP]
-> **Note**
->
 > Mods under **Additional Mods** will require players to install the mods, while mods under **Mods** are server-side only and will not.
 
 10. **Start the server**\

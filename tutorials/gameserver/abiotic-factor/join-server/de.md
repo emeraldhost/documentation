@@ -88,8 +88,7 @@ Für Abiotic Factor ist **kein Eingabefeld für eine Direktverbindung über die 
 > Welche Werte für Deinen Server gelten, siehst Du in der **Verwaltung**.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Prüfe der Reihe nach:
 >
 > - Ist der Filter **Show Dedicated** im Serverbrowser aktiviert?
@@ -97,11 +96,9 @@ Für Abiotic Factor ist **kein Eingabefeld für eine Direktverbindung über die 
 > - Trage den Server ersatzweise über die **Steam-Favoriten** ein. Darüber findest Du ihn unabhängig davon, ob er in der öffentlichen Liste auftaucht.
 
 > [!NOTE]
-> **Direktverbindung statt Steam-P2P**
->
+> **Direktverbindung statt Steam-P2P**\
 > Dedicated Server von Abiotic Factor verwenden keine Steam-P2P-Verbindung, sondern eine direkte Verbindung zur IP-Adresse Deines Servers. Deshalb funktioniert das Beitreten auch dann, wenn Du keine Steam-Freundschaft mit den anderen Spielern hast.
 
 > [!WARNING]
-> **Kein Direct Connect im Spiel**
->
+> **Kein Direct Connect im Spiel**\
 > Ein Feld, in das Du im Spielmenü direkt `IP:Port` eintragen kannst, ist für Abiotic Factor nicht dokumentiert. Alle beschriebenen Beitrittswege laufen über den Serverbrowser des Spiels oder über die Steam-Favoriten.

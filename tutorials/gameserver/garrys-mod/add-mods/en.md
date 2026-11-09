@@ -22,8 +22,6 @@ related: ["gameserver/garrys-mod/add-admin", "gameserver/garrys-mod/create-backu
 There are two ways to get addons onto your server: through a **Steam Workshop collection** that the server downloads automatically on startup, or by uploading the addon folders **manually via SFTP**.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before uploading files. After a game update addons can become incompatible and cause errors or crashes.
 
 ## Set up a Workshop collection
@@ -34,16 +32,13 @@ The server can load exactly **one** Workshop collection. All addons you want to 
    Create your own collection in the [Steam Workshop for Garry's Mod](https://steamcommunity.com/app/4000/workshop/) and add the addons you want.
 
    > [!WARNING]
-   > **Caution**
-   >
    > The collection must be **public** or **unlisted**. The server cannot access private collections.
 
 2. **Copy the collection ID**\
    You can find the collection ID in the URL of the collection. Copy the number after `?id=`.
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > In the URL `https://steamcommunity.com/sharedfiles/filedetails/?id=157384458` the collection ID is `157384458`.
 
 3. **Open the dashboard**\

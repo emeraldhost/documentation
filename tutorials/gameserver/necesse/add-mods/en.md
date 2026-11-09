@@ -21,18 +21,14 @@ related: ["gameserver/necesse/add-admin", "gameserver/necesse/add-savegame", "ga
 In Necesse, mods are individual **`.jar` files**. Your server loads them from a dedicated folder that you fill via SFTP.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before adding, updating or removing mods. Also create a [backup](/tutorials/gameserver/necesse/create-backup) first – mods can permanently change your world.
 
 > [!NOTE]
-> **No automatic Workshop download**
->
+> **No automatic Workshop download**\
 > Your server **cannot** download mods from the Steam Workshop by itself. You always upload the `.jar` file of each mod manually.
 
 > [!CAUTION]
-> **Mind the start parameter**
->
+> **Mind the start parameter**\
 > Necesse only reads the `mods` folder if the startup command of your server contains the parameter `-mod ./mods`. After the restart, check in the console whether your mods are listed. If they are missing, we are happy to add the parameter for you free of charge – just open a support ticket.
 
 ## Obtain the mod file
@@ -92,13 +88,10 @@ In Necesse, mods are individual **`.jar` files**. Your server loads them from a 
    Start your server again.
 
 > [!WARNING]
-> **Caution**
->
 > If you remove a mod that added blocks, items or enemies to the world, its content disappears from your world. When in doubt, restore a [backup](/tutorials/gameserver/necesse/create-backup) instead of simply deleting the mod.
 
 > [!WARNING]
-> **Mods are not loaded**
->
+> **Mods are not loaded**\
 > If your mod does not show up in the console after the restart, first check the spelling and the location of the file: it has to sit directly in `/mods/` and end in `.jar`. If no mod is detected at all, the start parameter `-mod ./mods` is usually missing – contact us via a support ticket for that.
 
 > [!NOTE]

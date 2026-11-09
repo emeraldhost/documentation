@@ -53,8 +53,7 @@ Plugins laufen auf einem No More Room in Hell Server über **Metamod:Source** un
 > Eine eigene `metamod.vdf` musst Du nicht anlegen – die passende Datei liegt dem Paket seit Metamod:Source 1.10 bereits bei. Der VDF-Generator der Metamod-Dokumentation ist nur für Left 4 Dead 1, für Drittanbieter-Mods auf Source SDK Base und für nicht-englische Listen-Server gedacht; No More Room in Hell ist dort nicht aufgeführt.
 
 > [!WARNING]
-> **Metamod wird nicht geladen?**
->
+> **Metamod wird nicht geladen?**\
 > Antwortet der Server auf `meta version` mit `Unknown command`, kannst Du Metamod:Source alternativ über die `gameinfo.txt` einbinden. Öffne dazu die Datei `/nmrih/gameinfo.txt` und trage im Block `SearchPaths` als erste Zeile Folgendes ein:
 >
 > ```text
@@ -123,8 +122,7 @@ Plugins laufen auf einem No More Room in Hell Server über **Metamod:Source** un
    Starte Deinen Server und wechsle in der Serverkonsole mit `changelevel <Mapname>` auf die neue Karte. Der Mapname wird ohne die Endung `.bsp` angegeben.
 
 > [!NOTE]
-> **Steam Workshop**
->
+> **Steam Workshop**\
 > Für No More Room in Hell gibt es einen [Steam Workshop](https://steamcommunity.com/app/224260/workshop/) mit Objective- und Survival-Maps, Skins, Sounds und Mutatoren. Wie Workshop-Inhalte serverseitig eingebunden werden, ist offiziell nicht dokumentiert – lade Karten deshalb als `.bsp`-Datei in den Ordner `/nmrih/maps/` hoch.
 
 ## Ordnerstruktur im Überblick

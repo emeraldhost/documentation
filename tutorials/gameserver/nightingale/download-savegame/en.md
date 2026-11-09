@@ -21,8 +21,6 @@ related: ["gameserver/nightingale/add-savegame", "gameserver/nightingale/create-
 You can download your server's save to your PC at any time – for example as an additional backup or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Nightingale constantly writes to the world and character data while it is running – otherwise you would download an incomplete save.
 
 ## Where the save is stored
@@ -66,8 +64,7 @@ The complete save lives in the `Offline` folder. Realms and characters are store
    Start your server again.
 
 > [!TIP]
-> **Save the server state as well**
->
+> **Save the server state as well**\
 > If you also want to keep the server state – including the list of banned players – download this folder too:
 >
 > ```text
@@ -75,8 +72,7 @@ The complete save lives in the `Offline` folder. Realms and characters are store
 > ```
 
 > [!TIP]
-> **Save the configuration as well**
->
+> **Save the configuration as well**\
 > The server settings are stored in the following file:
 >
 > ```text
@@ -86,11 +82,9 @@ The complete save lives in the `Offline` folder. Realms and characters are store
 > Note: the admin password, the server password and the difficulty are written into this file from the **dashboard** every time the server starts. So you do not need the file to restore those values.
 
 > [!TIP]
-> **Restore the save later**
->
+> **Restore the save later**\
 > If you want to move the save back onto a server later, follow the guide [Add Savegame](/tutorials/gameserver/nightingale/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/nightingale/create-backup).

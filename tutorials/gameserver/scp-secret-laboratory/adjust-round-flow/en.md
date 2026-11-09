@@ -209,8 +209,7 @@ The ammo limits accept values from 1 to 65535:
 With `default`, the server uses the built-in order `4014314031441404134041434414`.
 
 > [!TIP]
-> **Example**
->
+> **Example**\
 > With 10 players, this order assigns two SCPs and eight Class-D – suitable for an event in which only Class-D face the SCPs:
 >
 > ```text

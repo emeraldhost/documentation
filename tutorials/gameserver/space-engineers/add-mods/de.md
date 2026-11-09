@@ -36,8 +36,7 @@ Welchen Mod-Dienst Du nutzen kannst, hängt davon ab, ob auf Deinem Server [Cros
 Ohne Crossplay kannst Du Mods aus beiden Diensten in derselben Mod-Liste mischen.
 
 > [!NOTE]
-> **Crossplay-Server**
->
+> **Crossplay-Server**\
 > Ein Crossplay-Server lädt ausschließlich Mods von mod.io. Steht eine Steam-Workshop-Mod in der Mod-Liste, startet die Welt nicht. Außerdem dürfen Deine Mods zusammen höchstens **3 GB** groß sein – sonst schaltet der Server die Konsolenkompatibilität beim Laden ab.
 
 ## Mod-ID finden
@@ -124,20 +123,17 @@ Ohne Crossplay kannst Du Mods aus beiden Diensten in derselben Mod-Liste mischen
    Speichere die Datei und starte Deinen Server. Beim Start lädt der Server die Mods automatisch aus dem Steam Workshop bzw. von mod.io herunter – den Fortschritt siehst Du in der Server-Konsole.
 
 > [!NOTE]
-> **Reihenfolge beachten**
->
+> **Reihenfolge beachten**\
 > Die Reihenfolge bestimmt die Priorität: Mods **weiter oben** in der Liste überschreiben Mods weiter unten, wenn beide dieselbe Definition ändern. Ordne sich überschneidende Mods entsprechend an.
 
 > [!TIP]
-> **Experimental Modus & Skripte**
->
+> **Experimental Modus & Skripte**\
 > Seit Update 1.206 benötigen Mods keinen [Experimental Modus](/tutorials/gameserver/space-engineers/enable-experimental-mode) mehr – auch Mods mit eigenem Code (Skript-Mods) laufen ohne ihn.
 >
 > Skripte für **Programmierbare Blöcke** sind keine Mods und werden nicht in die Mod-Liste eingetragen – siehe [Ingame Skripte erlauben](/tutorials/gameserver/space-engineers/enable-ingame-scripts).
 
 > [!WARNING]
-> **Mods fehlen nach einem Neustart?**
->
+> **Mods fehlen nach einem Neustart?**\
 > Öffne bei gestopptem Server erneut `/config/Saves/World/Sandbox_config.sbc` und prüfe, ob Dein `<Mods>`-Block noch vorhanden ist. Trage die Mods andernfalls erneut ein und starte den Server neu.
 
 > [!IMPORTANT]

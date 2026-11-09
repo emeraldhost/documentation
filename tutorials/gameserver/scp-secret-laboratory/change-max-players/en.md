@@ -55,8 +55,7 @@ Before you change the value, keep these limits in mind:
    ```
 
    > [!NOTE]
-   > **Example**
-   >
+   > **Example**\
    > For a server with 32 slots, enter `max_players: 32`.
 
 5. **Start the server**\

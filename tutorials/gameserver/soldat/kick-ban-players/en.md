@@ -27,8 +27,7 @@ You remove players from a Soldat server with chat commands inside the game. Ever
 > Soldat bans by **IP address**. There is no Steam ID or player UUID here.
 
 > [!WARNING]
-> **Two server versions**
->
+> **Two server versions**\
 > The commands in this guide are the ones of the **classic** Soldat server. **OpenSoldat** uses different names for some of them:
 >
 > | Classic | OpenSoldat |

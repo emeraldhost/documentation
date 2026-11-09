@@ -43,8 +43,6 @@ Dynmap erstellt eine interaktive Web-Karte Deines Minecraft-Servers, die Du im B
    Wähle einen freien Port aus und notiere ihn Dir.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende **nicht** den Standard-Port Deines Servers! Dynmap benötigt einen separaten Port.
 
 ## Schritt 3: Config-Datei anpassen

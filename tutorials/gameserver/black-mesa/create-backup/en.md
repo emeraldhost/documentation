@@ -40,8 +40,7 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!TIP]
-> **Back up the configuration**
->
+> **Back up the configuration**\
 > If you only want to secure the most important files, download the folders `/bms/cfg/`, `/bms/addons/` and `/bms/maps/` as well as the file `/bms/addonlist.txt` via [SFTP](/tutorials/gameserver/establish-sftp-connection).
 
 > [!NOTE]

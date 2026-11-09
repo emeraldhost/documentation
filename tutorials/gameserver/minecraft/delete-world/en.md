@@ -20,8 +20,6 @@ related: ["gameserver/minecraft/upload-world", "gameserver/minecraft/change-worl
 ---
 
 > [!CAUTION]
-> **Attention**
->
 > If you delete or reset the world, it cannot be restored. Create a [backup](/tutorials/gameserver/create-backup) beforehand in case you need the world again later.
 
 The **Worlds** page in your dashboard lists all worlds on your server. Via the menu (…) in the row of a world you can choose **Rename**, **Download**, **Reset** and **Delete**. There you can also create a new world.

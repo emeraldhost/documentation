@@ -20,8 +20,6 @@ related: ["teamspeak/serverquery-login"]
 Wir können aktuell noch **keine TeamSpeak 6 Server** anbieten. Auf dieser Seite erklären wir, warum das so ist und welche Alternativen Dir zur Verfügung stehen.
 
 > [!WARNING]
-> **Hinweis**
->
 > Das Screenshare-Feature ist ausschließlich auf TeamSpeak 6 Servern verfügbar und kann nicht auf TeamSpeak 3 Servern genutzt werden.
 
 ## Warum bieten wir noch keine TeamSpeak 6 Server an?
@@ -29,8 +27,7 @@ Wir können aktuell noch **keine TeamSpeak 6 Server** anbieten. Auf dieser Seite
 Damit Hosting-Anbieter wie wir TeamSpeak 6 Server für Kunden bereitstellen können, wird eine spezielle Provider-Lizenz von TeamSpeak benötigt. Wir haben bereits bei TeamSpeak angefragt und folgende Rückmeldung erhalten:
 
 > [!NOTE]
-> **Stand: Februar 2026**
->
+> **Stand: Februar 2026**\
 > Das TeamSpeak-Team arbeitet daran, uns als Provider eine entsprechende Lizenz bereitzustellen. Ein konkreter Zeitraum konnte jedoch nicht genannt werden.
 
 Sobald wir eine Lizenz erhalten und TeamSpeak 6 Server anbieten können, werden wir das auf unserer Webseite und über unsere Social-Media-Kanäle bekannt geben.

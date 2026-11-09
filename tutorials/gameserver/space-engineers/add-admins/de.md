@@ -65,6 +65,5 @@ Ein bereits berechtigter Admin kann weitere Spieler live befördern:
    Wähle den Spieler aus und befördere ihn (**Promote**) zum gewünschten Rang.
 
 > [!NOTE]
-> **Crossplay-Server**
->
+> **Crossplay-Server**\
 > Auf Servern mit aktiviertem **Crossplay** greift die SteamID-Methode (Methode 1) nicht. Nutze in diesem Fall die Beförderung im Spiel (Methode 2) oder die [Remote API](/tutorials/gameserver/space-engineers/enable-remote-api).

@@ -47,8 +47,6 @@ Mit den Plugins **GeyserMC** und **Floodgate** können Spieler der Minecraft Bed
    Wähle einen freien Port aus und notiere ihn Dir.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende **nicht** den Standard-Port Deines Servers! Nutzt Du weitere Plugins mit eigenem Port (z.B. [Simple Voice Chat](/tutorials/gameserver/minecraft/setup-simple-voice-chat)), benötigt jedes seinen eigenen Port.
 
 ## Schritt 3: GeyserMC konfigurieren
@@ -108,11 +106,9 @@ Mit den Plugins **GeyserMC** und **Floodgate** können Spieler der Minecraft Bed
 > Bedrock-Spieler erscheinen auf dem Server standardmäßig mit einem `.` vor dem Namen – so kommt es nicht zu Konflikten mit Java-Accounts.
 
 > [!TIP]
-> **Verbindung testen**
->
+> **Verbindung testen**\
 > In der Server-Konsole kannst Du mit `geyser connectiontest <Server-IP> <Port>` prüfen, ob Dein Bedrock-Port erreichbar ist.
 
 > [!WARNING]
-> **Hinweis für bestehende Setups**
->
+> **Hinweis für bestehende Setups**\
 > Nach älteren Anleitungen wurde die Datei `key.pem` aus dem Floodgate-Ordner in den Geyser-Ordner kopiert. Das ist **nicht mehr nötig** – lösche eine dort vorhandene Kopie, da sie zu Verbindungsfehlern führen kann.

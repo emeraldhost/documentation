@@ -24,8 +24,7 @@ Mods sind in CryoFall einzelne **`.mpk`-Dateien**. Du lädst sie in den Ordner `
 > Stoppe Deinen Server, bevor Du Mods hinzufügst, aktualisierst oder entfernst. Erstelle vorher außerdem ein [Backup](/tutorials/gameserver/cryofall/create-backup) – Mods können Deine Welt dauerhaft verändern.
 
 > [!NOTE]
-> **Kein Steam Workshop**
->
+> **Kein Steam Workshop**\
 > Für CryoFall Server gibt es keine Workshop-Anbindung. Du lädst die `.mpk`-Datei jedes Mods immer manuell hoch.
 
 ## Mod besorgen
@@ -104,8 +103,7 @@ Mods sind in CryoFall einzelne **`.mpk`-Dateien**. Du lädst sie in den Ordner `
 > Dein Server verteilt Mods **nicht** automatisch an die Spieler. Bei einem Mod, der als `[Client+Server]` gekennzeichnet ist, muss jeder Spieler dieselbe `.mpk`-Datei zusätzlich in seinem eigenen Spiel installieren – wie genau, beschreibt der jeweilige Mod-Autor in seinem Forenbeitrag. Reine `[Server]`-Mods brauchen dagegen keine Installation bei den Spielern.
 
 > [!WARNING]
-> **Client-Mods nicht sperren**
->
+> **Client-Mods nicht sperren**\
 > In der Datei `/Data/SettingsServer.xml` steuert der Wert `no_client_mods`, ob Spieler mit eigenen Mods beitreten dürfen. Auf einem gemoddeten Server muss er auf `0` stehen:
 >
 > ```xml

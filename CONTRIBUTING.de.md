@@ -366,7 +366,20 @@ englisch: auch in `de.md` schreibst Du `> [!WARNING]`.
 Ein Alert kann mehrere Absätze, Listen und Code-Blöcke enthalten. Jede Zeile
 braucht das Zitat-Präfix, und der Block braucht eine Leerzeile darüber und
 darunter. Wenn der Kasten einen eigenen Titel braucht, einen, den der Alert-Typ
-nicht schon sagt, schreib ihn als fette erste Zeile im Alert.
+nicht schon sagt, schreib ihn als fette erste Zeile im Alert. Beende die
+Titelzeile mit einem Backslash und schreib den Text direkt in die nächste Zeile,
+ohne leere `>`-Zeile dazwischen. Sonst rendert die Website Titel und Text als
+zwei Absätze mit unnötigem Abstand:
+
+```markdown
+> [!TIP]
+> **Passwort**\
+> Das Passwort findest Du in Deiner **Verwaltung**.
+```
+
+Wiederhole das Label nie als Titel (z.B. `**Wichtig**` in einem `[!WARNING]`).
+Nur wenn auf den Titel eine Liste, ein Code-Block oder eine Tabelle folgt, bleibt
+die leere `>`-Zeile stehen.
 
 `<Callout type="…">` ist **keine** Komponente. Es ist ein Überbleibsel der
 älteren Website; die Website packt es aus, und Kasten, Farbe und Symbol gehen

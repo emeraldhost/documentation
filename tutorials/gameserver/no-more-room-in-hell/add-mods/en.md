@@ -53,8 +53,7 @@ Plugins on a No More Room in Hell server run through **Metamod:Source** and **So
 > You do not have to create your own `metamod.vdf` – the matching file has been part of the package since Metamod:Source 1.10. The VDF generator in the Metamod documentation is only meant for Left 4 Dead 1, for third-party mods on Source SDK Base and for non-English listen servers; No More Room in Hell is not listed there.
 
 > [!WARNING]
-> **Metamod is not loading?**
->
+> **Metamod is not loading?**\
 > If the server answers `meta version` with `Unknown command`, you can load Metamod:Source through the `gameinfo.txt` instead. Open the file `/nmrih/gameinfo.txt` and add the following as the first line inside the `SearchPaths` block:
 >
 > ```text
@@ -123,8 +122,7 @@ Plugins on a No More Room in Hell server run through **Metamod:Source** and **So
    Start your server and switch to the new map in the server console with `changelevel <map name>`. The map name is entered without the `.bsp` extension.
 
 > [!NOTE]
-> **Steam Workshop**
->
+> **Steam Workshop**\
 > No More Room in Hell has a [Steam Workshop](https://steamcommunity.com/app/224260/workshop/) with objective and survival maps, skins, sounds and mutators. How Workshop content is set up on the server side is not officially documented – so upload maps as `.bsp` files to the `/nmrih/maps/` folder instead.
 
 ## Folder structure at a glance

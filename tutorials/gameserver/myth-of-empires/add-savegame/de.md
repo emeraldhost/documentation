@@ -21,8 +21,7 @@ related: ["gameserver/myth-of-empires/add-admin", "gameserver/myth-of-empires/cr
 Myth of Empires kennt **keinen Weltnamen**. Ein Spielstand ist immer der komplette Ordner `Saved` – keine einzelne Datei. Du lädst diesen Ordner mit allem Inhalt an die Stelle, an der Dein Server seinen Spielstand erwartet.
 
 > [!NOTE]
-> **Woher kommt der Spielstand?**
->
+> **Woher kommt der Spielstand?**\
 > Diese Anleitung beschreibt die Übertragung von Server zu Server – also einen Spielstand, den Du zuvor von einem Myth of Empires Server heruntergeladen hast. Für Spielstände aus dem Einzelspieler-Modus gibt es keinen dokumentierten Weg auf einen Dedicated Server.
 
 > [!TIP]
@@ -62,8 +61,7 @@ Myth of Empires kennt **keinen Weltnamen**. Ein Spielstand ist immer der komplet
    Starte Deinen Server. Beim Start wird jetzt Dein hochgeladener Spielstand geladen.
 
 > [!CAUTION]
-> **Server-ID nicht ändern**
->
+> **Server-ID nicht ändern**\
 > Der Spielstand wird unter der **Server-ID** abgelegt – es gibt keinen Weltnamen, den Du in einer Konfiguration eintragen könntest. Änderst Du die Server-ID, sucht Dein Server unter einer anderen ID und legt eine komplett neue, leere Welt an. Der alte Spielstand bleibt dabei auf der Festplatte liegen, wird aber nicht mehr geladen.
 
 > [!WARNING]
@@ -73,6 +71,5 @@ Myth of Empires kennt **keinen Weltnamen**. Ein Spielstand ist immer der komplet
 > Im Ordner `Saved` liegen unter `Config/WindowsServer/` auch Deine Servereinstellungen. Lädst Du den Ordner komplett hoch, überschreibst Du damit die bisherigen Einstellungen Deines Servers. Der Ordner heißt auch auf Deinem Linux-Server `WindowsServer` – Myth of Empires stellt nur ein Windows-Serverprogramm bereit, das über eine Kompatibilitätsschicht läuft.
 
 > [!TIP]
-> **Server zurücksetzen**
->
+> **Server zurücksetzen**\
 > Möchtest Du stattdessen komplett neu anfangen, stoppe den Server, lösche den Ordner `Saved` und starte den Server erneut. Beim nächsten Start wird eine frische Welt erzeugt.

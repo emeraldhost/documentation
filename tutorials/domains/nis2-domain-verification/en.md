@@ -41,8 +41,7 @@ The verification affects **all domains** – regardless of:
 You only have to confirm the stored email address **once** – not with every renewal.
 
 > [!NOTE]
-> **Several domains?**
->
+> **Several domains?**\
 > The confirmation applies to **all of your domains** that have this email address stored as the owner contact. So you only need to do it once and do not have to repeat it for each domain.
 >
 > Still keep an eye on the **deadlines**: they can differ from domain to domain. Confirm as early as possible so that none of your domains runs into its deadline.
@@ -77,8 +76,6 @@ You only have to confirm the stored email address **once** – not with every re
    Confirm your contact details there. You will then receive a confirmation that the verification was successful.
 
 > [!WARNING]
-> **Caution**
->
 > Complete the confirmation within the deadline stated as a date in the email (e.g. `DD.MM.YYYY`). After that, your domain is deactivated automatically.
 >
 > The deadline can **differ from domain to domain**. So do not rely on a fixed period – check the email instead. If you have several domains, it is best to confirm right after receiving the first email, which covers all of your domains.
@@ -95,13 +92,11 @@ Because such emails are often mistaken for phishing, here are the key characteri
 - **There is no file attachment** for you to open.
 
 > [!CAUTION]
-> **Beware of phishing**
->
+> **Beware of phishing**\
 > If a supposed verification email asks you for **payment details**, **passwords** or an **immediate payment**, it is not our email. In that case, do not click any links and contact our support.
 
 > [!NOTE]
-> **Unsure?**
->
+> **Unsure?**\
 > When in doubt, do not click anything and contact our [support](https://emeraldhost.de/en/support). We will check for you whether a verification is actually pending for your domain.
 
 ## What happens if I miss the deadline?
@@ -120,8 +115,7 @@ Here is how to get your domain back online:
    After a successful confirmation, the domain is reactivated automatically. You do not need to do anything else.
 
 > [!NOTE]
-> **Domain still not reachable?**
->
+> **Domain still not reachable?**\
 > After reactivation it can take up to **24 hours** until your domain is reachable everywhere again. This is due to DNS caching at internet providers worldwide. In most cases it is much faster.
 
 ## Contacting support

@@ -82,11 +82,9 @@ Setze `enabled` auf `false`, um eine Mod zu deaktivieren, ohne sie zu löschen. 
 > Alle Spieler benötigen **exakt dieselben Mods in derselben Version** wie der Server, sonst schlägt die Prüfsummen-Kontrolle beim Beitreten fehl.
 
 > [!TIP]
-> **Automatischer Mod-Sync**
->
+> **Automatischer Mod-Sync**\
 > Beim Beitritt zu einem Server mit Mods bietet Factorio an, die Mods mit dem Server abzugleichen. Bestätigst Du den Mod-Sync, werden alle benötigten Mods automatisch heruntergeladen und aktiviert.
 
 > [!NOTE]
-> **Space Age und weitere Erweiterungen**
->
+> **Space Age und weitere Erweiterungen**\
 > Der Server bringt die Mods `base`, `elevated-rails`, `quality` und `space-age` bereits mit. Sind die Erweiterungs-Mods aktiv, können Spieler **ohne** das DLC nicht beitreten. Über `mods/mod-list.json` lassen sie sich auf `"enabled": false` setzen. Es gibt allerdings Berichte, dass der Server die Erweiterungs-Mods beim Start wieder aktiviert – eine offizielle Lösung dafür gibt es bislang nicht. Prüfe nach einem Neustart daher in der `mod-list.json`, ob die Einstellung erhalten geblieben ist.

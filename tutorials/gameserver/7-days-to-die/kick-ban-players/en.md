@@ -21,8 +21,7 @@ related: ["gameserver/7-days-to-die/download-savegame", "gameserver/7-days-to-di
 You can kick and ban players using console commands or by editing the `serveradmin.xml` file.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > You must be an admin on your server. Here you can find a guide on how to [add an admin](/tutorials/gameserver/7-days-to-die/add-admin).
 
 ## Kick or ban players via console command

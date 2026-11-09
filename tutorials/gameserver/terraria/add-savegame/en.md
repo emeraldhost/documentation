@@ -63,16 +63,14 @@ You can transfer a local world to your server to continue playing with an existi
 > Do not edit the file `serverconfig.txt` by hand to switch worlds. The values `worldpath`, `worldname`, `world`, `difficulty`, `autocreate`, `port`, `maxplayers`, `motd`, `seed`, `password` and `npcstream` are rewritten from the **Config Editor** in the dashboard on **every server start**. Always change the matching setting in the panel instead.
 
 > [!WARNING]
-> **Switching worlds**
->
+> **Switching worlds**\
 > If you want to replace an old world completely, also remove the old `.wld` file and its `.bak` backup files from the `/saves/Worlds/` folder. This prevents mix-ups later on.
 
 > [!NOTE]
 > If the folder `/saves/Worlds/` does not exist yet, start the server once so the folder structure is created. Stop the server again before uploading the file.
 
 > [!WARNING]
-> **tModLoader**
->
+> **tModLoader**\
 > `.twld` files belong to tModLoader and are not used by a regular Terraria server. A tModLoader world belongs on a tModLoader server: [Add savegame (tModLoader)](/tutorials/gameserver/terraria-tmodloader/add-savegame).
 
 > [!TIP]

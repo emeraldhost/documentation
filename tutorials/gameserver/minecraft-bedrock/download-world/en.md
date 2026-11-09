@@ -21,8 +21,6 @@ related: ["gameserver/minecraft-bedrock/disable-locator-bar", "gameserver/minecr
 You can download your server's world to your PC at any time, for example as an extra backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running, it saves regularly, otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -52,11 +50,9 @@ You can download your server's world to your PC at any time, for example as an e
 > ```
 
 > [!TIP]
-> **Restoring the world**
->
+> **Restoring the world**\
 > If you want to transfer the world back to a server later, follow the guide [Upload world](/tutorials/gameserver/minecraft-bedrock/upload-world).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/minecraft-bedrock/create-backup).

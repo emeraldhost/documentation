@@ -43,16 +43,14 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Was steckt im Savegame?**
->
+> **Was steckt im Savegame?**\
 > Der Ordner enthält die Weltdaten sowie die Daten aller Spieler. Die Charakterdaten sind nach der **SteamID64** des jeweiligen Spielers benannt. Wie Du Deine [SteamID64](/tutorials/gameserver/steamid64-find-out) herausfindest, erfährst Du hier.
 
 > [!WARNING]
 > Ein Spielstand ist immer der **komplette Ordnerinhalt**. Lade ihn stets vollständig herunter – einzelne Dateien daraus ergeben keinen nutzbaren Spielstand.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgenden Ordner herunter:
 >
 > ```text
@@ -62,11 +60,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Dort liegt unter anderem die `Game.ini` mit Deinen Servereinstellungen.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/citadel-forged-with-fire/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/citadel-forged-with-fire/create-backup).

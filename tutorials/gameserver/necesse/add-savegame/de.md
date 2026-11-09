@@ -66,16 +66,14 @@ Eine Necesse-Welt ist **eine einzige `.zip`-Datei**, die nach dem Weltnamen bena
    Speichere die Einstellungen und starte Deinen Server. Beim Start wird jetzt Deine hochgeladene Welt geladen.
 
 > [!CAUTION]
-> **Groß- und Kleinschreibung beachten**
->
+> **Groß- und Kleinschreibung beachten**\
 > Dein Server läuft unter Linux und unterscheidet zwischen Groß- und Kleinschreibung. `Meine_Welt` und `meine_welt` sind zwei verschiedene Welten. Stimmt der eingetragene Name nicht exakt mit dem Dateinamen überein, legt der Server stattdessen eine **neue, leere Welt** unter diesem Namen an.
 
 > [!WARNING]
 > Der Weltname wird beim Start als Startparameter übergeben. Trage ihn deshalb ausschließlich in der Verwaltung ein – ein abweichender Eintrag in der `/cfg/server.cfg` bleibt wirkungslos.
 
 > [!NOTE]
-> **Welt-Einstellungen anpassen**
->
+> **Welt-Einstellungen anpassen**\
 > Die Einstellungen einer Welt (Datei `worldSettings.cfg`) liegen **innerhalb** der `.zip`-Datei. Möchtest Du sie ändern, lade die Datei herunter, entpacke sie, bearbeite `worldSettings.cfg` und packe den Inhalt anschließend wieder in ein `.zip`-Archiv mit demselben Namen und derselben Struktur.
 
 > [!TIP]

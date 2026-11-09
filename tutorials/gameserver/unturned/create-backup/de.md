@@ -31,8 +31,7 @@ Ein regelmäßiges Backup Deines Unturned Servers schützt Dich vor Datenverlust
 - In regelmäßigen Abständen, damit Du jederzeit einen sicheren Stand hast
 
 > [!CAUTION]
-> **Unturned speichert nicht automatisch**
->
+> **Unturned speichert nicht automatisch**\
 > Unturned hat **keine automatische Speicherfunktion**. Alles, was seit dem letzten Speichern passiert ist, geht verloren, wenn der Server hart beendet wird. Speichere deshalb immer erst, bevor Du ein Backup erstellst.
 
 ## Vor dem Backup speichern

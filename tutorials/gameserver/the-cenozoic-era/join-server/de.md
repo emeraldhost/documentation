@@ -60,8 +60,7 @@ The Cenozoic Era besitzt einen **Serverbrowser im Spiel**. Dort erscheint Dein S
 > Welche Werte für Deinen Server gelten, siehst Du in der **Verwaltung**. Feste Standardwerte gibt es nicht – die Ports werden Deinem Server bei der Erstellung zugewiesen.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Prüfe der Reihe nach:
 >
 > - Läuft Dein Server? Den Status siehst Du in der **Verwaltung**.
@@ -70,6 +69,5 @@ The Cenozoic Era besitzt einen **Serverbrowser im Spiel**. Dort erscheint Dein S
 > - Wurde der Server nach einer Änderung an der Konfiguration neu gestartet? Ein geänderter Servername wird erst nach einem Neustart übernommen.
 
 > [!NOTE]
-> **Query Port bei einer Direktverbindung**
->
+> **Query Port bei einer Direktverbindung**\
 > Gibst Du die Verbindungsdaten Deines Servers irgendwo direkt an, ist dafür der **Query Port** der richtige Wert – nicht der Game Port. Ein eigenes Eingabefeld für eine Direktverbindung über `IP:Port` ist im Spiel allerdings nicht dokumentiert, ebenso wenig der Beitritt über die Steam-Favoriten. Der Serverbrowser im Spiel ist der dokumentierte Weg auf Deinen Server.

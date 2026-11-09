@@ -112,8 +112,7 @@ Plugins on a Fistful of Frags server run through **Metamod:Source** and **Source
    Start your server and switch to the new map in the server console with `changelevel <map name>`. The map name is entered without the `.bsp` extension.
 
 > [!NOTE]
-> **Steam Workshop**
->
+> **Steam Workshop**\
 > The [Steam Workshop for Fistful of Frags](https://steamcommunity.com/app/265630/workshop/) contains weapon and character skins, models, sounds, HUD tweaks and maps. Skins and sounds are **purely client-side** and are subscribed to by each player individually – they do nothing on the server. There is no server-side integration for Workshop maps: upload the map as a `.bsp` file to the `/fof/maps/` folder.
 
 ## Adjust the map rotation

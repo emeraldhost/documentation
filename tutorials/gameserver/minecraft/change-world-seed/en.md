@@ -22,8 +22,6 @@ related: ["gameserver/minecraft/change-view-distance", "gameserver/minecraft/cha
 The world seed determines how the world is generated. It only affects **newly generated worlds** – so you have to delete your existing world first.
 
 > [!CAUTION]
-> **Attention**
->
 > Your current world will be lost permanently. Create a [backup](/tutorials/gameserver/minecraft/create-backup) beforehand if you still need it later.
 
 1. **Stop the server**\
@@ -45,8 +43,7 @@ The world seed determines how the world is generated. It only affects **newly ge
    Delete the `world` folder in the main directory. Without this step the server simply keeps loading your old world and the new seed has no effect.
 
    > [!NOTE]
-   > **Paper, Spigot & Purpur**
-   >
+   > **Paper, Spigot & Purpur**\
    > On these servers the Nether and the End are stored in separate folders. Also delete `world_nether` and `world_the_end` so those dimensions are regenerated as well.
 
 5. **Start the server**\

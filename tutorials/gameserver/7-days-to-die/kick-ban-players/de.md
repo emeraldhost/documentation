@@ -21,8 +21,7 @@ related: ["gameserver/7-days-to-die/download-savegame", "gameserver/7-days-to-di
 Du kannst Spieler per Konsolenbefehl oder über die Datei `serveradmin.xml` kicken und bannen.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Du musst Admin auf Deinem Server sein. Hier findest Du eine Anleitung, wie Du einen [Admin hinzufügst](/tutorials/gameserver/7-days-to-die/add-admin).
 
 ## Spieler per Konsolenbefehl kicken oder bannen

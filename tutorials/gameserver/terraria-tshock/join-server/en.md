@@ -79,8 +79,6 @@ Once you have created an account, you log in through the in-game chat:
 ## Common reasons why joining fails
 
 > [!WARNING]
-> **Caution**
->
 > The client and the server have to run **the same Terraria version**. Every tShock version is built for one specific Terraria version; if your game version does not match, the server rejects the connection with a version message. Which tShock version gets installed is controlled by the **tShock Version** field in the dashboard.
 
 > [!IMPORTANT]

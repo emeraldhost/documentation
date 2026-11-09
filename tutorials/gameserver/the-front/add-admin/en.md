@@ -57,8 +57,7 @@ Admins on a The Front server are added by their **SteamID64** – a 17-digit num
    ```
 
    > [!NOTE]
-   > **Which config name?**
-   >
+   > **Which config name?**\
    > The name comes from your server's startup parameter `-ConfigServerName=` – this is not the server name shown in the server list. If it is set to `new`, the file is called `ServerConfig_new.ini`. If no name is set, it is simply called `ServerConfig_.ini`.
    >
    > The folder and file name have to be spelled exactly like this – otherwise the server does not load the configuration.
@@ -93,8 +92,7 @@ Admins on a The Front server are added by their **SteamID64** – a 17-digit num
    ```
 
 > [!TIP]
-> **Console**
->
+> **Console**\
 > Alternatively you can open the console with the `` ` `` or `~` key – on an English keyboard the key to the left of the `1`. If the key does not react, switch your keyboard layout to English.
 
 ## Manage admins in the game

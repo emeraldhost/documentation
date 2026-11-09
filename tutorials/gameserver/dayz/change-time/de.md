@@ -30,8 +30,7 @@ Du kannst die Geschwindigkeit der Ingame-Zeit und die Helligkeit der Nächte üb
    Trage im Feld **Zeitmultiplikator** den gewünschten Wert ein (Bereich: `0` - `24`).
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > Ein Wert von `12` bedeutet, dass ein vollständiger 24-Stunden-Tag im Spiel **12-mal schneller** abläuft, also nur 2 Stunden in Echtzeit dauert.
 
 4. **Dunklere Nächte einstellen (optional)**\

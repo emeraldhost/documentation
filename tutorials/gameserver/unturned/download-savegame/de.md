@@ -21,8 +21,7 @@ related: ["gameserver/unturned/add-savegame", "gameserver/unturned/create-backup
 Bei Unturned liegen Spielstand und Konfiguration gemeinsam in einem Ordner unter `/Servers/`. Du kannst diesen Ordner jederzeit auf Deinen PC herunterladen – zum Beispiel als zusätzliche Sicherung oder um ihn auf einen anderen Server zu übertragen.
 
 > [!CAUTION]
-> **Erst speichern**
->
+> **Erst speichern**\
 > Unturned speichert **nicht automatisch**. Lädst Du die Dateien herunter, ohne vorher zu speichern, fehlt Dir der Fortschritt seit dem letzten Speichervorgang.
 
 1. **Spielstand speichern**\
@@ -46,8 +45,7 @@ Bei Unturned liegen Spielstand und Konfiguration gemeinsam in einem Ordner unter
    ```
 
    > [!NOTE]
-   > **Welcher Ordner ist meiner?**
-   >
+   > **Welcher Ordner ist meiner?**\
    > Der Ordnername entspricht der ServerID aus dem Startparameter Deines Servers. In der Regel liegt dort genau ein Ordner – das ist Deiner.
 
 5. **Ordner herunterladen**\
@@ -68,19 +66,16 @@ Bei Unturned liegen Spielstand und Konfiguration gemeinsam in einem Ordner unter
 | `WorkshopDownloadConfig.json` | Die Liste Deiner Workshop-Mods und -Karten |
 
 > [!TIP]
-> **Nur die Welt sichern**
->
+> **Nur die Welt sichern**\
 > Möchtest Du ausschließlich den Spielfortschritt sichern, genügen die Ordner `Level/` und `Players/`. Für einen vollständigen Umzug auf einen anderen Server lade lieber den kompletten Server-Ordner herunter.
 
 > [!WARNING]
 > Lade Ordner immer vollständig herunter. Einzelne Dateien aus `Level/` oder `Players/` ergeben keinen nutzbaren Spielstand.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/unturned/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/unturned/create-backup).

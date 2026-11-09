@@ -63,8 +63,6 @@ SA-MP and open.mp have **no admin system based on player IDs**. There is no admi
 > The default value is `changeme`. As long as this value is set, your server **will not start**. Always set a password of your own.
 
 > [!WARNING]
-> **Caution**
->
 > The RCON password is not the server password. The RCON password gives anyone full control over your server – only share it with people you trust and use a different password than the join password of your server.
 
 ## Log in as admin in the game
@@ -133,6 +131,4 @@ rcon 1
 > On open.mp, `rcon.enable` defaults to `false` and is only read on server start. Since the documentation does not clearly separate whether this setting also affects the in-game login, you should set it and then test whether `/rcon login` still works.
 
 > [!WARNING]
-> **Caution**
->
 > An enabled external RCON access is reachable from the internet. Only use it with a strong password and turn it off when you do not need it.

@@ -23,8 +23,7 @@ Ein Arma-3-Server speichert von sich aus **keinen Weltstand**. Ob es überhaupt 
 Der Spielstand ist dabei immer eine einzelne Datei mit der Endung `.vars.Arma3Profile`, benannt nach dem Profil des Servers – zum Beispiel `server.vars.Arma3Profile`.
 
 > [!CAUTION]
-> **persistent ist kein Savegame**
->
+> **persistent ist kein Savegame**\
 > Der Wert `persistent` in der `server.cfg` speichert nichts. Er sorgt lediglich dafür, dass die Mission weiterläuft, wenn alle Spieler den Server verlassen. Anleitungen, die `persistent = 1;` als Speicherfunktion beschreiben, sind falsch.
 
 > [!TIP]
@@ -94,8 +93,7 @@ Dein Server speichert unter dem Profilnamen, den er beim Start verwendet. Diesen
    Starte Deinen Server und lade den Spielstand über die Ladefunktion der Mission – bei den meisten persistenten Missionen geschieht das direkt beim Missionsstart über ein Menü.
 
 > [!WARNING]
-> **Spielstand aus dem Einzelspieler**
->
+> **Spielstand aus dem Einzelspieler**\
 > Einzelspieler-Spielstände und Dedicated-Server-Spielstände werden innerhalb derselben Datei unter unterschiedlichen Variablennamen abgelegt. Ein Einzelspieler-Spielstand wird deshalb auf dem Server unter Umständen nicht als ladbar erkannt.
 
 > [!WARNING]

@@ -38,8 +38,7 @@ Nightingale has **no admin list with Steam or Epic IDs**. Instead there is a sin
 > If a password is already pre-filled in the field, make sure to replace it with your own before your server is publicly reachable – otherwise anyone who knows the pre-filled value can gain admin rights.
 
 > [!NOTE]
-> **Why not in the configuration file?**
->
+> **Why not in the configuration file?**\
 > The admin password is stored in `/NWX/Config/ServerSettings.ini` in the line `AdminPassword=`. However, your server rewrites that line from the dashboard field on **every start**. A manual change in the file would be gone again after the next start – so only set the password in the dashboard. The same applies to the server password (`Password=`) and the difficulty (`StartingDifficulty=`).
 
 ## Enable admin mode in the game
@@ -82,8 +81,7 @@ Nightingale has **no admin list with Steam or Epic IDs**. Instead there is a sin
 > In Nightingale, admin mode exists to **kick and ban players**. There are no classic admin chat commands, and the console in the dashboard only shows the server's output – it does **not** accept commands.
 
 > [!WARNING]
-> **Cheat and debug menu**
->
+> **Cheat and debug menu**\
 > Separate from this there is the cheat and debug menu. You do **not** need it for kicking and banning. If you want to use it on your server, three things are required:
 >
 > - Enable it on the server through the **Enable Cheats** variable in the dashboard.

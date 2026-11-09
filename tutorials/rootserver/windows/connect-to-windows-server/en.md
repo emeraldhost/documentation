@@ -20,8 +20,7 @@ related: ["rootserver/windows/windows-hard-drive-expand", "rootserver/windows/op
 You connect to a Windows Server using **Remote Desktop (RDP)**. This gives you a graphical interface of your server – just as if you were sitting right in front of it.
 
 > [!TIP]
-> **Linux server?**
->
+> **Linux server?**\
 > If you want to connect to a Linux server instead, follow the guide [Connect to a Linux Server](/tutorials/rootserver/linux/connect-to-linux-server).
 
 ## Requirements
@@ -40,8 +39,7 @@ You need the following connection details. You can find them in your **dashboard
    Search for **Remote Desktop Connection** in the Windows Start menu and open it.
 
    > [!TIP]
-   > **Alternative**
-   >
+   > **Alternative**\
    > You can instead press `Windows + R`, type `mstsc` and confirm with `Enter`.
 
 2. **Enter the IP address**\
@@ -51,8 +49,7 @@ You need the following connection details. You can find them in your **dashboard
    Enter the username (`Administrator`) and the password.
 
    > [!TIP]
-   > **Password**
-   >
+   > **Password**\
    > You can find the password in your **dashboard**.
 
 4. **Confirm the certificate**\
@@ -70,8 +67,7 @@ You need the following connection details. You can find them in your **dashboard
    Double-click the entry and log in with the username (`Administrator`) and password.
 
    > [!TIP]
-   > **Password**
-   >
+   > **Password**\
    > You can find the password in your **dashboard**.
 
 ### Linux
@@ -86,8 +82,7 @@ You need the following connection details. You can find them in your **dashboard
    Connect and log in with the username (`Administrator`) and password.
 
    > [!TIP]
-   > **Password**
-   >
+   > **Password**\
    > You can find the password in your **dashboard**.
 
 > [!WARNING]

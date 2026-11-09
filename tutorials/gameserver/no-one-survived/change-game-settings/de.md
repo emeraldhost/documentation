@@ -21,16 +21,14 @@ related: ["gameserver/no-one-survived/add-admin", "gameserver/no-one-survived/ad
 Wie hart Dein Server wird, legst Du in der Datei `Game.ini` fest: Anzahl und Stärke der Zombies, Länge von Tag und Jahr, Beutemengen, permanenter Tod und PvP.
 
 > [!NOTE]
-> **Zwei Abschnitte, zwei Zuständigkeiten**
->
+> **Zwei Abschnitte, zwei Zuständigkeiten**\
 > Die `Game.ini` besteht aus zwei Abschnitten:
 >
 > - **`[ServerSetting]`** – Grunddaten des Servers wie Name, Passwort und Savegame-Name. Diese Werte steuerst Du über die **Verwaltung**.
 > - **`[GameSettings]`** – die eigentlichen Spielregeln. Diese Werte gibt es nicht in der Verwaltung, Du trägst sie direkt in der Datei ein.
 
 > [!CAUTION]
-> **Vorher sichern**
->
+> **Vorher sichern**\
 > Erstelle vor größeren Änderungen ein [Backup](/tutorials/gameserver/no-one-survived/create-backup).
 
 ## Einstellungen ändern
@@ -98,13 +96,11 @@ GiftBagForNovices=True
 ```
 
 > [!WARNING]
-> **Schreibweise genau übernehmen**
->
+> **Schreibweise genau übernehmen**\
 > Die Namen der Einstellungen können sich mit Spiel-Updates ändern. Ändere deshalb immer nur Zeilen, die bereits in **Deiner** Datei stehen, und übernimm deren Schreibweise exakt. Ein falsch geschriebener Schlüssel wird stillschweigend ignoriert.
 
 > [!NOTE]
-> **Zulässige Werte prüfen**
->
+> **Zulässige Werte prüfen**\
 > Auch die zulässigen Wertebereiche können sich mit Spiel-Updates ändern. Trägst Du einen Wert außerhalb des gültigen Bereichs ein, verwendet der Server den Standardwert – die Einstellung wirkt dann scheinbar nicht.
 
 ## Zombie-Anzahl
@@ -119,6 +115,5 @@ Die Anzahl der Zombies pro Angriffswelle steht nicht im Abschnitt `[GameSettings
 > Werte aus dem Abschnitt `[ServerSetting]` werden beim Serverstart aus den Feldern der Verwaltung überschrieben. Änderst Du sie von Hand in der `Game.ini`, sind sie nach dem nächsten Start wieder weg. Die Werte im Abschnitt `[GameSettings]` sind davon nicht betroffen und bleiben erhalten.
 
 > [!TIP]
-> **Änderungen wirken ab dem nächsten Start**
->
+> **Änderungen wirken ab dem nächsten Start**\
 > Alle Einstellungen werden nur beim Serverstart eingelesen. Änderungen im laufenden Betrieb greifen nicht – starte Deinen Server nach jeder Anpassung neu.

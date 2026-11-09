@@ -64,8 +64,7 @@ Der komplette Spielstand steckt im Ordner `Offline`. Darin liegen die Realms und
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Serverzustand mitsichern**
->
+> **Serverzustand mitsichern**\
 > Möchtest Du auch den Serverzustand sichern – darunter die Liste der gebannten Spieler – lade zusätzlich diesen Ordner herunter:
 >
 > ```text
@@ -73,8 +72,7 @@ Der komplette Spielstand steckt im Ordner `Offline`. Darin liegen die Realms und
 > ```
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Die Servereinstellungen liegen in folgender Datei:
 >
 > ```text
@@ -84,11 +82,9 @@ Der komplette Spielstand steckt im Ordner `Offline`. Darin liegen die Realms und
 > Beachte: Admin-Passwort, Server-Passwort und Schwierigkeit werden beim Serverstart aus der **Verwaltung** in diese Datei geschrieben. Zum Wiederherstellen dieser Werte brauchst Du die Datei also nicht.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/nightingale/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/nightingale/create-backup).

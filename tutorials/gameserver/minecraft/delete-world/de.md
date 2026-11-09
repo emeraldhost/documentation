@@ -20,8 +20,6 @@ related: ["gameserver/minecraft/upload-world", "gameserver/minecraft/change-worl
 ---
 
 > [!CAUTION]
-> **Achtung**
->
 > Wenn Du die Welt löschst oder zurücksetzt, kann sie nicht wiederhergestellt werden. Erstelle vorher ein [Backup](/tutorials/gameserver/create-backup), falls Du die Welt später erneut benötigst.
 
 Auf der Seite **Welten** in Deinem Dashboard siehst Du alle Welten auf Deinem Server. Über das Menü (…) in der Zeile einer Welt wählst Du **Umbenennen**, **Herunterladen**, **Zurücksetzen** und **Löschen**. Außerdem legst Du dort neue Welten an.

@@ -72,8 +72,7 @@ Du kannst Deinem Server auf zwei Wegen beitreten: über den Serverbrowser im Spi
    Ist für Deinen Server ein Passwort gesetzt, gib es ein und bestätige mit **Next**.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Taucht Dein Server im Serverbrowser nicht auf, nutze die Direktverbindung über **Join IP Address**. Darüber erreichst Du Deinen Server unabhängig davon, ob er in der öffentlichen Liste angezeigt wird.
 >
 > Prüfe außerdem in der **Verwaltung**, ob Dein Server läuft und vollständig gestartet ist. Direkt nach einem Start oder einem Update kann es einen Moment dauern, bis der Server erreichbar ist.

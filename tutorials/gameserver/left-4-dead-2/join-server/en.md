@@ -113,6 +113,5 @@ The console is disabled by default in Left 4 Dead 2.
    Select the server and connect. The server then also appears in the favorites section inside the game.
 
 > [!NOTE]
-> **Server does not show up in the public server list?**
->
+> **Server does not show up in the public server list?**\
 > Without a valid Steam Game Server Login Token (GSLT) your server may not be listed in the public server list and does not use VAC. You can create a token at [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) using the App ID `550`. Afterwards enter it in the **dashboard** of your server in the **Config Editor** in the **GSL Token** field and restart the server. Every server needs its own token. A direct connection via IP and port works without a token as well.

@@ -78,8 +78,7 @@ No One Survived does **not** offer a direct connection via the IP address. You f
 > Do not rely on port numbers from other sources. The ports of your server are assigned when it is created and can differ from values quoted elsewhere as defaults. Only the values in your **dashboard** are authoritative.
 
 > [!WARNING]
-> **No joining via IP address**
->
+> **No joining via IP address**\
 > There is **no** documented way to join a No One Survived server via its IP address – neither in the game nor through the Steam server browser. The only documented way is searching by server name and region under **Private Server**.
 
 ## Server is not found

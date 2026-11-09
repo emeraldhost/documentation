@@ -52,8 +52,7 @@ Mindustry offers a real direct connection in its join menu: you enter the **IP a
    > Replace the IP address and the Game Port with the values from your **dashboard**.
 
    > [!NOTE]
-   > **IPv6**
-   >
+   > **IPv6**\
    > If your server has an IPv6 address, put it in square brackets:
    >
    > ```text
@@ -77,8 +76,6 @@ Mindustry offers a real direct connection in its join menu: you enter the **IP a
 ## Server is not found
 
 > [!WARNING]
-> **Caution**
->
 > Your server can only be reached once it actually hosts a map. As long as no map is loaded, it does not accept connections. Check in the **console** of your dashboard whether a map is running and start one otherwise:
 >
 > ```text

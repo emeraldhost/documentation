@@ -46,11 +46,9 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 > Die vollständige Pfadangabe zur Savegame-Datei auf dem Server lautet `/ConanSandbox/Saved/game.db`. Möchtest Du das heruntergeladene Savegame lokal weiterspielen, legst Du die `game.db` auf Deinem PC im Conan Exiles Installationsverzeichnis unter `ConanSandbox/Saved/` ab.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/conan-exiles/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/conan-exiles/create-backup).

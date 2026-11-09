@@ -65,8 +65,6 @@ Endstone runs the official Bedrock Dedicated Server in the background. You there
 ## The first start takes longer
 
 > [!WARNING]
-> **Caution**
->
 > On the very first start, Endstone downloads and sets up the official Bedrock Dedicated Server first. This takes a moment – wait until the console shows that the server has finished starting before you connect.
 
 ## Joining from consoles
@@ -74,8 +72,6 @@ Endstone runs the official Bedrock Dedicated Server in the background. You there
 Consoles do not allow you to enter custom server addresses directly. Using a DNS workaround (BedrockConnect) you can redirect the "Featured Servers" list so you can enter your own IP.
 
 > [!WARNING]
-> **Caution**
->
 > This changes the DNS settings of your console. Write down the current values beforehand in case you want to restore them later.
 
 ### DNS addresses

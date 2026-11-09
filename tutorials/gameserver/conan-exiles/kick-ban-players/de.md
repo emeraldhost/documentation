@@ -21,8 +21,7 @@ related: ["gameserver/conan-exiles/enable-battleye", "gameserver/conan-exiles/en
 Du kannst Spieler über das Ingame-Admin-Panel kicken und bannen.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Du musst Admin auf Deinem Server sein. Hier findest Du eine Anleitung, wie Du einen [Admin hinzufügst](/tutorials/gameserver/conan-exiles/add-admin).
 
 ## Spieler über das Admin-Panel kicken oder bannen

@@ -86,16 +86,14 @@ Damit Dein Server in der öffentlichen Serverliste auftaucht, muss er dort angem
 | **Server Category** | Kategorie, unter der Dein Server einsortiert wird: `Beginner`, `Established`, `BeginnerHard` oder `Strange` |
 
 > [!NOTE]
-> **Groß- und Kleinschreibung beachten**
->
+> **Groß- und Kleinschreibung beachten**\
 > `Network.eco` ist eine JSON-Datei. Die Kategoriewerte werden genau so geschrieben wie oben – `BeginnerHard` also ohne Leerzeichen und mit großem `B` und `H`. Ein abweichend geschriebener Wert wird nicht erkannt.
 
 > [!WARNING]
 > Änderungen an den Konfigurationsdateien werden erst mit einem **Neustart des Servers** übernommen. Ein Server, auf dem ein Passwort gesetzt ist, taucht in der öffentlichen Liste in der Regel ebenfalls nicht auf.
 
 > [!TIP]
-> **Server trotzdem erreichbar**
->
+> **Server trotzdem erreichbar**\
 > Auch wenn Dein Server nicht in der öffentlichen Liste steht, kannst Du ihn jederzeit über das Plus-Symbol mit IP-Adresse und Game Port hinzufügen. Gib beides einfach an Deine Mitspieler weiter.
 
 ## Welche Ports nutzt Eco?

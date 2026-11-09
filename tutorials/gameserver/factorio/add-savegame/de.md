@@ -63,13 +63,11 @@ Du kannst einen lokalen Spielstand auf Deinen Server übertragen, um mit einer b
 > Findet der Server unter dem eingetragenen **Save Name** keine Datei im Ordner `saves`, erzeugt er beim Start automatisch eine **neue, leere Welt** mit diesem Namen. Prüfe die Schreibweise daher genau – Groß- und Kleinschreibung inklusive.
 
 > [!WARNING]
-> **Versionen**
->
+> **Versionen**\
 > Ein Spielstand aus einer neueren Factorio-Version lässt sich auf einem älteren Server nicht laden. Ältere Spielstände werden beim Laden migriert, allerdings nur über eine begrenzte Versionsspanne hinweg.
 
 > [!TIP]
-> **Mods**
->
+> **Mods**\
 > Wurde der Spielstand mit Mods gespielt, müssen dieselben Mods auch auf dem Server vorhanden sein. Wie Du sie installierst, erfährst Du unter [Mods hinzufügen](/tutorials/gameserver/factorio/add-mods).
 
 > [!TIP]

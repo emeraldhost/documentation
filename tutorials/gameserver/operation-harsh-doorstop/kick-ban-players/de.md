@@ -109,8 +109,7 @@ Gebannte Spieler stehen in der Datei `Bans.cfg`. Ein Bann wird aufgehoben, indem
    Speichere die Datei und starte Deinen Server.
 
 > [!TIP]
-> **Ohne Neustart entbannen**
->
+> **Ohne Neustart entbannen**\
 > Du kannst Dir den Neustart sparen: Lösche die Zeile in der `Bans.cfg` und sende anschließend per RCON den Befehl `RELOADSERVERCONFIG`. Der Server liest `Bans.cfg`, `Admins.cfg` und die übrigen Konfigurationsdateien dann direkt neu von der Festplatte ein.
 
 > [!NOTE]

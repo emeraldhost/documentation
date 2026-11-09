@@ -21,8 +21,6 @@ related: ["gameserver/satisfactory/change-server-name", "gameserver/satisfactory
 You can download your server's save to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Satisfactory saves automatically while running – if you download during a save, the file can be incomplete.
 
 1. **Stop the server**\
@@ -48,13 +46,11 @@ You can download your server's save to your PC at any time – for example as an
    Start your server again.
 
 > [!NOTE]
-> **Which file is the right one?**
->
+> **Which file is the right one?**\
 > If there are several `.sav` files in the folder, the most recently modified one is usually your current save. On top of that, the server keeps rotating autosave files whose names end in `_autosave_0`, `_autosave_1` and so on. You can also see which session is loaded in the **Server Manager** on the **Manage Saves** tab.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following folder in addition:
 >
 > ```text
@@ -71,11 +67,9 @@ You can download your server's save to your PC at any time – for example as an
 > Do not delete the `ServerSettings.` file on the server. Without it, the server loses its name, its admin password, its server password and its certificate and counts as unclaimed again.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/satisfactory/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create Backup](/tutorials/gameserver/satisfactory/create-backup).

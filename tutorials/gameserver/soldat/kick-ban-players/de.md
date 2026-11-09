@@ -27,8 +27,7 @@ Spieler entfernst Du auf einem Soldat Server über Chat-Befehle im Spiel. Alle B
 > Soldat bannt über die **IP-Adresse**. Eine Steam-ID oder eine Spieler-UUID gibt es hier nicht.
 
 > [!WARNING]
-> **Zwei Serverversionen**
->
+> **Zwei Serverversionen**\
 > Die Befehle in dieser Anleitung sind die des **klassischen** Soldat-Servers. **OpenSoldat** verwendet teilweise andere Namen:
 >
 > | Klassisch | OpenSoldat |

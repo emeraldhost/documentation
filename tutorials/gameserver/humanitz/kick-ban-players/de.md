@@ -21,8 +21,7 @@ related: ["gameserver/humanitz/add-savegame", "gameserver/humanitz/create-backup
 Kicken und Bannen läuft bei HumanitZ über **RCON**. Chat-Befehle dafür gibt es nicht – die entsprechenden Befehle sind ausschließlich RCON-Befehle. Du musst RCON also einmalig einrichten, bevor Du Spieler entfernen kannst.
 
 > [!NOTE]
-> **Projektordner**
->
+> **Projektordner**\
 > Alle Pfade in dieser Anleitung beginnen mit dem Projektordner `HumanitZServer`. Läuft Dein Server noch auf einer älteren Version vor HumanitZ 1.0, heißt dieser Ordner stattdessen `TSSGame`. Prüfe per SFTP, welcher der beiden Ordner bei Dir vorhanden ist, und passe die Pfade entsprechend an.
 
 ## RCON einrichten
@@ -180,8 +179,7 @@ Die zugelassenen Spieler trägst Du anschließend mit einer Steam-ID pro Zeile i
 > Sobald `OnlyAllowedPlayers=1` gesetzt ist, kommen ausschließlich Spieler auf den Server, die in `F_MVPAccess.txt` stehen. Trage Dich deshalb selbst zuerst ein, bevor Du den Server startest.
 
 > [!NOTE]
-> **Reservierte Slots**
->
+> **Reservierte Slots**\
 > Mit `ReserveSlots=<Anzahl>` reservierst Du Plätze auf einem vollen Server. Die dafür berechtigten Spieler trägst Du mit einer Steam-ID pro Zeile in `/HumanitZServer/F_ReservedSlots.txt` ein.
 
 ## Admin-Oberfläche im Spiel

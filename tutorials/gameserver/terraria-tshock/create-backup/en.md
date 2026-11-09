@@ -38,8 +38,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. When stopping, tShock saves the world cleanly – that way the current state ends up in the backup in full.
 
 ## Use the tShock world backups

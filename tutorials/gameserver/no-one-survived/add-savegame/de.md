@@ -78,8 +78,7 @@ Deine Spielstände vom eigenen PC liegen in derselben Ordnerstruktur wie auf dem
    ```
 
    > [!NOTE]
-   > **Alternativ in der Konfigurationsdatei**
-   >
+   > **Alternativ in der Konfigurationsdatei**\
    > Findest Du in der Verwaltung kein passendes Feld, steht der Wert in folgender Datei:
    >
    > ```text
@@ -100,19 +99,16 @@ Deine Spielstände vom eigenen PC liegen in derselben Ordnerstruktur wie auf dem
 > Der Savegame-Name muss exakt zum Dateinamen passen – nur der Teil vor dem ersten Unterstrich, ohne `.sav` und mit korrekter Groß- und Kleinschreibung. Stimmt er nicht überein, startet Dein Server mit einer **neuen, leeren Welt**. Dein hochgeladener Spielstand ist dann nicht verloren, wird aber nicht geladen: Korrigiere den Namen und starte den Server erneut.
 
 > [!WARNING]
-> **Keine Sonderzeichen**
->
+> **Keine Sonderzeichen**\
 > Verwende im Savegame-Namen keine Sonderzeichen. Erlaubt sind Buchstaben und Zahlen – Leerzeichen, Umlaute und Sonderzeichen können dazu führen, dass der Spielstand nicht gefunden wird.
 
 > [!WARNING]
 > Trägst Du den Savegame-Namen von Hand in die `Game.ini` ein, wird dieser Wert beim nächsten Serverstart wieder aus den Feldern der Verwaltung überschrieben. Nutze deshalb vorrangig die Verwaltung und prüfe nach einem Start, ob der gewünschte Wert noch gesetzt ist.
 
 > [!NOTE]
-> **Automatische Sicherungen des Servers**
->
+> **Automatische Sicherungen des Servers**\
 > Neben `WorldSaves` legt der Server im Ordner `/WRSH/Saved/SaveGames/AutoSave/` eigene Zwischenstände ab. Möchtest Du einen davon verwenden, lade ihn herunter und spiele ihn nach derselben Anleitung wieder ein.
 
 > [!WARNING]
-> **Nach Updates prüfen**
->
+> **Nach Updates prüfen**\
 > Ein Serverupdate oder eine Überprüfung der Spieldateien kann die Konfiguration auf Standardwerte zurücksetzen. Kontrolliere danach den Savegame-Namen, bevor Du den Server wieder freigibst – sonst wird eine leere Welt erzeugt.

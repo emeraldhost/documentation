@@ -46,13 +46,11 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Ein Spielstand ist immer der komplette Weltordner. Lade ihn stets vollständig herunter – einzelne Dateien daraus ergeben keinen nutzbaren Spielstand.
 
 > [!NOTE]
-> **Welcher Ordner ist der richtige?**
->
+> **Welcher Ordner ist der richtige?**\
 > Liegen mehrere Weltordner nebeneinander, ist derjenige aktuell, der über den Weltnamen Deines Servers geladen wird – standardmäßig `Cascade`. Im Zweifel hilft der Zeitstempel der Dateien: Der zuletzt geänderte Ordner ist der aktive Spielstand.
 
 > [!TIP]
-> **Einstellungen mitsichern**
->
+> **Einstellungen mitsichern**\
 > Die Gameplay- und Sandbox-Einstellungen Deiner Welt stehen in der Datei `SandboxSettings.ini` im Weltordner – sie wird also zusammen mit dem Ordner heruntergeladen. Über den Startparameter `-SandboxIniPath=` kann die Datei an einem anderen Ort liegen, zum Beispiel direkt unter `/AbioticFactor/Saved/`.
 >
 > Deine Adminliste liegt außerhalb des Weltordners und muss separat gesichert werden:
@@ -62,11 +60,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/abiotic-factor/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/abiotic-factor/create-backup).

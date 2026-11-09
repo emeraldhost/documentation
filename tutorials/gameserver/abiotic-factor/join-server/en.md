@@ -88,8 +88,7 @@ There is **no documented input field for a direct connection via IP address insi
 > You can see the values that apply to your server in the **dashboard**.
 
 > [!WARNING]
-> **Server not found**
->
+> **Server not found**\
 > Check the following in order:
 >
 > - Is the **Show Dedicated** filter enabled in the server browser?
@@ -97,11 +96,9 @@ There is **no documented input field for a direct connection via IP address insi
 > - Add the server to your **Steam favorites** instead. Through the favorites you find it regardless of whether it appears in the public list.
 
 > [!NOTE]
-> **Direct connection instead of Steam P2P**
->
+> **Direct connection instead of Steam P2P**\
 > Dedicated Abiotic Factor servers do not use a Steam P2P connection but a direct connection to the IP address of your server. That is why joining works even if you are not Steam friends with the other players.
 
 > [!WARNING]
-> **No direct connect in the game**
->
+> **No direct connect in the game**\
 > A field in the game menu where you could enter `IP:Port` directly is not documented for Abiotic Factor. Every way of joining described here goes through the in-game server browser or through the Steam favorites.

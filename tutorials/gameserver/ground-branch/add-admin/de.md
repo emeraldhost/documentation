@@ -149,8 +149,7 @@ Im Adminmenü verwaltest Du unter anderem Spieler (kicken und bannen), den Karte
 > Welche dieser Befehle Dir zur Verfügung stehen, hängt von Deiner Admingruppe ab. Für die Konsole offiziell dokumentiert sind `admin setup <Passwort>` und `admin`; alle übrigen Befehle rufst Du über das Adminmenü auf.
 
 > [!WARNING]
-> **Kein RCON**
->
+> **Kein RCON**\
 > Ground Branch bietet keine RCON-Schnittstelle. Die gesamte Administration läuft im Spiel über das Adminmenü beziehungsweise die Spielkonsole.
 
 > [!IMPORTANT]

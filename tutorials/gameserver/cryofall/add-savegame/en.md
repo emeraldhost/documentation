@@ -24,8 +24,6 @@ The complete world of a CryoFall server lives in the `/Data/Saves/` folder. To u
 > This guide covers saves that come from a CryoFall server – for example a [downloaded savegame](/tutorials/gameserver/cryofall/download-savegame) or a world from another server you want to move over.
 
 > [!WARNING]
-> **Caution**
->
 > Only use saves that were created with the same game version your server runs. Saves from older versions are no longer compatible after an update.
 
 ## Upload the savegame
@@ -50,8 +48,6 @@ The complete world of a CryoFall server lives in the `/Data/Saves/` folder. To u
    Delete the existing `Saves` folder including its contents.
 
    > [!WARNING]
-   > **Caution**
-   >
    > This removes the current world of your server. So do not skip step 2 if you might want to switch back.
 
 6. **Upload the new save**\
@@ -108,16 +104,12 @@ If you want to start over completely, just delete the save – your server autom
    Start your server. It generates a new world.
 
 > [!WARNING]
-> **Caution**
->
 > A reset also removes all characters, bases and progress of your players. Announce a wipe well in advance.
 
 > [!NOTE]
-> **Single-player worlds**
->
+> **Single-player worlds**\
 > For worlds you started locally in your game we have no documented way of transferring them onto a server. Work with saves that come from a server instead.
 
 > [!WARNING]
-> **Settings managed by the dashboard**
->
+> **Settings managed by the dashboard**\
 > Server name, description, server list, maximum players, autosave interval and the number of saved states are written from the **dashboard** into `SettingsServer.xml` on every start. If you change these values inside the file they are lost on the next start – only change them in the dashboard.

@@ -21,8 +21,6 @@ related: ["gameserver/core-keeper/change-world-seed", "gameserver/core-keeper/cr
 You can download your server's world to your PC at any time – for example as an extra backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly, so you would end up downloading an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -45,8 +43,7 @@ You can download your server's world to your PC at any time – for example as a
    Start your server again.
 
 > [!TIP]
-> **Finding the right world file**
->
+> **Finding the right world file**\
 > The number before `.world.gzip` is the **World Index**. You can tell which world your server currently loads from the World Index in the **Config Editor**: if it is set to `0`, then `0.world.gzip` is the active world; for `3` it is `3.world.gzip`.
 
 > [!TIP]
@@ -57,11 +54,9 @@ You can download your server's world to your PC at any time – for example as a
 > ```
 
 > [!TIP]
-> **Restoring the save later**
->
+> **Restoring the save later**\
 > If you want to transfer the save back to a server later on, follow the guide [Add savegame](/tutorials/gameserver/core-keeper/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/core-keeper/create-backup).

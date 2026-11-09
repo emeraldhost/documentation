@@ -75,8 +75,7 @@ Individual admins cannot be removed because there is no list. You revoke the rig
 You change the server name as well as the admin and server password on the **Server Settings** tab of the Server Manager. The detailed steps are described in [Set Admin Password](/tutorials/gameserver/satisfactory/set-admin-password).
 
 > [!CAUTION]
-> **Forgot the admin password**
->
+> **Forgot the admin password**\
 > If you no longer know the admin password, you can reset the server:
 >
 > 1. Stop the server via the dashboard.
@@ -87,6 +86,5 @@ You change the server name as well as the admin and server password on the **Ser
 > This also removes the server name, the server password and the certificate of the server – existing save games are kept. If the server is shown as offline in your server list afterwards, remove the entry in the Server Manager and add it again.
 
 > [!WARNING]
-> **No kick and no ban**
->
+> **No kick and no ban**\
 > Satisfactory does not offer a function to kick or ban players – neither in the game nor in the Server Manager. The console in the Server Manager has no player management commands either. Who is allowed on your server is controlled solely through the server password on the **Server Settings** tab under **Player password protection**.

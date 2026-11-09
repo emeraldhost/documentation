@@ -47,8 +47,7 @@ Spieler entfernst Du auf Deinem Citadel Forged with Fire Server über Chat-Befeh
    ```
 
 > [!NOTE]
-> **Spielernamen**
->
+> **Spielernamen**\
 > Spielernamen sind auf **12 Zeichen begrenzt und enthalten keine Leerzeichen**. Damit ist der Name als Parameter eindeutig – Du musst ihn nicht in Anführungszeichen setzen.
 
 ## Spieler kicken
@@ -101,11 +100,9 @@ Damit löschst Du den Charakter eines Spielers vollständig vom Server. Ist der 
 > Die Befehle in der Spalte **Alternative** sind lediglich Kurzformen und machen exakt dasselbe wie der jeweilige Hauptbefehl.
 
 > [!NOTE]
-> **Bannliste**
->
+> **Bannliste**\
 > Citadel Forged with Fire bietet keine Bannliste, die Du als Datei bearbeiten könntest. Banns setzt und entfernst Du ausschließlich über die Befehle `/server_ban` und `/server_unban`.
 
 > [!TIP]
-> **Befehl zeigt keine Wirkung?**
->
+> **Befehl zeigt keine Wirkung?**\
 > Reagiert ein Befehl im Chat nicht, prüfe zuerst mit `/who`, ob Du noch als Admin eingeloggt bist – nach einem Neustart oder Verbindungsabbruch musst Du Dich mit `/admin_login` erneut anmelden. Alternativ kannst Du dieselben Befehle über die Remote Console im Browser ausführen, siehe [Admin hinzufügen](/tutorials/gameserver/citadel-forged-with-fire/add-admin).

@@ -22,8 +22,6 @@ related: ["gameserver/minecraft/disable-nether", "gameserver/minecraft/disable-l
 You can download your server's world to your PC at any time, for example as an extra backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the world. While the server is running, it saves regularly, otherwise you could download an incomplete or corrupted save.
 
 ## Download the world via the Worlds page
@@ -65,11 +63,9 @@ You can download your server's world to your PC at any time, for example as an e
 > ```
 
 > [!TIP]
-> **Restoring the world**
->
+> **Restoring the world**\
 > If you want to transfer the world back to a server later, follow the guide [Upload world](/tutorials/gameserver/minecraft/upload-world).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/minecraft/create-backup).

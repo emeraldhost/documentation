@@ -90,18 +90,15 @@ The worlds of your Craftopia server are stored in the folder `DedicatedServerSav
    Save all changes and start your server. Your uploaded world is now loaded on startup.
 
 > [!CAUTION]
-> **The world name has to match exactly**
->
+> **The world name has to match exactly**\
 > Upper and lower case as well as spaces have to match exactly. If the server cannot find a world under the name you entered, it silently creates a new one – your uploaded world then stays on the disk but is never loaded.
 
 > [!WARNING]
-> **Always make changes in the ServerSetting.ini**
->
+> **Always make changes in the ServerSetting.ini**\
 > Only make your changes in the `ServerSetting.ini`. A `DefaultServerSetting.ini` next to it is just the template shipped with the server and is not used as your configuration.
 
 > [!WARNING]
-> **Transferring a single player world**
->
+> **Transferring a single player world**\
 > There is **no official procedure by the developer** for moving a single player world to a dedicated server. The steps described here come from host and community guides and can differ depending on the game version. Only work with copies of your saves and create a backup beforehand.
 
 > [!TIP]

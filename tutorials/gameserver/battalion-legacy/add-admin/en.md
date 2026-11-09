@@ -21,8 +21,6 @@ related: ["gameserver/battalion-legacy/create-backup", "gameserver/battalion-leg
 BATTALION Legacy has **no admin list with SteamIDs**. Instead there is a single **admin password** for the server: whoever enters it through the in-game console is an admin. So you do not need to collect any IDs – you simply hand the password to the people who should get admin rights.
 
 > [!WARNING]
-> **Caution**
->
 > Everyone who knows the admin password can run every admin command on your server – for example changing the map or changing server settings at runtime. Only share it with people you trust.
 
 ## Set the admin password
@@ -40,8 +38,7 @@ BATTALION Legacy has **no admin list with SteamIDs**. Instead there is a single 
 > A default password is set out of the box. Make sure to change it before your server is publicly reachable – otherwise anyone who knows the default password can gain admin rights.
 
 > [!NOTE]
-> **Why not in the configuration file?**
->
+> **Why not in the configuration file?**\
 > The shipped server files do contain an `AdminPassword` entry, but your server receives the admin password as a startup parameter on every start. Therefore only set the password in the **dashboard**.
 
 ## Enable the developer console
@@ -110,16 +107,14 @@ All admin commands start with `Server.` and are entered in the same console. Upp
 | `Server.Pause` | Stops the round timer without blocking the players |
 
 > [!NOTE]
-> **Where do these commands come from?**
->
+> **Where do these commands come from?**\
 > `Server.Login` is documented in the shipped server files themselves. The remaining commands come from the official server documentation of BATTALION 1944, the predecessor of BATTALION Legacy. Which of them your server build still knows is not guaranteed – check with the autocompletion if in doubt.
 
 > [!TIP]
 > Type just `Serve` in the console. The autocompletion then shows you all `Server.*` commands your game actually knows. That is the most reliable way to see the full command set.
 
 > [!NOTE]
-> **Map names for `Server.ChangeMap`**
->
+> **Map names for `Server.ChangeMap`**\
 > For the **Wartide** mode the server files list these maps: `Coastal`, `Derailed`, `Docks`, `Invasion`, `Liberation`, `Manorhouse_V2`, `Savoia` and `Vanguard`. Write the map name exactly like that – with the underscore in `Manorhouse_V2`.
 >
 > The official documentation of BATTALION 1944 passes the mode as a short code; its example reads `Server.ChangeMap Liberation WRT` for Wartide.
@@ -130,8 +125,6 @@ All admin commands start with `Server.` and are entered in the same console. Upp
 ## Kick and ban players
 
 > [!WARNING]
-> **Caution**
->
 > There is no ban function in the **dashboard**, and no admin command for blocking players permanently is documented for BATTALION Legacy. The official server documentation of BATTALION 1944 only mentions a separate RCon tool for this, which creates a blacklist file – whether that tool is still part of the BATTALION Legacy server files is not documented.
 >
 > For kicking, the official server documentation of BATTALION 1944 lists the commands `Server.KickPlayerByName <name>`, `Server.KickPlayerBySteamID <SteamID>` and `Server.DisconnectAll`. Whether they still exist in the current build of BATTALION Legacy is not documented – check it as a logged-in admin through the autocompletion in the console.

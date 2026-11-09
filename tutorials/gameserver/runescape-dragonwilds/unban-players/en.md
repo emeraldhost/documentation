@@ -49,6 +49,5 @@ There are two roles on your server with different permissions:
 > Banned players currently do **not receive a notification** about the ban. They simply can no longer join your server and are not told why.
 
 > [!TIP]
-> **Revoke admin rights**
->
+> **Revoke admin rights**\
 > Admin rights are not tied to individual players but apply to everyone who has entered the admin password – until it is changed. To revoke the rights of all current admins, change the [admin password](/tutorials/gameserver/runescape-dragonwilds/set-admin-password) in the dashboard and restart your server.

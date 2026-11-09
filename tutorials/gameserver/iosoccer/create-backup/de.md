@@ -40,13 +40,11 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Sperre wichtige Backups (z.B. vor großen Änderungen), damit sie nicht durch automatische Backups überschrieben werden. Lade besonders wichtige Backups zusätzlich auf Deinen PC herunter, falls Dein Backup-Limit erreicht wird.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Wenn Du nur die wichtigsten Dateien sichern möchtest, lade Dir per [SFTP](/tutorials/gameserver/establish-sftp-connection) die Ordner `/iosoccer/cfg/`, `/iosoccer/addons/` und `/iosoccer/maps/` sowie die Datei `/iosoccer/mapcycle.txt` herunter.
 
 > [!NOTE]
-> **Matchstatistiken**
->
+> **Matchstatistiken**\
 > Lässt Du Deinen Server Matchdaten speichern, legt er die Ergebnisse als JSON-Dateien im Spielordner unter `statistics` ab. Existiert der Ordner `/iosoccer/statistics/` bei Dir, sichere ihn mit – sonst sind Deine bisherigen Spielergebnisse nach einer Wiederherstellung weg.
 
 > [!WARNING]

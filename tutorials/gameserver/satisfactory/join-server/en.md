@@ -23,8 +23,6 @@ Satisfactory does not have a public server browser. You add your dedicated serve
 ## Find connection details
 
 > [!WARNING]
-> **Important**
->
 > You can find the **IP address** and the **Game Port** of your server in your **dashboard**. Always use the values listed there for your server.
 
 You only enter **one port** in the game: the **Game Port**. Satisfactory does not have a separate query port – server queries run over the same port.
@@ -58,8 +56,7 @@ You only enter **one port** in the game: the **Game Port**. Satisfactory does no
    Select your server from the list and click **Join Game** in the bottom right.
 
 > [!WARNING]
-> **Do not join via the main menu**
->
+> **Do not join via the main menu**\
 > The **Join Game** option in the main menu is meant for sessions hosted by friends and will not find your dedicated server. Dedicated servers can only be reached via the **Server Manager**.
 
 ## Get admin rights on the server
@@ -76,8 +73,7 @@ To use more than the **Status** tab in the Server Manager – that is, to change
    Enter the admin password of your server and confirm. You then have access to all tabs of the Server Manager.
 
 > [!NOTE]
-> **Set the admin password**
->
+> **Set the admin password**\
 > To learn how to define the admin password for your server, see [Set Admin Password](/tutorials/gameserver/satisfactory/set-admin-password).
 
 ## Claim the server
@@ -93,8 +89,7 @@ If no name and no admin password have been set for your server yet, it counts as
 After that you are the administrator of the server.
 
 > [!WARNING]
-> **Create a world first**
->
+> **Create a world first**\
 > Right after claiming, no world is running on the server yet. In the Server Manager, first create a new world via the **Create Game** tab or upload an existing save via the **Manage Saves** tab. Only then can you join the server.
 
 ## Server password
@@ -114,8 +109,7 @@ If a server password is set for your server, you will be asked for it when conne
 > You can see the values that apply to your server in your **dashboard**.
 
 > [!WARNING]
-> **Server is not found**
->
+> **Server is not found**\
 > Check the following in order:
 >
 > - Is your server running? After starting it, wait a moment until it has fully booted.

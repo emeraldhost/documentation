@@ -58,16 +58,14 @@ The official platform for Eco mods is **mod.io**.
    ```
 
    > [!NOTE]
-   > **Watch out for subfolders**
-   >
+   > **Watch out for subfolders**\
    > Most mods go directly into the `Mods` folder. Some mods ask you to use the subfolder `Mods/UserCode/` instead. Always follow the instructions of the respective mod.
 
 5. **Start the server**\
    Start your server. The mods are loaded on startup.
 
 > [!TIP]
-> **Translations**
->
+> **Translations**\
 > Translation files do not belong in the main folder but in `/Mods/Translations/`.
 
 ## Remove mods
@@ -96,8 +94,7 @@ The file `/Configs/ModKit.eco` defines how the server handles mods:
 | `MaxNumberOfDownloadRequests` | How many clients may download mods at the same time |
 
 > [!NOTE]
-> **File does not exist?**
->
+> **File does not exist?**\
 > For every configuration, `/Configs/` also contains a file ending in `.eco.template`. This template only holds the default values and is not read by the server. If `ModKit.eco` is missing, copy `ModKit.eco.template` and rename the copy to `ModKit.eco`.
 
 > [!WARNING]

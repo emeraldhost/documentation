@@ -38,8 +38,7 @@ Der Server kann genau **eine** Workshop Collection laden. Alle Addons, die Du au
    Die Collection-ID findest Du in der URL der Collection. Kopiere die Zahl nach `?id=`.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > In der URL `https://steamcommunity.com/sharedfiles/filedetails/?id=157384458` ist die Collection-ID `157384458`.
 
 3. **Verwaltung öffnen**\

@@ -42,8 +42,7 @@ Admins legst Du auf einem Abiotic Factor Server über die Datei `Admin.ini` fest
    ```
 
    > [!NOTE]
-   > **Abweichender Pfad möglich**
-   >
+   > **Abweichender Pfad möglich**\
    > Der Pfad der Datei lässt sich über den Startparameter `-AdminIniPath=` verlegen – der Wert wird relativ zum Ordner `Saved` angegeben. Findest Du die Datei nicht am oben genannten Ort, schau zusätzlich hier nach:
    >
    > ```text
@@ -93,6 +92,5 @@ Abiotic Factor unterstützt zusätzlich den Startparameter `-AdminPassword=<Pass
 > Wie Du als Admin Spieler vom Server entfernst, erfährst Du unter [Spieler kicken & bannen](/tutorials/gameserver/abiotic-factor/kick-ban-players).
 
 > [!WARNING]
-> **Keine Chat- oder Konsolenbefehle**
->
+> **Keine Chat- oder Konsolenbefehle**\
 > Für Abiotic Factor sind **keine** Admin-Befehle im Chat und keine Serverkonsole dokumentiert, über die Du Adminrechte vergeben könntest. Häufig kursierende Befehle wie `#SetAdmin` oder Konfigurationswerte wie `AdminSteamIDs` tauchen in der offiziellen Dokumentation nicht auf – Admins vergibst Du über die `Admin.ini` oder das Admin-Passwort.

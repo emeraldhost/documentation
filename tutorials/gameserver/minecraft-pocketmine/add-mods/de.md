@@ -137,8 +137,7 @@ Optische Änderungen für alle Spieler setzt Du über Resource Packs um.
 > Entpackte Resource Packs (also einfache Ordner) werden nicht unterstützt – erlaubt sind ausschließlich `.zip` und `.mcpack`. Ebenso lassen sich Resource Packs nicht pro Welt festlegen, sie gelten immer für den gesamten Server.
 
 > [!TIP]
-> **Resource Pack verpflichtend machen**
->
+> **Resource Pack verpflichtend machen**\
 > Mit dem Eintrag `force_resources` in der Datei `resource_packs.yml` im Ordner `resource_packs` legst Du fest, ob Spieler das Pack laden müssen, um beitreten zu können:
 >
 > ```yaml

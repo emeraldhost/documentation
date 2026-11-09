@@ -71,8 +71,7 @@ Dort liegen ebenfalls eine `.db`- und eine `.eco`-Datei. Beide benötigst Du fü
    ```
 
    > [!NOTE]
-   > **Warum genau diese Namen?**
-   >
+   > **Warum genau diese Namen?**\
    > Der Server lädt beim Start den Spielstand, der in `/Configs/Storage.eco` unter `SaveName` eingetragen ist. Standardmäßig steht dort `Game` – deshalb müssen die Dateien `Game.db` und `Game.eco` heißen. Alternativ trägst Du dort den Namen Deiner Dateien ein.
 
 7. **Server starten**\
@@ -98,8 +97,7 @@ Möchtest Du mit einer frisch generierten Welt starten, entfernst Du den bestehe
    Starte Deinen Server. Die Weltgenerierung kann beim ersten Start einige Minuten dauern.
 
 > [!TIP]
-> **Weltgröße und Seed**
->
+> **Weltgröße und Seed**\
 > Die Einstellungen für eine neue Welt stehen in `/Configs/WorldGenerator.eco`. Sie wirken sich **nur auf neu generierte Welten** aus – eine bestehende Welt ändert sich dadurch nicht. Die beiden Dimensionswerte müssen identisch und durch `4` teilbar sein.
 
 ## Weitere Einstellungen zum Spielstand

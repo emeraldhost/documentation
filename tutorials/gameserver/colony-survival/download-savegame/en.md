@@ -21,8 +21,6 @@ related: ["gameserver/colony-survival/add-savegame", "gameserver/colony-survival
 You can download the world of your server to your PC at any time – for example as an additional backup or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Colony Survival constantly writes to the world database while it is running – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -57,8 +55,7 @@ You can download the world of your server to your PC at any time – for example
 > Always download the **complete folder**. The files belong together: without `worldconfig.json` the save is missing the world type and the list of enabled mods, and without the `-wal` file the most recent changes to the world can be missing.
 
 > [!TIP]
-> **Back up your mods as well**
->
+> **Back up your mods as well**\
 > If your world uses mods, also save the mod directory so the world can be loaded again later:
 >
 > ```text
@@ -66,11 +63,9 @@ You can download the world of your server to your PC at any time – for example
 > ```
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to move the save back onto a server later, follow the guide [Add Savegame](/tutorials/gameserver/colony-survival/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/colony-survival/create-backup).

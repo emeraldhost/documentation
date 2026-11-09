@@ -44,8 +44,6 @@ Pl3xMap creates a lightweight web map of your Minecraft server in the vanilla re
    Choose an available port and note it down.
 
 > [!WARNING]
-> **Important**
->
 > Do **not** use your server's default port! Pl3xMap requires a separate port.
 
 ## Step 3: Configure the Config File

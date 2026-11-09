@@ -39,8 +39,7 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!TIP]
-> **Back up the configuration**
->
+> **Back up the configuration**\
 > If you only want to secure the most important files, download the folders `/left4dead2/cfg/` and `/left4dead2/addons/` via [SFTP](/tutorials/gameserver/establish-sftp-connection).
 
 > [!NOTE]

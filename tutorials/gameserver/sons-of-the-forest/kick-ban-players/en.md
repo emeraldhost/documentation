@@ -45,8 +45,6 @@ Your SteamID64 must be listed in the `ownerswhitelist.txt` file on the server. T
    - **Ban** removes the player and blocks them from your server permanently.
 
 > [!WARNING]
-> **Caution**
->
 > There is no documented way to undo a ban via a server file. Use bans deliberately and prefer the kick function for short-term measures.
 
 > [!TIP]

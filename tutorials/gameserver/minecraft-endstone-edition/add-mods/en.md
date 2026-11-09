@@ -33,8 +33,6 @@ Endstone does **not** support classic mods. Instead, the server is extended thro
 | `.so` | C++ | For Linux servers. Make sure to download the Linux build of the plugin. |
 
 > [!WARNING]
-> **Caution**
->
 > A `.dll` file is the Windows build of a C++ plugin and does **not** work on your Linux server. If a plugin offers both, always download the `.so` file.
 
 ## Where do I find plugins?
@@ -46,8 +44,6 @@ There is **no** official plugin marketplace with a browser for Endstone. You can
 - The GitHub topic [endstone-plugin](https://github.com/topics/endstone-plugin) gives an overview of public projects
 
 > [!WARNING]
-> **Caution**
->
 > Only download plugins from trustworthy sources and make sure the plugin matches your installed Endstone version.
 
 ## Install a plugin
@@ -124,8 +120,6 @@ reload
 > The command has the short form `rl`. Both require operator rights, see [Add admin](/tutorials/gameserver/minecraft-endstone-edition/add-admin).
 
 > [!WARNING]
-> **Caution**
->
 > `reload` is useful for applying configuration changes of an already installed plugin. For a **newly uploaded** or updated plugin, restart your server completely to be safe.
 
 ## Behavior and resource packs

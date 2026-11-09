@@ -68,8 +68,6 @@ There are two ways to remove players: directly in the game through the chat cons
 | `#unlock` | Unlock the server again |
 
 > [!WARNING]
-> **Caution**
->
 > Do not edit the ban files of your server by hand. Use `#exec unban` or the RCON commands to lift bans – this keeps the list in a valid state.
 
 ## Set up BattlEye RCON
@@ -124,8 +122,7 @@ With RCON you manage players from your PC without being in the game. In Arma 3, 
 | `say [player #] [message]` | Sends a message, `-1` sends it to everyone |
 
 > [!TIP]
-> **Lift a ban via RCON**
->
+> **Lift a ban via RCON**\
 > First run `bans` and note the number of the entry. Then lift the ban with `removeBan <ban #>`.
 
 > [!NOTE]

@@ -27,8 +27,7 @@ Serverseitig erweiterst Du Dein Spiel über drei Wege:
 - **Mod-Pakete** (`.smod`) – diese Möglichkeit gibt es nur bei OpenSoldat
 
 > [!NOTE]
-> **Zwei Serverversionen**
->
+> **Zwei Serverversionen**\
 > Für Soldat gibt es zwei Serverversionen mit unterschiedlicher Konfiguration. Welche bei Dir läuft, erkennst Du im Dateimanager beziehungsweise per [SFTP](/tutorials/gameserver/establish-sftp-connection):
 >
 > | Datei im Hauptverzeichnis | Version |
@@ -171,8 +170,7 @@ Zusätzlich kennt die Datei die Abschnitte `[SearchPaths]` und `[Defines]`.
 > Belasse `Sandboxed` möglichst auf `2`. Mit `0` darf ein Script auf das gesamte Laufwerk zugreifen – installiere nur Scripts aus Quellen, denen Du vertraust.
 
 > [!TIP]
-> **Verhalten bei Fehlern**
->
+> **Verhalten bei Fehlern**\
 > Stürzt ein Script ab, steuert `OnScriptCrash` (klassisch) beziehungsweise `sc_onscriptcrash` (OpenSoldat), was passiert: neu kompilieren, Server herunterfahren, ignorieren oder das Script deaktivieren.
 
 ## Mod-Pakete bei OpenSoldat

@@ -63,6 +63,5 @@ Nutze dafür das offizielle Tool **Space Engineers Dedicated Server** (kostenlos
 > Hash und Salt müssen ein zusammengehöriges Paar sein – erzeuge sie immer mit demselben Tool. Ein einzelnes Klartext-Feld `<ServerPassword>` gibt es in aktuellen Versionen nicht mehr.
 
 > [!TIP]
-> **Passwort entfernen**
->
+> **Passwort entfernen**\
 > Um den Passwortschutz zu entfernen, leere beide Felder wieder (`<ServerPasswordHash />` und `<ServerPasswordSalt />`) und starte den Server neu.

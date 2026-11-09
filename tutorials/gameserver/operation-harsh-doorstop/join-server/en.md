@@ -90,8 +90,7 @@ If your server does not show up in the server browser, add it directly in Steam.
 > Which values apply to your server is shown in the **dashboard**.
 
 > [!WARNING]
-> **Server cannot be found**
->
+> **Server cannot be found**\
 > If your server appears neither in the server browser nor after adding it to your favorites, check the following:
 >
 > - Is the server actually running according to the dashboard?
@@ -100,6 +99,5 @@ If your server does not show up in the server browser, add it directly in Steam.
 > - Did you refresh the list in Steam after adding the server? Without a refresh the entry stays empty.
 
 > [!NOTE]
-> **Mods on the server**
->
+> **Mods on the server**\
 > If your server runs a modded map or game mode, you need the matching content on your PC as well. Subscribe to the mods used on the **Steam Workshop** and restart the game afterwards. See [Add Mods](/tutorials/gameserver/operation-harsh-doorstop/add-mods) for more.

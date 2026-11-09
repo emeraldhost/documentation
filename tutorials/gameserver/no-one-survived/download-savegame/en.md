@@ -40,8 +40,7 @@ You can download your server's savegame to your PC at any time – for example a
    Download all `.sav` files that belong to your savegame. These are all files that start with your save name followed by an underscore – for example all files starting with `MyWorld_`.
 
    > [!NOTE]
-   > **Which savegame is the active one?**
-   >
+   > **Which savegame is the active one?**\
    > Which savegame is currently loaded is shown by the save name in the **dashboard**. The server uses the files whose name before the first underscore matches that entry exactly.
 
 5. **Download the automatic saves (optional)**\
@@ -62,11 +61,9 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> **Load the savegame back in**
->
+> **Load the savegame back in**\
 > If you want to transfer the savegame back onto a server later, follow the guide [Add Savegame](/tutorials/gameserver/no-one-survived/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create Backup](/tutorials/gameserver/no-one-survived/create-backup).

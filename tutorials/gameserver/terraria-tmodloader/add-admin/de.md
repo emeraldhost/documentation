@@ -62,6 +62,4 @@ Admins werden in Terraria tModLoader über einen Authentifizierungscode vergeben
 > Um weiteren Spielern Admin-Rechte zu geben, teile ihnen den aktuellen Auth-Code mit oder richte ein dauerhaftes Passwort ein, das sie verwenden können.
 
 > [!WARNING]
-> **Hinweis**
->
 > Das Auth-Code-System ist eine Funktion von tModLoader. Vanilla-Terraria-Server verwenden stattdessen die Serverkonsole direkt fuer Admin-Befehle und haben kein Auth-System. Wenn Du Vanilla Terraria ohne tModLoader nutzt, benoetigst Du ein Mod wie Hero's Mod oder TShock, um ein Ingame-Admin-System zu erhalten.

@@ -34,8 +34,6 @@ A backup of your Midnight Ghost Hunt server secures the server files and your co
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. This makes sure no files are written in the meantime and the backup is complete.
 
 > [!NOTE]

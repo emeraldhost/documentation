@@ -75,8 +75,7 @@ Soldat 2 identifies players by their **PlayFab ID**, a 16-character hexadecimal 
 > The values `Name`, `Port`, `WebSocketsPort`, `WebSocketsRconPort`, `RconPassword`, `MaxPlayers`, `GreetMessage`, `AdminPlayfabId` and `ServerPassword` are written from the **dashboard** into the `autoconfig.ini` on **every server start**. These values therefore belong in the dashboard, not in the file.
 
 > [!NOTE]
-> **Spelling**
->
+> **Spelling**\
 > You will find two spellings of this key online: `AdminPlayfabId` and `AdminPlayfabID`. What counts is the spelling that is already in your `autoconfig.ini` – keep it exactly as it is.
 
 ## Further admins via the RCON password

@@ -22,8 +22,6 @@ related: ["gameserver/space-engineers/change-server-name", "gameserver/space-eng
 You can download your server's world to your PC at any time – for example as an additional backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted world.
 
 1. **Stop the server**\
@@ -49,11 +47,9 @@ You can download your server's world to your PC at any time – for example as a
 > The world name on your server is fixed to **World** and cannot be changed (visible in the **Config Editor**). Your world is therefore always located in the `/config/Saves/World/` folder – there is no other folder you would have to look in.
 
 > [!TIP]
-> **Restore the world**
->
+> **Restore the world**\
 > If you want to transfer the world back to a server later, follow the guide [Upload world](/tutorials/gameserver/space-engineers/upload-world).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For regular backups you can use your server's [automatic backups](/tutorials/gameserver/space-engineers/configure-automatic-backups) or create a manual [backup](/tutorials/gameserver/create-backup).

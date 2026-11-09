@@ -62,16 +62,13 @@ Der Spielstand eines Myth of Empires Servers ist keine einzelne Datei, sondern d
 > Der Konfigurationsordner heißt auch auf Deinem Linux-Server `WindowsServer`. Das ist so gewollt – Myth of Empires stellt nur ein Windows-Serverprogramm bereit, das auf Linux-Servern über eine Kompatibilitätsschicht läuft.
 
 > [!CAUTION]
-> **Spielstand hängt an der Server-ID**
->
+> **Spielstand hängt an der Server-ID**\
 > Der Spielstand wird unter der **Server-ID** Deines Servers abgelegt. Änderst Du diese ID, findet der Server seinen bisherigen Spielstand nicht mehr und legt eine neue, leere Welt an. Notiere Dir die Server-ID Deines Servers, bevor Du den Spielstand woanders wieder einspielst.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/myth-of-empires/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/myth-of-empires/create-backup).

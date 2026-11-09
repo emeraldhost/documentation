@@ -40,13 +40,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download your world folder separately: [Download Savegame](/tutorials/gameserver/voyagers-of-nera/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Voyagers of Nera saves automatically at regular intervals – a backup taken during operation can contain an incomplete savegame.
 
 > [!NOTE]
-> **What belongs to the savegame?**
->
+> **What belongs to the savegame?**\
 > Both your world and your server settings are stored in `/BoatGame/Saved/PersistedData/`. A backup of that directory therefore contains both: your world folder and the `CustomConfig` folder.
 
 > [!NOTE]

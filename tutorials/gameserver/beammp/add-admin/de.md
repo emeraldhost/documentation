@@ -45,8 +45,6 @@ BeamMP verfügt standardmäßig über kein integriertes Admin-System. Admins wer
    Speichere alle Änderungen und starte Deinen Server.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende nur Plugins aus vertrauenswürdigen Quellen. Prüfe den Code oder die Bewertungen, bevor Du ein Plugin installierst.
 
 > [!NOTE]

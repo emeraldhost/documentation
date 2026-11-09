@@ -54,8 +54,6 @@ As long as the player is online, their player name is enough.
    The server confirms with `Changed admin status of player: <name>`. The rights apply immediately – no restart is required.
 
 > [!WARNING]
-> **Caution**
->
 > If the server reports `Nobody with that name or ID could be found.`, the player is either not online or the name does not match exactly. Check the spelling with `players` or use the UUID instead.
 
 ## Add an admin by UUID

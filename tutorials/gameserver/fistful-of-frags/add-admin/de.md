@@ -21,8 +21,7 @@ related: ["gameserver/fistful-of-frags/add-mods", "gameserver/fistful-of-frags/c
 Fistful of Frags bringt von Haus aus **kein Adminsystem** mit. Es gibt keine Adminliste im Spiel und keine Servereinstellung, mit der Du einen Spieler zum Admin machst. Verwaltet wird der Server über die **Serverkonsole** beziehungsweise **RCON** – Adminrechte direkt im Spiel gibt es ausschließlich über **SourceMod**.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Metamod:Source und SourceMod müssen auf Deinem Server installiert sein. Wie das geht, steht unter [Mods hinzufügen](/tutorials/gameserver/fistful-of-frags/add-mods).
 
 ## SteamID herausfinden

@@ -24,8 +24,7 @@ HumanitZ works with an **admin password**: you store it in the configuration fil
 > Everyone who knows the admin password has full admin rights on your server. Only share it with people you trust and use a different password than your server and RCON password.
 
 > [!NOTE]
-> **Project folder**
->
+> **Project folder**\
 > All paths in this guide start with the project folder `HumanitZServer`. If your server still runs a version older than HumanitZ 1.0, that folder is called `TSSGame` instead. Check via SFTP which of the two folders exists on your server and adjust the paths accordingly.
 
 ## Set the admin password

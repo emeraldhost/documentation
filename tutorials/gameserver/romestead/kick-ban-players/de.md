@@ -44,8 +44,7 @@ ban <IP-Adresse>
 Der Spieler wird vom Server getrennt und kann sich nicht mehr verbinden, solange der Bann aktiv ist.
 
 > [!CAUTION]
-> **Banns überleben keinen Neustart**
->
+> **Banns überleben keinen Neustart**\
 > Banns gelten nur bis zum nächsten Serverstart. Sobald Du Deinen Server neu startest oder er durch ein Update neu gestartet wird, ist die Bannliste wieder leer und der Spieler kann sich erneut verbinden. Du musst den Befehl danach erneut ausführen.
 
 ## Bann aufheben

@@ -21,8 +21,6 @@ related: ["gameserver/vein/add-savegame", "gameserver/vein/create-backup", "game
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive a save, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -48,11 +46,9 @@ You can download your server's savegame to your PC at any time – for example a
 > Your server's savegame is usually named `Server.vns`. If there are several `.vns` files in the folder, it is best to download all of them – that way older saves are backed up as well.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/vein/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/vein/create-backup).

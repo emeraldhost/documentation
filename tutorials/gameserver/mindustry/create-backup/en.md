@@ -54,8 +54,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the `.msav` files separately: [Download savegame](/tutorials/gameserver/mindustry/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Mindustry writes settings immediately and saves regularly to disk – a backup taken during operation can contain an incomplete state.
 
 ## Auto-saves as an additional safety net

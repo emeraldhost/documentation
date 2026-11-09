@@ -59,6 +59,5 @@ Enshrouded hat keinen Knopf zum Zurücksetzen. Eine frische Welt bekommst Du, in
 > Soll die neue Welt nach anderen Regeln laufen, ändere die [Schwierigkeit](/tutorials/gameserver/enshrouded/adjust-difficulty), bevor Du den Server wieder startest.
 
 > [!TIP]
-> **Alte Welt zurückholen**
->
+> **Alte Welt zurückholen**\
 > Hast Du vor dem Löschen ein Backup erstellt, stellst Du es über die Verwaltung wieder her: [Backup erstellen](/tutorials/gameserver/enshrouded/create-backup). Hast Du den Spielstand stattdessen auf Deinen PC heruntergeladen, lädst Du ihn per SFTP wieder hoch: [Savegame hinzufügen](/tutorials/gameserver/enshrouded/add-savegame).

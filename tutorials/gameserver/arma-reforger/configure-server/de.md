@@ -155,8 +155,7 @@ Der Bereich `operating` ist in der `config.json` nach der Installation nicht ent
 | `disableServerShutdown`, `lobbyPlayerSynchronise` | Verhalten bei Verbindungsabbrüchen zum Backend und Abgleich der Spieleranzahl – siehe [Häufige Probleme beheben](/tutorials/gameserver/arma-reforger/troubleshoot-server) |
 
 > [!TIP]
-> **Beispiel**
->
+> **Beispiel**\
 > So sieht ein `operating`-Bereich aus, der eine Warteschlange für bis zu 10 Spieler aktiviert:
 >
 > ```json

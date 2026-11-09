@@ -65,13 +65,11 @@ Der Server schreibt die laufende Partie nicht dauerhaft auf die Festplatte. Sich
 > Welche Spielstände auf Deinem Server liegen, zeigt Dir in der Konsole der Befehl `saves`. Er listet alle Slots ohne die Endung `.msav` auf.
 
 > [!TIP]
-> **Auto-Saves**
->
+> **Auto-Saves**\
 > Hast Du automatische Speicherungen aktiviert, findest Du im selben Ordner zusätzlich Dateien mit dem Präfix `auto_`, zum Beispiel `auto_Ground_Zero_....msav`. Auch diese kannst Du herunterladen und später wieder laden.
 
 > [!TIP]
-> **Einstellungen und Karten mitsichern**
->
+> **Einstellungen und Karten mitsichern**\
 > Möchtest Du mehr als nur den Spielstand sichern, lade zusätzlich folgende Dateien herunter:
 >
 > | Pfad | Inhalt |
@@ -84,11 +82,9 @@ Der Server schreibt die laufende Partie nicht dauerhaft auf die Festplatte. Sich
 > `settings.bin` ist eine Binärdatei. Sichere sie, aber bearbeite sie nicht mit einem Texteditor – dabei gehen Admins, Banns und Einstellungen verloren.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/mindustry/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/mindustry/create-backup).

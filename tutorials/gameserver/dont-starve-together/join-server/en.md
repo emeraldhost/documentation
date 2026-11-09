@@ -23,8 +23,6 @@ There are two ways to join your server: through the in-game server browser or th
 ## Find connection details
 
 > [!WARNING]
-> **Important**
->
 > For a direct connection you need the **IP address** and the **Game Port** of your server. You can find both in the dashboard of your server. The ports `master_server_port` and `authentication_port` from the `[STEAM]` section of the `server.ini` file are internal Steam ports and are **not** used to connect.
 
 ## Via the in-game server browser

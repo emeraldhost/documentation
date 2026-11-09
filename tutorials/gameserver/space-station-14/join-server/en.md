@@ -81,8 +81,7 @@ For your server to show up in the public server list (hub), you have to enable t
    Search for the name of your server in the server list of the launcher.
 
 > [!WARNING]
-> **Server does not appear in the list**
->
+> **Server does not appear in the list**\
 > If the server console shows a message such as `[ERRO] hub: Error status while advertising server: [UnprocessableEntity] "Unable to contact status address"`, the hub could not reach your server. In that case check whether you are using the correct ports from the dashboard and whether your server is running. Until that is sorted out you can always reach your server through the direct connection.
 
 ## Which ports does Space Station 14 use?

@@ -21,8 +21,7 @@ related: ["gameserver/ark-survival-evolved/add-savegame", "gameserver/ark-surviv
 Du kannst Spieler per Konsolenbefehl kicken und bannen.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Du musst Admin auf Deinem Server sein. Hier findest Du eine Anleitung, wie Du einen [Admin hinzufügst](/tutorials/gameserver/ark-survival-evolved/add-admin).
 
 > [!TIP]

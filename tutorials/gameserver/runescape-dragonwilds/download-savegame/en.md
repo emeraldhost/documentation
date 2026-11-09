@@ -21,8 +21,6 @@ related: ["gameserver/runescape-dragonwilds/create-backup", "gameserver/runescap
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted savegame.
 
 1. **Stop the server**\
@@ -45,16 +43,13 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> **Find the right file**
->
+> **Find the right file**\
 > If there are several `.sav` files in the directory, you can find the name of the active world in the **Config Editor** in the dashboard in the **Server Name** field – the matching file has exactly that name plus the `.sav` extension.
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to transfer the savegame back to a server later, follow the guide [Add savegame](/tutorials/gameserver/runescape-dragonwilds/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/runescape-dragonwilds/create-backup).

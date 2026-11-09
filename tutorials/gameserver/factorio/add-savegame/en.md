@@ -63,13 +63,11 @@ You can transfer a local save to your server to continue playing with an existin
 > If the server does not find a file matching the configured **Save Name** in the `saves` folder, it automatically generates a **new, empty world** with that name on startup. Double-check the spelling, including upper and lower case.
 
 > [!WARNING]
-> **Versions**
->
+> **Versions**\
 > A save from a newer Factorio version cannot be loaded on an older server. Older saves are migrated when loaded, but only across a limited range of versions.
 
 > [!TIP]
-> **Mods**
->
+> **Mods**\
 > If the save was played with mods, the same mods have to be present on the server as well. See [Add mods](/tutorials/gameserver/factorio/add-mods) for how to install them.
 
 > [!TIP]

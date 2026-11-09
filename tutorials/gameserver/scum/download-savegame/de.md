@@ -52,8 +52,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Die drei Dateien gehören zusammen: `SCUM.db` ist die eigentliche Datenbank mit Welt, Basen, Fahrzeugen und Charakteren, `SCUM.db-wal` das Write-Ahead-Log und `SCUM.db-shm` die zugehörige Shared-Memory-Datei. Sichere sie deshalb immer gemeinsam.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich den folgenden Ordner herunter:
 >
 > ```text
@@ -63,11 +62,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Dort liegen unter anderem `ServerSettings.ini`, `AdminUsers.ini` und `BannedUsers.ini`.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/scum/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/scum/create-backup).

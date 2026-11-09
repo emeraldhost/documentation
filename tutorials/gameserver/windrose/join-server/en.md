@@ -50,8 +50,7 @@ To join your server, you need the [invite code](/tutorials/gameserver/windrose/s
 ## Via direct connection (IP address)
 
 > [!NOTE]
-> **Prerequisite**
->
+> **Prerequisite**\
 > [Direct connection must be enabled](/tutorials/gameserver/windrose/enable-direct-connection).
 
 1. **Launch Windrose**\

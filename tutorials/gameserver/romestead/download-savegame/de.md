@@ -52,16 +52,14 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Welche Welt lädt mein Server?**
->
+> **Welche Welt lädt mein Server?**\
 > Welche Welt beim Start geladen wird, steht in der `config.json` im Hauptverzeichnis Deines Servers beim Wert `AutoStartWorldName`.
 
 > [!WARNING]
 > Lade den Ordner immer komplett herunter. Einzelne Dateien daraus ergeben keinen nutzbaren Spielstand.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Datei herunter:
 >
 > ```text
@@ -71,11 +69,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > Dort stehen unter anderem der Name der automatisch geladenen Welt und die weiteren Grundeinstellungen Deines Servers.
 
 > [!NOTE]
-> **Spielstand aus dem Einzelspieler**
->
+> **Spielstand aus dem Einzelspieler**\
 > Für Welten aus dem lokalen Einzelspieler-Modus gibt es keinen dokumentierten Weg auf einen dedizierten Server: Weder der Speicherort der lokalen Welten noch ein Übertragungsverfahren sind offiziell beschrieben. Lege Deine Welt daher direkt auf dem Server an.
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/romestead/create-backup).

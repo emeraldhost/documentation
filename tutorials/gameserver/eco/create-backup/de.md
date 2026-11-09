@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Möchtest Du nur die Welt sichern, kannst Du die beiden Spielstandsdateien auch einzeln herunterladen: [Savegame herunterladen](/tutorials/gameserver/eco/download-savegame).
 
 > [!NOTE]
-> **Automatische Sicherungen des Servers**
->
+> **Automatische Sicherungen des Servers**\
 > Eco legt im Ordner `/Storage/Backup/` zusätzlich eigene Sicherungen an. Diese werden rollierend überschrieben und ersetzen kein eigenes Backup – verlasse Dich für wichtige Stände nicht allein darauf.
 
 > [!NOTE]

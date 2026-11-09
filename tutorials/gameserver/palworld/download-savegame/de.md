@@ -52,11 +52,9 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen, zum
 > Der Parameter `DedicatedServerName=` enthält den Namen des verwendeten Savegame-Ordners.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/palworld/upload-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/palworld/create-backup).

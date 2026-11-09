@@ -21,8 +21,7 @@ related: ["gameserver/counter-strike-source/add-mods", "gameserver/counter-strik
 Counter-Strike Source does **not** ship with an admin system. In-game admin rights are only available through **SourceMod**.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > Metamod:Source and SourceMod have to be installed on your server. See [Add Mods](/tutorials/gameserver/counter-strike-source/add-mods) for how to do that.
 
 ## Find the SteamID

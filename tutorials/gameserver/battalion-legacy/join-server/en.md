@@ -26,8 +26,7 @@ BATTALION Legacy comes with a working in-game **server browser**. You find your 
 > You can find the **server name** as well as the **IP address** and the ports of your server in the **dashboard**. The server name is the most important value – you use it to look up your server in the server browser.
 
 > [!NOTE]
-> **Which ports does BATTALION Legacy use?**
->
+> **Which ports does BATTALION Legacy use?**\
 > Your server uses two ports:
 >
 > | Port | Purpose |
@@ -64,15 +63,12 @@ BATTALION Legacy comes with a working in-game **server browser**. You find your 
 > Choose a server name that is as distinctive as possible. A very generic name makes it unnecessarily hard to tell your server apart from the others in the list.
 
 > [!NOTE]
-> **Connecting directly via IP**
->
+> **Connecting directly via IP**\
 > There is no field for an IP address in the game menu. The official server documentation of BATTALION 1944, the predecessor of BATTALION Legacy, lists the console command `connect <IP>:<Game Port>`. Whether it still works in the current build is not documented – how to enable the console is described in [Add Admin](/tutorials/gameserver/battalion-legacy/add-admin).
 
 ## Square bracket after the server name
 
 > [!WARNING]
-> **Caution**
->
 > If your server appears in the list with a square bracket at the end of its name – `My Server` becomes `My Server]` – this is a known issue with the way the name is passed on and not a typo in your settings. It has no effect on how your server runs.
 >
 > For that reason, search the server browser for a distinctive part of the name **without** the appended character.
@@ -80,8 +76,6 @@ BATTALION Legacy comes with a working in-game **server browser**. You find your 
 ## Your server does not appear in the list
 
 > [!WARNING]
-> **Caution**
->
 > If your server does not show up in the server browser, work through these points one by one:
 >
 > - **Is the server really online?** Check in the dashboard whether the server is running and not currently restarting or installing files.

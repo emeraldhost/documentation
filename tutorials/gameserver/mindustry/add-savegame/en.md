@@ -72,8 +72,6 @@ In Mindustry a save is a single file with the extension `.msav`. Your server rea
    Your server then hosts the loaded state and players can join.
 
 > [!WARNING]
-> **Caution**
->
 > Loading a different save replaces the running game. Create a [backup](/tutorials/gameserver/mindustry/create-backup) first or download the current state in case you want to switch back.
 
 > [!IMPORTANT]
@@ -88,8 +86,6 @@ config startCommands load myworld
 ```
 
 > [!WARNING]
-> **Caution**
->
 > Do **not** put the command in quotation marks. Mindustry stores everything after the setting name literally – quotation marks would be saved along with it and the startup command would fail on the next start.
 
 > [!NOTE]
@@ -106,8 +102,7 @@ Your singleplayer saves are stored on your PC in the Mindustry data directory:
 | macOS | `~/Library/Application Support/Mindustry/saves/` |
 
 > [!WARNING]
-> **Steam version**
->
+> **Steam version**\
 > The Steam version places its data directory **inside the game folder**. You will find the saves there under `saves/saves/` within your Mindustry installation folder, not in the paths listed above.
 
 > [!IMPORTANT]
@@ -149,6 +144,4 @@ Maps are not saves but a separate file type – they live in a different folder,
    > Spaces in the map name may be written as underscores, and the map name is not case sensitive. If the server reports `No map with name '...' found.`, check the name with `maps custom`.
 
 > [!WARNING]
-> **Caution**
->
 > Starting a map with `host` begins a new game. Your previous progress is only kept if you saved it beforehand with `save <slot>`.

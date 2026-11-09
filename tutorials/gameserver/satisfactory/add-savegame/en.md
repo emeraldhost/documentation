@@ -93,8 +93,7 @@ Alternatively you can place the file directly into the save folder of your serve
 > Uploading alone is not enough. The server keeps loading the previous save until you have selected and loaded the new one in the Server Manager.
 
 > [!NOTE]
-> **Transferring a single player save**
->
+> **Transferring a single player save**\
 > You can also upload a save from your single player game – it uses the same file format. Work with a copy so your local world stays untouched.
 
 > [!IMPORTANT]

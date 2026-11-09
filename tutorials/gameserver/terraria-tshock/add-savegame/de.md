@@ -69,16 +69,13 @@ Du kannst eine bestehende Welt auf Deinen Server übertragen, um dort weiterzusp
 > Der Weltname wird **exakt** so gesucht, wie Du ihn einträgst – Groß- und Kleinschreibung inklusive. Findet der Server keine passende `.wld`-Datei, erzeugt er beim Start automatisch eine **neue, leere Welt** mit diesem Namen. Heißt Deine Datei `MeineWelt.wld` und Du trägst `meinewelt` ein, landest Du also in einer frisch generierten Welt statt in Deiner hochgeladenen.
 
 > [!WARNING]
-> **Welt wechseln**
->
+> **Welt wechseln**\
 > Möchtest Du eine alte Welt vollständig ersetzen, entferne die alte `.wld`-Datei aus dem Hauptverzeichnis. So kommt es später nicht zu Verwechslungen. Sichere sie vorher, falls Du zurückwechseln möchtest: [Savegame herunterladen](/tutorials/gameserver/terraria-tshock/download-savegame).
 
 > [!NOTE]
-> **Server Side Characters**
->
+> **Server Side Characters**\
 > Eine `.wld`-Datei enthält nur die Welt. Sind die Server Side Characters aktiv (Wert `Enabled` in `/tshock/sscconfig.json`), liegen Inventar und Fortschritt der Spieler in `/tshock/tshock.sqlite`. Möchtest Du auch die Charaktere von einem anderen tShock-Server übernehmen, überträgst Du zusätzlich diese Datei – dabei wandern allerdings auch Accounts, Gruppen und Banns mit.
 
 > [!WARNING]
-> **tModLoader**
->
+> **tModLoader**\
 > `.twld`-Dateien gehören zu tModLoader und werden von einem tShock-Server nicht verwendet. Eine tModLoader-Welt gehört auf einen tModLoader-Server: [Savegame hinzufügen (tModLoader)](/tutorials/gameserver/terraria-tmodloader/add-savegame).

@@ -40,8 +40,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Lade alle `.sav`-Dateien herunter, die zu Deinem Spielstand gehören. Das sind alle Dateien, die mit Deinem Savegame-Namen und einem Unterstrich beginnen – zum Beispiel alle Dateien, die mit `MeineWelt_` anfangen.
 
    > [!NOTE]
-   > **Welcher Spielstand ist der aktive?**
-   >
+   > **Welcher Spielstand ist der aktive?**\
    > Welcher Spielstand aktuell geladen wird, siehst Du am Savegame-Namen in der **Verwaltung**. Der Server verwendet die Dateien, deren Name vor dem ersten Unterstrich genau diesem Eintrag entspricht.
 
 5. **Automatische Sicherungen herunterladen (optional)**\
@@ -62,11 +61,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/no-one-survived/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/no-one-survived/create-backup).

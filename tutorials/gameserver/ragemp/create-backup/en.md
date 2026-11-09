@@ -33,8 +33,6 @@ Regular backups of your RAGE:MP server protect you from data loss – whether du
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!NOTE]
-> **Tip**
->
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!NOTE]

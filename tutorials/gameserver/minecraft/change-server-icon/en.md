@@ -41,6 +41,4 @@ The server icon must meet the following requirements:
    Restart the server so the icon becomes active.
 
 > [!WARNING]
-> **Important**
->
 > The file must be named exactly `server-icon.png` and be exactly 64x64 pixels. Other formats or sizes will not be recognized.

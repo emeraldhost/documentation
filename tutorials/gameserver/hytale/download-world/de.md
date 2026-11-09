@@ -50,11 +50,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen, zum Bei
 > Auf Deinem Server können mehrere Welten gleichzeitig geladen sein. Welche davon die Standardwelt ist, siehst Du in der `config.json` im Hauptverzeichnis Deines Servers: Im `Defaults` Block gibt der Wert `World` den Namen des Welt-Ordners an. Alle geladenen Welten zeigt Dir der Konsolenbefehl `world list`.
 
 > [!TIP]
-> **Welt wieder einspielen**
->
+> **Welt wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Welt hochladen](/tutorials/gameserver/hytale/upload-world).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/hytale/create-backup).

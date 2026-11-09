@@ -35,8 +35,7 @@ Administrators on an Avorion server are defined by their **SteamID64** – a 17-
    Save the change and restart your server. The admin rights only take effect after a restart.
 
 > [!NOTE]
-> **Several admins**
->
+> **Several admins**\
 > Via the dashboard you define exactly one admin. If you want to make further people admins, use the next section and enter them directly in the `admin.xml`.
 
 ## Via the admin.xml

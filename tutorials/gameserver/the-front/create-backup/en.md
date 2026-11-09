@@ -34,8 +34,6 @@ Regular backups of your The Front server protect you from data loss – whether 
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. The Front saves regularly while running – a backup taken during operation can be incomplete.
 
 > [!TIP]

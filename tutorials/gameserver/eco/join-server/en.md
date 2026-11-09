@@ -86,16 +86,14 @@ For your server to appear in the public server list, it has to be published ther
 | **Server Category** | Category your server is listed under: `Beginner`, `Established`, `BeginnerHard` or `Strange` |
 
 > [!NOTE]
-> **Mind the capitalisation**
->
+> **Mind the capitalisation**\
 > `Network.eco` is a JSON file. The category values are written exactly as shown above – `BeginnerHard` without a space and with a capital `B` and `H`. A differently spelled value is not recognised.
 
 > [!WARNING]
 > Changes to the configuration files only take effect after a **restart of the server**. A server that has a password set usually does not show up in the public listing either.
 
 > [!TIP]
-> **Your server is still reachable**
->
+> **Your server is still reachable**\
 > Even if your server is not in the public list you can add it at any time via the plus button using the IP address and Game Port. Simply pass both on to your fellow players.
 
 ## Which ports does Eco use?

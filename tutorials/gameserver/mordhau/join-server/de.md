@@ -40,8 +40,7 @@ Deinen Server findest Du entweder über den Serverbrowser im Spiel, oder Du verb
    Wähle Deinen Server aus der Liste aus und tritt ihm bei.
 
 > [!NOTE]
-> **Passwortgeschützter Server**
->
+> **Passwortgeschützter Server**\
 > Ist für Deinen Server ein Passwort gesetzt, wirst Du beim Beitreten danach gefragt. Das Passwort findest Du in der **Verwaltung** Deines Servers.
 
 ## Über Steam verbinden

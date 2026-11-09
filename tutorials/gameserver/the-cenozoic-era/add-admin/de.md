@@ -54,8 +54,7 @@ Admin-Rechte vergibst Du auf Deinem The Cenozoic Era Server über die Konfigurat
 > Laut Kommentar in der `Game.ini` trägst Du bei `Owners=` eine **Steam NetID** ein. Ein Owner erhält damit Zugriff auf die Befehle und einen farbig hervorgehobenen Namen im Spiel.
 
 > [!WARNING]
-> **Nur `Owners=` ist dokumentiert**
->
+> **Nur `Owners=` ist dokumentiert**\
 > Der Kommentar in der Datei erwähnt neben Ownern auch Admins und Moderatoren, die Vorlage enthält aber ausschließlich den Eintrag `Owners=`. Wie die Schlüssel für Admins und Moderatoren heißen und in welchem Format sie einzutragen sind, ist nicht dokumentiert – trage dort nichts auf Verdacht ein.
 
 ## Namensfarben der Rollen

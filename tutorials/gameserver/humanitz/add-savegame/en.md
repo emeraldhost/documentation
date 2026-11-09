@@ -24,8 +24,7 @@ The savegame of a HumanitZ server is stored in a single file following the patte
 > Create a [backup](/tutorials/gameserver/humanitz/create-backup) of your current server save before uploading, in case you want to switch back later.
 
 > [!NOTE]
-> **Project folder**
->
+> **Project folder**\
 > All paths in this guide start with the project folder `HumanitZServer`. If your server still runs a version older than HumanitZ 1.0, that folder is called `TSSGame` instead. Check via SFTP which of the two folders exists on your server and adjust the paths accordingly.
 
 ## Files of the savegame
@@ -94,6 +93,5 @@ Both files are located in the same folder and belong together. Always transfer t
 When moving from another HumanitZ server, the easiest way is to download the complete `Default` folder and upload it again on the new server. How to download it is described in [Download Savegame](/tutorials/gameserver/humanitz/download-savegame).
 
 > [!NOTE]
-> **Singleplayer savegame**
->
+> **Singleplayer savegame**\
 > There is **no documented procedure** for transferring a singleplayer savegame to a dedicated server. Neither the official wiki nor the server documentation describes such a way. This guide therefore only covers savegames that come from a dedicated server.

@@ -40,13 +40,11 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!TIP]
-> **Back up the configuration**
->
+> **Back up the configuration**\
 > If you only want to secure the most important files, download the folders `/iosoccer/cfg/`, `/iosoccer/addons/` and `/iosoccer/maps/` as well as the file `/iosoccer/mapcycle.txt` via [SFTP](/tutorials/gameserver/establish-sftp-connection).
 
 > [!NOTE]
-> **Match statistics**
->
+> **Match statistics**\
 > If you let your server store match data, it writes the results as JSON files into the `statistics` folder of the game directory. If the folder `/iosoccer/statistics/` exists on your server, include it in the backup – otherwise your past match results are gone after a restore.
 
 > [!WARNING]

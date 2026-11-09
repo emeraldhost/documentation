@@ -155,8 +155,7 @@ Sobald Du selbst in der Gruppe `god` bist, vergibst Du alle weiteren Rechte bequ
 > Dort bleiben Deine Anpassungen auch nach einem Update erhalten.
 
 > [!CAUTION]
-> **Cheat-Befehle schalten Erfolge dauerhaft ab**
->
+> **Cheat-Befehle schalten Erfolge dauerhaft ab**\
 > Einige Befehle stehen erst zur Verfügung, wenn Du mit `/disableachievements` die Cheats aktivierst. Dieser Schritt lässt sich für die betroffene Welt **nicht rückgängig machen** – Steam-Erfolge sind darin danach dauerhaft deaktiviert.
 
 > [!TIP]

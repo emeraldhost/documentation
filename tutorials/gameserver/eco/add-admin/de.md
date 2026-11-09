@@ -59,8 +59,7 @@ Deine SLG-ID zeigt Dir der Server direkt im Spiel an:
    ```
 
    > [!NOTE]
-   > **Datei existiert nicht?**
-   >
+   > **Datei existiert nicht?**\
    > In `/Configs/` liegt zu jeder Konfiguration zusätzlich eine Datei mit der Endung `.eco.template`. Diese Vorlage enthält nur die Standardwerte und wird vom Server nicht gelesen. Fehlt `Users.eco`, kopiere `Users.eco.template` und benenne die Kopie in `Users.eco` um.
 
 4. **ID eintragen**\
@@ -95,8 +94,7 @@ Deine SLG-ID zeigt Dir der Server direkt im Spiel an:
 > `Users.eco` muss gültiges JSON bleiben. Ein fehlendes oder überzähliges Komma reicht aus, damit die Datei nicht mehr eingelesen wird. Prüfe die Datei nach dem Bearbeiten deshalb mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/). Geht etwas schief, kannst Du Dir mit `Users.eco.template` den ursprünglichen Aufbau der Datei ansehen.
 
 > [!NOTE]
-> **Erster Admin**
->
+> **Erster Admin**\
 > Der erste Admin lässt sich nur über die Datei eintragen. Die Chatbefehle zum Vergeben von Adminrechten setzen selbst bereits Adminrechte voraus.
 
 ## Weitere Admins im Spiel vergeben

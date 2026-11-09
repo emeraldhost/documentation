@@ -21,13 +21,10 @@ related: ["gameserver/cryofall/add-admin", "gameserver/cryofall/add-savegame", "
 Mods in CryoFall are individual **`.mpk` files**. You upload them into the `/Data/Mods/` folder and then activate them in the file `/Data/ModsConfig.xml`. Without an entry in that file an uploaded mod is not loaded.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before adding, updating or removing mods. Also create a [backup](/tutorials/gameserver/cryofall/create-backup) beforehand – mods can change your world permanently.
 
 > [!NOTE]
-> **No Steam Workshop**
->
+> **No Steam Workshop**\
 > There is no Workshop integration for CryoFall servers. You always upload the `.mpk` file of every mod manually.
 
 ## Get the mod
@@ -106,8 +103,7 @@ Mods in CryoFall are individual **`.mpk` files**. You upload them into the `/Dat
 > Your server does **not** distribute mods to players automatically. For a mod tagged `[Client+Server]` every player has to install the same `.mpk` file in their own game as well – the mod author describes how in their forum post. Pure `[Server]` mods require no installation on the player side.
 
 > [!WARNING]
-> **Do not block client mods**
->
+> **Do not block client mods**\
 > In the file `/Data/SettingsServer.xml` the value `no_client_mods` controls whether players may join with their own mods. On a modded server it has to be `0`:
 >
 > ```xml
@@ -131,8 +127,6 @@ Mods in CryoFall are individual **`.mpk` files**. You upload them into the `/Dat
    Start your server again.
 
 > [!WARNING]
-> **Caution**
->
 > If you remove a mod that added items, buildings or technologies to the world, its content disappears from your world. When in doubt restore a [backup](/tutorials/gameserver/cryofall/create-backup) instead of simply deleting the mod.
 
 > [!NOTE]

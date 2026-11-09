@@ -87,8 +87,7 @@ Du kannst einen lokalen Spielstand auf Deinen Server übertragen, um mit einer b
 > `SaveMode` muss auf `Continue` stehen. Steht dort `New`, wird der Slot beim nächsten Serverstart mit einer frisch generierten Welt überschrieben und Dein hochgeladener Spielstand ist verloren.
 
 > [!TIP]
-> **Ohne Umbenennen**
->
+> **Ohne Umbenennen**\
 > Du kannst den Ordnernamen auch unverändert lassen und stattdessen die Zahl des Ordners direkt als Save-Slot eintragen – bei einem Ordner `1833122971` also `"SaveSlot": 1833122971`. Wichtig ist nur, dass Ordnername und `SaveSlot` zusammenpassen.
 
 > [!WARNING]

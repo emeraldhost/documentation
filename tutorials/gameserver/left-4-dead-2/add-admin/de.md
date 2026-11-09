@@ -21,8 +21,7 @@ related: ["gameserver/left-4-dead-2/add-mods", "gameserver/left-4-dead-2/create-
 Left 4 Dead 2 bringt von Haus aus **kein Adminsystem** mit. Adminrechte im Spiel gibt es ausschließlich über **SourceMod**.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Metamod:Source und SourceMod müssen auf Deinem Server installiert sein. Wie das geht, steht unter [Mods hinzufügen](/tutorials/gameserver/left-4-dead-2/add-mods).
 
 ## SteamID herausfinden

@@ -102,8 +102,7 @@ All bans are stored in the `blocklist.txt` file in the cluster folder. If you ba
 > Only edit the `blocklist.txt` while the server is stopped. If the server is running it can overwrite the file and your changes will be lost.
 
 > [!TIP]
-> **Find the Klei user ID**
->
+> **Find the Klei user ID**\
 > The guide [Add Admin](/tutorials/gameserver/dont-starve-together/add-admin) explains how to find the `KU_` ID of a player.
 
 ## All commands

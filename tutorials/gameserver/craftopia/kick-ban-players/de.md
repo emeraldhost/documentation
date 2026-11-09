@@ -21,8 +21,7 @@ related: ["gameserver/craftopia/add-savegame", "gameserver/craftopia/create-back
 Spieler entfernst Du auf einem Craftopia Server über die **Konsole in der Verwaltung**. Chat-Befehle im Spiel gibt es dafür nicht.
 
 > [!NOTE]
-> **Kein Adminkonzept im Spiel**
->
+> **Kein Adminkonzept im Spiel**\
 > Craftopia kennt **keine Adminrechte für Spieler**: Es gibt keine Admin-Datei, keine Admin-Liste und keinen Befehl, mit dem Du einem Spieler im Spiel Rechte gibst. Die gesamte Verwaltung läuft deshalb über die Konsole Deines Servers – und damit über jeden, der Zugriff auf die Verwaltung hat.
 
 ## Konsole öffnen
@@ -66,8 +65,7 @@ ban <UserID>
 Der Spieler wird vom Server geworfen und in die Bannliste eingetragen.
 
 > [!WARNING]
-> **Banns gelten für die IP-Adresse**
->
+> **Banns gelten für die IP-Adresse**\
 > In der Bannliste von Craftopia stehen **IP-Adressen**, nicht die Spieleraccounts. Daraus folgt:
 >
 > - Wechselt der Spieler seine IP-Adresse, kommt er wieder auf den Server.
@@ -90,8 +88,7 @@ pardon <IP-Adresse>
 Nimm die IP-Adresse genau so, wie sie Dir `banlist` anzeigt.
 
 > [!TIP]
-> **Wenn ein Befehl nicht angenommen wird**
->
+> **Wenn ein Befehl nicht angenommen wird**\
 > Craftopia befindet sich weiterhin in der Entwicklung, die Schreibweise der Befehle kann sich zwischen Spielversionen ändern. Wird ein Befehl nicht angenommen, prüfe die Ausgabe in der Konsole Deines Servers.
 
 ## Befehle im Überblick

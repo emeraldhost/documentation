@@ -61,8 +61,7 @@ You connect to your Frozen Flame server through the private server list: you add
 ## The connection drops after 20 to 30 seconds
 
 > [!WARNING]
-> **EasyAntiCheat**
->
+> **EasyAntiCheat**\
 > If you get disconnected from the server after roughly 20 to 30 seconds, the developers point to EasyAntiCheat as the cause. If your server runs without EasyAntiCheat (startup parameter `-noeac`), **every player has to launch the game without EasyAntiCheat as well**. To do so, choose the second launch option without EasyAntiCheat when starting the game in Steam. Server and client always have to match.
 
 ## Public server list

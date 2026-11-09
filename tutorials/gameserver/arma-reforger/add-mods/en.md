@@ -99,8 +99,6 @@ There are two ways to find the required mod data (`modId`, `name`, `version`):
    Save the changes and restart the server.
 
 > [!WARNING]
-> **Important**
->
 > The `config.json` must contain valid JSON. A missing comma or incorrect bracket can prevent the server from starting. If in doubt, use a [JSON validator](https://jsonlint.com/) to check the file.
 
 ## Export Mod Preset from the Game

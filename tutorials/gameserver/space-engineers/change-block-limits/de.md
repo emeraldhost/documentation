@@ -51,8 +51,7 @@ Mit `BlockLimitsEnabled` legst Du fest, für wen `TotalPCU` gilt:
 Die Spieleranzahl stellst Du unter [Maximale Spieler ändern](/tutorials/gameserver/space-engineers/change-max-players) ein. Das Budget berechnet der Server bei jedem Start neu aus den aktuellen Einstellungen – eine Änderung gilt nach dem Neustart also auch für bestehende Spieler und Fraktionen. Senkst Du die Limits unter den aktuellen Verbrauch, bleiben bestehende Bauten erhalten, betroffene Spieler können aber erst wieder bauen, wenn sie unter dem neuen Limit liegen.
 
 > [!NOTE]
-> **Fraktionen bei PER_FACTION**
->
+> **Fraktionen bei PER_FACTION**\
 > Setze bei `PER_FACTION` den Eintrag `MaxFactionsCount` auf die Anzahl der Fraktionen, die es auf Deinem Server geben soll. Steht er auf `0`, lässt der Server in diesem Modus nur **eine** Spielerfraktion zu – in der vorinstallierten Welt ist das die bereits vorhandene Fraktion **First Colony**. Sie erhält dann den vollen `TotalPCU`, neue Fraktionen lassen sich aber nicht gründen.
 
 ## Limits ändern
@@ -102,8 +101,7 @@ Die Spieleranzahl stellst Du unter [Maximale Spieler ändern](/tutorials/gameser
 > Die meisten dieser Einträge stehen auch im Block `<SessionSettings>` der `SpaceEngineers-Dedicated.cfg`. Diesen Block nutzt der Server aber nur, wenn er eine neue Welt erstellt – für Deine bestehende Welt zählt ausschließlich `Sandbox_config.sbc`. Mehr dazu unter [Welt-Einstellungen ändern](/tutorials/gameserver/space-engineers/change-world-settings).
 
 > [!NOTE]
-> **Leistung**
->
+> **Leistung**\
 > Hohe Limits belasten Deinen Server stärker: Jeder zusätzliche Block kostet Rechenleistung, und große Konstruktionen können die Leistung für alle Spieler beeinträchtigen. Erhöhe die Limits deshalb schrittweise.
 
 ## Limits für einzelne Blocktypen
@@ -152,11 +150,9 @@ Für ein unbegrenztes PCU-Budget hast Du zwei Möglichkeiten:
 > Steht `BlockLimitsEnabled` auf `NONE` oder `TotalPCU` über `600000`, schaltet der Server beim Laden automatisch den [Experimental Modus](/tutorials/gameserver/space-engineers/enable-experimental-mode) ein – auch wenn er in der Verwaltung auf `false` steht. Den Grund zeigt die Server-Konsole beim Start, zum Beispiel `Experimental mode reason: ExperimentalMode, TotalPCU`. Möchtest Du ohne Experimental Modus mehr PCU vergeben, setze `TotalPCU` auf höchstens `600000`.
 
 > [!WARNING]
-> **Crossplay-Server**
->
+> **Crossplay-Server**\
 > Mit aktivem [Crossplay](/tutorials/gameserver/space-engineers/enable-crossplay) darf `BlockLimitsEnabled` nicht auf `NONE` und `TotalPCU` nicht auf `0` stehen. Sonst schaltet der Server die Konsolenkompatibilität beim Laden ab und Spieler auf Xbox und PlayStation können Deinem Server nicht mehr beitreten. Die Server-Konsole meldet dann `World does not have Block Limits Enabled.` bzw. `Total PCU value is 0.` Erhöhe auf einem Crossplay-Server stattdessen `TotalPCU` – am besten auf höchstens `600000`, damit der Experimental Modus aus bleibt.
 
 > [!TIP]
-> **Admins ohne PCU-Limit**
->
+> **Admins ohne PCU-Limit**\
 > Admins können die PCU-Limits im Spiel für sich selbst ignorieren, ohne die Limits für den ganzen Server zu ändern – über die Option **Ignore PCU limits** im Admin-Menü (`Alt` + `F10`). Wie Du Admins festlegst, erfährst Du unter [Admins hinzufügen](/tutorials/gameserver/space-engineers/add-admins).

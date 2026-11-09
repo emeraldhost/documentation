@@ -83,8 +83,6 @@ A world in Return to Moria is a single file with the prefix `MW_` and the extens
 The `[World]` section also contains a `Name` entry. A world can be selected through it as well, but for your server that is not the right approach.
 
 > [!WARNING]
-> **Caution**
->
 > The `Name` entry is applied automatically from the **Config Editor** of your server on every start. Changing it directly in `MoriaServerConfig.ini` therefore does not persist. Always use `OptionalWorldFilename` to load an uploaded savegame.
 
 > [!IMPORTANT]
@@ -96,13 +94,9 @@ The `[World]` section also contains a `Name` entry. A world can be selected thro
 ## Important notes
 
 > [!WARNING]
-> **Caution**
->
 > Changes to `MoriaServerConfig.ini` are only read on the next start. Always edit the file while the server is stopped and restart it afterwards.
 
 > [!WARNING]
-> **Caution**
->
 > Only stop your server through the dashboard. This is the only way the current state is saved and the server shuts down cleanly. A forced shutdown can cost progress and leave the online session hanging, which makes the next start take several minutes.
 
 > [!NOTE]

@@ -59,8 +59,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 | `Backup/` | Automatische Sicherungen, die der Server selbst anlegt und rollierend überschreibt |
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich den folgenden Ordner herunter:
 >
 > ```text
@@ -70,11 +69,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Dort liegen unter anderem `Network.eco`, `Users.eco` und `Storage.eco`.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/eco/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/eco/create-backup).

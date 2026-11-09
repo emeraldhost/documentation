@@ -22,8 +22,6 @@ related: ["gameserver/v-rising/enable-server-list", "gameserver/v-rising/fix-eos
 ## Find connection details
 
 > [!WARNING]
-> **Important**
->
 > To connect you need the **IP address** and the **Query Port** of your server. You can find the Query Port in the **Config Editor** of your server in the dashboard. Use the **Query Port**, not the Game Port!
 
 ## Via Steam server browser

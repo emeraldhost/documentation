@@ -20,8 +20,6 @@ related: ["gameserver/minecraft-endstone-edition/add-savegame", "gameserver/mine
 You can download the world of your server to your PC at any time – for example as an additional backup, for archiving or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While running, the server constantly writes to the world database – without stopping it you would download an incomplete or corrupted save.
 
 1. **Find the active world**\
@@ -54,8 +52,7 @@ You can download the world of your server to your PC at any time – for example
 > The `db` subfolder contains the actual database with all chunks of the world. Without it the downloaded save is worthless.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings and player lists, download the following files and folders from the main folder of your server:
 >
 > ```text
@@ -69,16 +66,12 @@ You can download the world of your server to your PC at any time – for example
 > ```
 
 > [!WARNING]
-> **Caution**
->
 > The `plugins` folder contains a `.local` subfolder that Endstone manages itself. You can leave it out when backing up – Endstone recreates it on the next start.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the world back to a server later, follow the guide [Add savegame](/tutorials/gameserver/minecraft-endstone-edition/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/minecraft-endstone-edition/create-backup).

@@ -24,8 +24,6 @@ Factorio does not have a Steam server browser for rented servers. Instead, you c
 ## Find connection details
 
 > [!WARNING]
-> **Important**
->
 > To connect you need the **IP address** and the **port** of your server. You can find both in the **dashboard** of your server. Factorio only uses a single port over **UDP** (default: `34197`) – there is no separate query port.
 
 ## Via Connect to address

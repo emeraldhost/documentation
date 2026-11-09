@@ -20,8 +20,7 @@ related: ["gameserver/enshrouded/join-server", "gameserver/enshrouded/kick-ban-p
 ---
 
 > [!CAUTION]
-> **Wichtiger Hinweis**
->
+> **Wichtiger Hinweis**\
 > Die Enshrouded Serversoftware ist aktuell leider schlecht optimiert. Dieses Problem betrifft viele Hosting-Anbieter gleichermaßen.
 
 ## Welche Probleme können auftreten?
@@ -42,6 +41,4 @@ Wir stehen gemeinsam mit anderen Hosting-Anbietern im direkten Austausch mit dem
 Wenn Du von Performance-Problemen betroffen bist, melde Dich gerne bei uns per [Support-Ticket](https://emeraldhost.de/de/support). Wir können Deinen Server **kostenlos** auf ein leistungsstärkeres Hostsystem verschieben.
 
 > [!WARNING]
-> **Hinweis**
->
 > Wir können leider nicht garantieren, dass die Probleme dadurch langfristig behoben werden.

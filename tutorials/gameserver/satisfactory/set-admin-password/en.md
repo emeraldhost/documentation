@@ -58,8 +58,7 @@ If no admin password has been set for your server yet, it counts as **unclaimed*
 > Only share the admin password with trusted players. Anyone who knows it has full control over your server. You can read more about this in [Add Admin](/tutorials/gameserver/satisfactory/add-admin).
 
 > [!CAUTION]
-> **Forgot the admin password**
->
+> **Forgot the admin password**\
 > If you no longer know the admin password, you can reset the server:
 >
 > 1. Stop the server via the dashboard.

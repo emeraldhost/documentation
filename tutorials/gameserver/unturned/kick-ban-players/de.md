@@ -21,8 +21,7 @@ related: ["gameserver/unturned/add-savegame", "gameserver/unturned/create-backup
 Spieler entfernst Du auf einem Unturned Server über Befehle – entweder in der **Konsole** der Verwaltung oder als Admin direkt im Spielchat. Die Befehle wirken sofort, ein Neustart ist nicht nötig.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Für die Befehle im Spielchat brauchst Du Adminrechte. Hier findest Du eine Anleitung, wie Du einen [Admin hinzufügst](/tutorials/gameserver/unturned/add-admin). In der Konsole der Verwaltung funktionieren die Befehle immer.
 
 > [!TIP]
@@ -45,8 +44,7 @@ Spieler entfernst Du auf einem Unturned Server über Befehle – entweder in der
    ```
 
 > [!CAUTION]
-> **Parameter werden mit Schrägstrich getrennt**
->
+> **Parameter werden mit Schrägstrich getrennt**\
 > Anders als in vielen anderen Spielen trennt Unturned die Parameter mit einem **`/`** statt mit einem Leerzeichen. `ban Sam Griefing` funktioniert also nicht – richtig ist `ban Sam/Griefing`.
 
 ## Spieler kicken
@@ -82,8 +80,7 @@ Der Spieler wird vom Server geworfen und kann sich für die angegebene Dauer nic
 > Das bannt den Spieler für einen Tag (86.400 Sekunden).
 
 > [!NOTE]
-> **Dauer weglassen**
->
+> **Dauer weglassen**\
 > Gibst Du keine Dauer an, wird der Spieler für 31.536.000 Sekunden gebannt – das entspricht 365 Tagen. Für einen längeren Ausschluss trägst Du einen entsprechend größeren Wert in Sekunden ein.
 
 | Dauer | Wert in Sekunden |
@@ -118,13 +115,11 @@ unban <SteamID64>
 ## Bannliste
 
 > [!WARNING]
-> **Bannliste über die Befehle pflegen**
->
+> **Bannliste über die Befehle pflegen**\
 > Banns werden unter `/Servers/<ServerID>/Server/Blacklist.dat` gespeichert. Banne und entbanne ausschließlich über die Befehle `ban` und `unban` – so bleibt die Liste garantiert gültig. Möchtest Du alle Banns auf einen Schlag aufheben, kannst Du die Datei bei gestopptem Server auch löschen.
 
 ## Server nur für bestimmte Spieler öffnen
 
 > [!NOTE]
-> **Whitelist**
->
+> **Whitelist**\
 > Unturned kennt zusätzlich den Konfigurationsbefehl `Whitelisted` für die `Commands.dat`. Damit ist Dein Server nur noch für freigegebene Spieler zugänglich. Wie Du Spieler auf diese Liste setzt, ist offiziell nicht dokumentiert – möchtest Du Deinen Server einfach nur privat halten, ist ein Server-Passwort der unkompliziertere Weg.

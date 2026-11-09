@@ -36,8 +36,6 @@ Es gibt zwei Möglichkeiten, Admin-Rechte auf Deinem Arma Reforger Server zu erh
    Speichere die Einstellung und starte Deinen Server neu.
 
 > [!WARNING]
-> **Wichtig**
->
 > Das Admin-Passwort muss mindestens 3 Zeichen lang sein und darf keine Leerzeichen enthalten.
 
 ## Permanente Admins über Steam64-ID

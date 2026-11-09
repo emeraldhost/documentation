@@ -21,16 +21,14 @@ related: ["gameserver/no-one-survived/add-admin", "gameserver/no-one-survived/ad
 How harsh your server is gets defined in the `Game.ini` file: the number and strength of the zombies, the length of a day and a year, loot amounts, permanent death and PvP.
 
 > [!NOTE]
-> **Two sections, two responsibilities**
->
+> **Two sections, two responsibilities**\
 > The `Game.ini` consists of two sections:
 >
 > - **`[ServerSetting]`** – base data of the server such as name, password and save name. You control these values through the **dashboard**.
 > - **`[GameSettings]`** – the actual game rules. These values do not exist in the dashboard, you enter them directly in the file.
 
 > [!CAUTION]
-> **Back up first**
->
+> **Back up first**\
 > Create a [backup](/tutorials/gameserver/no-one-survived/create-backup) before making larger changes.
 
 ## Change the settings
@@ -98,13 +96,11 @@ GiftBagForNovices=True
 ```
 
 > [!WARNING]
-> **Copy the spelling exactly**
->
+> **Copy the spelling exactly**\
 > The names of the settings can change with game updates. That is why you should only change lines that already exist in **your** file and copy their spelling exactly. A misspelled key is silently ignored.
 
 > [!NOTE]
-> **Check the allowed values**
->
+> **Check the allowed values**\
 > The allowed value ranges can change with game updates as well. If you enter a value outside the valid range, the server falls back to the default value – the setting then appears to have no effect.
 
 ## Zombie count
@@ -119,6 +115,5 @@ The number of zombies per attack wave is not stored in the `[GameSettings]` sect
 > Values from the `[ServerSetting]` section get overwritten from the dashboard fields on server start. If you change them manually in `Game.ini`, they are gone again after the next start. The values in the `[GameSettings]` section are not affected and stay in place.
 
 > [!TIP]
-> **Changes take effect on the next start**
->
+> **Changes take effect on the next start**\
 > All settings are only read on server start. Changes made while the server is running have no effect – restart your server after every adjustment.

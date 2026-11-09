@@ -75,8 +75,7 @@ Einzelne Admins lassen sich nicht entfernen, weil es keine Liste gibt. Du entzie
 Servername sowie Admin- und Server-Passwort änderst Du im Server Manager im Reiter **Server Settings**. Den ausführlichen Ablauf findest Du unter [Admin Passwort setzen](/tutorials/gameserver/satisfactory/set-admin-password).
 
 > [!CAUTION]
-> **Admin Passwort vergessen**
->
+> **Admin Passwort vergessen**\
 > Kennst Du das Admin Passwort nicht mehr, kannst Du den Server zurücksetzen:
 >
 > 1. Stoppe den Server über die Verwaltung.
@@ -87,6 +86,5 @@ Servername sowie Admin- und Server-Passwort änderst Du im Server Manager im Rei
 > Dabei gehen auch Servername, Server Passwort und das Zertifikat des Servers verloren – bestehende Spielstände bleiben aber erhalten. Ist der Server danach in der Serverliste als offline markiert, entferne den Eintrag im Server Manager und lege ihn neu an.
 
 > [!WARNING]
-> **Kein Kicken und kein Bannen**
->
+> **Kein Kicken und kein Bannen**\
 > Satisfactory bietet keine Funktion, um Spieler zu kicken oder zu bannen – weder im Spiel noch im Server Manager. Auch die Konsole im Server Manager kennt keine Befehle zur Spielerverwaltung. Wer auf Deinen Server darf, steuerst Du ausschließlich über das Server Passwort im Reiter **Server Settings** unter **Player password protection**.

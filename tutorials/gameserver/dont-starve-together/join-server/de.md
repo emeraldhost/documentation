@@ -23,8 +23,6 @@ Du kannst Deinem Server auf zwei Wegen beitreten: über die Serversuche im Spiel
 ## Verbindungsdaten finden
 
 > [!WARNING]
-> **Wichtig**
->
 > Für die Direktverbindung benötigst Du die **IP-Adresse** und den **Game Port** Deines Servers. Beide findest Du in der Verwaltung Deines Servers. Die Ports `master_server_port` und `authentication_port` aus dem Abschnitt `[STEAM]` der Datei `server.ini` sind interne Steam-Ports und werden **nicht** für die Verbindung verwendet.
 
 ## Über die Serversuche im Spiel

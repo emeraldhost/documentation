@@ -37,8 +37,7 @@ Der Spielstand eines The Front Servers ist keine einzelne Datei, sondern der kom
    ```
 
    > [!NOTE]
-   > **Welcher Konfigurationsname?**
-   >
+   > **Welcher Konfigurationsname?**\
    > Der Ordner trägt den Konfigurationsnamen Deines Servers – denselben Namen, der auch in der Konfigurationsdatei `ServerConfig_<Konfigurationsname>.ini` steckt. Öffne einfach den Ordner `/TheFrontManager/` – in der Regel liegt dort genau ein Unterordner, und das ist Deiner.
    >
    > Findest Du den Ordner `TheFrontManager` nicht, arbeitet Dein Server ohne eigenes Benutzerverzeichnis. Der Spielstand liegt dann hier:
@@ -71,8 +70,7 @@ Der Spielstand eines The Front Servers ist keine einzelne Datei, sondern der kom
 > | `GuildData.sav` | Die Gilden auf Deinem Server |
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich die Konfigurationsdatei herunter:
 >
 > ```text
@@ -80,11 +78,9 @@ Der Spielstand eines The Front Servers ist keine einzelne Datei, sondern der kom
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/the-front/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/the-front/create-backup).

@@ -21,8 +21,7 @@ related: ["gameserver/the-front/add-admin", "gameserver/the-front/create-backup"
 The Front does **not** use a world name in its configuration. A save is always the complete folder `GameStates` – not a single file. You upload that folder with all of its contents to the location where your server expects its save.
 
 > [!NOTE]
-> **Where does the save come from?**
->
+> **Where does the save come from?**\
 > This guide describes a server-to-server transfer – a save you previously downloaded from a The Front server. There is no documented way to move a single player or co-op save onto a dedicated server.
 
 > [!TIP]
@@ -44,8 +43,7 @@ The Front does **not** use a world name in its configuration. A save is always t
    ```
 
    > [!NOTE]
-   > **Which config name?**
-   >
+   > **Which config name?**\
    > The folder carries the config name of your server – the same name that appears in the configuration file `ServerConfig_<ConfigName>.ini`. Open the folder `/TheFrontManager/` – usually there is exactly one subfolder in there, and that is yours.
    >
    > If the folder does not exist yet, start the server once so the structure is created, then stop it again.
@@ -65,8 +63,7 @@ The Front does **not** use a world name in its configuration. A save is always t
    Start your server. Your uploaded save is now loaded on startup.
 
 > [!CAUTION]
-> **Do not change the config name**
->
+> **Do not change the config name**\
 > The config name of your server determines both the folder your save lives in and the name of the configuration file. If you change that name, your server looks in a different folder – and generates a completely new, empty world there. Your old save stays on the disk but is no longer loaded.
 >
 > The name must not contain spaces or special characters.
@@ -75,6 +72,5 @@ The Front does **not** use a world name in its configuration. A save is always t
 > Always upload the complete `GameStates` folder. Besides the world it also holds the player, construction and guild data (`Worlds/`, `Players/`, `Accounts/`, `ConstructData.sav`, `GuildData.sav`). If you mix files from different saves, world and player data no longer match.
 
 > [!TIP]
-> **Reset the server**
->
+> **Reset the server**\
 > If you would rather start from scratch, stop the server, delete the `GameStates` folder and start the server again. A fresh world is generated on the next start.

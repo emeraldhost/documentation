@@ -43,26 +43,21 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Welche Datei ist die richtige?**
->
+> **Welche Datei ist die richtige?**\
 > Welche Welt geladen wird, erkennst Du am Feld **World Name** im **Config-Editor** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst Du die Datei `MeineWelt.wld`.
 
 > [!NOTE]
-> **Sicherungsdateien**
->
+> **Sicherungsdateien**\
 > Der Server legt zusätzlich Sicherungen mit der Endung `.bak` im selben Ordner ab. Sie gehören zu Deiner Welt und enthalten einen etwas älteren Stand. Lade sie bei Bedarf mit herunter, wenn Du eine vollständige Kopie Deines Weltordners haben möchtest.
 
 > [!TIP]
-> **Welt lokal weiterspielen**
->
+> **Welt lokal weiterspielen**\
 > Kopiere die heruntergeladene `.wld`-Datei auf Deinem PC nach `%userprofile%\Documents\My Games\Terraria\Worlds`, um die Welt im Einzelspieler zu öffnen.
 
 > [!TIP]
-> **Welt wieder einspielen**
->
+> **Welt wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/terraria/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/terraria/create-backup).

@@ -56,8 +56,7 @@ Smalland Survive the Wilds hat **keine Direktverbindung über die IP-Adresse**. 
    Hast Du ein Serverpasswort gesetzt, wirst Du beim Beitreten danach gefragt. Trage es exakt so ein, wie es in der Verwaltung hinterlegt ist.
 
 > [!TIP]
-> **Server als Favorit speichern**
->
+> **Server als Favorit speichern**\
 > Über **Add to Favorites** legst Du Deinen Server im Serverbrowser als Favorit ab. Danach findest Du ihn beim nächsten Mal ohne erneute Suche wieder.
 
 ## Server wird nicht gefunden
@@ -72,8 +71,7 @@ Smalland Survive the Wilds hat **keine Direktverbindung über die IP-Adresse**. 
 > - Ist die Einstellung für einen privaten Server aktiv? Dann erscheint Dein Server **gar nicht** in der Liste.
 
 > [!CAUTION]
-> **Privater Server**
->
+> **Privater Server**\
 > Aktivierst Du in der Verwaltung die Option für einen privaten Server, wird Dein Server im Serverbrowser komplett ausgeblendet. Da Smalland keine Direktverbindung über die IP-Adresse kennt, können Deine Mitspieler ihn dann nicht mehr auswählen. Möchtest Du Deinen Server nur vor Fremden schützen, setze stattdessen ein **Serverpasswort**.
 
 ## Welche Ports nutzt Smalland Survive the Wilds?

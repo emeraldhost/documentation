@@ -66,15 +66,13 @@ StarRupture besitzt **keinen Serverbrowser**. Du verbindest Dich ausschließlich
 > Ein StarRupture-Server benötigt nur einen einzigen Port: den **Game Port**, und zwar ausschließlich über **UDP**. Einen separaten **Query Port** gibt es nicht. Welcher Game Port für Deinen Server gilt, siehst Du in der **Verwaltung**.
 
 > [!CAUTION]
-> **Warum kein TCP freigegeben wird**
->
+> **Warum kein TCP freigegeben wird**\
 > Der Dedicated Server bringt eine HTTP-Fernsteuerung mit (im Spiel als **Manage Server** sichtbar), die eine bekannte, nicht authentifizierte Sicherheitslücke enthält: Angreifer könnten darüber Passwörter ändern, Spielstände manipulieren oder den Server zum Absturz bringen. Dein Server wird deshalb mit den Startparametern `-RCWebControlDisable` und `-RCWebInterfaceDisable` betrieben und ist ausschließlich über UDP erreichbar. **Manage Server** steht dadurch bewusst nicht zur Verfügung – die Servereinstellungen änderst Du stattdessen über die Verwaltung beziehungsweise über die Datei `DSSettings.txt`.
 
 ## Verbindungsprobleme
 
 > [!WARNING]
-> **Meldung über mehrere Server an dieser IP**
->
+> **Meldung über mehrere Server an dieser IP**\
 > Erscheint beim Beitreten eine Meldung wie *„More than one server at this IP, please specify port“*, hält Dein Spielclient noch eine veraltete Verbindung zu Deinem Server. Das passiert vor allem dann, wenn der Server neu gestartet wurde, während StarRupture geöffnet blieb. Beende das Spiel **vollständig**, starte es neu und trage IP-Adresse und Game Port erneut ein.
 
 > [!TIP]

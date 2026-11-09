@@ -94,8 +94,6 @@ Mit **Certbot** kannst Du kostenlose TLS/SSL-Zertifikate von Let's Encrypt einri
 ## Certbot via APT
 
 > [!WARNING]
-> **Hinweis**
->
 > Diese Methode installiert oft veraltete Versionen. Verwende sie nur, wenn Snap nicht möglich ist.
 
 1. **System aktualisieren**\
@@ -158,6 +156,4 @@ Mit **Certbot** kannst Du kostenlose TLS/SSL-Zertifikate von Let's Encrypt einri
     ```
 
 > [!NOTE]
-> **Wichtig**
->
 > Die Domain muss auf den Server zeigen (A- oder AAAA-Eintrag), und Port 80 (HTTP-Challenge) muss erreichbar sein - sonst schlägt die Validierung fehl.

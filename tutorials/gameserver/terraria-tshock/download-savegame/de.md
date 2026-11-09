@@ -45,8 +45,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Welche Datei ist die richtige?**
->
+> **Welche Datei ist die richtige?**\
 > Welche Welt geladen wird, erkennst Du am Feld **World Name** im **Config-Editor** der Verwaltung. Steht dort z.B. `MeineWelt`, benötigst Du die Datei `MeineWelt.wld`.
 
 ## Weitere Daten, die zum Spielstand gehören
@@ -59,26 +58,21 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 | `/tshock/backups/` | Die automatischen Weltsicherungen von tShock |
 
 > [!CAUTION]
-> **Server Side Characters**
->
+> **Server Side Characters**\
 > Sind die Server Side Characters aktiv (Wert `Enabled` in `/tshock/sscconfig.json`), liegen Inventar und Fortschritt der Spieler **nicht** in der `.wld`-Datei, sondern in `/tshock/tshock.sqlite`. Lade in diesem Fall beide Dateien herunter, sonst fehlen Dir die Charaktere.
 
 > [!NOTE]
-> **Sicherungsdateien von tShock**
->
+> **Sicherungsdateien von tShock**\
 > tShock legt zusätzlich in regelmäßigen Abständen eigene Sicherungen im Ordner `/tshock/backups/` ab. Der Dateiname besteht aus dem Weltnamen, der Endung `.wld` und einem Zeitstempel, z.B. `MeineWelt.wld.2026-07-30T12.00.00Z.bak`. Ältere Sicherungen werden nach einer eingestellten Zeit automatisch gelöscht – lade Dir wichtige Stände deshalb rechtzeitig herunter.
 
 > [!TIP]
-> **Welt lokal weiterspielen**
->
+> **Welt lokal weiterspielen**\
 > Kopiere die heruntergeladene `.wld`-Datei auf Deinem PC nach `%userprofile%\Documents\My Games\Terraria\Worlds`, um die Welt im Einzelspieler zu öffnen. Unter Linux liegt der Ordner in `~/.local/share/Terraria/Worlds`, unter macOS in `~/Library/Application Support/Terraria/Worlds`.
 
 > [!TIP]
-> **Welt wieder einspielen**
->
+> **Welt wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/terraria-tshock/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/terraria-tshock/create-backup).

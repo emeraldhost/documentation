@@ -21,8 +21,7 @@ related: ["gameserver/left-4-dead/add-mods", "gameserver/left-4-dead/create-back
 Left 4 Dead does **not** ship with an admin system. In-game admin rights are only available through **SourceMod**.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > Metamod:Source and SourceMod have to be installed on your server. See [Add Mods](/tutorials/gameserver/left-4-dead/add-mods) for how to do that.
 
 ## Find the SteamID

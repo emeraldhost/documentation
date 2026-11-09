@@ -102,8 +102,7 @@ Alle Banns werden in der Datei `blocklist.txt` im Cluster-Ordner gespeichert. Ba
 > Bearbeite die `blocklist.txt` nur bei gestopptem Server. Läuft der Server, kann er die Datei überschreiben und Deine Änderungen gehen verloren.
 
 > [!TIP]
-> **Klei-User-ID finden**
->
+> **Klei-User-ID finden**\
 > Wie Du die `KU_`-ID eines Spielers herausfindest, steht in der Anleitung [Admin hinzufügen](/tutorials/gameserver/dont-starve-together/add-admin).
 
 ## Alle Befehle

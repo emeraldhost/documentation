@@ -37,8 +37,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Sperre wichtige Backups (z.B. vor großen Änderungen), damit sie nicht durch automatische Backups überschrieben werden. Lade besonders wichtige Backups zusätzlich auf Deinen PC herunter, falls Dein Backup-Limit erreicht wird.
 
 > [!NOTE]
-> **Was gehört zu einem vollständigen Backup?**
->
+> **Was gehört zu einem vollständigen Backup?**\
 > Ein Arma-3-Server verteilt seine Daten auf mehrere Verzeichnisse:
 >
 > | Pfad | Inhalt |

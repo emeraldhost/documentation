@@ -53,8 +53,7 @@ Admins – called **GM accounts** in the game – are added to a Myth of Empires
    Press the `~` or `` ` `` key – on an English keyboard the key to the left of the `1`. The console only opens if your account is listed as an admin.
 
    > [!TIP]
-   > **Keyboard**
-   >
+   > **Keyboard**\
    > If the key does not react, switch your keyboard layout to English (US) and try again.
 
 3. **Enter a command**\

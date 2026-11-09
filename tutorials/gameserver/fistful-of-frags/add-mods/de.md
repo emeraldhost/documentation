@@ -112,8 +112,7 @@ Plugins laufen auf einem Fistful of Frags Server über **Metamod:Source** und **
    Starte Deinen Server und wechsle in der Serverkonsole mit `changelevel <Mapname>` auf die neue Karte. Der Mapname wird ohne die Endung `.bsp` angegeben.
 
 > [!NOTE]
-> **Steam Workshop**
->
+> **Steam Workshop**\
 > Der [Steam Workshop von Fistful of Frags](https://steamcommunity.com/app/265630/workshop/) enthält Waffen- und Charakter-Skins, Modelle, Sounds, HUD-Anpassungen sowie Karten. Skins und Sounds sind **rein clientseitig** und werden von jedem Spieler selbst abonniert – auf dem Server bringen sie nichts. Für Workshop-Karten gibt es keine serverseitige Anbindung: Lade die Karte als `.bsp`-Datei in den Ordner `/fof/maps/` hoch.
 
 ## Kartenrotation anpassen

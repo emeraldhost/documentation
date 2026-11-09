@@ -90,8 +90,7 @@ Soldat can connect to a server directly on startup. That works well for a deskto
 For your server to appear in the server browser it has to register with the lobby. How you enable this depends on your server version.
 
 > [!NOTE]
-> **Two server versions**
->
+> **Two server versions**\
 > There are two Soldat server versions with different configuration files. You can tell which one you are running from the file manager or via [SFTP](/tutorials/gameserver/establish-sftp-connection):
 >
 > | File in the main directory | Version |

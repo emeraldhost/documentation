@@ -37,8 +37,6 @@ Each world is its own folder (named after the world). You need the **contents** 
 ## Upload the world
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before uploading files. A running server saves automatically and can corrupt the uploaded world.
 
 1. **Stop the server**\
@@ -63,6 +61,4 @@ Each world is its own folder (named after the world). You need the **contents** 
    Start your server. The server console should show "Loading world …" and then "Game ready".
 
 > [!WARNING]
-> **Caution**
->
 > Do not store your own backups inside the `/config/Saves/World/` folder – the server removes unrecognized files when it saves.

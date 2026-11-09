@@ -72,8 +72,7 @@ There are two ways onto your server: through the in-game server browser or direc
    If a password is set for your server, enter it and confirm with **Next**.
 
 > [!WARNING]
-> **Server is not listed**
->
+> **Server is not listed**\
 > If your server does not show up in the server browser, use the direct connection via **Join IP Address**. That way you reach your server regardless of whether it appears in the public list.
 >
 > Also check in the **dashboard** whether your server is running and fully started. Right after a start or an update it can take a moment until the server becomes reachable.

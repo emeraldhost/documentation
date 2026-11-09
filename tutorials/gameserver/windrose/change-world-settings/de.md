@@ -22,8 +22,7 @@ related: ["gameserver/windrose/change-max-players", "gameserver/windrose/change-
 Die Welt-Einstellungen liegen in der Datei `WorldDescription.json` im Welt-Ordner Deines Servers. Du kannst die Schwierigkeit über ein Preset (`Easy`, `Medium`, `Hard`) oder über eigene Werte (`Custom`) festlegen.
 
 > [!TIP]
-> **Empfohlen**
->
+> **Empfohlen**\
 > Am einfachsten ist es, die gewünschten Einstellungen direkt im Spiel auszuwählen – siehe [Einstellungen im Spiel vornehmen](#einstellungen-im-spiel-vornehmen-und-ubertragen). So musst Du das aufwendige JSON-Format nicht manuell schreiben.
 
 ## Einstellungen im Spiel vornehmen und übertragen

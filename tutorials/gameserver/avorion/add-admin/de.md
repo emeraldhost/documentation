@@ -35,8 +35,7 @@ Administratoren werden auf einem Avorion Server über die **SteamID64** festgele
    Speichere die Änderung und starte Deinen Server neu. Die Adminrechte greifen erst nach einem Neustart.
 
 > [!NOTE]
-> **Mehrere Admins**
->
+> **Mehrere Admins**\
 > Über die Verwaltung legst Du genau einen Admin fest. Möchtest Du weitere Personen zu Admins machen, nutze den nächsten Abschnitt und trage sie direkt in der `admin.xml` ein.
 
 ## Über die admin.xml

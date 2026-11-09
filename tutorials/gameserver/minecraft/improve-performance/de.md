@@ -39,8 +39,7 @@ In dieser Anleitung geht es um Server-Lag – und darum, wie Du seine Ursache fi
 > Eine ausführliche Anleitung zu spark auf allen Plattformen – inklusive Lag-Spitzen, Report-Ansichten und typischer Problem-Muster – findest Du in [spark einrichten](/tutorials/gameserver/minecraft/setup-spark).
 
 > [!NOTE]
-> **spark ist in Paper bereits enthalten**
->
+> **spark ist in Paper bereits enthalten**\
 > Seit Minecraft **1.21** liefert Paper spark direkt mit. Läuft Dein Server mit Paper 1.21 oder neuer, musst Du nichts installieren – die Befehle unten funktionieren sofort.
 
 ### spark installieren

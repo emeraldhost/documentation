@@ -37,6 +37,4 @@ This setting allows the execution of in-game scripts – the C# scripts in **Pro
 > If **In-Game Scripts** is set to `true`, the server automatically turns on [experimental mode](/tutorials/gameserver/space-engineers/enable-experimental-mode) when loading the world – even if it is set to `false` in the dashboard. So you do not need to enable it as well. As long as in-game scripts are allowed, however, you cannot turn it off either.
 
 > [!WARNING]
-> **Caution**
->
 > In-game scripts are **not mods**: they are not added to the mod list (see [Add Mods](/tutorials/gameserver/space-engineers/add-mods)) but are pasted directly into a Programmable Block in-game.

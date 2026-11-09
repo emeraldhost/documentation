@@ -55,8 +55,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > Lade immer den **kompletten Ordner** herunter. Die Dateien gehören zusammen: Ohne `worldconfig.json` fehlen dem Spielstand die Angaben zu Welttyp und aktivierten Mods, ohne die `-wal`-Datei können die letzten Änderungen an der Welt fehlen.
 
 > [!TIP]
-> **Mods mitsichern**
->
+> **Mods mitsichern**\
 > Nutzt Deine Welt Mods, sichere zusätzlich das Mod-Verzeichnis, damit sich die Welt später wieder laden lässt:
 >
 > ```text
@@ -64,11 +63,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/colony-survival/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/colony-survival/create-backup).

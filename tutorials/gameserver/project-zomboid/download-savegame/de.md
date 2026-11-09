@@ -43,16 +43,13 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Den richtigen Ordner finden**
->
+> **Den richtigen Ordner finden**\
 > Im Verzeichnis `Multiplayer/` liegt für jeden Spielstand ein eigener Ordner. Liegen dort mehrere Ordner, erkennst Du den aktuell genutzten Spielstand am neuesten Änderungsdatum.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/project-zomboid/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/project-zomboid/create-backup).

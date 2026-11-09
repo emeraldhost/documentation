@@ -24,13 +24,11 @@ Mods sind in Necesse einzelne **`.jar`-Dateien**. Dein Server lädt sie aus eine
 > Stoppe Deinen Server, bevor Du Mods hinzufügst, aktualisierst oder entfernst. Erstelle vorher außerdem ein [Backup](/tutorials/gameserver/necesse/create-backup) – Mods können die Welt dauerhaft verändern.
 
 > [!NOTE]
-> **Kein automatischer Workshop-Download**
->
+> **Kein automatischer Workshop-Download**\
 > Dein Server kann Mods **nicht** selbst aus dem Steam Workshop laden. Du lädst die `.jar`-Datei jedes Mods immer manuell hoch.
 
 > [!CAUTION]
-> **Startparameter beachten**
->
+> **Startparameter beachten**\
 > Necesse liest den Ordner `mods` nur, wenn der Startbefehl Deines Servers den Parameter `-mod ./mods` enthält. Kontrolliere nach dem Neustart in der Konsole, ob Deine Mods aufgelistet werden. Fehlen sie dort, ergänzen wir den Parameter gerne kostenlos für Dich – schreibe uns dazu einfach ein Support-Ticket.
 
 ## Mod-Datei besorgen
@@ -93,8 +91,7 @@ Mods sind in Necesse einzelne **`.jar`-Dateien**. Dein Server lädt sie aus eine
 > Entfernst Du einen Mod, der Blöcke, Gegenstände oder Gegner zur Welt hinzugefügt hat, verschwinden dessen Inhalte aus Deiner Welt. Spiele im Zweifel ein [Backup](/tutorials/gameserver/necesse/create-backup) zurück, statt den Mod einfach zu löschen.
 
 > [!WARNING]
-> **Mods werden nicht geladen**
->
+> **Mods werden nicht geladen**\
 > Taucht Dein Mod nach dem Neustart nicht in der Konsole auf, prüfe zuerst Schreibweise und Ablageort der Datei: Sie muss direkt in `/mods/` liegen und auf `.jar` enden. Wird weiterhin kein Mod erkannt, fehlt in der Regel der Startparameter `-mod ./mods` – melde Dich dafür per Support-Ticket bei uns.
 
 > [!NOTE]

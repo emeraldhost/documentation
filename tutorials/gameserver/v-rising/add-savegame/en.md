@@ -20,8 +20,6 @@ related: ["gameserver/v-rising/download-savegame", "gameserver/v-rising/install-
 ---
 
 > [!CAUTION]
-> **Warning**
->
 > When you add a new savegame, **your current game progress will be overwritten** and **cannot be restored**.
 > Be sure to create a **backup** if you want to reuse your current save game later.
 

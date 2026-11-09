@@ -63,8 +63,7 @@ If your server does not appear in the list, connect to it directly.
    ```
 
    > [!NOTE]
-   > **Which port do I enter?**
-   >
+   > **Which port do I enter?**\
    > Use the **Game Port** from the dashboard first. If you get the message **No server found at that IP address**, repeat the process with the **Query Port**.
 
 4. **Connect**\

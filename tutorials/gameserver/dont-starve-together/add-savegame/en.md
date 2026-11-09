@@ -85,6 +85,5 @@ The actual save is stored in the folders `Master/save/` (overworld) and `Caves/s
 > Create a [backup](/tutorials/gameserver/dont-starve-together/create-backup) of your existing server save before uploading, in case you want to switch back later.
 
 > [!NOTE]
-> **Mods**
->
+> **Mods**\
 > If your local world used mods, you need to set them up on the server as well. You can find out how under [Add Mods](/tutorials/gameserver/dont-starve-together/add-mods).

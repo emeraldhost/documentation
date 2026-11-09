@@ -21,8 +21,6 @@ related: ["gameserver/terraria-tmodloader/add-world", "gameserver/terraria-tmodl
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted savegame.
 
 1. **Stop the server**\
@@ -45,16 +43,13 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> **Find the right files**
->
+> **Find the right files**\
 > If there are several worlds in the directory, you can identify the active world by the name selected in the **Config Editor** in the dashboard. The `.wld` and the `.twld` file of a world always share the same filename.
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to transfer the savegame back to a server later, follow the guide [Add savegame](/tutorials/gameserver/terraria-tmodloader/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/terraria-tmodloader/create-backup).

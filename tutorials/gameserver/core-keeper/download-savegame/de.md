@@ -43,8 +43,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Die richtige Welt-Datei finden**
->
+> **Die richtige Welt-Datei finden**\
 > Die Zahl vor `.world.gzip` ist der **World Index**. Welche Welt Dein Server aktuell lädt, erkennst Du am World Index im **Config-Editor**: Steht dieser auf `0`, ist `0.world.gzip` die aktive Welt, bei `3` entsprechend `3.world.gzip`.
 
 > [!TIP]
@@ -55,11 +54,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/core-keeper/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/core-keeper/create-backup).

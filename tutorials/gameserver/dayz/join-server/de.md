@@ -22,8 +22,6 @@ related: ["gameserver/dayz/enable-crosshair", "gameserver/dayz/enable-third-pers
 ## Verbindungsdaten finden
 
 > [!WARNING]
-> **Wichtig**
->
 > Für die Verbindung benötigst Du die **IP-Adresse** und den **Query Port** Deines Servers. Den Query Port findest Du im **Config-Editor** Deines Servers in der Verwaltung. Verwende **nicht** den Game Port, sondern den Query Port!
 
 ## Über den Steam-Server-Browser

@@ -37,8 +37,7 @@ You can find the exact process for creating, managing and restoring a backup in 
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!NOTE]
-> **What belongs to a complete backup?**
->
+> **What belongs to a complete backup?**\
 > An Arma 3 server spreads its data across several directories:
 >
 > | Path | Content |
@@ -50,8 +49,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > | `/keys` | The `.bikey` files of your mods |
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Persistent missions write to the profile file while the server is running – a backup taken during operation can be incomplete.
 
 > [!NOTE]

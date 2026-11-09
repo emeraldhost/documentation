@@ -26,8 +26,7 @@ When deploying a Windows Server, it may happen that the entire available storage
 - **Administrator rights** on the server.
 
 > [!CAUTION]
-> **The script deletes partition 3 on disk 0**
->
+> **The script deletes partition 3 on disk 0**\
 > The script hands `diskpart` a fixed instruction: it selects partition 3 on disk 0 and force-deletes it, without checking what that partition holds, then extends the `C:` partition into the freed space. On the standard image that partition is the Windows recovery partition, but on a server with a different layout it can be a partition of your own. Open `diskpart` first, run `list disk` and `list partition`, and confirm that partition 3 really is the recovery partition. This step **cannot be undone**, so take a snapshot or a backup of your server first.
 
 ## Steps

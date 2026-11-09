@@ -41,8 +41,7 @@ Der Owner ist der Serverbesitzer. Der Eintrag steht in der Konfiguration und ble
    ```
 
    > [!NOTE]
-   > **Welcher Ordner ist meiner?**
-   >
+   > **Welcher Ordner ist meiner?**\
    > `<ServerID>` ist der Ordnername unter `/Servers/`. Er stammt aus dem Startparameter Deines Servers – in der Regel liegt dort genau ein Ordner.
 
 4. **SteamID64 eintragen**\
@@ -56,8 +55,7 @@ Der Owner ist der Serverbesitzer. Der Eintrag steht in der Konfiguration und ble
    Speichere die Datei und starte Deinen Server.
 
 > [!NOTE]
-> **Aufbau der Commands.dat**
->
+> **Aufbau der Commands.dat**\
 > In der `Commands.dat` steht eine Anweisung pro Zeile. Zeilen, die mit `//` beginnen, sind Kommentare und werden ignoriert. Übernimm die Schreibweise am besten genau so, wie sie in den Beispielen steht.
 
 ## Admin im laufenden Betrieb ernennen
@@ -99,8 +97,7 @@ Weitere Admins ernennst Du über einen Befehl – entweder in der **Konsole** de
 | `unadmin <SteamID64\|Spielername>` | Konsole oder Chat | Entzieht einem Spieler die Adminrechte |
 
 > [!NOTE]
-> **Wo liegt die Adminliste?**
->
+> **Wo liegt die Adminliste?**\
 > Die Liste der Admins liegt unter `/Servers/<ServerID>/Server/Adminlist.dat` und wird von den Befehlen `admin` und `unadmin` gepflegt. Verwalte Deine Admins am besten ausschließlich über diese Befehle – so bleibt die Liste garantiert gültig. Möchtest Du alle Admins auf einen Schlag entfernen, kannst Du die Datei bei gestopptem Server auch löschen.
 
 ## Cheat-Befehle freischalten

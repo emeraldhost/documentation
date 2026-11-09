@@ -34,8 +34,6 @@ Your server automatically saves the world at regular intervals and creates a bac
    Save the settings and restart your server for the changes to take effect.
 
 > [!WARNING]
-> **Caution**
->
 > With the value `0`, the server no longer saves the world automatically and therefore no longer creates automatic backups either. If the server crashes, everything that happened since the last save is lost.
 
 > [!NOTE]

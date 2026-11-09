@@ -31,8 +31,7 @@ Die `tick-distance` bestimmt, **in welchem Radius rund um den Spieler Entities u
 Chunks außerhalb der Tick-Distance werden zwar noch geladen (solange sie in der [`view-distance`](/tutorials/gameserver/minecraft-bedrock/change-view-distance) liegen), sind aber sozusagen „eingefroren“.
 
 > [!WARNING]
-> **Spieler werden erst aus der Nähe sichtbar?**
->
+> **Spieler werden erst aus der Nähe sichtbar?**\
 > Das ist der häufigste Fall: Steht die Tick-Distance zu niedrig (z.B. auf `4`), erscheinen andere Spieler und Entities erst, wenn sie sich sehr nah befinden. Setze den Wert testweise auf `8`–`10` und starte den Server neu.
 
 ## Auswirkungen auf den Server

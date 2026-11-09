@@ -24,8 +24,7 @@ Der Spielstand eines HumanitZ Servers liegt in einer einzelnen Datei nach dem Mu
 > Erstelle vor dem Hochladen ein [Backup](/tutorials/gameserver/humanitz/create-backup) Deines bisherigen Server-Spielstands, falls Du später zurückwechseln möchtest.
 
 > [!NOTE]
-> **Projektordner**
->
+> **Projektordner**\
 > Alle Pfade in dieser Anleitung beginnen mit dem Projektordner `HumanitZServer`. Läuft Dein Server noch auf einer älteren Version vor HumanitZ 1.0, heißt dieser Ordner stattdessen `TSSGame`. Prüfe per SFTP, welcher der beiden Ordner bei Dir vorhanden ist, und passe die Pfade entsprechend an.
 
 ## Dateien des Spielstands
@@ -94,6 +93,5 @@ Beide Dateien liegen im selben Ordner und gehören zusammen. Übertrage sie desh
 Beim Umzug von einem anderen HumanitZ Server lädst Du am einfachsten den kompletten Ordner `Default` herunter und auf dem neuen Server wieder hoch. Wie Du ihn herunterlädst, steht unter [Savegame herunterladen](/tutorials/gameserver/humanitz/download-savegame).
 
 > [!NOTE]
-> **Einzelspieler-Spielstand**
->
+> **Einzelspieler-Spielstand**\
 > Für die Übertragung eines Einzelspieler-Spielstands auf einen Dedicated Server gibt es **kein dokumentiertes Verfahren**. Weder das offizielle Wiki noch die Serverdokumentation beschreiben einen solchen Weg. Diese Anleitung bezieht sich deshalb ausschließlich auf Spielstände, die von einem Dedicated Server stammen.

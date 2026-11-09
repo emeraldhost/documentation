@@ -94,13 +94,11 @@ RCON is a remote administration connection to your server that lets you issue co
 | `ShutDownServer` | RCON | Shut the server down cleanly |
 
 > [!NOTE]
-> **No ban file**
->
+> **No ban file**\
 > Myth of Empires does not store a ban list as a file on the server that you could edit via SFTP. Bans are managed exclusively through the commands listed above.
 
 > [!NOTE]
-> **No timed bans**
->
+> **No timed bans**\
 > A ban lasts until you remove it again. There is no option to specify a ban duration.
 
 > [!TIP]

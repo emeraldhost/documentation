@@ -44,8 +44,6 @@ Pl3xMap erstellt eine schlanke Web-Karte Deines Minecraft-Servers im Vanilla-Ren
    Wähle einen freien Port aus und notiere ihn Dir.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende **nicht** den Standard-Port Deines Servers! Pl3xMap benötigt einen separaten Port.
 
 ## Schritt 3: Config-Datei anpassen

@@ -54,8 +54,6 @@ You can find plugins on the following platforms:
 - [Bukkit](https://dev.bukkit.org/bukkit-plugins)
 
 > [!WARNING]
-> **Important**
->
 > Only download plugins from trusted sources. Plugins from unknown sources may contain malicious code.
 
 ### How do I upload a plugin?
@@ -73,8 +71,6 @@ You can find plugins on the following platforms:
    Restart the server so the plugin is loaded.
 
 > [!TIP]
-> **Note**
->
 > After the first start, the plugin usually creates its own folder under `plugins/` with configuration files that you can customize.
 
 ## How do I remove a plugin?

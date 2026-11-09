@@ -22,8 +22,6 @@ related: ["gameserver/minecraft-bedrock/change-view-distance", "gameserver/minec
 The world seed determines how the world is generated. It only affects **newly generated worlds** – so you have to delete your existing world first.
 
 > [!CAUTION]
-> **Attention**
->
 > Your current world will be lost permanently. Create a [backup](/tutorials/gameserver/minecraft-bedrock/create-backup) beforehand if you still need it later.
 
 1. **Stop the server**\

@@ -30,8 +30,7 @@ Du kannst Steam Workshop Mods auf Deinem Server installieren, um das Spielerlebn
    Die Workshop-ID findest Du in der URL der Workshop-Seite. Kopiere die Zahl nach `?id=`.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > In der URL `https://steamcommunity.com/sharedfiles/filedetails/?id=2392709985` ist die Workshop-ID `2392709985`.
 
 3. **Mod-ID finden**\

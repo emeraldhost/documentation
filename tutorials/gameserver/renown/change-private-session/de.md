@@ -35,6 +35,4 @@ Mit dieser Einstellung legst Du fest, ob Dein Server als private Sitzung läuft.
    Speichere die Einstellung und starte Deinen Server neu.
 
 > [!WARNING]
-> **Wichtig**
->
 > Wenn **Private Sitzung** auf `False` gesetzt ist, muss [Öffentlicher Server](/tutorials/gameserver/renown/change-public-server) auf `True` gesetzt sein. Die beiden Einstellungen schließen sich gegenseitig aus.

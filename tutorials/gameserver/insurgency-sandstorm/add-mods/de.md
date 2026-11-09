@@ -21,8 +21,7 @@ related: ["gameserver/insurgency-sandstorm/add-admins", "gameserver/insurgency-s
 Mods für Insurgency: Sandstorm werden über **mod.io** bereitgestellt. Der Server meldet sich mit einem eigenen mod.io-Konto an und lädt die Mods herunter, die dieses Konto im **mod.io-Webportal abonniert** hat. Die Anmeldung erfolgt einmalig über einen **Sicherheitscode**.
 
 > [!NOTE]
-> **Geändert mit Update 1.20**
->
+> **Geändert mit Update 1.20**\
 > Mit dem Update **1.20 (Operation: Clear Sight)** hat mod.io das Mod-Verfahren umgestellt. Mods werden seitdem über ein **eigenes Server-Konto** und einen einmaligen **Sicherheitscode** geladen. Die früheren Methoden (AccessToken in der `GameUserSettings.ini`, `Mods.txt` / `-ModList`) funktionieren **nicht mehr**.
 
 > [!WARNING]
@@ -105,8 +104,7 @@ Lädt der Server keine Mods herunter, prüfe folgende Punkte:
 > Auch die **Spieler** müssen die Mods (z.B. eigene Karten) mit ihrem eigenen mod.io-Konto abonnieren, um dem Server beitreten zu können. Der Download startet beim Verbinden im Hintergrund und wird nicht immer mit einem Fortschrittsbalken angezeigt.
 
 > [!NOTE]
-> **Migration vom alten Verfahren**
->
+> **Migration vom alten Verfahren**\
 > Falls Du den Server zuvor über einen **AccessToken** in der `GameUserSettings.ini` eingerichtet hast: Entferne den Abschnitt `[/Script/ModKit.ModIOClient]` aus dieser Datei. Das aktuelle Verfahren nutzt ausschließlich den Sicherheitscode.
 
 ## Mutatoren

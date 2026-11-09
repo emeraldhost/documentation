@@ -82,11 +82,9 @@ Set `enabled` to `false` to disable a mod without deleting it. Restart the serve
 > All players need **exactly the same mods in the same versions** as the server, otherwise the checksum check fails when joining.
 
 > [!TIP]
-> **Automatic mod sync**
->
+> **Automatic mod sync**\
 > When joining a server that uses mods, Factorio offers to synchronize the mods with the server. Confirming the mod sync automatically downloads and enables all required mods.
 
 > [!NOTE]
-> **Space Age and other expansions**
->
+> **Space Age and other expansions**\
 > The server already ships with the mods `base`, `elevated-rails`, `quality` and `space-age`. If the expansion mods are active, players **without** the DLC cannot join. They can be set to `"enabled": false` via `mods/mod-list.json`. However, there are reports of the server re-enabling the expansion mods on startup – so far there is no official fix for this. After a restart, check the `mod-list.json` to see whether your setting was kept.

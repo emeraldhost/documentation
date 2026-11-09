@@ -21,8 +21,6 @@ related: ["gameserver/cryofall/add-savegame", "gameserver/cryofall/create-backup
 The complete world of your CryoFall server lives in the `/Data/Saves/` folder. You can download it to your PC at any time – for example as an additional backup or to move the world to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. CryoFall saves the world automatically at regular intervals while running – otherwise you would download an incomplete save.
 
 1. **Stop the server**\
@@ -52,8 +50,7 @@ The complete world of your CryoFall server lives in the `/Data/Saves/` folder. Y
 > Always download the **entire folder** instead of picking out single files. `Saves` holds the world data of your server together with the saved states the server created – only together do they form a loadable save.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download these files from the `/Data/` folder too:
 >
 > ```text
@@ -65,11 +62,9 @@ The complete world of your CryoFall server lives in the `/Data/Saves/` folder. Y
 > They contain your operators, the access lists and the game rates, among other things.
 
 > [!TIP]
-> **Restore the save later**
->
+> **Restore the save later**\
 > If you want to move the save back onto a server later on, follow the guide [Add savegame](/tutorials/gameserver/cryofall/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/cryofall/create-backup).

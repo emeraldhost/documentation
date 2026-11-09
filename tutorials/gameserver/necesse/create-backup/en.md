@@ -40,13 +40,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the world file separately: [Download savegame](/tutorials/gameserver/necesse/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Necesse rewrites the world regularly while running – a backup taken during operation can contain an incomplete world file.
 
 > [!TIP]
-> **Shut down cleanly**
->
+> **Shut down cleanly**\
 > Always stop your server via the **dashboard** or with the `/stop` command in the console. That way Necesse writes the world to disk completely beforehand.
 
 > [!NOTE]

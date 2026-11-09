@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Sperre wichtige Backups (z.B. vor großen Änderungen), damit sie nicht durch automatische Backups überschrieben werden. Lade besonders wichtige Backups zusätzlich auf Deinen PC herunter, falls Dein Backup-Limit erreicht wird.
 
 > [!NOTE]
-> **Was gehört zum Spielstand?**
->
+> **Was gehört zum Spielstand?**\
 > Die eigentlichen Spielstände liegen als `.sav`-Dateien unter `/WRSH/Saved/SaveGames/WorldSaves/`, die Zwischenstände des Servers unter `/WRSH/Saved/SaveGames/AutoSave/`. Deine Servereinstellungen stehen in der Datei `/WRSH/Saved/Config/WindowsServer/Game.ini` – ein Backup über die Verwaltung sichert alle diese Dateien gemeinsam.
 
 > [!NOTE]

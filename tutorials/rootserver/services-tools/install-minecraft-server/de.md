@@ -120,8 +120,6 @@ Anleitung zur Installation eines Minecraft Servers auf einem Linux Rootserver / 
     ```
 
     > [!WARNING]
-    > **Hinweis**
-    >
     > Ändere bei -Xmx1G die 1 auf die Anzahl Deines RAMs, z.B. 10 (Server mit 10 Gigabyte RAM).
 
     > [!NOTE]

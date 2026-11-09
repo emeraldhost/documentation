@@ -28,8 +28,6 @@ You need the [SteamID64](/tutorials/gameserver/steamid64-find-out) of each playe
 ## Method 1: Via the server config
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before editing the config file. A running server overwrites your changes when it saves.
 
 1. **Stop the server**\
@@ -67,6 +65,5 @@ An existing admin can promote other players live:
    Select the player and promote them (**Promote**) to the desired rank.
 
 > [!NOTE]
-> **Crossplay servers**
->
+> **Crossplay servers**\
 > On servers with **crossplay** enabled, the SteamID method (method 1) does not take effect. In that case use in-game promotion (method 2) or the [Remote API](/tutorials/gameserver/space-engineers/enable-remote-api).

@@ -21,8 +21,6 @@ related: ["gameserver/dont-starve-together/add-savegame", "gameserver/dont-starv
 You can download your server's save to your PC at any time – for example as an additional backup, to archive a world, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -55,16 +53,13 @@ You can download your server's save to your PC at any time – for example as an
 > The save is a folder, not a single file. Always download it completely, including the `saveindex` file and the `session` subfolder. Individual files taken out of it cannot be used on their own.
 
 > [!WARNING]
-> **Overworld and caves belong together**
->
+> **Overworld and caves belong together**\
 > If your server uses the caves, always back up both `save` folders together. If you later restore only one of them, the overworld and the caves will no longer match.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/dont-starve-together/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create Backup](/tutorials/gameserver/dont-starve-together/create-backup).

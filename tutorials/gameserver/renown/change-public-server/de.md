@@ -35,6 +35,4 @@ Mit dieser Einstellung legst Du fest, ob Dein Server in der öffentlichen Server
    Speichere die Einstellung und starte Deinen Server neu.
 
 > [!WARNING]
-> **Wichtig**
->
 > Wenn **Öffentlicher Server** auf `True` gesetzt ist, muss [Private Sitzung](/tutorials/gameserver/renown/change-private-session) auf `False` gesetzt sein. Die beiden Einstellungen schließen sich gegenseitig aus.

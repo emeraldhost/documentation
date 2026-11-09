@@ -61,8 +61,7 @@ You join your The Front server through the in-game server browser. There you sea
    Compare the spelling: if you search for a name with a typo, the list stays empty. When in doubt, search for a short, distinctive part of the name only.
 
 > [!NOTE]
-> **Which ports does The Front use?**
->
+> **Which ports does The Front use?**\
 > A The Front server occupies four ports that are usually assigned directly one after another. The actual values are assigned to your server in the **dashboard** – always rely on the numbers shown there.
 >
 > | Port | Purpose |

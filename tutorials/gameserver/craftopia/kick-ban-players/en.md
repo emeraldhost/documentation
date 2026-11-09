@@ -21,8 +21,7 @@ related: ["gameserver/craftopia/add-savegame", "gameserver/craftopia/create-back
 On a Craftopia server you remove players through the **console in the dashboard**. There are no in-game chat commands for this.
 
 > [!NOTE]
-> **No admin concept in the game**
->
+> **No admin concept in the game**\
 > Craftopia has **no admin rights for players**: there is no admin file, no admin list and no command that grants a player permissions in the game. All administration therefore runs through the console of your server – and thus through everyone who has access to the dashboard.
 
 ## Open the console
@@ -66,8 +65,7 @@ ban <UserID>
 The player is removed from the server and added to the ban list.
 
 > [!WARNING]
-> **Bans apply to the IP address**
->
+> **Bans apply to the IP address**\
 > The Craftopia ban list contains **IP addresses**, not player accounts. This means:
 >
 > - If the player changes their IP address, they can join the server again.
@@ -90,8 +88,7 @@ pardon <IP address>
 Use the IP address exactly as `banlist` shows it.
 
 > [!TIP]
-> **If a command is not accepted**
->
+> **If a command is not accepted**\
 > Craftopia is still in development and the exact spelling of the commands can change between game versions. If a command is not accepted, check the output in the console of your server.
 
 ## Command overview

@@ -21,8 +21,6 @@ related: ["gameserver/windrose/change-world-settings", "gameserver/windrose/crea
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive a world, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -50,11 +48,9 @@ You can download your server's savegame to your PC at any time – for example a
 > The `<WorldID>` folder is named with an alphanumeric string. You can tell which folder is the right one from your server's [island ID](/tutorials/gameserver/windrose/set-island-id) – it matches the folder name. Note down the `<GameVersion>` and the island ID as well, so you can restore the save correctly later.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/windrose/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/windrose/create-backup).

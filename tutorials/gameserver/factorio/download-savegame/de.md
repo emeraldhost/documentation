@@ -43,26 +43,21 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Welche Datei ist die richtige?**
->
+> **Welche Datei ist die richtige?**\
 > Welcher Spielstand geladen wird, erkennst Du am Feld **Save Name** im **Config-Editor** der Verwaltung. Steht dort z.B. `gamesave`, benötigst Du die Datei `gamesave.zip`.
 
 > [!NOTE]
-> **Autosaves**
->
+> **Autosaves**\
 > Die automatischen Zwischenspeicherungen liegen im selben Ordner und heißen `_autosave1.zip`, `_autosave2.zip` und so weiter. Sie eignen sich, um zu einem etwas älteren Stand zurückzukehren.
 
 > [!TIP]
-> **Spielstand lokal weiterspielen**
->
+> **Spielstand lokal weiterspielen**\
 > Kopiere die heruntergeladene `.zip`-Datei auf Deinem PC nach `%appdata%\Factorio\saves`, um die Fabrik im Einzelspieler zu öffnen.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/factorio/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/factorio/create-backup).

@@ -38,8 +38,7 @@ Nightingale kennt **keine Admin-Liste mit Steam- oder Epic-IDs**. Stattdessen gi
 > Ist im Feld bereits ein Passwort vorausgefüllt, ersetze es unbedingt durch ein eigenes, bevor Dein Server öffentlich erreichbar ist – sonst kann sich jeder, der den vorausgefüllten Wert kennt, Adminrechte verschaffen.
 
 > [!NOTE]
-> **Warum nicht in der Konfigurationsdatei?**
->
+> **Warum nicht in der Konfigurationsdatei?**\
 > Das Admin-Passwort steht in der Datei `/NWX/Config/ServerSettings.ini` in der Zeile `AdminPassword=`. Dein Server schreibt diese Zeile aber bei **jedem Start** aus dem Feld der Verwaltung neu. Eine manuelle Änderung in der Datei wäre beim nächsten Start wieder weg – setze das Passwort deshalb ausschließlich in der Verwaltung. Dasselbe gilt für das Server-Passwort (`Password=`) und die Schwierigkeit (`StartingDifficulty=`).
 
 ## Admin-Modus im Spiel aktivieren
@@ -82,8 +81,7 @@ Nightingale kennt **keine Admin-Liste mit Steam- oder Epic-IDs**. Stattdessen gi
 > Der Admin-Modus dient in Nightingale dazu, Spieler zu **kicken und zu bannen**. Klassische Adminbefehle über einen Chat gibt es nicht, und die Konsole in der Verwaltung zeigt ausschließlich die Ausgaben des Servers an – sie nimmt **keine** Befehle entgegen.
 
 > [!WARNING]
-> **Cheat- und Debugmenü**
->
+> **Cheat- und Debugmenü**\
 > Davon getrennt gibt es das Cheat- und Debugmenü. Für Kick und Bann brauchst Du es **nicht**. Möchtest Du es auf Deinem Server nutzen, sind drei Dinge nötig:
 >
 > - Schalte es auf dem Server über die Variable **Enable Cheats** in der Verwaltung frei.

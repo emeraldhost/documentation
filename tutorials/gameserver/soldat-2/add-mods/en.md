@@ -98,8 +98,7 @@ Modifiers are the quickest way to change the gameplay: they override the values 
    ```
 
 > [!NOTE]
-> **Extend lists instead of replacing them**
->
+> **Extend lists instead of replacing them**\
 > For values that contain a list you can add or remove single entries instead of rewriting the whole list: a leading `+` adds an entry, a `-` removes it.
 
 > [!WARNING]

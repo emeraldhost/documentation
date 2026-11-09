@@ -29,8 +29,7 @@ No One Survived ships with two maps. Which one your server loads is controlled b
 > The numbering is not chronological: `Map01` is the **large** map that was added later, `Map02` is the smaller original map.
 
 > [!CAUTION]
-> **Back up first**
->
+> **Back up first**\
 > Create a [backup](/tutorials/gameserver/no-one-survived/create-backup) before switching. Changing the map changes which world your server loads – without a backup you cannot get back to your previous state.
 
 ## Switch the map
@@ -65,24 +64,20 @@ No One Survived ships with two maps. Which one your server loads is controlled b
    Enter a new save name in the **dashboard** so a separate world gets created for the new map. Your previous savegame stays intact under its old name.
 
    > [!NOTE]
-   > **Why a separate name?**
-   >
+   > **Why a separate name?**\
    > An existing savegame was created on the map you started it on. If you assign a separate save name for the new map, you can switch back at any time by entering the old name again.
 
 6. **Start the server**\
    Save the file and start your server. On startup the selected map is loaded.
 
 > [!TIP]
-> **Switching back**
->
+> **Switching back**\
 > To switch back to the previous map, set `OpenMap` back and enter the matching save name in the dashboard again.
 
 > [!WARNING]
-> **Mind the memory**
->
+> **Mind the memory**\
 > The large map `Map01` needs considerably more memory than the small map `Map02`. The developer recommends at least 8 GB for the large map and at least 4 GB for the small map. If there is not enough memory, the server does not start properly or crashes during operation.
 
 > [!NOTE]
-> **No field in the dashboard**
->
+> **No field in the dashboard**\
 > The map selection is not controlled through the dashboard, only through `Game.ini`. Because of that this value is not overwritten on server start and stays in place.

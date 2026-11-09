@@ -32,8 +32,6 @@ kick <PlayerName>
 The player is disconnected immediately and a message is shown in the chat for everyone. After a short block of around 30 seconds they can rejoin.
 
 > [!WARNING]
-> **Caution**
->
 > `kick` only finds players who are currently **online**, and the name has to match exactly. There is no duration option – kicking a player "for 30 minutes" is not possible in Mindustry.
 
 ## Ban a player
@@ -123,6 +121,5 @@ This allows the player to rejoin.
 > Bans and the whitelist are stored together with all settings in the binary file `config/settings.bin`. Manage them exclusively through the console commands – opening the file in a text editor destroys it.
 
 > [!TIP]
-> **Open the server for selected players only**
->
+> **Open the server for selected players only**\
 > Instead of banning individual players, you can also close your server completely and allow only selected players. You can find out how under [Add Admin](/tutorials/gameserver/mindustry/add-admin) in the whitelist section.

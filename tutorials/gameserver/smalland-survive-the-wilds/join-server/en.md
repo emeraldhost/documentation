@@ -44,8 +44,6 @@ Smalland Survive the Wilds has **no direct connection via IP address**. You find
    Enter the **name of your server** in the search field.
 
    > [!WARNING]
-   > **Caution**
-   >
    > The search looks for the **server name**, not the world name. Both values are independent of each other – the world name only determines which savegame is loaded.
 
 6. **Check the filters**\
@@ -58,15 +56,12 @@ Smalland Survive the Wilds has **no direct connection via IP address**. You find
    If you set a server password, you are asked for it when joining. Enter it exactly as it is stored in the dashboard.
 
 > [!TIP]
-> **Save the server as a favorite**
->
+> **Save the server as a favorite**\
 > Use **Add to Favorites** to store your server in the server browser. You can then find it again next time without searching.
 
 ## Server is not found
 
 > [!WARNING]
-> **Caution**
->
 > If you cannot find your server, work through these points one by one:
 >
 > - Is the server running? Check the status in the **dashboard**.
@@ -76,8 +71,7 @@ Smalland Survive the Wilds has **no direct connection via IP address**. You find
 > - Is the private server setting enabled? In that case your server does **not** appear in the list at all.
 
 > [!CAUTION]
-> **Private server**
->
+> **Private server**\
 > If you enable the private server option in the dashboard, your server is hidden from the server browser completely. Since Smalland has no direct connection via IP address, your fellow players can no longer select it. If you only want to protect your server from strangers, set a **server password** instead.
 
 ## Which ports does Smalland Survive the Wilds use?

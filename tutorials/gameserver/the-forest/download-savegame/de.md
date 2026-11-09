@@ -43,16 +43,14 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Welcher Slot ist der richtige?**
->
+> **Welcher Slot ist der richtige?**\
 > Welchen Slot Dein Server verwendet, steht in der Datei `/TheForestDedicatedServer_Data/forest/config/config.cfg` beim Wert `slot`. Steht dort `slot 1`, ist `Slot1` Dein aktueller Spielstand.
 
 > [!WARNING]
 > Ein Spielstand ist immer der komplette `Slot#`-Ordner. Lade ihn stets vollständig herunter – einzelne Dateien daraus ergeben keinen nutzbaren Spielstand.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Datei herunter:
 >
 > ```text
@@ -60,11 +58,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/the-forest/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/the-forest/create-backup).

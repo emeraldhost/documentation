@@ -21,8 +21,6 @@ related: ["gameserver/soulmask/configure-pvp", "gameserver/soulmask/create-backu
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted savegame.
 
 1. **Stop the server**\
@@ -52,16 +50,13 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> **Find the right folder**
->
+> **Find the right folder**\
 > The `Level01_Main` folder corresponds to the default map Cloud Mist Forest. If your server runs a different map, the `world.db` is located in the folder matching the value of the map setting in the dashboard (e.g. `DLC_Level01_Main` for Shifting Sands).
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to transfer the savegame back to a server later, follow the guide [Add savegame](/tutorials/gameserver/soulmask/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/soulmask/create-backup).

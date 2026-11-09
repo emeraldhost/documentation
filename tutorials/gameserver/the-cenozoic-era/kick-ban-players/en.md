@@ -83,8 +83,6 @@ The player is removed from the server and cannot connect again until you lift th
 > `/slay` is the milder option if a player gained an unfair advantage or got stuck: the player dies in the game instead of being banned from the server. You can find the complete list of admin commands under [Add Admin](/tutorials/gameserver/the-cenozoic-era/add-admin).
 
 > [!WARNING]
-> **Caution**
->
 > There is **no documented ban file** on the server for The Cenozoic Era. Bans are managed exclusively through the in-game commands – adding or correcting an entry via SFTP is not supported.
 
 > [!IMPORTANT]

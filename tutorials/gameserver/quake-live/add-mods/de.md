@@ -193,6 +193,5 @@ Gültige Werte für `basegt`:
 > Stoppe Deinen Server immer, bevor Du Dateien bearbeitest oder hochlädst. Die `workshop.txt` wird nur beim Start des Servers ausgewertet.
 
 > [!NOTE]
-> **Plugins mit minqlx**
->
+> **Plugins mit minqlx**\
 > Für Quake Live gibt es mit minqlx ein Plugin-Framework auf Python-Basis. Es setzt eine eigens dafür gebaute Serverumgebung samt Redis-Datenbank voraus und läuft deshalb nicht auf einem Standard-Quake-Live-Server. Für Maps, Modelle und eigene Spielmodi brauchst Du es nicht – dafür genügen Steam Workshop und Factories.

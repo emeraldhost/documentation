@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Craftopia speichert im laufenden Betrieb automatisch – eine Sicherung während des Betriebs kann einen unvollständigen Spielstand enthalten.
 
 > [!NOTE]
-> **Automatisches Speichern**
->
+> **Automatisches Speichern**\
 > Wie oft Dein Server speichert, steuerst Du in der Datei `/ServerSetting.ini` im Abschnitt `[Save]`: `autoSaveSec` legt den Abstand in Sekunden fest (Standard `300`, also alle fünf Minuten), `autoSavePerHour` steuert zusätzlich das stündliche Speichern. Diese Automatik ersetzt jedoch kein Backup – sie überschreibt immer denselben Spielstand.
 
 > [!NOTE]

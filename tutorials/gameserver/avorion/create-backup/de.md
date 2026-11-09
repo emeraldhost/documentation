@@ -37,8 +37,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Avorion speichert im laufenden Betrieb automatisch – eine Sicherung während des Betriebs kann eine unvollständige Galaxie enthalten.
 
 > [!TIP]
-> **Vorher speichern**
->
+> **Vorher speichern**\
 > Läuft Dein Server noch, kannst Du den aktuellen Stand vorher manuell sichern: Gib in der Konsole der Verwaltung `/save` ein, warte bis der Vorgang abgeschlossen ist, und stoppe den Server anschließend über die Verwaltung.
 
 > [!NOTE]

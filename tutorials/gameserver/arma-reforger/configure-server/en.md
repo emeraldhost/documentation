@@ -155,8 +155,7 @@ The `operating` section is not included in the `config.json` after the installat
 | `disableServerShutdown`, `lobbyPlayerSynchronise` | Behavior when the connection to the backend is lost and synchronization of the player count – see [Troubleshoot Common Problems](/tutorials/gameserver/arma-reforger/troubleshoot-server) |
 
 > [!TIP]
-> **Example**
->
+> **Example**\
 > This is what an `operating` section looks like that enables a join queue for up to 10 players:
 >
 > ```json

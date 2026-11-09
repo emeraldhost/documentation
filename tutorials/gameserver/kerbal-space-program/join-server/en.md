@@ -113,8 +113,7 @@ From that moment on the player name is tied to your key pair and nobody else can
 | `Server is full` | The maximum number of players has been reached |
 
 > [!NOTE]
-> **Which ports does DarkMultiPlayer use?**
->
+> **Which ports does DarkMultiPlayer use?**\
 > A DMP server uses exactly one port: the **Game Port** over TCP. Connection handling and all game data run through it. There is no separate Query Port. You can see the Game Port that applies to your server in the **dashboard**.
 
 > [!TIP]

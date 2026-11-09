@@ -33,6 +33,4 @@ Der Welt Seed bestimmt, wie eine neu generierte Welt aussieht. Du kannst den Wer
    Starte Deinen Server neu, damit die Änderung übernommen wird.
 
 > [!WARNING]
-> **Wichtig**
->
 > Das Ändern des Seeds wirkt sich nur auf neu generierte Welten aus. Bestehende Welten behalten ihren ursprünglichen Seed.

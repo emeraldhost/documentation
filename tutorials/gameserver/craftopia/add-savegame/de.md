@@ -90,18 +90,15 @@ Die Welten Deines Craftopia Servers liegen im Ordner `DedicatedServerSave` im Ha
    Speichere alle Änderungen und starte Deinen Server. Beim Start wird jetzt Deine hochgeladene Welt geladen.
 
 > [!CAUTION]
-> **Weltname muss exakt passen**
->
+> **Weltname muss exakt passen**\
 > Groß- und Kleinschreibung sowie Leerzeichen müssen exakt übereinstimmen. Findet der Server unter dem eingetragenen Namen keine Welt, erzeugt er stillschweigend eine neue – Deine hochgeladene Welt bleibt dann zwar auf der Platte, wird aber nicht geladen.
 
 > [!WARNING]
-> **Änderungen immer in der ServerSetting.ini**
->
+> **Änderungen immer in der ServerSetting.ini**\
 > Trage Deine Änderungen ausschließlich in der `ServerSetting.ini` ein. Eine daneben liegende `DefaultServerSetting.ini` ist nur die mitgelieferte Vorlage und wird vom Server nicht als Deine Konfiguration verwendet.
 
 > [!WARNING]
-> **Übertragung aus dem Einzelspieler**
->
+> **Übertragung aus dem Einzelspieler**\
 > Für den Umzug einer Einzelspieler-Welt auf einen Dedicated Server gibt es **kein offizielles Verfahren des Entwicklers**. Der beschriebene Weg stammt aus Hoster- und Community-Anleitungen und kann je nach Spielversion abweichen. Arbeite deshalb ausschließlich mit Kopien Deiner Spielstände und lege vorher ein Backup an.
 
 > [!TIP]

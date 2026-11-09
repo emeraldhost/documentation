@@ -71,11 +71,9 @@ Ist für Deinen Server ein Passwort gesetzt, fragt Necesse es beim Verbinden ab.
 > Ein Necesse Server belegt nur einen einzigen Port, den **Game Port** (UDP). Einen separaten **Query Port** gibt es nicht – im Spiel trägst Du deshalb exakt den Game Port ein, der in Deiner Verwaltung steht.
 
 > [!WARNING]
-> **Server nicht erreichbar**
->
+> **Server nicht erreichbar**\
 > Prüfe zuerst in der Verwaltung, ob Dein Server tatsächlich läuft. Achte anschließend darauf, dass IP-Adresse und Game Port exakt übernommen wurden – ein Zahlendreher im Port ist die häufigste Ursache für eine fehlgeschlagene Verbindung.
 
 > [!WARNING]
-> **Version prüfen**
->
+> **Version prüfen**\
 > Client und Server müssen dieselbe Spielversion nutzen. Nach einem Update Deines Spiels kann eine Verbindung fehlschlagen, bis auch Dein Server auf demselben Stand ist.

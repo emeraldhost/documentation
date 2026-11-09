@@ -51,8 +51,6 @@ SA-MP and open.mp have **no world save**. There is no stored world and no savega
 > If your gamemode stores player data in a **MySQL database**, that data is **not** part of the server files. Back the database up separately as well – a backup of the server files alone is not enough in that case.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Running scripts write to `scriptfiles` while the server is up – a backup taken during operation can be incomplete.
 
 > [!TIP]

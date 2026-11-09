@@ -55,8 +55,6 @@ Its content uses JSON format:
 ```
 
 > [!WARNING]
-> **Caution**
->
 > All values are enclosed in quotation marks – including numbers and `"true"`/`"false"`. If you enter them without quotation marks, the server cannot read the file.
 
 | Value | Meaning |
@@ -68,8 +66,6 @@ Its content uses JSON format:
 | `LoadSavedGame` | `"true"` loads the existing save of the configured session |
 
 > [!WARNING]
-> **Caution**
->
 > If `SessionName`, `StartNewGame` or `LoadSavedGame` are offered in the **Config Editor** of your **dashboard**, only change them there. The `DSSettings.txt` can be rewritten from those fields when the server starts – manual changes in the file would be overwritten again.
 
 ## Find your local savegame
@@ -116,8 +112,6 @@ C:\Program Files (x86)\Steam\userdata\<SteamID64>\1631270\remote\Saved\SaveGames
    ```
 
    > [!WARNING]
-   > **Caution**
-   >
    > The base name has to be identical for both files. `AutoSave0.sav` together with `MySave.met` will not work.
 
 7. **Adjust DSSettings.txt**\

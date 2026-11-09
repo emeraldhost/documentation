@@ -34,13 +34,10 @@ Regular backups of your Myth of Empires server protect you from data loss – wh
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!CAUTION]
-> **Save before stopping**
->
+> **Save before stopping**\
 > Save the world before you stop the server. To do so, run the command `cheat SaveWorld` in the game as an admin and then wait about 30 to 45 seconds until the save has finished. If the server is shut down while it is still writing, the save can be corrupted.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Myth of Empires saves at regular intervals while running – a backup taken during operation can be incomplete.
 
 > [!TIP]

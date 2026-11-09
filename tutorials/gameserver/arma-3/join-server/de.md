@@ -97,6 +97,5 @@ Mods, die Dein Server über `-serverMod=` lädt, laufen ausschließlich serverse
 > Welche konkreten Werte für Deinen Server gelten, siehst Du in der **Verwaltung**. Alle diese Ports werden für Deinen Server reserviert.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Taucht Dein Server im öffentlichen Serverbrowser nicht auf, nutze die Direktverbindung. Über **Direct Connect** erreichst Du ihn unabhängig davon, ob er in der öffentlichen Liste erscheint.

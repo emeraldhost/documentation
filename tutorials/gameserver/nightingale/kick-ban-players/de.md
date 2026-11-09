@@ -82,8 +82,7 @@ Ein Entbannen im Spiel gibt es nicht – dafür bearbeitest Du die Datei mit dem
 > Erstelle vor dem Bearbeiten ein [Backup](/tutorials/gameserver/nightingale/create-backup) oder lade Dir eine Kopie der Datei herunter. Eine beschädigte `ServerState.ini` kann dazu führen, dass der Server seinen Zustand nicht mehr laden kann. Findest Du weder die Datei noch eine Zeile `Bans=`, wurde auf Deinem Server bisher niemand gebannt – beides entsteht erst mit dem ersten Bann.
 
 > [!NOTE]
-> **Alle Banns auf einmal aufheben**
->
+> **Alle Banns auf einmal aufheben**\
 > Löschst Du den kompletten Ordner `/NWX/Saved/Config/`, wird der gesamte Serverzustand zurückgesetzt und damit auch jeder Bann. Der Server legt den Ordner beim nächsten Start neu an.
 
 ## Keine Konsolenbefehle

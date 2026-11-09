@@ -24,8 +24,7 @@ HumanitZ arbeitet mit einem **Admin-Passwort**: Du hinterlegst es in der Konfigu
 > Jeder, der das Admin-Passwort kennt, hat volle Adminrechte auf Deinem Server. Gib es nur an Personen weiter, denen Du vertraust, und verwende ein anderes Passwort als das Server- und das RCON-Passwort.
 
 > [!NOTE]
-> **Projektordner**
->
+> **Projektordner**\
 > Alle Pfade in dieser Anleitung beginnen mit dem Projektordner `HumanitZServer`. Läuft Dein Server noch auf einer älteren Version vor HumanitZ 1.0, heißt dieser Ordner stattdessen `TSSGame`. Prüfe per SFTP, welcher der beiden Ordner bei Dir vorhanden ist, und passe die Pfade entsprechend an.
 
 ## Admin-Passwort setzen

@@ -26,13 +26,10 @@ Mindustry distinguishes two kinds of extensions, and both go into the same folde
 | **Plugin** | Runs on the server only, usually for extra commands or game modes. Players do **not** need it. |
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before adding, updating or removing mods. Also create a [backup](/tutorials/gameserver/mindustry/create-backup) first – mods can permanently change your map.
 
 > [!NOTE]
-> **No automatic download**
->
+> **No automatic download**\
 > Your server does **not** download mods by itself, and it does not hand them out to players either. You upload every file manually, and every player installs the mods on their own machine.
 
 ## Obtain the mod file
@@ -118,13 +115,10 @@ Plugins are Java extensions that only run on servers. They typically add new com
    Start your server again.
 
 > [!WARNING]
-> **Caution**
->
 > If you remove a mod that added blocks, units or items to your map, its content disappears from the save. When in doubt, restore a [backup](/tutorials/gameserver/mindustry/create-backup) instead of simply deleting the mod.
 
 > [!WARNING]
-> **Mod is not loaded**
->
+> **Mod is not loaded**\
 > If your mod does not show up in the output of `mods` after the restart, check its location and spelling: the file has to sit directly in `/config/mods/` and end in `.jar` or `.zip` – or, as a folder, contain a meta file.
 
 > [!NOTE]

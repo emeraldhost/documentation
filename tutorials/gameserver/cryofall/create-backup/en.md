@@ -35,8 +35,6 @@ Regular backups of your CryoFall server protect you from data loss – whether d
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. CryoFall saves the world automatically at regular intervals – a backup taken during operation can land right in the middle of such a save and end up incomplete.
 
 > [!NOTE]

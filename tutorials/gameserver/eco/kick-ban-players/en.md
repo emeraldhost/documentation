@@ -63,8 +63,7 @@ The player is removed from the running session but can rejoin at any time. Short
 Without a duration the ban is permanent. Short form: `/ban`
 
 > [!TIP]
-> **Temporary bans**
->
+> **Temporary bans**\
 > The duration uses the format `1m`, `1h`, `1d` or `1w` – minutes, hours, days or weeks:
 >
 > ```text
@@ -72,8 +71,7 @@ Without a duration the ban is permanent. Short form: `/ban`
 > ```
 
 > [!NOTE]
-> **Show the ban list**
->
+> **Show the ban list**\
 > If you enter `/manage ban` without any further arguments, the server shows you the list of banned players.
 
 ## Unban a player
@@ -141,14 +139,12 @@ Bans and mutes can also be set directly in the configuration without being in th
    Save the file and start your server.
 
 > [!NOTE]
-> **Unbanning via the file**
->
+> **Unbanning via the file**\
 > To lift a ban, remove the ID from `$values` – including its comma. Make sure the file stays valid JSON (when in doubt, check it with a JSON formatter like [JSONLint](https://jsonlint.com/)) and restart the server afterwards.
 
 > [!WARNING]
 > The same rule applies here: user names do not work, you have to enter an SLG ID or SteamID64. How to find them is described under [Add Admin](/tutorials/gameserver/eco/add-admin).
 
 > [!NOTE]
-> **Whitelist**
->
+> **Whitelist**\
 > `Users.eco` also contains a `WhiteList`. According to the official documentation it is **not an access restriction**: users on the whitelist simply do not need to enter a server password in order to connect. To lock out individual players, use the `BlackList`.

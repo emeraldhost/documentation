@@ -58,8 +58,7 @@ The dashboard has no button to reset the world. On startup, the server always lo
 | Everything you did not back up beforehand | The backups you created earlier and any downloaded savegames |
 
 > [!TIP]
-> **Custom settings for the new world**
->
+> **Custom settings for the new world**\
 > The server always creates a world with standard settings. If the new world should run with your own rules, create it locally in the game and upload it: [Create custom world](/tutorials/gameserver/runescape-dragonwilds/create-custom-world).
 
 ## Load a different world
@@ -85,6 +84,5 @@ If several `.sav` files are in the `SaveGames` folder, the server always loads t
 > Never rename `.sav` files. If the server starts with a renamed file, the progress stored in it is lost. Always keep the original filename.
 
 > [!TIP]
-> **Restoring the old world**
->
+> **Restoring the old world**\
 > If you created a backup before deleting, you restore it via the dashboard: [Create backup](/tutorials/gameserver/runescape-dragonwilds/create-backup). If you downloaded the `.sav` file to your PC instead, upload it again via SFTP: [Add savegame](/tutorials/gameserver/runescape-dragonwilds/add-savegame).

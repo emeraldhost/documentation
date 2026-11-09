@@ -52,8 +52,7 @@ Die Welt-Datei heißt z.B. `0.world.gzip`. Die Zahl vor `.world.gzip` ist der **
    Stelle sicher, dass der **World Index** im **Config-Editor** mit der Zahl Deiner Welt-Datei übereinstimmt.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > Wenn Deine Datei `0.world.gzip` heißt, muss der World Index `0` sein. Bei `3.world.gzip` muss er `3` sein.
 
 5. **Server starten**\

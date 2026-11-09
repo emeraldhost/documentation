@@ -58,8 +58,6 @@ Mods findest Du auf folgenden Plattformen:
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods)
 
 > [!WARNING]
-> **Wichtig**
->
 > Lade Mods nur von vertrauenswürdigen Quellen herunter. Mods aus unbekannten Quellen können Schadcode enthalten. Achte darauf, dass die Mod mit Deiner Minecraft-Version und Deinem Mod-Loader (Forge, Fabric etc.) kompatibel ist.
 
 ### Mod hochladen

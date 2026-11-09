@@ -93,8 +93,7 @@ Die Länder trägst Du als zweistellige ISO-Ländercodes ein, z.B. `DE` für Deu
    Speichere die Datei und starte Deinen Server über die Verwaltung.
 
 > [!TIP]
-> **Beispiel**
->
+> **Beispiel**\
 > So lässt Du nur Spieler aus Deutschland, Österreich und der Schweiz auf Deinen Server:
 >
 > ```text

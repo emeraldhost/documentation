@@ -23,8 +23,6 @@ Terraria hat keinen Ingame-Serverbrowser für dedizierte Server. Du verbindest D
 ## Verbindungsdaten finden
 
 > [!WARNING]
-> **Wichtig**
->
 > Für die Verbindung benötigst Du die **IP-Adresse** und den **Port** Deines Servers. Beides findest Du in der **Verwaltung** Deines Servers. Terraria nutzt nur einen einzigen Port über **TCP** (Standard: `7777`) – einen separaten Query Port gibt es nicht.
 
 ## Über Join via IP

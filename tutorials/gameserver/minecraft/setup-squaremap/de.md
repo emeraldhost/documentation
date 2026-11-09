@@ -44,8 +44,6 @@ squaremap erstellt eine minimalistische 2D-Web-Karte Deines Minecraft-Servers. D
    Wähle einen freien Port aus und notiere ihn Dir.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende **nicht** den Standard-Port Deines Servers! squaremap benötigt einen separaten Port.
 
 ## Schritt 3: Config-Datei anpassen

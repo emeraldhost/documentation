@@ -98,6 +98,5 @@ Ist für Deinen Server ein Passwort gesetzt, erscheint in der Serverliste ein Sc
 > Welche Werte für Deinen Server gelten, siehst Du in der **Verwaltung**.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Taucht Dein Server im Serverbrowser nicht auf, trage ihn über die Steam-Favoriten mit dem Query Port ein. Über die Favoriten findest Du ihn unabhängig davon, ob er in der öffentlichen Liste erscheint.

@@ -51,8 +51,7 @@ Ein Bann ist dauerhaft – DarkMultiPlayer kennt keine zeitlich begrenzten Sperr
 > Die drei Bann-Arten wirken getrennt voneinander. Ein Bann des Spielernamens hindert niemanden daran, mit einem anderen Namen zurückzukommen. Für eine zuverlässige Sperre nutzt Du zusätzlich `/bankey`.
 
 > [!NOTE]
-> **Öffentlichen Schlüssel finden**
->
+> **Öffentlichen Schlüssel finden**\
 > Den Schlüssel eines Spielers findest Du per [SFTP](/tutorials/gameserver/establish-sftp-connection) in der Datei:
 >
 > ```text

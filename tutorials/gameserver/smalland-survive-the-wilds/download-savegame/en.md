@@ -21,8 +21,6 @@ related: ["gameserver/smalland-survive-the-wilds/add-savegame", "gameserver/smal
 You can download your server's savegame to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. The server writes to the world file while it is running – otherwise you would download an incomplete savegame.
 
 1. **Stop the server**\
@@ -45,8 +43,7 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!NOTE]
-> **Which file is the right one?**
->
+> **Which file is the right one?**\
 > Which world your server loads is controlled by the **world name** in the **dashboard**. If it says `MyWorld`, then `MyWorld.wld` is your current savegame. When in doubt, simply download the entire folder.
 
 > [!NOTE]
@@ -57,16 +54,13 @@ You can download your server's savegame to your PC at any time – for example a
 > ```
 
 > [!NOTE]
-> **Settings**
->
+> **Settings**\
 > You do not need to back up a configuration file. Smalland Survive the Wilds does not have one – all server settings are set in the **dashboard** and passed to the server on startup.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the savegame back to a server later, follow the guide [Add savegame](/tutorials/gameserver/smalland-survive-the-wilds/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/smalland-survive-the-wilds/create-backup).

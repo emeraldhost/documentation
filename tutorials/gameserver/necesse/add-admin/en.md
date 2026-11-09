@@ -85,8 +85,6 @@ If you already hold the `owner` level yourself, you can also grant permissions d
 | `/permissions set <PlayerName> user` | Revokes all special permissions |
 
 > [!WARNING]
-> **Caution**
->
 > The player name is case sensitive and must match exactly. Use `/permissions list` to check the stored spelling.
 
 ## Further commands for owners

@@ -63,13 +63,11 @@ On a No One Survived server you remove players through the **in-game admin panel
 > The exact naming of the tabs and buttons can change with game updates. Look for the overview of connected and blocked players in the admin panel.
 
 > [!WARNING]
-> **The player has to be connected**
->
+> **The player has to be connected**\
 > Kicking and banning requires the player to appear in the panel's list. You cannot block a player in advance who is currently not on the server.
 
 > [!CAUTION]
-> **Do not lock yourself out**
->
+> **Do not lock yourself out**\
 > If you accidentally add yourself to the blacklist, you can no longer reach your server and therefore no longer reach the admin panel either. A file for editing the blacklist over SFTP is **not documented** for No One Survived – so proceed carefully when banning.
 
 ## No commands and no RCON

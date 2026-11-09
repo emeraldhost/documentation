@@ -29,8 +29,7 @@ Palworld mods come in different types – and not every type runs on a Linux ser
 | Official mod system / Steam Workshop | ❌ No – Windows-only |
 
 > [!NOTE]
-> **How to recognize the mod type**
->
+> **How to recognize the mod type**\
 > Take a look at the mod description (e.g. on Nexus Mods): if it mentions **UE4SS**, **RE-UE4SS**, **Lua**, **Scripts**, **dlls** or **LogicMods**, the mod does **not** run on your server. Plain `.pak` mods without such requirements work.
 
 > [!WARNING]

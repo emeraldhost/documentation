@@ -21,8 +21,6 @@ related: ["gameserver/eco/add-savegame", "gameserver/eco/create-backup", "gamese
 You can download your server's save to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Eco writes to the save regularly while running – otherwise you would download an incomplete state.
 
 1. **Stop the server**\
@@ -61,8 +59,7 @@ You can download your server's save to your PC at any time – for example as an
 | `Backup/` | Automatic snapshots the server creates itself and overwrites on a rolling basis |
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following folder in addition:
 >
 > ```text
@@ -72,11 +69,9 @@ You can download your server's save to your PC at any time – for example as an
 > It contains files such as `Network.eco`, `Users.eco` and `Storage.eco`.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/eco/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/eco/create-backup).

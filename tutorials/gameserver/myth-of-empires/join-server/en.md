@@ -67,8 +67,7 @@ You join your Myth of Empires server through the in-game server browser. There y
    A single server appears under **Single Server**. If your server is part of a cluster of several maps, look for it in the tab for connected worlds (**World**) instead.
 
 > [!NOTE]
-> **Which ports does Myth of Empires use?**
->
+> **Which ports does Myth of Empires use?**\
 > A Myth of Empires server occupies several ports. The actual values are assigned to your server in the **dashboard** – always rely on the numbers shown there.
 >
 > | Port | Purpose |

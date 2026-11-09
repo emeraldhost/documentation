@@ -20,8 +20,7 @@ related: ["gameserver/arma-reforger/become-admin", "gameserver/arma-reforger/dow
 ---
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Du musst als Admin eingeloggt sein, um diese Befehle nutzen zu können. Siehe [Admin werden](/tutorials/gameserver/arma-reforger/become-admin).
 
 ## Spieler-ID herausfinden

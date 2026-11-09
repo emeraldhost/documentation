@@ -22,8 +22,7 @@ related: ["gameserver/ground-branch/add-admin", "gameserver/ground-branch/add-mo
 Ein Ground Branch Server speichert **keine Spielwelt**. Alles, was Deinen Server ausmacht, steckt in seiner Konfiguration: Admins, Banns, Kartenliste, Abstimmungsregeln und die Modliste. Genau diese Dateien sichert ein Backup.
 
 > [!NOTE]
-> **Kein Weltspeicherstand**
->
+> **Kein Weltspeicherstand**\
 > Ground Branch ist missionsbasiert – nach jeder Runde beginnt die Karte neu. Es gibt daher keinen Spielstand, den Du herunterladen oder auf einen anderen Server übertragen könntest. Fortschritt, Operatoren und Loadouts der Spieler liegen auf deren eigenen PCs und nicht auf dem Server.
 
 ## Wann solltest Du ein Backup erstellen?

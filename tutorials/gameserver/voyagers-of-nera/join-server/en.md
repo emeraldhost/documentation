@@ -46,8 +46,6 @@ There are three ways to reach your Voyagers of Nera server: through the in-game 
    Click on **Join Game** to load the world.
 
 > [!WARNING]
-> **Caution**
->
 > The public server list is still limited during Early Access – not every running server is necessarily shown. If you cannot find your server there, use the direct connection or the invite code.
 
 ## Via direct connection
@@ -83,8 +81,6 @@ The direct connection is the most reliable way to reach your server.
 Your server generates its own invite code on the first start. It lets other players join without knowing the IP address and port.
 
 > [!WARNING]
-> **Caution**
->
 > The invite code does not work if a password is set for your server. This is a known issue of the game. If you want to use the invite code, leave the server password empty – with a password set, use the direct connection instead.
 
 1. **Connect via SFTP**\
@@ -114,6 +110,5 @@ Your server generates its own invite code on the first start. It lets other play
 > You can see which Game Port applies to your server in the **dashboard**. If the following port is not listed there as an allocation, our support can add it for you.
 
 > [!NOTE]
-> **No separate Query Port**
->
+> **No separate Query Port**\
 > Voyagers of Nera does not use a dedicated Query Port. Sessions are advertised through **Epic Online Services (EOS)** – that is why your server appears in the server browser without you having to configure a Query Port.

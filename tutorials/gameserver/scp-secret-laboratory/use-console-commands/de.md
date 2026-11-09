@@ -172,8 +172,7 @@ Mehrere Spieler sprichst Du bei `/pbc` über ihre Spieler-IDs getrennt durch Pun
 > CASSIE spricht nur Wörter, die in seiner Wortliste stehen. Prüfe deshalb mit `/cassiewords`, welche Wörter verfügbar sind, bevor Du eine längere Durchsage schreibst.
 
 > [!TIP]
-> **Beispiel**
->
+> **Beispiel**\
 > So kündigst Du einen Neustart an und lässt ihn nach dem Ende der laufenden Runde durchführen:
 >
 > ```text

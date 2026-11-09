@@ -40,8 +40,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the files of the session separately: [Download savegame](/tutorials/gameserver/starrupture/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. StarRupture saves automatically while running – every 300 seconds by default – so a backup taken during operation can contain an incomplete save.
 
 > [!IMPORTANT]

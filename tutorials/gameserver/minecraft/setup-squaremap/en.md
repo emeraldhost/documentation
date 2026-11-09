@@ -44,8 +44,6 @@ squaremap creates a minimalistic 2D web map of your Minecraft server. The map is
    Choose an available port and note it down.
 
 > [!WARNING]
-> **Important**
->
 > Do **not** use your server's default port! squaremap requires a separate port.
 
 ## Step 3: Configure the Config File

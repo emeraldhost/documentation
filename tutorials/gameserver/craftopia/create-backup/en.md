@@ -40,13 +40,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the `DedicatedServerSave` folder separately: [Download savegame](/tutorials/gameserver/craftopia/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Craftopia saves automatically while running – a backup taken during operation can contain an incomplete save.
 
 > [!NOTE]
-> **Automatic saving**
->
+> **Automatic saving**\
 > How often your server saves is controlled in the file `/ServerSetting.ini` in the `[Save]` section: `autoSaveSec` defines the interval in seconds (default `300`, meaning every five minutes) and `autoSavePerHour` additionally controls hourly saving. This automatic saving is no replacement for a backup though – it always overwrites the same save.
 
 > [!NOTE]

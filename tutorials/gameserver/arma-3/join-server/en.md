@@ -77,8 +77,6 @@ If a password is set for your server, you need that password as well.
 ## Mods have to match
 
 > [!WARNING]
-> **Caution**
->
 > If your server runs mods loaded through `-mod=`, you have to enable the very same mods in the launcher before joining. If a mod is missing or a different version is active, you get rejected on connect. See [Add Mods](/tutorials/gameserver/arma-3/add-mods) for how to set mods up.
 
 Mods your server loads through `-serverMod=` run server-side only. As a player you do **not** need to install those.
@@ -99,6 +97,5 @@ Mods your server loads through `-serverMod=` run server-side only. As a player y
 > The concrete values for your server are shown in the **dashboard**. All of these ports are reserved for your server.
 
 > [!WARNING]
-> **Server not found**
->
+> **Server not found**\
 > If your server does not show up in the public server browser, use the direct connection. Through **Direct Connect** you reach it regardless of whether it is listed publicly.

@@ -21,8 +21,6 @@ related: ["gameserver/necesse/add-savegame", "gameserver/necesse/create-backup",
 You can download the world of your server to your PC at any time – for example as an additional backup, to continue playing it in single player or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the world. Necesse rewrites the world file regularly while running – downloading during operation can result in an incomplete file.
 
 1. **Stop the server**\
@@ -48,18 +46,14 @@ You can download the world of your server to your PC at any time – for example
    Start your server again.
 
 > [!NOTE]
-> **Which file is the right one?**
->
+> **Which file is the right one?**\
 > The world your server loads is shown in the dashboard in the **Config Editor** in the **Save Name** field. If it says `My_World`, for example, then `My_World.zip` is your current world.
 
 > [!WARNING]
-> **Caution**
->
 > Do not extract the `.zip` file. Both the server and the game expect the world as a packed archive.
 
 > [!TIP]
-> **Continue the world in single player**
->
+> **Continue the world in single player**\
 > Place the downloaded `.zip` file into the following directory to open the world locally:
 >
 > ```text
@@ -67,8 +61,7 @@ You can download the world of your server to your PC at any time – for example
 > ```
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following file in addition:
 >
 > ```text
@@ -76,6 +69,5 @@ You can download the world of your server to your PC at any time – for example
 > ```
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/necesse/create-backup).

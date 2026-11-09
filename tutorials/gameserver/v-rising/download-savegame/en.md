@@ -21,8 +21,6 @@ related: ["gameserver/v-rising/add-admin", "gameserver/v-rising/add-mods", "game
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive a save, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -48,11 +46,9 @@ You can download your server's savegame to your PC at any time – for example a
 > The `Saves/v1` directory contains one folder per world. Usually you will find only one folder there – if there are several, you can identify the active save by the most recent modification date.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/v-rising/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/v-rising/create-backup).

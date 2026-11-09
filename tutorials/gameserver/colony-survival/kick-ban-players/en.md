@@ -21,8 +21,7 @@ related: ["gameserver/colony-survival/add-savegame", "gameserver/colony-survival
 In Colony Survival you lock disruptive players out through the **blacklist** of your server. In addition you can use a **whitelist** to open your server only to specific players from the start. You control both directly in the in-game chat.
 
 > [!CAUTION]
-> **Colony Survival has no kick command**
->
+> **Colony Survival has no kick command**\
 > There is **no command to temporarily throw a player off the server**. The `Kick` button in the game belongs to the colony management and only removes a co-owner from that colony – the player stays on the server. Anyone who has to leave the server needs to be blocked through the blacklist.
 
 > [!NOTE]

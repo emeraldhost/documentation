@@ -21,8 +21,6 @@ related: ["gameserver/craftopia/add-savegame", "gameserver/craftopia/create-back
 You can download your server's save to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Craftopia saves automatically while running – if you download during that time, the save can be incomplete or corrupted.
 
 1. **Stop the server**\
@@ -45,18 +43,14 @@ You can download your server's save to your PC at any time – for example as an
    Start your server again.
 
 > [!WARNING]
-> **Caution**
->
 > The `DedicatedServerSave` folder contains all worlds of your server – the world files themselves are located in its subfolder `Worlds`. Always download the folder in full so nothing is missing.
 
 > [!NOTE]
-> **Different save location**
->
+> **Different save location**\
 > By default the save is stored in `DedicatedServerSave/`. Which folder is actually used on your server is defined in the file `/ServerSetting.ini` in the `[Save]` section at the value `savePath`.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following file in addition:
 >
 > ```text
@@ -66,11 +60,9 @@ You can download your server's save to your PC at any time – for example as an
 > It contains the world name, difficulty, game mode and the autosave settings, among others. You will need the world name if you want to restore the save later on.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/craftopia/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/craftopia/create-backup).

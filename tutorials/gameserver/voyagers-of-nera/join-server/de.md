@@ -110,6 +110,5 @@ Dein Server erzeugt beim ersten Start einen eigenen Invite Code. Damit können M
 > Welcher Game Port für Deinen Server gilt, siehst Du in der **Verwaltung**. Ist der Folgeport dort nicht als Allocation hinterlegt, kannst Du ihn über den Support ergänzen lassen.
 
 > [!NOTE]
-> **Kein separater Query Port**
->
+> **Kein separater Query Port**\
 > Voyagers of Nera verwendet keinen eigenen Query Port. Die Sitzungen werden über **Epic Online Services (EOS)** veröffentlicht – deshalb taucht Dein Server im Serverbrowser auf, ohne dass Du dafür einen Query Port eintragen musst.

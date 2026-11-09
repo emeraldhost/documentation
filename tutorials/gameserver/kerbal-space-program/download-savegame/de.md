@@ -46,8 +46,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Der Ordner besteht ausschließlich aus Textdateien: `Vessels` enthält je Schiff eine Datei, `Kerbals` je Kerbal eine Datei, `Scenarios` je Spieler einen eigenen Unterordner mit Wissenschaft, Geld, Ruf und Forschungsbaum.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich diesen Ordner herunter:
 >
 > ```text
@@ -57,11 +56,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Dort liegen unter anderem `Settings.txt`, `admins.txt`, `mod-control.txt` sowie die Bann-Listen.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/kerbal-space-program/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/kerbal-space-program/create-backup).

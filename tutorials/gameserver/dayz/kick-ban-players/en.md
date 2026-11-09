@@ -21,8 +21,7 @@ related: ["gameserver/dayz/enable-crosshair", "gameserver/dayz/enable-third-pers
 You can kick players using in-game chat commands or permanently ban them via a configuration file.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > You must be an admin on your server. Here you can find a guide on how to [add an admin](/tutorials/gameserver/dayz/add-admin).
 
 > [!TIP]

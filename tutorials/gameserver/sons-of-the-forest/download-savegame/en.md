@@ -21,8 +21,6 @@ related: ["gameserver/sons-of-the-forest/add-savegame", "gameserver/sons-of-the-
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive a world, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -48,19 +46,16 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> **Which folder is the right one?**
->
+> **Which folder is the right one?**\
 > You can tell which save your server currently uses from the `SaveSlot` value in the file `/serverconfig/dedicatedserver.cfg`. If it contains `"SaveSlot": 1`, for example, you need the folder `0000000001`.
 
 > [!NOTE]
 > Player data such as inventory, position and clothing is not part of the world savegame. Only the world state and your buildings are saved.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/sons-of-the-forest/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/sons-of-the-forest/create-backup).

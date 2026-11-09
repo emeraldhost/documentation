@@ -31,8 +31,7 @@ Regular backups of your Unturned server protect you from data loss – whether d
 - At regular intervals so you always have a safe state to return to
 
 > [!CAUTION]
-> **Unturned does not save automatically**
->
+> **Unturned does not save automatically**\
 > Unturned has **no built-in autosave feature**. Everything that happened since the last save is lost if the server is stopped abruptly. Always save first before creating a backup.
 
 ## Save before the backup
@@ -64,8 +63,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the server folder separately: [Download savegame](/tutorials/gameserver/unturned/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. If the server keeps running in the meantime, the backup can contain an incomplete save.
 
 > [!NOTE]

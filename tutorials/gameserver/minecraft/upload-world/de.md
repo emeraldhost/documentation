@@ -74,8 +74,6 @@ Hat Deine hochgeladene Welt einen unpassenden Namen, kannst Du sie auf der Seite
 Ist Deine Welt größer als 2 GB, lädst Du sie per SFTP hoch.
 
 > [!CAUTION]
-> **Achtung**
->
 > Per SFTP darf die Welt kein Archiv wie z. B. `.zip` sein. Entpacke die Welt vorher.
 
 1. **Server stoppen**\

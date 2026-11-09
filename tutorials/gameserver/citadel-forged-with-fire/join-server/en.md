@@ -46,8 +46,7 @@ Citadel Forged with Fire has **no direct connection via IP address**. You can on
 > There is no menu entry for a direct connection via `IP:Port` in Citadel Forged with Fire. The server browser is the intended way onto your server – just search for the server name there.
 
 > [!NOTE]
-> **Password protected server**
->
+> **Password protected server**\
 > If a join password is set for your server, you need it when connecting. Only share it with the players who are supposed to get onto your server.
 
 ## Which ports does Citadel Forged with Fire use?
@@ -66,13 +65,11 @@ Citadel Forged with Fire has **no direct connection via IP address**. You can on
 ## Server cannot be found
 
 > [!WARNING]
-> **Server does not appear in the list**
->
+> **Server does not appear in the list**\
 > If your server does not show up in the server browser, the Query Port is usually the reason – the server only registers with the list through that port. Check in the **dashboard** whether the Game Port and the Query Port are different ports and restart your server afterwards. Right after the first start it can also take a few minutes until the server appears in the list.
 
 > [!CAUTION]
-> **The join button cannot be clicked**
->
+> **The join button cannot be clicked**\
 > If your server is displayed but joining does not work, the port in `Engine.ini` does not match the Game Port. Connect to your server via [SFTP](/tutorials/gameserver/establish-sftp-connection) and create the following file if it does not exist yet:
 >
 > ```text
@@ -89,6 +86,5 @@ Citadel Forged with Fire has **no direct connection via IP address**. You can on
 > Save the file and restart your server.
 
 > [!NOTE]
-> **Where is the configuration?**
->
+> **Where is the configuration?**\
 > The configuration files of your server are located in the `/Config/` folder. The path `/Citadel/Saved/Config/LinuxServer/` points to the same folder – you can use either way, they are the same files.

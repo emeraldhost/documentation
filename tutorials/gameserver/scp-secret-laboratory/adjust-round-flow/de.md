@@ -209,8 +209,7 @@ Die Munitionslimits akzeptieren Werte von 1 bis 65535:
 Mit `default` verwendet der Server die eingebaute Reihenfolge `4014314031441404134041434414`.
 
 > [!TIP]
-> **Beispiel**
->
+> **Beispiel**\
 > Diese Reihenfolge verteilt bei 10 Spielern zwei SCPs und acht Class-D – passend für ein Event, in dem nur Class-D gegen SCPs antreten:
 >
 > ```text

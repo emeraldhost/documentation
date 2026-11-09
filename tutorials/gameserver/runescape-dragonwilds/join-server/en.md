@@ -64,8 +64,7 @@ You can join your server in two ways: by searching for the **world name** on the
    Select your character or create a new one and click **Play** to connect to the server.
 
 > [!TIP]
-> **Troubleshooting**
->
+> **Troubleshooting**\
 > If your server cannot be found via the world name:
 >
 > - Make sure the [Owner ID](/tutorials/gameserver/runescape-dragonwilds/set-owner-id) is set

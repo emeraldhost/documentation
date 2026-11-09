@@ -88,8 +88,7 @@ Mit dem **Shifting Sands** DLC kannst Du einen Server-Cluster einrichten, der es
    Ersetze `IP:Port` durch die IP-Adresse des Haupt-Servers und den **Game Port + 4**.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > Wenn der Game Port des Haupt-Servers `8778` ist:
    >
    > ```text

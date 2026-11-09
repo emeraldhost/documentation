@@ -36,8 +36,6 @@ There are two ways to get admin rights on your Arma Reforger server: via an admi
    Save the setting and restart your server.
 
 > [!WARNING]
-> **Important**
->
 > The admin password must be at least 3 characters long and cannot contain spaces.
 
 ## Permanent Admins via Steam64 ID

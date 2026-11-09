@@ -78,8 +78,7 @@ No One Survived sieht **keine Direktverbindung über die IP-Adresse** vor. Du fi
 > Verlasse Dich nicht auf Portangaben aus anderen Quellen. Die Ports Deines Servers werden Dir beim Erstellen zugewiesen und können von den Werten abweichen, die anderswo als Standard genannt werden. Maßgeblich sind ausschließlich die Werte in Deiner **Verwaltung**.
 
 > [!WARNING]
-> **Kein Beitritt über IP-Adresse**
->
+> **Kein Beitritt über IP-Adresse**\
 > Für No One Survived ist **kein** Beitritt über die IP-Adresse dokumentiert – weder im Spiel noch über den Steam-Serverbrowser. Der einzige dokumentierte Weg ist die Suche nach Servername und Region im Bereich **Private Server**.
 
 ## Server wird nicht gefunden

@@ -86,16 +86,14 @@ Server ohne GSLT gelten als „anonym“ und werden in der öffentlichen Interne
    ```
 
    > [!NOTE]
-   > **Alternative**
-   >
+   > **Alternative**\
    > Du kannst das Token auch in der Datei `/Servers/<ServerID>/Config.txt` hinterlegen. Suche dort im Abschnitt `Browser` den Eintrag `Login_Token` und trage Dein Token als Wert ein. Übernimm dabei die Schreibweise, die in der Datei bereits vorgegeben ist.
 
 4. **Server starten**\
    Speichere die Änderung und starte Deinen Server. Er erscheint nun in der Internet-Serverliste.
 
 > [!NOTE]
-> **Wo liegt mein Server-Ordner?**
->
+> **Wo liegt mein Server-Ordner?**\
 > `<ServerID>` ist der Name des Ordners unter `/Servers/`. Er wird über den Startparameter Deines Servers festgelegt – verbinde Dich per SFTP und sieh nach, welcher Ordner dort liegt. In der Regel ist es genau einer.
 
 ## Welche Ports nutzt Unturned?
@@ -111,8 +109,7 @@ Server ohne GSLT gelten als „anonym“ und werden in der öffentlichen Interne
 > Beide Ports sind für Deinen Server bereits freigegeben. Welche Werte für Dich gelten, siehst Du in der **Verwaltung**.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Kommt keine Verbindung zustande, prüfe der Reihe nach:
 >
 > - Läuft Dein Server? Sieh in der Konsole der Verwaltung nach.

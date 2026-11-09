@@ -81,6 +81,5 @@ You can check whether the setting has been applied in the log of your server at 
 Set the value back to `PlatformPolicy=Crossplay` or remove the line from the file and restart your server.
 
 > [!TIP]
-> **Troubleshooting**
->
+> **Troubleshooting**\
 > If a player is rejected from your crossplay server with a crossplay error message, they have disabled crossplay in the settings of the game and need to enable it there again. In this case, the log of your server shows `PreLogin rejected crossplay-disabled client from a crossplay server`.

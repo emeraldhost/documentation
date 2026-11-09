@@ -41,8 +41,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the save folders separately: [Download Savegame](/tutorials/gameserver/nightingale/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Nightingale constantly writes to the world data while it is running – a backup taken during operation can contain an incomplete save.
 
 ## The server's own automatic copy

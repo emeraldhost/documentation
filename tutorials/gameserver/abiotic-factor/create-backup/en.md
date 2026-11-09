@@ -37,16 +37,13 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the world folder separately: [Download Savegame](/tutorials/gameserver/abiotic-factor/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. The server writes to the world files while it is running – a backup taken during operation can contain an incomplete savegame.
 
 > [!TIP]
 > Lock important backups (e.g. before major changes) so they cannot be overwritten by automatic backups. Also download especially important backups to your PC in case your backup limit is reached.
 
 > [!NOTE]
-> **What belongs to the savegame?**
->
+> **What belongs to the savegame?**\
 > The savegame itself lives in the world folder under `/AbioticFactor/Saved/SaveGames/Server/Worlds/`. The sandbox settings (`SandboxSettings.ini`) of your world are stored there as well. Your admin list (`Admin.ini`) sits one level above it under `/AbioticFactor/Saved/SaveGames/Server/` – a backup created through the dashboard saves all of these files together.
 
 > [!NOTE]

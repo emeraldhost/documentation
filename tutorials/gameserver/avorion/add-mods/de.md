@@ -80,8 +80,7 @@ Avorion bringt ein eigenes Mod-System mit. Du musst die Mods nicht selbst hochla
 | `modLocation` | Alternativer Ort für den Mod-Ordner. Bleibt der Wert leer, nutzt Dein Server den Standardordner `mods`. |
 
 > [!WARNING]
-> **forceEnabling auf false lassen**
->
+> **forceEnabling auf false lassen**\
 > Die Entwickler von Avorion empfehlen ausdrücklich, `forceEnabling` deaktiviert zu lassen: Die Option richtet sich in erster Linie an Mod-Entwickler und kann zu beschädigten oder unbrauchbaren Spielständen führen.
 
 ## Müssen Spieler etwas tun?

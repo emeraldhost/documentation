@@ -34,13 +34,10 @@ Regular backups of your Avorion server protect you from data loss – whether du
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Avorion saves automatically while running – a backup taken during operation can contain an incomplete galaxy.
 
 > [!TIP]
-> **Save first**
->
+> **Save first**\
 > If your server is still running, you can write the current state manually beforehand: enter `/save` in the console of the dashboard, wait until the process has finished, and then stop the server via the dashboard.
 
 > [!NOTE]

@@ -26,8 +26,7 @@ The `view-distance` determines **how many chunks the server loads and sends to c
 The view distance only affects the **display** of the world – how far the landscape is visible. It does **not** control the active ticking of mobs, redstone or players.
 
 > [!NOTE]
-> **Players or mobs only become visible up close?**
->
+> **Players or mobs only become visible up close?**\
 > That's not handled by `view-distance` but by [`tick-distance`](/tutorials/gameserver/minecraft-bedrock/change-tick-distance). Entities are only ticked and shown within the area covered by the tick distance.
 
 ## Effects on the server

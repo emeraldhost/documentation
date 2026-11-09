@@ -46,8 +46,6 @@ Plasmo Voice brings proximity voice chat to your Minecraft server – similar to
    Choose an available port and note it down.
 
 > [!WARNING]
-> **Important**
->
 > Do **not** use your server's default port! Plasmo Voice requires a separate port.
 
 ## Step 3: Configure the Config File

@@ -155,8 +155,7 @@ Once you are in the group `god` yourself, you can grant all further permissions 
 > There your changes survive an update.
 
 > [!CAUTION]
-> **Cheat commands disable achievements permanently**
->
+> **Cheat commands disable achievements permanently**\
 > Some commands only become available once you enable cheats with `/disableachievements`. That step **cannot be undone** for the world in question – Steam achievements stay disabled in it permanently.
 
 > [!TIP]

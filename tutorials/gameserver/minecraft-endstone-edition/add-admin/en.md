@@ -60,8 +60,6 @@ This is the usual way if you do not have operator rights yourself yet.
 ## Add an admin in the game
 
 > [!WARNING]
-> **Caution**
->
 > To use this method you have to be an operator yourself already. Otherwise use the console.
 
 1. **Join the server**\
@@ -144,8 +142,6 @@ Alternatively you can add a player to the permission file directly. That file us
    Save the file and start your server.
 
 > [!WARNING]
-> **Caution**
->
 > Make sure the JSON stays valid: every entry sits in curly brackets, entries are separated by commas, and there is **no** comma after the last entry. If the file is malformed, the server cannot read it. Therefore check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing.
 
 > [!TIP]

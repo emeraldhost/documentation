@@ -38,8 +38,7 @@ You only need this section if you want to transfer a savegame from your own PC. 
    Inside you find one folder per world, each named after its server ID. Choose the folder of the savegame you want to transfer – you need the **complete folder** including its contents.
 
    > [!TIP]
-   > **Which ID belongs to which world?**
-   >
+   > **Which ID belongs to which world?**\
    > The server ID is shown in the game on the right next to each entry in the save selection screen. That way you can tell which folder belongs to which world.
 
 ## Upload the savegame
@@ -70,16 +69,13 @@ You only need this section if you want to transfer a savegame from your own PC. 
    Upload your complete savegame folder with all of its files into this directory.
 
    > [!WARNING]
-   > **Caution**
-   >
    > Make sure the folder does not end up nested. Correct is `/BoatGame/Saved/PersistedData/<server ID>/`, wrong would be `/BoatGame/Saved/PersistedData/<server ID>/<server ID>/`. Extract archives on your PC first and upload the savegame folder itself – not the archive and no additional parent folder.
 
 6. **Start the server**\
    Start your server. On startup it now loads your uploaded savegame.
 
 > [!WARNING]
-> **Only one savegame folder**
->
+> **Only one savegame folder**\
 > Besides `CustomConfig` there should be exactly one savegame folder inside `PersistedData`. If several worlds remain there, it is not clear which one your server loads.
 
 > [!NOTE]

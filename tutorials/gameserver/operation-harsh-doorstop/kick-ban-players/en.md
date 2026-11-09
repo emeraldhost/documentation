@@ -43,8 +43,6 @@ You remove players either directly from within the game using the in-game consol
    ```
 
 > [!WARNING]
-> **Caution**
->
 > In the in-game console every admin command needs the `admin` prefix. Through an RCON client you enter the same commands **without** that prefix.
 
 ## Kick a player
@@ -111,8 +109,7 @@ Banned players are listed in the file `Bans.cfg`. A ban is lifted by deleting th
    Save the file and start your server.
 
 > [!TIP]
-> **Unban without a restart**
->
+> **Unban without a restart**\
 > You can skip the restart: delete the line in `Bans.cfg` and then send the command `RELOADSERVERCONFIG` via RCON. The server then reloads `Bans.cfg`, `Admins.cfg` and the other configuration files straight from disk.
 
 > [!NOTE]

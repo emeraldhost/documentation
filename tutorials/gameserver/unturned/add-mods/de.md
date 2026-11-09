@@ -22,8 +22,7 @@ related: ["gameserver/unturned/add-admin", "gameserver/unturned/add-savegame", "
 Unturned besitzt ein eigenes Download-System für den Steam Workshop: Du trägst die File IDs der gewünschten Mods und Karten in die Datei `WorkshopDownloadConfig.json` ein, und Dein Server lädt sie beim Start selbstständig herunter.
 
 > [!TIP]
-> **Das Beste daran**
->
+> **Das Beste daran**\
 > Deine Mitspieler müssen **nichts** manuell installieren und auch nichts abonnieren. Beim Verbinden lädt der Client alle Mods Deines Servers automatisch herunter.
 
 ## File ID herausfinden
@@ -35,8 +34,7 @@ Unturned besitzt ein eigenes Download-System für den Steam Workshop: Du trägst
    Die File ID findest Du in der URL der Workshop-Seite. Kopiere die Zahl nach `?id=`.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > In der URL `https://steamcommunity.com/sharedfiles/filedetails/?id=2136497468` ist die File ID `2136497468`.
 
 ## Mods zum Server hinzufügen
@@ -55,8 +53,7 @@ Unturned besitzt ein eigenes Download-System für den Steam Workshop: Du trägst
    ```
 
    > [!NOTE]
-   > **Welcher Ordner ist meiner?**
-   >
+   > **Welcher Ordner ist meiner?**\
    > `<ServerID>` ist der Ordnername unter `/Servers/`. Er stammt aus dem Startparameter Deines Servers – in der Regel liegt dort genau ein Ordner.
 
 4. **File IDs eintragen**\
@@ -134,8 +131,7 @@ Eine Karte aus dem Workshop braucht zwei Einträge: die File ID zum Herunterlade
 | `Shutdown_Kick_Message` | Nachricht beim Trennen der Spieler |
 
 > [!NOTE]
-> **Automatische Update-Überwachung**
->
+> **Automatische Update-Überwachung**\
 > Erkennt Dein Server ein Workshop-Update, warnt er die Spieler und fährt nach Ablauf des Timers herunter, damit der Mod beim nächsten Start aktualisiert wird. Startet Dein Server nach einem Mod-Update also von selbst neu, ist das kein Fehler.
 
 ## Mods entfernen
@@ -155,11 +151,9 @@ Eine Karte aus dem Workshop braucht zwei Einträge: die File ID zum Herunterlade
 ## Häufige Probleme
 
 > [!WARNING]
-> **Mod wird nicht heruntergeladen**
->
+> **Mod wird nicht heruntergeladen**\
 > Workshop-Inhalte, die seit dem Engine-Wechsel in Version 3.28 nicht mehr aktualisiert wurden, werden vom Server nicht heruntergeladen. Prüfe auf der Workshop-Seite, wann der Mod zuletzt aktualisiert wurde, und weiche notfalls auf eine gepflegte Alternative aus.
 
 > [!CAUTION]
-> **Mods nicht von Hand hochladen**
->
+> **Mods nicht von Hand hochladen**\
 > Lade Mods nicht manuell per SFTP in den `Workshop`-Ordner. Automatisch heruntergeladen werden bei Deinen Mitspielern nur die Mods, die in der `WorkshopDownloadConfig.json` eingetragen sind – von Hand hochgeladene Mods fehlen den Clients und der Beitritt scheitert. Trage Mods deshalb ausschließlich in der `WorkshopDownloadConfig.json` ein.

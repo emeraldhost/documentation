@@ -21,8 +21,6 @@ related: ["gameserver/enshrouded/control-automatic-updates", "gameserver/enshrou
 You can download your server's save to your PC at any time – for example as an extra backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly, so you would end up downloading an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -41,21 +39,17 @@ You can download your server's save to your PC at any time – for example as an
    Start your server again.
 
 > [!TIP]
-> **Finding the right folder**
->
+> **Finding the right folder**\
 > By default the save is stored in the `savegame` folder. If you have changed the default folder in the server settings, navigate to the folder you selected for the saves instead.
 
 > [!TIP]
-> **Playing the world locally**
->
+> **Playing the world locally**\
 > If you want to continue playing the downloaded world in singleplayer, rename the files back to the names of your local world (so `3ad85aea` to e.g. `3bd85c7d` and `3ad85aea_info` to `3bd85c7d_info`) and place them in the Steam `userdata` folder: `C:\Program Files (x86)\Steam\userdata\[YourSteamID]\1203620\remote`. Replace `[YourSteamID]` with your SteamID64.
 
 > [!TIP]
-> **Restoring the save later**
->
+> **Restoring the save later**\
 > If you want to transfer the save back to a server later on, follow the guide [Add savegame](/tutorials/gameserver/enshrouded/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/enshrouded/create-backup).

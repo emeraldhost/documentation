@@ -50,8 +50,7 @@ Plugins laufen auf einem IOSoccer Server über **Metamod:Source** und **SourceMo
    Starte Deinen Server und prüfe in der Serverkonsole mit `meta version`, ob Metamod:Source geladen wurde.
 
 > [!WARNING]
-> **Metamod wird nicht geladen?**
->
+> **Metamod wird nicht geladen?**\
 > Antwortet der Server auf `meta version` mit `Unknown command`, kannst Du Metamod:Source alternativ über die `gameinfo.txt` einbinden. Öffne dazu die Datei `/iosoccer/gameinfo.txt` und trage im Block `SearchPaths` als erste Zeile Folgendes ein:
 >
 > ```text

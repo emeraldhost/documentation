@@ -21,8 +21,6 @@ related: ["gameserver/beammp/change-server-version", "gameserver/beammp/create-b
 BeamMP is based on the BeamNG.drive sandbox and does not use persistent world savegames. What you can download instead are the server-side map and resource files – for example as an extra backup, to archive them, or to move them to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it accesses these files, so you would end up with an incomplete or corrupted copy.
 
 1. **Stop the server**\
@@ -48,11 +46,9 @@ BeamMP is based on the BeamNG.drive sandbox and does not use persistent world sa
 > Since BeamMP is based on the BeamNG.drive sandbox, there are no persistent world savegames. Game progress is not saved on the server side – apart from the files in `/Resources/Client/`, there is no save data to back up.
 
 > [!TIP]
-> **Restoring the save later**
->
+> **Restoring the save later**\
 > If you want to transfer the files back to a server later on, follow the guide [Add savegame](/tutorials/gameserver/beammp/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/beammp/create-backup).

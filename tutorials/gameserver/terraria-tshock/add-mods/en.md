@@ -35,16 +35,13 @@ tShock has **no mod system for the client**. A tShock server is extended through
    A plugin has to match the tShock version running on your server. Which version gets installed is controlled by the **tShock Version** field in the dashboard.
 
    > [!WARNING]
-   > **Caution**
-   >
    > If a plugin does not match the installed tShock version, it is not loaded on startup or the server aborts with an error. Always check the developer's notes on the supported version.
 
 3. **Extract the file**\
    Download the plugin and extract it if it comes as an archive. What you need is the `.dll` file inside. If a plugin ships additional libraries, those `.dll` files belong on the server as well.
 
 > [!CAUTION]
-> **Trusted sources only**
->
+> **Trusted sources only**\
 > A plugin is executable program code that runs with the full permissions of your server. Only download plugins from official or well-known sources – the tShock wiki explicitly warns against installing plugins of unknown origin.
 
 ## Upload the plugin
@@ -102,8 +99,6 @@ Most plugins create their configuration file automatically in the `/tshock/` fol
    Start your server. The plugin is now disabled.
 
 > [!WARNING]
-> **Caution**
->
 > If your server no longer starts after uploading a plugin, remove the `.dll` file you added last. It is best to add plugins one at a time and start the server in between – that way you immediately see which plugin causes trouble.
 
 > [!TIP]

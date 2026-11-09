@@ -46,11 +46,9 @@ BeamMP basiert auf der BeamNG.drive Sandbox und verwendet keine persistenten Wel
 > Da BeamMP auf der BeamNG.drive Sandbox basiert, gibt es keine persistenten Welt-Savegames. Der Spielfortschritt wird nicht serverseitig gespeichert – es gibt also außer den Dateien in `/Resources/Client/` keinen Spielstand, den Du sichern könntest.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du die Dateien später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/beammp/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/beammp/create-backup).

@@ -38,8 +38,7 @@ Diesen Abschnitt brauchst Du nur, wenn Du einen Spielstand von Deinem eigenen PC
    Darin liegt pro Welt ein Ordner, der nach der Server-ID benannt ist. Wähle den Ordner des Spielstands, den Du übertragen möchtest – Du benötigst den **kompletten Ordner** samt Inhalt.
 
    > [!TIP]
-   > **Welche ID gehört zu welcher Welt?**
-   >
+   > **Welche ID gehört zu welcher Welt?**\
    > Die Server-ID wird Dir im Spiel im Auswahlbildschirm der Speicherstände rechts neben dem jeweiligen Eintrag angezeigt. So erkennst Du, welcher Ordner zu welcher Welt gehört.
 
 ## Savegame hochladen
@@ -76,8 +75,7 @@ Diesen Abschnitt brauchst Du nur, wenn Du einen Spielstand von Deinem eigenen PC
    Starte Deinen Server. Beim Start wird jetzt Dein hochgeladener Spielstand geladen.
 
 > [!WARNING]
-> **Nur ein Spielstand-Ordner**
->
+> **Nur ein Spielstand-Ordner**\
 > Unter `PersistedData` sollte neben `CustomConfig` genau ein Spielstand-Ordner liegen. Bleiben mehrere Welten liegen, ist nicht eindeutig, welche Dein Server lädt.
 
 > [!NOTE]

@@ -51,8 +51,7 @@ Common interface names are `eth0`, `ens18`, or `ens192`.
 ### Start the Capture on Linux
 
 > [!NOTE]
-> **Recommended Packet Count**
->
+> **Recommended Packet Count**\
 > We recommend a packet count of `100000` (100,000). This is sufficient in most cases to capture the issue without the file becoming unnecessarily large.
 
 **Capture all traffic (100,000 packets):**
@@ -165,7 +164,6 @@ Include the following information in your support ticket:
 5. **Affected service** – which service on which port is affected
 
 > [!WARNING]
-> **Important**
 >
 > - **Capture during the issue** – a capture without an active problem provides no useful data.
 > - **Use filters** – without filters, the file can quickly grow to several gigabytes.

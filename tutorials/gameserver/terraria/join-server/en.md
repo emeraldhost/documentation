@@ -23,8 +23,6 @@ Terraria does not have an in-game server browser for dedicated servers. Instead,
 ## Find connection details
 
 > [!WARNING]
-> **Important**
->
 > To connect you need the **IP address** and the **port** of your server. You can find both in the **dashboard** of your server. Terraria only uses a single port over **TCP** (default: `7777`) – there is no separate query port.
 
 ## Via Join via IP
@@ -68,8 +66,6 @@ Terraria does not have an in-game server browser for dedicated servers. Instead,
 > The options **Join** and **Join via Steam** in the multiplayer menu are meant for games hosted by a friend directly from within the game. For your dedicated server you always need **Join via IP**.
 
 > [!WARNING]
-> **Caution**
->
 > The client and the server have to run **the same game version**. If your Terraria version differs from the server's version, the server rejects the connection with a version message. Make sure both are on the same version.
 
 > [!IMPORTANT]

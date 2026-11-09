@@ -356,7 +356,18 @@ write `> [!WARNING]` in `de.md` too.
 An alert can hold several paragraphs, lists and fences. Every line needs the
 blockquote prefix, and the block needs a blank line above and below it. When the
 box needs its own title, one the alert type does not already say, write it as a
-bold first line inside the alert.
+bold first line inside the alert. End the title line with a backslash and put the
+text directly on the next line, without an empty `>` line in between. Otherwise
+the website renders title and text as two paragraphs with a needless gap:
+
+```markdown
+> [!TIP]
+> **Password**\
+> You can find the password in your **dashboard**.
+```
+
+Never repeat the label as a title (e.g. `**Important**` in a `[!WARNING]`). Keep
+the empty `>` line only when a list, a fence or a table follows the title.
 
 `<Callout type="…">` is **not** a component. It is a leftover from the older
 website; the website unwraps it, and the box, the colour and the icon are all

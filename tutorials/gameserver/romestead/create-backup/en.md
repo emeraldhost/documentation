@@ -33,8 +33,7 @@ Regular backups of your Romestead server protect you from data loss – whether 
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!TIP]
-> **Save first**
->
+> **Save first**\
 > Run the `save` command in your server's **console** before creating the backup. This makes the server write the current state to disk in full, so your backup really contains everything.
 >
 > ```text
@@ -44,8 +43,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > The server is frozen briefly while this save runs. `quicksave` saves in the background and lets the server keep running instead – which is why `save` is the safe choice for a backup.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Romestead saves automatically every six minutes – a backup taken during operation can land in the middle of a save and end up incomplete.
 
 > [!NOTE]

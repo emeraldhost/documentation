@@ -21,8 +21,6 @@ related: ["gameserver/operation-harsh-doorstop/add-admin", "gameserver/operation
 Mods for Operation Harsh Doorstop come from the **Steam Workshop**. On the server they live as folders inside the `Mods` directory – there is no mod list or configuration file in which you enable them. Maps, factions and game modes from mods are selected through the **startup parameters** of your server instead.
 
 > [!WARNING]
-> **Caution**
->
 > Your server does **not** download mods from the Workshop on its own. You download the mod folder yourself and transfer it to the server via SFTP.
 
 ## Step 1: Download the mod
@@ -71,8 +69,6 @@ Mods for Operation Harsh Doorstop come from the **Steam Workshop**. On the serve
    Start your server once the upload has finished.
 
 > [!WARNING]
-> **Caution**
->
 > Upload the folder completely and only start the server afterwards. An interrupted upload means maps or game modes of the mod cannot be loaded.
 
 ## Step 3: Enable the mod content on the server

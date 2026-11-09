@@ -92,6 +92,5 @@ PermitPlayer <SteamID64> chat
 > Der Unterschied liegt im zweiten Wert: `login` steuert den Zugang zum Server, `chat` nur die Kommunikation. Möchtest Du einen Spieler komplett aussperren, verwende `login`.
 
 > [!NOTE]
-> **Wo werden Banns gespeichert?**
->
+> **Wo werden Banns gespeichert?**\
 > Admins und Banns liegen in der Datei `Saved/GameStates/Accounts/GM.csv` Deines Servers. Bearbeite sie nicht von Hand – hebe Banns über den Befehl `PermitPlayer` auf, damit die Daten konsistent bleiben. Bei einem Backup Deines Spielstands wird die Datei automatisch mitgesichert, siehe [Savegame herunterladen](/tutorials/gameserver/the-front/download-savegame).

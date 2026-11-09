@@ -52,8 +52,7 @@ The world file is named e.g. `0.world.gzip`. The number before `.world.gzip` is 
    Make sure the **World Index** in the **Config Editor** matches the number of your world file.
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > If your file is named `0.world.gzip`, the World Index must be `0`. For `3.world.gzip` it must be `3`.
 
 5. **Start the server**\

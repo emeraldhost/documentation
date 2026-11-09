@@ -40,8 +40,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the world folder separately: [Download savegame](/tutorials/gameserver/solace-crafting/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Solace Crafting saves automatically while running – a backup taken during operation can contain an incomplete save.
 
 > [!IMPORTANT]

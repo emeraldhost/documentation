@@ -26,8 +26,7 @@ BATTALION Legacy bringt einen funktionierenden **Serverbrowser** im Spiel mit. D
 > Den **Servernamen** sowie die **IP-Adresse** und die Ports Deines Servers findest Du in der **Verwaltung**. Der Servername ist dabei der wichtigste Wert – über ihn suchst Du Deinen Server im Serverbrowser.
 
 > [!NOTE]
-> **Welche Ports nutzt BATTALION Legacy?**
->
+> **Welche Ports nutzt BATTALION Legacy?**\
 > Dein Server belegt zwei Ports:
 >
 > | Port | Verwendung |
@@ -64,8 +63,7 @@ BATTALION Legacy bringt einen funktionierenden **Serverbrowser** im Spiel mit. D
 > Wähle einen möglichst eindeutigen Servernamen. Ein sehr allgemeiner Name macht es unnötig schwer, Deinen Server in der Liste von den übrigen zu unterscheiden.
 
 > [!NOTE]
-> **Direkt über die IP verbinden**
->
+> **Direkt über die IP verbinden**\
 > Im Menü des Spiels gibt es kein Feld für eine IP-Adresse. Die offizielle Serverdokumentation von BATTALION 1944, dem Vorgänger von BATTALION Legacy, nennt für die Konsole den Befehl `connect <IP>:<Game Port>`. Ob er in der aktuellen Fassung noch funktioniert, ist nicht belegt – wie Du die Konsole freischaltest, steht unter [Admin hinzufügen](/tutorials/gameserver/battalion-legacy/add-admin).
 
 ## Eckige Klammer hinter dem Servernamen

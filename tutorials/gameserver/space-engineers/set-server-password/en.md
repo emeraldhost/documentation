@@ -37,8 +37,6 @@ Use the official **Space Engineers Dedicated Server** tool (free in your Steam l
 ## Transfer the values to the server
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before editing the config file.
 
 1. **Stop the server**\
@@ -65,6 +63,5 @@ Use the official **Space Engineers Dedicated Server** tool (free in your Steam l
 > The hash and salt must be a matching pair – always generate them with the same tool. A single plain-text `<ServerPassword>` element no longer exists in current versions.
 
 > [!TIP]
-> **Remove the password**
->
+> **Remove the password**\
 > To remove the password protection, empty both fields again (`<ServerPasswordHash />` and `<ServerPasswordSalt />`) and restart the server.

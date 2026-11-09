@@ -22,8 +22,6 @@ related: ["gameserver/valheim/add-admin", "gameserver/valheim/install-bepinex", 
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive a world, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -49,11 +47,9 @@ You can download your server's savegame to your PC at any time – for example a
 > You can tell which folder belongs to your world from the **World Name** field in the **Config Editor** of the dashboard. If it contains `MyWorld`, for example, you need the folder `MyWorld`. Folders with `_backup_` in their name are backups, not the current state.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/valheim/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/valheim/create-backup). To learn how to restore one of the automatic backups that Valheim itself creates on your server, see [Restore automatic backup](/tutorials/gameserver/valheim/restore-automatic-backup).

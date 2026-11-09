@@ -46,19 +46,16 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Welcher Ordner ist der richtige?**
->
+> **Welcher Ordner ist der richtige?**\
 > Welchen Spielstand Dein Server aktuell verwendet, erkennst Du am Wert `SaveSlot` in der Datei `/serverconfig/dedicatedserver.cfg`. Steht dort z.B. `"SaveSlot": 1`, benötigst Du den Ordner `0000000001`.
 
 > [!NOTE]
 > Spielerdaten wie Inventar, Position und Kleidung sind nicht Teil des Welt-Savegames. Gesichert werden ausschließlich der Weltzustand und Deine Bauwerke.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/sons-of-the-forest/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/sons-of-the-forest/create-backup).

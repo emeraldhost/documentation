@@ -71,8 +71,7 @@ It contains a `.db` and an `.eco` file as well. You need both of them for the up
    ```
 
    > [!NOTE]
-   > **Why exactly these names?**
-   >
+   > **Why exactly these names?**\
    > On startup the server loads the save that is entered under `SaveName` in `/Configs/Storage.eco`. By default this is `Game` – which is why the files have to be named `Game.db` and `Game.eco`. Alternatively you can enter the name of your files there.
 
 7. **Start the server**\
@@ -98,8 +97,7 @@ If you want to start with a freshly generated world, remove the existing save:
    Start your server. Generating the world can take a few minutes on the first start.
 
 > [!TIP]
-> **World size and seed**
->
+> **World size and seed**\
 > The settings for a new world are located in `/Configs/WorldGenerator.eco`. They only affect **newly generated worlds** – an existing world does not change because of them. Both dimension values have to be identical and divisible by `4`.
 
 ## Further save settings

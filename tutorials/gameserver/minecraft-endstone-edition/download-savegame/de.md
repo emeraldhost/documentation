@@ -52,8 +52,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > Der Unterordner `db` enthält die eigentliche Datenbank mit allen Chunks. Ohne ihn ist der heruntergeladene Spielstand wertlos.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen und Spielerlisten sichern, lade zusätzlich folgende Dateien und Ordner aus dem Hauptordner Deines Servers herunter:
 >
 > ```text
@@ -70,11 +69,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > Im Ordner `plugins` liegt der Unterordner `.local`, den Endstone selbst verwaltet. Du kannst ihn beim Sichern weglassen – Endstone legt ihn beim nächsten Start neu an.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/minecraft-endstone-edition/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/minecraft-endstone-edition/create-backup).

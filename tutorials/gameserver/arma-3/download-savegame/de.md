@@ -21,8 +21,7 @@ related: ["gameserver/arma-3/add-savegame", "gameserver/arma-3/create-backup", "
 Läuft auf Deinem Server eine persistente Mission wie Antistasi, Vindicta, KP Liberation oder Wasteland, kannst Du deren Fortschritt jederzeit auf Deinen PC herunterladen – zum Beispiel als zusätzliche Sicherung oder um ihn auf einen anderen Server zu übertragen.
 
 > [!NOTE]
-> **Kein Savegame vorhanden?**
->
+> **Kein Savegame vorhanden?**\
 > Ein Arma-3-Server speichert von sich aus keinen Weltstand. Gespeichert wird nur, wenn die Mission das selbst übernimmt. Läuft bei Dir eine Vanilla-Mission, existiert keine Spielstandsdatei.
 
 > [!WARNING]
@@ -52,21 +51,17 @@ Läuft auf Deinem Server eine persistente Mission wie Antistasi, Vindicta, KP Li
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Mission mitsichern**
->
+> **Mission mitsichern**\
 > Ein Spielstand ist ohne die passende Mission nutzlos. Lade deshalb zusätzlich die verwendete `.pbo`-Datei aus dem Ordner `/mpmissions` herunter.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich die Datei `/server.cfg` herunter.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/arma-3/add-savegame). Beachte dabei, dass die Datei zum Profilnamen des Zielservers passen muss.
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für vollständige Sicherungen Deines Servers kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/arma-3/create-backup).

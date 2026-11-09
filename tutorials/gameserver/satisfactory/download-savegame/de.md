@@ -46,13 +46,11 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Welche Datei ist die richtige?**
->
+> **Welche Datei ist die richtige?**\
 > Liegen mehrere `.sav`-Dateien im Ordner, ist die zuletzt geänderte in der Regel Dein aktueller Spielstand. Beim automatischen Speichern legt der Server zusätzlich rotierende Autosave-Dateien an, deren Namen auf `_autosave_0`, `_autosave_1` und so weiter enden. Welche Session geladen ist, siehst Du außerdem im **Server Manager** im Reiter **Manage Saves**.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgenden Ordner herunter:
 >
 > ```text
@@ -69,11 +67,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Lösche die `ServerSettings.`-Datei nicht auf dem Server. Ohne sie verliert der Server seinen Namen, sein Admin Passwort, sein Server Passwort und sein Zertifikat und gilt wieder als nicht beansprucht.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/satisfactory/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/satisfactory/create-backup).

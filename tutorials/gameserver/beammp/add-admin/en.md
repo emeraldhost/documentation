@@ -45,8 +45,6 @@ BeamMP does not have a built-in admin system by default. Admins are managed via 
    Save all changes and start your server.
 
 > [!WARNING]
-> **Important**
->
 > Only use plugins from trusted sources. Check the code or reviews before installing a plugin.
 
 > [!NOTE]

@@ -54,8 +54,6 @@ Plugins findest Du auf folgenden Plattformen:
 - [Bukkit](https://dev.bukkit.org/bukkit-plugins)
 
 > [!WARNING]
-> **Wichtig**
->
 > Lade Plugins nur von vertrauenswürdigen Quellen herunter. Plugins aus unbekannten Quellen können Schadcode enthalten.
 
 ### Wie lade ich ein Plugin hoch?
@@ -73,8 +71,6 @@ Plugins findest Du auf folgenden Plattformen:
    Starte den Server neu, damit das Plugin geladen wird.
 
 > [!TIP]
-> **Hinweis**
->
 > Nach dem ersten Start erstellt das Plugin meist einen eigenen Ordner unter `plugins/` mit Konfigurationsdateien, die Du anpassen kannst.
 
 ## Wie entferne ich ein Plugin?

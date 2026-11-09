@@ -61,8 +61,7 @@ Deinem The Front Server trittst Du über den Serverbrowser im Spiel bei. Dort su
    Vergleiche die Schreibweise: Suchst Du nach einem Namen mit Tippfehler, bleibt die Liste leer. Suche im Zweifel nur nach einem kurzen, eindeutigen Teil des Namens.
 
 > [!NOTE]
-> **Welche Ports nutzt The Front?**
->
+> **Welche Ports nutzt The Front?**\
 > Ein The Front Server belegt vier Ports, die in der Regel direkt aufeinanderfolgend vergeben werden. Die konkreten Werte werden Deinem Server in der **Verwaltung** zugewiesen – verlass Dich immer auf die Zahlen, die dort stehen.
 >
 > | Port | Verwendung |

@@ -130,8 +130,7 @@ You set the TTT settings through ConVars in the `server.cfg`.
 | `ttt_detective_karma_min` | Minimum karma a player needs to become a detective | `600` |
 
 > [!TIP]
-> **Example**
->
+> **Example**\
 > The number is rounded down, but there is always at least one traitor. With 12 players and the default values that makes 3 traitors (12 × 0.25) and 1 detective (12 × 0.13 = 1.56). With fewer than 8 players there are no detectives.
 
 ### Karma

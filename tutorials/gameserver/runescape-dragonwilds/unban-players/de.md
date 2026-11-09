@@ -49,6 +49,5 @@ Auf Deinem Server gibt es zwei Rollen mit unterschiedlichen Rechten:
 > Gebannte Spieler erhalten derzeit **keine Meldung** über den Bann. Sie können Deinem Server lediglich nicht mehr beitreten und erfahren nicht, warum.
 
 > [!TIP]
-> **Admin-Rechte entziehen**
->
+> **Admin-Rechte entziehen**\
 > Admin-Rechte sind nicht an einzelne Spieler gebunden, sondern gelten für alle, die das Admin Passwort eingegeben haben – so lange, bis es geändert wird. Um allen bisherigen Admins die Rechte zu entziehen, ändere das [Admin Passwort](/tutorials/gameserver/runescape-dragonwilds/set-admin-password) in der Verwaltung und starte Deinen Server neu.

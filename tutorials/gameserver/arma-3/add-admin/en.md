@@ -46,8 +46,6 @@ Arma 3 offers two ways to grant admin rights: an **admin password** that lets an
    ```
 
    > [!WARNING]
-   > **Caution**
-   >
    > Never use the same password for `passwordAdmin` as for the server password (`password`). Otherwise every player who joins your server automatically gets admin rights as well.
 
 5. **Add fixed admins**\
@@ -126,8 +124,6 @@ All commands are entered in the chat console.
 | `#shutdown` | Shut the server down |
 
 > [!WARNING]
-> **Caution**
->
 > `#shutdown` shuts the server down. Whether it starts again automatically depends on your settings – when in doubt, start it again via the dashboard.
 
 > [!TIP]

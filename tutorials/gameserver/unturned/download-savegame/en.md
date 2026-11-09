@@ -21,8 +21,7 @@ related: ["gameserver/unturned/add-savegame", "gameserver/unturned/create-backup
 In Unturned the save and the configuration live together in one folder under `/Servers/`. You can download that folder to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!CAUTION]
-> **Save first**
->
+> **Save first**\
 > Unturned does **not** save automatically. If you download the files without saving first, all progress since the last save is missing.
 
 1. **Save the world**\
@@ -46,8 +45,7 @@ In Unturned the save and the configuration live together in one folder under `/S
    ```
 
    > [!NOTE]
-   > **Which folder is mine?**
-   >
+   > **Which folder is mine?**\
    > The folder name matches the server ID from your server's startup parameter. Usually there is exactly one folder there – that is yours.
 
 5. **Download the folder**\
@@ -68,19 +66,16 @@ In Unturned the save and the configuration live together in one folder under `/S
 | `WorkshopDownloadConfig.json` | The list of your Workshop mods and maps |
 
 > [!TIP]
-> **Save the world only**
->
+> **Save the world only**\
 > If you only want to keep the game progress, the folders `Level/` and `Players/` are enough. For a complete move to another server it is better to download the whole server folder.
 
 > [!WARNING]
 > Always download folders completely. Individual files from `Level/` or `Players/` do not make a usable save.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/unturned/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/unturned/create-backup).

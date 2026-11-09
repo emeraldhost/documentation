@@ -20,8 +20,6 @@ related: ["teamspeak/serverquery-login"]
 We are currently **unable to offer TeamSpeak 6 servers**. This page explains why and what alternatives are available to you.
 
 > [!WARNING]
-> **Note**
->
 > The screen sharing feature is only available on TeamSpeak 6 servers and cannot be used on TeamSpeak 3 servers.
 
 ## Why don't we offer TeamSpeak 6 servers yet?
@@ -29,8 +27,7 @@ We are currently **unable to offer TeamSpeak 6 servers**. This page explains why
 For hosting providers like us to offer TeamSpeak 6 servers to customers, a special provider license from TeamSpeak is required. We have already reached out to TeamSpeak and received the following response:
 
 > [!NOTE]
-> **As of: February 2026**
->
+> **As of: February 2026**\
 > The TeamSpeak team is working on providing us with the appropriate license as a provider. However, a specific timeframe could not be given.
 
 As soon as we receive a license and can offer TeamSpeak 6 servers, we will announce it on our website and through our social media channels.

@@ -39,8 +39,6 @@ With the `/Broadcast` command you can send a message to all players on the serve
    Replace `<MessageText>` with the desired text.
 
 > [!WARNING]
-> **Caution**
->
 > The message is cut off at the first **space** – of `Server will restart` only `Server` would be sent. Use underscores instead.
 
 > [!TIP]

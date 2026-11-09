@@ -43,8 +43,6 @@ BlueMap erstellt eine 3D-Web-Karte Deines Minecraft-Servers, die Du im Browser a
    Wähle einen freien Port aus und notiere ihn Dir.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende **nicht** den Standard-Port Deines Servers! BlueMap benötigt einen separaten Port.
 
 ## Schritt 3: Config-Datei anpassen

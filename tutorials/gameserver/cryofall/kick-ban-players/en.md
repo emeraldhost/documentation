@@ -181,6 +181,4 @@ The lists are also stored as plain text in the server configuration. That helps 
    Save the file and start your server.
 
 > [!WARNING]
-> **Caution**
->
 > Only edit the file while the server is stopped. During operation the server manages these lists itself and overwrites your changes.

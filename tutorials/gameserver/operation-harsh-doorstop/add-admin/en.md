@@ -94,8 +94,6 @@ Through an RCON client you can grant admin rights while the server is running. T
 > The command `status` gives you the ID number and the SteamID64 of every connected player.
 
 > [!WARNING]
-> **Caution**
->
 > Always add permanent admins to `Admins.cfg` as well. Only then do the rights survive a server restart.
 
 ## Reload the configuration
@@ -109,8 +107,7 @@ RELOADSERVERCONFIG
 Among others it refreshes `Admins.cfg`, `Bans.cfg` and `MapCycle.cfg`.
 
 > [!NOTE]
-> **Custom file name**
->
+> **Custom file name**\
 > By default the admin file is called `Admins.cfg`. The startup parameter `-AdminList=FileName.cfg` lets you use a different file name. You usually do not need this – stick with the default.
 
 > [!TIP]

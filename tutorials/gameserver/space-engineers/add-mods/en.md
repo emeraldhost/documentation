@@ -22,8 +22,6 @@ related: ["gameserver/space-engineers/add-admins", "gameserver/space-engineers/c
 You can add mods from the **Steam Workshop** or from **mod.io** to your server to add blocks, vehicles, gameplay mechanics and more. Mods are added by their **ID** in your world's config file – the server downloads them automatically on startup. You do not need to upload any mod files manually.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before editing the config file. A running server can overwrite your changes when it saves or stops.
 
 ## Steam Workshop or mod.io?
@@ -38,8 +36,7 @@ Which mod service you can use depends on whether [crossplay](/tutorials/gameserv
 Without crossplay, you can mix mods from both services in the same mod list.
 
 > [!NOTE]
-> **Crossplay servers**
->
+> **Crossplay servers**\
 > A crossplay server only loads mods from mod.io. If a Steam Workshop mod is in the mod list, the world does not start. In addition, your mods must not exceed **3 GB** in total – otherwise the server switches console compatibility off while loading.
 
 ## Find the mod ID
@@ -126,20 +123,17 @@ Without crossplay, you can mix mods from both services in the same mod list.
    Save the file and start your server. On startup the server downloads the mods automatically from the Steam Workshop or mod.io – you can watch the progress in the server console.
 
 > [!NOTE]
-> **Mind the order**
->
+> **Mind the order**\
 > The order determines priority: mods **higher** in the list override mods further down when both change the same definition. Order overlapping mods accordingly.
 
 > [!TIP]
-> **Experimental mode & scripts**
->
+> **Experimental mode & scripts**\
 > Since Update 1.206, mods no longer require [experimental mode](/tutorials/gameserver/space-engineers/enable-experimental-mode) – mods with their own code (script mods) also run without it.
 >
 > Scripts for **Programmable Blocks** are not mods and are not added to the mod list – see [Allow In-Game Scripts](/tutorials/gameserver/space-engineers/enable-ingame-scripts).
 
 > [!WARNING]
-> **Mods missing after a restart?**
->
+> **Mods missing after a restart?**\
 > With the server stopped, open `/config/Saves/World/Sandbox_config.sbc` again and check that your `<Mods>` block is still present. If not, re-add the mods and restart the server.
 
 > [!IMPORTANT]

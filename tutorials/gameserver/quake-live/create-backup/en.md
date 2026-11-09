@@ -47,8 +47,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > The `baseq3` directory sits in the main directory of your server, so the full path is `/home/container/baseq3/`. You can also download individual files to your PC at any time via [SFTP](/tutorials/gameserver/establish-sftp-connection).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. `access.txt` is rewritten by the server before every map load – a backup taken during operation can therefore contain an outdated state, and a restored file would be overwritten on the next map change.
 
 > [!TIP]

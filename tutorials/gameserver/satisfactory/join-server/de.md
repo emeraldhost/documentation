@@ -23,8 +23,6 @@ Satisfactory hat keinen öffentlichen Serverbrowser. Deinen dedizierten Server t
 ## Verbindungsdaten finden
 
 > [!WARNING]
-> **Wichtig**
->
 > Die **IP-Adresse** und den **Game Port** Deines Servers findest Du in Deiner **Verwaltung**. Verwende immer die Werte, die dort für Deinen Server hinterlegt sind.
 
 Für die Verbindung trägst Du im Spiel **nur einen Port** ein: den **Game Port**. Einen separaten Query Port gibt es bei Satisfactory nicht – die Serverabfrage läuft über denselben Port.
@@ -58,8 +56,7 @@ Für die Verbindung trägst Du im Spiel **nur einen Port** ein: den **Game Port*
    Wähle Deinen Server in der Liste aus und klicke unten rechts auf **Join Game**.
 
 > [!WARNING]
-> **Nicht über das Hauptmenü beitreten**
->
+> **Nicht über das Hauptmenü beitreten**\
 > Der Punkt **Join Game** im Hauptmenü ist für Sitzungen von Freunden gedacht und findet Deinen dedizierten Server nicht. Dedizierte Server erreichst Du ausschließlich über den **Server Manager**.
 
 ## Adminrechte auf dem Server erhalten
@@ -76,8 +73,7 @@ Damit Du im Server Manager mehr als den Reiter **Status** nutzen kannst – also
    Trage das Admin Passwort Deines Servers ein und bestätige. Anschließend hast Du Zugriff auf alle Reiter des Server Managers.
 
 > [!NOTE]
-> **Admin Passwort setzen**
->
+> **Admin Passwort setzen**\
 > Wie Du das Admin Passwort Deines Servers festlegst, erfährst Du unter [Admin Passwort setzen](/tutorials/gameserver/satisfactory/set-admin-password).
 
 ## Server beanspruchen (Claim)
@@ -93,8 +89,7 @@ Ist für Deinen Server noch kein Name und kein Admin Passwort hinterlegt, gilt e
 Danach bist Du Administrator des Servers.
 
 > [!WARNING]
-> **Erst eine Welt anlegen**
->
+> **Erst eine Welt anlegen**\
 > Direkt nach dem Beanspruchen läuft auf dem Server noch keine Welt. Lege im Server Manager zuerst über den Reiter **Create Game** eine neue Welt an oder lade über den Reiter **Manage Saves** einen vorhandenen Spielstand hoch. Erst danach kannst Du dem Server beitreten.
 
 ## Server Passwort
@@ -114,8 +109,7 @@ Ist für Deinen Server ein Server Passwort gesetzt, wirst Du beim Verbinden dana
 > Welche Werte für Deinen Server gelten, siehst Du in Deiner **Verwaltung**.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Prüfe der Reihe nach:
 >
 > - Läuft Dein Server? Warte nach dem Start einen Moment, bis er vollständig hochgefahren ist.

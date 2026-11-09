@@ -41,13 +41,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the folder containing the world files separately: [Download savegame](/tutorials/gameserver/smalland-survive-the-wilds/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. The server writes to the world file while it is running – a backup taken during operation can be incomplete.
 
 > [!CAUTION]
-> **Characters are not included**
->
+> **Characters are not included**\
 > A server backup only saves the world data. Characters are stored locally on each player's PC and can neither be backed up nor restored through the server.
 
 > [!NOTE]

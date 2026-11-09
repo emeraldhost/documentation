@@ -66,8 +66,7 @@ Bei diesem Weg benennst Du die bisherige Welt um oder löschst sie. Beim nächst
    Starte Deinen Server. Er erstellt unter demselben Namen automatisch eine neue Welt.
 
 > [!NOTE]
-> **Welt plötzlich neu?**
->
+> **Welt plötzlich neu?**\
 > Stimmt der Eintrag im Feld **Welt Name** mit keiner vorhandenen Welt überein, zum Beispiel wegen eines Tippfehlers, erstellt der Server beim Start ohne Rückfrage eine neue Welt. Deine bisherige Welt ist dann nicht verloren, sondern liegt unverändert im Verzeichnis `worlds_local`. Trage den richtigen Namen ein und starte den Server neu.
 
 > [!NOTE]

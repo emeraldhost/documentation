@@ -62,8 +62,7 @@ Die Spieler fordern jede Datei unter der Adresse Deines Webspaces mit **demselbe
    Lade die Dateien in die passenden Ordner hoch. Den Addon-Ordner selbst lässt Du dabei weg: Aus `/garrysmod/addons/meinserver-inhalte/materials/meinserver/logo.vmt` auf dem Gameserver wird auf dem Webspace `materials/meinserver/logo.vmt`.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > Ist Dein Webspace unter `https://fastdl.example.com` erreichbar, ruft ein Spieler die Datei `materials/meinserver/logo.vmt` unter dieser Adresse ab:
    >
    > ```text

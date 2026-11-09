@@ -43,8 +43,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Welche Datei ist die richtige?**
->
+> **Welche Datei ist die richtige?**\
 > Welche Welt Dein Server lädt, steuert der **Weltname** in der **Verwaltung**. Steht dort `MeineWelt`, ist `MeineWelt.wld` Dein aktueller Spielstand. Lade im Zweifel einfach den ganzen Ordner herunter.
 
 > [!NOTE]
@@ -55,16 +54,13 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > ```
 
 > [!NOTE]
-> **Einstellungen**
->
+> **Einstellungen**\
 > Eine Konfigurationsdatei musst Du nicht mitsichern. Smalland Survive the Wilds hat keine – alle Servereinstellungen werden in der **Verwaltung** gesetzt und beim Start an den Server übergeben.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/smalland-survive-the-wilds/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/smalland-survive-the-wilds/create-backup).

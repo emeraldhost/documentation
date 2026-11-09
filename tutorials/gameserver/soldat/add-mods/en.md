@@ -27,8 +27,7 @@ On the server side you extend your game in three ways:
 - **Mod packages** (`.smod`) – this option only exists on OpenSoldat
 
 > [!NOTE]
-> **Two server versions**
->
+> **Two server versions**\
 > There are two Soldat server versions with different configuration files. You can tell which one you are running from the file manager or via [SFTP](/tutorials/gameserver/establish-sftp-connection):
 >
 > | File in the main directory | Version |
@@ -171,8 +170,7 @@ The file also supports the sections `[SearchPaths]` and `[Defines]`.
 > Leave `Sandboxed` at `2` whenever possible. With `0` a script may access the entire drive – only install scripts from sources you trust.
 
 > [!TIP]
-> **Behaviour on errors**
->
+> **Behaviour on errors**\
 > If a script crashes, `OnScriptCrash` (classic) and `sc_onscriptcrash` (OpenSoldat) decide what happens: recompile, shut down the server, ignore it or disable the script.
 
 ## Mod packages on OpenSoldat

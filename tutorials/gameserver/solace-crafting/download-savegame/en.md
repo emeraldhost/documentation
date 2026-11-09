@@ -21,8 +21,6 @@ related: ["gameserver/solace-crafting/add-savegame", "gameserver/solace-crafting
 You can download your server's world to your PC at any time – for example as an additional backup, for archiving or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -48,13 +46,11 @@ You can download your server's world to your PC at any time – for example as a
    Start your server again.
 
 > [!TIP]
-> **Find the right world**
->
+> **Find the right world**\
 > The world your server currently loads is defined in the file `servercfg.dat` under the value `worldSaveToUse`. The name entered there matches the folder name inside the `Worlds` directory. Without any changes this is the folder `MultiplayerWorld`.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following file in addition:
 >
 > ```text
@@ -62,8 +58,7 @@ You can download your server's world to your PC at any time – for example as a
 > ```
 
 > [!TIP]
-> **Continue playing the world locally**
->
+> **Continue playing the world locally**\
 > If you want to continue playing the downloaded world in single player on your PC, place the world folder into the following directory:
 >
 > ```text
@@ -71,11 +66,9 @@ You can download your server's world to your PC at any time – for example as a
 > ```
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/solace-crafting/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/solace-crafting/create-backup).

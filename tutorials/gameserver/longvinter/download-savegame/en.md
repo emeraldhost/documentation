@@ -21,8 +21,6 @@ related: ["gameserver/longvinter/add-savegame", "gameserver/longvinter/create-ba
 You can download your server's save to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Longvinter saves roughly every ten minutes while running – otherwise you would download an incomplete save.
 
 1. **Stop the server**\
@@ -48,8 +46,7 @@ You can download your server's save to your PC at any time – for example as an
 > The `SaveGames` folder holds the entire save – among other things tents, chests including their contents and the progress of your players. The individual `.sav` files belong together, so always back them up as a whole.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings and admins, download the following file in addition:
 >
 > ```text
@@ -60,11 +57,9 @@ You can download your server's save to your PC at any time – for example as an
 > Longvinter saves can grow to several gigabytes. Use an SFTP client such as FileZilla or WinSCP for the download – large transfers are more likely to break off in the browser file manager.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/longvinter/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/longvinter/create-backup).

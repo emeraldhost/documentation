@@ -34,8 +34,6 @@ Regular backups of your Eco server protect you from data loss – whether due to
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Eco writes the save to disk regularly – the interval is controlled by the value `SaveFrequency` in `/Configs/Storage.eco`. A backup taken during operation can therefore be incomplete.
 
 > [!TIP]
@@ -45,8 +43,7 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the two save files separately: [Download savegame](/tutorials/gameserver/eco/download-savegame).
 
 > [!NOTE]
-> **The server's own snapshots**
->
+> **The server's own snapshots**\
 > Eco additionally creates its own snapshots in the folder `/Storage/Backup/`. These are overwritten on a rolling basis and are no replacement for your own backup – do not rely on them alone for important states.
 
 > [!NOTE]

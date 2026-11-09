@@ -21,8 +21,7 @@ related: ["gameserver/aloft/create-backup", "gameserver/aloft/download-savegame"
 Du kannst Spieler über das Ingame-Admin-Menü kicken und bannen.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Du musst Admin auf Deinem Server sein. Hier findest Du eine Anleitung, wie Du einen [Admin hinzufügst](/tutorials/gameserver/aloft/add-admin).
 
 ## Spieler über das Admin-Menü kicken oder bannen

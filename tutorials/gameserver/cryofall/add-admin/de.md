@@ -122,8 +122,7 @@ Moderatoren dürfen Spieler verwalten – also kicken, bannen und stummschalten 
 | `/moderatorRemove <Spielername>` | Moderator-Rechte entziehen |
 
 > [!NOTE]
-> **Langform der Befehle**
->
+> **Langform der Befehle**\
 > Zu jedem dieser Befehle gibt es eine ausgeschriebene Variante, zum Beispiel `/admin.operator.add` statt `/opAdd`. Beide bewirken dasselbe.
 
 ## Was Operatoren zusätzlich dürfen
@@ -131,8 +130,7 @@ Moderatoren dürfen Spieler verwalten – also kicken, bannen und stummschalten 
 Als Operator kannst Du im Spiel über das Menü (Taste `Esc`) und die Schaltfläche **Edit** unter anderem die Beschreibung, die Willkommensnachricht und die Spielraten Deines Servers anpassen, ohne Dateien zu bearbeiten.
 
 > [!WARNING]
-> **Änderungen aus der Verwaltung**
->
+> **Änderungen aus der Verwaltung**\
 > Servername, Beschreibung, Serverliste, maximale Spielerzahl, Speicherintervall und Anzahl der Speicherstände werden bei jedem Start aus der **Verwaltung** in die Datei `SettingsServer.xml` geschrieben. Änderst Du diese Werte in der Datei oder im Spiel, gehen sie beim nächsten Start verloren – stelle sie ausschließlich in der Verwaltung ein.
 
 > [!TIP]

@@ -23,8 +23,6 @@ Du kannst Deinem Server direkt über die IP-Adresse beitreten oder ihn im Server
 ## Verbindungsdaten finden
 
 > [!WARNING]
-> **Wichtig**
->
 > Die **IP-Adresse** und die Ports Deines Servers findest Du in der **Verwaltung**. Für die Direktverbindung benötigst Du den **Game Port**, für den Eintrag im Steam-Server-Browser den **Query Port**. Verwende immer die dort angezeigten Werte – die Ports werden Deinem Server fest zugewiesen und können von den Standard-Ports des Spiels abweichen.
 
 ## Über die Direktverbindung
@@ -96,6 +94,5 @@ Du kannst Deinem Server direkt über die IP-Adresse beitreten oder ihn im Server
 > Nach einem Neustart dauert es einige Minuten, bis Dein Server im Serverbrowser auftaucht. Nutze in dieser Zeit die Direktverbindung – sie funktioniert sofort.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Steht in der Serverkonfiguration `LanOnly` auf `true`, erscheint Dein Server grundsätzlich nicht in der öffentlichen Serverliste. Die Einstellung findest Du in der Datei `/serverconfig/dedicatedserver.cfg`, die Du per [SFTP](/tutorials/gameserver/establish-sftp-connection) bearbeiten kannst.

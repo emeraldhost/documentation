@@ -23,8 +23,6 @@ You can download your server's savegame to your PC at any time – for example a
 In Voyagers of Nera a savegame is always a **complete folder** named after the server ID. That ID is a random string your server generates itself on the first start.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. The server saves automatically at regular intervals – if you download while it does, the savegame can be incomplete.
 
 1. **Stop the server**\
@@ -47,18 +45,14 @@ In Voyagers of Nera a savegame is always a **complete folder** named after the s
    Start your server again.
 
 > [!NOTE]
-> **Which folder is the right one?**
->
+> **Which folder is the right one?**\
 > The same directory also contains a `CustomConfig` folder. It holds your server settings and is **not** a savegame. The folder with the random string is your world.
 
 > [!WARNING]
-> **Caution**
->
 > A savegame is always the complete folder. Always download it in full – individual files from it do not make a usable savegame.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following folder in addition:
 >
 > ```text
@@ -66,11 +60,9 @@ In Voyagers of Nera a savegame is always a **complete folder** named after the s
 > ```
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to move the savegame back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/voyagers-of-nera/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/voyagers-of-nera/create-backup).

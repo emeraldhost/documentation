@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. DarkMultiPlayer schreibt im laufenden Betrieb ständig Schiffs- und Spielerdaten in den Ordner `Universe` – eine Sicherung während des Betriebs kann einen unvollständigen Spielstand enthalten.
 
 > [!TIP]
-> **Auch die Konfiguration sichern**
->
+> **Auch die Konfiguration sichern**\
 > Neben dem Ordner `Universe` lohnt sich der Ordner `Config`: Dort liegen unter anderem `Settings.txt`, `admins.txt`, die Bann-Listen und Deine `mod-control.txt`.
 
 > [!NOTE]

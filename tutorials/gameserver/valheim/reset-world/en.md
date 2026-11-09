@@ -66,8 +66,7 @@ With this method, you rename or delete the previous world. On the next start, th
    Start your server. It automatically creates a new world under the same name.
 
 > [!NOTE]
-> **World suddenly new?**
->
+> **World suddenly new?**\
 > If the entry in the **World Name** field does not match any existing world, for example because of a typo, the server creates a new world on startup without asking. Your previous world is not lost in that case, it remains unchanged in the `worlds_local` directory. Enter the correct name and restart the server.
 
 > [!NOTE]

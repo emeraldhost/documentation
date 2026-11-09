@@ -52,11 +52,9 @@ Du kannst den Prospect Deines Servers jederzeit auf Deinen PC herunterladen, zum
 > Der Parameter `LoadProspect=` enthält den Dateinamen Deines Prospects (ohne `.json`).
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/icarus/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/icarus/create-backup).

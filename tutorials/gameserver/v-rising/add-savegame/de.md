@@ -20,8 +20,6 @@ related: ["gameserver/v-rising/download-savegame", "gameserver/v-rising/install-
 ---
 
 > [!CAUTION]
-> **Achtung**
->
 > Wenn Du ein neues Savegame hinzufügst, **wird Dein aktueller Spielstand überschrieben** und kann **nicht wiederhergestellt** werden.
 > Erstelle unbedingt ein **Backup**, falls Du Dein aktuelles Savegame später erneut verwenden möchtest.
 

@@ -137,8 +137,7 @@ Visual changes for all players are applied through resource packs.
 > Unpacked resource packs (plain folders) are not supported – only `.zip` and `.mcpack` are allowed. Resource packs also cannot be set per world, they always apply to the entire server.
 
 > [!TIP]
-> **Make a resource pack mandatory**
->
+> **Make a resource pack mandatory**\
 > The `force_resources` entry in the `resource_packs.yml` file inside the `resource_packs` folder defines whether players have to load the pack in order to join:
 >
 > ```yaml

@@ -86,8 +86,7 @@ Deine Welten liegen auf Deinem PC unter:
    > Prüfe die Datei nach dem Bearbeiten mit einem JSON-Formatter wie [JSONLint](https://jsonlint.com/) – ein fehlendes oder überzähliges Komma reicht, damit der Server die Konfiguration nicht mehr einlesen kann.
 
    > [!TIP]
-   > **Alternative**
-   >
+   > **Alternative**\
    > Statt den Wert anzupassen, kannst Du Deinen hochgeladenen Ordner auch einfach in `MultiplayerWorld` umbenennen. Dann bleibt die Standardkonfiguration unverändert.
 
 6. **Server starten**\

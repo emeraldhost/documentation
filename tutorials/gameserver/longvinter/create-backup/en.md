@@ -40,13 +40,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the `SaveGames` folder separately: [Download savegame](/tutorials/gameserver/longvinter/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Longvinter saves roughly every ten minutes while running – a backup taken during operation can contain an incomplete save. For the same reason the server overwrites any changes you make to `Game.ini` while it is running.
 
 > [!TIP]
-> **Enable server-side saves**
->
+> **Enable server-side saves**\
 > Longvinter can additionally create its own backup of the save once per day. To enable it, add the following value to `/Longvinter/Saved/Config/LinuxServer/Game.ini` while the server is stopped:
 >
 > ```ini

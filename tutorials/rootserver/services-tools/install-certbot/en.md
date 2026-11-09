@@ -92,8 +92,6 @@ With Certbot you can set up free TLS/SSL certificates from Let's Encrypt.
 ## Certbot via APT
 
 > [!WARNING]
-> **Note**
->
 > This method often installs outdated versions. Only use it if Snap is not possible.
 
 1. **Update system**\
@@ -154,6 +152,4 @@ With Certbot you can set up free TLS/SSL certificates from Let's Encrypt.
    ```
 
 > [!NOTE]
-> **Important**
->
 > The domain must point to the server (A or AAAA entry), and port 80 (HTTP challenge) must be accessible - otherwise the validation will fail.

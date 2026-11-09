@@ -24,8 +24,7 @@ Admin rights on a Soldat server work through two mechanisms: an **admin password
 > Soldat identifies admins by their **IP address**, not by a Steam ID or a player UUID. For the permanent admin list you therefore need the IP address of the player in question.
 
 > [!NOTE]
-> **Two server versions**
->
+> **Two server versions**\
 > There are two Soldat server versions with different configuration files. You can tell which one you are running from the file manager or via [SFTP](/tutorials/gameserver/establish-sftp-connection):
 >
 > | File in the main directory | Version |
@@ -193,8 +192,7 @@ Locked mode prevents logged-in admins from using certain commands.
 | `/addbot<team ID> <BotName>` | Add a bot to a specific team, e.g. `/addbot2 Terminator` |
 
 > [!TIP]
-> **Game modes**
->
+> **Game modes**\
 > `0` Deathmatch, `1` Pointmatch, `2` Teammatch, `3` Capture the Flag, `4` Rambomatch, `5` Infiltration, `6` Hold the Flag
 
 > [!NOTE]

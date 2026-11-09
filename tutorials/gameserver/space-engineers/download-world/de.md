@@ -47,11 +47,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > Der Weltname ist auf Deinem Server fest auf **World** eingestellt und kann nicht geändert werden (sichtbar im **Config-Editor**). Deine Welt liegt daher immer im Ordner `/config/Saves/World/` – es gibt keinen weiteren Ordner, in dem Du suchen müsstest.
 
 > [!TIP]
-> **Welt wieder einspielen**
->
+> **Welt wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Welt hochladen](/tutorials/gameserver/space-engineers/upload-world).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für regelmäßige Sicherungen kannst Du die [automatischen Backups](/tutorials/gameserver/space-engineers/configure-automatic-backups) Deines Servers nutzen oder ein manuelles [Backup erstellen](/tutorials/gameserver/create-backup).

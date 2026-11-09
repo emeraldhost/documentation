@@ -93,8 +93,7 @@ You enter the countries as two-letter ISO country codes, e.g. `DE` for Germany, 
    Save the file and start your server via the dashboard.
 
 > [!TIP]
-> **Example**
->
+> **Example**\
 > This is how you only allow players from Germany, Austria and Switzerland on your server:
 >
 > ```text

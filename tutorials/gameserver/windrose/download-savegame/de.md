@@ -48,11 +48,9 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 > Der `<WorldID>`-Ordner trägt eine alphanumerische Zeichenkette als Namen. Welcher Ordner der richtige ist, erkennst Du an der [Island ID](/tutorials/gameserver/windrose/set-island-id) Deines Servers – sie entspricht dem Ordnernamen. Notiere Dir die `<GameVersion>` und die Island ID gleich mit, damit Du den Spielstand später wieder korrekt einspielen kannst.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/windrose/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/windrose/create-backup).

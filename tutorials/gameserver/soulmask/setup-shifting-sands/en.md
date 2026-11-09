@@ -88,8 +88,7 @@ With the **Shifting Sands** DLC you can set up a server cluster that allows play
    Replace `IP:Port` with the IP address of the main server and the **Game Port + 4**.
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > If the main server's Game Port is `8778`:
    >
    > ```text

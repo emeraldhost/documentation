@@ -111,8 +111,7 @@ Don’t Starve Together bringt ein vollwertiges Mod-System für Server mit. Du m
 > Beide Dateien gehören zusammen: Jede Mod, die Du in `modoverrides.lua` aktivierst, braucht auch eine passende `ServerModSetup()`-Zeile in `dedicated_server_mods_setup.lua` – und umgekehrt. Fehlt eine der beiden Angaben, wird die Mod nicht geladen.
 
 > [!NOTE]
-> **Müssen Spieler etwas tun?**
->
+> **Müssen Spieler etwas tun?**\
 > Nein. Reine Server-Mods müssen von beitretenden Spielern gar nicht heruntergeladen werden. Mods, die auch auf dem Client laufen müssen, werden beim Beitritt automatisch über den Steam Workshop heruntergeladen und aktiviert.
 
 > [!TIP]

@@ -21,8 +21,7 @@ related: ["gameserver/humanitz/add-savegame", "gameserver/humanitz/create-backup
 Kicking and banning in HumanitZ works through **RCON**. There are no chat commands for it – the matching commands are RCON commands only. So you have to set up RCON once before you can remove players.
 
 > [!NOTE]
-> **Project folder**
->
+> **Project folder**\
 > All paths in this guide start with the project folder `HumanitZServer`. If your server still runs a version older than HumanitZ 1.0, that folder is called `TSSGame` instead. Check via SFTP which of the two folders exists on your server and adjust the paths accordingly.
 
 ## Set up RCON
@@ -180,8 +179,7 @@ You then enter the allowed players with one Steam ID per line into the following
 > As soon as `OnlyAllowedPlayers=1` is set, only players listed in `F_MVPAccess.txt` can join the server. Make sure to add yourself first before starting the server.
 
 > [!NOTE]
-> **Reserved slots**
->
+> **Reserved slots**\
 > With `ReserveSlots=<number>` you reserve slots on a full server. The players entitled to them are entered with one Steam ID per line into `/HumanitZServer/F_ReservedSlots.txt`.
 
 ## Admin interface in the game

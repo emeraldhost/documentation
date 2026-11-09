@@ -65,13 +65,11 @@ The server does not write the running game to disk permanently. So first store i
 > To see which saves exist on your server, use the `saves` command in the console. It lists all slots without the `.msav` extension.
 
 > [!TIP]
-> **Auto-saves**
->
+> **Auto-saves**\
 > If you enabled automatic saving, the same folder also contains files with the prefix `auto_`, for example `auto_Ground_Zero_....msav`. You can download and later load those as well.
 
 > [!TIP]
-> **Also back up settings and maps**
->
+> **Also back up settings and maps**\
 > If you want to save more than just the world, download the following files as well:
 >
 > | Path | Content |
@@ -81,16 +79,12 @@ The server does not write the running game to disk permanently. So first store i
 > | `/config/mods/` | Installed mods and plugins |
 
 > [!WARNING]
-> **Caution**
->
 > `settings.bin` is a binary file. Back it up, but never edit it in a text editor – doing so destroys admins, bans and settings.
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to move the save back onto a server later, follow the guide [Add savegame](/tutorials/gameserver/mindustry/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create Backup](/tutorials/gameserver/mindustry/create-backup).

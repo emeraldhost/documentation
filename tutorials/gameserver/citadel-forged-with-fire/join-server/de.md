@@ -46,8 +46,7 @@ Citadel Forged with Fire kennt **keine Direktverbindung über die IP-Adresse**. 
 > Ein Menüpunkt für eine Direktverbindung per `IP:Port` ist in Citadel Forged with Fire nicht vorhanden. Der Serverbrowser ist der vorgesehene Weg auf Deinen Server – such dort einfach nach dem Servernamen.
 
 > [!NOTE]
-> **Passwortgeschützter Server**
->
+> **Passwortgeschützter Server**\
 > Ist für Deinen Server ein Beitrittspasswort gesetzt, benötigst Du es beim Verbinden. Gib es nur an die Spieler weiter, die auf Deinen Server sollen.
 
 ## Welche Ports nutzt Citadel Forged with Fire?
@@ -66,13 +65,11 @@ Citadel Forged with Fire kennt **keine Direktverbindung über die IP-Adresse**. 
 ## Server wird nicht gefunden
 
 > [!WARNING]
-> **Server erscheint nicht in der Liste**
->
+> **Server erscheint nicht in der Liste**\
 > Taucht Dein Server im Serverbrowser nicht auf, liegt es meist am Query Port – nur über ihn meldet sich der Server an der Liste an. Prüfe in der **Verwaltung**, ob Game Port und Query Port unterschiedliche Ports sind, und starte Deinen Server anschließend neu. Direkt nach dem ersten Start kann es außerdem einige Minuten dauern, bis der Server in der Liste erscheint.
 
 > [!CAUTION]
-> **Join-Schaltfläche lässt sich nicht anklicken**
->
+> **Join-Schaltfläche lässt sich nicht anklicken**\
 > Wird Dein Server zwar angezeigt, der Beitritt aber nicht ausgelöst, stimmt der Port in der `Engine.ini` nicht mit dem Game Port überein. Verbinde Dich per [SFTP](/tutorials/gameserver/establish-sftp-connection) mit Deinem Server und lege folgende Datei an, falls sie noch nicht existiert:
 >
 > ```text
@@ -89,6 +86,5 @@ Citadel Forged with Fire kennt **keine Direktverbindung über die IP-Adresse**. 
 > Speichere die Datei und starte Deinen Server neu.
 
 > [!NOTE]
-> **Wo liegt die Konfiguration?**
->
+> **Wo liegt die Konfiguration?**\
 > Die Konfigurationsdateien Deines Servers liegen im Ordner `/Config/`. Der Pfad `/Citadel/Saved/Config/LinuxServer/` verweist auf denselben Ordner – Du kannst also beide Wege nutzen, es sind dieselben Dateien.

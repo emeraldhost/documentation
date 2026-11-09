@@ -24,8 +24,7 @@ The complete save of an Echoes of Elysium server lives in a single directory cal
 > There is **no world name** that you would have to enter anywhere. Which world is loaded depends purely on the contents of the `world` directory. Switching worlds therefore always means: replace the contents of that directory.
 
 > [!TIP]
-> **Where does a savegame come from?**
->
+> **Where does a savegame come from?**\
 > This guide is meant for worlds that come from an Echoes of Elysium server – for example when moving to another server or when restoring your own backup. How to download the save from a server is described in [Download savegame](/tutorials/gameserver/echoes-of-elysium/download-savegame).
 
 ## Upload the savegame
@@ -62,11 +61,9 @@ The complete save of an Echoes of Elysium server lives in a single directory cal
    Start your server. Your uploaded save is now loaded on startup.
 
 > [!CAUTION]
-> **Do not rename the directory**
->
+> **Do not rename the directory**\
 > Keep the name `world`. On every start the values from the fields in the **dashboard** are written into the server configuration `config.json` – including the world directory. If you enter a different folder there by hand, that change is lost again with the next start.
 
 > [!TIP]
-> **Keeping several worlds**
->
+> **Keeping several worlds**\
 > If you want to switch between multiple worlds, download the other world to your PC beforehand. Additional folders next to `world` on the server are not loaded by the game.

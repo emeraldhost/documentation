@@ -60,8 +60,6 @@ The player is disconnected from the server and can rejoin immediately.
 The player is kicked from the server and locked out.
 
 > [!WARNING]
-> **Caution**
->
 > The ban is applied to the **IP address**, even though you pass a player ID. There is no ban based on the player name or an account. With changing IP addresses a banned player can therefore come back – and on shared connections you may lock out several people at once.
 
 ## Ban an IP address directly
@@ -118,8 +116,6 @@ Among other things the file contains the banned IP address as well as the date, 
    ```
 
 > [!WARNING]
-> **Caution**
->
 > After editing the ban file manually, `reloadbans` is mandatory. Without that command the running server keeps using the old list and may overwrite your changes again.
 
 > [!NOTE]

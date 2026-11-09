@@ -75,8 +75,6 @@ The direct connection works independently of the invite code and is the most rel
 If a password is set for your server, your friends need it both when joining with the invite code and when connecting directly.
 
 > [!WARNING]
-> **Caution**
->
 > The password is case-sensitive. Pass it on to your friends exactly as it is stored in the **Config Editor**.
 
 > [!NOTE]
@@ -108,15 +106,11 @@ If you want a new invite code – for example because the old one ended up in th
    Start your server. On the next session start a new invite code is generated and printed to the console.
 
 > [!WARNING]
-> **Caution**
->
 > The old invite code stops working afterwards. Share the new code with everyone who should still be able to join.
 
 ## No server browser
 
 > [!WARNING]
-> **Caution**
->
 > Return to Moria has **no public server list**. Your server never shows up anywhere automatically – without the invite code or a direct connection nobody can join.
 
 > [!NOTE]

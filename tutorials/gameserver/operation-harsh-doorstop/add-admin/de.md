@@ -107,8 +107,7 @@ RELOADSERVERCONFIG
 Er aktualisiert unter anderem `Admins.cfg`, `Bans.cfg` und `MapCycle.cfg`.
 
 > [!NOTE]
-> **Eigener Dateiname**
->
+> **Eigener Dateiname**\
 > Standardmäßig heißt die Admin-Datei `Admins.cfg`. Über den Startparameter `-AdminList=DateiName.cfg` lässt sich ein anderer Dateiname festlegen. In der Regel brauchst Du das nicht – belasse es beim Standard.
 
 > [!TIP]

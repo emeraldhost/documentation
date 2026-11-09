@@ -46,11 +46,9 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 > Im Verzeichnis `Saves/v1` liegt für jede Welt ein eigener Ordner. In der Regel findest Du dort nur einen Ordner – bei mehreren erkennst Du den aktiven Spielstand am neuesten Änderungsdatum.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/v-rising/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/v-rising/create-backup).

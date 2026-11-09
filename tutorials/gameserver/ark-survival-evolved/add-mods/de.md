@@ -32,8 +32,7 @@ Du kannst Steam Workshop Mods auf Deinem Server hinzufügen, um das Spielerlebni
    Die Mod-ID findest Du in der URL der Workshop-Seite. Kopiere die Zahl nach `?id=`.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > In der URL `https://steamcommunity.com/sharedfiles/filedetails/?id=1785800853` ist die Mod-ID `1785800853`.
 
 ## Mods zum Server hinzufügen

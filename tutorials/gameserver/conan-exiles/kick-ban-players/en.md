@@ -21,8 +21,7 @@ related: ["gameserver/conan-exiles/enable-battleye", "gameserver/conan-exiles/en
 You can kick and ban players using the in-game admin panel.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > You must be an admin on your server. Here you can find a guide on how to [add an admin](/tutorials/gameserver/conan-exiles/add-admin).
 
 ## Kick or ban players via the admin panel

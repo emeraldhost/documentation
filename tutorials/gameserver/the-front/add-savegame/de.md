@@ -21,8 +21,7 @@ related: ["gameserver/the-front/add-admin", "gameserver/the-front/create-backup"
 The Front kennt **keinen Weltnamen** in der Konfiguration. Ein Spielstand ist immer der komplette Ordner `GameStates` – keine einzelne Datei. Du lädst diesen Ordner mit allem Inhalt an die Stelle, an der Dein Server seinen Spielstand erwartet.
 
 > [!NOTE]
-> **Woher kommt der Spielstand?**
->
+> **Woher kommt der Spielstand?**\
 > Diese Anleitung beschreibt die Übertragung von Server zu Server – also einen Spielstand, den Du zuvor von einem The Front Server heruntergeladen hast. Für Spielstände aus dem Einzelspieler- oder Koop-Modus gibt es keinen dokumentierten Weg auf einen Dedicated Server.
 
 > [!TIP]
@@ -44,8 +43,7 @@ The Front kennt **keinen Weltnamen** in der Konfiguration. Ein Spielstand ist im
    ```
 
    > [!NOTE]
-   > **Welcher Konfigurationsname?**
-   >
+   > **Welcher Konfigurationsname?**\
    > Der Ordner trägt den Konfigurationsnamen Deines Servers – denselben Namen, der auch in der Konfigurationsdatei `ServerConfig_<Konfigurationsname>.ini` steckt. Öffne den Ordner `/TheFrontManager/` – in der Regel liegt dort genau ein Unterordner, und das ist Deiner.
    >
    > Existiert der Ordner noch nicht, starte den Server einmal, damit die Struktur angelegt wird, und stoppe ihn anschließend wieder.
@@ -65,8 +63,7 @@ The Front kennt **keinen Weltnamen** in der Konfiguration. Ein Spielstand ist im
    Starte Deinen Server. Beim Start wird jetzt Dein hochgeladener Spielstand geladen.
 
 > [!CAUTION]
-> **Konfigurationsname nicht ändern**
->
+> **Konfigurationsname nicht ändern**\
 > Der Konfigurationsname Deines Servers bestimmt sowohl den Ordner, in dem Dein Spielstand liegt, als auch den Namen der Konfigurationsdatei. Änderst Du diesen Namen, sucht Dein Server in einem anderen Ordner – und legt dort eine komplett neue, leere Welt an. Dein alter Spielstand bleibt dabei auf der Festplatte liegen, wird aber nicht mehr geladen.
 >
 > Der Name darf keine Leerzeichen und keine Sonderzeichen enthalten.
@@ -75,6 +72,5 @@ The Front kennt **keinen Weltnamen** in der Konfiguration. Ein Spielstand ist im
 > Lade immer den kompletten Ordner `GameStates` hoch. Er enthält neben der Welt auch die Spieler-, Bau- und Gildendaten (`Worlds/`, `Players/`, `Accounts/`, `ConstructData.sav`, `GuildData.sav`). Mischst Du Dateien aus verschiedenen Spielständen, passen Welt und Spielerdaten nicht mehr zusammen.
 
 > [!TIP]
-> **Server zurücksetzen**
->
+> **Server zurücksetzen**\
 > Möchtest Du stattdessen komplett neu anfangen, stoppe den Server, lösche den Ordner `GameStates` und starte den Server erneut. Beim nächsten Start wird eine frische Welt erzeugt.

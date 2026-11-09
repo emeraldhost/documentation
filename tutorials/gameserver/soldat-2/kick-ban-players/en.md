@@ -90,8 +90,7 @@ The player is thrown off the server immediately and cannot reconnect for a coupl
 > A ban in Soldat 2 is **temporary**. It expires by itself after a couple of days – the exact duration is not documented and cannot be configured.
 
 > [!CAUTION]
-> **No unban available**
->
+> **No unban available**\
 > Soldat 2 has **no unban command** and does not create a ban list file you could edit. A ban that has been issued therefore cannot be lifted early – you can only wait for it to expire. Use `ban` deliberately and prefer `kick` for short-term disruptions.
 
 ## Move a player to a team

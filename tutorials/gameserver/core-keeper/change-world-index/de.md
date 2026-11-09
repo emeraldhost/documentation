@@ -33,6 +33,5 @@ Der Welt Index bestimmt, welche Welt geladen wird. Er muss mit der Zahl Deiner W
    Speichere die Einstellung und starte Deinen Server neu.
 
 > [!TIP]
-> **Beispiel**
->
+> **Beispiel**\
 > Wenn Deine Welt-Datei `3.world.gzip` heißt, muss der Welt Index `3` sein.

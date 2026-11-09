@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Voyagers of Nera speichert in regelmäßigen Abständen automatisch – eine Sicherung während des Betriebs kann einen unvollständigen Spielstand enthalten.
 
 > [!NOTE]
-> **Was gehört zum Spielstand?**
->
+> **Was gehört zum Spielstand?**\
 > Sowohl Deine Welt als auch Deine Servereinstellungen liegen unter `/BoatGame/Saved/PersistedData/`. Ein Backup dieses Verzeichnisses enthält damit beides: den Ordner Deiner Welt und den Ordner `CustomConfig`.
 
 > [!NOTE]

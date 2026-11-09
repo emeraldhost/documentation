@@ -103,8 +103,7 @@ With `/purge <Username>` you can additionally remove a player's chat messages.
 | `/server-save` | Save the game immediately |
 
 > [!WARNING]
-> **Whitelist**
->
+> **Whitelist**\
 > The command `/whitelist <add/remove/get/clear> [Username]` does exist, but the whitelist is **not active** with the default start command: it additionally requires the startup parameters `--server-whitelist` and `--use-server-whitelist`. Without them a whitelist set in-game is also not written to the file and is lost when the server stops. To lock out individual players, use the ban list instead.
 
 > [!TIP]

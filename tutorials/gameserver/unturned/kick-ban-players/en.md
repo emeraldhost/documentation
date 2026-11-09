@@ -21,8 +21,7 @@ related: ["gameserver/unturned/add-savegame", "gameserver/unturned/create-backup
 You remove players from an Unturned server using commands – either in the **console** of the dashboard or, as an admin, directly in the in-game chat. The commands take effect immediately, no restart is needed.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > To use the commands in the in-game chat you need admin rights. Here you can find a guide on how to [add an admin](/tutorials/gameserver/unturned/add-admin). In the console of the dashboard the commands always work.
 
 > [!TIP]
@@ -45,8 +44,7 @@ You remove players from an Unturned server using commands – either in the **co
    ```
 
 > [!CAUTION]
-> **Parameters are separated by a slash**
->
+> **Parameters are separated by a slash**\
 > Unlike many other games, Unturned separates the parameters with a **`/`** instead of a space. So `ban Sam Griefing` does not work – the correct form is `ban Sam/Griefing`.
 
 ## Kick a player
@@ -82,8 +80,7 @@ The player is kicked from the server and cannot connect again for the given dura
 > This bans the player for one day (86,400 seconds).
 
 > [!NOTE]
-> **Leaving out the duration**
->
+> **Leaving out the duration**\
 > If you do not specify a duration, the player is banned for 31,536,000 seconds – which equals 365 days. For a longer ban, enter a correspondingly larger value in seconds.
 
 | Duration | Value in seconds |
@@ -118,13 +115,11 @@ unban <SteamID64>
 ## Ban list
 
 > [!WARNING]
-> **Maintain the ban list with the commands**
->
+> **Maintain the ban list with the commands**\
 > Bans are stored in `/Servers/<ServerID>/Server/Blacklist.dat`. Always ban and unban using the `ban` and `unban` commands so the list stays valid. If you want to lift all bans at once, you can also delete the file while the server is stopped.
 
 ## Open the server to specific players only
 
 > [!NOTE]
-> **Whitelist**
->
+> **Whitelist**\
 > Unturned also has the configuration command `Whitelisted` for `Commands.dat`. With it, only permitted players can join your server. How players are added to that list is not officially documented – if you simply want to keep your server private, a server password is the easier option.

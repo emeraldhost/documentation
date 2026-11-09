@@ -82,15 +82,11 @@ Lists all banned players.
 | `/bans` | `admin` | Show all bans |
 
 > [!WARNING]
-> **Caution**
->
 > Write the player name exactly as it is displayed in the game, including upper and lower case. Use `/bans` to check how an entry was stored.
 
 ## Manage bans
 
 > [!WARNING]
-> **Caution**
->
 > Manage bans exclusively with the commands `/ban`, `/unban` and `/bans`. How Necesse stores bans internally is not documented – do not edit any server files via SFTP for this.
 
 ## No whitelist

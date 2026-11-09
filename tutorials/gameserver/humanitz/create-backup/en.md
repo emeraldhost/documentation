@@ -40,8 +40,6 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the savegame folder separately: [Download Savegame](/tutorials/gameserver/humanitz/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. HumanitZ saves automatically while running – a backup taken during operation can contain an incomplete savegame.
 
 > [!IMPORTANT]

@@ -111,6 +111,5 @@ Statt der IP-Adresse kannst Du Deinen Mitspielern auch die GUID Deines Servers g
 ## Server für bestimmte Spieler reservieren
 
 > [!WARNING]
-> **Kein Serverpasswort**
->
+> **Kein Serverpasswort**\
 > CryoFall kennt **kein Serverpasswort**. Möchtest Du Deinen Server nur für ausgewählte Spieler öffnen, nutzt Du stattdessen die Whitelist – siehe [Spieler kicken & bannen](/tutorials/gameserver/cryofall/kick-ban-players).

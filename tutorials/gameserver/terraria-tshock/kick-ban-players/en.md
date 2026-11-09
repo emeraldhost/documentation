@@ -88,8 +88,6 @@ Flags define what the ban is tied to. Without any flag tShock bans the account, 
 | `-e` | Treats the value as a direct identifier – required for banning offline players |
 
 > [!WARNING]
-> **Caution**
->
 > Without the `-e` flag the player has to be **online**. If they are not, tShock reports that the target could not be found.
 
 ### Ban offline players
@@ -181,6 +179,5 @@ The player stays on the server but can no longer write in the chat.
 > After moderating, run `save` so the current state of the world is stored.
 
 > [!NOTE]
-> **Whitelist**
->
+> **Whitelist**\
 > If you want to open your server to specific players only, you can additionally use the tShock whitelist. It works with IP addresses: the command `whitelist <IP address>` adds an address to the file `/tshock/whitelist.txt`. The list only takes effect once you set the value `EnableWhitelist` to `true` in the file `/tshock/config.json`.

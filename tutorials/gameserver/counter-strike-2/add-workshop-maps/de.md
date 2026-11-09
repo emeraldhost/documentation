@@ -29,8 +29,7 @@ Du kannst Maps aus dem Steam Workshop auf Deinem Server laden.
    Die Map-ID findest Du in der URL der Workshop-Seite. Kopiere die Zahl nach `?id=`.
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > In der URL `https://steamcommunity.com/sharedfiles/filedetails/?id=3070288532` ist die Map-ID `3070288532`.
 
 ## Einzelne Workshop Map laden

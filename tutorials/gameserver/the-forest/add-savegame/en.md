@@ -88,8 +88,7 @@ The Forest has **no world name**, it uses five fixed **save slots** (`1` to `5`)
 > Some values in `config.cfg` are rewritten on server start from the fields in the dashboard – among them `initType`, `serverName`, `serverPassword`, `serverPlayers`, `difficulty`, the ports and `serverSteamAccount`. Only change those values in the dashboard. The `slot` value is not affected and stays in the file.
 
 > [!CAUTION]
-> **Do not forget the Steam Account Token**
->
+> **Do not forget the Steam Account Token**\
 > Without a valid Steam Game Server Login Token (GSLT) your server runs anonymously – player data and savegames may then not be stored correctly. Create a token with **App ID 242760** at [steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers) and enter it in the dashboard in the **Config Editor** in the **Steam Account Token** field.
 
 > [!NOTE]

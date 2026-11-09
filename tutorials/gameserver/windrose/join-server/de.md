@@ -50,8 +50,7 @@ Um Deinem Server beizutreten, benötigst Du den [Invite Code](/tutorials/gameser
 ## Über die Direktverbindung (IP-Adresse)
 
 > [!NOTE]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Die [Direktverbindung muss aktiviert](/tutorials/gameserver/windrose/enable-direct-connection) sein.
 
 1. **Windrose starten**\

@@ -21,8 +21,6 @@ related: ["gameserver/frozen-flame/add-savegame", "gameserver/frozen-flame/creat
 You can download the save of your server to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. As long as the server is running it keeps writing to the save – otherwise you would download an incomplete state.
 
 1. **Save the world**\
@@ -59,8 +57,7 @@ You can download the save of your server to your PC at any time – for example 
 > Always back up the **complete** `SaveGames` folder. Which file inside it belongs to which part of the save is not documented – picking out individual files is therefore not a reliable backup.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following folder in addition:
 >
 > ```text
@@ -70,11 +67,9 @@ You can download the save of your server to your PC at any time – for example 
 > It contains files such as the `Game.ini` and the `Engine.ini` of your server.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/frozen-flame/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/frozen-flame/create-backup).

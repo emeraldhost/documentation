@@ -38,8 +38,7 @@ The Forest kennt **keine Admin-Liste mit SteamIDs**. Stattdessen gibt es ein ein
 > Ab Werk ist ein Standard-Passwort hinterlegt. Ändere es unbedingt, bevor Dein Server öffentlich erreichbar ist – sonst kann sich jeder, der das Standard-Passwort kennt, Adminrechte verschaffen.
 
 > [!NOTE]
-> **Warum nicht in der Konfigurationsdatei?**
->
+> **Warum nicht in der Konfigurationsdatei?**\
 > Der Konfigurationswert dafür heißt `serverPasswordAdmin`. Dein Server übergibt das Admin-Passwort aber beim Start als Parameter, und Startparameter überschreiben passende Einträge aus der Konfigurationsdatei. Ein Eintrag in der `config.cfg` hätte deshalb keine Wirkung – setze das Passwort ausschließlich in der Verwaltung.
 
 ## Als Admin beitreten

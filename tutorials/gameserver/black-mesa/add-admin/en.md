@@ -21,8 +21,7 @@ related: ["gameserver/black-mesa/add-mods", "gameserver/black-mesa/create-backup
 Black Mesa does **not** ship with an admin system. In-game admin rights are only available through **SourceMod**.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > Metamod:Source and SourceMod have to be installed on your server. See [Add Mods](/tutorials/gameserver/black-mesa/add-mods) for how to do that.
 
 ## Find the SteamID

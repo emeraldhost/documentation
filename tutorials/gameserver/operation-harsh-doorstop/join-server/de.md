@@ -90,8 +90,7 @@ Wenn Dein Server im Serverbrowser nicht auftaucht, trägst Du ihn direkt in Stea
 > Welche Werte für Deinen Server gelten, siehst Du in der **Verwaltung**.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Erscheint Dein Server weder im Serverbrowser noch nach dem Eintrag in den Favoriten, prüfe folgende Punkte:
 >
 > - Läuft der Server laut Verwaltung tatsächlich?
@@ -100,6 +99,5 @@ Wenn Dein Server im Serverbrowser nicht auftaucht, trägst Du ihn direkt in Stea
 > - Hast Du die Liste in Steam nach dem Hinzufügen aktualisiert? Ohne Aktualisierung bleibt der Eintrag leer.
 
 > [!NOTE]
-> **Mods auf dem Server**
->
+> **Mods auf dem Server**\
 > Läuft auf Deinem Server eine modifizierte Karte oder ein modifizierter Spielmodus, brauchst Du die passenden Inhalte auch auf Deinem PC. Abonniere die verwendeten Mods im **Steam Workshop** und starte das Spiel danach neu. Mehr dazu unter [Mods hinzufügen](/tutorials/gameserver/operation-harsh-doorstop/add-mods).

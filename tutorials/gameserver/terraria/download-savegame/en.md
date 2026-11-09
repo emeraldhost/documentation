@@ -21,8 +21,6 @@ related: ["gameserver/terraria/add-savegame", "gameserver/terraria/create-backup
 You can download your server's world to your PC at any time – for example as an additional backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the file. While the server is running it saves at regular intervals – otherwise you would download an incomplete or corrupted world.
 
 1. **Stop the server**\
@@ -45,26 +43,21 @@ You can download your server's world to your PC at any time – for example as a
    Start your server again.
 
 > [!TIP]
-> **Which file is the right one?**
->
+> **Which file is the right one?**\
 > You can tell which world is loaded from the **World Name** field in the **Config Editor** of the dashboard. If it contains `MyWorld`, for example, you need the file `MyWorld.wld`.
 
 > [!NOTE]
-> **Backup files**
->
+> **Backup files**\
 > The server also stores backups with the `.bak` extension in the same folder. They belong to your world and contain a slightly older state. Download them as well if you want a complete copy of your worlds folder.
 
 > [!TIP]
-> **Continue playing locally**
->
+> **Continue playing locally**\
 > Copy the downloaded `.wld` file to `%userprofile%\Documents\My Games\Terraria\Worlds` on your PC to open the world in single player.
 
 > [!TIP]
-> **Restoring the world**
->
+> **Restoring the world**\
 > If you want to transfer the world back to a server later, follow the guide [Add savegame](/tutorials/gameserver/terraria/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/terraria/create-backup).

@@ -43,8 +43,6 @@ Dynmap creates an interactive web map of your Minecraft server that you can open
    Choose an available port and note it down.
 
 > [!WARNING]
-> **Important**
->
 > Do **not** use your server's default port! Dynmap requires a separate port.
 
 ## Step 3: Configure the Config File

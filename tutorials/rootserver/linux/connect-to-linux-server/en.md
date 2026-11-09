@@ -19,8 +19,7 @@ sort: 1
 You connect to a Linux Server using **SSH** (Secure Shell). This gives you access to your server's command line.
 
 > [!TIP]
-> **Windows server?**
->
+> **Windows server?**\
 > If you want to connect to a Windows server instead, follow the guide [Connect to a Windows Server](/tutorials/rootserver/windows/connect-to-windows-server).
 
 ## Requirements
@@ -51,8 +50,7 @@ An SSH client is already built into all modern systems. On Windows open **PowerS
    Enter your password and confirm with `Enter`.
 
    > [!TIP]
-   > **Password**
-   >
+   > **Password**\
    > You can find the password in your **dashboard**.
 
    > [!NOTE]
@@ -72,8 +70,7 @@ Alternatively, you can use the graphical SSH client **PuTTY** on Windows.
    Enter `root` as the username, followed by your password.
 
    > [!TIP]
-   > **Password**
-   >
+   > **Password**\
    > You can find the password in your **dashboard**.
 
 > [!WARNING]

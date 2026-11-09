@@ -74,8 +74,6 @@ If your uploaded world has an unwanted name, you can rename it on the **Worlds**
 If your world is larger than 2 GB, upload it via SFTP.
 
 > [!CAUTION]
-> **Attention**
->
 > Via SFTP, the world must not be an archive such as `.zip`. Unzip the world first.
 
 1. **Stop the server**\

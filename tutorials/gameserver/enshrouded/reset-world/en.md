@@ -59,6 +59,5 @@ Enshrouded has no reset button. You get a fresh world by deleting the save in th
 > If the new world should run under different rules, change the [difficulty](/tutorials/gameserver/enshrouded/adjust-difficulty) before you start the server again.
 
 > [!TIP]
-> **Restoring the old world**
->
+> **Restoring the old world**\
 > If you created a backup before deleting, you restore it via the dashboard: [Create Backup](/tutorials/gameserver/enshrouded/create-backup). If you downloaded the save to your PC instead, upload it again via SFTP: [Add savegame](/tutorials/gameserver/enshrouded/add-savegame).

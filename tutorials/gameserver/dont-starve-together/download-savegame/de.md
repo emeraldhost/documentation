@@ -53,16 +53,13 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Der Spielstand ist ein Ordner und keine einzelne Datei. Lade ihn immer vollständig herunter, inklusive der Datei `saveindex` und des Unterordners `session`. Einzelne Dateien daraus sind für sich genommen nicht verwendbar.
 
 > [!WARNING]
-> **Oberwelt und Höhlen gehören zusammen**
->
+> **Oberwelt und Höhlen gehören zusammen**\
 > Nutzt Dein Server die Höhlen, sichere immer beide `save`-Ordner gemeinsam. Spielst Du später nur einen der beiden Stände wieder ein, passen Oberwelt und Höhlen nicht mehr zueinander.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/dont-starve-together/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/dont-starve-together/create-backup).

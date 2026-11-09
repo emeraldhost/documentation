@@ -125,6 +125,5 @@ In the `servercfg.dat` the value `isPrivate` controls whether your server is pub
 > You can see which values apply to your server in the **dashboard**.
 
 > [!WARNING]
-> **Server is not found**
->
+> **Server is not found**\
 > If your server does not appear in the server list, first check that `isPrivate` is set to `false` and that the ports in the `servercfg.dat` match the ones from the dashboard. Independently of that, you can always reach your server via the direct connection using the IP address and Game Port.

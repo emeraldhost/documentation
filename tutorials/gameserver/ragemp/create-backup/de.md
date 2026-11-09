@@ -33,8 +33,6 @@ Ein regelmäßiges Backup Deines RAGE:MP Servers schützt Dich vor Datenverlust 
 Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups findest Du im allgemeinen Guide: [Backup erstellen](/tutorials/gameserver/create-backup).
 
 > [!NOTE]
-> **Tipp**
->
 > Sperre wichtige Backups (z.B. vor großen Änderungen), damit sie nicht durch automatische Backups überschrieben werden. Lade besonders wichtige Backups zusätzlich auf Deinen PC herunter, falls Dein Backup-Limit erreicht wird.
 
 > [!NOTE]

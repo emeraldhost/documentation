@@ -82,8 +82,7 @@ Ein Spielstand in Colony Survival ist **ein kompletter Ordner**, keine einzelne 
 Am zuverlässigsten funktioniert der Wechsel zwischen zwei Welten, die beide von einem Dedicated Server stammen – etwa beim Umzug auf einen anderen Server. Lade dort den kompletten Weltordner herunter und folge anschließend den Schritten oben.
 
 > [!WARNING]
-> **Mods nicht vergessen**
->
+> **Mods nicht vergessen**\
 > In der Datei `worldconfig.json` steht, welche Mods für diese Welt aktiviert sind. Fehlen diese Mods auf dem neuen Server, kann die Welt fehlerhaft laden. Lade die passenden Mods deshalb mit hoch: [Mods hinzufügen](/tutorials/gameserver/colony-survival/add-mods).
 
 ## Lokalen Spielstand finden
@@ -101,6 +100,5 @@ Ist die Steam-Cloud-Synchronisation aktiv, liegen Deine Welten stattdessen hier:
 ```
 
 > [!CAUTION]
-> **Einzelspieler-Welten**
->
+> **Einzelspieler-Welten**\
 > Übertrage nur Welten, die Du bereits im Mehrspieler genutzt hast. Eine reine Einzelspieler-Welt ist im Spiel als solche markiert und lässt sich im Client erst umwandeln – ob ein Dedicated Server sie ohne diese Umwandlung lädt, ist nicht dokumentiert. Arbeite in jedem Fall ausschließlich mit Kopien.

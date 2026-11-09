@@ -82,8 +82,7 @@ There is no way to unban someone in the game – you edit the file holding the s
 > Create a [backup](/tutorials/gameserver/nightingale/create-backup) before editing, or download a copy of the file. A corrupted `ServerState.ini` can prevent the server from loading its state. If you find neither the file nor a `Bans=` line, nobody has been banned on your server yet – both are only created with the first ban.
 
 > [!NOTE]
-> **Lift all bans at once**
->
+> **Lift all bans at once**\
 > If you delete the entire `/NWX/Saved/Config/` folder, the complete server state is reset and with it every ban. The server recreates the folder on the next start.
 
 ## No console commands

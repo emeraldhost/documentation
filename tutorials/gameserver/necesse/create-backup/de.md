@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Necesse schreibt die Welt im laufenden Betrieb regelmäßig neu – eine Sicherung während des Betriebs kann eine unvollständige Welt-Datei enthalten.
 
 > [!TIP]
-> **Sauber herunterfahren**
->
+> **Sauber herunterfahren**\
 > Stoppe Deinen Server immer über die **Verwaltung** oder mit dem Befehl `/stop` in der Konsole. So schreibt Necesse die Welt vorher vollständig auf die Festplatte.
 
 > [!NOTE]

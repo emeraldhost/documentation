@@ -32,8 +32,6 @@ A SA-MP or open.mp server has no classic mod system. It is extended in four ways
 > There are two server variants with different configuration files: **SA-MP** uses `server.cfg`, **open.mp** uses `config.json`. open.mp still reads `server.cfg`, but recommends `config.json` because it offers more settings. You can see which file you have via [SFTP](/tutorials/gameserver/establish-sftp-connection) in the main directory of your server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server via the dashboard before uploading files or changing the configuration.
 
 ## Install a gamemode
@@ -199,8 +197,6 @@ Custom models let you bring your own vehicles, objects or skins onto the server.
    Save the changes and start your server.
 
 > [!WARNING]
-> **Caution**
->
 > Custom models were introduced with SA-MP 0.3.DL R1 and do not work in earlier versions. In addition, `useartwork` or `artwork.enable` has to be turned on, otherwise the models are ignored.
 
 > [!NOTE]

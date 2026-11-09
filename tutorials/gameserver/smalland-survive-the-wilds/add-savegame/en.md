@@ -79,8 +79,7 @@ If you want to transfer a world from your PC to the server, you find it here:
 > The world name has to match the file name exactly, including upper and lower case. If it does not match, the server simply creates a **new, empty world** under the name you entered. Your uploaded file is kept, but it is not loaded.
 
 > [!WARNING]
-> **No spaces in the world name**
->
+> **No spaces in the world name**\
 > The world name must **not contain spaces**. If your uploaded file contains any, rename it first – for example `My World.wld` to `MyWorld.wld` – and then enter the new name in the dashboard.
 
 ## Create a new world
@@ -99,6 +98,4 @@ If you want to start fresh without deleting your current savegame:
 ## Reset a world
 
 > [!WARNING]
-> **Caution**
->
 > If you want to reset a world completely, stop the server, delete the matching `.wld` file in the `Worlds` folder and start the server again. The server then generates the world from scratch. This step cannot be undone – back up the file beforehand if you might still need it.

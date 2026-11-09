@@ -103,8 +103,7 @@ Mit `/purge <Benutzername>` entfernst Du zusätzlich die Chatnachrichten eines S
 | `/server-save` | Spielstand sofort speichern |
 
 > [!WARNING]
-> **Whitelist**
->
+> **Whitelist**\
 > Der Befehl `/whitelist <add/remove/get/clear> [Benutzername]` existiert zwar, die Whitelist ist beim Standard-Startkommando aber **nicht aktiv**: Sie benötigt zusätzlich die Startparameter `--server-whitelist` und `--use-server-whitelist`. Ohne diese wird eine ingame gesetzte Whitelist außerdem nicht in die Datei geschrieben und geht beim Stoppen des Servers verloren. Verwende zum Aussperren einzelner Spieler daher die Banliste.
 
 > [!TIP]

@@ -20,8 +20,6 @@ related: ["gameserver/minecraft-bedrock/change-world-seed", "gameserver/minecraf
 ---
 
 > [!CAUTION]
-> **Achtung**
->
 > Wenn Du die Welt löschst, kann sie nicht wiederhergestellt werden. Erstelle vorher ein Backup, falls Du die Welt später erneut benötigst.
 
 1. **Server stoppen**\

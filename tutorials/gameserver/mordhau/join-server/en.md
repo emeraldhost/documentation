@@ -40,8 +40,7 @@ You either find your server through the in-game server browser or connect direct
    Select your server from the list and join it.
 
 > [!NOTE]
-> **Password protected server**
->
+> **Password protected server**\
 > If a password is set for your server, you are asked for it when joining. You can find the password in the **dashboard** of your server.
 
 ## Connect through Steam

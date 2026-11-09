@@ -56,8 +56,7 @@ Die Direktverbindung ist der zuverlässigste Weg auf Deinen Server.
    ```
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > Zeigt Dir die Verwaltung die IP `123.45.67.89` und den Game Port `28015`, lautet der Befehl:
    >
    > ```text
@@ -97,8 +96,7 @@ Hinterlegst Du Deinen Server in Steam, findest Du ihn dauerhaft wieder.
 > Damit Dein Server in der öffentlichen Liste auftaucht, muss er erreichbar und gestartet sein – und je nach Konfiguration einen gültigen Login-Token besitzen (siehe unten). Die Direktverbindung über die Konsole funktioniert unabhängig davon.
 
 > [!NOTE]
-> **Server erscheint nicht in der öffentlichen Serverliste?**
->
+> **Server erscheint nicht in der öffentlichen Serverliste?**\
 > Ohne gültigen Steam Game Server Login Token (GSLT) wird ein Source-Server unter Umständen nicht in der öffentlichen Serverliste geführt. Einen Token erstellst Du unter [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) – dort gibst Du die App-ID von Black Mesa an. Trage den Token anschließend in der **Verwaltung** Deines Servers im Feld für den **GSL Token** ein und starte den Server neu. Jeder Server benötigt einen eigenen Token. Die Direktverbindung über IP und Game Port funktioniert auch ohne Token.
 
 > [!TIP]

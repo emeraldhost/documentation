@@ -42,8 +42,6 @@ worlds
 | `levelname.txt` | The in-game readable name of the world |
 
 > [!WARNING]
-> **Caution**
->
 > Always upload the complete folder including the `db` subfolder. Without the `db` folder the world is empty and unusable.
 
 ## Find your local world
@@ -58,8 +56,6 @@ C:\Users\<username>\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\
 > The subfolders are named after an internal world ID, not after the name you see in the game. You can find the readable name in the `levelname.txt` file inside each folder.
 
 > [!WARNING]
-> **Caution**
->
 > Always upload the world **unpacked** as a folder. The server cannot load a `.zip` or `.mcworld` file. To use a `.mcworld` file, rename it to `.zip`, extract it on your PC and upload the extracted folder.
 
 ## Upload the savegame

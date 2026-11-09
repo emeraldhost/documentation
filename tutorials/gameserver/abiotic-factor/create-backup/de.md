@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Sperre wichtige Backups (z.B. vor großen Änderungen), damit sie nicht durch automatische Backups überschrieben werden. Lade besonders wichtige Backups zusätzlich auf Deinen PC herunter, falls Dein Backup-Limit erreicht wird.
 
 > [!NOTE]
-> **Was gehört zum Spielstand?**
->
+> **Was gehört zum Spielstand?**\
 > Der eigentliche Spielstand liegt im Weltordner unter `/AbioticFactor/Saved/SaveGames/Server/Worlds/`. Dort liegen auch die Sandbox-Einstellungen (`SandboxSettings.ini`) Deiner Welt. Deine Adminliste (`Admin.ini`) liegt eine Ebene darüber unter `/AbioticFactor/Saved/SaveGames/Server/` – ein Backup über die Verwaltung sichert alle diese Dateien gemeinsam.
 
 > [!NOTE]

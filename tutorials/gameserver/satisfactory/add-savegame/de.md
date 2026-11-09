@@ -93,8 +93,7 @@ Alternativ kannst Du die Datei direkt in den Spielstandsordner Deines Servers le
 > Das Hochladen allein reicht nicht. Der Server lädt weiterhin den bisherigen Spielstand, bis Du den neuen im Server Manager ausgewählt und geladen hast.
 
 > [!NOTE]
-> **Einzelspieler-Spielstand übertragen**
->
+> **Einzelspieler-Spielstand übertragen**\
 > Du kannst auch einen Spielstand aus Deinem Einzelspieler-Spiel hochladen – es ist dasselbe Dateiformat. Arbeite dabei mit einer Kopie, damit Deine lokale Welt unangetastet bleibt.
 
 > [!IMPORTANT]

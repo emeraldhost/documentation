@@ -90,8 +90,7 @@ Der Spieler wird sofort vom Server geworfen und kann sich für einige Tage nicht
 > Ein Bann in Soldat 2 ist **zeitlich begrenzt**. Er läuft nach einigen Tagen von selbst ab – die genaue Dauer ist nicht dokumentiert und lässt sich nicht einstellen.
 
 > [!CAUTION]
-> **Kein Entbannen möglich**
->
+> **Kein Entbannen möglich**\
 > Soldat 2 kennt **keinen Unban-Befehl** und legt auch keine Bannliste als Datei an, die Du bearbeiten könntest. Ein ausgesprochener Bann lässt sich daher nicht vorzeitig aufheben – Du kannst nur warten, bis er abläuft. Setze `ban` deshalb bewusst ein und nutze für kurzfristige Störungen lieber `kick`.
 
 ## Spieler ins Team setzen

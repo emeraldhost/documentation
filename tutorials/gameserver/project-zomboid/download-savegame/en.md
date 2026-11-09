@@ -21,8 +21,6 @@ related: ["gameserver/project-zomboid/change-server-name", "gameserver/project-z
 You can download your server's savegame to your PC at any time – for example as an additional backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted savegame.
 
 1. **Stop the server**\
@@ -45,16 +43,13 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> **Find the right folder**
->
+> **Find the right folder**\
 > The `Multiplayer/` directory contains one folder per savegame. If there are several folders, you can identify the currently used savegame by the most recent modification date.
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to transfer the savegame back to a server later, follow the guide [Add savegame](/tutorials/gameserver/project-zomboid/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/project-zomboid/create-backup).

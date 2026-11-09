@@ -46,13 +46,11 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Der Ordner `DedicatedServerSave` enthält alle Welten Deines Servers – die Weltdateien selbst liegen im Unterordner `Worlds`. Lade den Ordner immer vollständig herunter, damit Dir nichts fehlt.
 
 > [!NOTE]
-> **Abweichender Speicherort**
->
+> **Abweichender Speicherort**\
 > Standardmäßig liegt der Spielstand in `DedicatedServerSave/`. Welcher Ordner bei Dir tatsächlich verwendet wird, steht in der Datei `/ServerSetting.ini` im Abschnitt `[Save]` beim Wert `savePath`.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Datei herunter:
 >
 > ```text
@@ -62,11 +60,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Dort stehen unter anderem der Weltname, Schwierigkeitsgrad, Spielmodus und die Autosave-Einstellungen. Den Weltnamen brauchst Du, wenn Du den Spielstand später wieder einspielen möchtest.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/craftopia/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/craftopia/create-backup).

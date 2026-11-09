@@ -21,8 +21,6 @@ related: ["gameserver/avorion/add-savegame", "gameserver/avorion/create-backup",
 You can download the galaxy of your server to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Avorion saves automatically while running – if you download during that, the galaxy can be incomplete.
 
 1. **Stop the server**\
@@ -35,8 +33,7 @@ You can download the galaxy of your server to your PC at any time – for exampl
    Navigate to the data directory `/galaxy/` of your server and open the folder named after your galaxy inside it. You can recognise the right folder by the files `server.ini`, `admin.xml` and `modconfig.lua`.
 
    > [!NOTE]
-   > **Which galaxy is the right one?**
-   >
+   > **Which galaxy is the right one?**\
    > You can find the name of your current galaxy in the **dashboard** in the **Config Editor** in the field for the galaxy name (**Galaxy Name**). The folder is named exactly like that.
 
 4. **Download the folder**\
@@ -49,16 +46,13 @@ You can download the galaxy of your server to your PC at any time – for exampl
 > A savegame is always the complete galaxy folder. Individual files taken from it do not make a usable savegame.
 
 > [!TIP]
-> **Reduce the download**
->
+> **Reduce the download**\
 > The subfolder `workshop` inside the galaxy only contains the Workshop mods your server downloaded automatically. Your server downloads them again on the next start – so you can leave that folder out of the download if you want to save time and disk space.
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to transfer the galaxy back to a server later, follow the guide [Add savegame](/tutorials/gameserver/avorion/add-savegame). Make sure that the folder name and the configured galaxy name match.
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/avorion/create-backup).

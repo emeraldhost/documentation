@@ -92,6 +92,5 @@ PermitPlayer <SteamID64> chat
 > The difference lies in the second value: `login` controls access to the server, `chat` only the communication. To lock a player out completely, use `login`.
 
 > [!NOTE]
-> **Where are bans stored?**
->
+> **Where are bans stored?**\
 > Admins and bans are stored in the file `Saved/GameStates/Accounts/GM.csv` on your server. Do not edit it by hand – lift bans with the `PermitPlayer` command so the data stays consistent. The file is included automatically when you back up your save, see [Download savegame](/tutorials/gameserver/the-front/download-savegame).

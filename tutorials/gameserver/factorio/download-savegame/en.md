@@ -21,8 +21,6 @@ related: ["gameserver/factorio/add-savegame", "gameserver/factorio/create-backup
 You can download your server's save to your PC at any time – for example as an additional backup, to archive a factory, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the file. While the server is running it saves at regular intervals – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -45,26 +43,21 @@ You can download your server's save to your PC at any time – for example as an
    Start your server again.
 
 > [!TIP]
-> **Which file is the right one?**
->
+> **Which file is the right one?**\
 > You can tell which save is loaded from the **Save Name** field in the **Config Editor** of the dashboard. If it contains `gamesave`, for example, you need the file `gamesave.zip`.
 
 > [!NOTE]
-> **Autosaves**
->
+> **Autosaves**\
 > The automatic saves are located in the same folder and are named `_autosave1.zip`, `_autosave2.zip` and so on. They are useful for returning to a slightly older state.
 
 > [!TIP]
-> **Continue playing locally**
->
+> **Continue playing locally**\
 > Copy the downloaded `.zip` file to `%appdata%\Factorio\saves` on your PC to open the factory in single player.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/factorio/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/factorio/create-backup).

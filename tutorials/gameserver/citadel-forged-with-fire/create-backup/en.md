@@ -40,13 +40,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the savegame folder separately: [Download savegame](/tutorials/gameserver/citadel-forged-with-fire/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Your server saves automatically while running – a backup taken during operation can contain an incomplete save.
 
 > [!TIP]
-> **Force a save first**
->
+> **Force a save first**\
 > If you do not want to wait for the next automatic save, you can run the chat command `/admin_autosave` as a logged-in admin. The server then immediately writes the character data of all currently connected players. Stop your server afterwards anyway before you create the backup. See [Add Admin](/tutorials/gameserver/citadel-forged-with-fire/add-admin) for how to get admin rights.
 
 > [!NOTE]

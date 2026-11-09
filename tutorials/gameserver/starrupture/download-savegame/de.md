@@ -53,8 +53,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Die beiden Dateien gehören zusammen: In der `.sav` steckt der eigentliche Spielstand mit Welt, Basis und Fortschritt, die `.met` enthält die zugehörigen Metadaten. Sichere sie deshalb immer gemeinsam – ohne die `.met` lässt sich der Spielstand später nicht laden.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Datei aus dem Hauptverzeichnis herunter:
 >
 > ```text
@@ -64,11 +63,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Darin stehen unter anderem `SessionName`, `SaveGameName` und das Speicherintervall.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/starrupture/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/starrupture/create-backup).

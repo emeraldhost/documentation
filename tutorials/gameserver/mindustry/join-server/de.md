@@ -52,8 +52,7 @@ Mindustry hat im Beitritts-Menü eine echte Direktverbindung: Du trägst die **I
    > Ersetze IP-Adresse und Game Port durch die Werte aus Deiner **Verwaltung**.
 
    > [!NOTE]
-   > **IPv6**
-   >
+   > **IPv6**\
    > Hat Dein Server eine IPv6-Adresse, setzt Du sie in eckige Klammern:
    >
    > ```text

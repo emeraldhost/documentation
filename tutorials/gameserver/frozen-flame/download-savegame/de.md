@@ -57,8 +57,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Sichere immer den **kompletten Ordner** `SaveGames`. Welche Dateien darin zu welchem Teil des Spielstands gehören, ist nicht dokumentiert – einzelne Dateien herauszupicken ist deshalb keine verlässliche Sicherung.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich den folgenden Ordner herunter:
 >
 > ```text
@@ -68,11 +67,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Dort liegen unter anderem die `Game.ini` und die `Engine.ini` Deines Servers.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/frozen-flame/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/frozen-flame/create-backup).

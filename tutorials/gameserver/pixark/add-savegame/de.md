@@ -67,8 +67,7 @@ Ein fremder Spielstand lädt nur, wenn er zur Konfiguration Deines Servers passt
    Starte Deinen Server. Der neue Spielstand wird nun geladen.
 
 > [!TIP]
-> **Eigene Einstellungen behalten**
->
+> **Eigene Einstellungen behalten**\
 > Im Ordner `Saved` steckt auch der Unterordner `Config/WindowsServer/` mit den Konfigurationsdateien. Möchtest Du nur Welt und Spieler übernehmen, aber Deine eigenen Servereinstellungen behalten, kopiere nach dem Hochladen den Ordner `Config` aus Deinem alten `Saved`-Ordner zurück.
 
 > [!NOTE]

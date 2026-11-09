@@ -22,8 +22,7 @@ related: ["gameserver/ground-branch/add-admin", "gameserver/ground-branch/add-mo
 A Ground Branch server does **not store a game world**. Everything that defines your server lives in its configuration: admins, bans, map list, voting rules and the mod list. Those are exactly the files a backup preserves.
 
 > [!NOTE]
-> **No world save**
->
+> **No world save**\
 > Ground Branch is mission based – every round starts the map fresh. There is therefore no save game you could download or move to another server. Player progress, operators and loadouts are stored on the players' own PCs, not on the server.
 
 ## When should you create a backup?
@@ -39,8 +38,6 @@ A Ground Branch server does **not store a game world**. Everything that defines 
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. A running server keeps writing to its files and may overwrite your changes when it shuts down.
 
 ## Back up the configuration separately

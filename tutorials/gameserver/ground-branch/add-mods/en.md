@@ -21,8 +21,7 @@ related: ["gameserver/ground-branch/add-admin", "gameserver/ground-branch/create
 Mods for Ground Branch are distributed through the **Steam Workshop**. On the server you only enter the **Workshop IDs** into the file `mods.txt` – the server takes care of the rest on the next start.
 
 > [!NOTE]
-> **From version 1035.2**
->
+> **From version 1035.2**\
 > The `mods.txt` method applies since update **V1035.2**. Older guides describe different approaches that no longer work.
 
 ## Find the Workshop ID

@@ -58,16 +58,14 @@ Die offizielle Plattform für Eco-Mods ist **mod.io**.
    ```
 
    > [!NOTE]
-   > **Unterordner beachten**
-   >
+   > **Unterordner beachten**\
    > Die meisten Mods gehören direkt in den Ordner `Mods`. Manche Mods verlangen laut ihrer Anleitung stattdessen den Unterordner `Mods/UserCode/`. Halte Dich immer an die Angaben der jeweiligen Mod.
 
 5. **Server starten**\
    Starte Deinen Server. Beim Start werden die Mods geladen.
 
 > [!TIP]
-> **Übersetzungen**
->
+> **Übersetzungen**\
 > Übersetzungsdateien gehören nicht in den Hauptordner, sondern nach `/Mods/Translations/`.
 
 ## Mods entfernen
@@ -96,8 +94,7 @@ Die Datei `/Configs/ModKit.eco` bestimmt, wie der Server mit Mods umgeht:
 | `MaxNumberOfDownloadRequests` | Wie viele Clients gleichzeitig Mods herunterladen dürfen |
 
 > [!NOTE]
-> **Datei existiert nicht?**
->
+> **Datei existiert nicht?**\
 > In `/Configs/` liegt zu jeder Konfiguration zusätzlich eine Datei mit der Endung `.eco.template`. Diese Vorlage enthält nur die Standardwerte und wird vom Server nicht gelesen. Fehlt `ModKit.eco`, kopiere `ModKit.eco.template` und benenne die Kopie in `ModKit.eco` um.
 
 > [!WARNING]

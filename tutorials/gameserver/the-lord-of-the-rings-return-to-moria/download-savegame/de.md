@@ -43,13 +43,11 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Welche Datei ist die richtige?**
->
+> **Welche Datei ist die richtige?**\
 > Welche Welt Dein Server verwendet, steht im Abschnitt `[World]` der Datei `MoriaServerConfig.ini` im Hauptverzeichnis: als Dateiname bei `OptionalWorldFilename` oder – falls dort nichts eingetragen ist – über den Weltnamen bei `Name`.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich diese Dateien aus dem Hauptverzeichnis herunter:
 >
 > ```text
@@ -59,11 +57,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für vollständige Sicherungen Deines Servers kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/create-backup).

@@ -38,8 +38,7 @@ BATTALION Legacy hat **keine Adminliste mit SteamIDs**. Stattdessen gibt es ein 
 > Ab Werk ist ein Standardpasswort hinterlegt. Ändere es unbedingt, bevor Dein Server öffentlich erreichbar ist – sonst kann sich jeder, der das Standardpasswort kennt, Adminrechte verschaffen.
 
 > [!NOTE]
-> **Warum nicht in der Konfigurationsdatei?**
->
+> **Warum nicht in der Konfigurationsdatei?**\
 > In den mitgelieferten Serverdateien gibt es zwar einen Eintrag `AdminPassword`, Dein Server bekommt das Admin-Passwort aber bei jedem Start als Startparameter übergeben. Trage es deshalb ausschließlich in der **Verwaltung** ein.
 
 ## Entwicklerkonsole aktivieren
@@ -108,16 +107,14 @@ Alle Adminbefehle beginnen mit `Server.` und werden in derselben Konsole eingege
 | `Server.Pause` | Hält die Rundenuhr an, ohne die Spieler zu blockieren |
 
 > [!NOTE]
-> **Woher stammen diese Befehle?**
->
+> **Woher stammen diese Befehle?**\
 > `Server.Login` ist in den mitgelieferten Serverdateien selbst dokumentiert. Die übrigen Befehle stammen aus der offiziellen Serverdokumentation von BATTALION 1944, dem Vorgänger von BATTALION Legacy. Welche davon Deine Serverfassung tatsächlich noch kennt, ist nicht garantiert – prüfe es im Zweifel über die Autovervollständigung.
 
 > [!TIP]
 > Tippe in der Konsole nur `Serve` ein. Die Autovervollständigung zeigt Dir daraufhin alle `Server.*`-Befehle an, die Dein Spiel tatsächlich kennt. Das ist der zuverlässigste Weg, den vollen Befehlsumfang zu sehen.
 
 > [!NOTE]
-> **Kartennamen für `Server.ChangeMap`**
->
+> **Kartennamen für `Server.ChangeMap`**\
 > Für den Modus **Wartide** sind in den Serverdateien diese Karten hinterlegt: `Coastal`, `Derailed`, `Docks`, `Invasion`, `Liberation`, `Manorhouse_V2`, `Savoia` und `Vanguard`. Schreibe den Kartennamen genau so – bei `Manorhouse_V2` also mit Unterstrich.
 >
 > Den Modus gibt die offizielle Dokumentation von BATTALION 1944 als Kürzel an; ihr Beispiel lautet `Server.ChangeMap Liberation WRT` für Wartide.

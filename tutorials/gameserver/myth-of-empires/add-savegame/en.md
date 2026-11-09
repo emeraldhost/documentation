@@ -21,8 +21,7 @@ related: ["gameserver/myth-of-empires/add-admin", "gameserver/myth-of-empires/cr
 Myth of Empires does **not** use a world name. A save is always the complete folder `Saved` – not a single file. You upload that folder with all of its contents to the location where your server expects its save.
 
 > [!NOTE]
-> **Where does the save come from?**
->
+> **Where does the save come from?**\
 > This guide describes a server-to-server transfer – that is, a save you previously downloaded from a Myth of Empires server. For saves from singleplayer there is no documented way onto a dedicated server.
 
 > [!TIP]
@@ -50,8 +49,6 @@ Myth of Empires does **not** use a world name. A save is always the complete fol
    Rename the existing `Saved` folder (for example to `Saved_old`) or delete it.
 
    > [!WARNING]
-   > **Caution**
-   >
    > This deactivates the current save of your server. Back it up first via [Download savegame](/tutorials/gameserver/myth-of-empires/download-savegame) or a [backup](/tutorials/gameserver/myth-of-empires/create-backup).
 
 5. **Upload Saved**\
@@ -64,19 +61,15 @@ Myth of Empires does **not** use a world name. A save is always the complete fol
    Start your server. On startup it now loads your uploaded save.
 
 > [!CAUTION]
-> **Do not change the server ID**
->
+> **Do not change the server ID**\
 > The save is stored under the **server ID** – there is no world name you could enter in a configuration. If you change the server ID, your server looks under a different ID and creates a completely new, empty world. The old save stays on the disk but is no longer loaded.
 
 > [!WARNING]
-> **Caution**
->
 > Always upload the complete `Saved` folder. Besides the world it also contains the player and building data as well as your server settings. If you mix files from different saves, world and player data no longer match.
 
 > [!NOTE]
 > The `Saved` folder also contains your server settings under `Config/WindowsServer/`. If you upload the folder in full, you overwrite the current settings of your server. The folder is called `WindowsServer` on your Linux server as well – Myth of Empires only ships a Windows server binary, which runs through a compatibility layer.
 
 > [!TIP]
-> **Reset the server**
->
+> **Reset the server**\
 > If you want to start over completely instead, stop the server, delete the `Saved` folder and start the server again. A fresh world is generated on the next start.

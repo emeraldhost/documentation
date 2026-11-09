@@ -40,8 +40,6 @@ You can kick and ban players directly in-game, or ban them permanently via the s
 You can also ban players permanently via the ban list.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before editing the config file.
 
 1. **Stop the server**\

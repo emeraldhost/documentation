@@ -29,8 +29,7 @@ Palworld-Mods gibt es in verschiedenen Typen – und nicht jeder Typ läuft auf 
 | Offizielles Mod-System / Steam Workshop | ❌ Nein – Windows-only |
 
 > [!NOTE]
-> **So erkennst Du den Mod-Typ**
->
+> **So erkennst Du den Mod-Typ**\
 > Wirf einen Blick in die Mod-Beschreibung (z.B. auf Nexus Mods): Erwähnt sie **UE4SS**, **RE-UE4SS**, **Lua**, **Scripts**, **dlls** oder **LogicMods**, läuft die Mod **nicht** auf Deinem Server. Reine `.pak`-Mods ohne solche Voraussetzungen funktionieren.
 
 > [!WARNING]

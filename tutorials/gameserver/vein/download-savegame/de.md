@@ -46,11 +46,9 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
 > Der Spielstand Deines Servers heißt in der Regel `Server.vns`. Liegen mehrere `.vns` Dateien im Ordner, lade sie am besten alle herunter – so hast Du auch ältere Spielstände gesichert.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/vein/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/vein/create-backup).

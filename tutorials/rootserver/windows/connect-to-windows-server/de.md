@@ -20,8 +20,7 @@ related: ["rootserver/windows/windows-hard-drive-expand", "rootserver/windows/op
 Auf einen Windows Server verbindest Du Dich über **Remotedesktop (RDP)**. Damit erhältst Du eine grafische Oberfläche Deines Servers – so, als würdest Du direkt davor sitzen.
 
 > [!TIP]
-> **Linux Server?**
->
+> **Linux Server?**\
 > Wenn Du Dich stattdessen mit einem Linux Server verbinden möchtest, folge der Anleitung [Mit einem Linux Server verbinden](/tutorials/rootserver/linux/connect-to-linux-server).
 
 ## Voraussetzungen
@@ -40,8 +39,7 @@ Du benötigst die folgenden Verbindungsdaten. Du findest sie in Deiner **Verwalt
    Suche im Windows-Startmenü nach **Remotedesktopverbindung** und öffne sie.
 
    > [!TIP]
-   > **Alternative**
-   >
+   > **Alternative**\
    > Du kannst stattdessen auch `Windows + R` drücken, `mstsc` eingeben und mit `Enter` bestätigen.
 
 2. **IP-Adresse eingeben**\
@@ -51,8 +49,7 @@ Du benötigst die folgenden Verbindungsdaten. Du findest sie in Deiner **Verwalt
    Gib den Benutzernamen (`Administrator`) und das Passwort ein.
 
    > [!TIP]
-   > **Passwort**
-   >
+   > **Passwort**\
    > Das Passwort findest Du in Deiner **Verwaltung**.
 
 4. **Zertifikat bestätigen**\
@@ -70,8 +67,7 @@ Du benötigst die folgenden Verbindungsdaten. Du findest sie in Deiner **Verwalt
    Doppelklicke auf den Eintrag und melde Dich mit Benutzername (`Administrator`) und Passwort an.
 
    > [!TIP]
-   > **Passwort**
-   >
+   > **Passwort**\
    > Das Passwort findest Du in Deiner **Verwaltung**.
 
 ### Linux
@@ -86,8 +82,7 @@ Du benötigst die folgenden Verbindungsdaten. Du findest sie in Deiner **Verwalt
    Verbinde Dich und melde Dich mit Benutzername (`Administrator`) und Passwort an.
 
    > [!TIP]
-   > **Passwort**
-   >
+   > **Passwort**\
    > Das Passwort findest Du in Deiner **Verwaltung**.
 
 > [!WARNING]

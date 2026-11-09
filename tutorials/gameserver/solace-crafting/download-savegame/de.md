@@ -46,13 +46,11 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Die richtige Welt finden**
->
+> **Die richtige Welt finden**\
 > Welche Welt Dein Server aktuell lädt, steht in der Datei `servercfg.dat` beim Wert `worldSaveToUse`. Der dort eingetragene Name entspricht dem Ordnernamen im Verzeichnis `Worlds`. Ohne Änderung ist das der Ordner `MultiplayerWorld`.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Datei herunter:
 >
 > ```text
@@ -60,8 +58,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > ```
 
 > [!TIP]
-> **Welt lokal weiterspielen**
->
+> **Welt lokal weiterspielen**\
 > Möchtest Du die heruntergeladene Welt auf Deinem PC im Einzelspieler weiterspielen, legst Du den Weltordner in folgendem Verzeichnis ab:
 >
 > ```text
@@ -69,11 +66,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > ```
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/solace-crafting/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/solace-crafting/create-backup).

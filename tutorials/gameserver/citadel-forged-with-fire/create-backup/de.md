@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Dein Server speichert im laufenden Betrieb automatisch – eine Sicherung während des Betriebs kann einen unvollständigen Spielstand enthalten.
 
 > [!TIP]
-> **Vorher speichern lassen**
->
+> **Vorher speichern lassen**\
 > Möchtest Du nicht auf die nächste automatische Speicherung warten, kannst Du als eingeloggter Admin im Chat den Befehl `/admin_autosave` ausführen. Der Server schreibt damit die Charakterdaten aller aktuell verbundenen Spieler sofort weg. Stoppe Deinen Server anschließend trotzdem, bevor Du das Backup erstellst. Wie Du Adminrechte erhältst, steht unter [Admin hinzufügen](/tutorials/gameserver/citadel-forged-with-fire/add-admin).
 
 > [!NOTE]

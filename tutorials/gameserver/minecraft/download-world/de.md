@@ -22,8 +22,6 @@ related: ["gameserver/minecraft/disable-nether", "gameserver/minecraft/disable-l
 Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen, zum Beispiel als zusätzliche Sicherung, zum Archivieren oder um sie auf einen anderen Server zu übertragen.
 
 > [!WARNING]
-> **Achtung**
->
 > Stoppe Deinen Server, bevor Du die Welt herunterlädst. Während der Server läuft, speichert er regelmäßig, Du könntest sonst einen unvollständigen oder beschädigten Spielstand herunterladen.
 
 ## Welt über die Seite Welten herunterladen
@@ -65,11 +63,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen, zum Bei
 > ```
 
 > [!TIP]
-> **Welt wieder einspielen**
->
+> **Welt wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Welt hochladen](/tutorials/gameserver/minecraft/upload-world).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/minecraft/create-backup).

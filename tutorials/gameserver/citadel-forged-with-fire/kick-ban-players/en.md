@@ -47,8 +47,7 @@ You remove players from your Citadel Forged with Fire server using chat commands
    ```
 
 > [!NOTE]
-> **Player names**
->
+> **Player names**\
 > Player names are limited to **12 characters and cannot contain spaces**. That makes the name unambiguous as a parameter – you do not have to put it in quotation marks.
 
 ## Kick a player
@@ -101,11 +100,9 @@ This deletes a player's character completely from the server. If the player is c
 > The commands in the **Alternative** column are just short forms and do exactly the same as the respective main command.
 
 > [!NOTE]
-> **Ban list**
->
+> **Ban list**\
 > Citadel Forged with Fire does not offer a ban list that you could edit as a file. Bans are set and removed exclusively through the commands `/server_ban` and `/server_unban`.
 
 > [!TIP]
-> **Command has no effect?**
->
+> **Command has no effect?**\
 > If a command in the chat does not react, first check with `/who` whether you are still logged in as an admin – after a restart or a lost connection you have to log in again with `/admin_login`. Alternatively you can run the same commands through the Remote Console in your browser, see [Add Admin](/tutorials/gameserver/citadel-forged-with-fire/add-admin).

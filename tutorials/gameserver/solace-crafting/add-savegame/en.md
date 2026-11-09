@@ -86,8 +86,7 @@ Your worlds are stored on your PC under:
    > Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing – a single missing or extra comma is enough to make the configuration unreadable for the server.
 
    > [!TIP]
-   > **Alternative**
-   >
+   > **Alternative**\
    > Instead of changing the value you can simply rename your uploaded folder to `MultiplayerWorld`. The default configuration then stays untouched.
 
 6. **Start the server**\

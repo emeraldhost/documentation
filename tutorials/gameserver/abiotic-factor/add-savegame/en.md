@@ -24,8 +24,7 @@ In Abiotic Factor a savegame is always a **complete world folder**, not a single
 > Create a [backup](/tutorials/gameserver/abiotic-factor/create-backup) of your current server save before uploading, in case you want to switch back later.
 
 > [!NOTE]
-> **Why do the paths look like Windows paths?**
->
+> **Why do the paths look like Windows paths?**\
 > Abiotic Factor only provides a Windows server program, which runs on your Linux server through a compatibility layer. That is why the folders on the server are named exactly as they are on Windows – for example `Saved/Config/WindowsServer`. This is intended.
 
 ## Find your local savegame
@@ -44,8 +43,7 @@ In Abiotic Factor a savegame is always a **complete world folder**, not a single
    Inside you find one folder per world. Choose the folder of the world you want to transfer – you need the **complete folder** including its contents.
 
 > [!CAUTION]
-> **Console savegames cannot be transferred**
->
+> **Console savegames cannot be transferred**\
 > Savegames from PlayStation 5, Xbox and the Windows Game Pass version **cannot** be moved to a dedicated server. The process described here only works with savegames from the PC version on Steam.
 
 ## Upload the savegame
@@ -76,21 +74,17 @@ In Abiotic Factor a savegame is always a **complete world folder**, not a single
    Rename the uploaded folder to exactly the name your server's world folder has (by default `Cascade`). Rename or delete the previous folder beforehand so there is no name collision.
 
    > [!TIP]
-   > **Alternative via the world name**
-   >
+   > **Alternative via the world name**\
    > Instead of renaming the folder you can also tell the server which folder to load. The start parameter for that is `-WorldSaveName=<foldername>`. If your dashboard offers a field for the world name, simply enter the name of your uploaded folder there.
 
 7. **Start the server**\
    Start your server. On startup it now loads your uploaded savegame.
 
 > [!WARNING]
-> **Caution**
->
 > The folder name and the configured world name have to match exactly – including upper and lower case. If they do not match, the server creates a **new, empty world** on startup instead of loading your savegame.
 
 > [!NOTE]
-> **Gameplay settings**
->
+> **Gameplay settings**\
 > The difficulty and sandbox settings are stored in the `SandboxSettings.ini` file. On a dedicated server it sits inside the world folder itself:
 >
 > ```text

@@ -36,8 +36,7 @@ Die Konsole ist der zuverlässigste Weg auf Deinen Server.
    Drücke `~`, um die Konsole zu öffnen.
 
 > [!NOTE]
-> **Konsole öffnet sich nicht?**
->
+> **Konsole öffnet sich nicht?**\
 > Die Konsolentaste liegt links neben der `1` – auf einer deutschen Tastatur ist das die `^`-Taste. Ob die Konsole verfügbar ist, steuert die Clientvariable `com_allowConsole`, die ab Werk auf `1` steht.
 
 ## Direkt über die IP verbinden
@@ -53,8 +52,7 @@ Die Konsole ist der zuverlässigste Weg auf Deinen Server.
    ```
 
    > [!TIP]
-   > **Beispiel**
-   >
+   > **Beispiel**\
    > Zeigt Dir die Verwaltung die IP `123.45.67.89` und den Game Port `27043`, lautet der Befehl:
    >
    > ```text
@@ -85,8 +83,7 @@ Hast Du in der Verwaltung ein **Server Password** hinterlegt, musst Du es im Spi
    ```
 
 > [!NOTE]
-> **Reservierte Plätze**
->
+> **Reservierte Plätze**\
 > Neben dem Serverpasswort kennt Quake Live reservierte Slots. Über `sv_privateClients` legst Du fest, wie viele Plätze reserviert bleiben, über `sv_privatePassword` das zugehörige Passwort. Spieler, die dieses Passwort mit `password` setzen, kommen auch dann auf den Server, wenn die regulären Plätze belegt sind.
 
 ## Über den Serverbrowser

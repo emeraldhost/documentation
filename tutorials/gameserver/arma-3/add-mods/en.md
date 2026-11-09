@@ -64,8 +64,7 @@ With this method your server downloads the mods from the Steam Workshop itself. 
    Start your server. The mods from the list are downloaded on startup – depending on their size this can take a few minutes.
 
 > [!NOTE]
-> **Steam account required**
->
+> **Steam account required**\
 > For the automatic Workshop download your server needs the credentials of a Steam account that owns Arma 3. Anonymous downloads are not possible for Workshop content. You store the credentials in the **Config Editor** of your dashboard.
 
 ## Method 2: Enter Workshop IDs directly
@@ -124,8 +123,6 @@ You need this method for mods that do not come from the Workshop.
    ```
 
    > [!WARNING]
-   > **Caution**
-   >
    > Arma 3 only loads mods from the main directory of the server and its subfolders. Folders outside of it are not recognized.
 
 7. **Copy the key**\

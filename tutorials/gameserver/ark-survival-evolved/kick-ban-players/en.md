@@ -21,8 +21,7 @@ related: ["gameserver/ark-survival-evolved/add-savegame", "gameserver/ark-surviv
 You can kick and ban players using console commands.
 
 > [!WARNING]
-> **Requirement**
->
+> **Requirement**\
 > You must be an admin on your server. Here you can find a guide on how to [add an admin](/tutorials/gameserver/ark-survival-evolved/add-admin).
 
 > [!TIP]

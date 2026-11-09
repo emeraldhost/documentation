@@ -21,8 +21,6 @@ related: ["gameserver/myth-of-empires/add-savegame", "gameserver/myth-of-empires
 The save of a Myth of Empires server is not a single file but the complete folder `Saved`. It contains the world, all structures, the player data and your server settings.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Myth of Empires writes to the save regularly while running – if you download during operation, the save can be incomplete or corrupted.
 
 1. **Save the world**\
@@ -48,8 +46,6 @@ The save of a Myth of Empires server is not a single file but the complete folde
    Start your server again.
 
 > [!WARNING]
-> **Caution**
->
 > A save is always the complete folder `Saved`. World and player data are stored there side by side across several files and belong together – individual files taken from it do not make a usable save.
 
 > [!NOTE]
@@ -66,16 +62,13 @@ The save of a Myth of Empires server is not a single file but the complete folde
 > The configuration folder is called `WindowsServer` on your Linux server as well. That is intended – Myth of Empires only ships a Windows server binary, which runs on Linux servers through a compatibility layer.
 
 > [!CAUTION]
-> **The save is tied to the server ID**
->
+> **The save is tied to the server ID**\
 > The save is stored under the **server ID** of your server. If you change that ID, the server no longer finds its previous save and creates a new, empty world. Write down the server ID of your server before restoring the save somewhere else.
 
 > [!TIP]
-> **Restore the save later**
->
+> **Restore the save later**\
 > If you want to transfer the save back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/myth-of-empires/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/myth-of-empires/create-backup).

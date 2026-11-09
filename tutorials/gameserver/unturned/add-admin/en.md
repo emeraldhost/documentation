@@ -41,8 +41,7 @@ The owner is the server owner. The entry lives in the configuration and persists
    ```
 
    > [!NOTE]
-   > **Which folder is mine?**
-   >
+   > **Which folder is mine?**\
    > `<ServerID>` is the folder name inside `/Servers/`. It comes from your server's startup parameter – usually there is exactly one folder there.
 
 4. **Enter the SteamID64**\
@@ -56,8 +55,7 @@ The owner is the server owner. The entry lives in the configuration and persists
    Save the file and start your server.
 
 > [!NOTE]
-> **Structure of Commands.dat**
->
+> **Structure of Commands.dat**\
 > `Commands.dat` holds one instruction per line. Lines starting with `//` are comments and are ignored. It is best to use exactly the spelling shown in the examples.
 
 ## Appoint an admin while the server runs
@@ -99,8 +97,7 @@ You appoint additional admins with a command – either in the **console** of th
 | `unadmin <SteamID64\|PlayerName>` | Console or chat | Removes admin rights from a player |
 
 > [!NOTE]
-> **Where is the admin list?**
->
+> **Where is the admin list?**\
 > The list of admins is stored at `/Servers/<ServerID>/Server/Adminlist.dat` and is maintained by the `admin` and `unadmin` commands. It is best to manage your admins exclusively through these commands so the list always stays valid. If you want to remove all admins at once, you can also delete the file while the server is stopped.
 
 ## Enable cheat commands

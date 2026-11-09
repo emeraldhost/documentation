@@ -26,8 +26,7 @@ Bei der Bereitstellung eines Windows Servers kann es vorkommen, dass der gesamte
 - **Administratorrechte** auf dem Server.
 
 > [!CAUTION]
-> **Das Skript löscht Partition 3 auf Datenträger 0**
->
+> **Das Skript löscht Partition 3 auf Datenträger 0**\
 > Das Skript gibt `diskpart` eine feste Anweisung: Es wählt Partition 3 auf Datenträger 0 aus und löscht sie erzwungen, ohne zu prüfen, was darauf liegt. Anschließend erweitert es die `C:`-Partition auf den frei gewordenen Speicherplatz. Im Standard-Image ist das die Windows-Wiederherstellungspartition, bei einer abweichenden Aufteilung kann es aber eine eigene Partition sein. Öffne vorher `diskpart`, führe `list disk` und `list partition` aus und stelle sicher, dass Partition 3 wirklich die Wiederherstellungspartition ist. Dieser Schritt lässt sich **nicht rückgängig machen**, lege also vorher einen Snapshot oder ein Backup Deines Servers an.
 
 ## Schritte

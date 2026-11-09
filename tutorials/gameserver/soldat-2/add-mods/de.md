@@ -98,8 +98,7 @@ Modifier sind der schnellste Weg, das Spielgeschehen zu verändern: Sie übersch
    ```
 
 > [!NOTE]
-> **Listen erweitern statt ersetzen**
->
+> **Listen erweitern statt ersetzen**\
 > Bei Werten, die eine Liste enthalten, kannst Du gezielt ergänzen oder entfernen, statt die ganze Liste neu zu schreiben: Ein vorangestelltes `+` fügt einen Eintrag hinzu, ein `-` entfernt ihn.
 
 > [!WARNING]

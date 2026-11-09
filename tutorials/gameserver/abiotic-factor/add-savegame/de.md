@@ -24,8 +24,7 @@ Ein Spielstand ist in Abiotic Factor immer ein **kompletter Weltordner**, keine 
 > Erstelle vor dem Hochladen ein [Backup](/tutorials/gameserver/abiotic-factor/create-backup) Deines bisherigen Server-Spielstands, falls Du später zurückwechseln möchtest.
 
 > [!NOTE]
-> **Warum sehen die Pfade wie Windows-Pfade aus?**
->
+> **Warum sehen die Pfade wie Windows-Pfade aus?**\
 > Abiotic Factor stellt nur ein Windows-Serverprogramm bereit, das auf Deinem Linux-Server über eine Kompatibilitätsschicht läuft. Deshalb heißen die Ordner auf dem Server genauso wie unter Windows – zum Beispiel `Saved/Config/WindowsServer`. Das ist so gewollt.
 
 ## Lokalen Spielstand finden
@@ -44,8 +43,7 @@ Ein Spielstand ist in Abiotic Factor immer ein **kompletter Weltordner**, keine 
    Darin liegt für jede Welt ein eigener Ordner. Wähle den Ordner der Welt, die Du übertragen möchtest – Du benötigst den **kompletten Ordner** samt Inhalt.
 
 > [!CAUTION]
-> **Konsolen-Spielstände lassen sich nicht übertragen**
->
+> **Konsolen-Spielstände lassen sich nicht übertragen**\
 > Spielstände von PlayStation 5, Xbox und aus der Windows-Gamepass-Version lassen sich **nicht** auf einen Dedicated Server übertragen. Der beschriebene Weg funktioniert nur mit Spielständen der PC-Version aus Steam.
 
 ## Savegame hochladen
@@ -76,8 +74,7 @@ Ein Spielstand ist in Abiotic Factor immer ein **kompletter Weltordner**, keine 
    Benenne den hochgeladenen Ordner exakt so, wie der Weltordner Deines Servers heißt (standardmäßig `Cascade`). Den bisherigen Ordner benennst Du vorher um oder löschst ihn, damit es keine Namenskollision gibt.
 
    > [!TIP]
-   > **Alternative über den Weltnamen**
-   >
+   > **Alternative über den Weltnamen**\
    > Statt den Ordner umzubenennen, kannst Du dem Server auch sagen, welchen Ordner er laden soll. Dafür gibt es den Startparameter `-WorldSaveName=<Ordnername>`. Bietet Deine Verwaltung ein Feld für den Weltnamen an, trägst Du dort einfach den Namen Deines hochgeladenen Ordners ein.
 
 7. **Server starten**\
@@ -87,8 +84,7 @@ Ein Spielstand ist in Abiotic Factor immer ein **kompletter Weltordner**, keine 
 > Der Ordnername und der eingestellte Weltname müssen exakt übereinstimmen – inklusive Groß- und Kleinschreibung. Passt beides nicht zusammen, legt der Server beim Start eine **neue, leere Welt** an, statt Deinen Spielstand zu laden.
 
 > [!NOTE]
-> **Gameplay-Einstellungen**
->
+> **Gameplay-Einstellungen**\
 > Die Schwierigkeits- und Sandbox-Einstellungen stehen in der Datei `SandboxSettings.ini`. Auf einem Dedicated Server liegt sie im Weltordner selbst:
 >
 > ```text

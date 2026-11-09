@@ -35,8 +35,7 @@ Citadel Forged with Fire arbeitet **nicht mit einer Admin-Liste aus SteamIDs**, 
    Speichere die Änderung und starte Deinen Server neu, damit das neue Passwort übernommen wird.
 
 > [!CAUTION]
-> **Passwort in der Verwaltung setzen**
->
+> **Passwort in der Verwaltung setzen**\
 > Gespeichert wird das Admin-Passwort in der `Game.ini` im Abschnitt `[/script/citadel.socialmanager]` beim Wert `Password=`. Bietet Deine Verwaltung ein Feld dafür an, kann Dein Server diesen Wert beim Start aus der Verwaltung neu schreiben – eine Änderung direkt in der Datei oder im Spiel per `/admin_update <neues Passwort>` wäre dann nach dem nächsten Neustart wieder überschrieben. Setze das Admin-Passwort deshalb immer zuerst in der **Verwaltung** und greife nur dann zur Datei, wenn dort kein Feld dafür vorhanden ist.
 
 > [!WARNING]
@@ -79,8 +78,7 @@ Möchtest Du Deine Adminrechte für die laufende Sitzung wieder abgeben, gibst D
 Alternativ zum Ingame-Chat kannst Du Adminbefehle über die eingebaute Remote Console im Browser ausführen – praktisch, wenn Du gerade nicht im Spiel bist.
 
 > [!CAUTION]
-> **Zusätzlichen Port anlegen**
->
+> **Zusätzlichen Port anlegen**\
 > Die Remote Console benötigt einen **eigenen Port**. Lege Dir dafür in der **Verwaltung** einen zusätzlichen Port an. Ohne freigegebenen Port ist die Oberfläche von außen nicht erreichbar.
 
 1. **Server stoppen**\
@@ -122,13 +120,11 @@ Alternativ zum Ingame-Chat kannst Du Adminbefehle über die eingebaute Remote Co
 > Trägst Du keine Zugangsdaten ein, gelten die im Server eingebauten Standardwerte. Setze deshalb immer einen eigenen Benutzernamen und ein eigenes Passwort, bevor Du den Port freigibst.
 
 > [!NOTE]
-> **Konfigurationsdatei wirkt aufgeräumt**
->
+> **Konfigurationsdatei wirkt aufgeräumt**\
 > Dein Server entfernt beim Start Abschnitte aus der `.ini`, die Du nicht angepasst hast. Das ist normal und kein Fehler – Deine eigenen Einträge bleiben erhalten.
 
 > [!NOTE]
-> **Wo liegt die Konfiguration?**
->
+> **Wo liegt die Konfiguration?**\
 > Der Ordner `/Config/` und der Pfad `/Citadel/Saved/Config/LinuxServer/` verweisen auf dieselben Dateien. Du kannst also beide Wege nutzen.
 
 > [!TIP]

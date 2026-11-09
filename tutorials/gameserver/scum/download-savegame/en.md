@@ -21,8 +21,6 @@ related: ["gameserver/scum/add-savegame", "gameserver/scum/create-backup", "game
 You can download your server's save to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. SCUM constantly writes to the database while running – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -54,8 +52,7 @@ You can download your server's save to your PC at any time – for example as an
 > The three files belong together: `SCUM.db` is the actual database containing the world, bases, vehicles and characters, `SCUM.db-wal` is the write-ahead log and `SCUM.db-shm` the matching shared memory file. Always back them up together.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following folder in addition:
 >
 > ```text
@@ -65,11 +62,9 @@ You can download your server's save to your PC at any time – for example as an
 > It contains files such as `ServerSettings.ini`, `AdminUsers.ini` and `BannedUsers.ini`.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/scum/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/scum/create-backup).

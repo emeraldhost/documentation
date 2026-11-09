@@ -172,7 +172,6 @@ Bei einem **Rootserver** benötigt unser Support Traces in **beide Richtungen** 
 ## Häufige Fehler vermeiden
 
 > [!WARNING]
-> **Wichtig**
 >
 > - **VPN oder Proxy vorher deaktivieren** – sonst wird die VPN-Route getestet, nicht Deine tatsächliche Verbindung.
 > - **Trace während des Problems durchführen** – ein Trace Stunden nach dem Problem liefert keine verwertbaren Daten.

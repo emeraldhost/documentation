@@ -153,8 +153,7 @@ Ground Branch kennt eine Whitelist – ist sie aktiv, kommen nur Admins und frei
 ## Was Ground Branch nicht bietet
 
 > [!NOTE]
-> **Kein RCON**
->
+> **Kein RCON**\
 > Ground Branch bietet keine RCON-Schnittstelle. Kick und Bann laufen ausschließlich über das Adminmenü im Spiel.
 
 > [!IMPORTANT]

@@ -21,8 +21,6 @@ related: ["gameserver/palworld/create-backup", "gameserver/palworld/disable-deat
 You can download your server's savegame to your PC at any time, for example as an extra backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running, it saves regularly, otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -54,11 +52,9 @@ You can download your server's savegame to your PC at any time, for example as a
 > The `DedicatedServerName=` parameter contains the name of the savegame folder in use.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Upload savegame](/tutorials/gameserver/palworld/upload-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/palworld/create-backup).

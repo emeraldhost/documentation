@@ -40,13 +40,10 @@ You can find the exact process for creating, managing and restoring a backup in 
 > If you only want to save the world itself, you can also download the `Universe` folder separately: [Download Savegame](/tutorials/gameserver/kerbal-space-program/download-savegame).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. DarkMultiPlayer constantly writes vessel and player data into the `Universe` folder while running – a backup taken during operation can contain an incomplete savegame.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > Besides the `Universe` folder, the `Config` folder is worth saving: it contains `Settings.txt`, `admins.txt`, the ban lists and your `mod-control.txt`.
 
 > [!NOTE]

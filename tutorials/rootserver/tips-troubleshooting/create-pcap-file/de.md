@@ -51,8 +51,7 @@ Typische Interface-Namen sind `eth0`, `ens18` oder `ens192`.
 ### Aufnahme unter Linux starten
 
 > [!NOTE]
-> **Empfohlene Paketanzahl**
->
+> **Empfohlene Paketanzahl**\
 > Wir empfehlen eine Paketanzahl von `100000` (100.000). Das ist in den meisten Fällen ausreichend, um das Problem zu erfassen, ohne dass die Datei unnötig groß wird.
 
 **Gesamten Traffic aufzeichnen (100.000 Pakete):**
@@ -165,7 +164,6 @@ Sende uns folgende Informationen in Deinem Support-Ticket:
 5. **Betroffener Dienst** – welcher Dienst auf welchem Port betroffen ist
 
 > [!WARNING]
-> **Wichtig**
 >
 > - **Aufnahme während des Problems durchführen** – eine Aufnahme ohne aktives Problem liefert keine verwertbaren Daten.
 > - **Filter verwenden** – ohne Filter kann die Datei schnell mehrere Gigabyte groß werden.

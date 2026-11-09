@@ -21,8 +21,6 @@ related: ["gameserver/the-lord-of-the-rings-return-to-moria/add-savegame", "game
 You can download your server's world to your PC at any time – for example as an additional backup or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the file. As long as the server runs it keeps writing to the world – downloading during that time can result in an incomplete savegame.
 
 1. **Stop the server**\
@@ -45,13 +43,11 @@ You can download your server's world to your PC at any time – for example as a
    Start your server again.
 
 > [!NOTE]
-> **Which file is the right one?**
->
+> **Which file is the right one?**\
 > The world your server uses is defined in the `[World]` section of `MoriaServerConfig.ini` in the main directory: as a file name in `OptionalWorldFilename` or – if that is empty – through the world name in `Name`.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download these files from the main directory in addition:
 >
 > ```text
@@ -61,11 +57,9 @@ You can download your server's world to your PC at any time – for example as a
 > ```
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to move the world back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For complete backups of your server you can also use the backup feature: [Create Backup](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/create-backup).

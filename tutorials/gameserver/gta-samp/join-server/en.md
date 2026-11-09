@@ -67,8 +67,6 @@ An invalid player name is the most common reason why joining fails.
 | Uniqueness | The name must not already be used by a connected player |
 
 > [!WARNING]
-> **Caution**
->
 > If you get the message **Unacceptable NickName**, your name contains a forbidden character, is too short or too long – or another player is already on the server using the same name. Less commonly the message also appears after a very long server uptime; restarting your server helps in that case.
 
 ## Server does not show up in the server list
@@ -108,8 +106,6 @@ query 1
 ## Game does not start or does not connect
 
 > [!WARNING]
-> **Caution**
->
 > Single-player mods prevent the multiplayer client from starting. Remove all `.asi` and `.cs` files, replaced vehicle and skin models as well as trainers from your game installation before connecting. Server-side content is downloaded from the server automatically anyway – see [Add Mods](/tutorials/gameserver/gta-samp/add-mods).
 
 > [!NOTE]

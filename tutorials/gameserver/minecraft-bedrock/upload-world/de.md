@@ -20,8 +20,6 @@ related: ["gameserver/minecraft-bedrock/increase-slots", "gameserver/minecraft-b
 ---
 
 > [!CAUTION]
-> **Achtung**
->
 > Die Welt-Dateien dürfen kein Archiv wie z. B. `.zip` oder `.mcworld` sein. Entpacke die Welt vorher. Achte darauf, dass der Ordnername unverändert bleibt.
 
 1. **Server stoppen**\

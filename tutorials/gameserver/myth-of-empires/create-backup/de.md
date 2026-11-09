@@ -34,8 +34,7 @@ Ein regelmäßiges Backup Deines Myth of Empires Servers schützt Dich vor Daten
 Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups findest Du im allgemeinen Guide: [Backup erstellen](/tutorials/gameserver/create-backup).
 
 > [!CAUTION]
-> **Vor dem Stoppen speichern**
->
+> **Vor dem Stoppen speichern**\
 > Speichere die Welt, bevor Du den Server stoppst. Führe dazu als Admin im Spiel den Befehl `cheat SaveWorld` aus und warte anschließend rund 30 bis 45 Sekunden, bis der Speichervorgang abgeschlossen ist. Wird der Server mitten im Schreiben beendet, kann der Spielstand beschädigt werden.
 
 > [!WARNING]

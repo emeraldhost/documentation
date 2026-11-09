@@ -53,8 +53,7 @@ Admins – im Spiel **GM-Accounts** genannt – werden auf einem Myth of Empires
    Drücke die Taste `~` beziehungsweise `` ` `` – auf einer englischen Tastatur die Taste links neben der `1`. Die Konsole öffnet sich nur, wenn Dein Account als Admin eingetragen ist.
 
    > [!TIP]
-   > **Tastatur**
-   >
+   > **Tastatur**\
    > Reagiert die Taste nicht, stelle Dein Tastaturlayout auf Englisch (US) um und versuche es erneut.
 
 3. **Befehl eingeben**\

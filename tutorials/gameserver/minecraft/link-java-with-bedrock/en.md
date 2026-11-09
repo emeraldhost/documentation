@@ -22,8 +22,6 @@ related: ["gameserver/minecraft/upload-world", "gameserver/minecraft/use-tp-comm
 With the **GeyserMC** and **Floodgate** plugins, Minecraft Bedrock Edition players (smartphone, console, Windows) can play on your Java server – even without a Java account.
 
 > [!WARNING]
-> **Caution**
->
 > GeyserMC requires its **own port**. Do **not** use your server's default port!
 
 ## Step 1: Install the plugins
@@ -49,8 +47,6 @@ With the **GeyserMC** and **Floodgate** plugins, Minecraft Bedrock Edition playe
    Choose a free port and note it down.
 
 > [!WARNING]
-> **Important**
->
 > Do **not** use your server's default port! If you use other plugins with their own port (e.g. [Simple Voice Chat](/tutorials/gameserver/minecraft/setup-simple-voice-chat)), each one needs its own port.
 
 ## Step 3: Configure GeyserMC
@@ -110,11 +106,9 @@ With the **GeyserMC** and **Floodgate** plugins, Minecraft Bedrock Edition playe
 > Bedrock players appear on the server with a `.` in front of their name by default – this avoids conflicts with Java accounts.
 
 > [!TIP]
-> **Test the connection**
->
+> **Test the connection**\
 > In the server console you can run `geyser connectiontest <server-ip> <port>` to check whether your Bedrock port is reachable.
 
 > [!WARNING]
-> **Note for existing setups**
->
+> **Note for existing setups**\
 > Older guides instructed copying the `key.pem` file from the Floodgate folder into the Geyser folder. This is **no longer necessary** – delete any existing copy there, as it can cause connection errors.

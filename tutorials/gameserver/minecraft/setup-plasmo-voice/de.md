@@ -46,8 +46,6 @@ Plasmo Voice bringt Proximity Voice Chat auf Deinen Minecraft Server – ähnlic
    Wähle einen freien Port aus und notiere ihn Dir.
 
 > [!WARNING]
-> **Wichtig**
->
 > Verwende **nicht** den Standard-Port Deines Servers! Plasmo Voice benötigt einen separaten Port.
 
 ## Schritt 3: Config-Datei anpassen

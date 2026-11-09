@@ -79,8 +79,7 @@ Return to Moria hat **kein Admin- oder Rollensystem**: Es gibt keine Adminliste,
 > Return to Moria kennt weder **zeitlich begrenzte Banns** noch **Bann-Gründe**, keine Banns über eine Steam- oder Epic-ID und keine Bannliste in der Verwaltung. Eine Blockierung gilt so lange, bis Du die Zeile wieder aus der Rechtedatei entfernst.
 
 > [!TIP]
-> **Server auf einen festen Kreis begrenzen**
->
+> **Server auf einen festen Kreis begrenzen**\
 > Die Rechtedatei sperrt einzelne Spieler aus. Möchtest Du Deinen Server umgekehrt nur bestimmten Leuten zugänglich machen, setze im **Config-Editor** ein Serverpasswort und gib es nur an diese Spieler weiter – siehe [Server beitreten](/tutorials/gameserver/the-lord-of-the-rings-return-to-moria/join-server).
 
 ## Weitere Rechtestufen

@@ -24,8 +24,7 @@ IOSoccer bringt von Haus aus **kein Adminsystem** mit. Es gibt keine Adminliste 
 > Die Kapitänsfunktionen `mp_captaincy_home` und `mp_captaincy_away` haben nichts mit Adminrechten zu tun – sie steuern nur, wer im Spiel Mannschaftskapitän ist. Ein Abstimmungssystem, über das Spieler selbst Entscheidungen treffen könnten, hat IOSoccer ebenfalls nicht.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Metamod:Source und SourceMod müssen auf Deinem Server installiert sein. Wie das geht, steht unter [Mods hinzufügen](/tutorials/gameserver/iosoccer/add-mods).
 
 ## SteamID herausfinden

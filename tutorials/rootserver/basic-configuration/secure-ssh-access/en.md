@@ -60,8 +60,7 @@ type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh root@YOUR_SERVER_IP "mkdir -p ~/
 ```
 
 > [!TIP]
-> **Test**
->
+> **Test**\
 > Test the connection before continuing:
 >
 > ```bash
@@ -98,8 +97,7 @@ chmod 600 /home/myuser/.ssh/authorized_keys
 ```
 
 > [!TIP]
-> **Test**
->
+> **Test**\
 > Test the login with the new user before continuing:
 >
 > ```bash
@@ -186,6 +184,5 @@ ssh -p 2222 root@YOUR_SERVER_IP
 | Change SSH port | Reduces automated attacks |
 
 > [!TIP]
-> **Further security**
->
+> **Further security**\
 > For additional protection, also set up [Fail2Ban](/tutorials/rootserver/basic-configuration/install-fail2ban) and [UFW](/tutorials/rootserver/basic-configuration/install-ufw).

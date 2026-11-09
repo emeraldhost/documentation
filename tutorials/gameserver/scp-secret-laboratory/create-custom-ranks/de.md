@@ -163,8 +163,7 @@ Einige wichtige Berechtigungen im Überblick:
 ## Beispiel: VIP- und Supporter-Rang
 
 > [!NOTE]
-> **Beispiel**
->
+> **Beispiel**\
 > Ein `vip`-Rang soll nur ein Abzeichen anzeigen und keine Rechte haben. Ein `supporter`-Rang soll Spieler kicken, kurz bannen, sich selbst eine Klasse geben und den Admin-Chat nutzen dürfen.
 
 Die Rollen-Definitionen:

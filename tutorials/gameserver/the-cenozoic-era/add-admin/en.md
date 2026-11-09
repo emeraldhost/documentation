@@ -54,8 +54,7 @@ On your The Cenozoic Era server you grant admin rights through the configuration
 > According to the comment in the `Game.ini` you enter a **Steam NetID** at `Owners=`. An owner then has access to the commands and a highlighted name color in the game.
 
 > [!WARNING]
-> **Only `Owners=` is documented**
->
+> **Only `Owners=` is documented**\
 > Besides owners, the comment in the file also mentions admins and moderators, but the template only contains the `Owners=` entry. The key names for admins and moderators and the format they have to be entered in are not documented – do not enter anything there on a guess.
 
 ## Name colors of the roles
@@ -120,8 +119,6 @@ Clear, Partly Cloudy, Cloudy, Overcast, Foggy, Light Rain, Rain, Storm
 | `-2` | Unfreeze the time of day again |
 
 > [!WARNING]
-> **Caution**
->
 > Some values in the `Game.ini` are overwritten from the **Config Editor** in your **dashboard** on every server start. Change those values there instead of in the file – otherwise your changes are gone again after the next start.
 
 > [!NOTE]

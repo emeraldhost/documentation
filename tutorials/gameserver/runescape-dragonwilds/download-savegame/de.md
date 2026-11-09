@@ -43,16 +43,13 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Die richtige Datei finden**
->
+> **Die richtige Datei finden**\
 > Liegen mehrere `.sav`-Dateien im Verzeichnis, findest Du den Namen der aktiven Welt im **Config-Editor** in der Verwaltung im Feld **Server Name** – die passende Datei heißt genauso, ergänzt um die Endung `.sav`.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/runescape-dragonwilds/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/runescape-dragonwilds/create-backup).

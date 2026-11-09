@@ -61,8 +61,6 @@ Both ports are assigned automatically when your server is created and always dif
 ## Your server does not appear in the list
 
 > [!WARNING]
-> **Caution**
->
 > If your server does not show up in the server list, work through these points one by one:
 >
 > - **Is the server really online?** Check in the dashboard whether the server is running and not currently restarting or installing an update.

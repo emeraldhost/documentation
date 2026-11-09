@@ -72,8 +72,7 @@ If a password is set for your server, Craftopia asks for it when connecting.
 > A Craftopia server uses only a single port, the **Game Port** (UDP). There is no separate **Query Port** and no TCP port either. In the game you therefore enter exactly the Game Port listed in your dashboard.
 
 > [!WARNING]
-> **Server not reachable**
->
+> **Server not reachable**\
 > Check the following one by one:
 >
 > - Is your server actually running according to the dashboard? The first start takes a little longer because the world is being generated.
@@ -81,6 +80,5 @@ If a password is set for your server, Craftopia asks for it when connecting.
 > - Is a password set for your server? Then you have to enter it correctly when connecting.
 
 > [!WARNING]
-> **Check the version**
->
+> **Check the version**\
 > Client and server have to run the same game version. After a game update a connection can fail until your server is on the same version as well.

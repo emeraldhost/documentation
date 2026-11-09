@@ -23,8 +23,6 @@ You can download your server's save to your PC at any time – for example as an
 In PixARK all mutable data lives in a single folder: `Saved`. It contains the voxel world, the player and tribe data, your configuration files and the logs.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While running, the server constantly writes to the save – otherwise you would download an incomplete or corrupted state.
 
 ## Download the savegame
@@ -68,11 +66,9 @@ In PixARK all mutable data lives in a single folder: `Saved`. It contains the vo
 > The configuration folder is called `WindowsServer` on your Linux server as well. That is intended – PixARK only ships a Windows server binary, which runs on Linux servers through a compatibility layer.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/pixark/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create Backup](/tutorials/gameserver/pixark/create-backup).

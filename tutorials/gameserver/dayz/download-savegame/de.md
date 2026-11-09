@@ -53,16 +53,13 @@ Du kannst das Savegame Deines Servers jederzeit auf Deinen PC herunterladen – 
    Starte Deinen Server wieder.
 
 > [!TIP]
-> **Die richtige Mission finden**
->
+> **Die richtige Mission finden**\
 > Der `storage_1` Ordner liegt immer innerhalb des Missions-Ordners der Map, die Dein Server aktuell lädt: `dayzOffline.chernarusplus` für Chernarus, `dayzOffline.enoch` für Livonia. Lädst Du eine andere Map, findest Du den Ordner entsprechend im Missions-Ordner dieser Map unter `/mpmissions/`.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/dayz/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/dayz/create-backup).

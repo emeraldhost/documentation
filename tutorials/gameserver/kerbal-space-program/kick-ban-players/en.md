@@ -51,8 +51,7 @@ A ban is permanent – DarkMultiPlayer does not support time-limited bans. There
 > The three ban types work independently of each other. Banning a player name does not stop anyone from coming back under a different name. For a reliable ban use `/bankey` in addition.
 
 > [!NOTE]
-> **Find the public key**
->
+> **Find the public key**\
 > You can find the key of a player via [SFTP](/tutorials/gameserver/establish-sftp-connection) in the file:
 >
 > ```text

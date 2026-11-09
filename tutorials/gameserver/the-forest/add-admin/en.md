@@ -38,8 +38,7 @@ The Forest has **no admin list with SteamIDs**. Instead there is a single **admi
 > A default password is set out of the box. Make sure to change it before your server is publicly reachable – otherwise anyone who knows the default password can gain admin rights.
 
 > [!NOTE]
-> **Why not in the configuration file?**
->
+> **Why not in the configuration file?**\
 > The matching configuration value is called `serverPasswordAdmin`. However, your server passes the admin password as a start parameter, and start parameters override matching entries from the configuration file. An entry in `config.cfg` would therefore have no effect – only set the password in the dashboard.
 
 ## Join as an admin

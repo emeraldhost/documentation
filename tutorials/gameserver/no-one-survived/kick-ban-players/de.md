@@ -63,13 +63,11 @@ Spieler entfernst Du auf einem No One Survived Server über das **Admin-Panel im
 > Die genaue Bezeichnung der Reiter und Schaltflächen kann sich mit Spiel-Updates ändern. Such im Admin-Panel nach der Übersicht mit den verbundenen und gesperrten Spielern.
 
 > [!WARNING]
-> **Spieler muss verbunden sein**
->
+> **Spieler muss verbunden sein**\
 > Kicken und Bannen setzt voraus, dass der Spieler in der Liste des Panels auftaucht. Einen Spieler, der gerade nicht auf dem Server ist, kannst Du auf diesem Weg nicht im Voraus sperren.
 
 > [!CAUTION]
-> **Sperre Dich nicht selbst aus**
->
+> **Sperre Dich nicht selbst aus**\
 > Trägst Du Dich versehentlich selbst in die Blacklist ein, kommst Du nicht mehr auf Deinen Server und damit auch nicht mehr an das Admin-Panel. Eine Datei zum Bearbeiten der Blacklist über SFTP ist für No One Survived **nicht dokumentiert** – gehe deshalb beim Bannen sorgfältig vor.
 
 ## Keine Befehle und kein RCON

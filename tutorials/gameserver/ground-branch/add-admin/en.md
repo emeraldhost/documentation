@@ -149,8 +149,7 @@ In the admin menu you manage players (kick and ban), the map change and map list
 > Which of these commands are available to you depends on your admin group. Only `admin setup <password>` and `admin` are officially documented as console commands; all other commands are used through the admin menu.
 
 > [!WARNING]
-> **No RCON**
->
+> **No RCON**\
 > Ground Branch does not offer an RCON interface. All administration happens in the game through the admin menu or the in-game console.
 
 > [!IMPORTANT]

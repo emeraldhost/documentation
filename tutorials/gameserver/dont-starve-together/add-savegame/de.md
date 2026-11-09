@@ -85,6 +85,5 @@ Der eigentliche Spielstand liegt in den Ordnern `Master/save/` (Oberwelt) und `C
 > Erstelle vor dem Hochladen ein [Backup](/tutorials/gameserver/dont-starve-together/create-backup) Deines bisherigen Server-Spielstands, falls Du später zurückwechseln möchtest.
 
 > [!NOTE]
-> **Mods**
->
+> **Mods**\
 > Hat Deine lokale Welt Mods verwendet, musst Du diese auch auf dem Server einrichten. Wie das geht, erfährst Du unter [Mods hinzufügen](/tutorials/gameserver/dont-starve-together/add-mods).

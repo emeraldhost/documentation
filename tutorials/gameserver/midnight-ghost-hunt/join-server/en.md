@@ -84,15 +84,11 @@ The region determines which area your server is sorted into within the server li
 If a password is set for your server, everyone needs that password in order to join. Only pass it on to the people who are supposed to play on your server.
 
 > [!WARNING]
-> **Caution**
->
 > Changes to the password only take effect the next time the server starts. Restart your server via the **dashboard** after changing it.
 
 ## Your server does not appear in the list
 
 > [!WARNING]
-> **Caution**
->
 > If your server does not show up in the server list, work through these points one by one:
 >
 > - **Is the server really online?** Check in the dashboard whether the server is running and not currently restarting or installing an update.

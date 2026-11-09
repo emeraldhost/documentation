@@ -172,7 +172,6 @@ For a **VPS**, our support team needs traces in **both directions** for a comple
 ## Common Mistakes to Avoid
 
 > [!WARNING]
-> **Important**
 >
 > - **Disable VPN or proxy first** – otherwise the VPN route is tested, not your actual connection.
 > - **Run the trace while the problem is occurring** – a trace hours after the problem provides no useful data.

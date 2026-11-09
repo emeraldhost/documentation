@@ -21,8 +21,6 @@ related: ["gameserver/the-forest/add-savegame", "gameserver/the-forest/create-ba
 You can download your server's savegame to your PC at any time – for example as an additional backup or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. The Forest saves automatically at regular intervals – if you download while it does, the savegame can be incomplete.
 
 1. **Stop the server**\
@@ -45,18 +43,14 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!NOTE]
-> **Which slot is the right one?**
->
+> **Which slot is the right one?**\
 > The slot your server uses is defined in the file `/TheForestDedicatedServer_Data/forest/config/config.cfg` in the `slot` value. If it says `slot 1`, then `Slot1` is your current savegame.
 
 > [!WARNING]
-> **Caution**
->
 > A savegame is always the complete `Slot#` folder. Always download it in full – individual files from it do not make a usable savegame.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following file in addition:
 >
 > ```text
@@ -64,11 +58,9 @@ You can download your server's savegame to your PC at any time – for example a
 > ```
 
 > [!TIP]
-> **Restore the savegame**
->
+> **Restore the savegame**\
 > If you want to move the savegame back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/the-forest/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/the-forest/create-backup).

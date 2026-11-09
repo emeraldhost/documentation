@@ -43,8 +43,7 @@ You can find the exact steps for creating, managing and restoring a backup in th
 > Lock important backups (e.g. before big changes) so they do not get overwritten by automatic backups. Additionally download particularly important backups to your PC in case your backup limit is reached.
 
 > [!NOTE]
-> **What belongs to the savegame?**
->
+> **What belongs to the savegame?**\
 > The actual savegames are stored as `.sav` files under `/WRSH/Saved/SaveGames/WorldSaves/`, the server's intermediate saves under `/WRSH/Saved/SaveGames/AutoSave/`. Your server settings are stored in the file `/WRSH/Saved/Config/WindowsServer/Game.ini` – a backup via the dashboard secures all of these files together.
 
 > [!NOTE]

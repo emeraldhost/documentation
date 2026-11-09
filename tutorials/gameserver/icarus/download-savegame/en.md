@@ -21,8 +21,6 @@ related: ["gameserver/icarus/change-server-name", "gameserver/icarus/create-back
 You can download your server's prospect to your PC at any time, for example as an extra backup, to archive it, or to move it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running, it saves regularly, otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -54,11 +52,9 @@ You can download your server's prospect to your PC at any time, for example as a
 > The `LoadProspect=` parameter contains the file name of your prospect (without `.json`).
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/icarus/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/icarus/create-backup).

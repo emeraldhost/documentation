@@ -57,8 +57,6 @@ Diese Methode bietet mehr Kontrolle und ist nötig für Server-Side-Only Mods.
    Öffne Steam, wähle DayZ aus Deiner Bibliothek und gehe zum **Workshop** Tab. Abonniere den gewünschten Mod.
 
 > [!WARNING]
-> **Hinweis**
->
 > Manche Mods haben Abhängigkeiten, die zuerst installiert werden müssen.
 
 2. **DayZ starten**\
@@ -90,8 +88,6 @@ Diese Methode bietet mehr Kontrolle und ist nötig für Server-Side-Only Mods.
    ```
 
 > [!TIP]
-> **Hinweis**
->
 > Mods unter **Zusätzliche Mods** müssen auch von Spielern installiert werden. Mods unter **Mods** sind Server-Side Only und erfordern keine Installation durch Spieler.
 
 10. **Server starten**\

@@ -44,8 +44,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Der Server schreibt im laufenden Betrieb in die Weltdatei – eine Sicherung während des Betriebs kann unvollständig sein.
 
 > [!CAUTION]
-> **Charaktere sind nicht enthalten**
->
+> **Charaktere sind nicht enthalten**\
 > Ein Server-Backup sichert ausschließlich die Weltdaten. Charaktere werden lokal auf dem PC des jeweiligen Spielers gespeichert und lassen sich über den Server weder sichern noch wiederherstellen.
 
 > [!NOTE]

@@ -29,8 +29,7 @@ No One Survived bringt zwei Karten mit. Welche davon Dein Server lädt, steuerst
 > Die Nummerierung ist nicht chronologisch: `Map01` ist die später hinzugekommene **große** Karte, `Map02` die kleinere Ursprungskarte.
 
 > [!CAUTION]
-> **Vorher sichern**
->
+> **Vorher sichern**\
 > Erstelle vor dem Wechsel ein [Backup](/tutorials/gameserver/no-one-survived/create-backup). Ein Kartenwechsel ändert, welche Welt Dein Server lädt – ohne Sicherung kommst Du nicht mehr an Deinen bisherigen Stand.
 
 ## Karte umstellen
@@ -65,24 +64,20 @@ No One Survived bringt zwei Karten mit. Welche davon Dein Server lädt, steuerst
    Trage in der **Verwaltung** einen neuen Savegame-Namen ein, damit für die neue Karte eine eigene Welt erzeugt wird. Dein bisheriger Spielstand bleibt dabei unter seinem alten Namen erhalten.
 
    > [!NOTE]
-   > **Warum ein eigener Name?**
-   >
+   > **Warum ein eigener Name?**\
    > Ein vorhandener Spielstand wurde auf der Karte erzeugt, auf der Du ihn gestartet hast. Vergibst Du für die neue Karte einen eigenen Savegame-Namen, kannst Du später jederzeit zurückwechseln, indem Du den alten Namen wieder einträgst.
 
 6. **Server starten**\
    Speichere die Datei und starte Deinen Server. Beim Start wird die gewählte Karte geladen.
 
 > [!TIP]
-> **Zurückwechseln**
->
+> **Zurückwechseln**\
 > Um wieder auf die vorherige Karte zu wechseln, setzt Du `OpenMap` zurück und trägst in der Verwaltung wieder den zugehörigen Savegame-Namen ein.
 
 > [!WARNING]
-> **Arbeitsspeicher beachten**
->
+> **Arbeitsspeicher beachten**\
 > Die große Karte `Map01` benötigt deutlich mehr Arbeitsspeicher als die kleine Karte `Map02`. Der Entwickler empfiehlt für die große Karte mindestens 8 GB, für die kleine Karte mindestens 4 GB. Reicht der Arbeitsspeicher nicht aus, startet der Server nicht sauber oder stürzt im Betrieb ab.
 
 > [!NOTE]
-> **Kein Feld in der Verwaltung**
->
+> **Kein Feld in der Verwaltung**\
 > Die Kartenauswahl wird nicht über die Verwaltung gesteuert, sondern nur über die `Game.ini`. Dieser Wert wird dadurch beim Serverstart auch nicht überschrieben und bleibt erhalten.

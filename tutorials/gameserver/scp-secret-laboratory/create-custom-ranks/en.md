@@ -163,8 +163,7 @@ An overview of some important permissions:
 ## Example: VIP and supporter rank
 
 > [!NOTE]
-> **Example**
->
+> **Example**\
 > A `vip` rank should only show a badge and have no rights. A `supporter` rank should be able to kick players, ban them briefly, assign a class to themselves and use the admin chat.
 
 The role definitions:

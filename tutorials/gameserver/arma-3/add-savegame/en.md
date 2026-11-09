@@ -23,8 +23,7 @@ An Arma 3 server does **not** save the world state by itself. Whether a savegame
 The savegame is always a single file ending in `.vars.Arma3Profile`, named after the profile of the server – for example `server.vars.Arma3Profile`.
 
 > [!CAUTION]
-> **persistent is not a savegame**
->
+> **persistent is not a savegame**\
 > The `persistent` value in the `server.cfg` does not save anything. It only keeps the mission running when all players leave the server. Guides describing `persistent = 1;` as a saving feature are wrong.
 
 > [!TIP]
@@ -94,13 +93,10 @@ Your server saves under the profile name it uses on startup. You need that name 
    Start your server and load the savegame through the mission's own load function – with most persistent missions this happens right at mission start through a menu.
 
 > [!WARNING]
-> **Savegames from singleplayer**
->
+> **Savegames from singleplayer**\
 > Singleplayer savegames and dedicated server savegames are stored inside the same file under different variable names. A singleplayer savegame may therefore not be recognized as loadable on the server.
 
 > [!WARNING]
-> **Caution**
->
 > How a savegame is loaded is defined by the mission itself. When in doubt, check the documentation of the mission you use – Arma 3 has no unified load function.
 
 ## Reset the savegame

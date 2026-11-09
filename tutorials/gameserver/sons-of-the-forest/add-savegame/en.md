@@ -87,8 +87,7 @@ You can transfer a local save to your server to continue playing with an existin
 > `SaveMode` must be set to `Continue`. If it is set to `New`, the slot will be overwritten with a freshly generated world on the next server start and your uploaded save will be lost.
 
 > [!TIP]
-> **Without renaming**
->
+> **Without renaming**\
 > You can also leave the folder name unchanged and instead enter the folder number directly as the save slot – for a folder named `1833122971` that would be `"SaveSlot": 1833122971`. All that matters is that the folder name and `SaveSlot` match.
 
 > [!WARNING]

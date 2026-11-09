@@ -59,8 +59,7 @@ The server shows you your SLG ID directly in the game:
    ```
 
    > [!NOTE]
-   > **File does not exist?**
-   >
+   > **File does not exist?**\
    > For every configuration, `/Configs/` also contains a file ending in `.eco.template`. This template only holds the default values and is not read by the server. If `Users.eco` is missing, copy `Users.eco.template` and rename the copy to `Users.eco`.
 
 4. **Enter the ID**\
@@ -95,8 +94,7 @@ The server shows you your SLG ID directly in the game:
 > `Users.eco` has to remain valid JSON. A single missing or extra comma is enough to make the file unreadable for the server. Check the file with a JSON formatter like [JSONLint](https://jsonlint.com/) after editing. If something goes wrong, you can look at `Users.eco.template` to see the original structure of the file.
 
 > [!NOTE]
-> **First admin**
->
+> **First admin**\
 > The first admin can only be added through the file. The chat commands for granting admin rights require admin rights themselves.
 
 ## Grant admin rights in the game

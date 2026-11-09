@@ -33,8 +33,6 @@ A foreign save only loads if it matches the configuration of your server:
 | Same world name | PixARK stores the world under the world name defined at server start. If the save comes from a provider that used a different world name, your server will not find it and generates a new world instead. |
 
 > [!WARNING]
-> **Caution**
->
 > If your server starts with a freshly generated world instead of your save after uploading, one of these two requirements is not met. In that case do not keep playing – stop the server right away, otherwise you overwrite the uploaded save.
 
 ## Upload the savegame
@@ -69,8 +67,7 @@ A foreign save only loads if it matches the configuration of your server:
    Start your server. The new save is now loaded.
 
 > [!TIP]
-> **Keep your own settings**
->
+> **Keep your own settings**\
 > The `Saved` folder also contains the subfolder `Config/WindowsServer/` with the configuration files. If you only want to take over the world and players but keep your own server settings, copy the `Config` folder from your old `Saved` folder back after uploading.
 
 > [!NOTE]

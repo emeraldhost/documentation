@@ -21,8 +21,6 @@ related: ["gameserver/starrupture/add-savegame", "gameserver/starrupture/create-
 You can download your server's save to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. StarRupture saves automatically at regular intervals while running – otherwise you would download an incomplete save.
 
 1. **Stop the server**\
@@ -55,8 +53,7 @@ You can download your server's save to your PC at any time – for example as an
 > The two files belong together: the `.sav` holds the actual save with world, base and progress, the `.met` contains the matching metadata. Always back them up together – without the `.met` the save cannot be loaded later.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following file from the main directory in addition:
 >
 > ```text
@@ -66,11 +63,9 @@ You can download your server's save to your PC at any time – for example as an
 > It contains values such as `SessionName`, `SaveGameName` and the save interval.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/starrupture/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/starrupture/create-backup).

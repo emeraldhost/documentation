@@ -53,8 +53,6 @@ The player can no longer connect. If they are online at that moment, they are re
 Instead of an IP address you can also pass the name of a player – the server then bans their current IP address.
 
 > [!WARNING]
-> **Caution**
->
 > An IP ban affects everyone behind the same connection – for example players in the same household. Many internet connections also get a new IP address regularly, so an IP ban does not last forever.
 
 ## Show bans
@@ -116,8 +114,6 @@ Both files are JSON lists. An entry contains fields such as:
 > The server removes expired bans from the list automatically as soon as it checks them. There is nothing to clean up by hand.
 
 > [!WARNING]
-> **Caution**
->
 > If you edit the files by hand, stop your server beforehand and start it again afterwards – otherwise your changes do not apply reliably and may be overwritten. While the server is running it is best to always use the commands.
 
 ## Allowlist instead of a ban list

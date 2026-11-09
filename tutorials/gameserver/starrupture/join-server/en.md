@@ -52,8 +52,6 @@ StarRupture does **not** have a server browser. You connect exclusively by enter
    > Replace the placeholders with the values shown in your dashboard.
 
    > [!WARNING]
-   > **Caution**
-   >
    > The port always has to be included. Without a port the game will not reliably find your server.
 
 5. **Enter the password**\
@@ -68,15 +66,13 @@ StarRupture does **not** have a server browser. You connect exclusively by enter
 > A StarRupture server only needs a single port: the **Game Port**, and only via **UDP**. There is no separate **Query Port**. The Game Port that applies to your server is shown in the **dashboard**.
 
 > [!CAUTION]
-> **Why no TCP is opened**
->
+> **Why no TCP is opened**\
 > The dedicated server ships with an HTTP remote control interface (visible in game as **Manage Server**) that contains a known, unauthenticated security vulnerability: attackers could use it to change passwords, manipulate saves or crash the server. Your server is therefore run with the start parameters `-RCWebControlDisable` and `-RCWebInterfaceDisable` and is only reachable via UDP. As a result **Manage Server** is deliberately unavailable – you change server settings through the dashboard or the `DSSettings.txt` file instead.
 
 ## Connection problems
 
 > [!WARNING]
-> **Message about multiple servers at this IP**
->
+> **Message about multiple servers at this IP**\
 > If a message such as *"More than one server at this IP, please specify port"* appears when joining, your game client is still holding an outdated connection to your server. This mainly happens when the server was restarted while StarRupture stayed open. Close the game **completely**, start it again and enter the IP address and Game Port once more.
 
 > [!TIP]

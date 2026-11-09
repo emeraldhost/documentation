@@ -43,8 +43,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Longvinter speichert im laufenden Betrieb etwa alle zehn Minuten – eine Sicherung während des Betriebs kann einen unvollständigen Spielstand enthalten. Aus demselben Grund überschreibt der Server auch Änderungen an der `Game.ini`, die Du im laufenden Betrieb vornimmst.
 
 > [!TIP]
-> **Serverseitige Sicherungen aktivieren**
->
+> **Serverseitige Sicherungen aktivieren**\
 > Longvinter kann zusätzlich selbst einmal täglich eine Sicherung des Spielstands anlegen. Dazu trägst Du bei gestopptem Server in der Datei `/Longvinter/Saved/Config/LinuxServer/Game.ini` folgenden Wert ein:
 >
 > ```ini

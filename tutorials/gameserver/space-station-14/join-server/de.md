@@ -81,8 +81,7 @@ Damit Dein Server in der öffentlichen Serverliste (Hub) auftaucht, musst Du das
    Suche im Launcher in der Serverliste nach dem Namen Deines Servers.
 
 > [!WARNING]
-> **Server erscheint nicht in der Liste**
->
+> **Server erscheint nicht in der Liste**\
 > Steht in der Server-Konsole eine Meldung wie `[ERRO] hub: Error status while advertising server: [UnprocessableEntity] "Unable to contact status address"`, konnte der Hub Deinen Server nicht erreichen. Prüfe dann, ob Du in der Verwaltung die richtigen Ports verwendest und ob Dein Server läuft. Bis zur Klärung erreichst Du Deinen Server jederzeit über die Direktverbindung.
 
 ## Welche Ports nutzt Space Station 14?

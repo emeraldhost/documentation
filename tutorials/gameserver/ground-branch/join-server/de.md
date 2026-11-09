@@ -63,8 +63,7 @@ Taucht Dein Server in der Liste nicht auf, verbindest Du Dich direkt über die A
    ```
 
    > [!NOTE]
-   > **Welchen Port eintragen?**
-   >
+   > **Welchen Port eintragen?**\
    > Nutze zuerst den **Game Port** aus der Verwaltung. Erscheint die Meldung **No server found at that IP address**, wiederhole den Vorgang mit dem **Query Port**.
 
 4. **Verbinden**\

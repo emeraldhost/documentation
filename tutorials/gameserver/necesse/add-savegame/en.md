@@ -66,18 +66,14 @@ A Necesse world is **a single `.zip` file** named after the world – for exampl
    Save the settings and start your server. Your uploaded world is now loaded on startup.
 
 > [!CAUTION]
-> **Mind upper and lower case**
->
+> **Mind upper and lower case**\
 > Your server runs on Linux and is case sensitive. `My_World` and `my_world` are two different worlds. If the name you entered does not match the file name exactly, the server creates a **new, empty world** under that name instead.
 
 > [!WARNING]
-> **Caution**
->
 > The world name is passed as a startup parameter. Only set it in the dashboard – a different entry in `/cfg/server.cfg` has no effect.
 
 > [!NOTE]
-> **Adjust world settings**
->
+> **Adjust world settings**\
 > The settings of a world (file `worldSettings.cfg`) are located **inside** the `.zip` file. To change them, download the file, extract it, edit `worldSettings.cfg` and pack the contents back into a `.zip` archive with the same name and the same structure.
 
 > [!TIP]

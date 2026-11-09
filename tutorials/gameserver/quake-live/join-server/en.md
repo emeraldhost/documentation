@@ -36,8 +36,7 @@ The console is the most reliable way onto your server.
    Press `~` to open the console.
 
 > [!NOTE]
-> **Console does not open?**
->
+> **Console does not open?**\
 > The console key sits to the left of the `1` key – on a German keyboard layout that is the `^` key. Whether the console is available at all is controlled by the client variable `com_allowConsole`, which is set to `1` by default.
 
 ## Connect directly via IP
@@ -53,8 +52,7 @@ The console is the most reliable way onto your server.
    ```
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > If the dashboard shows the IP `123.45.67.89` and the Game Port `27043`, the command is:
    >
    > ```text
@@ -85,8 +83,7 @@ If you set a **Server Password** in the dashboard, you have to set it in the gam
    ```
 
 > [!NOTE]
-> **Reserved slots**
->
+> **Reserved slots**\
 > Besides the server password, Quake Live supports reserved slots. `sv_privateClients` defines how many slots stay reserved, and `sv_privatePassword` sets the matching password. Players who enter that password with `password` can join even when all regular slots are taken.
 
 ## Via the server browser

@@ -64,8 +64,7 @@ Bei dieser Methode lädt Dein Server die Mods selbst aus dem Steam Workshop heru
    Starte Deinen Server. Beim Start werden die Mods aus der Liste heruntergeladen – je nach Umfang kann das einige Minuten dauern.
 
 > [!NOTE]
-> **Steam-Konto erforderlich**
->
+> **Steam-Konto erforderlich**\
 > Für den automatischen Download aus dem Workshop benötigt Dein Server die Zugangsdaten eines Steam-Kontos, das Arma 3 besitzt. Anonyme Downloads sind für Workshop-Inhalte nicht möglich. Die Zugangsdaten hinterlegst Du im **Config-Editor** Deiner Verwaltung.
 
 ## Methode 2: Workshop-IDs direkt eintragen

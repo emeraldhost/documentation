@@ -24,8 +24,7 @@ Adminrechte funktionieren auf einem Soldat Server über zwei Mechanismen: über 
 > Soldat identifiziert Admins über die **IP-Adresse**, nicht über eine Steam-ID oder eine Spieler-UUID. Für die dauerhafte Adminliste brauchst Du daher die IP-Adresse des jeweiligen Spielers.
 
 > [!NOTE]
-> **Zwei Serverversionen**
->
+> **Zwei Serverversionen**\
 > Für Soldat gibt es zwei Serverversionen mit unterschiedlicher Konfiguration. Welche bei Dir läuft, erkennst Du im Dateimanager beziehungsweise per [SFTP](/tutorials/gameserver/establish-sftp-connection):
 >
 > | Datei im Hauptverzeichnis | Version |
@@ -193,8 +192,7 @@ Damit angemeldete Admins bestimmte Befehle nicht ausführen können, gibt es den
 | `/addbot<Team-ID> <Botname>` | Bot in ein bestimmtes Team setzen, z.B. `/addbot2 Terminator` |
 
 > [!TIP]
-> **Spielmodi**
->
+> **Spielmodi**\
 > `0` Deathmatch, `1` Pointmatch, `2` Teammatch, `3` Capture the Flag, `4` Rambomatch, `5` Infiltration, `6` Hold the Flag
 
 > [!NOTE]

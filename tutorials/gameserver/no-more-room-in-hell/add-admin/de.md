@@ -21,8 +21,7 @@ related: ["gameserver/no-more-room-in-hell/add-mods", "gameserver/no-more-room-i
 No More Room in Hell bringt von Haus aus **kein Adminsystem** mit. Die offizielle Serverdokumentation kennt nur die Serverkonsole und RCON. Adminrechte im Spiel gibt es ausschließlich über **SourceMod**.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Metamod:Source und SourceMod müssen auf Deinem Server installiert sein. Wie das geht, steht unter [Mods hinzufügen](/tutorials/gameserver/no-more-room-in-hell/add-mods).
 
 ## SteamID herausfinden

@@ -35,6 +35,4 @@ This setting determines whether your server is listed in the public server brows
    Save the setting and restart your server.
 
 > [!WARNING]
-> **Important**
->
 > If **Public Server** is set to `True`, [Private Session](/tutorials/gameserver/renown/change-private-session) must be set to `False`. The two settings are mutually exclusive.

@@ -57,8 +57,7 @@ Admins werden auf einem The Front Server über ihre **SteamID64** eingetragen �
    ```
 
    > [!NOTE]
-   > **Welcher Konfigurationsname?**
-   >
+   > **Welcher Konfigurationsname?**\
    > Der Name kommt vom Startparameter `-ConfigServerName=` Deines Servers – das ist nicht der Servername aus der Serverliste. Steht dort `new`, lautet die Datei `ServerConfig_new.ini`. Ist kein Name gesetzt, heißt sie schlicht `ServerConfig_.ini`.
    >
    > Ordner- und Dateiname müssen exakt so geschrieben werden – sonst lädt der Server die Konfiguration nicht.
@@ -93,8 +92,7 @@ Admins werden auf einem The Front Server über ihre **SteamID64** eingetragen �
    ```
 
 > [!TIP]
-> **Konsole**
->
+> **Konsole**\
 > Alternativ öffnest Du die Konsole mit der Taste `` ` `` beziehungsweise `~` – auf einer englischen Tastatur die Taste links neben der `1`. Reagiert die Taste nicht, stelle Dein Tastaturlayout auf Englisch um.
 
 ## Admins im Spiel verwalten

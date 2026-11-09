@@ -41,8 +41,7 @@ tShock hat **kein Mod-System für den Client**. Erweitert wird ein tShock-Server
    Lade das Plugin herunter und entpacke es, falls es als Archiv vorliegt. Du benötigst die enthaltene `.dll`-Datei. Bringt ein Plugin zusätzliche Bibliotheken mit, gehören auch diese `.dll`-Dateien mit auf den Server.
 
 > [!CAUTION]
-> **Nur vertrauenswürdige Quellen**
->
+> **Nur vertrauenswürdige Quellen**\
 > Ein Plugin ist ausführbarer Programmcode, der mit den vollen Rechten Deines Servers läuft. Lade Plugins deshalb ausschließlich aus offiziellen bzw. bekannten Quellen herunter – auch das tShock-Wiki warnt ausdrücklich davor, Plugins unbekannter Herkunft zu installieren.
 
 ## Plugin hochladen

@@ -66,8 +66,6 @@ If your server does not show up right after starting, a little patience usually 
 - Refresh the server list in the game instead of just waiting.
 
 > [!WARNING]
-> **Caution**
->
 > If the server is running but never appears in the list, check the **console** of your server. Errors during startup or an update still in progress are the most common cause.
 
 > [!NOTE]

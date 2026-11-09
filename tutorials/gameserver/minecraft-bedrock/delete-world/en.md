@@ -20,8 +20,6 @@ related: ["gameserver/minecraft-bedrock/change-world-seed", "gameserver/minecraf
 ---
 
 > [!CAUTION]
-> **Attention**
->
 > If you delete the world, it cannot be restored. Create a backup beforehand in case you need the world again later.
 
 1. **Stop server**\

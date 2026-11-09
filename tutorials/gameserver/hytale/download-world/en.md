@@ -50,11 +50,9 @@ You can download your server's world to your PC at any time, for example as an e
 > Your server can have several worlds loaded at the same time. You can see which of them is the default world in the `config.json` in the root directory of your server: In the `Defaults` block, the `World` value contains the name of the world folder. The console command `world list` shows all loaded worlds.
 
 > [!TIP]
-> **Restoring the world**
->
+> **Restoring the world**\
 > If you want to transfer the world back to a server later, follow the guide [Upload world](/tutorials/gameserver/hytale/upload-world).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/hytale/create-backup).

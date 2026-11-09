@@ -43,8 +43,7 @@ To create a token, your Steam account must meet the following requirements:
    Create the token and copy it. It then appears in the list of your game server accounts.
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > A token looks similar to this (example value, not usable):
    >
    > ```text

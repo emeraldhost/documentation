@@ -61,8 +61,7 @@ Auf Deinen Frozen Flame Server verbindest Du Dich über die Liste der privaten S
 ## Verbindung bricht nach 20 bis 30 Sekunden ab
 
 > [!WARNING]
-> **EasyAntiCheat**
->
+> **EasyAntiCheat**\
 > Wirst Du nach etwa 20 bis 30 Sekunden wieder vom Server getrennt, liegt das laut den Entwicklern an EasyAntiCheat. Läuft Dein Server ohne EasyAntiCheat (Startparameter `-noeac`), müssen **alle Spieler das Spiel ebenfalls ohne EasyAntiCheat starten**. Dafür wählst Du beim Start des Spiels in Steam die zweite Startoption ohne EasyAntiCheat aus. Server und Client müssen also immer zusammenpassen.
 
 ## Öffentliche Serverliste

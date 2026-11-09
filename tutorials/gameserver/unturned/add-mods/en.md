@@ -22,8 +22,7 @@ related: ["gameserver/unturned/add-admin", "gameserver/unturned/add-savegame", "
 Unturned comes with its own download system for the Steam Workshop: you add the file IDs of the mods and maps you want to the file `WorkshopDownloadConfig.json`, and your server downloads them automatically on startup.
 
 > [!TIP]
-> **The best part**
->
+> **The best part**\
 > Your fellow players do **not** have to install or subscribe to anything manually. When connecting, the client automatically downloads all mods configured on your server.
 
 ## Find the file ID
@@ -35,8 +34,7 @@ Unturned comes with its own download system for the Steam Workshop: you add the 
    The file ID is part of the URL of the Workshop page. Copy the number after `?id=`.
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > In the URL `https://steamcommunity.com/sharedfiles/filedetails/?id=2136497468` the file ID is `2136497468`.
 
 ## Add mods to the server
@@ -55,8 +53,7 @@ Unturned comes with its own download system for the Steam Workshop: you add the 
    ```
 
    > [!NOTE]
-   > **Which folder is mine?**
-   >
+   > **Which folder is mine?**\
    > `<ServerID>` is the folder name inside `/Servers/`. It comes from your server's startup parameter – usually there is exactly one folder there.
 
 4. **Enter the file IDs**\
@@ -134,8 +131,7 @@ A map from the Workshop needs two entries: the file ID so it gets downloaded, an
 | `Shutdown_Kick_Message` | Message shown when players are disconnected |
 
 > [!NOTE]
-> **Automatic update monitoring**
->
+> **Automatic update monitoring**\
 > When your server detects a Workshop update it warns the players and shuts down after the timer expires, so the mod is updated on the next start. If your server restarts on its own after a mod update, that is expected behaviour.
 
 ## Remove mods
@@ -155,11 +151,9 @@ A map from the Workshop needs two entries: the file ID so it gets downloaded, an
 ## Common problems
 
 > [!WARNING]
-> **Mod is not downloaded**
->
+> **Mod is not downloaded**\
 > Workshop content that has not been updated since the engine change in version 3.28 is not downloaded by the server. Check on the Workshop page when the mod was last updated and switch to a maintained alternative if necessary.
 
 > [!CAUTION]
-> **Do not upload mods manually**
->
+> **Do not upload mods manually**\
 > Do not upload mods manually via SFTP into the `Workshop` folder. Players only download the mods that are listed in `WorkshopDownloadConfig.json` automatically – manually uploaded mods are missing on the clients and joining fails. Always configure mods in `WorkshopDownloadConfig.json`.

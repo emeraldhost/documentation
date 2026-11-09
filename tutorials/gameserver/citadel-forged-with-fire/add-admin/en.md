@@ -35,8 +35,7 @@ Citadel Forged with Fire does **not** work with an admin list of SteamIDs but wi
    Save the change and restart your server so the new password is applied.
 
 > [!CAUTION]
-> **Set the password in the dashboard**
->
+> **Set the password in the dashboard**\
 > The admin password is stored in `Game.ini` in the section `[/script/citadel.socialmanager]` under the value `Password=`. If your dashboard offers a field for it, your server can rewrite that value from the dashboard on startup – a change made directly in the file or in the game via `/admin_update <new password>` would then be overwritten again after the next restart. Therefore always set the admin password in the **dashboard** first and only use the file if there is no field for it there.
 
 > [!WARNING]
@@ -79,8 +78,7 @@ If you want to drop your admin rights for the current session, enter the followi
 As an alternative to the in-game chat you can run admin commands through the built-in Remote Console in your browser – handy when you are not in the game right now.
 
 > [!CAUTION]
-> **Allocate an additional port**
->
+> **Allocate an additional port**\
 > The Remote Console needs its **own port**. Allocate an additional port for it in the **dashboard**. Without an allocated port the interface is not reachable from the outside.
 
 1. **Stop the server**\
@@ -122,13 +120,11 @@ As an alternative to the in-game chat you can run admin commands through the bui
 > If you do not set any credentials, the defaults built into the server apply. Therefore always set your own username and password before you expose the port.
 
 > [!NOTE]
-> **The configuration file looks cleaned up**
->
+> **The configuration file looks cleaned up**\
 > On startup your server removes sections from the `.ini` that you have not modified. That is normal and not an error – your own entries are kept.
 
 > [!NOTE]
-> **Where is the configuration?**
->
+> **Where is the configuration?**\
 > The folder `/Config/` and the path `/Citadel/Saved/Config/LinuxServer/` point to the same files. You can use either way.
 
 > [!TIP]

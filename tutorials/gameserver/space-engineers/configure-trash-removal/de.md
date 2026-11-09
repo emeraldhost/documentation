@@ -138,8 +138,7 @@ Mit `MaxFloatingObjects` legst Du fest, wie viele Objekte gleichzeitig frei in d
 Das Spiel sieht Werte von `2` bis `100` vor. Trägst Du mehr als `100` ein, schaltet der Server beim Laden automatisch den [Experimental Modus](/tutorials/gameserver/space-engineers/enable-experimental-mode) ein – auch wenn er in der Verwaltung auf `false` steht (siehe [Erzwungener Experimental Modus](/tutorials/gameserver/space-engineers/change-world-settings#erzwungener-experimental-modus)).
 
 > [!NOTE]
-> **Crossplay-Server**
->
+> **Crossplay-Server**\
 > Ist auf Deinem Server [Crossplay](/tutorials/gameserver/space-engineers/enable-crossplay) aktiv, setzt der Server beim Laden der Welt feste Grenzen: `MaxFloatingObjects` höchstens `50`, `BlockCountThreshold` mindestens `50` und `PlayerDistanceThreshold` höchstens `250`. Werte außerhalb dieser Grenzen korrigiert er automatisch.
 
 ### Veränderte Voxel zurücksetzen (optional)

@@ -24,8 +24,6 @@ You can download your server's savegame to your PC at any time – for example a
 > DayZ saves are stored server-side only. The downloaded folder can therefore only be restored to another DayZ server, not to a singleplayer game.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly, so you would end up downloading an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -55,16 +53,13 @@ You can download your server's savegame to your PC at any time – for example a
    Start your server again.
 
 > [!TIP]
-> **Finding the right mission**
->
+> **Finding the right mission**\
 > The `storage_1` folder is always located inside the mission folder of the map your server currently loads: `dayzOffline.chernarusplus` for Chernarus, `dayzOffline.enoch` for Livonia. If you run a different map, you will find the folder in that map's mission folder under `/mpmissions/`.
 
 > [!TIP]
-> **Restoring the save later**
->
+> **Restoring the save later**\
 > If you want to transfer the save back to a server later on, follow the guide [Add savegame](/tutorials/gameserver/dayz/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/dayz/create-backup).

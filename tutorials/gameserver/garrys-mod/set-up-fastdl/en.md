@@ -62,8 +62,7 @@ Players request every file from your webspace address using **the same path** it
    Upload the files into the matching folders. Leave out the addon folder itself: `/garrysmod/addons/myserver-content/materials/myserver/logo.vmt` on the game server becomes `materials/myserver/logo.vmt` on the webspace.
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > If your webspace is reachable at `https://fastdl.example.com`, a player fetches the file `materials/myserver/logo.vmt` from this address:
    >
    > ```text

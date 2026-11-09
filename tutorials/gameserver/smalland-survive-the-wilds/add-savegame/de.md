@@ -79,8 +79,7 @@ Möchtest Du eine Welt von Deinem PC auf den Server übertragen, findest Du sie 
 > Der Weltname muss exakt zum Dateinamen passen – auch bei Groß- und Kleinschreibung. Stimmt er nicht überein, legt der Server einfach eine **neue, leere Welt** unter dem eingetragenen Namen an. Deine hochgeladene Datei bleibt dabei zwar erhalten, wird aber nicht geladen.
 
 > [!WARNING]
-> **Keine Leerzeichen im Weltnamen**
->
+> **Keine Leerzeichen im Weltnamen**\
 > Der Weltname darf **keine Leerzeichen** enthalten. Enthält Deine hochgeladene Datei welche, benenne sie vorher um – zum Beispiel `Meine Welt.wld` in `MeineWelt.wld` – und trage anschließend den neuen Namen in der Verwaltung ein.
 
 ## Neue Welt anlegen

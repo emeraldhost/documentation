@@ -58,8 +58,7 @@ In der Verwaltung gibt es keinen Knopf zum Zurücksetzen der Welt. Beim Start l�
 | Alles, was Du vorher nicht gesichert hast | Deine zuvor erstellten Backups und heruntergeladenen Savegames |
 
 > [!TIP]
-> **Eigene Einstellungen für die neue Welt**
->
+> **Eigene Einstellungen für die neue Welt**\
 > Der Server erzeugt immer eine Welt mit Standard-Einstellungen. Soll die neue Welt mit eigenen Regeln laufen, erstelle sie lokal im Spiel und lade sie hoch: [Custom Welt erstellen](/tutorials/gameserver/runescape-dragonwilds/create-custom-world).
 
 ## Andere Welt laden
@@ -85,6 +84,5 @@ Liegen mehrere `.sav`-Dateien im Ordner `SaveGames`, lädt der Server immer die 
 > Benenne `.sav`-Dateien niemals um. Startet der Server mit einer umbenannten Datei, geht der darin gespeicherte Fortschritt verloren. Behalte immer den ursprünglichen Dateinamen bei.
 
 > [!TIP]
-> **Alte Welt zurückholen**
->
+> **Alte Welt zurückholen**\
 > Hast Du vor dem Löschen ein Backup erstellt, stellst Du es über die Verwaltung wieder her: [Backup erstellen](/tutorials/gameserver/runescape-dragonwilds/create-backup). Hast Du die `.sav`-Datei stattdessen auf Deinen PC heruntergeladen, lädst Du sie per SFTP wieder hoch: [Savegame hinzufügen](/tutorials/gameserver/runescape-dragonwilds/add-savegame).

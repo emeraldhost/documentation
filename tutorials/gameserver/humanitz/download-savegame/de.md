@@ -24,8 +24,7 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Stoppe Deinen Server, bevor Du die Dateien herunterlädst. HumanitZ speichert im laufenden Betrieb automatisch – lädst Du währenddessen herunter, kann der Spielstand unvollständig sein.
 
 > [!NOTE]
-> **Projektordner**
->
+> **Projektordner**\
 > Alle Pfade in dieser Anleitung beginnen mit dem Projektordner `HumanitZServer`. Läuft Dein Server noch auf einer älteren Version vor HumanitZ 1.0, heißt dieser Ordner stattdessen `TSSGame`. Prüfe per SFTP, welcher der beiden Ordner bei Dir vorhanden ist, und passe die Pfade entsprechend an.
 
 1. **Server stoppen**\
@@ -58,13 +57,11 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Lade immer den kompletten Ordner `Default` herunter. Fehlt `Save_ClanData.sav`, gehen beim Wiedereinspielen die Clan-Daten verloren.
 
 > [!NOTE]
-> **Welcher Name ist der richtige?**
->
+> **Welcher Name ist der richtige?**\
 > Wie Deine Spielstandsdatei heißt, bestimmt der Wert `SaveName` im Abschnitt `[Host Settings]` der Datei `/HumanitZServer/GameServerSettings.ini`. Steht dort `SaveName="DedicatedSaveMP"`, ist `Save_DedicatedSaveMP.sav` Dein aktueller Spielstand.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Dateien herunter:
 >
 > ```text
@@ -76,11 +73,9 @@ Du kannst den Spielstand Deines Servers jederzeit auf Deinen PC herunterladen �
 > Die beiden Textdateien sind nur vorhanden, wenn Du Banns bzw. eine Whitelist eingerichtet hast.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/humanitz/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/humanitz/create-backup).

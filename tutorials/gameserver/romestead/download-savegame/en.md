@@ -20,8 +20,6 @@ related: ["gameserver/romestead/create-backup", "gameserver/romestead/join-serve
 You can download your server's world to your PC at any time – for example as an additional backup or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. Romestead saves automatically every six minutes – if you download in the middle of a save, the savegame can be incomplete.
 
 1. **Save the world**\
@@ -54,18 +52,14 @@ You can download your server's world to your PC at any time – for example as a
    Start your server again.
 
 > [!NOTE]
-> **Which world does my server load?**
->
+> **Which world does my server load?**\
 > The world that is loaded on startup is defined in `config.json` in your server's main directory, in the `AutoStartWorldName` value.
 
 > [!WARNING]
-> **Caution**
->
 > Always download the folder in full. Individual files taken from it do not make a usable savegame.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download the following file in addition:
 >
 > ```text
@@ -75,11 +69,9 @@ You can download your server's world to your PC at any time – for example as a
 > It contains the name of the world that is loaded automatically along with the other base settings of your server.
 
 > [!NOTE]
-> **Savegames from single-player**
->
+> **Savegames from single-player**\
 > There is no documented way to move a world from local single-player onto a dedicated server: neither the storage location of local worlds nor a transfer procedure is officially described. Create your world directly on the server instead.
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/romestead/create-backup).

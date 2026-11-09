@@ -46,16 +46,14 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
    Starte Deinen Server wieder.
 
 > [!NOTE]
-> **Welche Datei ist die richtige?**
->
+> **Welche Datei ist die richtige?**\
 > Welche Welt Dein Server lädt, steht in der Verwaltung im **Config-Editor** im Feld **Save Name**. Steht dort zum Beispiel `Meine_Welt`, ist `Meine_Welt.zip` Deine aktuelle Welt.
 
 > [!WARNING]
 > Entpacke die `.zip`-Datei nicht. Sowohl der Server als auch das Spiel erwarten die Welt als gepacktes Archiv.
 
 > [!TIP]
-> **Welt im Einzelspieler weiternutzen**
->
+> **Welt im Einzelspieler weiternutzen**\
 > Lege die heruntergeladene `.zip`-Datei in folgendes Verzeichnis, um die Welt lokal zu öffnen:
 >
 > ```text
@@ -63,8 +61,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > ```
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Datei herunter:
 >
 > ```text
@@ -72,6 +69,5 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > ```
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/necesse/create-backup).

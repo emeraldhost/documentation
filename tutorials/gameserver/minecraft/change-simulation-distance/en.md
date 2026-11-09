@@ -31,8 +31,7 @@ The `simulation-distance` determines **the radius around the player in which ent
 Chunks outside the simulation distance are still loaded (as long as they are inside the [`view-distance`](/tutorials/gameserver/minecraft/change-view-distance)), but are "frozen" – no active processing happens.
 
 > [!WARNING]
-> **Players only become visible up close?**
->
+> **Players only become visible up close?**\
 > This is the most common case: if the simulation distance is set too low (e.g. `5`), other players and entities only appear when they get very close. Try setting the value to `8`–`16` and restart the server.
 
 ## Effects on the server

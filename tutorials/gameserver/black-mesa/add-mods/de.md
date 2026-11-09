@@ -167,8 +167,7 @@ Gib die folgenden Befehle in der Serverkonsole ein:
    Starte Deinen Server. Mit `changelevel <Mapname>` in der Serverkonsole wechselst Du direkt auf eine Map.
 
 > [!NOTE]
-> **Offizielle Deathmatch-Maps**
->
+> **Offizielle Deathmatch-Maps**\
 > Black Mesa bringt zehn offizielle Mehrspieler-Maps mit: `dm_bounce`, `dm_chopper`, `dm_crossfire`, `dm_gasworks`, `dm_lambdabunker`, `dm_power`, `dm_stack`, `dm_stalkyard`, `dm_subtransit` und `dm_undertow`.
 >
 > Welche Maps auf Deinem Server tatsächlich liegen, siehst Du im Ordner `/bms/maps/`. Deathmatch-Maps beginnen mit `dm_`, Kampagnen-Maps mit `bm_`.

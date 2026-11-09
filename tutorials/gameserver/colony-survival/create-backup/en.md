@@ -34,8 +34,6 @@ Regular backups of your Colony Survival server protect you from data loss – wh
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. Colony Survival stores the world in a SQLite database that is constantly written to while the server is running – a backup taken during operation can be incomplete.
 
 > [!TIP]

@@ -60,8 +60,7 @@ The Cenozoic Era has an **in-game server browser**. Your server shows up there w
 > You can see the values that apply to your server in the **dashboard**. There are no fixed default values – the ports are assigned to your server when it is created.
 
 > [!WARNING]
-> **Server is not found**
->
+> **Server is not found**\
 > Check the following in order:
 >
 > - Is your server running? You can see the status in the **dashboard**.
@@ -70,6 +69,5 @@ The Cenozoic Era has an **in-game server browser**. Your server shows up there w
 > - Was the server restarted after a configuration change? A changed server name is only applied after a restart.
 
 > [!NOTE]
-> **Query Port for a direct connection**
->
+> **Query Port for a direct connection**\
 > If you hand out the connection details of your server anywhere, the **Query Port** is the right value for it – not the Game Port. However, there is no documented input field for a direct connection via `IP:Port` inside the game, and joining through the Steam favorites is not documented either. The in-game server browser is the documented way onto your server.

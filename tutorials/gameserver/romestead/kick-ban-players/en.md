@@ -44,8 +44,7 @@ ban <IP address>
 The player is disconnected and cannot connect again while the ban is active.
 
 > [!CAUTION]
-> **Bans do not survive a restart**
->
+> **Bans do not survive a restart**\
 > Bans only persist until the next server start. As soon as you restart your server, or it is restarted by an update, the ban list is empty again and the player can connect once more. You have to run the command again afterwards.
 
 ## Lift a ban

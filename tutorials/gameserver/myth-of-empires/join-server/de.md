@@ -67,8 +67,7 @@ Deinem Myth of Empires Server trittst Du über den Serverbrowser im Spiel bei. D
    Ein einzelner Server erscheint unter **Single Server**. Gehört Dein Server zu einem Verbund aus mehreren Karten, suchst Du ihn stattdessen im Reiter für Weltenverbunde (**World**).
 
 > [!NOTE]
-> **Welche Ports nutzt Myth of Empires?**
->
+> **Welche Ports nutzt Myth of Empires?**\
 > Ein Myth of Empires Server belegt mehrere Ports. Die konkreten Werte werden Deinem Server in der **Verwaltung** zugewiesen – verlass Dich immer auf die Zahlen, die dort stehen.
 >
 > | Port | Verwendung |

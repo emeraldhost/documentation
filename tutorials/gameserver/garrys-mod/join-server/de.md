@@ -91,6 +91,5 @@ related: ["gameserver/garrys-mod/add-admin", "gameserver/garrys-mod/add-mods", "
 > Trage immer den **Game Port** Deines Servers ein. Der Port `27005` ist der lokale Client-Port Deines Spiels und darf nicht als Serveradresse verwendet werden.
 
 > [!NOTE]
-> **Server erscheint nicht in der öffentlichen Serverliste?**
->
+> **Server erscheint nicht in der öffentlichen Serverliste?**\
 > Seit Mai 2020 werden Garry's Mod Server ohne einen Steam Game Server Login Token (GSLT) in der Serverliste stark abgewertet. Einen Token kannst Du unter [Steam Game Server Accounts](https://steamcommunity.com/dev/managegameservers) mit der App-ID `4000` erstellen. Trage ihn anschließend in der **Verwaltung** Deines Servers im **Config-Editor** im Feld **Steam Account Token** ein und starte den Server neu. Der Server startet damit mit dem Parameter `+sv_setsteamaccount <Token>`. Jeder Server benötigt einen eigenen Token. Eine Schritt-für-Schritt-Anleitung findest Du unter [GSL Token setzen](/tutorials/gameserver/garrys-mod/set-gsl-token). Die direkte Verbindung über IP und Port funktioniert auch ohne Token.

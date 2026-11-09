@@ -22,8 +22,7 @@ related: ["gameserver/operation-harsh-doorstop/add-admin", "gameserver/operation
 Ein regelmäßiges Backup Deines Operation Harsh Doorstop Servers schützt Dich vor Datenverlust – egal ob durch ein fehlgeschlagenes Update, eine zerschossene Konfiguration oder eine versehentlich gelöschte Admin-Liste.
 
 > [!NOTE]
-> **Kein Spielstand, aber trotzdem sicherungswürdig**
->
+> **Kein Spielstand, aber trotzdem sicherungswürdig**\
 > Operation Harsh Doorstop speichert keinen Weltzustand: Jede Runde beginnt von vorn, und es gibt kein Savegame. Sicherungswürdig sind deshalb vor allem Deine Konfigurationsdateien unter `/HarshDoorstop/Saved/Config/LinuxServer/` (zum Beispiel `Admins.cfg`, `Bans.cfg`, `MapCycle.cfg` und `Game.ini`) sowie hochgeladene Mods unter `/HarshDoorstop/Mods`.
 
 ## Wann solltest Du ein Backup erstellen?
@@ -45,8 +44,7 @@ Den genauen Ablauf zum Erstellen, Verwalten und Wiederherstellen eines Backups f
 > Stoppe Deinen Server, bevor Du ein Backup erstellst oder wiederherstellst. Der Server schreibt seine Konfigurationsdateien beim Beenden – eine Sicherung im laufenden Betrieb kann einen veralteten Stand enthalten.
 
 > [!TIP]
-> **Einzelne Dateien sichern**
->
+> **Einzelne Dateien sichern**\
 > Du kannst Deine Konfigurationsdateien auch einfach per [SFTP](/tutorials/gameserver/establish-sftp-connection) auf Deinen PC herunterladen. Für ein paar kleine `.cfg`-Dateien ist das der schnellste Weg.
 
 > [!NOTE]

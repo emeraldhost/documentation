@@ -31,8 +31,7 @@ The `tick-distance` determines **the radius around the player in which entities 
 Chunks outside the tick distance are still loaded (as long as they are inside the [`view-distance`](/tutorials/gameserver/minecraft-bedrock/change-view-distance)), but are "frozen" – no active processing happens.
 
 > [!WARNING]
-> **Players only become visible up close?**
->
+> **Players only become visible up close?**\
 > This is the most common case: if the tick distance is set too low (e.g. `4`), other players and entities only appear when they get very close. Try setting the value to `8`–`10` and restart the server.
 
 ## Effects on the server

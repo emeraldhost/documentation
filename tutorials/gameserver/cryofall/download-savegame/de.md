@@ -50,8 +50,7 @@ Die komplette Welt Deines CryoFall Servers liegt im Ordner `/Data/Saves/`. Du ka
 > Lade immer den **kompletten Ordner** herunter und picke keine einzelnen Dateien heraus. In `Saves` liegen die Weltdaten Deines Servers zusammen mit den vom Server angelegten Speicherständen – nur gemeinsam ergeben sie einen ladbaren Spielstand.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Dateien aus dem Ordner `/Data/` herunter:
 >
 > ```text
@@ -63,11 +62,9 @@ Die komplette Welt Deines CryoFall Servers liegt im Ordner `/Data/Saves/`. Du ka
 > Dort stehen unter anderem Deine Operatoren, die Zugriffslisten und die Spielraten.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du den Spielstand später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/cryofall/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/cryofall/create-backup).

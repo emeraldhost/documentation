@@ -21,8 +21,6 @@ related: ["gameserver/kerbal-space-program/add-savegame", "gameserver/kerbal-spa
 You can download the savegame of your server to your PC at any time – for example as an additional backup or to move it to another server. The complete savegame is stored in the `Universe` folder in the main directory of your server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. DarkMultiPlayer constantly writes vessel and player data while running – otherwise you would download an incomplete savegame.
 
 1. **Stop the server**\
@@ -48,8 +46,7 @@ You can download the savegame of your server to your PC at any time – for exam
 > The folder consists of plain text files only: `Vessels` holds one file per vessel, `Kerbals` one file per Kerbal, and `Scenarios` one subfolder per player with science, funds, reputation and tech tree.
 
 > [!TIP]
-> **Back up the configuration as well**
->
+> **Back up the configuration as well**\
 > If you also want to save your server settings, download this folder in addition:
 >
 > ```text
@@ -59,11 +56,9 @@ You can download the savegame of your server to your PC at any time – for exam
 > It contains `Settings.txt`, `admins.txt`, `mod-control.txt` and the ban lists, among others.
 
 > [!TIP]
-> **Restore the savegame later**
->
+> **Restore the savegame later**\
 > If you want to move the savegame back to a server later, follow the guide [Add Savegame](/tutorials/gameserver/kerbal-space-program/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup feature: [Create Backup](/tutorials/gameserver/kerbal-space-program/create-backup).

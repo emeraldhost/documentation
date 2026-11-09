@@ -44,8 +44,6 @@ If you only want to save your settings, download the following folder to your PC
 It contains the `Game.ini` with your server settings and the `Engine.ini`.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before backing up or restoring the configuration. Mordhau completely rewrites the `Game.ini` on shutdown – a file saved or uploaded while the server is running will otherwise not match the state you expect.
 
 > [!TIP]

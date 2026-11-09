@@ -58,8 +58,7 @@ This is the fastest way because it requires neither a setup code nor an existing
    You now have admin rights and can use all commands of your group.
 
    > [!WARNING]
-   > **Turn off the setup code**
-   >
+   > **Turn off the setup code**\
    > If tShock printed a setup code on startup, that code stays valid until the next server start – even if you created your account through the console. So after logging in, enter `/setup` once in the in-game chat. This disables the setup system immediately and deletes the code.
 
 ## Create an admin via the setup code
@@ -84,8 +83,6 @@ Alternatively you can use the setup assistant that tShock provides on the first 
    ```
 
    > [!WARNING]
-   > **Caution**
-   >
    > This command only works in the game, not in the server console.
 
 3. **Create the account**\
@@ -129,8 +126,7 @@ All commands work in the in-game chat (with `/`) and in the server console (with
 > By default passwords have to be at least four characters long. This value is controlled by `MinimumPasswordLength` in the file `/tshock/config.json`.
 
 > [!TIP]
-> **Automatic login**
->
+> **Automatic login**\
 > After your first login tShock remembers the device identifier of your client and logs you in automatically whenever you join the server. This behaviour is controlled by the value `DisableUUIDLogin` in the file `/tshock/config.json`.
 
 ## Groups and permissions
@@ -163,8 +159,6 @@ You manage your own groups and permissions with the following commands:
 | `group color <group> <R,G,B>` | Set a chat color |
 
 > [!WARNING]
-> **Caution**
->
 > Only assign the `owner` group to people you fully trust. For moderators `newadmin` or `admin` is usually enough.
 
 > [!TIP]

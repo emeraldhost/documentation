@@ -179,6 +179,5 @@ Der Spieler bleibt auf dem Server, kann aber nicht mehr im Chat schreiben.
 > Speichere nach Moderationsmaßnahmen mit `save`, damit der aktuelle Stand der Welt gesichert ist.
 
 > [!NOTE]
-> **Whitelist**
->
+> **Whitelist**\
 > Möchtest Du Deinen Server nur für bestimmte Spieler öffnen, kannst Du zusätzlich die Whitelist von tShock nutzen. Sie arbeitet mit IP-Adressen: Der Befehl `whitelist <IP-Adresse>` trägt eine Adresse in die Datei `/tshock/whitelist.txt` ein. Aktiv wird die Liste erst, wenn Du in der Datei `/tshock/config.json` den Wert `EnableWhitelist` auf `true` setzt.

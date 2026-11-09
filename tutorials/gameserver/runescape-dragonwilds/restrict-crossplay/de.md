@@ -81,6 +81,5 @@ Ob die Einstellung übernommen wurde, siehst Du im Log Deines Servers unter `/RS
 Setze den Wert wieder auf `PlatformPolicy=Crossplay` oder entferne die Zeile aus der Datei und starte Deinen Server neu.
 
 > [!TIP]
-> **Fehlerbehebung**
->
+> **Fehlerbehebung**\
 > Wird ein Spieler auf Deinem Crossplay-Server mit einer Crossplay-Fehlermeldung abgewiesen, hat er Crossplay in den Einstellungen des Spiels deaktiviert und muss es dort wieder aktivieren. Im Log Deines Servers erscheint in diesem Fall `PreLogin rejected crossplay-disabled client from a crossplay server`.

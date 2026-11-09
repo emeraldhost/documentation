@@ -76,6 +76,4 @@ You need the **SteamID64** of every desired admin. This is a purely numeric, 17-
    > The text `cheatstick` is not displayed in the chat while typing. Mind the exact capitalization and enter the command blindly.
 
 > [!WARNING]
-> **Caution**
->
 > The `cheatstick` command is only recognized reliably with a US keyboard layout. If the input does not work, check the keyboard language of your system.

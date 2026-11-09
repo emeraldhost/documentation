@@ -21,8 +21,6 @@ related: ["gameserver/echoes-of-elysium/add-savegame", "gameserver/echoes-of-ely
 You can download your server's save to your PC at any time – for example as an additional backup, for archiving or to transfer it to another server.
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before downloading the files. While the server is running it saves regularly – otherwise you would download an incomplete or corrupted save.
 
 1. **Stop the server**\
@@ -51,11 +49,9 @@ You can download your server's save to your PC at any time – for example as an
 > `world` contains the entire save of your world. There is no additional world name and no separate save file – this directory is your savegame.
 
 > [!TIP]
-> **Restoring the savegame**
->
+> **Restoring the savegame**\
 > If you want to transfer the save back to a server later, follow the guide [Add savegame](/tutorials/gameserver/echoes-of-elysium/add-savegame).
 
 > [!NOTE]
-> **Regular backups**
->
+> **Regular backups**\
 > For automatic or regular backups you can also use the backup function: [Create backup](/tutorials/gameserver/echoes-of-elysium/create-backup).

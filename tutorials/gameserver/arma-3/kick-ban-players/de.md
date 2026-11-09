@@ -122,8 +122,7 @@ Spieler kannst Du auf zwei Wegen entfernen: direkt im Spiel über die Chat-Konso
 | `say [Spielernummer] [Nachricht]` | Sendet eine Nachricht, `-1` schickt sie an alle |
 
 > [!TIP]
-> **Bann über RCON aufheben**
->
+> **Bann über RCON aufheben**\
 > Führe zuerst `bans` aus und notiere Dir die Nummer des Eintrags. Anschließend hebst Du den Bann mit `removeBan <Ban-Nummer>` auf.
 
 > [!NOTE]

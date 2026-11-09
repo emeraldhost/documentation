@@ -30,8 +30,7 @@ You can adjust the speed of in-game time and the brightness of nights via the da
    Enter the desired value in the **Time Multiplier** field (range: `0` - `24`).
 
    > [!TIP]
-   > **Example**
-   >
+   > **Example**\
    > A value of `12` means that a full 24-hour day in the game runs **12 times faster**, taking only 2 hours of real time.
 
 4. **Set darker nights (optional)**\

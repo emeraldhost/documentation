@@ -172,8 +172,7 @@ With `/pbc`, you address several players by their player IDs separated by dots, 
 > CASSIE only speaks words that are on its word list. Check which words are available with `/cassiewords` before you write a longer announcement.
 
 > [!TIP]
-> **Example**
->
+> **Example**\
 > This is how you announce a restart and have it carried out after the current round ends:
 >
 > ```text

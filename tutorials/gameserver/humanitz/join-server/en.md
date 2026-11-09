@@ -76,8 +76,7 @@ Alternatively you can look for your server in the list:
 If your server does not show up in the list, the direct connection via **IP Connect** helps in most cases. In addition there is a setting in the configuration file `GameServerSettings.ini` that decides whether your server is found publicly:
 
 > [!WARNING]
-> **Do not change the SearchID**
->
+> **Do not change the SearchID**\
 > The following value is located in the `[Host Settings]` section:
 >
 > ```ini
@@ -87,8 +86,7 @@ If your server does not show up in the list, the direct connection via **IP Conn
 > This value has to stay unchanged. If you enter anything else here, your server does **not** appear in the default server list – it can then only be found if players search for exactly that SearchID.
 
 > [!TIP]
-> **No ping in the server browser**
->
+> **No ping in the server browser**\
 > The ping of your server is only shown in the server list when RCON is enabled. To do that, set the following in the `[Host Settings]` section:
 >
 > ```ini

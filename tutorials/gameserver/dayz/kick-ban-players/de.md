@@ -21,8 +21,7 @@ related: ["gameserver/dayz/enable-crosshair", "gameserver/dayz/enable-third-pers
 Du kannst Spieler per Ingame-Chat-Befehl kicken oder über die Konfigurationsdatei dauerhaft bannen.
 
 > [!WARNING]
-> **Voraussetzung**
->
+> **Voraussetzung**\
 > Du musst Admin auf Deinem Server sein. Hier findest Du eine Anleitung, wie Du einen [Admin hinzufügst](/tutorials/gameserver/dayz/add-admin).
 
 > [!TIP]

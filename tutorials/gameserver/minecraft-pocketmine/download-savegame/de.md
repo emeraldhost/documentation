@@ -53,8 +53,7 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > Der Unterordner `db` enthält die eigentliche LevelDB-Datenbank mit allen Chunks. Ohne ihn ist der heruntergeladene Spielstand wertlos.
 
 > [!TIP]
-> **Konfiguration mitsichern**
->
+> **Konfiguration mitsichern**\
 > Möchtest Du auch Deine Servereinstellungen sichern, lade zusätzlich folgende Dateien und Ordner aus dem Hauptordner Deines Servers herunter:
 >
 > ```text
@@ -72,11 +71,9 @@ Du kannst die Welt Deines Servers jederzeit auf Deinen PC herunterladen – zum 
 > Der Ordner `plugin_data` enthält die Konfigurationen Deiner Plugins, der Ordner `resource_packs` neben den Packs selbst auch die Datei `resource_packs.yml`.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du die Welt später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/minecraft-pocketmine/add-savegame).
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/minecraft-pocketmine/create-backup).

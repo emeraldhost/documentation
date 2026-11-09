@@ -22,8 +22,7 @@ related: ["gameserver/battalion-legacy/add-admin", "gameserver/battalion-legacy/
 A BATTALION Legacy server does **not store a game world**. The server name and the admin password are passed to your server as startup parameters – you enter both in the **dashboard**. Everything else – round times, map lists, bots and scoring – sits in the configuration files of your server. Those are exactly the files a backup preserves.
 
 > [!NOTE]
-> **No world save**
->
+> **No world save**\
 > BATTALION Legacy is a pure PvP shooter. Only the current round is kept on the server – there is no save game and no player progress you would have to back up or move to another server.
 
 ## When should you create a backup?
@@ -38,8 +37,6 @@ A BATTALION Legacy server does **not store a game world**. The server name and t
 You can find the exact process for creating, managing and restoring a backup in the general guide: [Create Backup](/tutorials/gameserver/create-backup).
 
 > [!WARNING]
-> **Caution**
->
 > Stop your server before creating or restoring a backup. A running server keeps writing to its files and may overwrite your changes when it shuts down.
 
 ## Back up the configuration separately

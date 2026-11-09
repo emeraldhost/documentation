@@ -33,8 +33,7 @@ Du kannst die Galaxie Deines Servers jederzeit auf Deinen PC herunterladen – z
    Wechsle in das Datenverzeichnis `/galaxy/` Deines Servers und öffne darin den Ordner mit dem Namen Deiner Galaxie. Du erkennst den richtigen Ordner an den Dateien `server.ini`, `admin.xml` und `modconfig.lua`.
 
    > [!NOTE]
-   > **Welche Galaxie ist die richtige?**
-   >
+   > **Welche Galaxie ist die richtige?**\
    > Den Namen Deiner aktuellen Galaxie findest Du in der **Verwaltung** im **Config-Editor** im Feld für den Galaxie-Namen (**Galaxy Name**). Der Ordner heißt exakt so.
 
 4. **Ordner herunterladen**\
@@ -47,16 +46,13 @@ Du kannst die Galaxie Deines Servers jederzeit auf Deinen PC herunterladen – z
 > Ein Spielstand ist immer der komplette Galaxie-Ordner. Einzelne Dateien daraus ergeben keinen nutzbaren Spielstand.
 
 > [!TIP]
-> **Download verkleinern**
->
+> **Download verkleinern**\
 > Der Unterordner `workshop` innerhalb der Galaxie enthält nur die vom Server automatisch heruntergeladenen Workshop-Mods. Diese lädt Dein Server beim nächsten Start selbst wieder herunter – Du kannst den Ordner beim Download also weglassen, wenn Du Zeit und Speicherplatz sparen möchtest.
 
 > [!TIP]
-> **Spielstand wieder einspielen**
->
+> **Spielstand wieder einspielen**\
 > Möchtest Du die Galaxie später wieder auf einen Server übertragen, folge der Anleitung [Savegame hinzufügen](/tutorials/gameserver/avorion/add-savegame). Achte dabei darauf, dass der Ordnername und der eingetragene Galaxie-Name übereinstimmen.
 
 > [!NOTE]
-> **Regelmäßige Sicherungen**
->
+> **Regelmäßige Sicherungen**\
 > Für automatische bzw. regelmäßige Sicherungen kannst Du auch die Backup-Funktion nutzen: [Backup erstellen](/tutorials/gameserver/avorion/create-backup).

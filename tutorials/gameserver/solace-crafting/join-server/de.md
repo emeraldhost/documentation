@@ -125,6 +125,5 @@ In der `servercfg.dat` steuert der Wert `isPrivate`, ob Dein Server öffentlich 
 > Welche Werte für Deinen Server gelten, siehst Du in der **Verwaltung**.
 
 > [!WARNING]
-> **Server wird nicht gefunden**
->
+> **Server wird nicht gefunden**\
 > Erscheint Dein Server nicht in der Serverliste, prüfe zuerst, ob `isPrivate` auf `false` steht und die Ports in der `servercfg.dat` mit denen aus der Verwaltung übereinstimmen. Unabhängig davon erreichst Du Deinen Server jederzeit über die Direktverbindung mit IP-Adresse und Game Port.
