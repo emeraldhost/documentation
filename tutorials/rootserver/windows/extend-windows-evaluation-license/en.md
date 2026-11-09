@@ -23,6 +23,8 @@ If your Windows Server suddenly shuts down on its own about every hour, or the d
 > **Windows Server at EmeraldHost**
 >
 > Our Windows Server operating systems are provided with Microsoft's **180-day evaluation license**. After 180 days, the license expires and has to be extended or replaced with your own license.
+>
+> We do **not offer Windows licenses** ourselves. You can buy your own license directly from Microsoft or from a Microsoft reseller.
 
 ## Requirements
 
