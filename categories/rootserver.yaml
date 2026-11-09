@@ -7,3 +7,5 @@ name:
 description:
   en: "Tutorials for rootserver setup and administration."
   de: "Anleitungen für Rootserver-Einrichtung und -Administration."
+
+product_keys: ["amd-epyc", "amd-ryzen"]
