@@ -1,0 +1,9 @@
+parent: "gameserver"
+
+name:
+  en: "Stormforge"
+  de: "Stormforge"
+
+description:
+  en: "Tutorials for the Stormforge game server."
+  de: "Anleitungen für den Stormforge Gameserver."
